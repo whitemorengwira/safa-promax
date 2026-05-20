@@ -150,7 +150,7 @@ export default function MegaNavbar() {
       <nav
         className={`hidden lg:flex fixed top-0 z-50 w-full h-20 items-center justify-between px-8 transition-all duration-300 ${
           scrolled
-            ? 'bg-surface border-b border-gold/20'
+            ? 'bg-surface/80 backdrop-blur-md border-b border-gold/20'
             : 'bg-transparent'
         }`}
       >
@@ -174,7 +174,7 @@ export default function MegaNavbar() {
         </Link>
 
         {/* Center Navigation */}
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
           <Link href="/" className="text-xs font-bold tracking-widest text-text hover:text-red-600 transition-colors">
             HOME
           </Link>
@@ -198,11 +198,11 @@ export default function MegaNavbar() {
               {/* Mega Dropdown Panel */}
               {activePanel === tab.key && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-6xl bg-surface border-t-2 border-red-600 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200"
+                  className="absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-6xl bg-surface/70 backdrop-blur-lg border-t-2 border-red-600 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200"
                   onMouseEnter={() => setActivePanel(tab.key)}
                   onMouseLeave={() => setActivePanel(null)}
                 >
-                  <div className="p-12">
+                  <div className="p-10">
                     <div className="flex items-center justify-between mb-8 border-b border-white/10 pb-4">
                       <h3 className="text-gold text-xs font-bold uppercase tracking-widest">
                         {MEGA_PANELS[tab.key].heading}
@@ -212,7 +212,7 @@ export default function MegaNavbar() {
                         <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
                       </Link>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                       {MEGA_PANELS[tab.key].items.map((item) => (
                         <Link
                           key={item.href}
@@ -257,7 +257,7 @@ export default function MegaNavbar() {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="lg:hidden fixed top-0 z-50 w-full h-16 bg-surface border-b border-red-600/30 flex items-center justify-between px-6">
+      <nav className="lg:hidden fixed top-0 z-50 w-full h-16 bg-surface/80 backdrop-blur-md border-b border-red-600/30 flex items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-8 h-8 overflow-hidden flex items-center justify-center">
             <Image
@@ -281,7 +281,7 @@ export default function MegaNavbar() {
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 top-16 z-40 bg-surface overflow-y-auto">
+        <div className="lg:hidden fixed inset-0 top-16 z-40 bg-surface/90 backdrop-blur-md overflow-y-auto">
           <div className="p-6 space-y-8">
             <Link
               href="/"
