@@ -27,9 +27,9 @@ export default function HomePage() {
     <main className="flex flex-col min-h-screen bg-bg">
       {/* ===== FULL-VIEWPORT HERO ===== */}
       <PageHero
-        eyebrow="MICT SETA Accredited · Est. 2006 · Non-Profit Company"
-        title="SA Film Academy _— Talent Pipeline of the South African Screen._"
-        subtitle={HERO.lead}
+        eyebrow="Est. 2006 · Non-Profit Company"
+        title="SA Film Academy"
+        subtitle="Talent Pipeline of the South African Screen"
         imageSrc="/images/ai/v2/safa-hero-red-cinematic-black-trainees.png"
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       >

@@ -66,28 +66,49 @@ export function PWAInstall() {
   }
 
   return (
-    <div className="fixed bottom-8 left-8 right-8 md:left-auto md:right-8 md:w-96 bg-surface border border-red/30 p-6 shadow-1 z-40">
-      <div className="flex items-start justify-between gap-4">
-        <div className="flex-1">
-          <h3 className="font-display font-bold text-red mb-2">Install SA Film Academy</h3>
-          <p className="font-body text-sm text-muted mb-4">
-            Install our app for quick access to strategies, tools, and resources.
+    <>
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 bg-black/50 z-40 animate-in fade-in duration-300"
+        onClick={handleDismiss}
+      />
+
+      {/* Modal */}
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-in zoom-in duration-300">
+        <div className="bg-surface border-2 border-red-600 p-8 max-w-md w-full shadow-2xl">
+          <div className="flex items-start justify-between gap-4 mb-4">
+            <h2 className="font-display font-black text-2xl text-red-600">
+              Install the App
+            </h2>
+            <button
+              onClick={handleDismiss}
+              className="flex-shrink-0 text-muted hover:text-red-600 transition"
+              aria-label="Dismiss"
+            >
+              <X className="w-6 h-6" />
+            </button>
+          </div>
+
+          <p className="font-body text-sm text-text/80 mb-6 leading-relaxed">
+            Install SA Film Academy as an app on your device for instant access to strategies, tools, and resources. Works offline too.
           </p>
-          <button
-            onClick={handleInstall}
-            className="font-body text-xs font-semibold uppercase tracking-widest bg-red text-white px-4 py-2 hover:bg-red-soft transition w-full"
-          >
-            Install Now
-          </button>
+
+          <div className="space-y-3">
+            <button
+              onClick={handleInstall}
+              className="font-body text-sm font-black uppercase tracking-widest bg-red-600 text-white px-6 py-3 hover:bg-red-700 transition w-full"
+            >
+              Install Now →
+            </button>
+            <button
+              onClick={handleDismiss}
+              className="font-body text-sm font-semibold uppercase tracking-widest border-2 border-muted text-muted hover:border-red-600 hover:text-red-600 px-6 py-3 transition w-full"
+            >
+              Not Now
+            </button>
+          </div>
         </div>
-        <button
-          onClick={handleDismiss}
-          className="flex-shrink-0 text-muted hover:text-text transition"
-          aria-label="Dismiss"
-        >
-          <X className="w-5 h-5" />
-        </button>
       </div>
-    </div>
+    </>
   );
 }
