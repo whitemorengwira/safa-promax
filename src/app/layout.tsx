@@ -46,6 +46,10 @@ export const metadata: Metadata = {
   description:
     "Where Industry Meets Opportunity. SA Film Academy is South Africa's premier film training institution — 20 years of transforming the industry through skills development, B-BBEE compliance, and cutting-edge production training.",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/images/logos/sa-film-academy-logo.webp",
+    apple: "/images/logos/sa-film-academy-logo.webp",
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
