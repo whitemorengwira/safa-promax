@@ -45,7 +45,7 @@ export function Header() {
         {/* Wordmark Logo */}
         <Link
           href="/"
-          className="flex items-center gap-2 text-text hover:text-gold transition-colors"
+          className="flex items-center gap-2 text-text hover:text-red transition-colors"
           aria-label="SA Film Academy Home"
         >
           {/* Official SA Film Academy Logo */}
@@ -55,7 +55,7 @@ export function Header() {
             className="h-10 md:h-14 w-auto object-contain"
           />
           <span className="font-display font-bold tracking-[0.04em] text-base md:text-lg">
-            SAFA <span className="font-body text-[10px] font-medium tracking-[0.3em] uppercase text-gold ml-1">Strategy</span>
+            SAFA <span className="font-body text-[10px] font-medium tracking-[0.3em] uppercase text-red ml-1">PROMAX</span>
           </span>
         </Link>
 
@@ -68,7 +68,7 @@ export function Header() {
             href={cineternsUrl}
             target="_blank"
             rel="noopener"
-            className="hidden sm:inline-flex items-center justify-center font-body text-[10px] md:text-[11px] font-semibold tracking-[2px] uppercase text-bg bg-gold hover:bg-transparent hover:text-gold border border-gold px-4 py-2.5 transition-colors duration-300"
+            className="hidden sm:inline-flex items-center justify-center font-body text-[10px] md:text-[11px] font-semibold tracking-[2px] uppercase text-white bg-red hover:bg-red-soft border border-red px-4 py-2.5 transition-colors duration-300"
           >
             Talent Portal
           </a>
@@ -76,7 +76,7 @@ export function Header() {
           {/* Hamburger toggle button */}
           <button
             onClick={() => setMenuOpen(true)}
-            className="w-11 h-11 flex items-center justify-center lg:hidden border border-line hover:text-gold text-muted cursor-pointer"
+            className="w-11 h-11 flex items-center justify-center lg:hidden border border-line hover:text-red text-muted cursor-pointer"
             aria-label="Open navigation menu"
           >
             <Menu className="w-5 h-5" />

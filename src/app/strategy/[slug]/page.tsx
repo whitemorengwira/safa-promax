@@ -25,10 +25,12 @@ import { BrandFamily } from '@/components/diagrams/BrandFamily';
 import { PositioningRadar } from '@/components/diagrams/PositioningRadar';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return strategySections.map((section) => ({
@@ -37,7 +39,8 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps) {
-  const sectionId = slugToId[params.slug];
+  const { slug } = await params;
+  const sectionId = slugToId[slug];
   if (!sectionId) return {};
   const section = sectionIndex[sectionId];
   return {
@@ -46,19 +49,21 @@ export async function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default function StrategyPage({ params }: PageProps) {
+export default async function StrategyPage({ params }: PageProps) {
+  const { slug } = await params;
+
   // Lookup section by slug
-  const sectionId = slugToId[params.slug];
+  const sectionId = slugToId[slug];
   if (!sectionId) notFound();
 
   const section = sectionIndex[sectionId];
-  const data = pageData[params.slug];
+  const data = pageData[slug];
 
   if (!section || !data) notFound();
 
   // Find prev/next sections
   const currentIndex = strategySections.findIndex(
-    (s) => s.href === `/strategy/${params.slug}`
+    (s) => s.href === `/strategy/${slug}`
   );
   const prevSection = currentIndex > 0 ? strategySections[currentIndex - 1] : null;
   const nextSection =

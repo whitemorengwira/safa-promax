@@ -7,28 +7,30 @@
    ============================================================ */
 
 :root {
-  /* Surfaces — Lighter theme */
-  --bg: #F8F7F5;
-  --bg-deep: #EFE9E0;
-  --surface: #FFFFFF;
-  --surface-2: #F3EFE8;
+  /* Surfaces — Refined dark theme (not too dark) */
+  --bg: #1A1A22;
+  --bg-deep: #0F0F15;
+  --surface: #252530;
+  --surface-2: #2F2F3C;
 
   /* Brand gold + red — maintained */
   --gold: #C9A84C;
   --gold-soft: #E0C268;
   --gold-deep: #9B7F2D;
   --red: #CC0000;
+  --red-soft: #FE2020;
   --red-deep: #8B0000;
 
-  /* Text — dark for light backgrounds */
-  --text: #1A1815;
-  --muted: rgba(26, 24, 21, 0.65);
+  /* Text — light for dark backgrounds */
+  --text: #F0EDE5;
+  --muted: rgba(240, 237, 229, 0.65);
 
   /* Lines + shadows */
-  --line: rgba(204, 0, 0, 0.12);
-  --line-strong: rgba(204, 0, 0, 0.25);
-  --shadow-1: 0 4px 20px rgba(204, 0, 0, 0.08);
-  --shadow-gold: 0 0 40px rgba(201, 168, 76, 0.12);
+  --line: rgba(240, 237, 229, 0.10);
+  --line-strong: rgba(204, 0, 0, 0.40);
+  --shadow-1: 0 20px 50px rgba(0, 0, 0, 0.45);
+  --shadow-gold: 0 0 60px rgba(201, 168, 76, 0.15);
+  --shadow-red: 0 0 40px rgba(204, 0, 0, 0.25);
 
   /* Type */
   --font-display: 'Playfair Display', 'Cormorant Garamond', serif;
@@ -56,6 +58,7 @@
   --color-gold-soft: var(--gold-soft);
   --color-gold-deep: var(--gold-deep);
   --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
   --color-red-deep: var(--red-deep);
   --color-text: var(--text);
   --color-muted: var(--muted);
@@ -70,6 +73,7 @@
   /* Shadows */
   --shadow-1: var(--shadow-1);
   --shadow-gold: var(--shadow-gold);
+  --shadow-red: var(--shadow-red);
 }
 
 /* ============================================================
