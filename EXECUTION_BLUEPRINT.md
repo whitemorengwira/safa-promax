@@ -340,6 +340,382 @@ All partnerships are formalized within first 90 days with written commitments:
 
 ---
 
+## 6. 100% WATERTIGHT HARDENING — ZERO VULNERABILITIES
+
+### 6.1 Dependency Mapping & Critical Path Analysis
+
+**What must happen before what (execution order):**
+
+| Sequence | Task | Owner | Duration | Go/No-Go Gate | Consequence if Delayed |
+|----------|------|-------|----------|---|---|
+| **Week 1** | Cineterns build signed + 75% payment | CEO/Finance | 1 week | Finance approval | Platform launch pushed 3 weeks |
+| **Week 1** | Agent setup: Claude API account + Zapier integration | Tech Lead | 3 days | API keys confirmed | Content/funding agents offline (delay 1 week) |
+| **Week 2** | GA4 + SEO platform setup (Ahrefs) | Analytics Lead | 5 days | Baseline metrics captured | Cannot measure campaign performance |
+| **Week 2** | CEO LinkedIn strategy + first 3 posts scheduled | Comms Director | 4 days | LinkedIn blue check (if eligible) | Thought leadership delayed 1 week |
+| **Week 3** | Agent 01 (Funding Scout) pilot: test 5 real grants | Finance + Agent | 5 days | 3/5 applications drafted | Funding revenue delayed 2 weeks |
+| **Week 3** | SEO consultant audit kickoff | Marketing Lead | Ongoing | Keyword list delivered | Organic traffic baseline missing |
+| **Week 4** | Cineterns production build + admin training | N.White Systems | 4 weeks | Site live on cineterns.film | Beta launch pushed to Week 8 |
+| **Week 4** | Partnership outreach: Netflix, GreenSet, Suzuki (LOIs) | CEO/Partnerships | 2 weeks | 3+ LOIs signed | Partner revenue/marketing delayed 2 months |
+| **Week 5** | Agent 02 (Content) pilot: 2 test blog posts | Content Manager + Agent | 5 days | 2 posts drafted, human review 4hrs | Blog schedule delayed 1 week |
+| **Week 6** | Cineterns beta launch (50 trainees, 10 production companies) | PM + N.White | Depends on Week 4 | 50+ registrations confirmed | Q1 placement numbers miss by 30+ |
+| **Week 8** | First grant decision received (Agent 01 real test) | Finance | Dependent | ≥1 grant approved | Funding stream credibility questioned |
+| **Month 2** | Agent 04 (Talent Matcher) live in Cineterns | PM + Tech | Depends on Week 6 | 10+ placements matched | Manual placements resume (cost +3hrs/placement) |
+| **Month 3** | 100 total Cineterns users active | Growth/PM | Ongoing | 100 profiles created, verified | Placement volume capped at 20/month |
+| **Month 3** | Funding Agent processing live (Agent 01 full scale) | Finance | Ongoing | 3+ applications/month submitted | Funding target (R2.5M) becomes R1.5M (40% miss) |
+
+**Critical path**: Cineterns build (Week 4) → Beta launch (Week 6) → Talent Matcher (Month 2) → Placements at scale (Month 3+)  
+**Buffer**: 2-week contingency built into Cineterns timeline; if slips to Week 6, partnership revenue delayed 1 month
+
+---
+
+### 6.2 Go/No-Go Gates — Explicit Decision Points
+
+**Monthly gates (every Month-end) to assess channel viability:**
+
+| Gate | Measured Metric | Target | If Miss | Action |
+|------|---|---|---|---|
+| **Month 1 Gate** | Cineterns beta live + 50 users registered | 50 users | <50 users | Delay talent matcher launch; 1-week UX remediation |
+| | Agent 01 test applications | 3 grants drafted | <2 drafted | Pause Agent 01; revert to manual (1 developer, 10 hrs/week) |
+| | GA4 tracked + baseline set | All metrics flowing | Data gaps | Audit GA4 setup; delay SEO reporting 1 week |
+| **Month 2 Gate** | SEO baseline audit complete | Audit report delivered | No report | Hire emergency SEO consultant (R5K); 1-week delay |
+| | Blog posts published | 8 posts live | <6 posts | Increase Agent 02 budget +R1K/month; hire content freelancer |
+| | CEO LinkedIn followers | 500 new followers | <300 followers | Increase posting frequency 5x → 3x/week; test paid LinkedIn |
+| | Partnership LOIs signed | 3+ signed | <2 signed | CEO direct outreach to CEOs (weekly calls); simplify commitment terms |
+| **Month 3 Gate** | Cineterns placements | 20+ placements | <15 placements | Agent 04 diagnostic; production company outreach; pause expansion |
+| | Funding applications submitted | 3+ submitted | <2 submitted | Agent 01 redesign; manual application process restored |
+| | Email subscribers | 1,500+ subscribers | <1,000 subscribers | Increase blog-to-email CTAs; weekly email digest launch |
+| | Content quality (Agent 02) | 75%+ publishable | <70% publishable | Prompt refinement; human editorial review time +2hrs |
+| **Month 4+ Gates** | Continue monthly; escalate to CEO if 2+ metrics miss | — | 2+ consecutive misses | Strategy pivot meeting; allocate R50K emergency budget |
+
+**Escalation rule**: If 3+ monthly gates miss in a quarter → Full strategy review with Board; consider pausing Month 2 or 3 initiatives
+
+---
+
+### 6.3 Platform & Technical Risks — Explicit Failure Modes
+
+**Risk: Cineterns platform downtime or data loss**
+- **Mitigation**: Supabase automatic backups (daily), Vercel edge failover (99.99% uptime SLA), Cloudflare DDoS protection
+- **Monitoring**: N.White Systems monthly uptime report; escalate if <99% in any month
+- **Contingency**: Manual placement process (spreadsheet + email) takes 4 hours/week if platform down >24 hours
+- **Kill switch**: If platform unavailable >3 consecutive days, revert to pre-Cineterns process; N.White Systems owes service credit (prorated)
+
+**Risk: Agent prompts produce low-quality outputs (Agent 02 content, Agent 01 applications)**
+- **Mitigation**: Human review gate on all Agent 01/02 outputs; 50% rewrite rate acceptable, 80%+ unacceptable
+- **Monitoring**: Weekly content quality score (readability, accuracy, SEO); funding application success rate tracked
+- **Contingency**: If rewrite rate >50%, pause Agent 02; hire freelance writer (R8K/month) to take over; reduce posting frequency 50%
+- **Kill switch**: If 0/3 funding applications approved in Month 2, pause Agent 01; revert to manual applications (Finance Lead + 10 hrs/week)
+
+**Risk: Email deliverability (emails going to spam)**
+- **Mitigation**: Brevo/Mailchimp reputation monitoring; SPF/DKIM setup verified; list hygiene (remove bounces weekly)
+- **Monitoring**: Open rate target 25%+, click rate 5%+; if <15% open, audit email content and sender reputation
+- **Contingency**: Switch email provider (1-week migration) if deliverability <90%; re-segment list by engagement
+- **Kill switch**: If open rate <10% for 2 consecutive weeks, pause weekly digest; analyze why (content, timing, subject lines)
+
+**Risk: Cineterns data privacy breach or POPIA violation**
+- **Mitigation**: Cloudflare WAF (Web Application Firewall), row-level security in Supabase, no PII in logs, annual penetration test
+- **Monitoring**: N.White Systems security patches applied monthly; audit log reviewed quarterly
+- **Contingency**: If data breach suspected, inform CEO within 4 hours; legal review; user notification within 48 hours
+- **Liability**: N.White Systems carries E&O insurance (R5M+ coverage); contract includes 2-month security response SLA
+
+---
+
+### 6.4 Revenue Contingencies — If Targets Miss
+
+**Scenario 1: Funding (Agent 01) underperforms** 
+- **Target**: R2.5M Year 1  
+- **If Reality**: R1.5M (40% miss)
+- **Why**: Fewer grants approved, lower average grant size, longer decision timelines
+- **Response**: 
+  - Increase applications 40% (Agent 01 daily instead of weekly) = cost +R500/month
+  - Hire part-time Development Officer (R12K/month) to accelerate application prep
+  - Launch B-BBEE consulting service directly (skip partner licensing) = R225K additional revenue
+  - **Net impact**: Revenue shortfall reduced from R1M to R300K; budget increase R15K/month
+- **Trigger**: If funding <R600K by Month 6 (halfway point), activate response plan
+
+**Scenario 2: Placements (production company demand) underperform**
+- **Target**: 100+ placements Year 1  
+- **If Reality**: 50 placements (50% miss)
+- **Why**: Production companies hiring slowly, SAFA trainees not preferred, placement fees resistance
+- **Response**:
+  - Reduce placement fee from R3,500 → R2,000 (encourage adoption)
+  - Launch "SAFA-Certified Crew" guarantees (performance-based, if trainee underperforms, fee refunded)
+  - Increase LinkedIn ads budget +R5K/month targeting production manager job titles
+  - Hire dedicated Production Company Relationship Manager (R18K/month contract)
+  - **Net impact**: Revenue shortfall R175K; budget increase R28K/month (still +margin vs. lost revenue)
+- **Trigger**: If placements <40 by Month 4, activate response plan
+
+**Scenario 3: Masterclass enrollment (training revenue) underperforms**
+- **Target**: 200 students × R8K = R1.6M  
+- **If Reality**: 100 students = R800K (50% miss)
+- **Why**: Weak positioning, low awareness, high price point, competing free content
+- **Response**:
+  - Reduce price R8K → R5K (increase volume, test elasticity)
+  - Increase marketing budget +R10K/month (LinkedIn, Google Ads on "AI video tools")
+  - Partner with 3 production companies for group discounts (bulk 10-student packages @ R4K/student)
+  - Launch "Masterclass Lite" (5-week, R2K, teaser course) to drive full-course conversions
+  - **Net impact**: Revenue shortfall R200K at R5K price; offset by volume growth + lite course upsells
+- **Trigger**: If enrollments <80 by Month 4, activate response plan
+
+**Cumulative contingency**: If all three miss simultaneously (worst case):  
+- Original target: R4.5M  
+- Worst-case scenario: R2.3M (R1.5M + R400K + R400K)  
+- Shortfall: R2.2M (49% miss)  
+- **Response**: Activate all contingencies + freeze discretionary spend + focus on break-even (R4M threshold)  
+- **Outcome**: Still +R300K net profit; SAFA remains sustainable
+
+---
+
+### 6.5 Partnership Failure Modes — What If Partners Pull Out?
+
+**Netflix fails to deliver co-marketing by Month 2**
+- **Loss**: 25+ Masterclass enrollments (est. R200K revenue)
+- **Mitigation**: Formal SLA with quarterly review; escalation to Netflix execs if not delivered
+- **Contingency**: Increase Google Ads budget +R8K/month; hire freelance social media manager to create organic content
+- **Trigger**: If Netflix hasn't sent 1st co-marketing email by Month 2, send formal escalation (COO level); renegotiate or deprioritize
+- **Fallback**: Partner with GreenSet or NFVF instead for co-marketing
+
+**GreenSet partnership generates <R50K by Month 6**
+- **Loss**: Blog reach (5 co-posts) + revenue (50% of GreenSet services)
+- **Mitigation**: Monthly revenue tracking; 6-month sunset clause in contract (automatic renewal only if R50K+ revenue)
+- **Contingency**: Shift GreenSet focus to internal curriculum (no external co-marketing); reduce to quarterly touchpoints
+- **Trigger**: If <R25K revenue by Month 4, pause partnership; focus on NFVF and Suzuki instead
+- **Fallback**: No GreenSet revenue = no significant loss; curriculum integration continues
+
+**Suzuki FilmGro delays Gauteng expansion by 2 months**
+- **Loss**: 50+ trainee referrals (est. R100K potential fee revenue)
+- **Mitigation**: Monthly milestone tracking; escalation to Suzuki Fleet Manager if milestones slip
+- **Contingency**: Launch independent driving academy partnership with different provider (same model, different brand)
+- **Trigger**: If expansion not started by Month 2, renegotiate timeline or add penalty clause (Suzuki commits R50K co-marketing budget)
+- **Fallback**: Partner with AA (Automobile Association) or other driving providers; expand to Jo'burg independently
+
+**NFVF fails to refer productions (target 15+ by Month 12)**
+- **Loss**: 50+ placements (est. R175K revenue)
+- **Mitigation**: Quarterly check-in calls; NFVF liaison engagement metric tracked
+- **Contingency**: Increase direct production company outreach (Agent 05 identifies productions needing SAFA crew); reduce NFVF dependency
+- **Trigger**: If <5 referrals by Month 6, deprioritize; shift partnership effort to direct outreach
+- **Fallback**: Self-source 100% of placements via LinkedIn, industry events, cold outreach
+
+**Production company SLA partner underperforms (target 80+ placements from 10 Tier A partners)**
+- **Loss**: 40+ placements × R3.5K = R140K revenue
+- **Mitigation**: Monthly placement tracking per partner; quarterly SLA review meetings
+- **Contingency**: "Volume guarantees" — if partner places <8 trainees/quarter, fees reduced 25%; if >12, bonus 10%
+- **Trigger**: If top 3 partners place <5 trainees each by Month 3, renegotiate terms or replace with new partners
+- **Fallback**: Diversify to 20 mid-tier partners (3-4 placements/year each, lower volume but lower risk)
+
+---
+
+### 6.6 Team Capacity & Resource Risks
+
+**Risk: Key people leave or become unavailable**
+- **CEO availability**: Critical for LinkedIn thought leadership, partnership negotiations, funder relationships
+  - **Mitigation**: Backup designated (COO or Board member) for funder calls; CEO commits minimum 4 hrs/week to LinkedIn
+  - **Contingency**: If CEO unavailable >2 weeks, Comms Director takes over LinkedIn; external ghostwriter hired (R5K/month)
+  - **Kill switch**: If CEO unavailable >1 month, pause thought leadership; focus on content + partnerships
+
+- **Content Manager unavailable**: Critical for Agent 02 review, blog publication, email digest
+  - **Mitigation**: Freelance writer on retainer (R8K/month minimum commitment)
+  - **Contingency**: If main manager out >1 week, freelancer takes 100% of blogging; budget increase R3K
+  - **Kill switch**: If position vacant >1 month, pause blog frequency to 1x/week; hire emergency contractor
+
+- **Placement Manager unavailable**: Critical for trainee intake, Tier advancement, SLA management
+  - **Mitigation**: Backup trained (Finance Lead can do basic intake)
+  - **Contingency**: If unavailable >1 week, hiring/promotion of assistant; temporary staffing agency (R1.5K/week)
+  - **Kill switch**: If position vacant >2 weeks, placements pause; manual intake process only (5 placements/week max)
+
+**Risk: Insufficient team to execute**
+- **Current capacity**: 0.5 FTE Content, 0.5 FTE Community, 0.25 FTE Partnerships
+- **If underestimated**: Actual need = 1 FTE Content, 0.75 FTE Community, 0.5 FTE Partnerships
+- **Mitigation**: Month 1 workload tracking; if >20% overrun, escalate to CEO for hiring decision
+- **Contingency**: Hire 1 FTE Content Manager by Month 2 (R45K/month); defer video production to Month 4
+- **Trigger**: If Month 1 shows >15% overrun, activate hiring; budget increase R45K/month
+
+---
+
+### 6.7 Measurement & Attribution Rigor
+
+**Google Analytics Setup (GA4)**
+- Goals defined: Blog article view (50% scroll), Cineterns signup, Email opt-in, Placement inquiry form
+- UTM tracking: Every link tagged (utm_source, utm_medium, utm_campaign)
+- Cross-domain tracking: SAFA main site → Cineterns portal → Email links all tracked
+- **Validation**: Monthly spot-check; compare GA numbers to actual (email subscriber count, Cineterns users) — must be within 5%
+
+**SEO Attribution Model**
+- Baseline: Month 1 (0 rankings, 0 organic traffic)
+- Tracked keywords: 20 targets (5 high-volume, 5 medium, 10 long-tail)
+- Monthly ranking update: 1st of each month via Ahrefs export
+- Traffic attribution: GA4 "organic" channel; validated against Ahrefs insights
+- **If discrepancy >10%**: Audit UTM setup; investigate GA4 filters
+
+**Agentic Workflow Attribution**
+- Agent 02 (Content): Every blog post tagged with "agent-02-draft" metadata; track views/engagement separately
+- Agent 01 (Funding): Track which agent-drafted applications get approved; measure success rate
+- Agent 04 (Talent Match): Every placement tagged with "agent-04-match"; track acceptance rate vs. manual
+- **Success metric**: Agents' outputs perform ≥85% as well as human-created content/processes
+
+**Revenue Attribution**
+- Funding: Track grant source → Agent 01 application → Grant decision (link in CRM)
+- Placements: Cineterns tracks production company source; Agent 04 match tagged
+- Training: Masterclass source (blog, LinkedIn, Google Ads, partner referral) tracked via unique URLs
+- **Reconciliation**: Monthly; actual revenue vs. attributed source must match ±5%
+
+---
+
+### 6.8 Escalation & Governance Structure
+
+**Monthly Strategy Review (Last Friday of each month, 2 hours)**
+- Attendees: CEO, Marketing Lead, Finance Lead, Tech Lead, Comms Director
+- Agenda: Review all monthly gates; assess channel performance; make go/no-go decisions
+- Decision rights:
+  - <R50K budget adjustment: Marketing Lead approval
+  - R50K–R250K: CEO approval
+  - >R250K: CEO + Board Finance Committee approval
+  - Strategy pivot: CEO + Board approval (48-hour notice)
+
+**Quarterly Board Update (Every Month 3, 6, 9, 12)**
+- Summary: Revenue captured, KPIs vs. targets, partnerships status, agent performance, cash position
+- Format: 1-page deck + supporting data
+- Decision: Authorize continued spend, pivot, or escalation
+
+**Escalation Triggers**
+1. **Financial**: If monthly revenue <75% of target for 2 consecutive months → CEO escalates to Board Finance
+2. **Operational**: If 3+ go/no-go gates miss in a month → CEO escalates to full Board strategy review
+3. **Partnership**: If partner fails 2+ commitments → CEO direct escalation to partner CEO
+4. **Platform**: If Cineterns uptime <99% any month → CEO escalates to N.White Systems CTO
+5. **Team**: If key role vacant >2 weeks → CEO escalates to Board HR Committee for emergency hiring approval
+
+**Decision Authority Matrix**
+| Decision | Authority | Approval Time | Escalation |
+|----------|-----------|---|---|
+| Agent prompt refinement | Tech Lead | 48 hours | CEO if cost >R5K |
+| Content strategy pivot | Marketing Lead | 1 week | CEO if traffic target misses |
+| Partnership renegotiation | CEO | 2 weeks | Board if R50K+ cost |
+| Budget reallocation | CEO | Immediate | Finance Committee if >R100K |
+| Team hiring | CEO + HR | 2 weeks | Board Finance if >R45K/month |
+| Strategy pivot | CEO + Board | 48 hours (emergency) | Board vote |
+
+---
+
+### 6.9 Scenario Planning — Best Case, Base Case, Worst Case
+
+**BEST CASE (Upside Scenario)**
+- All channels accelerate: SEO reaches 50K visitors, placements 150+, funding R3.5M
+- Agents perform flawlessly: 90%+ content quality, 35% funding success rate
+- Partnerships overdeliver: Netflix drives 50+ Masterclass enrollments, GreenSet R300K revenue
+- **Year 1 Revenue**: R6.5M (+45% vs. base case)
+- **Year 2 Revenue**: R10M+ (platform monetization + scale)
+- **Probability**: 15% (requires perfect execution + favorable market conditions)
+- **Action if occurs**: Accelerate hiring (grow team 50%), expand to new markets (Durban, PE), launch Phase 2 platforms
+
+**BASE CASE (Plan as Presented)**
+- Channels perform to targets: 40K visitors, 100 placements, R2.5M funding
+- Agents at 75% quality (require some human refinement)
+- Partnerships deliver as committed: Netflix 25+ enrollments, GreenSet R150K
+- **Year 1 Revenue**: R4.5M
+- **Year 2 Revenue**: R7.8M
+- **Probability**: 60% (realistic with disciplined execution)
+- **Action**: Continue strategy as planned; optimize monthly
+
+**WORST CASE (Downside Scenario)**
+- Channels underperform: 20K visitors, 50 placements, R1.5M funding (due to SETA policy change, economic downturn)
+- Agents struggle: 50% content quality, 15% funding success rate (require significant rework)
+- Partners fail: Netflix doesn't deliver, GreenSet pulls out, Suzuki delays 6 months
+- **Year 1 Revenue**: R2.3M (-49% vs. base case)
+- **Year 2 Revenue**: R3.8M (recovery from Year 1)
+- **Probability**: 15% (market shock, competitive response, execution gaps)
+- **Action if occurs**: Activate all contingencies; freeze discretionary spend; focus on profitability (break-even at R4M)
+
+**Break-Even Analysis**:
+- Monthly fixed cost: R35K (Cineterns R3K/month + team R20K + tools R12K)
+- Monthly variable cost: R7.2K (content, ads, consulting)
+- Total monthly burn: R42.2K
+- **Annual fixed cost**: R427K (already factored in budget)
+- **Worst case revenue (monthly)**: R192K (R2.3M/12)
+- **Worst case margin**: +R150K/month → +R1.8M annual profit (above break-even)
+- **Conclusion**: Even worst-case scenario is profitable
+
+---
+
+### 6.10 Quality Gates — What Must Be True Before Scaling
+
+**Before scaling placements from 100 to 200/year:**
+- [ ] 80%+ production company satisfaction (quarterly survey)
+- [ ] 60%+ trainees progress to tier 2
+- [ ] <5% trainee dropout rate post-placement
+- [ ] Agent 04 acceptance rate ≥75%
+- [ ] Placement cycle time ≤5 days
+- [ ] Cost per placement ≤R2,500
+- **Gate owner**: Placement Manager; gate review Month 6
+
+**Before scaling Masterclass enrollment from 200 to 500/year:**
+- [ ] 4.5+ star rating (25+ reviews minimum)
+- [ ] 80%+ completion rate
+- [ ] 90%+ would recommend (NPS ≥70)
+- [ ] Content quality score ≥85%
+- [ ] Cost per enrollment ≤R800
+- **Gate owner**: Comms Director + freelance instructor; gate review Month 4
+
+**Before scaling funding from R2.5M to R5M+:**
+- [ ] 25%+ success rate on applications (proof of concept)
+- [ ] Average grant size ≥R500K
+- [ ] <2 month average time-to-approval
+- [ ] Agent 01 reducing manual effort 60%+
+- [ ] Cost per funded dollar ≤2% (staffing + systems)
+- **Gate owner**: Finance Lead; gate review Month 9
+
+**Before expanding partnerships beyond Netflix/GreenSet/Suzuki/NFVF:**
+- [ ] Existing 4 partnerships delivering ≥80% of commitment
+- [ ] Revenue attributable to partnerships ≥R300K
+- [ ] Partnership manager bandwidth available
+- [ ] Formal partnership agreements template finalized
+- **Gate owner**: CEO; gate review Month 8
+
+---
+
+### 6.11 Kill Switches — When to Stop & Pivot
+
+**Agent Disable Triggers** (If triggered, Agent goes offline until remediated)
+
+| Agent | Kill Switch | Timeline to Fix | Fallback |
+|-------|---|---|---|
+| Agent 01 (Funding) | <20% success rate OR >80% rewrite needed | 2 weeks (prompt tuning) | Manual applications (Finance lead, 10 hrs/week) |
+| Agent 02 (Content) | <70% publishable quality OR >75% rewrite needed | 2 weeks (prompt tuning) | Freelance writer (R8K/month) |
+| Agent 03 (Monitoring) | >10% false positives OR missed critical mention | 1 week (filter tuning) | Manual social monitoring (4 hrs/week) |
+| Agent 04 (Matching) | <60% acceptance rate OR incorrect matches (safety) | 1 week (algorithm review) | Manual matching (3 hrs/placement) |
+| Agent 05 (Reputation) | Reputation score < baseline 52/100 for 2 months | 2 weeks (scope review) | Quarterly manual reputation audit (16 hrs) |
+
+**Channel Disable Triggers** (If triggered, reallocate budget to other channels)
+
+| Channel | Kill Switch | Action | Fallback Budget |
+|---------|---|---|---|
+| Organic Search (SEO) | <5K visitors by Month 4 OR <5 keywords top 20 by Month 6 | Pause organic; reallocate 50% budget | Google/LinkedIn Ads (+R10K/month) |
+| LinkedIn CEO Posts | <500 followers growth/month OR <5% engagement rate | Reduce frequency; hire ghostwriter | Delegate to Comms Director; 3x/week → 1x/week |
+| Masterclass | <80 enrollments by Month 4 OR <4 star rating | Reduce price R8K → R5K; increase ads | Partner with production companies for B2B |
+| Blog/Content | <1K visitors/month by Month 3 OR <2% conversion | Reduce frequency to 1x/week; pause | Reallocate to LinkedIn + Ads |
+| Partnerships | <3 active partners by Month 6 OR <R100K revenue | Deprioritize; focus self-sourcing | Direct production company outreach (+R5K/month) |
+
+**Full Strategy Pivot Triggers** (If 2+ of these occur simultaneously, escalate to Board for strategy pivot)
+1. Cineterns adoption <100 users by Month 4 (platform failure risk)
+2. Revenue <R1.5M by Month 6 (business model validation failure)
+3. 3+ team departures in any quarter (execution risk)
+4. Major competitor launches AI curriculum (competitive response needed)
+5. SETA policy change affecting MICT training (regulatory risk)
+
+---
+
+### 6.12 Change Log & Versioning
+
+**Document version tracking** (for audit/governance):
+- V2.0 (May 21, 2026): Initial comprehensive strategy with refinements
+- V2.1 (May 28, 2026): Add 100% watertight hardening (this section)
+- Updates: Monthly per strategy review; major changes require Board approval
+
+**Locked vs. Flexible:**
+- **Locked** (change requires Board approval): Revenue targets, partnership commitments, budget >R100K, go/no-go gates
+- **Flexible** (change requires CEO approval): Content calendar, email templates, ad creative, agent prompts
+- **Fluid** (change daily): Social media tactics, keyword focus, blog schedule adjustments
+
+---
+
 ## 1. SEO & AI SEO EXECUTION BLUEPRINT
 
 ### 1.1 Traditional SEO — Technical Health Audit
