@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="06 · Agentic AI Marketing Engine"
         title="Not an aspiration. A set of concrete, running, weekly automated _workflows._"
         subtitle="Five autonomous agents that operate without human initiation — turning the Academy's capacity constraint into its largest competitive advantage."
-        imageSrc="/images/ai/safa-ai-hero.png"
+        imageSrc="/images/ai/v2/hero-agentic-ai.png"
         imageAlt="Abstract orbital AI system or neural network in gold and blue"
       />
 

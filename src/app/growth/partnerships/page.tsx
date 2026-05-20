@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="13 · Partnerships, PR & Media Relations"
         title="Building the Relationships that Earn the _Headlines._"
         subtitle="A formalised partnership architecture and disciplined media relations plan — converting existing goodwill into named co-brands and recurring press placements."
-        imageSrc="/images/ai/safa-partnerships-hero.png"
+        imageSrc="/images/ai/v2/v2-sub-partnerships.png"
         imageAlt="Broadcast signal waves radiating from a central point in gold light"
       />
 

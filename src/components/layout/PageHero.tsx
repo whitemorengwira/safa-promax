@@ -53,11 +53,11 @@ export function PageHero({
       <div className="absolute inset-0 z-10 bg-gradient-to-t from-bg via-bg/60 to-transparent" />
       <div className="absolute inset-0 z-10 bg-black/10" />
 
-      {/* Content with Parallax Text Float - Lowered to bottom 1/3 */}
-      <div className="relative z-20 container-max pb-16 md:pb-24">
+      {/* Content with Parallax Text Float - Lowered to bottom 1/6 with smaller text */}
+      <div className="relative z-20 container-max pb-8 md:pb-12">
         <Parallax offset={0.92}>
           <Reveal>
-            <span className="eyebrow mb-4 block">
+            <span className="eyebrow mb-2 block text-xs md:text-sm">
               <span className="num">{eyebrow}</span>
             </span>
           </Reveal>
@@ -65,12 +65,12 @@ export function PageHero({
           <WordReveal
             tag="h1"
             text={title}
-            className="mb-4 max-w-4xl text-white drop-shadow-2xl"
+            className="mb-2 max-w-3xl text-white drop-shadow-2xl text-4xl md:text-5xl lg:text-6xl"
           />
 
           {subtitle && (
             <Reveal delay={0.2}>
-              <p className="font-display-alt italic text-gold-soft text-lg md:text-xl max-w-2xl leading-relaxed mb-6 drop-shadow-lg">
+              <p className="font-display-alt italic text-gold-soft text-base md:text-lg max-w-xl leading-relaxed mb-4 drop-shadow-lg">
                 {subtitle}
               </p>
             </Reveal>

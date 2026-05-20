@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="10 · B-BBEE & Skills Levy Commercial Strategy"
         title="SAFA's single most powerful commercial differentiator, and chronically _under-marketed._"
         subtitle="The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA turns it into a strategic B-BBEE asset and a pipeline of skilled local talent."
-        imageSrc="/images/ai/safa-bee-hero.png"
+        imageSrc="/images/ai/v2/v2-sub-bbbee.png"
         imageAlt="Sankey financial diagram or flow chart in gold and navy"
       />
 

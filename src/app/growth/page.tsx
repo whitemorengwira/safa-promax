@@ -47,9 +47,9 @@ export default function GrowthLanding() {
     <main className="flex flex-col min-h-screen bg-bg">
       <PageHero
         eyebrow="Pillar 03"
-        title="The _Engine_ of Growth."
+        title="Where _Revenue_ is Generated."
         subtitle="Where revenue is generated and impact is scaled: Agentic AI, B-BBEE Compliance, and Strategic Partnerships."
-        imageSrc="/images/ai/v2/post-production-lab-black-creators.png"
+        imageSrc="/images/ai/v2/v2-pillar-growth.png"
         imageAlt="Cinematic post-production lab visual"
       />
 

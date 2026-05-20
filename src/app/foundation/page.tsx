@@ -49,8 +49,8 @@ export default function FoundationLanding() {
         eyebrow="Pillar 01"
         title="The _Foundation_ of Transformation."
         subtitle="The structural core that powers the Academy's mission: Organisation, Ecosystem, and Infrastructure."
-        imageSrc="/images/ai/v2/road-home-training-red-visual.png"
-        imageAlt="Cinematic production training visual"
+        imageSrc="/images/ai/v2/v2-pillar-foundation.png"
+        imageAlt="Foundation pillar visual - professional Black South African film production team"
       />
 
       <FilmstripDivider />

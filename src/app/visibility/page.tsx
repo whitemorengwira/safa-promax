@@ -47,9 +47,9 @@ export default function VisibilityLanding() {
     <main className="flex flex-col min-h-screen bg-bg">
       <PageHero
         eyebrow="Pillar 02"
-        title="The _Visibility_ of Impact."
+        title="How the World Sees _SAFA._"
         subtitle="How the world sees SAFA: A strategic approach to SEO, Content Marketing, and Institutional Leadership."
-        imageSrc="/images/ai/v2/mobile-menu-red-mega-nav-visual.png"
+        imageSrc="/images/ai/v2/v2-pillar-visibility.png"
         imageAlt="Cinematic visibility and media visual"
       />
 

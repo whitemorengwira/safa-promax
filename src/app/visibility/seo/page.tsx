@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="07 · SEO & AI SEO Strategy"
         title="Found by search engines today. Found by AI engines tomorrow. Both, _deliberately._"
         subtitle="Traditional SEO and Generative Engine Optimisation (AI SEO) are no longer alternatives. They are two halves of the same discovery surface."
-        imageSrc="/images/ai/safa-seo-hero.png"
+        imageSrc="/images/ai/v2/hero-seo.png"
         imageAlt="Radial knowledge graph or network visualization in gold light"
       />
 

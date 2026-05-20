@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture. Until now, they have read as five strangers."
         subtitle="A branded house — SAFA at the apex, four programmes radiating outward, each carrying a visible relationship to the master brand."
-        imageSrc="/images/ai/safa-ecosystem-bg.png"
+        imageSrc="/images/ai/v2/hero-ecosystem.png"
         imageAlt="Macro close-up of a professional film clapperboard with gold light reflections"
       />
 

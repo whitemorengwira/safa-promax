@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="15 · Agentic AI in the Training Curriculum"
         title="The Only Film Academy in South Africa Training for the _Post-Production Hiring Cycle of 2026._"
         subtitle="A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned as a curriculum differentiator."
-        imageSrc="/images/ai/safa-curriculum-hero.png"
+        imageSrc="/images/ai/v2/v2-sub-curriculum.png"
         imageAlt="Neural network abstract in gold and blue"
       />
 

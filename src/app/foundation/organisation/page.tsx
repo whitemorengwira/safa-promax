@@ -20,7 +20,7 @@ export default function Page() {
         eyebrow="02 · The Organisation"
         title="Who we are, what we actually do, and the perception we have already begun to shift."
         subtitle="SA Film Academy is not a college and it is not an agency. It is something more useful — and, until now, less well understood."
-        imageSrc="/images/ai/safa-org-hero.png"
+        imageSrc="/images/ai/v2/hero-organisation.png"
         imageAlt="Confident Black female executive on a professional film set"
       />
 

@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="14 · Competitive Positioning & Differentiation"
         title="Six dimensions on which SAFA _wins the room._"
         subtitle="The strategy's positioning argument runs on six specific capabilities — each one a category where the typical competitor cannot match SAFA's contextual depth."
-        imageSrc="/images/ai/safa-positioning-hero.png"
+        imageSrc="/images/ai/v2/hero-positioning.png"
         imageAlt="Radar chart abstract in gold and dark red"
       />
 

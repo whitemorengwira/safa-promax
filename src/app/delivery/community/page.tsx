@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="11 · Community, Alumni & Stakeholder Engagement"
         title="From Perpetual Trainee to Permanent _Industry Citizen._"
         subtitle="The community architecture that dismantles the most damaging perception SAFA has carried — and replaces it with a tiered, visible career pathway."
-        imageSrc="/images/ai/safa-community-hero.png"
+        imageSrc="/images/ai/v2/hero-community.png"
         imageAlt="A group of young Black film alumni (22-30 years old) networking at a cinematic industry event"
       />
 
