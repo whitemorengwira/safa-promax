@@ -79,36 +79,7 @@ export default async function StrategyPage({ params }: PageProps) {
 
   return (
     <main className="flex flex-col">
-      {/* Hero band */}
-      <section className="relative min-h-[60vh] md:min-h-[70vh] overflow-hidden">
-        <ImagePlaceholder
-          src={data.heroImageBrief.startsWith('/') ? data.heroImageBrief : undefined}
-          alt={data.heroImageAlt}
-          brief={data.heroImageBrief}
-          orientation="video"
-          className="absolute inset-0 w-full h-full"
-        />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/40 to-transparent" />
-
-        <div className="relative z-10 h-full flex flex-col justify-center section-padding container-max">
-          <span className="eyebrow mb-6">
-            <span className="num">{section.num} ·</span>
-          </span>
-
-          <WordReveal tag="h1" text={section.title} className="mb-6 max-w-4xl" />
-
-          {section.subtitle && (
-            <Reveal className="mb-8">
-              <p className="font-display-alt italic text-gold-soft text-xl md:text-2xl max-w-3xl leading-relaxed">
-                {section.subtitle}
-              </p>
-            </Reveal>
-          )}
-        </div>
-      </section>
-
-      <FilmstripDivider />
 
       {/* Intro copy band with 70/30 visual ratio */}
       {introBlocks.length > 0 && (

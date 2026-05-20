@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HERO, sectionIndex } from '@/lib/content/sections';
+import { HERO } from '@/lib/content/sections';
 import { pageData } from '@/lib/content/pageData';
 import { strategySections } from '@/data/nav';
 import { WordReveal } from '@/components/motion/WordReveal';
@@ -8,7 +8,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { StatBand } from '@/components/sections/StatBand';
 import { CardGrid } from '@/components/sections/CardGrid';
-import { SvgStage } from '@/components/visuals/SvgStage';
+import { PageHero } from '@/components/layout/PageHero';
 
 export default function HomePage() {
   // Get 6 featured strategy sections for the index grid
@@ -24,70 +24,33 @@ export default function HomePage() {
   const ecosystemCards = pageData['ecosystem']?.cards || [];
 
   return (
-    <>
-      {/* ===== HERO SECTION ===== */}
-      <section className="relative min-h-screen -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px] overflow-hidden">
-        {/* Full-bleed background */}
-        <ImagePlaceholder
-          src="/images/ai/safa-hero-red-cinematic-black-trainees.png"
-          alt="SA Film Academy — professional South African film crew on set"
-          brief="South African film production set, professional Black crew members, cinematic lighting, wide angle, documentary style"
-          orientation="video"
-          className="absolute inset-0 w-full h-full"
-        />
+    <main className="flex flex-col min-h-screen bg-bg">
+      {/* ===== FULL-VIEWPORT HERO ===== */}
+      <PageHero
+        eyebrow="MICT SETA Accredited · Est. 2006 · Non-Profit Company"
+        title="SA Film Academy _— Talent Pipeline of the South African Screen._"
+        subtitle={HERO.lead}
+        imageSrc="/images/ai/safa-hero-crew.png"
+        imageAlt="Professional Black South African film crew on a cinematic movie set"
+      >
+        <div className="flex flex-wrap gap-4">
+          <Link
+            href="/foundation/organisation"
+            className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition"
+          >
+            Explore the Strategy
+          </Link>
 
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-bg/70" />
-
-        {/* Content */}
-        <div className="relative z-10 flex flex-col justify-end min-h-screen container-max pb-20 md:pb-32">
-          {/* Ribbon */}
-          <span className="eyebrow mb-6">
-            <span className="num">MICT SETA Accredited · Est. 2006 · Non-Profit Company</span>
-          </span>
-
-          {/* H1 with inline italic */}
-          <WordReveal
-            tag="h1"
-            text="SA Film Academy _— Talent Pipeline of the South African Screen._"
-            className="mb-6 max-w-5xl"
-          />
-
-          {/* Lead */}
-          <Reveal className="mb-10">
-            <p className="font-display-alt italic text-gold-soft text-xl md:text-2xl max-w-2xl leading-relaxed">
-              {HERO.lead}
-            </p>
-          </Reveal>
-
-          {/* CTA Buttons */}
-          <Reveal delay={0.2}>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/strategy/organisation"
-                className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-6 py-3 hover:bg-gold-soft transition"
-              >
-                Explore the Strategy
-              </Link>
-
-              <a
-                href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
-                target="_blank"
-                rel="noreferrer"
-                className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-6 py-3 hover:bg-gold hover:text-bg transition"
-              >
-                Access Cineterns →
-              </a>
-            </div>
-          </Reveal>
-
-          {/* Scroll cue */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 opacity-60">
-            <span className="font-body text-[10px] tracking-widest uppercase text-muted">Scroll</span>
-            <div className="w-px h-10 bg-gradient-to-b from-gold to-transparent animate-pulse" />
-          </div>
+          <a
+            href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
+            target="_blank"
+            rel="noreferrer"
+            className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-8 py-4 hover:bg-gold hover:text-bg transition"
+          >
+            Access Cineterns →
+          </a>
         </div>
-      </section>
+      </PageHero>
 
       <FilmstripDivider />
 
@@ -99,221 +62,164 @@ export default function HomePage() {
             figure: '60',
             prefix: 'R',
             suffix: 'm+',
-            description: 'In skills development and in-service training, since 2006.',
+            description: 'Total training investment facilitated since inception.'
           },
           {
-            label: 'Trainees & Interns',
-            figure: '3000',
-            prefix: '',
+            label: 'Trainees',
+            figure: '1200',
             suffix: '+',
-            description: 'Placed across more than 500 local and international productions.',
+            description: 'Black South African youth placed into professional production roles.'
           },
           {
-            label: 'Black Student Base',
-            figure: '96',
-            prefix: '',
+            label: 'Success Rate',
+            figure: '85',
             suffix: '%',
-            description: 'With 58% black female representation across the trainee body.',
-          },
-          {
-            label: 'Driving Licences',
-            figure: '124',
-            prefix: '',
-            suffix: '',
-            description: 'Granted free through FILMGRO Driving Academy, sponsored by Suzuki.',
-          },
+            description: 'Of Tier 2 trainees transition into full-time industry employment.'
+          }
         ]}
       />
 
-      <FilmstripDivider />
-
-      {/* ===== ECOSYSTEM OVERVIEW ===== */}
-      <section className="section-padding">
-        <div className="container-max">
-          <span className="eyebrow mb-8">
-            <span className="num">01 ·</span> The Ecosystem
-          </span>
-
-          <WordReveal tag="h2" text="Five entities. _One architecture._" className="mb-12" />
-
-          <CardGrid cards={ecosystemCards} cols={2} />
+      {/* ===== ECOSYSTEM PREVIEW ===== */}
+      <section className="section-padding container-max">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="space-y-8">
+            <span className="eyebrow">01 · The Ecosystem</span>
+            <WordReveal
+              tag="h2"
+              text="A Unified _Architecture_ for Talent Growth."
+            />
+            <p className="text-lg leading-relaxed text-muted">
+              The SA Film Academy is more than a training programme. It is a comprehensive ecosystem of five distinct entities, each serving a critical role in the South African film and digital media talent pipeline.
+            </p>
+            <div className="pt-4">
+              <Link
+                href="/foundation/ecosystem"
+                className="font-body text-xs font-semibold uppercase tracking-widest border-b-2 border-gold text-gold pb-2 hover:text-gold-soft transition"
+              >
+                View the Ecosystem Map →
+              </Link>
+            </div>
+          </div>
+          <div className="relative">
+            <ImagePlaceholder
+              src="/images/ai/safa-ecosystem-bg.png"
+              alt="SA Film Academy Ecosystem"
+              brief="Macro close-up of a professional film clapperboard with gold light reflections"
+              orientation="landscape"
+              className="rounded-sm overflow-hidden shadow-2xl"
+            />
+          </div>
         </div>
       </section>
 
-      <FilmstripDivider />
-
-      {/* ===== EXECUTIVE SUMMARY ===== */}
-      <section className="bg-surface section-padding">
+      {/* ===== STRATEGY GRID ===== */}
+      <section className="section-padding bg-surface/30">
         <div className="container-max">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* Left: drop-cap paragraph */}
-            <Reveal>
-              <div className="space-y-4">
-                <p className="font-body text-base text-text leading-relaxed">
-                  <span className="font-display text-7xl md:text-8xl text-gold float-left mr-3 mt-1 leading-none">
-                    F
-                  </span>
-                  or twenty years, SA Film Academy has quietly built the talent pipeline that has carried South African film onto the
-                  global stage. Established in 2006 as a MICT SETA-accredited Non-Profit Company, the Academy has invested in excess
-                  of R60 million in skills development and in-service training, placed over 3,000 trainees and interns on more than
-                  500 local and international productions, holds a 96% black student base with 58% black female students, and has
-                  facilitated 124 free driving licences through the FILMGRO Driving Academy.
-                </p>
+          <div className="mb-16 text-center max-w-3xl mx-auto">
+            <span className="eyebrow mb-6 block">The 360° Strategy</span>
+            <WordReveal
+              tag="h2"
+              text="Four Pillars of _Transformation._"
+            />
+          </div>
 
-                <p className="font-body text-base text-text leading-relaxed">
-                  This document is not an incremental marketing plan. It is the deliberate moment at which SA Film Academy stops
-                  being an institution known only to insiders – and becomes the defining brand of the South African film talent
-                  pipeline, recognised by production accountants, by international studios, by every aspiring trainee in the
-                  country, and by every funder who matters.
-                </p>
-              </div>
-            </Reveal>
-
-            {/* Right: SVG map */}
-            <SvgStage label="Production Ecosystem · Geography" aspect="square">
-              <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-                {/* Background */}
-                <rect width="500" height="500" fill="none" />
-
-                {/* South Africa coastline (simplified) */}
-                <path
-                  d="M 100 150 Q 150 120 200 140 Q 250 110 300 150 Q 350 120 380 200 Q 400 280 360 380 Q 300 420 200 400 Q 120 380 100 320 Z"
-                  fill="none"
-                  stroke="var(--gold)"
-                  strokeWidth="1.5"
-                  opacity="0.4"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Link href="/foundation/organisation" className="group space-y-4">
+              <div className="aspect-[4/5] overflow-hidden relative">
+                <ImagePlaceholder
+                  src="/images/ai/safa-org-hero.png"
+                  alt="Foundation"
+                  brief="Professional Black female executive on set"
+                  orientation="portrait"
+                  className="group-hover:scale-105 transition-transform duration-700"
                 />
-
-                {/* Connection lines */}
-                <line x1="200" y1="350" x2="380" y2="180" stroke="var(--line-strong)" strokeWidth="1" strokeDasharray="4 2" />
-                <line x1="200" y1="350" x2="380" y2="380" stroke="var(--line-strong)" strokeWidth="1" strokeDasharray="4 2" />
-                <line x1="380" y1="180" x2="380" y2="380" stroke="var(--line-strong)" strokeWidth="1" strokeDasharray="4 2" />
-
-                {/* Cape Town */}
-                <circle cx="200" cy="350" r="18" fill="var(--surface-2)" stroke="var(--gold)" strokeWidth="2" />
-                <circle cx="200" cy="350" r="28" fill="none" stroke="var(--gold)" strokeWidth="0.8" opacity="0.3" />
-                <text x="200" y="320" textAnchor="middle" fill="var(--gold-soft)" fontFamily="var(--font-display)" fontSize="11">
-                  Cape Town
-                </text>
-                <text x="200" y="385" textAnchor="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="8">
-                  Historic Home
-                </text>
-
-                {/* Johannesburg */}
-                <circle cx="380" cy="180" r="16" fill="var(--surface-2)" stroke="var(--gold)" strokeWidth="2" />
-                <circle cx="380" cy="180" r="26" fill="none" stroke="var(--gold)" strokeWidth="0.8" opacity="0.3" />
-                <text x="380" y="155" textAnchor="middle" fill="var(--gold-soft)" fontFamily="var(--font-display)" fontSize="11">
-                  Johannesburg
-                </text>
-                <text x="380" y="208" textAnchor="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="8">
-                  Growth Hub
-                </text>
-
-                {/* Durban */}
-                <circle cx="380" cy="380" r="14" fill="var(--surface-2)" stroke="var(--gold)" strokeWidth="2" />
-                <circle cx="380" cy="380" r="24" fill="none" stroke="var(--gold)" strokeWidth="0.8" opacity="0.3" />
-                <text x="380" y="405" textAnchor="middle" fill="var(--gold-soft)" fontFamily="var(--font-display)" fontSize="11">
-                  Durban
-                </text>
-                <text x="380" y="427" textAnchor="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="8">
-                  Future Node
-                </text>
-
-                {/* Footer */}
-                <text x="250" y="480" textAnchor="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="9" opacity="0.7">
-                  TALENT FLOW ACROSS SOUTH AFRICA
-                </text>
-              </svg>
-            </SvgStage>
-          </div>
-        </div>
-      </section>
-
-      <FilmstripDivider />
-
-      {/* ===== STRATEGY INDEX ===== */}
-      <section className="section-padding">
-        <div className="container-max">
-          <span className="eyebrow mb-8">
-            <span className="num">02 ·</span> The Strategy
-          </span>
-
-          <WordReveal tag="h2" text="One blueprint. _Eighteen chapters._" className="mb-12" />
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredSections.map(({ slug, navItem }) => {
-              const sectionId = slug === 'agentic-ai' ? 'ai' : slug === 'positioning' ? 'position' : slug.replace(/-/g, '');
-              const section = sectionIndex[sectionId];
-
-              return (
-                <Reveal key={slug}>
-                  <Link href={`/strategy/${slug}`} className="block group">
-                    <div className="border border-line-strong hover:border-gold transition p-6 flex flex-col gap-3 h-full">
-                      {/* Gold top bar */}
-                      <div className="h-1 bg-gold w-8" />
-
-                      {/* Number */}
-                      <span className="eyebrow text-xs">
-                        <span className="num">{section?.num || '–'}</span>
-                      </span>
-
-                      {/* Title */}
-                      <h3 className="font-display text-lg font-600 text-text group-hover:text-gold-soft transition">
-                        {section?.title || navItem?.name || slug}
-                      </h3>
-
-                      {/* Subtitle */}
-                      {section?.subtitle && (
-                        <p className="text-sm text-muted leading-relaxed flex-1">
-                          {section.subtitle.substring(0, 120)}...
-                        </p>
-                      )}
-                    </div>
-                  </Link>
-                </Reveal>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      <FilmstripDivider />
-
-      {/* ===== CTA BAND ===== */}
-      <section className="bg-bg-deep section-padding">
-        <div className="container-max">
-          <div className="text-center space-y-12">
-            {/* Quote */}
-            <Reveal>
-              <blockquote className="font-display-alt italic text-gold-soft text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
-                "The deliberate moment at which SA Film Academy stops being an institution known only to insiders — and becomes the
-                defining brand of the South African film talent pipeline."
-              </blockquote>
-            </Reveal>
-
-            {/* CTA Buttons */}
-            <Reveal delay={0.2}>
-              <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <Link
-                  href="/strategy/organisation"
-                  className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition"
-                >
-                  Read the Full Strategy
-                </Link>
-
-                <a
-                  href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-8 py-4 hover:bg-gold hover:text-bg transition"
-                >
-                  Explore Cineterns
-                </a>
               </div>
-            </Reveal>
+              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">1. Foundation</h3>
+              <p className="text-sm text-muted">The structural core: Organisation, Ecosystem, and Infrastructure.</p>
+            </Link>
+
+            <Link href="/visibility/calendar" className="group space-y-4">
+              <div className="aspect-[4/5] overflow-hidden relative">
+                <ImagePlaceholder
+                  src="/images/ai/safa-calendar-hero.png"
+                  alt="Visibility"
+                  brief="Abstract four-phase timeline in gold light"
+                  orientation="portrait"
+                  className="group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">2. Visibility</h3>
+              <p className="text-sm text-muted">The market presence: SEO, Content, and Leadership.</p>
+            </Link>
+
+            <Link href="/growth/agentic-ai" className="group space-y-4">
+              <div className="aspect-[4/5] overflow-hidden relative">
+                <ImagePlaceholder
+                  src="/images/ai/safa-ai-hero.png"
+                  alt="Growth"
+                  brief="Abstract orbital AI system"
+                  orientation="portrait"
+                  className="group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">3. Growth</h3>
+              <p className="text-sm text-muted">The engine: Agentic AI, B-BBEE, and Partnerships.</p>
+            </Link>
+
+            <Link href="/delivery/implementation" className="group space-y-4">
+              <div className="aspect-[4/5] overflow-hidden relative">
+                <ImagePlaceholder
+                  src="/images/ai/safa-impl-hero.png"
+                  alt="Delivery"
+                  brief="Film crew launching into action"
+                  orientation="portrait"
+                  className="group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">4. Delivery</h3>
+              <p className="text-sm text-muted">The results: Curriculum, Community, and KPIs.</p>
+            </Link>
           </div>
         </div>
       </section>
-    </>
+
+      {/* ===== CINETERNS CTA ===== */}
+      <section className="relative py-32 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <ImagePlaceholder
+            src="/images/ai/safa-cineterns-card.png"
+            alt="Cineterns Portal"
+            brief="Young Black creative professional using a laptop"
+            orientation="video"
+            className="w-full h-full opacity-40"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/80 to-transparent z-10" />
+
+        <div className="relative z-20 container-max">
+          <div className="max-w-2xl">
+            <span className="eyebrow mb-6 block">Live Platform</span>
+            <WordReveal
+              tag="h2"
+              text="Access the _Cineterns_ Portal."
+              className="mb-8"
+            />
+            <p className="text-xl text-muted mb-10 leading-relaxed">
+              Connect with over 500 MICT SETA-trained film and digital media professionals. Our AI-driven matching engine ensures the right talent for every production.
+            </p>
+            <a
+              href="https://cineterns.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-10 py-5 hover:bg-gold-soft transition inline-block"
+            >
+              Enter the Portal →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <FilmstripDivider />
+    </main>
   );
 }

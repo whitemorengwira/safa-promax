@@ -41,12 +41,13 @@ export function Counter({ target, duration = 1.5, className = "" }: CounterProps
   }, [isInView, target, duration, count, shouldReduceMotion]);
 
   useEffect(() => {
-    return rounded.on("change", (latest) => {
+    const unsubscribe = rounded.on("change", (latest) => {
       if (nodeRef.current) {
         // Format thousands with spaces for South African currency/stats standard (e.g. 3 000)
-        nodeRef.current.textContent = latest.toLocaleString("en-ZA").replace(/,/g, " ");
+        nodeRef.current.textContent = Math.round(latest).toLocaleString("en-ZA").replace(/,/g, " ");
       }
     });
+    return () => unsubscribe();
   }, [rounded]);
 
   return <span ref={nodeRef} className={className}>0</span>;

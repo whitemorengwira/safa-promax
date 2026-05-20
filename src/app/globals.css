@@ -94,9 +94,17 @@ body {
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  line-height: 1.7;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.85;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p, li {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.85;
+  color: var(--text);
 }
 
 /* Subtle film-grain overlay across the whole document */
@@ -123,38 +131,68 @@ body::before {
    - Eyebrow labels: Outfit, uppercase, wide letter-spacing, gold, small
    ============================================================ */
 
-h1, h2, h3, h4, h5, h6 {
+/* ============================================================
+   PRIORITY 4 — BOLD CINEMATIC TEXT STYLE
+   Headings are very large, very bold, often italic for emphasis.
+   Matches empoweryouth.vercel.app standard.
+   ============================================================ */
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2.8rem, 6vw, 7rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+h1 em, h2 em {
+  font-style: italic;
+  color: var(--gold-soft);
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  line-height: 1.1;
+  color: var(--text);
+}
+
+h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  line-height: 1.3;
+  color: var(--text);
+}
+
+h4, h5, h6 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.15;
   color: var(--text);
 }
 
-h1 em, h2 em, h3 em {
-  font-style: italic;
-  color: var(--gold-soft);
-}
-
-/* Eyebrow label utility */
+/* Eyebrow label utility — gold, uppercase, wide tracking */
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 10px;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   color: var(--gold);
 }
 
-/* Drop-cap for the executive opening paragraph */
+/* Drop cap on the opening paragraph of each major section */
 .drop-cap::first-letter {
   font-family: var(--font-display);
-  font-size: 4.2em;
+  font-size: 4.5em;
+  font-weight: 900;
   float: left;
   line-height: 0.85;
-  margin-right: 0.08em;
-  margin-top: 0.05em;
+  margin-right: 0.1em;
   color: var(--gold);
-  font-weight: 700;
 }
 
 /* ============================================================
@@ -208,35 +246,88 @@ h1 em, h2 em, h3 em {
 .filmstrip::after { bottom: 6px; }
 
 /* ============================================================
-   KEN BURNS EFFECT (Rule E)
-   Gentle scale + pan over ~22 seconds, infinite alternate.
-   Respects prefers-reduced-motion.
+   KEN BURNS EFFECT (Priority 3)
+   Dramatic, visible, cinematic zoom-and-pan (scale 1.18).
+   Matches empoweryouth.vercel.app visual standard.
+   Must be clearly perceptible within 3 seconds of page load.
    ============================================================ */
 
+.ken-burns-frame {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ken-burns-frame > img,
+.ken-burns-frame > .ken-burns-inner {
+  width: 110%;        /* slightly oversized to allow pan without edge-reveal */
+  height: 110%;
+  object-fit: cover;
+  transform-origin: center center;
+  animation: kenBurnsDramatic 22s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes kenBurnsDramatic {
+  0% {
+    transform: scale(1.0) translate(0%, 0%);
+  }
+  100% {
+    transform: scale(1.18) translate(-3%, -2%);
+  }
+}
+
+/* Second variant — pans in the opposite direction for visual variety.
+   Apply class .ken-burns-alt to alternate images so they don't all move identically. */
+@keyframes kenBurnsDramaticAlt {
+  0% {
+    transform: scale(1.0) translate(2%, 1%);
+  }
+  100% {
+    transform: scale(1.18) translate(-2%, -3%);
+  }
+}
+
+.ken-burns-alt > img,
+.ken-burns-alt > .ken-burns-inner {
+  animation: kenBurnsDramaticAlt 24s ease-in-out infinite alternate;
+}
+
+/* Accessibility — stop the motion for users who have requested reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ken-burns-frame > img,
+  .ken-burns-frame > .ken-burns-inner,
+  .ken-burns-alt > img,
+  .ken-burns-alt > .ken-burns-inner {
+    animation: none;
+    transform: scale(1.05); /* slight zoom as a static approximation */
+  }
+}
+
+/* Legacy class support for backwards compatibility */
 .kenburns-frame {
   overflow: hidden;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .kenburns-frame > img,
 .kenburns-frame > .placeholder-fill {
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   object-fit: cover;
-  transform-origin: center;
-  animation: kenburns 22s ease-in-out infinite alternate;
+  transform-origin: center center;
+  animation: kenBurnsDramatic 22s ease-in-out infinite alternate;
+  will-change: transform;
 }
 
-@keyframes kenburns {
-  0%   { transform: scale(1.0) translate(0, 0); }
-  100% { transform: scale(1.12) translate(-2%, -2%); }
-}
-
-/* Accessibility: stop the drift if the user asked for less motion */
 @media (prefers-reduced-motion: reduce) {
   .kenburns-frame > img,
   .kenburns-frame > .placeholder-fill {
     animation: none;
+    transform: scale(1.05);
   }
 }
 
@@ -469,7 +560,7 @@ section[class*="hero"],
   }
 }
 
-/* Text overlay on hero images with cinematic fade */
+/* Text overlay on hero images with cinematic fade and scrim */
 .text-overlay {
   position: absolute;
   inset: 0;
@@ -479,6 +570,20 @@ section[class*="hero"],
   z-index: 10;
   background: linear-gradient(to top, rgba(9, 9, 14, 0.95), rgba(9, 9, 14, 0.4), transparent);
   padding: var(--section-y);
+}
+
+/* Text-over-image treatment: semi-transparent scrim + text shadow */
+.text-over-image {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  padding: var(--gutter);
+  backdrop-filter: blur(2px);
+}
+
+.text-over-image h1,
+.text-over-image h2,
+.text-over-image h3 {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
 /* Cinematic text reveal animation */
@@ -564,13 +669,17 @@ p.floating-text:nth-child(5) {
   overflow: hidden;
   border-radius: 4px;
   background: var(--surface);
+  aspect-ratio: 16 / 9;
 }
 
 .visual-container img,
 .visual-container video {
-  width: 100%;
-  height: auto;
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
   display: block;
+  animation: kenBurnsDramatic 22s ease-in-out infinite alternate;
+  will-change: transform;
 }
 
 /* Text container with constrained width */

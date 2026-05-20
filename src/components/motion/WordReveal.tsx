@@ -75,9 +75,10 @@ export function WordReveal({
             <motion.span
               key={idx}
               variants={wordVariants}
-              className={`inline-block mr-[0.22em] ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
+              className={`inline-flex ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
             >
               {cleanWord}
+              {idx < words.length - 1 && <span className="inline-block w-[0.25em]">&nbsp;</span>}
             </motion.span>
           );
         })}

@@ -1,206 +1,171 @@
-'use client';
-
 import Link from 'next/link';
-import { WordReveal } from '@/components/motion/WordReveal';
+import { PageHero } from '@/components/layout/PageHero';
 import { Reveal } from '@/components/motion/Reveal';
-import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
+import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 
 export default function ContactPage() {
   return (
-    <>
-      {/* ===== HERO SECTION ===== */}
-      <section className="relative min-h-[60vh] md:min-h-[70vh] overflow-hidden">
-        <ImagePlaceholder
-          src="/images/road-home/road-home-training-007.jpg"
-          alt="SA Film Academy — office and team"
-          brief="South African office environment, Black team members, collaborative workspace, professional film industry setting"
-          orientation="video"
-          className="absolute inset-0 w-full h-full"
-        />
-
-        <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/40 to-transparent" />
-
-        <div className="relative z-10 h-full flex flex-col justify-center section-padding container-max">
-          <span className="eyebrow mb-6">
-            <span className="num">Contact ·</span>
-          </span>
-
-          <WordReveal tag="h1" text="Get in Touch" className="mb-6 max-w-4xl" />
-        </div>
-      </section>
+    <main className="flex flex-col min-h-screen bg-bg">
+      {/* Full-viewport Hero */}
+      <PageHero
+        eyebrow="Contact · SA Film Academy"
+        title="Get in _Touch._"
+        subtitle="Ready to transform the South African screen? Whether you are a production company, a potential trainee, or a strategic partner, we want to hear from you."
+        imageSrc="/images/ai/safa-contact-hero.png"
+        imageAlt="Confident Black female professional on the phone in a modern studio"
+      />
 
       <FilmstripDivider />
 
-      {/* ===== CONTACT FORM & DETAILS ===== */}
+      {/* Contact Form & Details */}
       <section className="section-padding">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             {/* Left: Form */}
             <Reveal>
-              <form className="space-y-6" method="POST" action="#" noValidate>
-                {/* Name */}
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="name" className="font-body text-sm text-text">
-                    Full Name
-                  </label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    className="bg-surface border border-line-strong text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
-                    placeholder="Your name"
-                  />
-                </div>
+              <div className="bg-surface/30 p-8 md:p-12 border border-line-strong">
+                <h2 className="text-3xl font-bold mb-8">Send a _Message_</h2>
+                <form className="space-y-6" method="POST" action="#" noValidate>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="flex flex-col gap-2">
+                      <label htmlFor="name" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
+                        Full Name
+                      </label>
+                      <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        required
+                        className="bg-bg border border-line text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-2">
+                      <label htmlFor="email" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
+                        Email Address
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        className="bg-bg border border-line text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
+                        placeholder="your@email.com"
+                      />
+                    </div>
+                  </div>
 
-                {/* Email */}
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="email" className="font-body text-sm text-text">
-                    Email Address
-                  </label>
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                    className="bg-surface border border-line-strong text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
-                    placeholder="your@email.com"
-                  />
-                </div>
+                  <div className="flex flex-col gap-2">
+                    <label htmlFor="organisation" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
+                      Organisation
+                    </label>
+                    <input
+                      id="organisation"
+                      name="organisation"
+                      type="text"
+                      className="bg-bg border border-line text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
+                      placeholder="Your organisation"
+                    />
+                  </div>
 
-                {/* Organisation */}
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="organisation" className="font-body text-sm text-text">
-                    Organisation
-                  </label>
-                  <input
-                    id="organisation"
-                    name="organisation"
-                    type="text"
-                    className="bg-surface border border-line-strong text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition"
-                    placeholder="Your organisation"
-                  />
-                </div>
+                  <div className="flex flex-col gap-2">
+                    <label htmlFor="enquiry-type" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
+                      Enquiry Type
+                    </label>
+                    <select
+                      id="enquiry-type"
+                      name="enquiry-type"
+                      required
+                      className="bg-bg border border-line text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition cursor-pointer"
+                    >
+                      <option value="">Select an option</option>
+                      <option value="production">Production Company</option>
+                      <option value="trainee">Trainee / Intern</option>
+                      <option value="funder">Funder / Partner</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
 
-                {/* Role / Enquiry Type */}
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="enquiry-type" className="font-body text-sm text-text">
-                    Enquiry Type
-                  </label>
-                  <select
-                    id="enquiry-type"
-                    name="enquiry-type"
-                    required
-                    className="bg-surface border border-line-strong text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition cursor-pointer"
+                  <div className="flex flex-col gap-2">
+                    <label htmlFor="message" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      required
+                      className="bg-bg border border-line text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition resize-none"
+                      placeholder="How can we help?"
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="w-full font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition"
                   >
-                    <option value="">Select an option</option>
-                    <option value="production">Production Company</option>
-                    <option value="trainee">Trainee / Intern</option>
-                    <option value="funder">Funder / Partner</option>
-                    <option value="media">Media / Press</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                {/* Message */}
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="message" className="font-body text-sm text-text">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    required
-                    className="bg-surface border border-line-strong text-text px-4 py-3 font-body text-sm focus:outline-none focus:border-gold transition resize-none"
-                    placeholder="Tell us how we can help..."
-                  />
-                </div>
-
-                {/* Submit */}
-                <button
-                  type="submit"
-                  className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-6 py-3 hover:bg-gold-soft transition w-full"
-                >
-                  Send Enquiry
-                </button>
-
-                <p className="text-muted text-sm mt-4">
-                  We respond to all enquiries within two business days.
-                </p>
-              </form>
-            </Reveal>
-
-            {/* Right: Contact Details & CTAs */}
-            <Reveal>
-              <div className="space-y-8">
-                {/* Email */}
-                <div>
-                  <h3 className="font-display text-lg font-600 text-text mb-2">Email</h3>
-                  <a
-                    href="mailto:info@safilmacademy.org"
-                    className="font-body text-base text-gold hover:text-gold-soft transition"
-                  >
-                    info@safilmacademy.org
-                  </a>
-                </div>
-
-                {/* LinkedIn */}
-                <div>
-                  <h3 className="font-display text-lg font-600 text-text mb-2">LinkedIn</h3>
-                  <a
-                    href="https://linkedin.com/company/sa-film-academy"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-body text-base text-gold hover:text-gold-soft transition"
-                  >
-                    SA Film Academy
-                  </a>
-                </div>
-
-                {/* Cineterns CTA */}
-                <div className="border border-gold p-6 bg-surface">
-                  <h3 className="font-display text-lg font-600 text-text mb-3">
-                    For Trainees & Interns
-                  </h3>
-                  <p className="font-body text-sm text-text mb-4 leading-relaxed">
-                    Access the Cineterns placement portal to view current opportunities and submit your profile.
-                  </p>
-                  <a
-                    href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-block font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition"
-                  >
-                    Access Cineterns Portal →
-                  </a>
-                </div>
-
-                {/* GreenSet CTA */}
-                <div className="border border-gold p-6 bg-surface">
-                  <h3 className="font-display text-lg font-600 text-text mb-3">
-                    For Production Companies
-                  </h3>
-                  <p className="font-body text-sm text-text mb-4 leading-relaxed">
-                    Explore GreenSet, our sustainability framework and toolkit for the South African film industry.
-                  </p>
-                  <a
-                    href="https://www.greenset.org/"
-                    target="_blank"
-                    rel="noopener"
-                    className="inline-block font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition"
-                  >
-                    Learn About GreenSet →
-                  </a>
-                </div>
+                    Send Message →
+                  </button>
+                </form>
               </div>
             </Reveal>
+
+            {/* Right: Details */}
+            <div className="space-y-12">
+              <Reveal delay={0.2}>
+                <div className="space-y-4">
+                  <span className="eyebrow">Direct Contact</span>
+                  <h3 className="text-2xl font-bold">Reach out _directly._</h3>
+                  <div className="space-y-2 font-body text-muted">
+                    <p>Email: <a href="mailto:info@safilmacademy.org" className="text-gold hover:text-gold-soft transition">info@safilmacademy.org</a></p>
+                    <p>Phone: +27 (0) 21 461 7950</p>
+                  </div>
+                </div>
+              </Reveal>
+
+              <Reveal delay={0.3}>
+                <div className="space-y-4">
+                  <span className="eyebrow">Location</span>
+                  <h3 className="text-2xl font-bold">Visit our _Studio._</h3>
+                  <div className="space-y-2 font-body text-muted">
+                    <p>Atlantic Studios</p>
+                    <p>70-72 Montague Drive</p>
+                    <p>Montague Gardens, Cape Town</p>
+                    <p>South Africa, 7441</p>
+                  </div>
+                </div>
+              </Reveal>
+
+              <Reveal delay={0.4}>
+                <div className="space-y-4">
+                  <span className="eyebrow">Social</span>
+                  <h3 className="text-2xl font-bold">Follow the _Journey._</h3>
+                  <div className="flex gap-6 font-body text-xs font-semibold uppercase tracking-widest text-gold">
+                    <a href="#" className="hover:text-gold-soft transition">LinkedIn</a>
+                    <a href="#" className="hover:text-gold-soft transition">Instagram</a>
+                    <a href="#" className="hover:text-gold-soft transition">Facebook</a>
+                  </div>
+                </div>
+              </Reveal>
+
+              <Reveal delay={0.5}>
+                <div className="pt-8">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-cineterns-portal.png"
+                    alt="Cineterns Portal"
+                    brief="Laptop screen showing Cineterns portal, cinematic lighting"
+                    orientation="landscape"
+                    className="opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
+                  />
+                </div>
+              </Reveal>
+            </div>
           </div>
         </div>
       </section>
 
       <FilmstripDivider />
-    </>
+    </main>
   );
 }
