@@ -51,3 +51,5 @@ yarn-error.log*
 
 # --- Downloaded Getty originals (host on R2 instead of committing) ---
 /public/images/getty-originals/
+
+.vercel
