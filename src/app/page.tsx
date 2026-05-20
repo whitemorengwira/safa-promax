@@ -30,7 +30,7 @@ export default function HomePage() {
         eyebrow="MICT SETA Accredited · Est. 2006 · Non-Profit Company"
         title="SA Film Academy _— Talent Pipeline of the South African Screen._"
         subtitle={HERO.lead}
-        imageSrc="/images/ai/safa-hero-crew.png"
+        imageSrc="/images/ai/v2/safa-hero-red-cinematic-black-trainees.png"
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       >
         <div className="flex flex-wrap gap-4">

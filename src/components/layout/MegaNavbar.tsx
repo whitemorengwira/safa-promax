@@ -200,8 +200,9 @@ export default function MegaNavbar() {
                       <h3 className="text-gold text-xs font-bold uppercase tracking-widest">
                         {MEGA_PANELS[tab.key].heading}
                       </h3>
-                      <Link href={tab.href} className="text-[10px] text-muted hover:text-red-600 transition-colors uppercase tracking-widest font-bold">
-                        View All {tab.label} →
+                      <Link href={tab.href} className="text-[10px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
+                        View All {tab.label}
+                        <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
                       </Link>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -209,14 +210,15 @@ export default function MegaNavbar() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="group/item block"
+                          className="group/item block p-4 -m-4 rounded transition-all duration-300 hover:bg-red-600/10"
                         >
                           <div className="mb-2">
-                            <h4 className="text-text font-bold text-sm group-hover/item:text-red-600 transition-colors">
+                            <h4 className="text-text font-bold text-sm group-hover/item:text-red-600 transition-colors duration-200">
                               {item.title}
                             </h4>
+                            <div className="h-0.5 w-0 bg-red-600 group-hover/item:w-12 transition-all duration-300 mt-1" />
                           </div>
-                          <p className="text-muted text-xs leading-relaxed group-hover/item:text-text/60 transition-colors">
+                          <p className="text-muted text-xs leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
                             {item.description}
                           </p>
                         </Link>
@@ -286,16 +288,16 @@ export default function MegaNavbar() {
                 >
                   {tab.label}
                 </Link>
-                <div className="space-y-4 pl-4 border-l-2 border-red-600/20">
+                <div className="space-y-4 pl-4 border-l-2 border-red-600/50">
                   {MEGA_PANELS[tab.key].items.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="block group"
+                      className="block group p-3 -ml-3 -pl-3 rounded transition-all duration-200 hover:bg-red-600/10 border-l-2 border-transparent group-hover:border-l-red-600"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      <div className="text-text font-bold text-sm group-hover:text-red-600 transition-colors">{item.title}</div>
-                      <div className="text-muted text-[10px] uppercase tracking-wider mt-1">{item.description}</div>
+                      <div className="text-text font-bold text-sm group-hover:text-red-600 transition-colors duration-200">{item.title}</div>
+                      <div className="text-muted text-[10px] uppercase tracking-wider mt-1 group-hover:text-text/60 transition-colors">{item.description}</div>
                     </Link>
                   ))}
                 </div>
