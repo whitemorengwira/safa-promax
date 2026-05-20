@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 interface MegaDropdownItem {
@@ -155,8 +156,14 @@ export default function MegaNavbar() {
       >
         {/* Wordmark with Restored Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 bg-gold rounded-full flex items-center justify-center overflow-hidden border border-gold/50 group-hover:border-red-600 transition-colors">
-            <span className="text-surface font-black text-base tracking-tighter">SAFA</span>
+          <div className="relative w-10 h-10 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
+            <Image
+              src="/images/logos/sa-film-academy-logo.png"
+              alt="SA Film Academy Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-display text-lg font-black text-text group-hover:text-red-600 transition-colors leading-none">
@@ -252,8 +259,14 @@ export default function MegaNavbar() {
       {/* Mobile Navbar */}
       <nav className="lg:hidden fixed top-0 z-50 w-full h-16 bg-surface border-b border-red-600/30 flex items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
-            <span className="text-surface font-black text-xs">SAFA</span>
+          <div className="w-8 h-8 overflow-hidden flex items-center justify-center">
+            <Image
+              src="/images/logos/sa-film-academy-logo.png"
+              alt="SA Film Academy Logo"
+              width={32}
+              height={32}
+              className="object-contain"
+            />
           </div>
           <span className="font-display text-sm font-black text-text">SA Film Academy</span>
         </Link>
