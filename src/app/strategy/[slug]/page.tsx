@@ -77,6 +77,7 @@ export default function StrategyPage({ params }: PageProps) {
       {/* Hero band */}
       <section className="relative min-h-[60vh] md:min-h-[70vh] overflow-hidden">
         <ImagePlaceholder
+          src={data.heroImageBrief.startsWith('/') ? data.heroImageBrief : undefined}
           alt={data.heroImageAlt}
           brief={data.heroImageBrief}
           orientation="video"
@@ -104,28 +105,51 @@ export default function StrategyPage({ params }: PageProps) {
 
       <FilmstripDivider />
 
-      {/* Intro copy band */}
+      {/* Intro copy band with 70/30 visual ratio */}
       {introBlocks.length > 0 && (
         <>
-          <SectionShell
-            eyebrow={`${section.num} ·`}
-            title={section.title}
-            subtitle={section.subtitle}
-            titleTag="h2"
-            showDivider={false}
-          >
-            <div className="space-y-6 mt-8">
-              {introBlocks.map((block, idx) => (
-                block.type === 'paragraph' && (
-                  <Reveal key={idx} delay={idx * 0.1}>
-                    <p className="font-body text-base text-text leading-relaxed max-w-70ch">
-                      {block.text}
-                    </p>
-                  </Reveal>
-                )
-              ))}
+          <section className="section-padding">
+            <div className="container-max">
+              <div className="layout-visual-heavy">
+                {/* 70% Visual: Hero image */}
+                <div className="visual-container order-last lg:order-first">
+                  <ImagePlaceholder
+                    src={data.heroImageBrief.startsWith('/') ? data.heroImageBrief : undefined}
+                    alt={data.heroImageAlt}
+                    brief={data.heroImageBrief}
+                    orientation="video"
+                    className="w-full h-auto"
+                  />
+                </div>
+
+                {/* 30% Text: Intro copy with floating animation */}
+                <div className="text-container">
+                  <span className="eyebrow mb-2">
+                    <span className="num">{section.num} ·</span>
+                  </span>
+                  <WordReveal tag="h2" text={section.title} className="mb-4" />
+                  {section.subtitle && (
+                    <Reveal className="mb-6">
+                      <p className="font-display-alt italic text-gold-soft text-lg leading-relaxed">
+                        {section.subtitle}
+                      </p>
+                    </Reveal>
+                  )}
+                  <div className="space-y-4">
+                    {introBlocks.map((block, idx) => (
+                      block.type === 'paragraph' && (
+                        <Reveal key={idx} delay={idx * 0.12} className="floating-text">
+                          <p className="font-body text-base text-text leading-relaxed">
+                            {block.text}
+                          </p>
+                        </Reveal>
+                      )
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
-          </SectionShell>
+          </section>
           <FilmstripDivider />
         </>
       )}
@@ -237,7 +261,7 @@ export default function StrategyPage({ params }: PageProps) {
         </>
       )}
 
-      {/* Remaining copy */}
+      {/* Remaining copy with scroll-triggered floating motion */}
       {remainingBlocks.length > 0 && (
         <>
           <section className="section-padding">
@@ -245,8 +269,8 @@ export default function StrategyPage({ params }: PageProps) {
               <div className="space-y-6">
                 {remainingBlocks.map((block, idx) => (
                   block.type === 'paragraph' && (
-                    <Reveal key={idx} delay={idx * 0.08}>
-                      <p className="font-body text-base text-text leading-relaxed max-w-70ch">
+                    <Reveal key={idx} delay={idx * 0.08} className="scroll-float">
+                      <p className="font-body text-base text-text leading-relaxed max-w-70ch floating-text-stagger">
                         {block.text}
                       </p>
                     </Reveal>

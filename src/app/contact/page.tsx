@@ -12,6 +12,7 @@ export default function ContactPage() {
       {/* ===== HERO SECTION ===== */}
       <section className="relative min-h-[60vh] md:min-h-[70vh] overflow-hidden">
         <ImagePlaceholder
+          src="/images/road-home/road-home-training-007.jpg"
           alt="SA Film Academy — office and team"
           brief="South African office environment, Black team members, collaborative workspace, professional film industry setting"
           orientation="video"
@@ -167,7 +168,7 @@ export default function ContactPage() {
                     Access the Cineterns placement portal to view current opportunities and submit your profile.
                   </p>
                   <a
-                    href={process.env.NEXT_PUBLIC_CINETERNS_URL || '#'}
+                    href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
                     target="_blank"
                     rel="noreferrer"
                     className="inline-block font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition"
@@ -184,12 +185,14 @@ export default function ContactPage() {
                   <p className="font-body text-sm text-text mb-4 leading-relaxed">
                     Explore GreenSet, our sustainability framework and toolkit for the South African film industry.
                   </p>
-                  <Link
-                    href="/strategy/implementation"
+                  <a
+                    href="https://www.greenset.org/"
+                    target="_blank"
+                    rel="noopener"
                     className="inline-block font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition"
                   >
                     Learn About GreenSet →
-                  </Link>
+                  </a>
                 </div>
               </div>
             </Reveal>

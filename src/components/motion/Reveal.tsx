@@ -31,13 +31,15 @@ export function Reveal({
     hidden: {
       opacity: 0,
       y: shouldReduceMotion ? 0 : yOffset,
+      scale: shouldReduceMotion ? 1 : 0.98, // Subtle scale-up effect
     },
     visible: {
       opacity: 1,
       y: 0,
+      scale: 1,
       transition: {
         duration: duration,
-        ease: [0.22, 1, 0.36, 1], // cubic-bezier values matching framer ease array requirements
+        ease: [0.16, 1, 0.3, 1], // More aggressive premium ease
         delay: delay,
       },
     },

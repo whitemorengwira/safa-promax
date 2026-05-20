@@ -20,8 +20,8 @@ export interface SectionPageData {
 export const pageData: Record<string, SectionPageData> = {
   // Section 02 — The Organisation
   organisation: {
-    heroImageBrief: 'South African film production on set, diverse crew, professional lighting and equipment, documentary style photography',
-    heroImageAlt: 'SA Film Academy production trainee working on set',
+    heroImageBrief: '/images/road-home/road-home-training-000.jpg',
+    heroImageAlt: 'SA Film Academy production trainee working on set - Real asset from Road Home PDF',
     diagram: 'none',
     metrics: [
       {
@@ -61,8 +61,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 03 — The Brand Ecosystem
   ecosystem: {
-    heroImageBrief: 'Corporate headquarters, film academy building exterior, modern architecture with South African context, daytime',
-    heroImageAlt: 'SA Film Academy building',
+    heroImageBrief: '/images/road-home/road-home-training-004.jpg',
+    heroImageAlt: 'SA Film Academy building - Real asset from Road Home PDF',
     diagram: 'ecosystem',
     cards: [
       {
@@ -100,8 +100,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 04 — Digital Infrastructure
   infrastructure: {
-    heroImageBrief: 'Data center or server room, technology infrastructure, network cables and equipment, professional environment',
-    heroImageAlt: 'Digital infrastructure and technology stack',
+    heroImageBrief: '/images/road-home/road-home-training-007.jpg',
+    heroImageAlt: 'Digital infrastructure and technology stack - Real asset from Road Home PDF',
     diagram: 'circuit',
     tableHeaders: ['Technology', 'Commercial Translation'],
     tableRows: [
@@ -115,8 +115,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 05 — The 12-Month Marketing Calendar
   calendar: {
-    heroImageBrief: 'Timeline or project planning visualization, calendar or roadmap imagery, strategic planning concept',
-    heroImageAlt: '12-month marketing calendar and timeline',
+    heroImageBrief: '/images/road-home/road-home-training-008.jpg',
+    heroImageAlt: '12-month marketing calendar and timeline - Real asset from Road Home PDF',
     diagram: 'none',
     events: [
       {
@@ -172,8 +172,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 06 — Agentic AI Marketing Engine
   'agentic-ai': {
-    heroImageBrief: 'Futuristic AI or artificial intelligence concept, neural networks, digital agents, technology visualization',
-    heroImageAlt: 'Agentic AI engine and autonomous workflows',
+    heroImageBrief: '/images/road-home/road-home-training-009.jpg',
+    heroImageAlt: 'Agentic AI engine and autonomous workflows - Real asset from Road Home PDF',
     diagram: 'agentorbit',
     agents: [
       {
@@ -206,15 +206,15 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 07 — SEO & AI SEO Strategy
   seo: {
-    heroImageBrief: 'Search engine or web optimization concept, digital visibility, organic search ranking',
-    heroImageAlt: 'SEO and search engine optimisation strategy',
+    heroImageBrief: '/images/gen/seo-strategy.png',
+    heroImageAlt: 'Young Black professional woman analyzing SEO performance and data flows in a cinematic production office.',
     diagram: 'topiccluster',
   },
 
   // Section 08 — Brand Architecture & Identity
   brand: {
-    heroImageBrief: 'Brand identity and visual language, color palette, typography, design system elements',
-    heroImageAlt: 'Brand architecture and identity system',
+    heroImageBrief: '/images/gen/brand-identity.png',
+    heroImageAlt: 'Young Black professional man reviewing brand identity and design system in a high-end creative studio.',
     diagram: 'brandfamily',
     cards: [
       {
@@ -246,8 +246,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 09 — Institutional Voice & Executive Visibility
   leadership: {
-    heroImageBrief: 'Executive portrait or institutional leadership, professional headshot, African film industry context',
-    heroImageAlt: 'SA Film Academy institutional leadership',
+    heroImageBrief: '/images/gen/leadership.png',
+    heroImageAlt: 'Cinematic executive portrait of a young Black woman leader in the South African film industry.',
     diagram: 'none',
     tableHeaders: ['Window', 'Activation', 'Target Signal'],
     tableRows: [
@@ -259,8 +259,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 10 — B-BBEE & Skills Levy Commercial Strategy
   commercial: {
-    heroImageBrief: 'Corporate team or business meeting, B-BBEE scorecard concept, skills development workshop',
-    heroImageAlt: 'B-BBEE and skills levy commercial strategy',
+    heroImageBrief: '/images/gen/commercial-strategy.png',
+    heroImageAlt: 'Young Black professionals in a cinematic boardroom discussing B-BBEE scorecard and commercial strategy.',
     diagram: 'none',
     cards: [
       {
@@ -286,8 +286,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 11 — Community, Alumni & Stakeholder Engagement
   community: {
-    heroImageBrief: 'Diverse team or community gathering, South African film professionals, collaborative workspace',
-    heroImageAlt: 'Community and alumni engagement',
+    heroImageBrief: '/images/gen/community-engagement.png',
+    heroImageAlt: 'Young Black film professionals collaborating in a cinematic community workspace.',
     diagram: 'none',
     cards: [
       {
@@ -331,8 +331,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 12 — Content Marketing & Storytelling Strategy
   content: {
-    heroImageBrief: 'Content creation studio, film equipment, editing workspace, creative environment',
-    heroImageAlt: 'Content marketing and storytelling studio',
+    heroImageBrief: '/images/gen/content-storytelling.png',
+    heroImageAlt: 'Young Black professional operating a cinema camera in a high-end content creation studio.',
     diagram: 'none',
     cards: [
       {
@@ -370,8 +370,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 13 — Partnerships, PR & Media Relations
   partnerships: {
-    heroImageBrief: 'Partnership or collaboration concept, handshake, corporate networking, multi-stakeholder event',
-    heroImageAlt: 'Partnerships and media relations',
+    heroImageBrief: '/images/gen/partnerships.png',
+    heroImageAlt: 'Young Black professionals in a cinematic corporate setting discussing strategic partnerships.',
     diagram: 'none',
     cards: [
       {
@@ -415,8 +415,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 14 — Competitive Positioning & Differentiation
   positioning: {
-    heroImageBrief: 'Competitive analysis or market positioning concept, strategic positioning diagram, market landscape',
-    heroImageAlt: 'Competitive positioning strategy',
+    heroImageBrief: '/images/gen/positioning.png',
+    heroImageAlt: 'Young Black professional woman analyzing competitive positioning and market landscape.',
     diagram: 'radar',
     tableHeaders: ['Dimension', 'Sector Baseline', 'SA Film Academy Position'],
     tableRows: [
@@ -455,8 +455,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 15 — Agentic AI in the Training Curriculum
   curriculum: {
-    heroImageBrief: 'Film education classroom or training environment, post-production suite, digital tools',
-    heroImageAlt: 'AI training curriculum and digital tools',
+    heroImageBrief: '/images/gen/curriculum.png',
+    heroImageAlt: 'Young Black students in a cinematic post-production suite learning AI workflows.',
     diagram: 'none',
     cards: [
       {
@@ -500,8 +500,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 16 — Key Performance Indicators & Measurement Dashboard
   kpis: {
-    heroImageBrief: 'Data dashboard or analytics visualization, metrics and KPIs, strategic measurement',
-    heroImageAlt: 'KPI dashboard and measurement framework',
+    heroImageBrief: '/images/gen/kpis.png',
+    heroImageAlt: 'Young Black professional reviewing a cinematic KPI dashboard and measurement framework.',
     diagram: 'none',
     tableHeaders: ['Indicator', 'Baseline (Jun 2026)', 'Target (May 2027)', 'Owner'],
     tableRows: [
@@ -525,8 +525,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 17 — Budget Framework
   budget: {
-    heroImageBrief: 'Budget or financial planning spreadsheet, cost management, operational finance',
-    heroImageAlt: 'Budget framework and financial planning',
+    heroImageBrief: '/images/gen/budget-framework.png',
+    heroImageAlt: 'Young Black professional woman reviewing a cinematic budget framework and financial plan.',
     diagram: 'none',
     budgetCategories: [
       {
@@ -560,8 +560,8 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 18 — Implementation Commencement
   implementation: {
-    heroImageBrief: 'Project launch or implementation kickoff, diverse team in action, South African film crew',
-    heroImageAlt: 'Implementation and activation launch',
+    heroImageBrief: '/images/gen/implementation-launch.png',
+    heroImageAlt: 'Young Black film professionals in a cinematic project launch and implementation kickoff.',
     diagram: 'none',
     metrics: [
       {

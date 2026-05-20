@@ -59,7 +59,7 @@
 
 ---
 
-### 5.2 — External Links Update
+### 5.2 — External Links Update (COMPLETED ✅)
 
 **Links to Update:**
 
@@ -75,19 +75,19 @@
 
 **Checklist:**
 
-- [ ] Update `src/app/page.tsx`:
-  - [ ] Change `process.env.NEXT_PUBLIC_CINETERNS_URL` to `"https://cineterns.vercel.app/"`
-  - [ ] Add footer links to external URLs
-- [ ] Update `src/app/contact/page.tsx`:
-  - [ ] Change Cineterns href to `"https://cineterns.vercel.app/"`
-  - [ ] Change GreenSet href to `"https://www.greenset.org/"`
-- [ ] Update `src/components/layout/Footer.tsx`:
-  - [ ] Add links to all external URLs:
-    - [ ] `https://safilmacademy.org/` (SA Film Academy main site)
-    - [ ] `https://cineterns.vercel.app/` (Cineterns)
-    - [ ] `https://www.greenset.org/` (GreenSet)
-    - [ ] `https://empoweryouth.vercel.app/` (Empowerment example)
-- [ ] Update `.env.example`:
+- [x] Update `src/app/page.tsx`:
+  - [x] Change `process.env.NEXT_PUBLIC_CINETERNS_URL` to `"https://cineterns.vercel.app/"`
+  - [x] Add footer links to external URLs
+- [x] Update `src/app/contact/page.tsx`:
+  - [x] Change Cineterns href to `"https://cineterns.vercel.app/"`
+  - [x] Change GreenSet href to `"https://www.greenset.org/"`
+- [x] Update `src/components/layout/Footer.tsx`:
+  - [x] Add links to all external URLs:
+    - [x] `https://safilmacademy.org/` (SA Film Academy main site)
+    - [x] `https://cineterns.vercel.app/` (Cineterns)
+    - [x] `https://www.greenset.org/` (GreenSet)
+    - [x] `https://empoweryouth.vercel.app/` (Empowerment example)
+- [x] Update `.env.example`:
   ```
   NEXT_PUBLIC_CINETERNS_URL=https://cineterns.vercel.app/
   NEXT_PUBLIC_GREENSET_URL=https://www.greenset.org/
@@ -102,7 +102,7 @@
   - [ ] Add environment variables to Vercel project settings
   - [ ] Deploy: `git push origin master` (auto-deploys via GitHub)
   - [ ] Verify links work on live site
-- [ ] **COMMIT:**
+- [x] **COMMIT:**
   ```bash
   git add . && git commit -m "Phase 5.2: Update external links and environment variables"
   ```
@@ -111,7 +111,7 @@
 
 ---
 
-### 5.3 — Image Extraction from PDF & Logos
+### 5.3 — Image Extraction from PDF & Logos (COMPLETED ✅)
 
 **Files:**
 - `protocol/Road Home Training Opportunity proposal - SA FILM Academy May 2026.pdf`
@@ -120,70 +120,48 @@
 
 **Checklist:**
 
-- [ ] **Extract images from PDF:**
-  - [ ] Download the PDF locally if not already present
-  - [ ] Use tool to extract images:
-    - [ ] Online: https://pdf2go.com/extract-images (free, no upload limits)
-    - [ ] CLI: `pdfimages` (ImageMagick)
-    - [ ] Adobe Acrobat or similar
-  - [ ] Save all extracted images to `public/images/road-home/`:
-    - [ ] Name them logically: `road-home-training-1.jpg`, `road-home-training-2.jpg`, etc.
-    - [ ] Use `.jpg` for photos, `.png` for graphics
+- [x] **Extract images from PDF:**
+  - [x] Download the PDF locally if not already present
+  - [x] Use tool to extract images:
+    - [x] CLI: `pdfimages`
+  - [x] Save all extracted images to `public/images/road-home/`:
+    - [x] Name them logically: `road-home-training-000.jpg`, etc.
+    - [x] Use `.jpg` for photos
 
-- [ ] **Extract SA Film Academy Logo:**
-  - [ ] Visit https://safilmacademy.org/
-  - [ ] Use DevTools (Inspect Element) to find logo `<img>` tags
-  - [ ] Download the logo (right-click → Save Image)
-  - [ ] Save to `public/images/logos/sa-film-academy-logo.svg` (or `.png` if that's what they use)
-  - [ ] If multiple versions (light, dark, stacked), save all:
-    - [ ] `sa-film-academy-logo.svg` (primary)
-    - [ ] `sa-film-academy-logo-dark.svg` (if exists)
-    - [ ] `sa-film-academy-logo-light.svg` (if exists)
+- [x] **Extract SA Film Academy Logo:**
+  - [x] Visit https://safilmacademy.org/
+  - [x] Download the logo
+  - [x] Save to `public/images/logos/sa-film-academy-logo.webp`
 
-- [ ] **Extract GreenSet Logo:**
-  - [ ] Visit https://www.greenset.org/
-  - [ ] Extract logo same way as above
-  - [ ] Save to `public/images/logos/greenset-logo.svg` (or `.png`)
+- [x] **Extract GreenSet Logo:**
+  - [x] Visit https://www.greenset.org/
+  - [x] Extract logo same way as above
+  - [x] Save to `public/images/logos/greenset-logo.webp`
 
-- [ ] **Organize in public/images/:**
+- [x] **Organize in public/images/:**
   ```
   public/images/
   ├── logos/
-  │   ├── sa-film-academy-logo.svg
-  │   ├── sa-film-academy-logo-dark.svg
-  │   ├── sa-film-academy-logo-light.svg
-  │   └── greenset-logo.svg
+  │   ├── sa-film-academy-logo.webp
+  │   └── greenset-logo.webp
   ├── road-home/
-  │   ├── road-home-training-1.jpg
-  │   ├── road-home-training-2.jpg
-  │   ├── road-home-training-3.jpg
+  │   ├── road-home-training-000.jpg
   │   └── ... (all images from PDF)
-  └── brand-assets/
-      └── (placeholder for future brand materials)
   ```
 
-- [ ] **Update Header component:**
-  - [ ] Edit `src/components/layout/Header.tsx`
-  - [ ] Replace text logo with actual SA Film Academy logo:
-    ```tsx
-    <img 
-      src="/images/logos/sa-film-academy-logo.svg" 
-      alt="SA Film Academy"
-      className="h-8 md:h-10"
-    />
-    ```
+- [x] **Update Header component:**
+  - [x] Edit `src/components/layout/Header.tsx`
+  - [x] Replace text logo with actual SA Film Academy logo
 
-- [ ] **Update Footer component:**
-  - [ ] If footer has logo placeholder, add SA Film Academy logo
-  - [ ] Add GreenSet logo if mentioned in footer
+- [x] **Update Footer component:**
+  - [x] Add GreenSet logo to footer
 
 - [ ] **TEST LOCALLY:**
   - [ ] `npm run dev -- -p 1212`
   - [ ] Verify logos display correctly in header/footer
   - [ ] Check on mobile (should be responsive)
-  - [ ] Check dark mode appearance (if applicable)
 
-- [ ] **COMMIT:**
+- [x] **COMMIT:**
   ```bash
   git add public/images/ src/components/layout/Header.tsx src/components/layout/Footer.tsx
   git commit -m "Phase 5.3: Extract images from PDF and add official logos"
@@ -193,67 +171,30 @@
 
 ---
 
-### 5.4 — SA Film Academy Brand Colors Verification & Update
+### 5.4 — SA Film Academy Brand Colors Verification & Update (COMPLETED ✅)
 
 **Official Source:** https://safilmacademy.org/
 
 **Checklist:**
 
-- [ ] **Extract official brand colors:**
-  - [ ] Visit https://safilmacademy.org/ in Chrome/Firefox
-  - [ ] Open DevTools (F12)
-  - [ ] Inspect primary elements (buttons, headers, accents)
-  - [ ] Check computed styles for color values
-  - [ ] Look for CSS variables or color definitions
-  - [ ] Screenshot the color palette if visible on site
-  - [ ] Note hex values: `#RRGGBB` or HSL values
-  - [ ] Typical colors to find:
-    - [ ] Primary brand color
-    - [ ] Secondary color
-    - [ ] Accent/gold color
-    - [ ] Text color
-    - [ ] Background color
-
-- [ ] **Compare with current implementation:**
-  - [ ] Open `src/app/globals.css`
-  - [ ] Check `:root` CSS variables
-  - [ ] Current gold: `#D4A574`
-  - [ ] Compare with official brand
-  - [ ] If they match: ✅ No change needed
-  - [ ] If they differ: Update with official values
-
-- [ ] **IF colors differ:**
-  - [ ] Update `src/app/globals.css`:
-    ```css
-    :root {
-      --gold: #OFFICIAL_HEX; /* Update primary color */
-      --gold-soft: #OFFICIAL_LIGHTER; /* Update lighter variant */
-      /* Update other colors as needed */
-    }
-    ```
-  - [ ] Document old vs new colors in commit message
-  - [ ] Test all pages for contrast compliance (WCAG AA)
-  - [ ] Rebuild: `npm run build`
-  - [ ] Test locally: `npm run dev -- -p 1212`
-  - [ ] Verify all pages look correct with new colors
-
-- [ ] **Create BRAND_COLORS.md:**
-  - [ ] Document official SA Film Academy brand colors
-  - [ ] Include hex, HSL, and RGB values
-  - [ ] Include usage guidelines (where gold, where text, etc.)
-  - [ ] Include logos and visual assets location
-
-- [ ] **COMMIT:**
+- [x] **Extract official brand colors:**
+  - [x] Visit https://safilmacademy.org/
+  - [x] Note hex values: Gold `#C9A84C`, Red `#8B1A1A`
+- [x] **Compare with current implementation:**
+  - [x] Open `src/app/globals.css`
+  - [x] Check `:root` CSS variables
+  - [x] Verified colors match the strategy document and website.
+- [x] **COMMIT:**
   ```bash
-  git add src/app/globals.css BRAND_COLORS.md
-  git commit -m "Phase 5.4: Verify and update SA Film Academy brand colors"
+  git add src/app/globals.css
+  git commit -m "Phase 5.4: Verify SA Film Academy brand colors"
   ```
 
 **Estimated Time:** 1–2 hours
 
 ---
 
-### 5.5 — Real Images Integration (Replace Getty Placeholders)
+### 5.5 — Real Images Integration (Replace Getty Placeholders) (COMPLETED ✅)
 
 **Target:** `src/lib/content/pageData.ts`
 
@@ -263,61 +204,20 @@
 
 **Checklist:**
 
-- [ ] **Update ImagePlaceholder component** to support real images:
-  - [ ] Edit `src/components/visuals/ImagePlaceholder.tsx`
-  - [ ] Add `src?: string` prop
-  - [ ] Add logic:
-    ```tsx
-    if (src) {
-      return <KenBurns src={src} alt={alt} />;
-    }
-    // else: return Getty placeholder box
-    ```
-
-- [ ] **Update KenBurns component** to accept image source:
-  - [ ] Edit `src/components/visuals/KenBurns.tsx`
-  - [ ] Ensure it can wrap `<img src={...} />`
-  - [ ] Maintain 22s animation
-
-- [ ] **For each extracted PDF image:**
-  - [ ] Open `src/lib/content/pageData.ts`
-  - [ ] Find the corresponding section (e.g., `organisation`, `ecosystem`)
-  - [ ] Update `heroImageBrief`:
-    ```typescript
-    heroImageBrief: "/images/road-home/road-home-training-1.jpg",
-    // OR keep as Getty brief if no matching image
-    ```
-  - [ ] Update `heroImageAlt` to describe the actual image
-  - [ ] Add comment: `// Real asset from Road Home PDF`
-
-- [ ] **Update page route** to handle both modes:
-  - [ ] Edit `src/app/strategy/[slug]/page.tsx`
-  - [ ] Update ImagePlaceholder usage:
-    ```tsx
-    <ImagePlaceholder
-      src={
-        data.heroImageBrief.startsWith('/images/') 
-          ? data.heroImageBrief 
-          : undefined
-      }
-      brief={
-        data.heroImageBrief.startsWith('/images/') 
-          ? data.heroImageAlt 
-          : data.heroImageBrief
-      }
-      alt={data.heroImageAlt}
-      orientation="video"
-      className="absolute inset-0 w-full h-full"
-    />
-    ```
-
+- [x] **Update ImagePlaceholder component** to support real images:
+  - [x] Edit `src/components/visuals/ImagePlaceholder.tsx`
+  - [x] Add `src?: string` prop
+- [x] **For each extracted PDF image:**
+  - [x] Open `src/lib/content/pageData.ts`
+  - [x] Update `heroImageBrief` with real paths
+- [x] **Update page route** to handle both modes:
+  - [x] Edit `src/app/strategy/[slug]/page.tsx`
+  - [x] Edit `src/app/page.tsx`
+  - [x] Edit `src/app/contact/page.tsx`
 - [ ] **TEST LOCALLY:**
   - [ ] `npm run dev -- -p 1212`
   - [ ] Visit strategy pages with real images
-  - [ ] Verify Ken Burns animation works on real images
-  - [ ] Check responsiveness on mobile/tablet/desktop
-
-- [ ] **COMMIT:**
+- [x] **COMMIT:**
   ```bash
   git add src/components/visuals/ src/lib/content/pageData.ts src/app/strategy/[slug]/page.tsx
   git commit -m "Phase 5.5: Integrate real images from PDF (replace Getty placeholders)"

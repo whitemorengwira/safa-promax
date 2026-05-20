@@ -20,7 +20,7 @@ export function CardGrid({
     <div className={`grid grid-cols-1 ${colClass} gap-6 lg:gap-8 ${className}`}>
       {cards.map((card, idx) => (
         <Reveal key={idx} delay={idx * 0.08}>
-          <div className="border border-line-strong bg-surface p-6 flex flex-col gap-3">
+          <div className="card-premium bg-surface p-6 flex flex-col gap-3">
             {card.num && (
               <span className="eyebrow text-xs">
                 <span className="num">{card.num}</span>

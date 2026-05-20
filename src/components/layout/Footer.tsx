@@ -12,7 +12,7 @@ import { ArrowUpRight } from "lucide-react";
  * 3. Copyright Row: Archival meta details.
  */
 export function Footer() {
-  const cineternsUrl = process.env.NEXT_PUBLIC_CINETERNS_URL || "https://cineterns.co.za";
+  const cineternsUrl = process.env.NEXT_PUBLIC_CINETERNS_URL || "https://cineterns.vercel.app/";
 
   return (
     <footer className="border-t border-line bg-bg-deep pt-16 pb-12 select-none">
@@ -42,11 +42,12 @@ export function Footer() {
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
             </a>
             <a
-              href="https://greenset.org"
+              href="https://www.greenset.org/"
               target="_blank"
               rel="noopener"
-              className="flex items-center gap-1 text-xs font-body text-muted hover:text-gold transition-colors w-fit border-b border-transparent hover:border-gold/30 pb-0.5"
+              className="flex items-center gap-2 text-xs font-body text-muted hover:text-gold transition-colors w-fit border-b border-transparent hover:border-gold/30 pb-0.5"
             >
+              <img src="/images/logos/greenset-logo.webp" alt="GreenSet" className="h-4 w-auto opacity-80" />
               greenset.org
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
             </a>

@@ -62,7 +62,7 @@ export function Nav() {
                     key={sec.href}
                     href={sec.href}
                     onClick={() => setDropdownOpen(false)}
-                    className={`text-[11px] font-body tracking-wider transition-colors hover:text-gold ${
+                    className={`link-premium text-[11px] font-body tracking-wider transition-colors hover:text-gold ${
                       isActive ? "text-gold font-medium" : "text-muted"
                     }`}
                   >

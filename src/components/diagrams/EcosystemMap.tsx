@@ -1,6 +1,7 @@
 'use client';
 
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { motion } from 'framer-motion';
 
 export function EcosystemMap() {
   return (
@@ -15,7 +16,12 @@ export function EcosystemMap() {
         <rect width="1000" height="500" fill="url(#gridEco)" />
 
         {/* Central SAFA entity */}
-        <g>
+        <motion.g
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
           <rect x="400" y="150" width="200" height="140" fill="var(--surface-2)" stroke="var(--gold)" strokeWidth="2" />
           <rect x="400" y="150" width="200" height="8" fill="var(--gold)" />
           <text x="500" y="210" textAnchor="middle" dominantBaseline="middle" fill="var(--gold)" fontFamily="var(--font-display)" fontSize="20" fontWeight="600">
@@ -27,7 +33,7 @@ export function EcosystemMap() {
           <text x="500" y="265" textAnchor="middle" dominantBaseline="middle" fill="var(--text)" opacity="0.6" fontFamily="var(--font-body)" fontSize="9" letterSpacing="1">
             MASTER BRAND · MICT SETA
           </text>
-        </g>
+        </motion.g>
 
         {/* Four programme entities radiating below */}
         {[
@@ -36,9 +42,22 @@ export function EcosystemMap() {
           { x: 650, label: 'GreenSet', desc: 'Sustainability' },
           { x: 850, label: 'Cineterns', desc: 'Portal' },
         ].map((entity, idx) => (
-          <g key={idx}>
+          <motion.g 
+            key={idx}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 + idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
+          >
             {/* Connection line */}
-            <line x1="500" y1="290" x2={entity.x} y2="350" stroke="var(--gold)" strokeWidth="1.5" opacity="0.5" />
+            <motion.line 
+              x1="500" y1="290" x2={entity.x} y2="350" 
+              stroke="var(--gold)" strokeWidth="1.5" opacity="0.5"
+              initial={{ pathLength: 0 }}
+              whileInView={{ pathLength: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.5 + idx * 0.1 }}
+            />
 
             {/* Entity box */}
             <rect
@@ -75,7 +94,7 @@ export function EcosystemMap() {
             >
               {entity.desc}
             </text>
-          </g>
+          </motion.g>
         ))}
 
         {/* Footer label */}

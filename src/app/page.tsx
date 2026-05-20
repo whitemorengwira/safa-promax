@@ -29,6 +29,7 @@ export default function HomePage() {
       <section className="relative min-h-screen -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px] overflow-hidden">
         {/* Full-bleed background */}
         <ImagePlaceholder
+          src="/images/road-home/road-home-training-000.jpg"
           alt="SA Film Academy — professional South African film crew on set"
           brief="South African film production set, professional Black crew members, cinematic lighting, wide angle, documentary style"
           orientation="video"
@@ -70,7 +71,7 @@ export default function HomePage() {
               </Link>
 
               <a
-                href={process.env.NEXT_PUBLIC_CINETERNS_URL || '#'}
+                href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
                 target="_blank"
                 rel="noreferrer"
                 className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-6 py-3 hover:bg-gold hover:text-bg transition"
@@ -301,7 +302,7 @@ export default function HomePage() {
                 </Link>
 
                 <a
-                  href={process.env.NEXT_PUBLIC_CINETERNS_URL || '#'}
+                  href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
                   target="_blank"
                   rel="noreferrer"
                   className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-8 py-4 hover:bg-gold hover:text-bg transition"

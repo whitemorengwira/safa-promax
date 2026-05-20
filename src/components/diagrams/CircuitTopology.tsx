@@ -1,6 +1,7 @@
 'use client';
 
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { motion } from 'framer-motion';
 
 export function CircuitTopology() {
   const nodes = [
@@ -15,11 +16,24 @@ export function CircuitTopology() {
     <SvgStage label="Stack · Circuit Topology" aspect="wide">
       <svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
         {/* Horizontal trace line */}
-        <line x1="50" y1="200" x2="850" y2="200" stroke="var(--gold)" strokeWidth="1.5" strokeDasharray="5 3" className="draw" />
+        <motion.line 
+          x1="50" y1="200" x2="850" y2="200" 
+          stroke="var(--gold)" strokeWidth="1.5" strokeDasharray="5 3"
+          initial={{ pathLength: 0, opacity: 0 }}
+          whileInView={{ pathLength: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
+        />
 
         {/* Nodes */}
         {nodes.map((node, idx) => (
-          <g key={idx}>
+          <motion.g 
+            key={idx}
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.5 + idx * 0.2, ease: [0.16, 1, 0.3, 1] }}
+          >
             {/* Junction dot */}
             <circle cx={node.x} cy="200" r="4" fill="var(--gold)" />
 
@@ -40,8 +54,15 @@ export function CircuitTopology() {
             </text>
 
             {/* Connector to trace */}
-            <line x1={node.x} y1="200" x2={node.x} y2="140" stroke="var(--line-strong)" strokeWidth="0.8" />
-          </g>
+            <motion.line 
+              x1={node.x} y1="200" x2={node.x} y2="140" 
+              stroke="var(--line-strong)" strokeWidth="0.8"
+              initial={{ pathLength: 0 }}
+              whileInView={{ pathLength: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.8 + idx * 0.2 }}
+            />
+          </motion.g>
         ))}
 
         {/* Footer labels */}

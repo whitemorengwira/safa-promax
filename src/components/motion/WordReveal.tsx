@@ -30,7 +30,7 @@ export function WordReveal({
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: shouldReduceMotion ? 0 : 0.06,
+        staggerChildren: shouldReduceMotion ? 0 : 0.04, // Faster, tighter stagger
       },
     },
   };
@@ -44,8 +44,8 @@ export function WordReveal({
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
-        ease: [0.22, 1, 0.36, 1], // cinematic cubic-bezier curve array
+        duration: 0.7, // Slightly longer for more "weight"
+        ease: [0.16, 1, 0.3, 1], // Premium ease
       },
     },
   };

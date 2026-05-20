@@ -24,7 +24,7 @@ export function SectionNav({
         {prev ? (
           <Link
             href={`/strategy/${prev.slug}`}
-            className="flex items-center gap-3 text-gold hover:text-gold-soft transition font-body text-xs font-semibold tracking-widest uppercase"
+            className="link-premium flex items-center gap-3 text-gold hover:text-gold-soft transition font-body text-xs font-semibold tracking-widest uppercase"
           >
             <ArrowLeft size={16} />
             <span>Previous: {prev.label}</span>
@@ -36,7 +36,7 @@ export function SectionNav({
         {next ? (
           <Link
             href={`/strategy/${next.slug}`}
-            className="flex items-center gap-3 text-gold hover:text-gold-soft transition font-body text-xs font-semibold tracking-widest uppercase"
+            className="link-premium flex items-center gap-3 text-gold hover:text-gold-soft transition font-body text-xs font-semibold tracking-widest uppercase"
           >
             <span>Next: {next.label}</span>
             <ArrowRight size={16} />

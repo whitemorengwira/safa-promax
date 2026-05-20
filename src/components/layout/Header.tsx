@@ -18,7 +18,7 @@ import { MobileMenu } from "./MobileMenu";
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const cineternsUrl = process.env.NEXT_PUBLIC_CINETERNS_URL || "https://cineterns.co.za";
+  const cineternsUrl = process.env.NEXT_PUBLIC_CINETERNS_URL || "https://cineterns.vercel.app/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,12 +48,12 @@ export function Header() {
           className="flex items-center gap-2 text-text hover:text-gold transition-colors"
           aria-label="SA Film Academy Home"
         >
-          {/* Custom SVG institutional mark */}
-          <svg className="w-[30px] h-[30px]" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="3" y="3" width="24" height="24" stroke="var(--gold)" strokeWidth="1.2" />
-            <circle cx="15" cy="15" r="6" stroke="var(--gold)" strokeWidth="1.2" />
-            <circle cx="15" cy="15" r="2" fill="var(--gold)" />
-          </svg>
+          {/* Official SA Film Academy Logo */}
+          <img 
+            src="/images/logos/sa-film-academy-logo.webp" 
+            alt="SA Film Academy"
+            className="h-8 md:h-10 w-auto object-contain"
+          />
           <span className="font-display font-bold tracking-[0.04em] text-base md:text-lg">
             SAFA <span className="font-body text-[10px] font-medium tracking-[0.3em] uppercase text-gold ml-1">Strategy</span>
           </span>
