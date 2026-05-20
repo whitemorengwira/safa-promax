@@ -47,10 +47,10 @@ export default function FoundationLanding() {
     <main className="flex flex-col min-h-screen bg-bg">
       <PageHero
         eyebrow="Pillar 01"
-        title="The _Foundation_ of Transformation."
-        subtitle="The structural core that powers the Academy's mission: Organisation, Ecosystem, and Infrastructure."
-        imageSrc="/images/ai/v2/v2-pillar-foundation.png"
-        imageAlt="Foundation pillar visual - professional Black South African film production team"
+        title="The _Foundation._"
+        subtitle="Structure. Ecosystem. Infrastructure."
+        imageSrc="/images/ai/v2/post-production-lab-black-creators.png"
+        imageAlt="Professional Black South African film production team in dark cinematic setting"
       />
 
       <FilmstripDivider />

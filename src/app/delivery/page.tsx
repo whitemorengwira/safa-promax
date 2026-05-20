@@ -54,9 +54,9 @@ export default function DeliveryLanding() {
     <main className="flex flex-col min-h-screen bg-bg">
       <PageHero
         eyebrow="Pillar 04"
-        title="Measurable, _Accountable_ Results."
+        title="The _Delivery_ Pillar."
         subtitle="Measurable, accountable results that drive the Academy forward: Community Engagement, AI Curriculum, and KPI Tracking."
-        imageSrc="/images/ai/v2/v2-pillar-delivery.png"
+        imageSrc="/images/ai/v2/post-production-lab-black-creators.png"
         imageAlt="Cinematic delivery and results visual"
       />
 
