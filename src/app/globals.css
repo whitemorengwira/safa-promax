@@ -7,28 +7,28 @@
    ============================================================ */
 
 :root {
-  /* Surfaces */
-  --bg: #09090e;
-  --bg-deep: #05050a;
-  --surface: #13131a;
-  --surface-2: #1c1c25;
+  /* Surfaces — Lighter theme */
+  --bg: #F8F7F5;
+  --bg-deep: #EFE9E0;
+  --surface: #FFFFFF;
+  --surface-2: #F3EFE8;
 
-  /* Brand gold + red */
+  /* Brand gold + red — maintained */
   --gold: #C9A84C;
   --gold-soft: #E0C268;
   --gold-deep: #9B7F2D;
-  --red: #8B1A1A;
-  --red-deep: #5A0F0F;
+  --red: #CC0000;
+  --red-deep: #8B0000;
 
-  /* Text */
-  --text: #E8E0D0;
-  --muted: rgba(232, 224, 208, 0.62);
+  /* Text — dark for light backgrounds */
+  --text: #1A1815;
+  --muted: rgba(26, 24, 21, 0.65);
 
   /* Lines + shadows */
-  --line: rgba(201, 168, 76, 0.18);
-  --line-strong: rgba(201, 168, 76, 0.42);
-  --shadow-1: 0 30px 80px rgba(0, 0, 0, 0.55);
-  --shadow-gold: 0 0 60px rgba(201, 168, 76, 0.18);
+  --line: rgba(204, 0, 0, 0.12);
+  --line-strong: rgba(204, 0, 0, 0.25);
+  --shadow-1: 0 4px 20px rgba(204, 0, 0, 0.08);
+  --shadow-gold: 0 0 40px rgba(201, 168, 76, 0.12);
 
   /* Type */
   --font-display: 'Playfair Display', 'Cormorant Garamond', serif;

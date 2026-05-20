@@ -1,0 +1,33 @@
+{
+  "name": "SA Film Academy · 360° Strategy",
+  "short_name": "SA Film Academy",
+  "description": "South Africa's premier film talent platform — 20 years of transformation",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#CC0000",
+  "background_color": "#F8F7F5",
+  "icons": [
+    {
+      "src": "/images/logos/sa-film-academy-logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logos/sa-film-academy-logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/ai/safa-hero-red-cinematic-black-trainees.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

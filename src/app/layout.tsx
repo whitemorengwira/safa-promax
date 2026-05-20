@@ -8,6 +8,8 @@ import {
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { PWAInstall } from "@/components/PWAInstall";
+import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -43,6 +45,12 @@ export const metadata: Metadata = {
   title: "SA Film Academy · 360° Marketing Strategy 2026–2027",
   description:
     "Where Industry Meets Opportunity. SA Film Academy is South Africa's premier film training institution — 20 years of transforming the industry through skills development, B-BBEE compliance, and cutting-edge production training.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "SA Film Academy",
+  },
 };
 
 export default function RootLayout({
@@ -62,6 +70,9 @@ export default function RootLayout({
       `}
     >
       <body className="min-h-full flex flex-col bg-bg text-text selection:bg-gold selection:text-bg">
+        {/* Service Worker Registration */}
+        <ServiceWorkerRegister />
+
         {/* Sticky Header */}
         <Header />
 
@@ -72,6 +83,9 @@ export default function RootLayout({
 
         {/* Institutional Footer */}
         <Footer />
+
+        {/* PWA Install Prompt */}
+        <PWAInstall />
       </body>
     </html>
   );

@@ -29,15 +29,15 @@ export default function HomePage() {
       <section className="relative min-h-screen -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px] overflow-hidden">
         {/* Full-bleed background */}
         <ImagePlaceholder
-          src="/images/road-home/road-home-training-000.jpg"
+          src="/images/ai/safa-hero-red-cinematic-black-trainees.png"
           alt="SA Film Academy — professional South African film crew on set"
           brief="South African film production set, professional Black crew members, cinematic lighting, wide angle, documentary style"
           orientation="video"
           className="absolute inset-0 w-full h-full"
         />
 
-        {/* Dark gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-bg/30 via-bg/50 to-bg/95" />
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-bg/70" />
 
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-end min-h-screen container-max pb-20 md:pb-32">

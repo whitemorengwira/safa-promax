@@ -49,10 +49,10 @@ export function Header() {
           aria-label="SA Film Academy Home"
         >
           {/* Official SA Film Academy Logo */}
-          <img 
-            src="/images/logos/sa-film-academy-logo.webp" 
+          <img
+            src="/images/logos/sa-film-academy-logo.webp"
             alt="SA Film Academy"
-            className="h-8 md:h-10 w-auto object-contain"
+            className="h-10 md:h-14 w-auto object-contain"
           />
           <span className="font-display font-bold tracking-[0.04em] text-base md:text-lg">
             SAFA <span className="font-body text-[10px] font-medium tracking-[0.3em] uppercase text-gold ml-1">Strategy</span>
