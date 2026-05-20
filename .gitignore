@@ -1,41 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ===================================================================
+# .gitignore — protects secrets and excludes build artefacts
+# ===================================================================
 
-# dependencies
+# --- SECRETS: never commit these ---
+.env
+.env.local
+.env*.local
+.env.production
+*.pem
+*.key
+
+# --- Dependencies ---
 /node_modules
 /.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+.pnp.js
+.yarn/install-state.gz
 
-# testing
-/coverage
-
-# next.js
+# --- Next.js build output ---
 /.next/
 /out/
-
-# production
 /build
+next-env.d.ts
 
-# misc
+# --- Production ---
+/dist
+
+# --- Misc / OS ---
 .DS_Store
 *.pem
+Thumbs.db
+desktop.ini
 
-# debug
+# --- Debug logs ---
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# --- Local env files & editor ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
 
-# vercel
+# --- Vercel ---
 .vercel
 
-# typescript
+# --- TypeScript ---
 *.tsbuildinfo
-next-env.d.ts
+
+# --- Downloaded Getty originals (host on R2 instead of committing) ---
+/public/images/getty-originals/
