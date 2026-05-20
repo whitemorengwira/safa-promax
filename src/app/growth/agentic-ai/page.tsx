@@ -125,42 +125,80 @@ export default function Page() {
       <SectionShell
         eyebrow="06.2"
         title="Automated _Workflows_"
-        subtitle="Concrete, running systems that deliver weekly results."
+        subtitle="Five concrete agents running autonomous cycles. No human initiation needed."
         className="bg-surface/30"
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="space-y-4">
-            <ImagePlaceholder
-              id="SAFA-IMG-103"
-              alt="Content Engine"
-              brief="Text generation visualization or code on a dark screen, cinematic lighting"
-              orientation="square"
-            />
-            <h3 className="text-gold">Content Engine</h3>
-            <p className="text-sm">Automatically drafting blog posts, social updates, and newsletters based on Academy activity.</p>
+        <div className="space-y-8">
+          {/* Agent 01 */}
+          <div className="border border-line p-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h4 className="text-gold">Agent 01 · Funding Scout</h4>
+                <p className="text-muted text-xs mt-1">Weekly · Scans 12 funding streams</p>
+              </div>
+              <span className="text-gold-soft font-display text-2xl opacity-30">R2.5M</span>
+            </div>
+            <p className="mb-4">Automatically identifies government grants, NGO funding, CSI opportunities, and SETA partnerships. The agent monitors DAFF AgriSETA, NAMB, DSBD, IDC, Comic Relief, British Council, Netflix Fund, and others—submitting 12+ applications per year. Success target: 25% funding capture rate.</p>
+            <p className="text-xs text-muted">Time saved: 48 hours per year on grant application research</p>
           </div>
 
-          <div className="space-y-4">
-            <ImagePlaceholder
-              id="SAFA-IMG-104"
-              alt="Talent Matcher"
-              brief="Profile matching interface with Black professional headshots, cinematic lighting"
-              orientation="square"
-            />
-            <h3 className="text-gold">Talent Matcher</h3>
-            <p className="text-sm">Scanning the Cineterns database to proactively suggest candidates for new production briefs.</p>
+          {/* Agent 02 */}
+          <div className="border border-line p-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h4 className="text-gold">Agent 02 · Content Pipeline</h4>
+                <p className="text-muted text-xs mt-1">Twice Weekly · SEO & AI optimised</p>
+              </div>
+              <span className="text-gold-soft font-display text-2xl opacity-30">8–10</span>
+            </div>
+            <p className="mb-4">Generates two blog posts per week with full SEO markup, internal linking suggestions, and AI search engine optimisation. Each post targets specific keyword clusters (film internships, MICT SETA, B-BBEE, AI production tools). Posts include meta descriptions, schema markup, and social snippets ready for publication.</p>
+            <p className="text-xs text-muted">Time saved: 32 hours per month | Organic traffic target: +35% YoY</p>
           </div>
 
-          <div className="space-y-4">
-            <ImagePlaceholder
-              id="SAFA-IMG-105"
-              alt="Funding Scout"
-              brief="Abstract financial flow chart in gold and navy, cinematic lighting"
-              orientation="square"
-            />
-            <h3 className="text-gold">Funding Scout</h3>
-            <p className="text-sm">Monitoring government and private sector grants to ensure the Academy never misses a deadline.</p>
+          {/* Agent 03 */}
+          <div className="border border-line p-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h4 className="text-gold">Agent 03 · Perception Monitor</h4>
+                <p className="text-muted text-xs mt-1">Daily · Monitors 6 channels</p>
+              </div>
+              <span className="text-gold-soft font-display text-2xl opacity-30">24/7</span>
+            </div>
+            <p className="mb-4">Listens to LinkedIn, Twitter, Instagram, Reddit, news mentions, and competitor activity. Categorises sentiment (positive, neutral, negative), flags high-reach mentions, identifies partnership opportunities, and surfaces misinformation requiring response. Daily digest with recommended response templates.</p>
+            <p className="text-xs text-muted">Response time target: &lt; 4 hours | Sentiment improvement target: +15%</p>
           </div>
+
+          {/* Agent 04 */}
+          <div className="border border-line p-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h4 className="text-gold">Agent 04 · Talent Matcher</h4>
+                <p className="text-muted text-xs mt-1">Embedded · Real-time matching</p>
+              </div>
+              <span className="text-gold-soft font-display text-2xl opacity-30">10+</span>
+            </div>
+            <p className="mb-4">Instant candidate suggestions when production companies submit briefs on Cineterns. Matches trainee skills against role requirements, filters availability, optimises for tier advancement (tier 2 and tier 3 prioritised), and suggests top 5 candidates with match scores. Placement cycle reduced from 10–14 days to 3–5 days.</p>
+            <p className="text-xs text-muted">Placements per week: 10+ | Acceptance rate target: 75%</p>
+          </div>
+
+          {/* Agent 05 */}
+          <div className="border border-line p-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h4 className="text-gold">Agent 05 · Reputation Index</h4>
+                <p className="text-muted text-xs mt-1">Weekly · Strategic briefing</p>
+              </div>
+              <span className="text-gold-soft font-display text-2xl opacity-30">+25%</span>
+            </div>
+            <p className="mb-4">Aggregates brand mentions, competitive positioning, partner sentiment, and industry narrative trends. Generates Reputation Health Index (0–100) with strategic recommendations for CEO and comms team. Tracks SAFA vs. competitor mentions, policy signals, and emerging opportunities in media and partnerships.</p>
+            <p className="text-xs text-muted">Health score baseline: Month 1 | Target improvement: +25% by Month 12</p>
+          </div>
+        </div>
+
+        <div className="mt-12 p-6 bg-surface border border-line-strong">
+          <h4 className="text-gold mb-3">Operational Architecture</h4>
+          <p className="text-sm mb-4">All five agents run on the Claude API infrastructure already provisioned in Cineterns. Workflows operate on fixed schedules (weekly, twice-weekly, daily, or continuous) and surface only decisions requiring human judgment. No agent acts without human review gate on sensitive outputs (funding applications, content before publication, major partnership recommendations).</p>
+          <p className="text-xs text-muted">Total monthly cost: R3,800 (Claude API allocation)</p>
         </div>
       </SectionShell>
 

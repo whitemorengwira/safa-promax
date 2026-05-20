@@ -76,11 +76,20 @@ export default function Page() {
           left={
             <div className="space-y-6">
               <p className="drop-cap">
-                The technical health audit covers Core Web Vitals improvement, canonical tag implementation, sitemap submission, and structured data markup using <strong>Organization</strong>, <strong>EducationalOrganization</strong>, <strong>Course</strong>, <strong>JobPosting</strong> and <strong>Event</strong> schema types.
+                The technical health audit covers <strong>Core Web Vitals improvement</strong> (LCP &lt; 2.5s, FID &lt; 100ms, CLS &lt; 0.1), canonical tag implementation, sitemap submission, and structured data markup using <strong>Organization</strong>, <strong>EducationalOrganization</strong>, <strong>Course</strong>, <strong>JobPosting</strong> and <strong>Event</strong> schema types.
               </p>
               <p>
                 Every page on safilmacademy.org will be re-indexed with the appropriate schema, making the Academy machine-readable to every search engine in a way it currently is not.
               </p>
+
+              <h4 className="mt-8 mb-4">Primary Keywords & Clusters</h4>
+              <ul className="space-y-2 text-sm">
+                <li><strong>Film Internships:</strong> "film internship South Africa," "how to get a film internship," "entry-level film jobs"</li>
+                <li><strong>MICT SETA:</strong> "MICT SETA accreditation," "skills levy training," "SETA-funded internships"</li>
+                <li><strong>Placements:</strong> "film crew job boards," "production hiring South Africa," "film production training"</li>
+                <li><strong>AI & Production:</strong> "AI video generation tools," "Generative video software," "AI in film post-production"</li>
+                <li><strong>B-BBEE:</strong> "B-BBEE scorecard," "skills development CSI," "learnership funding"</li>
+              </ul>
             </div>
           }
           right={
