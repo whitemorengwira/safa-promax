@@ -14,7 +14,7 @@ export default function ContactPage() {
         title="Get in _Touch._"
         subtitle="Ready to transform the South African screen? Whether you are a production company, a potential trainee, or a strategic partner, we want to hear from you."
         imageSrc="/images/ai/contact/connection-web-warm.webp"
-        imageAlt="Warm cinematic connection visual — intimate, professional, dark palette"
+        imageAlt="Warm cinematic connection visual: intimate, professional, dark palette"
       />
 
       <FilmstripDivider />

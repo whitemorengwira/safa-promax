@@ -16,12 +16,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
-        eyebrow="16 · KPI Dashboard & Measurement"
-        title="The numbers reported every _quarter._"
-        subtitle="A measurable, twelve-month KPI architecture with named baselines and named targets — designed to make trade-offs visible."
-        imageSrc="/images/ai/safa-kpi-hero.png"
+        eyebrow="16 · Delivery Pillar"
+        title="The numbers reported every quarter."
+        subtitle="A measurable, twelve-month KPI architecture with named baselines and named targets, designed to make trade-offs visible."
+        imageSrc="/images/ai/v2/delivery/kpi-hero.png"
         imageAlt="Dashboard gauges abstract in gold and dark red"
       />
 
@@ -30,8 +30,7 @@ export default function Page() {
       {/* Gauges Section */}
       <SectionShell
         eyebrow="16.1"
-        title="The Performance _Gauges_"
-        subtitle="Real-time tracking of the Academy's strategic goals."
+        title="The Performance Gauges"
       >
         <div className="mb-16">
           <SvgStage label="KPI · Performance Dashboard" aspect="wide">
@@ -92,10 +91,12 @@ export default function Page() {
           left={
             <Reveal>
               <div className="space-y-6">
-                <p className="drop-cap">
-                  A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="drop-cap text-text/90 leading-relaxed">
+                    A measurable, twelve-month KPI architecture with named baselines and named targets, designed to be reported quarterly to the Academy's executive and stakeholders.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   This dashboard makes trade-offs visible rather than hidden, allowing for data-driven decision making and clear accountability across all strategic pillars.
                 </p>
               </div>
@@ -103,9 +104,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-151"
+              src="/images/ai/v2/delivery/upward-graph.png"
               alt="KPI Graph"
-              brief="Upward trajectory graph on a professional monitor, cinematic lighting"
+              brief="Upward trajectory graph on a professional monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
             />
           }
@@ -116,19 +117,20 @@ export default function Page() {
       {/* Measurement Section */}
       <SectionShell
         eyebrow="16.2"
-        title="The Measurement _Framework_"
-        subtitle="Ensuring accuracy and transparency in our reporting."
-        className="bg-surface/30"
+        title="The Measurement Framework"
+        className="bg-surface/20"
       >
         <TwoColLayout
           flip
           left={
             <Reveal>
               <div className="space-y-6">
-                <p>
-                  Our measurement framework is built on verifiable data points, from Cineterns registrations to placement events and digital engagement metrics.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    Our measurement framework is built on verifiable data points, from Cineterns registrations to placement events and digital engagement metrics.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   By maintaining a rigorous approach to data collection and analysis, we ensure that our reports are both accurate and actionable, providing a clear picture of the Academy's progress.
                 </p>
               </div>
@@ -136,9 +138,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-152"
+              src="/images/ai/v2/delivery/data-dashboard.png"
               alt="Measurement"
-              brief="Professional with a tablet reviewing a data dashboard, cinematic lighting"
+              brief="A professional Black South African reviewing a data dashboard on a tablet in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
             />
           }
@@ -146,15 +148,15 @@ export default function Page() {
         />
       </SectionShell>
 
-      {/* Final CTA / Transition */}
+      {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8">Ready to explore the _Budget_ allocation?</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Ready to explore the Budget framework?</h2>
           <Link
             href="/delivery/budget"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition inline-block"
           >
-            Next: Budget Allocation →
+            Next: Budget Framework →
           </Link>
         </Reveal>
       </section>

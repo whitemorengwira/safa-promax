@@ -16,12 +16,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
-        eyebrow="07 · SEO & AI SEO Strategy"
-        title="Found by search engines today. Found by AI engines tomorrow. Both, _deliberately._"
+        eyebrow="7 · Visibility Pillar"
+        title="Found by search engines today. Found by AI engines tomorrow. Both, deliberately."
         subtitle="Traditional SEO and Generative Engine Optimisation (AI SEO) are no longer alternatives. They are two halves of the same discovery surface."
-        imageSrc="/images/ai/v2/hero-seo.png"
+        imageSrc="/images/ai/v2/visibility/seo-hero.png"
         imageAlt="Radial knowledge graph or network visualization in gold light"
       />
 
@@ -30,12 +30,11 @@ export default function Page() {
       {/* Traditional SEO Section */}
       <SectionShell
         eyebrow="07.1"
-        title="Traditional _SEO_"
-        subtitle="The technical health audit and keyword strategy for the modern web."
+        title="Traditional SEO"
       >
-        <div className="mb-16">
+        <div className="mb-16 max-w-4xl mx-auto">
           <SvgStage aspect="wide" label="Search · Topic Cluster">
-            <svg viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg" className="draw">
+            <svg viewBox="-280 -280 560 560" xmlns="http://www.w3.org/2000/svg" className="draw">
               {/* Centre node */}
               <circle cx="0" cy="0" r="42" fill="#13131a" stroke="#C9A84C" stroke-width="1.5"/>
               <text x="0" y="-4" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">SA FILM</text>
@@ -67,7 +66,7 @@ export default function Page() {
 
               {/* Outer ring (AI SEO halo) */}
               <circle cx="0" cy="0" r="230" fill="none" stroke="#C9A84C" stroke-opacity="0.15" stroke-width="0.5" stroke-dasharray="3 4"/>
-              <text x="0" y="-235" text-anchor="middle" fill="#C9A84C" opacity="0.5" font-family="Outfit" font-size="8" letter-spacing="3">AI SEARCH HALO · PERPLEXITY · CHATGPT · GOOGLE AI</text>
+              <text x="0" y="-250" text-anchor="middle" fill="#C9A84C" opacity="0.5" font-family="Outfit" font-size="8" letter-spacing="3">AI SEARCH HALO · PERPLEXITY · CHATGPT · GOOGLE AI</text>
             </svg>
           </SvgStage>
         </div>
@@ -76,29 +75,22 @@ export default function Page() {
           left={
             <Reveal>
               <div className="space-y-6">
-                <p className="drop-cap">
-                  The technical health audit covers <strong>Core Web Vitals improvement</strong> (LCP &lt; 2.5s, FID &lt; 100ms, CLS &lt; 0.1), canonical tag implementation, sitemap submission, and structured data markup using <strong>Organization</strong>, <strong>EducationalOrganization</strong>, <strong>Course</strong>, <strong>JobPosting</strong> and <strong>Event</strong> schema types.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="drop-cap text-text/90 leading-relaxed">
+                    The technical health audit covers <strong>Core Web Vitals improvement</strong>, canonical tag implementation, sitemap submission, and structured data markup using Organization, EducationalOrganization, Course, JobPosting and Event schema types.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   Every page on safilmacademy.org will be re-indexed with the appropriate schema, making the Academy machine-readable to every search engine in a way it currently is not.
                 </p>
-
-                <h4 className="mt-8 mb-4">Primary Keywords & Clusters</h4>
-                <ul className="space-y-2 text-sm">
-                  <li><strong>Film Internships:</strong> "film internship South Africa," "how to get a film internship," "entry-level film jobs"</li>
-                  <li><strong>MICT SETA:</strong> "MICT SETA accreditation," "skills levy training," "SETA-funded internships"</li>
-                  <li><strong>Placements:</strong> "film crew job boards," "production hiring South Africa," "film production training"</li>
-                  <li><strong>AI & Production:</strong> "AI video generation tools," "Generative video software," "AI in film post-production"</li>
-                  <li><strong>B-BBEE:</strong> "B-BBEE scorecard," "skills development CSI," "learnership funding"</li>
-                </ul>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-066"
+              src="/images/ai/v2/visibility/google-search.png"
               alt="Traditional SEO"
-              brief="Google search results macro on a professional monitor, cinematic lighting"
+              brief="Google search results macro on a professional monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
             />
           }
@@ -109,19 +101,20 @@ export default function Page() {
       {/* AI SEO Section */}
       <SectionShell
         eyebrow="07.2"
-        title="AI _SEO_"
-        subtitle="Generative Engine Optimisation for the next era of discovery."
-        className="bg-surface/30"
+        title="AI SEO"
+        className="bg-surface/20"
       >
         <TwoColLayout
           flip
           left={
             <Reveal>
               <div className="space-y-6">
-                <p>
-                  An increasing proportion of professional searches now begin not in Google but in tools like Perplexity, ChatGPT and Google's AI Overviews. The user does not click through ten blue links. They read the AI's answer, and they trust it.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    An increasing proportion of professional searches now begin not in Google but in tools like Perplexity, ChatGPT and Google's AI Overviews. The user does not click through ten blue links. They read the AI's answer, and they trust it.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   The Academy needs to be the entity that appears <em>inside</em> those answers — not the entity that ranks tenth on a page no one reads. This requires a deliberate strategy of entity disambiguation and authoritative citation.
                 </p>
               </div>
@@ -129,9 +122,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-067"
+              src="/images/ai/v2/visibility/ai-assistant.png"
               alt="AI SEO"
-              brief="Chatbot interface or AI assistant on a high-end screen, cinematic lighting"
+              brief="A chatbot interface or AI assistant on a high-end screen in a cinematic setting, warm gold and deep red tones, photorealistic, textless."
               orientation="landscape"
             />
           }
@@ -142,7 +135,7 @@ export default function Page() {
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8">Ready to explore the _Content_ strategy?</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Ready to explore the Content strategy?</h2>
           <Link
             href="/visibility/content"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition inline-block"

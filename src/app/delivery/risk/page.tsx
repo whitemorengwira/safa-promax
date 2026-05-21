@@ -64,12 +64,12 @@ const risks: Risk[] = [
 export default function RiskPage() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
-        eyebrow="12 · Risk Acknowledgement & Contingency Planning"
-        title="Rigour through _risk acknowledgement._"
+        eyebrow="12 · Delivery Pillar"
+        title="Rigour through risk acknowledgement."
         subtitle="A strategy that does not acknowledge risk is a strategy that has not been stress-tested. Here are the five named risks we monitor and the contingencies we have prepared."
-        imageSrc="/images/ai/v2/delivery-implementation/clapperboard-action-shot.webp"
+        imageSrc="/images/ai/v2/delivery/risk-hero.png"
         imageAlt="Professional film production environment with risk management focus"
       />
 
@@ -78,20 +78,19 @@ export default function RiskPage() {
       {/* Risk Register Section */}
       <SectionShell
         eyebrow="12.1"
-        title="The Five Named _Risks_"
-        subtitle="And the contingencies we have prepared for each."
+        title="The Five Named Risks"
       >
-        <div className="space-y-12">
+        <div className="space-y-12 max-w-6xl mx-auto">
           {risks.map((risk, idx) => (
             <Reveal key={risk.id} delay={idx * 0.1}>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                 {/* Risk number and title */}
                 <div className="md:col-span-1">
                   <div className="flex items-baseline gap-4 mb-4">
                     <span className="font-display text-4xl font-bold text-gold">
                       {risk.id}
                     </span>
-                    <span className="text-xs uppercase tracking-widest text-muted">
+                    <span className="text-xs uppercase tracking-widest text-gold/60 font-semibold">
                       Risk
                     </span>
                   </div>
@@ -102,17 +101,17 @@ export default function RiskPage() {
 
                 {/* Risk description */}
                 <div className="md:col-span-1">
-                  <p className="text-sm leading-relaxed text-muted">
+                  <p className="text-sm leading-relaxed text-text/70">
                     {risk.description}
                   </p>
                 </div>
 
                 {/* Contingency */}
-                <div className="md:col-span-1 bg-surface border border-line p-6">
-                  <p className="text-xs uppercase tracking-widest text-gold mb-3">
+                <div className="md:col-span-1 bg-bg/40 border border-gold/20 p-6 rounded-sm">
+                  <p className="text-xs uppercase tracking-widest text-gold font-bold mb-3">
                     Contingency
                   </p>
-                  <p className="text-sm leading-relaxed text-text">
+                  <p className="text-sm leading-relaxed text-text italic">
                     {risk.contingency}
                   </p>
                 </div>
@@ -127,48 +126,40 @@ export default function RiskPage() {
       {/* Governance Section */}
       <SectionShell
         eyebrow="12.2"
-        title="Risk Governance _Framework_"
-        subtitle="How we monitor, review, and respond to emerging risks."
+        title="Risk Governance Framework"
+        className="bg-surface/20"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="space-y-8">
             <Reveal>
-              <div>
-                <h4 className="font-display text-lg font-bold text-gold mb-3">
+              <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                <h4 className="font-display text-lg font-bold text-gold mb-3 italic">
                   Quarterly Risk Reviews
                 </h4>
-                <p className="text-sm leading-relaxed text-muted">
-                  Every quarter, the Executive Team conducts a formal risk review
-                  against this register. New risks are identified, existing risks
-                  are re-assessed, and contingency plans are updated based on
-                  changed circumstances.
+                <p className="text-sm leading-relaxed text-text/70">
+                  Every quarter, the Executive Team conducts a formal risk review against this register. New risks are identified, existing risks are re-assessed, and contingency plans are updated based on changed circumstances.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={0.1}>
-              <div>
-                <h4 className="font-display text-lg font-bold text-gold mb-3">
+              <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                <h4 className="font-display text-lg font-bold text-gold mb-3 italic">
                   Stakeholder Communication
                 </h4>
-                <p className="text-sm leading-relaxed text-muted">
-                  Board members and key partners are briefed on risk status in
-                  advance of each quarterly meeting. This ensures alignment and
-                  allows early intervention if contingency triggers are
-                  approaching.
+                <p className="text-sm leading-relaxed text-text/70">
+                  Board members and key partners are briefed on risk status in advance of each quarterly meeting. This ensures alignment and allows early intervention if contingency triggers are approaching.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={0.2}>
-              <div>
-                <h4 className="font-display text-lg font-bold text-gold mb-3">
+              <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                <h4 className="font-display text-lg font-bold text-gold mb-3 italic">
                   Contingency Activation
                 </h4>
-                <p className="text-sm leading-relaxed text-muted">
-                  If a risk threshold is breached (e.g., Cineterns accounts miss
-                  target by 20%), the corresponding contingency is activated
-                  immediately without waiting for the next quarterly review.
+                <p className="text-sm leading-relaxed text-text/70">
+                  If a risk threshold is breached (e.g., Cineterns accounts miss target by 20%), the corresponding contingency is activated immediately without waiting for the next quarterly review.
                 </p>
               </div>
             </Reveal>
@@ -177,58 +168,11 @@ export default function RiskPage() {
           {/* Image */}
           <Reveal delay={0.1}>
             <ImagePlaceholder
-              src="/images/ai/v2/delivery-implementation/content-creator-working.webp"
+              src="/images/ai/v2/delivery/risk-management.png"
               alt="Risk management and strategic planning"
-              brief="Professional environment with risk assessment focus"
+              brief="A professional Black South African reviewing a risk register or strategic plan in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="square"
             />
-          </Reveal>
-        </div>
-      </SectionShell>
-
-      <FilmstripDivider />
-
-      {/* Regulatory Monitoring */}
-      <SectionShell
-        eyebrow="12.3"
-        title="Regulatory _Monitoring_"
-        subtitle="Staying ahead of changes in B-BBEE, SETA, and film industry policy."
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Reveal>
-            <div className="bg-surface border border-line p-8">
-              <h4 className="font-display text-lg font-bold text-gold mb-4">
-                SETA Relationship Management
-              </h4>
-              <p className="text-sm leading-relaxed text-muted mb-6">
-                Annual regulatory review with SAFA's SETA relationship manager
-                each January ensures we remain compliant with evolving Skills
-                Levy mechanics and SETA funding requirements.
-              </p>
-              <ul className="text-sm text-muted space-y-2">
-                <li>• Quarterly SETA liaison calls</li>
-                <li>• Annual compliance audit</li>
-                <li>• Regulatory change alerts</li>
-              </ul>
-            </div>
-          </Reveal>
-
-          <Reveal delay={0.1}>
-            <div className="bg-surface border border-line p-8">
-              <h4 className="font-display text-lg font-bold text-gold mb-4">
-                B-BBEE Policy Tracking
-              </h4>
-              <p className="text-sm leading-relaxed text-muted mb-6">
-                We monitor B-BBEE scorecard changes and Department of Trade,
-                Industry and Competition (DTIC) announcements to anticipate
-                shifts in the regulatory landscape.
-              </p>
-              <ul className="text-sm text-muted space-y-2">
-                <li>• Monthly policy briefings</li>
-                <li>• Industry association updates</li>
-                <li>• Peer network intelligence</li>
-              </ul>
-            </div>
           </Reveal>
         </div>
       </SectionShell>

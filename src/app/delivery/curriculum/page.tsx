@@ -16,13 +16,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
-        eyebrow="15 · Agentic AI in the Training Curriculum"
-        title="The Only Film Academy in South Africa Training for the _Post-Production Hiring Cycle of 2026._"
-        subtitle="A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned as a curriculum differentiator."
-        imageSrc="/images/ai/v2/v2-sub-curriculum.png"
-        imageAlt="Neural network abstract in gold and blue"
+        eyebrow="15 · Delivery Pillar"
+        title="The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026."
+        subtitle="A masterclass module on generative AI tools: Veo, Kling, Hailuo, and equivalent platforms, positioned as a curriculum differentiator."
+        imageSrc="/images/ai/v2/delivery/curriculum-hero.png"
+        imageAlt="Professional film production environment with AI focus"
       />
 
       <FilmstripDivider />
@@ -30,12 +30,11 @@ export default function Page() {
       {/* Neural Network Section */}
       <SectionShell
         eyebrow="15.1"
-        title="The AI _Masterclass_"
-        subtitle="Integrating generative intelligence into the core craft."
+        title="The AI Masterclass"
       >
-        <div className="mb-16">
+        <div className="mb-16 max-w-4xl mx-auto">
           <SvgStage label="Curriculum · Neural Network" aspect="wide">
-            <svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+            <svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
               <defs>
                 <radialGradient id="neuralNode" cx="50%" cy="50%" r="50%">
                   <stop offset="0%" stop-color="#E0C268" stop-opacity="1"/>
@@ -52,8 +51,8 @@ export default function Page() {
                 <circle cx="180" cy="280" r="5" fill="url(#neuralNode)"/>
                 <circle cx="180" cy="370" r="14" fill="#13131a" stroke="#C9A84C" stroke-width="1.3"/>
                 <circle cx="180" cy="370" r="5" fill="url(#neuralNode)"/>
-                <text x="180" y="60" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">INPUT · CORE CRAFT</text>
-                <text x="180" y="416" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">cinematography · editing · sound · grading</text>
+                <text x="180" y="50" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">INPUT · CORE CRAFT</text>
+                <text x="180" y="460" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">cinematography · editing · sound · grading</text>
               </g>
 
               <g>
@@ -65,8 +64,8 @@ export default function Page() {
                 <circle cx="460" cy="260" r="4" fill="url(#neuralNode)"/>
                 <circle cx="460" cy="350" r="12" fill="#13131a" stroke="#C9A84C" stroke-width="1.1"/>
                 <circle cx="460" cy="350" r="4" fill="url(#neuralNode)"/>
-                <text x="460" y="40" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">HIDDEN · AI TOOLING</text>
-                <text x="460" y="396" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">Veo · Kling · Hailuo · Runway</text>
+                <text x="460" y="30" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">HIDDEN · AI TOOLING</text>
+                <text x="460" y="470" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">Veo · Kling · Hailuo · Runway</text>
               </g>
 
               <g>
@@ -78,8 +77,8 @@ export default function Page() {
                 <circle cx="740" cy="260" r="4" fill="url(#neuralNode)"/>
                 <circle cx="740" cy="350" r="12" fill="#13131a" stroke="#C9A84C" stroke-width="1.1"/>
                 <circle cx="740" cy="350" r="4" fill="url(#neuralNode)"/>
-                <text x="740" y="40" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">HIDDEN · AGENTIC WORKFLOW</text>
-                <text x="740" y="396" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">briefing · iteration · review · delivery</text>
+                <text x="740" y="30" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">HIDDEN · AGENTIC WORKFLOW</text>
+                <text x="740" y="470" text-anchor="middle" fill="#E0C268" opacity="0.7" font-family="Playfair Display" font-style="italic" font-size="11">briefing · iteration · review · delivery</text>
               </g>
             </svg>
           </SvgStage>
@@ -89,10 +88,12 @@ export default function Page() {
           left={
             <Reveal>
               <div className="space-y-6">
-                <p className="drop-cap">
-                  The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="drop-cap text-text/90 leading-relaxed">
+                    The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   By integrating tools like Veo, Kling, and Hailuo into the core craft, we ensure our graduates are not just ready for the industry today, but are leading it tomorrow.
                 </p>
               </div>
@@ -100,7 +101,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-146"
+              src="/images/ai/v2/delivery/ai-workstation.png"
               alt="AI Tools"
               brief="Black student (22) at a workstation with AI video generation interface, cinematic lighting"
               orientation="landscape"
@@ -113,27 +114,28 @@ export default function Page() {
       {/* Masterclass Section */}
       <SectionShell
         eyebrow="15.2"
-        title="The _Masterclass_ Module"
-        subtitle="Practical, hands-on training with cutting-edge platforms."
-        className="bg-surface/30"
+        title="The Masterclass Module"
+        className="bg-surface/20"
       >
         <TwoColLayout
           flip
           left={
             <Reveal>
               <div className="space-y-6">
-                <p>
-                  The masterclass covers the entire agentic workflow: from briefing and iteration to review and final delivery. Students learn how to leverage AI to enhance their creative output without compromising on quality or craft.
-                </p>
-                <p>
-                  This module is not just about the tools; it's about the mindset of the modern filmmaker — one who is comfortable at the intersection of technology and storytelling.
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    The masterclass covers the entire agentic workflow: from briefing and iteration to review and final delivery. Students learn how to leverage AI to enhance their creative output without compromising on quality or craft.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
+                  This module is not just about the tools; it's about the mindset of the modern filmmaker: one who is comfortable at the intersection of technology and storytelling.
                 </p>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-147"
+              src="/images/ai/v2/delivery/ai-workshop.png"
               alt="Masterclass"
               brief="Creatives in a high-end workshop environment, focused on a large screen, cinematic lighting"
               orientation="landscape"
@@ -146,7 +148,7 @@ export default function Page() {
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8">Ready to explore the _Community_ strategy?</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Ready to explore the Community strategy?</h2>
           <Link
             href="/delivery/community"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition inline-block"

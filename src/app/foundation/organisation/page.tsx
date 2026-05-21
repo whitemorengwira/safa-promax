@@ -41,14 +41,14 @@ export default function Page() {
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  These production houses are described internally as the Academy's <em>fringe clients</em> — they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
+                  These production houses are described internally as the Academy's <em>fringe clients</em>: they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
                 </p>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-placement-new.png"
+              src="/images/ai/v2/foundation/two-tier-pathway.png"
               alt="Black trainees on a live production set"
               brief="Black trainees on a live production set, working alongside experienced crew members, cinematic lighting"
               orientation="landscape"
@@ -101,7 +101,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    There has historically been a twin perception challenge in the market. The first is that the Academy was led by Cape Town-based white production companies; the second is that trainees were allowed to remain trainees for too long — the <em>perpetual trainee</em> problem.
+                    There has historically been a twin perception challenge in the market. The first is that the Academy was led by Cape Town-based white production companies; the second is that trainees were allowed to remain trainees for too long: the <em>perpetual trainee</em> problem.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
@@ -112,7 +112,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-perception-new.png"
+              src="/images/ai/v2/foundation/org-hero.png"
               alt="Professional networking event with Black film industry professionals"
               brief="Professional networking event with Black film industry professionals, warm celebratory atmosphere"
               orientation="landscape"

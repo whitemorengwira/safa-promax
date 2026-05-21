@@ -16,47 +16,43 @@ const SUB_PAGES = [
     title: 'Community & Alumni',
     href: '/delivery/community',
     description: 'The four-tier career-progression model for industry citizens.',
-    image: '/images/ai/safa-community-hero.png',
-    id: 'SAFA-IMG-140'
+    image: '/images/ai/v2/delivery/comm-hero.png'
   },
   {
     title: 'AI in Curriculum',
     href: '/delivery/curriculum',
     description: 'Masterclasses in Veo, Kling, Hailuo, and Runway.',
-    image: '/images/ai/safa-curriculum-hero.png',
-    id: 'SAFA-IMG-150'
+    image: '/images/ai/v2/delivery/curriculum-hero.png'
   },
   {
     title: 'KPI Dashboard',
     href: '/delivery/kpis',
     description: '16 indicators, baselines, and 12-month targets.',
-    image: '/images/ai/safa-kpi-hero.png',
-    id: 'SAFA-IMG-160'
+    image: '/images/ai/v2/delivery/kpi-hero.png'
   },
   {
     title: 'Budget Framework',
     href: '/delivery/budget',
     description: 'Monthly subscription, transparent operating-expense line.',
-    image: '/images/ai/safa-budget-hero.png',
-    id: 'SAFA-IMG-170'
+    image: '/images/ai/v2/delivery/budget-hero.png'
   },
   {
     title: 'Implementation',
     href: '/delivery/implementation',
     description: 'Three tracks, 30 days, and concrete results.',
-    image: '/images/ai/safa-impl-hero.png',
-    id: 'SAFA-IMG-180'
+    image: '/images/ai/v2/delivery/impl-hero.png'
   }
 ];
 
 export default function DeliveryLanding() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
+      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="Pillar 04"
-        title="The _Delivery_ Pillar."
+        title="The Delivery Pillar."
         subtitle="Measurable, accountable results that drive the Academy forward: Community Engagement, AI Curriculum, and KPI Tracking."
-        imageSrc="/images/ai/safa-impl-hero.png"
+        imageSrc="/images/ai/v2/delivery/impl-hero.png"
         imageAlt="Delivery pillar and results visual"
       />
 
@@ -64,7 +60,7 @@ export default function DeliveryLanding() {
 
       <SectionShell
         eyebrow="Overview"
-        title="Explore the _Delivery_ Sections"
+        title="Explore the Delivery Sections"
         subtitle="Select a section below to dive into the results and implementation strategy."
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -72,11 +68,10 @@ export default function DeliveryLanding() {
             <Link 
               key={page.href} 
               href={page.href}
-              className="group relative aspect-video overflow-hidden rounded-sm border border-white/10 hover:border-red-600 transition-colors"
+              className="group relative aspect-video overflow-hidden rounded-sm border border-white/10 hover:border-gold/30 transition-colors"
             >
               <div className="absolute inset-0 z-0">
                 <ImagePlaceholder
-                  id={page.id}
                   src={page.image}
                   alt={page.title}
                   brief={page.description}
@@ -86,7 +81,7 @@ export default function DeliveryLanding() {
               </div>
               <div className="absolute inset-0 z-10 bg-gradient-to-t from-bg via-bg/20 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8 z-20">
-                <h3 className="text-2xl font-black text-white mb-2 group-hover:text-red-600 transition-colors uppercase tracking-tighter">
+                <h3 className="text-2xl font-display italic text-white mb-2 group-hover:text-gold transition-colors tracking-tight">
                   {page.title}
                 </h3>
                 <p className="text-muted text-sm max-w-xs leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -94,7 +89,7 @@ export default function DeliveryLanding() {
                 </p>
               </div>
               <div className="absolute top-6 right-6 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
-                <span className="text-red-600 font-black text-xl">→</span>
+                <span className="text-gold font-display text-xl">→</span>
               </div>
             </Link>
           ))}
@@ -103,10 +98,10 @@ export default function DeliveryLanding() {
 
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8 font-black uppercase tracking-tighter text-4xl">Back to the start?</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Back to the start?</h2>
           <Link
             href="/"
-            className="font-body text-xs font-black uppercase tracking-widest bg-red-600 text-white px-10 py-5 hover:bg-red-700 transition inline-block shadow-xl shadow-red-600/20"
+            className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-10 py-5 hover:bg-gold-soft transition inline-block"
           >
             Return to Homepage →
           </Link>
