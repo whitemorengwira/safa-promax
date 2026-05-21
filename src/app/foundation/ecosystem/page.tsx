@@ -16,13 +16,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture."
         subtitle="A branded house, unified under SAFA."
-        imageSrc="/images/ai/safa-org-hero.png"
-        imageAlt="Stakeholders gathered around a roundtable in warm cinematic light"
+        imageSrc="/images/ai/v2/foundation/ecosystem-hero.png"
+        imageAlt="Professional Black South African film crew gathered around a cinematic movie set"
       />
 
       <FilmstripDivider />
@@ -30,8 +30,7 @@ export default function Page() {
       {/* Architecture Section */}
       <SectionShell
         eyebrow="03.1"
-        title="The Branded _House_"
-        subtitle="Moving from a collection of isolated projects to a unified strategic family."
+        title="The Branded House"
       >
         <div className="mb-16">
           <SvgStage label="Architecture · Site Plan" aspect="wide">
@@ -100,10 +99,12 @@ export default function Page() {
           left={
             <Reveal>
               <div className="space-y-6">
-                <p className="drop-cap">
-                  The SA Film Academy ecosystem is a "branded house" architecture. SAFA sits at the apex as the MICT SETA-accredited master brand, while four distinct programmes radiate outward, each carrying a visible relationship to the master brand.
-                </p>
-                <p>
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="drop-cap text-text/90 leading-relaxed">
+                    The SA Film Academy ecosystem is a "branded house" architecture. SAFA sits at the apex as the MICT SETA-accredited master brand, while four distinct programmes radiate outward, each carrying a visible relationship to the master brand.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
                   Until now, these entities have often read as isolated projects. The strategy moving forward is to unify them under a single visual and strategic umbrella, ensuring that the success of one programme reinforces the authority of the entire Academy.
                 </p>
               </div>
@@ -124,69 +125,68 @@ export default function Page() {
       {/* Entity Breakdown Section */}
       <SectionShell
         eyebrow="03.2"
-        title="The Five _Pillars_"
-        subtitle="Each entity serves a specific role in the talent pipeline."
-        className="bg-surface/30"
+        title="The Five Pillars"
+        className="bg-surface/20"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* ACE */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-ai-hero.png"
+              src="/images/ai/v2/foundation/ace-director.png"
               alt="ACE Director"
-              brief="Young Black male director behind camera, cinematic lighting"
+              brief="A young Black South African male director behind a cinematic camera, warm gold and deep red lighting, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold">ACE</h3>
-            <p className="text-sm">Academy of Creative Excellence: Alumni and HOD pathway for high-level creative leadership.</p>
+            <h3 className="text-gold font-display italic text-xl">ACE</h3>
+            <p className="text-sm text-text/70">Academy of Creative Excellence: Alumni and HOD pathway for high-level creative leadership.</p>
           </div>
 
           {/* FILMGRO */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-community-hero.png"
+              src="/images/ai/v2/foundation/filmgro-trainee.png"
               alt="FILMGRO Trainee"
-              brief="Young Black trainee in production vehicle, cinematic lighting"
+              brief="A young Black South African trainee in a professional production vehicle, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold">FILMGRO</h3>
-            <p className="text-sm">Driving Academy: Providing essential driving skills and licensing for film industry trainees.</p>
+            <h3 className="text-gold font-display italic text-xl">FILMGRO</h3>
+            <p className="text-sm text-text/70">Driving Academy: Providing essential driving skills and licensing for film industry trainees.</p>
           </div>
 
           {/* GreenSet */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-curriculum-hero.png"
+              src="/images/ai/v2/foundation/greenset-eco.png"
               alt="GreenSet Eco"
-              brief="Sustainable film set with eco equipment, cinematic lighting"
+              brief="A sustainable film set with eco-friendly equipment, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold">GreenSet</h3>
-            <p className="text-sm">Sustainability Subsidiary: Leading the industry toward eco-friendly production practices.</p>
+            <h3 className="text-gold font-display italic text-xl">GreenSet</h3>
+            <p className="text-sm text-text/70">Sustainability Subsidiary: Leading the industry toward eco-friendly production practices.</p>
           </div>
 
           {/* Cineterns */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-cineterns-portal.png"
+              src="/images/ai/v2/foundation/cineterns-portal.png"
               alt="Cineterns Portal"
-              brief="Laptop screen showing Cineterns portal, cinematic lighting"
+              brief="A high-end laptop screen showing a clean digital portal, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold">Cineterns</h3>
-            <p className="text-sm">Digital Talent Portal: Connecting 500+ trained professionals with production opportunities.</p>
+            <h3 className="text-gold font-display italic text-xl">Cineterns</h3>
+            <p className="text-sm text-text/70">Digital Talent Portal: Connecting 500+ trained professionals with production opportunities.</p>
           </div>
 
           {/* Digital Gap */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-digital-gap.png"
+              src="/images/ai/v2/foundation/digital-gap.png"
               alt="Digital Gap"
-              brief="Abstract wireframe on dark surface, cinematic lighting"
+              brief="An abstract wireframe or digital network on a dark surface, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold">Digital Gap</h3>
-            <p className="text-sm">Bridging the divide between traditional film training and modern digital infrastructure.</p>
+            <h3 className="text-gold font-display italic text-xl">Digital Gap</h3>
+            <p className="text-sm text-text/70">Bridging the divide between traditional film training and modern digital infrastructure.</p>
           </div>
         </div>
       </SectionShell>
@@ -194,7 +194,7 @@ export default function Page() {
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8">Ready to explore the _Infrastructure?_</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Ready to explore the Infrastructure?</h2>
           <Link
             href="/foundation/infrastructure"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition inline-block"

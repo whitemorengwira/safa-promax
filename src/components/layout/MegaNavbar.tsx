@@ -58,7 +58,7 @@ const MEGA_PANELS: Record<string, MegaPanel> = {
       {
         title: 'Institutional Voice',
         href: '/visibility/leadership',
-        description: 'The Chief Executive as a marketing instrument',
+        description: 'The Chief Executive as a marketing asset',
       },
       {
         title: 'Content Marketing',
@@ -200,44 +200,44 @@ export default function MegaNavbar() {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 group-hover/btn:w-full transition-all duration-300" />
               </Link>
 
-              {/* Mega Dropdown Panel */}
+              {/* Mega Dropdown Panel - Shrunk and Refined */}
               {activePanel === tab.key && (
                 <div
-                  className="mega-panel absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-6xl border-t-2 border-red-600 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200"
+                  className="mega-panel absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-4xl border-t border-gold/20 shadow-2xl animate-in fade-in slide-in-from-top-1 duration-200"
                   style={{
-                    backgroundColor: 'rgba(13, 13, 20, 0.97)',
-                    backdropFilter: 'blur(6px)',
-                    WebkitBackdropFilter: 'blur(6px)',
+                    backgroundColor: 'rgba(9, 9, 14, 0.92)',
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
                     borderBottom: '1px solid rgba(201, 168, 76, 0.12)',
                     boxShadow: '0 24px 64px rgba(0, 0, 0, 0.7)',
                   }}
                   onMouseEnter={() => setActivePanel(tab.key)}
                   onMouseLeave={() => setActivePanel(null)}
                 >
-                  <div className="p-10">
-                    <div className="flex items-center justify-between mb-8 border-b border-white/10 pb-4">
-                      <h3 className="text-gold text-xs font-bold uppercase tracking-widest">
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
+                      <h3 className="text-gold text-[10px] font-bold uppercase tracking-widest">
                         {MEGA_PANELS[tab.key].heading}
                       </h3>
-                      <Link href={tab.href} className="text-[10px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
+                      <Link href={tab.href} className="text-[9px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
                         View All {tab.label}
                         <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
                       </Link>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                       {MEGA_PANELS[tab.key].items.map((item) => (
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="group/item block p-4 -m-4 rounded transition-all duration-300 hover:bg-red-600/10"
+                          className="group/item block p-3 -m-2 rounded transition-all duration-300 hover:bg-red-600/5"
                         >
-                          <div className="mb-2">
-                            <h4 className="text-text font-bold text-[11px] uppercase tracking-tight group-hover/item:text-red-600 transition-colors duration-200">
+                          <div className="mb-1">
+                            <h4 className="text-text font-bold text-[10px] uppercase tracking-tight group-hover/item:text-red-600 transition-colors duration-200">
                               {item.title}
                             </h4>
-                            <div className="h-0.5 w-0 bg-red-600 group-hover/item:w-12 transition-all duration-300 mt-1" />
+                            <div className="h-px w-0 bg-red-600 group-hover/item:w-8 transition-all duration-300 mt-0.5" />
                           </div>
-                          <p className="text-muted text-[10px] leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
+                          <p className="text-muted text-[9px] leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
                             {item.description}
                           </p>
                         </Link>

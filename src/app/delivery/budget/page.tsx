@@ -6,7 +6,6 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
 
 export const metadata: Metadata = {
   title: '17 · Budget Framework · SA Film Academy Strategy',
@@ -16,91 +15,45 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
-      {/* Full-viewport Hero */}
+      {/* HERO SECTION */}
       <PageHero
         eyebrow="17 · Budget Framework"
-        title="A Monthly Subscription, Not a _Project Quote._"
-        subtitle="A transparent, line-itemised monthly framework that converts marketing strategy into a single, defensible operating-expense line."
-        imageSrc="/images/ai/safa-budget-hero.png"
-        imageAlt="Ascending bar chart in gold and dark red"
+        title="A Monthly Subscription, Not a Project Quote."
+        subtitle="A transparent, line-itemised monthly framework that converts the marketing strategy into a single, defensible operating-expense line on the Academy's books."
+        imageSrc="/images/ai/v2/budget/budget-hero.png"
+        imageAlt="Dark reddish-cinematic budget framework hero"
       />
 
       <FilmstripDivider />
 
-      {/* Budget Chart Section */}
+      {/* 17.1 — THE BUDGETING PHILOSOPHY */}
       <SectionShell
         eyebrow="17.1"
-        title="The Budget _Allocation_"
-        subtitle="Transparent, predictable monthly operating expenses."
+        title="The Budgeting Philosophy"
       >
-        <div className="mb-16">
-          <SvgStage label="Budget · Monthly Allocation" aspect="wide">
-            <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-              <defs>
-                <linearGradient id="barGold" x1="0%" y1="100%" x2="0%" y2="0%">
-                  <stop offset="0%" stop-color="#9B7F2D"/>
-                  <stop offset="100%" stop-color="#E0C268"/>
-                </linearGradient>
-              </defs>
-
-              {/* Y-axis ticks and grid */}
-              <g stroke="#C9A84C" stroke-width="0.4" opacity="0.18">
-                <line x1="120" y1="80"  x2="1140" y2="80"/>
-                <line x1="120" y1="140" x2="1140" y2="140"/>
-                <line x1="120" y1="200" x2="1140" y2="200"/>
-                <line x1="120" y1="260" x2="1140" y2="260"/>
-                <line x1="120" y1="320" x2="1140" y2="320"/>
-              </g>
-              <g font-family="Outfit" font-size="10" letter-spacing="2" fill="#C9A84C" opacity="0.7" text-anchor="end">
-                <text x="110" y="84">R15k</text>
-                <text x="110" y="144">R12k</text>
-                <text x="110" y="204">R9k</text>
-                <text x="110" y="264">R6k</text>
-                <text x="110" y="324">R3k</text>
-                <text x="110" y="356">R0</text>
-              </g>
-
-              {/* Baseline axis */}
-              <line x1="120" y1="340" x2="1140" y2="340" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
-
-              {/* Bars */}
-              <g>
-                <rect x="150" y="280" width="60" height="60" fill="url(#barGold)" opacity="0.85"/>
-                <text x="180" y="270" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-style="italic" font-size="12">R380</text>
-                <text x="180" y="362" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">VERCEL</text>
-              </g>
-              <g>
-                <rect x="230" y="278" width="60" height="62" fill="url(#barGold)" opacity="0.85"/>
-                <text x="260" y="268" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-style="italic" font-size="12">R450</text>
-                <text x="260" y="362" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">SUPABASE</text>
-              </g>
-              <g>
-                <rect x="310" y="290" width="60" height="50" fill="url(#barGold)" opacity="0.85"/>
-                <text x="340" y="280" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-style="italic" font-size="12">R200</text>
-                <text x="340" y="362" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">CLOUDFLARE</text>
-              </g>
-            </svg>
-          </SvgStage>
-        </div>
-
         <TwoColLayout
           left={
             <Reveal>
               <div className="space-y-6">
-                <p className="drop-cap">
-                  A transparent, line-itemised monthly framework that converts marketing strategy from a series of unpredictable project bills into a single, defensible operating-expense line on SAFA's books.
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="drop-cap text-text/90 leading-relaxed">
+                    Most marketing relationships bill in unpredictable spikes. A campaign here, a redesign there, an invoice that arrives without warning and never quite matches the quote. For a non-profit company operating in a financially disciplined sector, that model is impossible to plan around and difficult to defend to a board.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
+                  The SA Film Academy marketing engine is funded differently. It runs as a single, predictable monthly subscription, in the same way the Academy already pays for electricity, connectivity, or insurance. Every workstream that powers the strategy, the digital infrastructure, the content production, the search and social visibility, and the autonomous AI workflows, is consolidated into one recurring operating-expense line.
                 </p>
-                <p>
-                  This subscription-based model provides the Academy with predictable costs and consistent service delivery, ensuring that the marketing engine remains powered without financial surprises.
+                <p className="text-text/80 leading-relaxed">
+                  This subscription approach gives the Academy three things a project-quote model never can: predictable monthly costs that can be budgeted a year in advance, consistent service delivery that does not pause between projects, and a marketing engine that keeps running without financial surprises.
                 </p>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-153"
-              alt="Budget Invoice"
-              brief="Professional invoice macro on a modern dark surface, cinematic lighting"
+              src="/images/ai/v2/budget/budget-philosophy.png"
+              alt="Black South African finance professional reviewing a monthly statement"
+              brief="A Black South African finance or operations professional, 25 to 30 years, reviewing a clean monthly statement at a dark desk under warm gold lamp light, deep red ambient glow behind. Textless, no currency signs."
               orientation="landscape"
             />
           }
@@ -108,32 +61,106 @@ export default function Page() {
         />
       </SectionShell>
 
-      {/* Infrastructure Section */}
+      {/* 17.2 — THE KEY BUDGET LINE ITEMS */}
       <SectionShell
         eyebrow="17.2"
-        title="The Infrastructure _Investment_"
-        subtitle="Building the foundation for long-term growth."
-        className="bg-surface/30"
+        title="The Key Budget Line Items"
+        className="bg-surface/20"
+      >
+        <div className="max-w-4xl mx-auto mb-16">
+          <Reveal>
+            <p className="text-text/80 leading-relaxed mb-12">
+              An effective marketing strategy budget for the Academy is built from a clear set of line items. The costed figures for each are still being finalised and will be presented in a dedicated budget presentation. For now, the framework below sets out every line item the budget will account for, so the board can see exactly what the marketing engine is composed of before any amounts are attached.
+            </p>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Reveal delay={0.1}>
+              <div className="p-6 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
+                <h3 className="text-gold font-display italic text-xl mb-4">Digital infrastructure</h3>
+                <ul className="space-y-2 text-sm text-text/70">
+                  <li>• Website and platform hosting, deployment, and global edge delivery</li>
+                  <li>• Database, authentication, and secure file storage</li>
+                  <li>• Content delivery network, security, and domain proxy</li>
+                  <li>• Domain renewals and transactional email delivery</li>
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.2}>
+              <div className="p-6 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
+                <h3 className="text-gold font-display italic text-xl mb-4">Strategic execution</h3>
+                <ul className="space-y-2 text-sm text-text/70">
+                  <li>• Editorial content production across the five content pillars</li>
+                  <li>• Search-engine and AI-search optimisation</li>
+                  <li>• Institutional social media channel management</li>
+                  <li>• Operation and supervision of the agentic AI workflows</li>
+                  <li>• Monthly performance reporting against the strategy's key performance indicators</li>
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <div className="p-6 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
+                <h3 className="text-gold font-display italic text-xl mb-4">Platform and creative development</h3>
+                <ul className="space-y-2 text-sm text-text/70">
+                  <li>• The Cineterns production platform build (quoted separately)</li>
+                  <li>• Post-launch maintenance, administrator training, and onboarding</li>
+                  <li>• Ongoing technical maintenance after handover</li>
+                  <li>• Cinematic web presentations produced in the EmpowerYouth format</li>
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.4}>
+              <div className="p-6 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
+                <h3 className="text-gold font-display italic text-xl mb-4">Creative and media production</h3>
+                <ul className="space-y-2 text-sm text-text/70">
+                  <li>• Photography, generated visuals, and graphic assets</li>
+                  <li>• Video and behind-the-scenes capture for the content engine</li>
+                  <li>• Podcast production and editing</li>
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+
+        <div className="max-w-5xl mx-auto">
+          <ImagePlaceholder
+            src="/images/ai/v2/budget/budget-line-items.png"
+            alt="Abstract macro of a circuit board with deep red indicator lights"
+            brief="An abstract macro of a circuit board or server rack with deep red indicator lights and fine gold traces on a near-black surface. Textless. Equipment-only, no people required."
+            orientation="video"
+          />
+        </div>
+      </SectionShell>
+
+      {/* 17.3 — A WORK IN PROGRESS */}
+      <SectionShell
+        eyebrow="17.3"
+        title="A Work in Progress"
       >
         <TwoColLayout
           flip
           left={
             <Reveal>
               <div className="space-y-6">
-                <p>
-                  The budget allocation prioritises critical digital infrastructure, from hosting and database management to security and content delivery networks.
-                </p>
-                <p>
-                  By investing in high-quality, scalable platforms, we ensure that the Academy's digital presence is robust, secure, and capable of supporting our ambitious growth targets.
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    The costed budget is a work in progress. The line items above represent the complete structure of an effective marketing strategy budget for the Academy, but the consolidated, costed figures are being finalised and will be presented in a separate, dedicated budget presentation to the board.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
+                  Presenting the framework in this way allows the board to understand and approve the shape of the budget, what it covers and why each line exists, before any single figure is fixed. This is precisely the kind of staged financial clarity a non-profit's governance requires.
                 </p>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-154"
-              alt="Budget Infrastructure"
-              brief="Server nodes abstract in gold and navy, cinematic lighting"
+              src="/images/ai/v2/budget/budget-wip.png"
+              alt="Confident Black South African professional presenting a framework"
+              brief="A confident Black South African professional, 27 to 30 years, in a dark boardroom presenting a clean framework on screen, warm gold and deep red cinematic lighting. Textless, no currency signs."
               orientation="landscape"
             />
           }
@@ -141,10 +168,10 @@ export default function Page() {
         />
       </SectionShell>
 
-      {/* Final CTA / Transition */}
+      {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
-          <h2 className="mb-8">Ready to explore the _Implementation_ plan?</h2>
+          <h2 className="font-display text-3xl md:text-4xl mb-8">Ready to explore the Implementation plan?</h2>
           <Link
             href="/delivery/implementation"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition inline-block"

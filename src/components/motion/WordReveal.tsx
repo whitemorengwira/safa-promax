@@ -15,7 +15,7 @@ interface WordRevealProps {
  * Signature "headline assembles itself" cinematic entrance.
  * - Staggers each word by 60ms.
  * - Maintains accessibility using aria-label on the root element.
- * - Gracefully supports styling modifiers (like nested italics).
+ * - Fixes concatenation by treating underscores as spaces and ensuring margin.
  */
 export function WordReveal({
   text,
@@ -24,13 +24,16 @@ export function WordReveal({
   style,
 }: WordRevealProps) {
   const shouldReduceMotion = useReducedMotion();
-  const words = text.split(" ").filter((w) => w.length > 0);
+  
+  // Replace underscores with spaces and split by space to ensure words are separated
+  const cleanText = text.replace(/_/g, " ");
+  const words = cleanText.split(" ").filter((w) => w.length > 0);
 
   const containerVariants: Variants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: shouldReduceMotion ? 0 : 0.06, // 60ms stagger per mandate
+        staggerChildren: shouldReduceMotion ? 0 : 0.06,
       },
     },
   };
@@ -44,8 +47,8 @@ export function WordReveal({
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.7, // Slightly longer for more "weight"
-        ease: [0.16, 1, 0.3, 1], // Premium ease
+        duration: 0.7,
+        ease: [0.16, 1, 0.3, 1],
       },
     },
   };
@@ -53,7 +56,7 @@ export function WordReveal({
   return (
     <Tag
       className={className}
-      aria-label={text}
+      aria-label={cleanText}
       style={style}
     >
       <motion.span
@@ -64,24 +67,15 @@ export function WordReveal({
         className="flex flex-wrap"
         aria-hidden="true"
       >
-        {words.map((word, idx) => {
-          // Identify if the word should be italic (e.g. wrapped in _word_ or *word*)
-          const isItalic =
-            (word.startsWith("_") && word.endsWith("_")) ||
-            (word.startsWith("*") && word.endsWith("*"));
-          // Remove italic markers but keep the word; do NOT render underscores as spaces
-          const cleanWord = isItalic ? word.slice(1, -1) : word;
-
-          return (
-            <motion.span
-              key={idx}
-              variants={wordVariants}
-              className={`inline-block mr-[0.25em] ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
-            >
-              {cleanWord}
-            </motion.span>
-          );
-        })}
+        {words.map((word, idx) => (
+          <motion.span
+            key={idx}
+            variants={wordVariants}
+            className="inline-block mr-[0.25em] last:mr-0"
+          >
+            {word}
+          </motion.span>
+        ))}
       </motion.span>
     </Tag>
   );

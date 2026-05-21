@@ -83,7 +83,25 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Zone 3: Small Print and Brand Meta */}
+        {/* Zone 3: Presentation Note */}
+        <div className="pt-8 border-t border-line/40 text-center md:text-left">
+          <span className="eyebrow text-[9px] block mb-2">A Note on Our Presentations</span>
+          <p className="font-body italic text-xs md:text-sm text-muted leading-relaxed max-w-2xl">
+            We have reimagined the manner in which our work is presented. Our latest showcase is now hosted at{" "}
+            <a
+              href="https://empoweryouth.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              className="text-gold hover:text-gold-soft transition-colors border-b border-gold/30 hover:border-gold pb-0.5 inline-flex items-center gap-1"
+            >
+              empoweryouth.vercel.app
+              <ArrowUpRight className="w-3 h-3 opacity-70" />
+            </a>
+            .
+          </p>
+        </div>
+
+        {/* Zone 4: Small Print and Brand Meta */}
         <div className="pt-8 border-t border-line/40 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] md:text-[11px] font-body text-muted/50 tracking-wider">
           <p>© {new Date().getFullYear()} SA Film Academy. All Rights Reserved.</p>
           <p className="uppercase tracking-[2px] text-center md:text-right">

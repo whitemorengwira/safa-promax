@@ -18,21 +18,21 @@ const paths: PathCard[] = [
     subtext: "Access 3,000+ SETA-verified crew",
     cta: "Browse the Talent Portal",
     href: "https://cineterns.vercel.app/",
-    image: "/images/ai/v2/delivery-implementation/clapperboard-action-shot.png",
+    image: "/images/ai/v2/homepage/production-companies.png",
   },
   {
     title: "Funders & Partners",
     subtext: "B-BBEE compliance, Skills Levy administration, and impact returns",
     cta: "Download the Partnership Prospectus",
     href: null,
-    image: "/images/ai/v2/growth-commercial/partnership-meeting.png",
+      image: "/images/ai/v2/homepage/funders-partners.png",
   },
   {
     title: "Aspiring Trainees",
     subtext: "Start your professional film career",
     cta: "Explore the Programme",
     href: "/foundation/organisation",
-    image: "/images/ai/v2/delivery-community/intern-first-production.png",
+    image: "/images/ai/v2/homepage/aspiring-trainees.png",
   },
 ];
 
