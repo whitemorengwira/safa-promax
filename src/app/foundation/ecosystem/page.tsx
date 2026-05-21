@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture."
         subtitle="A branded house, unified under SAFA."
-        imageSrc="/images/ai/foundation-ecosystem/stakeholder-roundtable.webp"
+        imageSrc="/images/ai/safa-org-hero.png"
         imageAlt="Stakeholders gathered around a roundtable in warm cinematic light"
       />
 
@@ -111,7 +111,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-accreditation.png"
+              src="/images/ai/safa-org-hero.png"
               alt="MICT SETA accreditation certificate"
               brief="MICT SETA accreditation certificate with gold seal, cinematic lighting"
               orientation="landscape"
@@ -132,7 +132,7 @@ export default function Page() {
           {/* ACE */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-ace-director.png"
+              src="/images/ai/safa-ai-hero.png"
               alt="ACE Director"
               brief="Young Black male director behind camera, cinematic lighting"
               orientation="square"
@@ -144,7 +144,7 @@ export default function Page() {
           {/* FILMGRO */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-filmgro-trainee.png"
+              src="/images/ai/safa-community-hero.png"
               alt="FILMGRO Trainee"
               brief="Young Black trainee in production vehicle, cinematic lighting"
               orientation="square"
@@ -156,7 +156,7 @@ export default function Page() {
           {/* GreenSet */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/safa-greenset-eco.png"
+              src="/images/ai/safa-curriculum-hero.png"
               alt="GreenSet Eco"
               brief="Sustainable film set with eco equipment, cinematic lighting"
               orientation="square"

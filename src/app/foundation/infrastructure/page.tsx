@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="04 · Digital Infrastructure"
         title="What has already been built — and why it matters before anything else is scaled."
         subtitle="This strategy is not aspirational. The infrastructure that underpins everything else is already live, deployed and demonstrable."
-        imageSrc="/images/ai/v2/v2-sub-infrastructure.png"
+        imageSrc="/images/ai/safa-ai-hero.png"
         imageAlt="Black tech professional at dual monitors with cinematic blue-and-gold light"
       />
 
@@ -102,7 +102,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-tech-stack.png"
+              src="/images/ai/safa-ai-hero.png"
               alt="Abstract circuit topology illustration"
               brief="Abstract circuit topology illustration, gold traces on dark surface, cinematic lighting"
               orientation="landscape"
@@ -146,7 +146,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-cineterns-infra.png"
+              src="/images/ai/safa-ai-hero.png"
               alt="Production manager using Cineterns interface"
               brief="Over-the-shoulder of a Black production manager using the Cineterns interface, cinematic lighting"
               orientation="landscape"

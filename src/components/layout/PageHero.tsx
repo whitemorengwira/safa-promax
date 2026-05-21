@@ -55,7 +55,7 @@ export function PageHero({
 
       {/* Content with Parallax Text Float - Minimal text to showcase image */}
       <div className="relative z-20 container-max pb-6 md:pb-8">
-        <Parallax offset={0.92}>
+        <Parallax offset={0.92} className="animate-float">
           <Reveal>
             <span className="eyebrow mb-1 block text-[10px] md:text-xs">
               <span className="num">{eyebrow}</span>

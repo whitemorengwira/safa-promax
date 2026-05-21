@@ -232,12 +232,12 @@ export default function MegaNavbar() {
                           className="group/item block p-4 -m-4 rounded transition-all duration-300 hover:bg-red-600/10"
                         >
                           <div className="mb-2">
-                            <h4 className="text-text font-bold text-sm group-hover/item:text-red-600 transition-colors duration-200">
+                            <h4 className="text-text font-bold text-[11px] uppercase tracking-tight group-hover/item:text-red-600 transition-colors duration-200">
                               {item.title}
                             </h4>
                             <div className="h-0.5 w-0 bg-red-600 group-hover/item:w-12 transition-all duration-300 mt-1" />
                           </div>
-                          <p className="text-muted text-xs leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
+                          <p className="text-muted text-[10px] leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
                             {item.description}
                           </p>
                         </Link>

@@ -97,7 +97,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-142"
+              src="/images/ai/safa-impl-hero.png"
               alt="Track 1"
               brief="Cineterns portal profiles on a high-end monitor, cinematic lighting"
               orientation="landscape"
@@ -130,7 +130,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              id="SAFA-IMG-145"
+              src="/images/ai/safa-impl-hero.png"
               alt="30 Day Timeline"
               brief="Project timeline screen with milestones lighting up in gold, cinematic lighting"
               orientation="landscape"

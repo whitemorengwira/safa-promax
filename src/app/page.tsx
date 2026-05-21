@@ -150,7 +150,7 @@ export default function HomePage() {
           </div>
           <div className="relative">
             <ImagePlaceholder
-              src="/images/ai/safa-ecosystem-bg.png"
+              src="/images/ai/safa-org-hero.png"
               alt="SA Film Academy Ecosystem"
               brief="Macro close-up of a professional film clapperboard with gold light reflections"
               orientation="landscape"
@@ -235,7 +235,7 @@ export default function HomePage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImagePlaceholder
-            src="/images/ai/safa-cineterns-card.png"
+            src="/images/ai/safa-ai-hero.png"
             alt="Cineterns Portal"
             brief="Young Black creative professional using a laptop"
             orientation="video"

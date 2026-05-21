@@ -17,10 +17,10 @@ export default function Page() {
     <main className="flex flex-col min-h-screen bg-bg">
       {/* Full-viewport Hero */}
       <PageHero
-        eyebrow="02 · The Organisation"
-        title="Who we are, what we actually do, and the perception we have already begun to shift."
-        subtitle="SA Film Academy is not a college and it is not an agency. It is something more useful — and, until now, less well understood."
-        imageSrc="/images/ai/v2/hero-organisation.png"
+        eyebrow="Pillar 01 · Section 02"
+        title="The _Organisation._"
+        subtitle="Who we are, what we actually do, and the perception we have already begun to shift."
+        imageSrc="/images/ai/v2/hero-organisation-new.png"
         imageAlt="Confident Black female executive on a professional film set"
       />
 
@@ -47,7 +47,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-placement.png"
+              src="/images/ai/safa-placement-new.png"
               alt="Black trainees on a live production set"
               brief="Black trainees on a live production set, working alongside experienced crew members, cinematic lighting"
               orientation="landscape"
@@ -80,9 +80,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-compliance.png"
-              alt="Black female professional reviewing documents"
-              brief="Black female professional reviewing documents at a modern desk, warm cinematic lighting"
+              src="/images/ai/safa-pathway-new.png"
+              alt="Black male professional reviewing a digital storyboard"
+              brief="Black male professional reviewing a digital storyboard on a high-end monitor, cinematic lighting"
               orientation="landscape"
             />
           }
@@ -111,7 +111,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/safa-perception.png"
+              src="/images/ai/safa-perception-new.png"
               alt="Professional networking event with Black film industry professionals"
               brief="Professional networking event with Black film industry professionals, warm celebratory atmosphere"
               orientation="landscape"

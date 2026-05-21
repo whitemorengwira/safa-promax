@@ -56,7 +56,7 @@ export default function DeliveryLanding() {
         eyebrow="Pillar 04"
         title="The _Delivery_ Pillar."
         subtitle="Measurable, accountable results that drive the Academy forward: Community Engagement, AI Curriculum, and KPI Tracking."
-        imageSrc="/images/ai/delivery-implementation/milestone-monitor.webp"
+        imageSrc="/images/ai/safa-impl-hero.png"
         imageAlt="Delivery pillar and results visual"
       />
 

@@ -50,7 +50,7 @@ export default function GrowthLanding() {
         eyebrow="Pillar 03"
         title="The _Growth_ Engine."
         subtitle="Where revenue is generated and impact is scaled: Agentic AI, B-BBEE Compliance, and Strategic Partnerships."
-        imageSrc="/images/main-hero-images/film-academy-infographic-black-people.png"
+        imageSrc="/images/ai/v2/growth-hero-new.png"
         imageAlt="Film academy infographic with Black professionals"
       />
 
