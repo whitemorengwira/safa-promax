@@ -62,7 +62,6 @@ export function CareerProgression() {
               }
             `}
           </style>
-        </linearGradient>
         </defs>
 
         {/* Title */}
