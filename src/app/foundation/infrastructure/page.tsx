@@ -95,14 +95,6 @@ export default function Page() {
                     The digital infrastructure of the SA Film Academy is built on a modern, high-performance stack designed for global scale. Leveraging Next.js 14, Vercel Edge, and Cloudflare, we ensure sub-100ms latency and POPIA-grade security across all user touchpoints.
                   </p>
                 </div>
-                <div className="my-4 float-left mr-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-tech-stack.png"
-                    alt="Modern tech stack"
-                    brief="Technology stack and digital infrastructure"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the Cineterns portal and the Academy's digital presence. We build for the future, on the reality of today.
                 </p>
