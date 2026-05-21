@@ -46,6 +46,14 @@ export default function Page() {
                     The Agentic AI Marketing Engine is the Academy's force multiplier. By deploying autonomous agents to handle repetitive, data-heavy tasks, we free up human leadership to focus on high-level strategy and relationship building.
                   </p>
                 </div>
+                <div className="my-4 float-left mr-6 w-48">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-ai-hero.png"
+                    alt="Agentic AI workflows"
+                    brief="AI and autonomous agent system visualization"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   These agents operate 24/7, scanning for funding opportunities, generating draft content, monitoring social sentiment, and matching talent profiles with production needs.
                 </p>

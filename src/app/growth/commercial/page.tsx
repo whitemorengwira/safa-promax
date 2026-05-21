@@ -45,6 +45,14 @@ export default function Page() {
                     The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA turns it into a strategic B-BBEE asset and a pipeline of skilled local talent. That is a sellable proposition the market is not currently hearing.
                   </p>
                 </div>
+                <div className="my-4 float-left mr-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-bee-hero.png"
+                    alt="B-BBEE commercial advantage"
+                    brief="B-BBEE compliance and commercial strategy"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   By facilitating the Work Skills Programme, SAFA allows production companies to claim back 20% of their levy while simultaneously earning critical B-BBEE points for skills development. This is the active alignment of commercial interest and social impact.
                 </p>

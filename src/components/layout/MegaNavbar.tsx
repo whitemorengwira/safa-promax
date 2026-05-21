@@ -160,21 +160,21 @@ export default function MegaNavbar() {
         }}
       >
         {/* Wordmark with Restored Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="relative w-6 h-6 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="relative w-8 h-8 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
               alt="SA Film Academy Logo"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
               className="object-contain"
             />
           </div>
           <div className="flex flex-col">
-            <span className="font-display text-xs font-black text-text group-hover:text-red-600 transition-colors leading-none">
+            <span className="font-display text-sm font-black text-text group-hover:text-red-600 transition-colors leading-none">
               SA Film Academy
             </span>
-            <span className="text-[8px] text-gold tracking-[0.15em] font-bold uppercase mt-0.5">360° Strategy</span>
+            <span className="text-[9px] text-gold tracking-[0.15em] font-bold uppercase mt-0.5">360° Strategy</span>
           </div>
         </Link>
 
@@ -271,16 +271,16 @@ export default function MegaNavbar() {
       {/* Mobile Navbar */}
       <nav className="lg:hidden fixed top-0 z-50 w-full h-12 bg-surface/80 backdrop-blur-md border-b border-red-600/30 flex items-center justify-between px-5">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-6 h-6 overflow-hidden flex items-center justify-center">
+          <div className="w-7 h-7 overflow-hidden flex items-center justify-center">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
               alt="SA Film Academy Logo"
-              width={24}
-              height={24}
+              width={28}
+              height={28}
               className="object-contain"
             />
           </div>
-          <span className="font-display text-xs font-black text-text">SA Film Academy</span>
+          <span className="font-display text-sm font-black text-text">SA Film Academy</span>
         </Link>
 
         <button

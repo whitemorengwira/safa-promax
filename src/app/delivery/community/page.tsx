@@ -49,6 +49,14 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   By formalising the transition from intern to industry professional, we create a sense of belonging and achievement that drives long-term engagement and advocacy.
                 </p>
+                <div className="my-4 float-left mr-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-placement-new.png"
+                    alt="Trainee placements"
+                    brief="Professional placement and career progression"
+                    orientation="portrait"
+                  />
+                </div>
               </div>
             </Reveal>
           }

@@ -46,6 +46,14 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   These production houses are described internally as the Academy's <em>fringe clients</em>: they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
                 </p>
+                <div className="my-6 float-right ml-6 w-48">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-seta-cert.png"
+                    alt="SETA Accreditation"
+                    brief="MICT SETA accreditation certificate and credentials"
+                    orientation="portrait"
+                  />
+                </div>
               </div>
             </Reveal>
           }

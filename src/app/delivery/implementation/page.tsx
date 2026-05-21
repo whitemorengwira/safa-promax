@@ -90,6 +90,14 @@ export default function Page() {
                     The implementation phase is not an aspiration: it is a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
                   </p>
                 </div>
+                <div className="my-4 float-right ml-6 w-44">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-impl-30days.png"
+                    alt="30-day implementation sprint"
+                    brief="Implementation timeline and execution schedule"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   This disciplined approach ensures that the strategy translates into immediate, tangible results for the Academy and its stakeholders. We move with purpose, at pace.
                 </p>

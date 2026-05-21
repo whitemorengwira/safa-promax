@@ -41,6 +41,14 @@ export default function Page() {
                     SAFA does not need more press releases. It needs an editorial position. A twenty-year-old institution that has placed over three thousand trainees on more than five hundred productions has the source material to publish a body of work no generalist agency could ever assemble.
                   </p>
                 </div>
+                <div className="my-4 float-right ml-6 w-44">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-content-engine.png"
+                    alt="Content publication engine"
+                    brief="Content creation and publishing workflow"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   The content strategy proposed here treats SAFA as a publication — with weekly long-form articles, a monthly editorial, a documentary mini-series, a podcast, and a tightly-disciplined social cadence — all coordinated under a single editorial calendar. We move from being a vendor to being a voice.
                 </p>
