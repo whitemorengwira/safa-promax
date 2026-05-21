@@ -17,13 +17,12 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
       {/* Full-viewport Hero */}
-      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="03 · The Brand Ecosystem"
-        title="Five entities, one architecture. Until now, they have read as five strangers."
-        subtitle="A branded house — SAFA at the apex, four programmes radiating outward, each carrying a visible relationship to the master brand."
-        imageSrc="/images/ai/v2/hero-ecosystem.png"
-        imageAlt="Macro close-up of a professional film clapperboard with gold light reflections"
+        title="Five entities, one architecture."
+        subtitle="A branded house, unified under SAFA."
+        imageSrc="/images/ai/foundation-ecosystem/stakeholder-roundtable.webp"
+        imageAlt="Stakeholders gathered around a roundtable in warm cinematic light"
       />
 
       <FilmstripDivider />

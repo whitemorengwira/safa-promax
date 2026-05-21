@@ -148,34 +148,34 @@ export default function MegaNavbar() {
     <>
       {/* Desktop Navbar */}
       <nav
-        className={`hidden lg:flex fixed top-0 z-50 w-full h-20 items-center justify-between px-8 transition-all duration-300 ${
+        className={`hidden lg:flex fixed top-0 z-50 w-full h-14 items-center justify-between px-6 transition-all duration-300 ${
           scrolled
             ? 'bg-surface/80 backdrop-blur-md border-b border-gold/20'
             : 'bg-transparent'
         }`}
       >
         {/* Wordmark with Restored Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center gap-2 group">
+          <div className="relative w-7 h-7 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
               alt="SA Film Academy Logo"
-              width={40}
-              height={40}
+              width={28}
+              height={28}
               className="object-contain"
             />
           </div>
           <div className="flex flex-col">
-            <span className="font-display text-lg font-black text-text group-hover:text-red-600 transition-colors leading-none">
+            <span className="font-display text-sm font-black text-text group-hover:text-red-600 transition-colors leading-none">
               SA Film Academy
             </span>
-            <span className="text-[10px] text-gold tracking-[0.2em] font-bold uppercase mt-1">Promax Strategy</span>
+            <span className="text-[9px] text-gold tracking-[0.18em] font-bold uppercase mt-0.5">Promax Strategy</span>
           </div>
         </Link>
 
         {/* Center Navigation */}
-        <div className="flex items-center gap-6">
-          <Link href="/" className="text-xs font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+        <div className="flex items-center gap-5">
+          <Link href="/" className="text-[11px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
             HOME
           </Link>
 
@@ -189,7 +189,7 @@ export default function MegaNavbar() {
             >
               <Link
                 href={tab.href}
-                className="text-xs font-bold tracking-widest text-text hover:text-red-600 transition-colors py-2 relative group/btn block"
+                className="text-[11px] font-bold tracking-widest text-text hover:text-red-600 transition-colors py-2 relative group/btn block"
               >
                 {tab.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 group-hover/btn:w-full transition-all duration-300" />
@@ -244,10 +244,10 @@ export default function MegaNavbar() {
             </div>
           ))}
 
-          <Link href="/smart-tools" className="text-xs font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+          <Link href="/smart-tools" className="text-[11px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
             SMART TOOLS
           </Link>
-          <Link href="/contact" className="text-xs font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+          <Link href="/contact" className="text-[11px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
             CONTACT
           </Link>
         </div>
@@ -257,38 +257,38 @@ export default function MegaNavbar() {
           href="https://cineterns.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-2 bg-red-600 text-white font-black text-xs tracking-widest uppercase hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
+          className="px-4 py-1.5 bg-red-600 text-white font-black text-[10px] tracking-widest uppercase hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
         >
           TALENT PORTAL
         </a>
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="lg:hidden fixed top-0 z-50 w-full h-16 bg-surface/80 backdrop-blur-md border-b border-red-600/30 flex items-center justify-between px-6">
+      <nav className="lg:hidden fixed top-0 z-50 w-full h-12 bg-surface/80 backdrop-blur-md border-b border-red-600/30 flex items-center justify-between px-5">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 overflow-hidden flex items-center justify-center">
+          <div className="w-6 h-6 overflow-hidden flex items-center justify-center">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
               alt="SA Film Academy Logo"
-              width={32}
-              height={32}
+              width={24}
+              height={24}
               className="object-contain"
             />
           </div>
-          <span className="font-display text-sm font-black text-text">SA Film Academy</span>
+          <span className="font-display text-xs font-black text-text">SA Film Academy</span>
         </Link>
 
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="text-red-600 hover:text-red-500 transition-colors"
         >
-          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </nav>
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 top-16 z-40 bg-surface/90 backdrop-blur-md overflow-y-auto">
+        <div className="lg:hidden fixed inset-0 top-12 z-40 bg-surface/90 backdrop-blur-md overflow-y-auto">
           <div className="p-6 space-y-8">
             <Link
               href="/"

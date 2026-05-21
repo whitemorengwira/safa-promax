@@ -90,42 +90,61 @@ export function PWAInstall() {
     return null;
   }
 
-  // Mobile: bottom bar, Desktop: top-right corner
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
-
   return (
-    <>
-      {/* Install Banner */}
-      <div
-        className={`fixed z-50 bg-surface border border-gold p-4 shadow-lg animate-in slide-in duration-300 ${
-          isMobile
-            ? "bottom-0 left-0 right-0 md:bottom-4 md:right-4 md:max-w-sm"
-            : "top-4 right-4 max-w-sm"
-        }`}
-      >
-        <div className="flex items-center justify-between gap-4">
-          <div className="flex-1">
-            <p className="font-body text-sm text-text">
-              Add SA Film Academy to your home screen
-            </p>
-          </div>
-          <div className="flex items-center gap-2 flex-shrink-0">
+    <div className="fixed bottom-0 left-0 right-0 md:bottom-8 md:right-8 md:left-auto md:max-w-sm z-50 transition-all duration-300 opacity-100 translate-y-0">
+      {/* Mobile: Bottom bar */}
+      <div className="md:hidden bg-surface border-t border-line px-6 py-4 flex items-center justify-between gap-4">
+        <div className="flex-1">
+          <p className="text-xs font-semibold text-gold mb-2">
+            Install for offline viewing
+          </p>
+          <div className="flex gap-2">
             <button
               onClick={handleInstall}
-              className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-4 py-2 hover:bg-gold-soft transition whitespace-nowrap"
+              className="text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-4 py-2 hover:bg-gold-soft transition"
             >
-              Install
-            </button>
-            <button
-              onClick={handleDismiss}
-              className="flex-shrink-0 text-muted hover:text-text transition p-1"
-              aria-label="Dismiss"
-            >
-              <X className="w-5 h-5" />
+              Install App
             </button>
           </div>
         </div>
+        <button
+          onClick={handleDismiss}
+          className="text-muted hover:text-gold transition flex-shrink-0"
+          aria-label="Dismiss"
+        >
+          <X className="w-5 h-5" />
+        </button>
       </div>
-    </>
+
+      {/* Desktop: Card */}
+      <div className="hidden md:block bg-surface border border-line p-8 rounded-none">
+        <div className="flex items-start justify-between gap-4 mb-4">
+          <div>
+            <p className="font-display text-lg font-bold text-gold mb-3">
+              Install for offline viewing
+            </p>
+            <p className="text-sm text-muted mb-6">
+              Add SA Film Academy to your home screen and access the strategy anywhere — even without an internet connection.
+            </p>
+          </div>
+          <button
+            onClick={handleDismiss}
+            className="text-muted hover:text-gold transition flex-shrink-0"
+            aria-label="Dismiss"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        <div className="flex gap-3">
+          <button
+            onClick={handleInstall}
+            className="flex-1 text-center text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-4 py-3 hover:bg-gold-soft transition"
+          >
+            Install App
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
