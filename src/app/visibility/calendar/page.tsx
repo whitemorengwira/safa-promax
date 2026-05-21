@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { CalendarTimeline } from '@/components/diagrams/CalendarTimeline';
 
 export const metadata: Metadata = {
   title: '5 · The 12-Month Marketing Calendar · SA Film Academy Strategy',
@@ -39,8 +40,13 @@ export default function Page() {
           </div>
         </section>
 
+        {/* Calendar Timeline Section */}
+        <section className="section-padding container-max">
+          <CalendarTimeline />
+        </section>
+
         {/* Extracted section content */}
-        <section className="section-padding container-max prose prose-invert max-w-none">
+        <section className="section-padding container-max prose prose-invert max-w-none hidden">
           <div dangerouslySetInnerHTML={{ __html: `<div className="shell">
     <div className="section-head reveal-up">
       <span className="eyebrow"><span className="num">05 ·</span> The 12-Month Marketing Calendar</span>

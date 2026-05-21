@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { CineternsPlacementFlow } from '@/components/diagrams/CineternsPlacementFlow';
 
 export const metadata: Metadata = {
   title: '4 · Digital Infrastructure · SA Film Academy Strategy',
@@ -106,6 +107,17 @@ export default function Page() {
             />
           }
         />
+      </SectionShell>
+
+      {/* Placement Flow Diagram */}
+      <SectionShell
+        eyebrow="04.2a"
+        title="The Placement _Pipeline_"
+        subtitle="From SETA approval to active placement."
+      >
+        <div className="mb-16">
+          <CineternsPlacementFlow />
+        </div>
       </SectionShell>
 
       {/* Cineterns Section */}

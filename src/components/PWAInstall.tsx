@@ -12,24 +12,46 @@ export function PWAInstall() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [showPrompt, setShowPrompt] = useState(false);
   const [isInstalled, setIsInstalled] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+
     // Check if the app is already installed
     if (window.matchMedia("(display-mode: standalone)").matches) {
       setIsInstalled(true);
       return;
     }
 
+    // Check if user has dismissed the prompt in the last 7 days
+    const dismissedTime = localStorage.getItem("pwaInstallDismissed");
+    if (dismissedTime) {
+      const now = Date.now();
+      const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+      if (now - parseInt(dismissedTime) < sevenDaysMs) {
+        return; // Don't show the prompt
+      }
+    }
+
+    // Track page visits
+    let pageVisits = parseInt(sessionStorage.getItem("pwaPageVisits") || "0");
+    pageVisits += 1;
+    sessionStorage.setItem("pwaPageVisits", pageVisits.toString());
+
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();
-      setInstallPrompt(e as BeforeInstallPromptEvent);
-      setShowPrompt(true);
+      // Only show after visiting at least 2 pages
+      if (pageVisits >= 2) {
+        setInstallPrompt(e as BeforeInstallPromptEvent);
+        setShowPrompt(true);
+      }
     };
 
     const handleAppInstalled = () => {
       setInstallPrompt(null);
       setShowPrompt(false);
       setIsInstalled(true);
+      sessionStorage.removeItem("pwaPageVisits");
     };
 
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
@@ -52,6 +74,7 @@ export function PWAInstall() {
       }
       setShowPrompt(false);
       setInstallPrompt(null);
+      sessionStorage.removeItem("pwaPageVisits");
     } catch (error) {
       console.error("Installation failed:", error);
     }
@@ -59,52 +82,46 @@ export function PWAInstall() {
 
   const handleDismiss = () => {
     setShowPrompt(false);
+    // Store dismissal time for 7-day period
+    localStorage.setItem("pwaInstallDismissed", Date.now().toString());
   };
 
-  if (isInstalled || !showPrompt || !installPrompt) {
+  if (!isClient || isInstalled || !showPrompt || !installPrompt) {
     return null;
   }
 
+  // Mobile: bottom bar, Desktop: top-right corner
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
   return (
     <>
-      {/* Backdrop */}
+      {/* Install Banner */}
       <div
-        className="fixed inset-0 bg-black/50 z-40 animate-in fade-in duration-300"
-        onClick={handleDismiss}
-      />
-
-      {/* Modal */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-in zoom-in duration-300">
-        <div className="bg-surface border-2 border-red-600 p-8 max-w-md w-full shadow-2xl">
-          <div className="flex items-start justify-between gap-4 mb-4">
-            <h2 className="font-display font-black text-2xl text-red-600">
-              Install the App
-            </h2>
-            <button
-              onClick={handleDismiss}
-              className="flex-shrink-0 text-muted hover:text-red-600 transition"
-              aria-label="Dismiss"
-            >
-              <X className="w-6 h-6" />
-            </button>
+        className={`fixed z-50 bg-surface border border-gold p-4 shadow-lg animate-in slide-in duration-300 ${
+          isMobile
+            ? "bottom-0 left-0 right-0 md:bottom-4 md:right-4 md:max-w-sm"
+            : "top-4 right-4 max-w-sm"
+        }`}
+      >
+        <div className="flex items-center justify-between gap-4">
+          <div className="flex-1">
+            <p className="font-body text-sm text-text">
+              Add SA Film Academy to your home screen
+            </p>
           </div>
-
-          <p className="font-body text-sm text-text/80 mb-6 leading-relaxed">
-            Install SA Film Academy as an app on your device for instant access to strategies, tools, and resources. Works offline too.
-          </p>
-
-          <div className="space-y-3">
+          <div className="flex items-center gap-2 flex-shrink-0">
             <button
               onClick={handleInstall}
-              className="font-body text-sm font-black uppercase tracking-widest bg-red-600 text-white px-6 py-3 hover:bg-red-700 transition w-full"
+              className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-4 py-2 hover:bg-gold-soft transition whitespace-nowrap"
             >
-              Install Now →
+              Install
             </button>
             <button
               onClick={handleDismiss}
-              className="font-body text-sm font-semibold uppercase tracking-widest border-2 border-muted text-muted hover:border-red-600 hover:text-red-600 px-6 py-3 transition w-full"
+              className="flex-shrink-0 text-muted hover:text-text transition p-1"
+              aria-label="Dismiss"
             >
-              Not Now
+              <X className="w-5 h-5" />
             </button>
           </div>
         </div>

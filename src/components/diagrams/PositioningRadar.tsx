@@ -1,108 +1,214 @@
-'use client';
+"use client";
 
-import { SvgStage } from '@/components/visuals/SvgStage';
+import { useEffect, useRef, useState } from "react";
 
 export function PositioningRadar() {
+  const svgRef = useRef<SVGSVGElement>(null);
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (svgRef.current) {
+      observer.observe(svgRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   const axes = [
-    { angle: 0, label: 'SETA Fluency' },
-    { angle: 60, label: 'B-BBEE Mechanics' },
-    { angle: 120, label: 'Commercial Context' },
-    { angle: 180, label: 'Career Pathway' },
-    { angle: 240, label: 'Digital Infra' },
-    { angle: 300, label: 'Agentic AI' },
+    "SETA Fluency",
+    "B-BBEE Mechanics",
+    "Digital Infrastructure",
+    "Agentic AI",
+    "Transformation Track Record",
+    "NPC Integrity",
   ];
 
+  const center = { x: 400, y: 300 };
+  const radius = 120;
+
+  // Calculate points for a hexagon (6 axes)
+  const getPoint = (index: number, distance: number) => {
+    const angle = (index * Math.PI * 2) / axes.length - Math.PI / 2;
+    return {
+      x: center.x + distance * Math.cos(angle),
+      y: center.y + distance * Math.sin(angle),
+    };
+  };
+
+  // SAFA values (larger)
+  const safaValues = [0.95, 0.92, 0.88, 0.85, 0.90, 0.93];
+  // Sector baseline (smaller)
+  const baselineValues = [0.60, 0.65, 0.58, 0.62, 0.60, 0.65];
+
+  const generatePolygonPath = (values: number[]) => {
+    let path = "";
+    values.forEach((value, idx) => {
+      const point = getPoint(idx, radius * value);
+      path += `${point.x},${point.y} `;
+    });
+    return path;
+  };
+
   return (
-    <SvgStage label="Positioning · Radar" aspect="square">
-      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-        {/* Concentric rings */}
-        {[1, 2, 3, 4, 5].map((ring) => (
+    <div className="w-full flex justify-center py-8">
+      <svg
+        ref={svgRef}
+        viewBox="0 0 800 600"
+        className="w-full max-w-2xl"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <defs>
+          <style>
+            {`
+              @keyframes polygonDraw {
+                0% { stroke-dashoffset: 1000; opacity: 0; }
+                100% { stroke-dashoffset: 0; opacity: 1; }
+              }
+              @keyframes labelFadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+              }
+              .polygon-safa {
+                animation: ${isInView ? "polygonDraw 0.8s ease-out forwards" : "none"};
+              }
+              .polygon-baseline {
+                animation: ${isInView ? "polygonDraw 0.8s ease-out forwards" : "none"};
+              }
+              .axis-label {
+                animation: ${isInView ? "labelFadeIn 0.6s ease-out 0.8s forwards" : "none"};
+              }
+            `}
+          </style>
+        </defs>
+
+        {/* Title */}
+        <text
+          x="400"
+          y="40"
+          textAnchor="middle"
+          fill="#C9A84C"
+          fontFamily="Outfit"
+          fontSize="12"
+          letterSpacing="2"
+          textTransform="uppercase"
+          opacity="0.7"
+        >
+          Competitive Positioning Radar
+        </text>
+
+        {/* Grid circles */}
+        {[0.25, 0.5, 0.75, 1].map((scale, idx) => (
           <circle
-            key={`ring-${ring}`}
-            cx="250"
-            cy="250"
-            r={40 * ring}
+            key={`grid-${idx}`}
+            cx={center.x}
+            cy={center.y}
+            r={radius * scale}
             fill="none"
-            stroke="var(--line)"
-            strokeWidth="0.5"
-            opacity={0.3 - ring * 0.05}
+            stroke="#C9A84C"
+            strokeWidth="1"
+            opacity="0.15"
+            strokeDasharray="4 4"
           />
         ))}
 
         {/* Axis lines */}
-        {axes.map((axis, idx) => {
-          const rad = (axis.angle * Math.PI) / 180;
-          const x = 250 + 200 * Math.cos(rad);
-          const y = 250 + 200 * Math.sin(rad);
-
+        {axes.map((_, idx) => {
+          const point = getPoint(idx, radius);
           return (
-            <g key={`axis-${idx}`}>
-              <line x1="250" y1="250" x2={x} y2={y} stroke="var(--line)" strokeWidth="0.8" opacity="0.4" />
-              <text
-                x={250 + 220 * Math.cos(rad)}
-                y={250 + 220 * Math.sin(rad)}
-                textAnchor="middle"
-                dominantBaseline="middle"
-                fill="var(--text)"
-                fontFamily="var(--font-body)"
-                fontSize="8"
-                opacity="0.8"
-              >
-                {axis.label}
-              </text>
-            </g>
+            <line
+              key={`axis-${idx}`}
+              x1={center.x}
+              y1={center.y}
+              x2={point.x}
+              y2={point.y}
+              stroke="#C9A84C"
+              strokeWidth="1"
+              opacity="0.3"
+            />
           );
         })}
 
-        {/* Baseline polygon (muted) */}
+        {/* Sector baseline polygon */}
         <polygon
-          points={axes
-            .map((axis) => {
-              const rad = (axis.angle * Math.PI) / 180;
-              const x = 250 + 120 * Math.cos(rad);
-              const y = 250 + 120 * Math.sin(rad);
-              return `${x},${y}`;
-            })
-            .join(' ')}
-          fill="none"
-          stroke="var(--muted)"
-          strokeWidth="1"
-          opacity="0.5"
-          strokeDasharray="2 2"
+          points={generatePolygonPath(baselineValues)}
+          fill="#8B1A1A"
+          fillOpacity="0.2"
+          stroke="#8B1A1A"
+          strokeWidth="2"
+          strokeDasharray="1000"
+          className="polygon-baseline"
         />
 
-        {/* SAFA position polygon (gold) */}
+        {/* SAFA polygon */}
         <polygon
-          points={axes
-            .map((axis) => {
-              const rad = (axis.angle * Math.PI) / 180;
-              const x = 250 + 170 * Math.cos(rad);
-              const y = 250 + 170 * Math.sin(rad);
-              return `${x},${y}`;
-            })
-            .join(' ')}
-          fill="var(--gold)"
+          points={generatePolygonPath(safaValues)}
+          fill="#C9A84C"
           fillOpacity="0.15"
-          stroke="var(--gold)"
-          strokeWidth="1.5"
+          stroke="#E0C268"
+          strokeWidth="2.5"
+          strokeDasharray="1000"
+          className="polygon-safa"
         />
 
-        {/* Center dot */}
-        <circle cx="250" cy="250" r="3" fill="var(--gold)" />
+        {/* Axis labels */}
+        {axes.map((axis, idx) => {
+          const labelPoint = getPoint(idx, radius + 50);
+          return (
+            <text
+              key={`label-${idx}`}
+              x={labelPoint.x}
+              y={labelPoint.y}
+              textAnchor="middle"
+              fill="#C9A84C"
+              fontFamily="Outfit"
+              fontSize="9"
+              letterSpacing="0.5"
+              textTransform="uppercase"
+              opacity="0"
+              className="axis-label"
+            >
+              {axis}
+            </text>
+          );
+        })}
 
         {/* Legend */}
         <g>
-          <line x1="60" y1="440" x2="80" y2="440" stroke="var(--muted)" strokeWidth="1" strokeDasharray="2 2" />
-          <text x="90" y="440" dominantBaseline="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="8">
-            Baseline
+          <rect x="50" y="520" width="16" height="16" fill="#E0C268" opacity="0.3" />
+          <text
+            x="75"
+            y="532"
+            fill="#E0C268"
+            fontFamily="Outfit"
+            fontSize="10"
+            letterSpacing="0.5"
+          >
+            SA Film Academy
           </text>
 
-          <line x1="170" y1="440" x2="190" y2="440" stroke="var(--gold)" strokeWidth="1.5" />
-          <text x="200" y="440" dominantBaseline="middle" fill="var(--gold)" fontFamily="var(--font-body)" fontSize="8">
-            SAFA Position
+          <rect x="300" y="520" width="16" height="16" fill="#8B1A1A" opacity="0.3" />
+          <text
+            x="325"
+            y="532"
+            fill="#C9A84C"
+            fontFamily="Outfit"
+            fontSize="10"
+            letterSpacing="0.5"
+          >
+            Sector Baseline
           </text>
         </g>
       </svg>
-    </SvgStage>
+    </div>
   );
 }

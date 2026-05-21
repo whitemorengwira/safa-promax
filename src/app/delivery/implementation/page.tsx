@@ -134,6 +134,57 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* EmpowerYouth Presentation Standard Section */}
+      <SectionShell
+        eyebrow="The New Standard"
+        title="How SA Film Academy _presents_ to the world."
+        subtitle="Immersive, scroll-based web experiences instead of static documents."
+        className="bg-surface/20"
+      >
+        <TwoColLayout
+          left={
+            <div className="space-y-6">
+              <p className="drop-cap">
+                Going forward, all formal presentations from the Academy — to funders, to production partners, to the SETA, and to corporate Skills Levy clients — will be delivered as immersive, scroll-based web experiences rather than static PowerPoint or PDF documents.
+              </p>
+              <p>
+                The EmpowerYouth web presentation demonstrates this format: full-screen cinematic sections, scroll-triggered animation, no slides, no decks, no PDFs distributed by email — a URL shared instead.
+              </p>
+              <p className="font-semibold text-gold text-sm uppercase tracking-widest mt-8">
+                Six Presentation Types
+              </p>
+              <ul className="space-y-2 text-sm">
+                <li>1. Skills Levy Client Explainer</li>
+                <li>2. GreenSet Sustainability Proposal</li>
+                <li>3. FILMGRO Gauteng Expansion Proposal</li>
+                <li>4. ACE Corporate Sponsor Pitch</li>
+                <li>5. NFVF Funding Narrative</li>
+                <li>6. Cineterns Production Company Onboarding</li>
+              </ul>
+            </div>
+          }
+          right={
+            <div className="flex flex-col justify-center">
+              <a
+                href="https://empoweryouth.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block border border-gold bg-bg/50 p-8 hover:bg-bg/80 transition group"
+              >
+                <p className="text-xs uppercase tracking-widest text-gold mb-4">Reference Implementation</p>
+                <h3 className="text-2xl font-playfair mb-4 group-hover:text-gold transition">EmpowerYouth</h3>
+                <p className="text-sm text-body/80 mb-8">
+                  A complete example of the immersive web presentation standard. Full-screen sections, scroll-triggered animation, and institutional authority.
+                </p>
+                <button className="w-full bg-gold text-bg font-semibold uppercase tracking-widest py-3 text-sm hover:bg-gold-soft transition">
+                  View Reference →
+                </button>
+              </a>
+            </div>
+          }
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

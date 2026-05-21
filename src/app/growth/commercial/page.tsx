@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { SkillsLevyFlow } from '@/components/diagrams/SkillsLevyFlow';
 
 export const metadata: Metadata = {
   title: '10 · B-BBEE & Skills Levy Commercial Strategy · SA Film Academy Strategy',
@@ -34,6 +35,10 @@ export default function Page() {
         subtitle="Turning a mandatory cost into a strategic asset."
       >
         <div className="mb-16">
+          <SkillsLevyFlow />
+        </div>
+
+        <div className="mb-16 hidden">
           <SvgStage aspect="wide" label="Flow · Skills Levy">
             <svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg">
               <defs>

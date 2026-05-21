@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { CareerProgression } from '@/components/diagrams/CareerProgression';
 
 export const metadata: Metadata = {
   title: '11 · Community, Alumni & Stakeholder Engagement · SA Film Academy Strategy',
@@ -34,6 +35,10 @@ export default function Page() {
         subtitle="Dismantling perceptions through visible career pathways."
       >
         <div className="mb-16">
+          <CareerProgression />
+        </div>
+
+        <div className="mb-16 hidden">
           <SvgStage label="Community · Tiered Pathway" aspect="wide">
             <svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
               <defs>

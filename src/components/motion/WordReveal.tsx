@@ -24,13 +24,13 @@ export function WordReveal({
   style,
 }: WordRevealProps) {
   const shouldReduceMotion = useReducedMotion();
-  const words = text.split(" ");
+  const words = text.split(" ").filter((w) => w.length > 0);
 
   const containerVariants: Variants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: shouldReduceMotion ? 0 : 0.04, // Faster, tighter stagger
+        staggerChildren: shouldReduceMotion ? 0 : 0.06, // 60ms stagger per mandate
       },
     },
   };
@@ -61,7 +61,7 @@ export function WordReveal({
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariants}
-        className="inline-block"
+        className="inline"
         aria-hidden="true"
       >
         {words.map((word, idx) => {
@@ -75,10 +75,10 @@ export function WordReveal({
             <motion.span
               key={idx}
               variants={wordVariants}
-              className={`inline-flex ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
+              className={`inline ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
+              style={{ marginRight: "0.25em" }}
             >
               {cleanWord}
-              {idx < words.length - 1 && <span className="inline-block w-[0.25em]">&nbsp;</span>}
             </motion.span>
           );
         })}

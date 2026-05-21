@@ -18,11 +18,29 @@ interface CounterProps {
  */
 export function Counter({ target, duration = 1.5, className = "" }: CounterProps) {
   const nodeRef = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(nodeRef, { once: true, amount: 0.5 });
+  const isInView = useInView(nodeRef, { once: true, amount: 0.1, margin: "0px 0px -10% 0px" });
   const shouldReduceMotion = useReducedMotion();
 
   const count = useMotionValue(0);
   const rounded = useTransform(count, (latest) => Math.round(latest));
+
+  useEffect(() => {
+    // Fallback trigger: start animation 500ms after page load if observer hasn't fired
+    const fallbackTimer = setTimeout(() => {
+      if (nodeRef.current && !isInView) {
+        if (shouldReduceMotion) {
+          count.set(target);
+        } else {
+          animate(count, target, {
+            duration: duration,
+            ease: "easeOut",
+          });
+        }
+      }
+    }, 500);
+
+    return () => clearTimeout(fallbackTimer);
+  }, []);
 
   useEffect(() => {
     if (!isInView) return;
@@ -50,5 +68,5 @@ export function Counter({ target, duration = 1.5, className = "" }: CounterProps
     return () => unsubscribe();
   }, [rounded]);
 
-  return <span ref={nodeRef} className={className}>0</span>;
+  return <span ref={nodeRef} className={className}>{target}</span>;
 }

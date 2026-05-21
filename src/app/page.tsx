@@ -9,6 +9,8 @@ import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { StatBand } from '@/components/sections/StatBand';
 import { CardGrid } from '@/components/sections/CardGrid';
 import { PageHero } from '@/components/layout/PageHero';
+import { StakeholderPaths } from '@/components/sections/StakeholderPaths';
+import { ProductionCredits } from '@/components/sections/ProductionCredits';
 
 export default function HomePage() {
   // Get 6 featured strategy sections for the index grid
@@ -78,6 +80,14 @@ export default function HomePage() {
           }
         ]}
       />
+
+      <FilmstripDivider />
+
+      {/* ===== STAKEHOLDER ENTRY PATHS ===== */}
+      <StakeholderPaths />
+
+      {/* ===== PRODUCTION CREDITS ===== */}
+      <ProductionCredits />
 
       {/* ===== ECOSYSTEM PREVIEW ===== */}
       <section className="section-padding container-max">

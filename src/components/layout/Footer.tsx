@@ -70,31 +70,15 @@ export function Footer() {
           {/* Social Channels */}
           <div className="flex flex-col gap-3">
             <span className="eyebrow text-[9px] block mb-1">Stay Connected</span>
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="https://facebook.com/TheSAFilmAcademy"
-                target="_blank"
-                rel="noopener"
-                className="flex items-center gap-1.5 text-xs text-muted hover:text-gold transition-colors border border-line px-3 py-1.5 hover:bg-surface"
-              >
-                <svg className="w-4 h-4 text-gold-soft" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                </svg>
-                TheSAFilmAcademy
-              </a>
-              <a
-                href="https://instagram.com/safilmacademy"
-                target="_blank"
-                rel="noopener"
-                className="flex items-center gap-1.5 text-xs text-muted hover:text-gold transition-colors border border-line px-3 py-1.5 hover:bg-surface"
-              >
-                <svg className="w-4 h-4 text-gold-soft" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                </svg>
-                @safilmacademy
-              </a>
+            <div className="flex flex-col gap-2 text-xs">
+              <a href="https://linkedin.com/company/sa-film-academy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">LinkedIn</a>
+              <a href="https://instagram.com/safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">Instagram</a>
+              <a href="https://facebook.com/TheSAFilmAcademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">Facebook</a>
+              <a href="https://x.com/safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">X (Twitter)</a>
+              <a href="https://youtube.com/@safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">YouTube</a>
+              <a href="https://tiktok.com/@safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">TikTok</a>
+              <a href="https://wa.me/27123456789" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">WhatsApp Business</a>
+              <a href="https://t.me/safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">Telegram</a>
             </div>
           </div>
         </div>

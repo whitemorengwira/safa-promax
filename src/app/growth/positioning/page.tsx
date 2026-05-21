@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { PositioningRadar } from '@/components/diagrams/PositioningRadar';
 
 export const metadata: Metadata = {
   title: '14 · Competitive Positioning & Differentiation · SA Film Academy Strategy',
@@ -34,6 +35,10 @@ export default function Page() {
         subtitle="Defining why the Academy occupies a category of one."
       >
         <div className="mb-16">
+          <PositioningRadar />
+        </div>
+
+        <div className="mb-16 hidden">
           <SvgStage aspect="wide" label="Positioning · Radar Chart">
             <svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
               <defs>

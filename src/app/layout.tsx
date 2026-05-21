@@ -8,8 +8,9 @@ import {
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { PWAInstall } from "@/components/PWAInstall";
-import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { PWAInstall } from '@/components/PWAInstall';
+import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
+import { PersistentCTA } from '@/components/sections/PersistentCTA';
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -90,6 +91,9 @@ export default function RootLayout({
 
         {/* PWA Install Prompt */}
         <PWAInstall />
+
+        {/* Persistent CTA */}
+        <PersistentCTA />
       </body>
     </html>
   );

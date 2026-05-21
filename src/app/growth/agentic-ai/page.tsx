@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { FiveAgenticWorkflows } from '@/components/diagrams/FiveAgenticWorkflows';
 
 export const metadata: Metadata = {
   title: '6 · Agentic AI Marketing Engine · SA Film Academy Strategy',
@@ -34,6 +35,10 @@ export default function Page() {
         subtitle="Autonomous intelligence driving the Academy's growth engine."
       >
         <div className="mb-16">
+          <FiveAgenticWorkflows />
+        </div>
+
+        <div className="mb-16 hidden">
           <SvgStage aspect="wide" label="Agents · Orbital System">
             <svg viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
               <defs>
