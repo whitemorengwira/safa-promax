@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { HERO } from '@/lib/content/sections';
 import { pageData } from '@/lib/content/pageData';
 import { strategySections } from '@/data/nav';
-import { WordReveal } from '@/components/motion/WordReveal';
 import { Reveal } from '@/components/motion/Reveal';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
@@ -13,14 +12,11 @@ import { StakeholderPaths } from '@/components/sections/StakeholderPaths';
 import { ProductionCredits } from '@/components/sections/ProductionCredits';
 
 export default function HomePage() {
-  // Get 6 featured strategy sections for the index grid
+  // Get 6 featured strategy sections for the index grid using canonical tab-based routes
   const featuredSlugs = ['organisation', 'agentic-ai', 'seo', 'brand', 'positioning', 'implementation'];
-  const featuredSections = featuredSlugs
-    .map((slug) => {
-      const navItem = strategySections.find((s) => s.href === `/strategy/${slug}`);
-      return { slug, navItem };
-    })
-    .filter((item) => item.navItem);
+  const featuredSections = strategySections.filter((s) => 
+    featuredSlugs.some(slug => s.href.includes(slug))
+  );
 
   // Get ecosystem cards
   const ecosystemCards = pageData['ecosystem']?.cards || [];
@@ -37,8 +33,7 @@ export default function HomePage() {
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       >
         <div className="flex flex-wrap gap-4">
-          <Link
-            href="/foundation/organisation"
+                      <Link href="/foundation/organisation"
             className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-8 py-4 hover:bg-gold-soft transition"
           >
             Explore the Strategy
@@ -54,6 +49,47 @@ export default function HomePage() {
           </a>
         </div>
       </PageHero>
+
+      <FilmstripDivider />
+
+      {/* ===== PLAIN-ENGLISH SUMMARY & JARGON DEFINITIONS ===== */}
+      <section className="section-padding bg-surface/20">
+        <div className="container-max max-w-3xl">
+          <div className="space-y-8">
+            <Reveal>
+              <div className="space-y-4">
+                <h2 className="text-2xl font-display text-text">What is SA Film Academy?</h2>
+                <p className="text-lg leading-relaxed text-muted">
+                  SA Film Academy is a 20-year-old non-profit organisation that trains Black South African youth for careers in film and digital media production, then places them directly into professional production roles with major studios and broadcasters.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <div className="space-y-4">
+                <h3 className="text-sm uppercase tracking-widest text-gold font-semibold">Key Terms Explained</h3>
+                <div className="space-y-3 text-sm">
+                  <div className="flex gap-4">
+                    <span className="font-semibold text-gold min-w-fit">MICT SETA:</span>
+                    <span className="text-muted">Media, Information and Communication Technologies Sector Education and Training Authority — the government body that funds skills development in South Africa's film and media sector.</span>
+                  </div>
+                  <div className="flex gap-4">
+                    <span className="font-semibold text-gold min-w-fit">Skills Levy:</span>
+                    <span className="text-muted">A 1% payroll tax that production companies pay, from which they can claim back 20% for approved training programmes like SAFA's.</span>
+                  </div>
+                  <div className="flex gap-4">
+                    <span className="font-semibold text-gold min-w-fit">B-BBEE:</span>
+                    <span className="text-muted">Broad-Based Black Economic Empowerment — South African policy requiring companies to demonstrate commitment to skills development and Black employment.</span>
+                  </div>
+                  <div className="flex gap-4">
+                    <span className="font-semibold text-gold min-w-fit">SPV:</span>
+                    <span className="text-muted">Special Purpose Vehicle — a separate legal entity created to manage specific projects or revenue streams, used here for production finance.</span>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
 
       <FilmstripDivider />
 

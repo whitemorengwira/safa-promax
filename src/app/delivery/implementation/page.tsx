@@ -140,6 +140,126 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Board Approval Block */}
+      <SectionShell
+        eyebrow="18.3"
+        title="What we are asking the _board_ to approve."
+        subtitle="Three concrete decisions required to proceed."
+        className="bg-surface/50"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <Reveal>
+            <div className="border-l-2 border-gold pl-6 space-y-3">
+              <p className="text-xs uppercase tracking-widest text-gold font-semibold">Budget Envelope</p>
+              <p className="text-lg font-display text-text">R 2.4m</p>
+              <p className="text-sm text-muted">Annual investment in the 360° marketing strategy, phased across four pillars.</p>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <div className="border-l-2 border-gold pl-6 space-y-3">
+              <p className="text-xs uppercase tracking-widest text-gold font-semibold">Go-Live Date</p>
+              <p className="text-lg font-display text-text">1 June 2026</p>
+              <p className="text-sm text-muted">Implementation commencement. Three simultaneous activation tracks launch on this date.</p>
+            </div>
+          </Reveal>
+          <Reveal delay={0.2}>
+            <div className="border-l-2 border-gold pl-6 space-y-3">
+              <p className="text-xs uppercase tracking-widest text-gold font-semibold">Mandate</p>
+              <p className="text-lg font-display text-text">Full Authority</p>
+              <p className="text-sm text-muted">Board approval to proceed with the strategy as presented, with quarterly reporting.</p>
+            </div>
+          </Reveal>
+        </div>
+      </SectionShell>
+
+      <FilmstripDivider />
+
+      {/* Productions & Testimonial Proof Section */}
+      <SectionShell
+        eyebrow="18.4"
+        title="Proof: Named _Productions_ and _Clients._"
+        subtitle="Real institutional partnerships that validate the strategy."
+        className="bg-surface/30"
+      >
+        <div className="space-y-8">
+          <Reveal>
+            <div className="space-y-4">
+              <p className="text-sm uppercase tracking-widest text-gold font-semibold">Productions Crewed</p>
+              <div className="flex flex-wrap gap-4">
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">The Woman King</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Warrior</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">One Piece</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Wheel of Time</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Devil's Peak</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Blood & Water</span>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <div className="space-y-4">
+              <p className="text-sm uppercase tracking-widest text-gold font-semibold">Client Partners</p>
+              <div className="flex flex-wrap gap-4">
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Blue Ice Africa</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Film Afrika</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Home Brew Films</span>
+                <span className="px-4 py-2 border border-gold/30 text-sm text-text rounded">Mannequin Films</span>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal delay={0.2}>
+            <div className="bg-surface/50 border border-gold/20 p-6 rounded space-y-3">
+              <p className="text-xs uppercase tracking-widest text-gold font-semibold">Testimonial (Placeholder)</p>
+              <p className="text-sm italic text-muted leading-relaxed">
+                "SA Film Academy has fundamentally changed how we source and develop crew. The quality of trainees, the professionalism of the placement process, and the long-term career support have made SAFA an indispensable partner in our production workflow."
+              </p>
+              <p className="text-xs text-muted/60">— [Client Name, Title] (awaiting confirmation)</p>
+            </div>
+          </Reveal>
+        </div>
+      </SectionShell>
+
+      <FilmstripDivider />
+
+      {/* Risk Acknowledgement Section */}
+      <SectionShell
+        eyebrow="18.5"
+        title="Risk _Acknowledgement._"
+        subtitle="Known dependencies and mitigation strategies."
+        className="bg-surface/20"
+      >
+        <div className="space-y-6">
+          <Reveal>
+            <div className="space-y-4">
+              <h3 className="text-lg font-semibold text-text">Key Dependencies</h3>
+              <ul className="space-y-3 text-sm text-muted leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-gold font-bold">•</span>
+                  <span><strong>Suzuki Co-Brand Partnership:</strong> Strategic partnership dependent on Suzuki's Q2 2026 marketing calendar approval. Mitigation: Alternative partnership pathway with Netflix GreenSet case study.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gold font-bold">•</span>
+                  <span><strong>NFVF Grant Timing:</strong> R 1.2m funding contingent on NFVF funding cycle (typically Q3 2026). Mitigation: Budget framework includes phased deployment; core tracks launch without this funding.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gold font-bold">•</span>
+                  <span><strong>Cineterns Account Target:</strong> 3,000+ verified crew profiles required by Q3 2026. Mitigation: Phased onboarding with existing production partners; data migration from legacy systems.</span>
+                </li>
+              </ul>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <Link
+              href="/delivery/kpis"
+              className="inline-flex items-center gap-2 text-sm text-gold hover:text-gold-soft transition border-b border-gold hover:border-gold-soft"
+            >
+              View full risk register and mitigation strategies →
+            </Link>
+          </Reveal>
+        </div>
+      </SectionShell>
+
+      <FilmstripDivider />
+
       {/* EmpowerYouth Presentation Standard Section */}
       <SectionShell
         eyebrow="The New Standard"

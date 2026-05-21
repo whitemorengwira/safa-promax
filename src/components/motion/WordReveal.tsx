@@ -61,7 +61,7 @@ export function WordReveal({
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariants}
-        className="flex flex-wrap gap-[0.25em]"
+        className="flex flex-wrap"
         aria-hidden="true"
       >
         {words.map((word, idx) => {
@@ -69,13 +69,14 @@ export function WordReveal({
           const isItalic =
             (word.startsWith("_") && word.endsWith("_")) ||
             (word.startsWith("*") && word.endsWith("*"));
+          // Remove italic markers but keep the word; do NOT render underscores as spaces
           const cleanWord = isItalic ? word.slice(1, -1) : word;
 
           return (
             <motion.span
               key={idx}
               variants={wordVariants}
-              className={`inline-block ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
+              className={`inline-block mr-[0.25em] ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
             >
               {cleanWord}
             </motion.span>
