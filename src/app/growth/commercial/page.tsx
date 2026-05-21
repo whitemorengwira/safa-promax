@@ -97,6 +97,39 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* 10.3 — FINANCIAL POSITIONING */}
+      <SectionShell
+        eyebrow="10.3"
+        title="Revenue & Sustainability"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Levy Claim-Back:</strong> Production companies reclaim 20% of skills levy expenditure by partnering with SAFA. With R14M+ in annual academy payroll, this translates to immediate cost savings for partners.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>B-BBEE Scorecard Points:</strong> Skills development is weighted heavily in the B-BBEE scorecard. SAFA partners gain 15-20 points on average, directly impacting their empowerment ratings.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Institutional Revenue:</strong> SAFA captures placement fees and admin margins that sustain operations, reinvesting directly into trainee support and infrastructure expansion.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/growth-commercial/financial-dashboard-screen.webp"
+              alt="Financial dashboard showing metrics and returns"
+              brief="Financial dashboard on a professional monitor showing ROI, levy calculations, and B-BBEE metrics"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

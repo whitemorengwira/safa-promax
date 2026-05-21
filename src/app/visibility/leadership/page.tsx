@@ -130,6 +130,40 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* 9.4 — SPEAKING & AUTHORITY */}
+      <SectionShell
+        eyebrow="09.4"
+        title="Speaking Engagements & Authority Building"
+        className="bg-surface/20"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Industry Conferences:</strong> MICT SETA forums, NFVF annual summits, and international screen-industry events where the Chief Executive is positioned as a thought leader on South African film transformation.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Media Appearances:</strong> Podcast interviews with industry voices, op-ed features in Screen Africa and trade publications, and regular commentary on transformation and the future of skills development in the screen sector.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Institutional Credibility:</strong> Every speaking engagement, media feature, and thought leadership article adds to the perception that SA Film Academy is led by one of the industry's most credible voices.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/visibility-leadership/keynote-stage.webp"
+              alt="Executive speaking at a keynote stage"
+              brief="Dignified executive speaking confidently at a keynote stage in a cinematic conference setting"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

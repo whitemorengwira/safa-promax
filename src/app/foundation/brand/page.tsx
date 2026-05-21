@@ -102,6 +102,40 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* 8.3 — VISUAL EXECUTION */}
+      <SectionShell
+        eyebrow="8.3"
+        title="Visual System Implementation"
+      >
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Type System:</strong> Playfair Display (serif, italic) for headlines and emphasis; Outfit (sans-serif, geometric) for body copy and interface text. The pairing signals authority and modernity simultaneously.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Colour Palette:</strong> Gold (#C9A84C) as primary, deep red (#8B2C2C) as secondary, with a dark background (#13131A) that reads as dark grey in light contexts. This palette signals premium positioning and cinematic quality.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Photographic Aesthetic:</strong> Every image uses consistent cinematic lighting: warm gold key light with deep red side light. No stock photography. Every image is custom AI-generated or professionally shot to brand specification.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/foundation-brand/style-guide-desk.webp"
+              alt="Brand style guide and visual system"
+              brief="A professional designer's desk with brand style guides, color swatches, and typography samples organized systematically"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

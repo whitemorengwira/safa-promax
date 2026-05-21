@@ -146,6 +146,39 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Partnership Execution */}
+      <SectionShell
+        eyebrow="13.3"
+        title="Strategic Alliance Development"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Co-branding Agreements:</strong> Netflix, Suzuki, NFVF, and other strategic partners are formalized as co-sponsors of specific SAFA programs, with reciprocal visibility and messaging.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Joint Content:</strong> Case studies, white papers, and webinars developed collaboratively with partners to demonstrate mutual value and reach extended audiences.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Renewal & Expansion:</strong> Quarterly partnership reviews ensure continued alignment and identify new collaboration opportunities across the partner ecosystem.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/growth-partners/strategic-alliance-desk.webp"
+              alt="Partnership strategy development"
+              brief="Strategic partners in a professional meeting discussing collaboration and alliance opportunities"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>
