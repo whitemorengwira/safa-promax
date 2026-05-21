@@ -138,9 +138,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/data-dashboard.png"
-              alt="Measurement"
-              brief="A professional Black South African reviewing a data dashboard on a tablet in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v2/delivery/cineterns-monitor.png"
+              alt="Cineterns portal profiles on a high-end monitor"
+              brief="Cineterns portal profiles on a high-end monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
             />
           }

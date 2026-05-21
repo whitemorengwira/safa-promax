@@ -14,9 +14,9 @@ export default function SmartToolsPage() {
       <section className="relative min-h-[70vh] md:min-h-[80vh] overflow-hidden flex items-center">
         <div className="absolute inset-0 w-full h-full">
           <ImagePlaceholder
-            src="/images/ai/safa-kpi-hero.png"
+            src="/images/ai/v2/delivery/ai-workstation.png"
             alt="SA Film Academy: Smart Tools Hub"
-            brief="Cinematic data dashboard. A young Black man (29) reviewing a KPI dashboard and strategic measurement framework on a large monitor. Gold and shadow lighting. 70/30 visual ratio."
+            brief="Cinematic AI workstation. Interactive calculators and simulators on screen in a high-end studio environment, warm gold and deep red lighting, photorealistic, textless."
             orientation="video"
             className="w-full h-full"
           />

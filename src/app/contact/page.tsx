@@ -13,8 +13,8 @@ export default function ContactPage() {
         eyebrow="Contact · SA Film Academy"
         title="Get in _Touch._"
         subtitle="Ready to transform the South African screen? Whether you are a production company, a potential trainee, or a strategic partner, we want to hear from you."
-        imageSrc="/images/ai/contact/connection-web-warm.webp"
-        imageAlt="Warm cinematic connection visual: intimate, professional, dark palette"
+        imageSrc="/images/ai/contact/hero-phone-professional.webp"
+        imageAlt="Black female professional on a phone call, cinematic dark palette with warm red light"
       />
 
       <FilmstripDivider />

@@ -98,9 +98,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/cineterns-monitor.png"
-              alt="Cineterns portal profiles on a high-end monitor"
-              brief="Cineterns portal profiles on a high-end monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v2/delivery-implementation/clapperboard-action-shot.png"
+              alt="Clapperboard action shot signalling implementation launch"
+              brief="Clapperboard mid-snap on a professional film set under warm gold and deep red cinematic lighting, photorealistic, textless."
               orientation="landscape"
             />
           }
