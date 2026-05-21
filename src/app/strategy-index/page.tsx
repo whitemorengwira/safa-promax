@@ -165,7 +165,7 @@ export default function StrategyIndexPage() {
         eyebrow="Strategy Index"
         title="All 18 _Chapters_"
         subtitle="A complete map of the SA Film Academy 360° marketing strategy."
-        imageSrc="/images/ai/v2/safa-hero-red-cinematic-black-trainees.png"
+        imageSrc="/images/ai/home/hero-crew-night-set.webp"
         imageAlt="SA Film Academy strategy overview"
       />
 

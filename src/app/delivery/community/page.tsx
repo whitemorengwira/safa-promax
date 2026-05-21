@@ -95,14 +95,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The community architecture dismantles the most damaging perception SAFA has carried for two decades — and replaces it with a tiered, visible, celebrated career pathway.
-              </p>
-              <p>
-                By formalising the transition from intern to industry professional, we create a sense of belonging and achievement that drives long-term engagement and advocacy.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The community architecture dismantles the most damaging perception SAFA has carried for two decades — and replaces it with a tiered, visible, celebrated career pathway.
+                </p>
+                <p>
+                  By formalising the transition from intern to industry professional, we create a sense of belonging and achievement that drives long-term engagement and advocacy.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -112,6 +114,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -125,14 +128,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                Our ACE Alumni are the living proof of the Academy's impact. By highlighting their achievements and providing ongoing support, we build a powerful network of industry leaders who continue to give back to the Academy.
-              </p>
-              <p>
-                This tiered system ensures that every graduate has a clear path to becoming a permanent industry citizen, with the skills and connections required to thrive.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  Our ACE Alumni are the living proof of the Academy's impact. By highlighting their achievements and providing ongoing support, we build a powerful network of industry leaders who continue to give back to the Academy.
+                </p>
+                <p>
+                  This tiered system ensures that every graduate has a clear path to becoming a permanent industry citizen, with the skills and connections required to thrive.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -142,6 +147,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -98,14 +98,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA turns it into a strategic B-BBEE asset and a pipeline of skilled local talent. That is a sellable proposition the market is not currently hearing.
-              </p>
-              <p>
-                By facilitating the Work Skills Programme, SAFA allows production companies to claim back 20% of their levy while simultaneously earning critical B-BBEE points for skills development.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA turns it into a strategic B-BBEE asset and a pipeline of skilled local talent. That is a sellable proposition the market is not currently hearing.
+                </p>
+                <p>
+                  By facilitating the Work Skills Programme, SAFA allows production companies to claim back 20% of their levy while simultaneously earning critical B-BBEE points for skills development.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -115,6 +117,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -128,14 +131,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                SAFA's model is designed to maximise B-BBEE points for our partners. Through accredited training and verifiable placements, we provide the documentation and results required for high-level compliance.
-              </p>
-              <p>
-                This isn't just about compliance; it's about building a sustainable, transformed industry where the commercial interests of production houses align with the developmental needs of the country.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  SAFA's model is designed to maximise B-BBEE points for our partners. Through accredited training and verifiable placements, we provide the documentation and results required for high-level compliance.
+                </p>
+                <p>
+                  This isn't just about compliance; it's about building a sustainable, transformed industry where the commercial interests of production houses align with the developmental needs of the country.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -145,6 +150,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

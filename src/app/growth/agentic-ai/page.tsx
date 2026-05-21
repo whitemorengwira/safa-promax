@@ -106,14 +106,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The Agentic AI Marketing Engine is the Academy's force multiplier. By deploying autonomous agents to handle repetitive, data-heavy tasks, we free up human leadership to focus on high-level strategy and relationship building.
-              </p>
-              <p>
-                These agents operate 24/7, scanning for funding opportunities, generating draft content, monitoring social sentiment, and matching talent profiles with production needs.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The Agentic AI Marketing Engine is the Academy's force multiplier. By deploying autonomous agents to handle repetitive, data-heavy tasks, we free up human leadership to focus on high-level strategy and relationship building.
+                </p>
+                <p>
+                  These agents operate 24/7, scanning for funding opportunities, generating draft content, monitoring social sentiment, and matching talent profiles with production needs.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -123,6 +125,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -34,14 +34,16 @@ export default function Page() {
       >
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                SA Film Academy is a MICT SETA-accredited Non-Profit Company that facilitates the Work Skills Programme on behalf of the South African film and digital media industries. The Academy applies annually to the SETA for intern placements; the SETA approves a cohort and pays trainee stipends; the Academy then deploys those interns into a roster of production-company clients.
-              </p>
-              <p>
-                These production houses are described internally as the Academy's <em>fringe clients</em> — they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  SA Film Academy is a MICT SETA-accredited Non-Profit Company that facilitates the Work Skills Programme on behalf of the South African film and digital media industries. The Academy applies annually to the SETA for intern placements; the SETA approves a cohort and pays trainee stipends; the Academy then deploys those interns into a roster of production-company clients.
+                </p>
+                <p>
+                  These production houses are described internally as the Academy's <em>fringe clients</em> — they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -51,6 +53,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -64,14 +67,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                The trainee pathway is best understood as two clear tiers. In the first year, an intern is placed on a production for twelve months under a SETA-funded stipend; if the placement company puts them on an active production beyond that internship, an additional production fee applies.
-              </p>
-              <p>
-                After that internship year, the trainee progresses onto SAFA's database and becomes available for future productions, paid by the production company in accordance with the Academy's tiered remuneration policy. Around this two-tier system, the Academy carries the full administrative weight.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  The trainee pathway is best understood as two clear tiers. In the first year, an intern is placed on a production for twelve months under a SETA-funded stipend; if the placement company puts them on an active production beyond that internship, an additional production fee applies.
+                </p>
+                <p>
+                  After that internship year, the trainee progresses onto SAFA's database and becomes available for future productions, paid by the production company in accordance with the Academy's tiered remuneration policy. Around this two-tier system, the Academy carries the full administrative weight.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -81,6 +86,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -92,14 +98,16 @@ export default function Page() {
       >
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p>
-                There has historically been a twin perception challenge in the market. The first is that the Academy was led by Cape Town-based white production companies; the second is that trainees were allowed to remain trainees for too long — the <em>perpetual trainee</em> problem.
-              </p>
-              <p>
-                Both perceptions are now demonstrably softening. Over the past year, more than <strong>500 new professional connection requests</strong> have landed in the Chief Executive's channels alone, and the industry's tone toward SAFA has perceptibly shifted.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  There has historically been a twin perception challenge in the market. The first is that the Academy was led by Cape Town-based white production companies; the second is that trainees were allowed to remain trainees for too long — the <em>perpetual trainee</em> problem.
+                </p>
+                <p>
+                  Both perceptions are now demonstrably softening. Over the past year, more than <strong>500 new professional connection requests</strong> have landed in the Chief Executive's channels alone, and the industry's tone toward SAFA has perceptibly shifted.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -109,6 +117,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -206,14 +206,14 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 07 — SEO & AI SEO Strategy
   seo: {
-    heroImageBrief: '/images/gen/seo-strategy.png',
+    heroImageBrief: '/images/ai/v2/hero-seo.png',
     heroImageAlt: 'Young Black professional woman analyzing SEO performance and data flows in a cinematic production office.',
     diagram: 'topiccluster',
   },
 
   // Section 08 — Brand Architecture & Identity
   brand: {
-    heroImageBrief: '/images/gen/brand-identity.png',
+    heroImageBrief: '/images/ai/v2/hero-brand.png',
     heroImageAlt: 'Young Black professional man reviewing brand identity and design system in a high-end creative studio.',
     diagram: 'brandfamily',
     cards: [
@@ -246,7 +246,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 09 — Institutional Voice & Executive Visibility
   leadership: {
-    heroImageBrief: '/images/gen/leadership.png',
+    heroImageBrief: '/images/ai/safa-leadership-hero.png',
     heroImageAlt: 'Cinematic executive portrait of a young Black woman leader in the South African film industry.',
     diagram: 'none',
     tableHeaders: ['Window', 'Activation', 'Target Signal'],
@@ -259,7 +259,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 10 — B-BBEE & Skills Levy Commercial Strategy
   commercial: {
-    heroImageBrief: '/images/gen/commercial-strategy.png',
+    heroImageBrief: '/images/ai/safa-commercial-model.png',
     heroImageAlt: 'Young Black professionals in a cinematic boardroom discussing B-BBEE scorecard and commercial strategy.',
     diagram: 'none',
     cards: [
@@ -286,7 +286,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 11 — Community, Alumni & Stakeholder Engagement
   community: {
-    heroImageBrief: '/images/gen/community-engagement.png',
+    heroImageBrief: '/images/ai/safa-community-hero.png',
     heroImageAlt: 'Young Black film professionals collaborating in a cinematic community workspace.',
     diagram: 'none',
     cards: [
@@ -331,7 +331,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 12 — Content Marketing & Storytelling Strategy
   content: {
-    heroImageBrief: '/images/gen/content-storytelling.png',
+    heroImageBrief: '/images/ai/safa-content-hero.png',
     heroImageAlt: 'Young Black professional operating a cinema camera in a high-end content creation studio.',
     diagram: 'none',
     cards: [
@@ -370,7 +370,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 13 — Partnerships, PR & Media Relations
   partnerships: {
-    heroImageBrief: '/images/gen/partnerships.png',
+    heroImageBrief: '/images/ai/safa-partnerships-hero.png',
     heroImageAlt: 'Young Black professionals in a cinematic corporate setting discussing strategic partnerships.',
     diagram: 'none',
     cards: [
@@ -415,7 +415,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 14 — Competitive Positioning & Differentiation
   positioning: {
-    heroImageBrief: '/images/gen/positioning.png',
+    heroImageBrief: '/images/ai/safa-positioning-hero.png',
     heroImageAlt: 'Young Black professional woman analyzing competitive positioning and market landscape.',
     diagram: 'radar',
     tableHeaders: ['Dimension', 'Sector Baseline', 'SA Film Academy Position'],
@@ -455,7 +455,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 15 — Agentic AI in the Training Curriculum
   curriculum: {
-    heroImageBrief: '/images/gen/curriculum.png',
+    heroImageBrief: '/images/ai/safa-curriculum-hero.png',
     heroImageAlt: 'Young Black students in a cinematic post-production suite learning AI workflows.',
     diagram: 'none',
     cards: [
@@ -500,7 +500,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 16 — Key Performance Indicators & Measurement Dashboard
   kpis: {
-    heroImageBrief: '/images/gen/kpis.png',
+    heroImageBrief: '/images/ai/safa-kpi-hero.png',
     heroImageAlt: 'Young Black professional reviewing a cinematic KPI dashboard and measurement framework.',
     diagram: 'none',
     tableHeaders: ['Indicator', 'Baseline (Jun 2026)', 'Target (May 2027)', 'Owner'],
@@ -525,7 +525,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 17 — Budget Framework
   budget: {
-    heroImageBrief: '/images/gen/budget-framework.png',
+    heroImageBrief: '/images/ai/safa-budget-hero.png',
     heroImageAlt: 'Young Black professional woman reviewing a cinematic budget framework and financial plan.',
     diagram: 'none',
     budgetCategories: [
@@ -560,7 +560,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 18 — Implementation Commencement
   implementation: {
-    heroImageBrief: '/images/gen/implementation-launch.png',
+    heroImageBrief: '/images/ai/safa-impl-hero.png',
     heroImageAlt: 'Young Black film professionals in a cinematic project launch and implementation kickoff.',
     diagram: 'none',
     metrics: [

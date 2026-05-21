@@ -28,12 +28,13 @@ export default function HomePage() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
       {/* ===== FULL-VIEWPORT HERO ===== */}
+      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="Est. 2006 · Non-Profit Company"
         title="SA Film Academy"
         subtitle="Talent Pipeline of the South African Screen"
-        imageSrc="/images/ai/v2/safa-hero-red-cinematic-black-trainees.png"
-        imageAlt="Professional Black South African film crew on a cinematic movie set"
+        imageSrc="/images/ai/home/hero-crew-night-set.webp"
+        imageAlt="Professional South African film crew on a cinematic movie set"
       >
         <div className="flex flex-wrap gap-4">
           <Link
@@ -137,7 +138,7 @@ export default function HomePage() {
             <Link href="/foundation/organisation" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/safa-org-hero.png"
+                  src="/images/ai/v2/v2-pillar-foundation.png"
                   alt="Foundation"
                   brief="Professional Black female executive on set"
                   orientation="portrait"
@@ -151,7 +152,7 @@ export default function HomePage() {
             <Link href="/visibility/calendar" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/safa-calendar-hero.png"
+                  src="/images/ai/v2/hero-calendar.png"
                   alt="Visibility"
                   brief="Abstract four-phase timeline in gold light"
                   orientation="portrait"
@@ -165,7 +166,7 @@ export default function HomePage() {
             <Link href="/growth/agentic-ai" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/safa-ai-hero.png"
+                  src="/images/ai/v2/hero-agentic-ai.png"
                   alt="Growth"
                   brief="Abstract orbital AI system"
                   orientation="portrait"
@@ -179,7 +180,7 @@ export default function HomePage() {
             <Link href="/delivery/implementation" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/safa-impl-hero.png"
+                  src="/images/ai/v2/v2-pillar-delivery.png"
                   alt="Delivery"
                   brief="Film crew launching into action"
                   orientation="portrait"

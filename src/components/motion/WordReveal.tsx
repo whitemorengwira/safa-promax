@@ -61,7 +61,7 @@ export function WordReveal({
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariants}
-        className="inline"
+        className="flex flex-wrap gap-[0.25em]"
         aria-hidden="true"
       >
         {words.map((word, idx) => {
@@ -75,8 +75,7 @@ export function WordReveal({
             <motion.span
               key={idx}
               variants={wordVariants}
-              className={`inline ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
-              style={{ marginRight: "0.25em" }}
+              className={`inline-block ${isItalic ? "font-display-alt italic text-gold-soft" : ""}`}
             >
               {cleanWord}
             </motion.span>

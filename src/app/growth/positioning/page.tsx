@@ -97,14 +97,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The strategy's positioning argument runs on six specific capabilities — each one a category where the typical South African film training competitor cannot match SAFA's contextual depth or operating model.
-              </p>
-              <p>
-                Together they define why the Academy occupies a category of one, providing a unique value proposition that combines technical excellence with strategic commercial impact.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The strategy's positioning argument runs on six specific capabilities — each one a category where the typical South African film training competitor cannot match SAFA's contextual depth or operating model.
+                </p>
+                <p>
+                  Together they define why the Academy occupies a category of one, providing a unique value proposition that combines technical excellence with strategic commercial impact.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -114,6 +116,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -18,16 +18,16 @@ interface CounterProps {
  */
 export function Counter({ target, duration = 1.5, className = "" }: CounterProps) {
   const nodeRef = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(nodeRef, { once: true, amount: 0.1, margin: "0px 0px -10% 0px" });
+  const isInView = useInView(nodeRef, { once: true, amount: 0.15, margin: "0px 0px -10% 0px" });
   const shouldReduceMotion = useReducedMotion();
 
   const count = useMotionValue(0);
   const rounded = useTransform(count, (latest) => Math.round(latest));
 
   useEffect(() => {
-    // Fallback trigger: start animation 500ms after page load if observer hasn't fired
+    // Fallback trigger: start animation 400ms after page load regardless of observer status
     const fallbackTimer = setTimeout(() => {
-      if (nodeRef.current && !isInView) {
+      if (nodeRef.current) {
         if (shouldReduceMotion) {
           count.set(target);
         } else {
@@ -37,10 +37,10 @@ export function Counter({ target, duration = 1.5, className = "" }: CounterProps
           });
         }
       }
-    }, 500);
+    }, 400);
 
     return () => clearTimeout(fallbackTimer);
-  }, []);
+  }, [target, duration, shouldReduceMotion]);
 
   useEffect(() => {
     if (!isInView) return;

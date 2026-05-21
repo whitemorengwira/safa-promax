@@ -90,14 +90,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders.
-              </p>
-              <p>
-                This dashboard makes trade-offs visible rather than hidden, allowing for data-driven decision making and clear accountability across all strategic pillars.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders.
+                </p>
+                <p>
+                  This dashboard makes trade-offs visible rather than hidden, allowing for data-driven decision making and clear accountability across all strategic pillars.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -107,6 +109,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -120,14 +123,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                Our measurement framework is built on verifiable data points, from Cineterns registrations to placement events and digital engagement metrics.
-              </p>
-              <p>
-                By maintaining a rigorous approach to data collection and analysis, we ensure that our reports are both accurate and actionable, providing a clear picture of the Academy's progress.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  Our measurement framework is built on verifiable data points, from Cineterns registrations to placement events and digital engagement metrics.
+                </p>
+                <p>
+                  By maintaining a rigorous approach to data collection and analysis, we ensure that our reports are both accurate and actionable, providing a clear picture of the Academy's progress.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -137,6 +142,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

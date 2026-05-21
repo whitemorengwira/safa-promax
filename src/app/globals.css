@@ -105,6 +105,12 @@ p, li {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   line-height: 1.85;
   color: var(--text);
+  max-width: 65ch;
+}
+
+/* Apply max-width only to section content paragraphs */
+.section-padding p {
+  max-width: 65ch;
 }
 
 /* Subtle film-grain overlay across the whole document */
@@ -144,6 +150,8 @@ h1 {
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--text);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 h1 em, h2 em {
@@ -157,6 +165,8 @@ h2 {
   font-size: clamp(2rem, 4vw, 4.5rem);
   line-height: 1.1;
   color: var(--text);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 h3 {
@@ -741,3 +751,51 @@ p.floating-text:nth-child(5) {
 .paragraph-reveal span:nth-child(9) { animation-delay: 0.32s; }
 .paragraph-reveal span:nth-child(10) { animation-delay: 0.36s; }
 .paragraph-reveal span:nth-child(n+11) { animation-delay: 0.40s; }
+
+/* ============================================================
+   MEGA NAVBAR PANEL STYLING (Part D)
+   ============================================================ */
+
+.mega-panel {
+  background-color: rgba(13, 13, 20, 0.97);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(201, 168, 76, 0.35);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.7);
+}
+
+/* Mega panel link titles */
+.mega-panel a .link-title {
+  color: #E8E0D0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  transition: color 180ms ease;
+}
+
+/* Mega panel link descriptors */
+.mega-panel a .link-desc {
+  color: rgba(232, 224, 208, 0.55);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+/* Hover state */
+.mega-panel a:hover .link-title {
+  color: #C9A84C; /* gold */
+}
+
+/* Column headings */
+.mega-panel .col-heading {
+  color: #C9A84C;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+}

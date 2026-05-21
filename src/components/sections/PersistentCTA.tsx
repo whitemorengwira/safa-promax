@@ -67,12 +67,13 @@ export function PersistentCTA() {
             >
               Schedule a Briefing
             </Link>
-            <a
-              href="/prospectus.pdf"
-              className="text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition"
+            <button
+              type="button"
+              disabled
+              className="text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-2 hover:bg-gold hover:text-bg transition cursor-not-allowed opacity-75"
             >
               Download Prospectus
-            </a>
+            </button>
           </div>
         </div>
         <button
@@ -135,12 +136,13 @@ export function PersistentCTA() {
           >
             Schedule a Briefing
           </Link>
-          <a
-            href="/prospectus.pdf"
-            className="flex-1 text-center text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-3 hover:bg-gold hover:text-bg transition"
+          <button
+            type="button"
+            disabled
+            className="flex-1 text-center text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-4 py-3 hover:bg-gold hover:text-bg transition cursor-not-allowed opacity-75"
           >
             Download Prospectus
-          </a>
+          </button>
         </div>
       </div>
     </div>

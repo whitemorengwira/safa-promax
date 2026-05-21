@@ -87,14 +87,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
-              </p>
-              <p>
-                By integrating tools like Veo, Kling, and Hailuo into the core craft, we ensure our graduates are not just ready for the industry today, but are leading it tomorrow.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
+                </p>
+                <p>
+                  By integrating tools like Veo, Kling, and Hailuo into the core craft, we ensure our graduates are not just ready for the industry today, but are leading it tomorrow.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -104,6 +106,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -117,14 +120,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                The masterclass covers the entire agentic workflow: from briefing and iteration to review and final delivery. Students learn how to leverage AI to enhance their creative output without compromising on quality or craft.
-              </p>
-              <p>
-                This module is not just about the tools; it's about the mindset of the modern filmmaker — one who is comfortable at the intersection of technology and storytelling.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  The masterclass covers the entire agentic workflow: from briefing and iteration to review and final delivery. Students learn how to leverage AI to enhance their creative output without compromising on quality or craft.
+                </p>
+                <p>
+                  This module is not just about the tools; it's about the mindset of the modern filmmaker — one who is comfortable at the intersection of technology and storytelling.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -134,6 +139,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -74,23 +74,25 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The technical health audit covers <strong>Core Web Vitals improvement</strong> (LCP &lt; 2.5s, FID &lt; 100ms, CLS &lt; 0.1), canonical tag implementation, sitemap submission, and structured data markup using <strong>Organization</strong>, <strong>EducationalOrganization</strong>, <strong>Course</strong>, <strong>JobPosting</strong> and <strong>Event</strong> schema types.
-              </p>
-              <p>
-                Every page on safilmacademy.org will be re-indexed with the appropriate schema, making the Academy machine-readable to every search engine in a way it currently is not.
-              </p>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The technical health audit covers <strong>Core Web Vitals improvement</strong> (LCP &lt; 2.5s, FID &lt; 100ms, CLS &lt; 0.1), canonical tag implementation, sitemap submission, and structured data markup using <strong>Organization</strong>, <strong>EducationalOrganization</strong>, <strong>Course</strong>, <strong>JobPosting</strong> and <strong>Event</strong> schema types.
+                </p>
+                <p>
+                  Every page on safilmacademy.org will be re-indexed with the appropriate schema, making the Academy machine-readable to every search engine in a way it currently is not.
+                </p>
 
-              <h4 className="mt-8 mb-4">Primary Keywords & Clusters</h4>
-              <ul className="space-y-2 text-sm">
-                <li><strong>Film Internships:</strong> "film internship South Africa," "how to get a film internship," "entry-level film jobs"</li>
-                <li><strong>MICT SETA:</strong> "MICT SETA accreditation," "skills levy training," "SETA-funded internships"</li>
-                <li><strong>Placements:</strong> "film crew job boards," "production hiring South Africa," "film production training"</li>
-                <li><strong>AI & Production:</strong> "AI video generation tools," "Generative video software," "AI in film post-production"</li>
-                <li><strong>B-BBEE:</strong> "B-BBEE scorecard," "skills development CSI," "learnership funding"</li>
-              </ul>
-            </div>
+                <h4 className="mt-8 mb-4">Primary Keywords & Clusters</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><strong>Film Internships:</strong> "film internship South Africa," "how to get a film internship," "entry-level film jobs"</li>
+                  <li><strong>MICT SETA:</strong> "MICT SETA accreditation," "skills levy training," "SETA-funded internships"</li>
+                  <li><strong>Placements:</strong> "film crew job boards," "production hiring South Africa," "film production training"</li>
+                  <li><strong>AI & Production:</strong> "AI video generation tools," "Generative video software," "AI in film post-production"</li>
+                  <li><strong>B-BBEE:</strong> "B-BBEE scorecard," "skills development CSI," "learnership funding"</li>
+                </ul>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -100,6 +102,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -113,14 +116,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                An increasing proportion of professional searches now begin not in Google but in tools like Perplexity, ChatGPT and Google's AI Overviews. The user does not click through ten blue links. They read the AI's answer, and they trust it.
-              </p>
-              <p>
-                The Academy needs to be the entity that appears <em>inside</em> those answers — not the entity that ranks tenth on a page no one reads. This requires a deliberate strategy of entity disambiguation and authoritative citation.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  An increasing proportion of professional searches now begin not in Google but in tools like Perplexity, ChatGPT and Google's AI Overviews. The user does not click through ten blue links. They read the AI's answer, and they trust it.
+                </p>
+                <p>
+                  The Academy needs to be the entity that appears <em>inside</em> those answers — not the entity that ranks tenth on a page no one reads. This requires a deliberate strategy of entity disambiguation and authoritative citation.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -130,6 +135,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -17,6 +17,7 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
       {/* Full-viewport Hero */}
+      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture. Until now, they have read as five strangers."
@@ -98,14 +99,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The SA Film Academy ecosystem is a "branded house" architecture. SAFA sits at the apex as the MICT SETA-accredited master brand, while four distinct programmes radiate outward, each carrying a visible relationship to the master brand.
-              </p>
-              <p>
-                Until now, these entities have often read as isolated projects. The strategy moving forward is to unify them under a single visual and strategic umbrella, ensuring that the success of one programme reinforces the authority of the entire Academy.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The SA Film Academy ecosystem is a "branded house" architecture. SAFA sits at the apex as the MICT SETA-accredited master brand, while four distinct programmes radiate outward, each carrying a visible relationship to the master brand.
+                </p>
+                <p>
+                  Until now, these entities have often read as isolated projects. The strategy moving forward is to unify them under a single visual and strategic umbrella, ensuring that the success of one programme reinforces the authority of the entire Academy.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -115,6 +118,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

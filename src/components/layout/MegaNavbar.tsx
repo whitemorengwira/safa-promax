@@ -198,7 +198,14 @@ export default function MegaNavbar() {
               {/* Mega Dropdown Panel */}
               {activePanel === tab.key && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-6xl bg-surface/70 backdrop-blur-lg border-t-2 border-red-600 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200"
+                  className="mega-panel absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-6xl border-t-2 border-red-600 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200"
+                  style={{
+                    backgroundColor: 'rgba(13, 13, 20, 0.97)',
+                    backdropFilter: 'blur(6px)',
+                    WebkitBackdropFilter: 'blur(6px)',
+                    borderBottom: '1px solid rgba(201, 168, 76, 0.12)',
+                    boxShadow: '0 24px 64px rgba(0, 0, 0, 0.7)',
+                  }}
                   onMouseEnter={() => setActivePanel(tab.key)}
                   onMouseLeave={() => setActivePanel(null)}
                 >

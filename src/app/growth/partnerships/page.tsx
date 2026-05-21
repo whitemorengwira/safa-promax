@@ -91,14 +91,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                A formalised partnership architecture and disciplined media relations plan — converting existing goodwill into named co-brands, recurring press placements, and an institutional reputation that travels in front of the Academy rather than behind it.
-              </p>
-              <p>
-                By aligning with global brands like Netflix and Suzuki, the Academy reinforces its position as the premier talent pipeline for the South African screen.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  A formalised partnership architecture and disciplined media relations plan — converting existing goodwill into named co-brands, recurring press placements, and an institutional reputation that travels in front of the Academy rather than behind it.
+                </p>
+                <p>
+                  By aligning with global brands like Netflix and Suzuki, the Academy reinforces its position as the premier talent pipeline for the South African screen.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -108,6 +110,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -121,14 +124,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                The Academy's story is one of transformation, excellence, and impact. Our media relations strategy ensures this story is told consistently across industry publications, national news, and digital platforms.
-              </p>
-              <p>
-                Through regular press releases, thought-leadership pieces, and strategic media events, we maintain a high-visibility profile that attracts both talent and investment.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  The Academy's story is one of transformation, excellence, and impact. Our media relations strategy ensures this story is told consistently across industry publications, national news, and digital platforms.
+                </p>
+                <p>
+                  Through regular press releases, thought-leadership pieces, and strategic media events, we maintain a high-visibility profile that attracts both talent and investment.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -138,6 +143,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

@@ -8,7 +8,7 @@ interface PathCard {
   title: string;
   subtext: string;
   cta: string;
-  href: string;
+  href: string | null;
   image: string;
 }
 
@@ -24,7 +24,7 @@ const paths: PathCard[] = [
     title: "Funders & Partners",
     subtext: "B-BBEE compliance, Skills Levy administration, and impact returns",
     cta: "Download the Partnership Prospectus",
-    href: "/prospectus.pdf",
+    href: null,
     image: "/images/ai/v2/growth-commercial/partnership-meeting.webp",
   },
   {
@@ -80,14 +80,24 @@ export function StakeholderPaths() {
                   </div>
 
                   {/* CTA Button */}
-                  <Link
-                    href={path.href}
-                    target={path.href.startsWith("http") ? "_blank" : undefined}
-                    rel={path.href.startsWith("http") ? "noreferrer" : undefined}
-                    className="inline-block font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-6 py-3 hover:bg-gold-soft transition-colors duration-200 w-fit"
-                  >
-                    {path.cta} →
-                  </Link>
+                  {path.href ? (
+                    <Link
+                      href={path.href}
+                      target={path.href.startsWith("http") ? "_blank" : undefined}
+                      rel={path.href.startsWith("http") ? "noreferrer" : undefined}
+                      className="inline-block font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-6 py-3 hover:bg-gold-soft transition-colors duration-200 w-fit"
+                    >
+                      {path.cta} →
+                    </Link>
+                  ) : (
+                    <button
+                      type="button"
+                      disabled
+                      className="inline-block font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-6 py-3 cursor-not-allowed opacity-75"
+                    >
+                      {path.cta} →
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

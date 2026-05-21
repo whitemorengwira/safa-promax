@@ -49,8 +49,8 @@ export default function FoundationLanding() {
         eyebrow="Pillar 01"
         title="The _Foundation._"
         subtitle="Structure. Ecosystem. Infrastructure."
-        imageSrc="/images/ai/v2/post-production-lab-black-creators.png"
-        imageAlt="Professional Black South African film production team in dark cinematic setting"
+        imageSrc="/images/ai/foundation-brand/hero-cinematic-logo.webp"
+        imageAlt="Foundation brand cinematic visual"
       />
 
       <FilmstripDivider />

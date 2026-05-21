@@ -85,14 +85,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                A transparent, line-itemised monthly framework that converts marketing strategy from a series of unpredictable project bills into a single, defensible operating-expense line on SAFA's books.
-              </p>
-              <p>
-                This subscription-based model provides the Academy with predictable costs and consistent service delivery, ensuring that the marketing engine remains powered without financial surprises.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  A transparent, line-itemised monthly framework that converts marketing strategy from a series of unpredictable project bills into a single, defensible operating-expense line on SAFA's books.
+                </p>
+                <p>
+                  This subscription-based model provides the Academy with predictable costs and consistent service delivery, ensuring that the marketing engine remains powered without financial surprises.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -102,6 +104,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -115,14 +118,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                The budget allocation prioritises critical digital infrastructure, from hosting and database management to security and content delivery networks.
-              </p>
-              <p>
-                By investing in high-quality, scalable platforms, we ensure that the Academy's digital presence is robust, secure, and capable of supporting our ambitious growth targets.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  The budget allocation prioritises critical digital infrastructure, from hosting and database management to security and content delivery networks.
+                </p>
+                <p>
+                  By investing in high-quality, scalable platforms, we ensure that the Academy's digital presence is robust, secure, and capable of supporting our ambitious growth targets.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -132,6 +137,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

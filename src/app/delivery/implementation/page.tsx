@@ -84,14 +84,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The implementation phase is not an aspiration — it is a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
-              </p>
-              <p>
-                This disciplined approach ensures that the strategy translates into immediate, tangible results for the Academy and its stakeholders.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The implementation phase is not an aspiration — it is a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
+                </p>
+                <p>
+                  This disciplined approach ensures that the strategy translates into immediate, tangible results for the Academy and its stakeholders.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -101,6 +103,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -114,14 +117,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                The first 30 days are critical for establishing momentum. By focusing on high-impact, demonstrable wins, we build the institutional confidence required for long-term success.
-              </p>
-              <p>
-                Each track is assigned a dedicated lead and a set of clear KPIs, ensuring accountability and transparency throughout the commencement phase.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  The first 30 days are critical for establishing momentum. By focusing on high-impact, demonstrable wins, we build the institutional confidence required for long-term success.
+                </p>
+                <p>
+                  Each track is assigned a dedicated lead and a set of clear KPIs, ensuring accountability and transparency throughout the commencement phase.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -131,6 +136,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -143,25 +149,27 @@ export default function Page() {
       >
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                Going forward, all formal presentations from the Academy — to funders, to production partners, to the SETA, and to corporate Skills Levy clients — will be delivered as immersive, scroll-based web experiences rather than static PowerPoint or PDF documents.
-              </p>
-              <p>
-                The EmpowerYouth web presentation demonstrates this format: full-screen cinematic sections, scroll-triggered animation, no slides, no decks, no PDFs distributed by email — a URL shared instead.
-              </p>
-              <p className="font-semibold text-gold text-sm uppercase tracking-widest mt-8">
-                Six Presentation Types
-              </p>
-              <ul className="space-y-2 text-sm">
-                <li>1. Skills Levy Client Explainer</li>
-                <li>2. GreenSet Sustainability Proposal</li>
-                <li>3. FILMGRO Gauteng Expansion Proposal</li>
-                <li>4. ACE Corporate Sponsor Pitch</li>
-                <li>5. NFVF Funding Narrative</li>
-                <li>6. Cineterns Production Company Onboarding</li>
-              </ul>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  Going forward, all formal presentations from the Academy — to funders, to production partners, to the SETA, and to corporate Skills Levy clients — will be delivered as immersive, scroll-based web experiences rather than static PowerPoint or PDF documents.
+                </p>
+                <p>
+                  The EmpowerYouth web presentation demonstrates this format: full-screen cinematic sections, scroll-triggered animation, no slides, no decks, no PDFs distributed by email — a URL shared instead.
+                </p>
+                <p className="font-semibold text-gold text-sm uppercase tracking-widest mt-8">
+                  Six Presentation Types
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li>1. Skills Levy Client Explainer</li>
+                  <li>2. GreenSet Sustainability Proposal</li>
+                  <li>3. FILMGRO Gauteng Expansion Proposal</li>
+                  <li>4. ACE Corporate Sponsor Pitch</li>
+                  <li>5. NFVF Funding Narrative</li>
+                  <li>6. Cineterns Production Company Onboarding</li>
+                </ul>
+              </div>
+            </Reveal>
           }
           right={
             <div className="flex flex-col justify-center">
@@ -182,6 +190,7 @@ export default function Page() {
               </a>
             </div>
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 

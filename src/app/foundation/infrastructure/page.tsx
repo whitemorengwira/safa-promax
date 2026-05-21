@@ -89,14 +89,16 @@ export default function Page() {
 
         <TwoColLayout
           left={
-            <div className="space-y-6">
-              <p className="drop-cap">
-                The digital infrastructure of the SA Film Academy is built on a modern, high-performance stack designed for global scale. Leveraging Next.js 14, Vercel Edge, and Cloudflare, we ensure sub-100ms latency and POPIA-grade security across all user touchpoints.
-              </p>
-              <p>
-                This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the Cineterns portal and the Academy's digital presence.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p className="drop-cap">
+                  The digital infrastructure of the SA Film Academy is built on a modern, high-performance stack designed for global scale. Leveraging Next.js 14, Vercel Edge, and Cloudflare, we ensure sub-100ms latency and POPIA-grade security across all user touchpoints.
+                </p>
+                <p>
+                  This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the Cineterns portal and the Academy's digital presence.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -106,6 +108,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
@@ -130,14 +133,16 @@ export default function Page() {
         <TwoColLayout
           flip
           left={
-            <div className="space-y-6">
-              <p>
-                Cineterns is the flagship digital product of the SA Film Academy. It serves as a comprehensive talent portal where 500+ trained professionals are indexed, matched, and connected with production opportunities.
-              </p>
-              <p>
-                The portal features an AI-driven matching engine that aligns trainee skills with specific production requirements, streamlining the placement process for the Academy's fringe clients.
-              </p>
-            </div>
+            <Reveal>
+              <div className="space-y-6">
+                <p>
+                  Cineterns is the flagship digital product of the SA Film Academy. It serves as a comprehensive talent portal where 500+ trained professionals are indexed, matched, and connected with production opportunities.
+                </p>
+                <p>
+                  The portal features an AI-driven matching engine that aligns trainee skills with specific production requirements, streamlining the placement process for the Academy's fringe clients.
+                </p>
+              </div>
+            </Reveal>
           }
           right={
             <ImagePlaceholder
@@ -147,6 +152,7 @@ export default function Page() {
               orientation="landscape"
             />
           }
+          visualRatio="70-30"
         />
       </SectionShell>
 
