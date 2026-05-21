@@ -47,8 +47,23 @@ export const metadata: Metadata = {
     "Where Industry Meets Opportunity. SA Film Academy is South Africa's premier film training institution — 20 years of transforming the industry through skills development, B-BBEE compliance, and cutting-edge production training.",
   manifest: "/manifest.json",
   icons: {
-    icon: "/images/logos/sa-film-academy-logo.webp",
-    apple: "/images/logos/sa-film-academy-logo.webp",
+    icon: "/images/logos/sa-film-academy-logo.png",
+    apple: "/images/logos/sa-film-academy-logo.png",
+  },
+  openGraph: {
+    title: "SA Film Academy · 360° Marketing Strategy 2026–2027",
+    description: "Where Industry Meets Opportunity. SA Film Academy is South Africa's premier film training institution — 20 years of transforming the industry through skills development, B-BBEE compliance, and cutting-edge production training.",
+    url: "https://safa-promax.vercel.app",
+    siteName: "SA Film Academy",
+    images: [
+      {
+        url: "/images/logos/sa-film-academy-logo.png",
+        width: 512,
+        height: 512,
+        alt: "SA Film Academy Logo",
+      },
+    ],
+    type: "website",
   },
   appleWebApp: {
     capable: true,
