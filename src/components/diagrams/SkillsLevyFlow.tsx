@@ -111,7 +111,7 @@ export function SkillsLevyFlow() {
           fontSize="14"
           fontWeight="700"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           SAFA Administration
         </text>
@@ -185,7 +185,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           Production Company
         </text>
@@ -196,7 +196,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           Payroll
         </text>
@@ -208,7 +208,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           SETA Approval
         </text>
@@ -222,7 +222,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           Trainee
         </text>
@@ -234,7 +234,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           Stipends
         </text>
@@ -247,7 +247,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           SAFA Admin Fee
         </text>
@@ -260,7 +260,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="10"
           letterSpacing="1"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
         >
           Client Rebate
         </text>
@@ -274,7 +274,7 @@ export function SkillsLevyFlow() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           Skills Levy Financial Flow

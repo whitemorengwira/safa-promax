@@ -106,7 +106,7 @@ export function FiveAgenticWorkflows() {
             fontSize="13"
             fontWeight="700"
             letterSpacing="1"
-            textTransform="uppercase"
+            style={{ textTransform: "uppercase" }}
           >
             AI Engine
           </text>
@@ -134,7 +134,7 @@ export function FiveAgenticWorkflows() {
               fontSize="11"
               fontWeight="600"
               letterSpacing="0.5"
-              textTransform="uppercase"
+              style={{ textTransform: "uppercase" }}
             >
               {sat.label.split("\n").map((line, i) => (
                 <tspan key={i} x={sat.x} dy={i === 0 ? 0 : 13}>
@@ -154,7 +154,7 @@ export function FiveAgenticWorkflows() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           Five Agentic Workflows

@@ -100,7 +100,7 @@ export function PositioningRadar() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           Competitive Positioning Radar
@@ -173,7 +173,7 @@ export function PositioningRadar() {
               fontFamily="Outfit"
               fontSize="9"
               letterSpacing="0.5"
-              textTransform="uppercase"
+              style={{ textTransform: "uppercase" }}
               opacity="0"
               className="axis-label"
             >

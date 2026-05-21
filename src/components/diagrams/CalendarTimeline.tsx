@@ -78,7 +78,7 @@ export function CalendarTimeline() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           12-Month Strategic Timeline
@@ -145,7 +145,7 @@ export function CalendarTimeline() {
                 fontFamily="Outfit"
                 fontSize="9"
                 letterSpacing="1"
-                textTransform="uppercase"
+                style={{ textTransform: "uppercase" }}
                 opacity="0.7"
               >
                 {phase.months}

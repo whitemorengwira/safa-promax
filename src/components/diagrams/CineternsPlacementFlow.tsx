@@ -127,7 +127,7 @@ export function CineternsPlacementFlow() {
               fontSize="11"
               fontWeight="600"
               letterSpacing="0.5"
-              textTransform="uppercase"
+              style={{ textTransform: "uppercase" }}
             >
               {node.label.split("\n").map((line, i) => (
                 <tspan key={i} x={node.x} dy={i === 0 ? 0 : 14}>
@@ -147,7 +147,7 @@ export function CineternsPlacementFlow() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           Placement Pipeline

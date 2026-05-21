@@ -73,7 +73,7 @@ export function CareerProgression() {
           fontFamily="Outfit"
           fontSize="12"
           letterSpacing="2"
-          textTransform="uppercase"
+          style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
           Four-Tier Career Progression
