@@ -96,6 +96,14 @@ export default function Page() {
                     A measurable, twelve-month KPI architecture with named baselines and named targets, designed to be reported quarterly to the Academy's executive and stakeholders.
                   </p>
                 </div>
+                <div className="my-4 float-right ml-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-kpi-metrics.png"
+                    alt="KPI measurement and metrics"
+                    brief="Performance metrics and KPI tracking"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   This dashboard makes trade-offs visible rather than hidden, allowing for data-driven decision making and clear accountability across all strategic pillars.
                 </p>

@@ -93,6 +93,14 @@ export default function Page() {
                     The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
                   </p>
                 </div>
+                <div className="my-4 float-left mr-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-generative-ai.png"
+                    alt="AI generative learning"
+                    brief="Generative AI tools and learning"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   By integrating tools like Veo, Kling, and Hailuo into the core craft, we ensure our graduates are not just ready for the industry today, but are leading it tomorrow.
                 </p>

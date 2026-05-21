@@ -60,6 +60,14 @@ export default function HomePage() {
             <Reveal>
               <div className="space-y-4">
                 <h2 className="text-2xl font-display text-text">What is SA Film Academy?</h2>
+                <div className="my-4 float-right ml-6 w-44">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-film-training.png"
+                    alt="Film training and production"
+                    brief="South African youth training in film production"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-lg leading-relaxed text-muted">
                   SA Film Academy is a 20-year-old non-profit organisation that trains South African youth for careers in film and digital media production, then places them directly into professional production roles with major studios and broadcasters.
                 </p>
@@ -68,6 +76,14 @@ export default function HomePage() {
             <Reveal delay={0.1}>
               <div className="space-y-4">
                 <h3 className="text-sm uppercase tracking-widest text-gold font-semibold">Key Terms Explained</h3>
+                <div className="my-4 float-left mr-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-skills-levy.png"
+                    alt="Skills development and levy"
+                    brief="Skills training and government funding"
+                    orientation="portrait"
+                  />
+                </div>
                 <div className="space-y-3 text-sm">
                   <div className="flex gap-4">
                     <span className="font-semibold text-gold min-w-fit">MICT SETA:</span>

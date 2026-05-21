@@ -57,6 +57,14 @@ export default function GrowthLanding() {
         title="Explore the Growth Sections"
         subtitle="Select a section below to dive into the revenue and scale strategy."
       >
+        <div className="my-4 float-right ml-6 w-44 mb-8">
+          <ImagePlaceholder
+            src="/images/ai/safa-growth-revenue.png"
+            alt="Growth and revenue generation"
+            brief="Revenue generation and business growth"
+            orientation="portrait"
+          />
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {SUB_PAGES.map((page) => (
             <Link 

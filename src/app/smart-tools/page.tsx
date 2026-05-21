@@ -53,6 +53,14 @@ export default function SmartToolsPage() {
               <span className="num">Tool 01 ·</span>
             </span>
             <WordReveal tag="h2" text="Skills Levy _Calculator_" className="mb-6" />
+            <div className="my-4 float-right ml-6 w-44 mb-8">
+              <ImagePlaceholder
+                src="/images/ai/safa-levy-calculator.png"
+                alt="Skills levy calculation tool"
+                brief="Levy calculation and skills development"
+                orientation="portrait"
+              />
+            </div>
             <Reveal>
               <p className="font-body text-lg text-text/80 max-w-3xl leading-relaxed">
                 Calculate your mandatory Skills Development Levy (SDL) and discover how to recover up to 70% of your contribution through strategic training partnerships.
@@ -74,6 +82,14 @@ export default function SmartToolsPage() {
               <span className="num">Tool 02 ·</span>
             </span>
             <WordReveal tag="h2" text="B-BBEE Scorecard _Simulator_" className="mb-6" />
+            <div className="my-4 float-left mr-6 w-44 mb-8">
+              <ImagePlaceholder
+                src="/images/ai/safa-bbbee-scorecard.png"
+                alt="B-BBEE scorecard simulator"
+                brief="B-BBEE compliance and scorecard modeling"
+                orientation="portrait"
+              />
+            </div>
             <Reveal>
               <p className="font-body text-lg text-text/80 max-w-3xl leading-relaxed">
                 Model your Skills Development pillar performance and discover how SAFA partnerships can maximize your scorecard points while delivering high-impact training.
@@ -95,6 +111,14 @@ export default function SmartToolsPage() {
               <span className="num">Tool 03 ·</span>
             </span>
             <WordReveal tag="h2" text="Eco-Steward _ROI Calculator_" className="mb-6" />
+            <div className="my-4 float-right ml-6 w-44 mb-8">
+              <ImagePlaceholder
+                src="/images/ai/safa-greenset-eco.png"
+                alt="Eco-steward ROI and sustainability"
+                brief="Environmental impact and ROI calculation"
+                orientation="portrait"
+              />
+            </div>
             <Reveal>
               <p className="font-body text-lg text-text/80 max-w-3xl leading-relaxed">
                 Sustainability is a commercial imperative. Use this tool to project the environmental impact and operational cost savings of deploying GreenSet Eco-Stewards on your production.

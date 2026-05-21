@@ -86,6 +86,14 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   <strong>Weekly Cadence:</strong> Every Monday, the execution team gathers for five decisions: what shipped, what's blocked, what's next, who owns it, when does it close.
                 </p>
+                <div className="my-4 float-right ml-6 w-40">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-calendar-hero.png"
+                    alt="Planning calendar"
+                    brief="Marketing calendar and execution schedule"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   <strong>Monthly Visibility:</strong> The Board sees complete progress against the 12-month map. No surprises, no delays hidden. The calendar is the contract between strategy and delivery.
                 </p>

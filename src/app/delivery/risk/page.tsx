@@ -131,6 +131,14 @@ export default function RiskPage() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="space-y-8">
+            <div className="my-4 float-left mr-6 w-40">
+              <ImagePlaceholder
+                src="/images/ai/safa-risk-review.png"
+                alt="Risk review and governance"
+                brief="Executive team conducting risk review"
+                orientation="portrait"
+              />
+            </div>
             <Reveal>
               <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                 <h4 className="font-display text-lg font-bold text-gold mb-3 italic">

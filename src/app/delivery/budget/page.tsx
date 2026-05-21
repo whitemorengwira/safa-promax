@@ -40,6 +40,14 @@ export default function Page() {
                     Most marketing relationships bill in unpredictable spikes. A campaign here, a redesign there, an invoice that arrives without warning and never quite matches the quote. For a non-profit company operating in a financially disciplined sector, that model is impossible to plan around and difficult to defend to a board.
                   </p>
                 </div>
+                <div className="my-4 float-right ml-6 w-44">
+                  <ImagePlaceholder
+                    src="/images/ai/safa-budget-monthly.png"
+                    alt="Monthly subscription model"
+                    brief="Monthly financial planning and budgeting"
+                    orientation="portrait"
+                  />
+                </div>
                 <p className="text-text/80 leading-relaxed">
                   The SA Film Academy marketing engine is funded differently. It runs as a single, predictable monthly subscription, in the same way the Academy already pays for electricity, connectivity, or insurance. Every workstream that powers the strategy, the digital infrastructure, the content production, the search and social visibility, and the autonomous AI workflows, is consolidated into one recurring operating-expense line.
                 </p>
