@@ -246,7 +246,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 09 — Institutional Voice & Executive Visibility
   leadership: {
-    heroImageBrief: '/images/ai/safa-leadership-hero.png',
+    heroImageBrief: '/images/ai/visibility-leadership/hero-portrait.webp',
     heroImageAlt: 'Cinematic executive portrait of a young Black woman leader in the South African film industry.',
     diagram: 'none',
     tableHeaders: ['Window', 'Activation', 'Target Signal'],
@@ -259,7 +259,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 10 — B-BBEE & Skills Levy Commercial Strategy
   commercial: {
-    heroImageBrief: '/images/ai/safa-commercial-model.png',
+    heroImageBrief: '/images/ai/growth-commercial/hero-gold-coins.webp',
     heroImageAlt: 'Young Black professionals in a cinematic boardroom discussing B-BBEE scorecard and commercial strategy.',
     diagram: 'none',
     cards: [
@@ -331,7 +331,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 12 — Content Marketing & Storytelling Strategy
   content: {
-    heroImageBrief: '/images/ai/safa-content-hero.png',
+    heroImageBrief: '/images/ai/visibility-content/hero-studio-glow.webp',
     heroImageAlt: 'Young Black professional operating a cinema camera in a high-end content creation studio.',
     diagram: 'none',
     cards: [
@@ -560,7 +560,7 @@ export const pageData: Record<string, SectionPageData> = {
 
   // Section 18 — Implementation Commencement
   implementation: {
-    heroImageBrief: '/images/ai/safa-impl-hero.png',
+    heroImageBrief: '/images/ai/delivery-implementation/clapperboard-action.webp',
     heroImageAlt: 'Young Black film professionals in a cinematic project launch and implementation kickoff.',
     diagram: 'none',
     metrics: [
