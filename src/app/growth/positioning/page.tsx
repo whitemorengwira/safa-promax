@@ -46,17 +46,19 @@ export default function Page() {
                     The strategy's positioning argument runs on six specific capabilities: each one a category where the typical South African film training competitor cannot match SAFA's contextual depth or operating model.
                   </p>
                 </div>
-                <div className="my-4 float-right ml-6 w-44">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-positioning-hero.png"
-                    alt="Market positioning"
-                    brief="Competitive positioning strategy and advantage"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   Together they define why the Academy occupies a category of one, providing a unique value proposition that combines technical excellence with strategic commercial impact.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/gen/positioning.png"
+                      alt="Competitive positioning strategy"
+                      brief="Competitive positioning strategy and advantage"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

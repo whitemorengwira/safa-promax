@@ -42,17 +42,19 @@ export default function Page() {
                     The brand fragmentation problem is the central diagnostic. Five entities (SAFA, ACE, FILMGRO, GreenSet, Cineterns) exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach.
                   </p>
                 </div>
-                <div className="my-4 float-right ml-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-visual-id.png"
-                    alt="Brand identity system"
-                    brief="Brand identity and visual system"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   The proposed architecture is a <strong>branded house</strong>: SA Film Academy is the master brand, and each subsidiary carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, and a shared editorial voice.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/gen/brand-identity.png"
+                      alt="Brand identity and visual system"
+                      brief="Brand identity and visual system"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

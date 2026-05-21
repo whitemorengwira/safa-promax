@@ -106,6 +106,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the Cineterns portal and the Academy's digital presence. We build for the future, on the reality of today.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-infra-hero.png"
+                      alt="Digital infrastructure and tech stack"
+                      brief="Digital infrastructure and technology stack overview"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

@@ -94,17 +94,19 @@ export default function Page() {
                     A formalised partnership architecture and disciplined media relations plan: converting existing goodwill into named co-brands, recurring press placements, and an institutional reputation that travels in front of the Academy rather than behind it.
                   </p>
                 </div>
-                <div className="my-4 float-right ml-6 w-44">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-partnerships-hero.png"
-                    alt="Strategic partnerships and alliances"
-                    brief="Partnership and strategic alliance building"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   By aligning with global brands like Netflix and Suzuki, the Academy reinforces its position as the premier talent pipeline for the South African screen.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/gen/partnerships.png"
+                      alt="Strategic partnerships and alliances"
+                      brief="Strategic partnerships and alliances"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

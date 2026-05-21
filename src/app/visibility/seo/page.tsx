@@ -108,14 +108,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   Every audit, implementation, and optimization builds toward a single metric: <em>discoverability by search</em>. We own the keywords that matter: internship, MICT SETA, B-BBEE, placement, NFVF, and the production companies that define our industry.
                 </p>
-                <div className="my-4 float-left mr-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-signal-wave.png"
-                    alt="Search signal amplification"
-                    brief="Search and signal wave visualization"
-                    orientation="portrait"
-                  />
-                </div>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/gen/seo-strategy.png"
+                      alt="SEO strategy and implementation"
+                      brief="SEO strategy and implementation"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

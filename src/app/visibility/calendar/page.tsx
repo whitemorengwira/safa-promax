@@ -100,6 +100,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   This rhythm transforms the marketing calendar from a planning artifact into an operational instrument.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-calendar-hero.png"
+                      alt="12-month marketing calendar execution"
+                      brief="12-month marketing calendar execution"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }

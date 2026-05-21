@@ -46,14 +46,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   These production houses are described internally as the Academy's <em>fringe clients</em>: they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
                 </p>
-                <div className="my-6 float-right ml-6 w-48">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-seta-cert.png"
-                    alt="SETA Accreditation"
-                    brief="MICT SETA accreditation certificate and credentials"
-                    orientation="portrait"
-                  />
-                </div>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-accreditation-new.png"
+                      alt="MICT SETA accreditation"
+                      brief="MICT SETA accreditation certificate and credentials"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }
@@ -94,6 +96,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   The Academy carries the full administrative weight around this two-tier system.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-tier1-intern.png"
+                      alt="Tier 1 intern on professional set"
+                      brief="Tier 1 intern on a professional production set"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }
@@ -125,6 +137,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   This infrastructure is invisible to stakeholders but essential to scale: every intern placement, production handoff, and trainee progression requires documented approval and audit trail.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-org-hero.png"
+                      alt="Academy administrative operations"
+                      brief="Academy administrative and compliance operations"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }
@@ -163,6 +185,16 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   Both perceptions are now demonstrably softening. Over the past year, more than <strong>500 new professional connection requests</strong> have landed in the Chief Executive's channels alone, and the industry's tone toward SAFA has perceptibly shifted.
                 </p>
+                <Reveal>
+                  <div className="mt-10">
+                    <ImagePlaceholder
+                      src="/images/ai/safa-perception-new.png"
+                      alt="Shifting the perception of SAFA"
+                      brief="Shifting the perception of SAFA in the industry"
+                      orientation="landscape"
+                    />
+                  </div>
+                </Reveal>
               </div>
             </Reveal>
           }
