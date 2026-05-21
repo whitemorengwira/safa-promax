@@ -45,12 +45,13 @@ const SUB_PAGES = [
 export default function FoundationLanding() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
+      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="Pillar 01"
         title="The _Foundation._"
         subtitle="Structure. Ecosystem. Infrastructure."
-        imageSrc="/images/ai/foundation-brand/hero-cinematic-logo.webp"
-        imageAlt="Foundation brand cinematic visual"
+        imageSrc="/images/main-hero-images/post-production-lab-black-creators.png"
+        imageAlt="Black creators working in a cinematic post-production lab"
       />
 
       <FilmstripDivider />

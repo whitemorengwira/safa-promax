@@ -45,12 +45,13 @@ const SUB_PAGES = [
 export default function GrowthLanding() {
   return (
     <main className="flex flex-col min-h-screen bg-bg">
+      {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="Pillar 03"
         title="The _Growth_ Engine."
         subtitle="Where revenue is generated and impact is scaled: Agentic AI, B-BBEE Compliance, and Strategic Partnerships."
-        imageSrc="/images/ai/growth-ai/hero-brain-nodes.webp"
-        imageAlt="Growth engine and AI innovation visual"
+        imageSrc="/images/main-hero-images/film-academy-infographic-black-people.png"
+        imageAlt="Film academy infographic with Black professionals"
       />
 
       <FilmstripDivider />

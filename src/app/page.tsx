@@ -33,8 +33,8 @@ export default function HomePage() {
         eyebrow="Est. 2006 · Non-Profit Company"
         title="SA Film Academy"
         subtitle="Talent Pipeline of the South African Screen"
-        imageSrc="/images/ai/home/hero-crew-night-set.webp"
-        imageAlt="Professional South African film crew on a cinematic movie set"
+        imageSrc="/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png"
+        imageAlt="Professional Black South African film crew on a cinematic movie set"
       >
         <div className="flex flex-wrap gap-4">
           <Link
