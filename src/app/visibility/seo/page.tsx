@@ -77,11 +77,14 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    The technical health audit covers <strong>Core Web Vitals improvement</strong>, canonical tag implementation, sitemap submission, and structured data markup using Organization, EducationalOrganization, Course, JobPosting and Event schema types.
+                    Traditional SEO remains foundational. The technical health audit covers <strong>Core Web Vitals improvement</strong>, canonical tag implementation, sitemap submission, and structured data markup.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  Every page on safilmacademy.org will be re-indexed with the appropriate schema, making the Academy machine-readable to every search engine in a way it currently is not.
+                  <strong>Schema Implementation:</strong> Organization, EducationalOrganization, Course, JobPosting and Event schema types ensure every page on safilmacademy.org is machine-readable to search engines.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Link Authority:</strong> Strategic outbound links to NFVF, MICT SETA, and industry partnerships signal authority in the South African film ecosystem.
                 </p>
               </div>
             </Reveal>
@@ -91,6 +94,28 @@ export default function Page() {
               src="/images/ai/v2/visibility/google-search.png"
               alt="Traditional SEO"
               brief="Google search results macro on a professional monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  Every audit, implementation, and optimization builds toward a single metric: <em>discoverability by search</em>. We own the keywords that matter: internship, MICT SETA, B-BBEE, placement, NFVF, and the production companies that define our industry.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/visibility-seo/technical-audit-screen.webp"
+              alt="Technical SEO Audit"
+              brief="A technical audit dashboard or screening tool on a monitor, showing analytics and performance metrics"
               orientation="landscape"
             />
           }

@@ -37,9 +37,12 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    SA Film Academy is a MICT SETA-accredited Non-Profit Company that facilitates the Work Skills Programme on behalf of the South African film and digital media industries. The Academy applies annually to the SETA for intern placements; the SETA approves a cohort and pays trainee stipends; the Academy then deploys those interns into a roster of production-company clients.
+                    SA Film Academy is a MICT SETA-accredited Non-Profit Company that facilitates the Work Skills Programme on behalf of the South African film and digital media industries.
                   </p>
                 </div>
+                <p className="text-text/80 leading-relaxed">
+                  The Academy applies annually to the SETA for intern placements; the SETA approves a cohort and pays trainee stipends; the Academy then deploys those interns into a roster of production-company clients.
+                </p>
                 <p className="text-text/80 leading-relaxed">
                   These production houses are described internally as the Academy's <em>fringe clients</em>: they request a defined number of trainees per production, and SAFA fulfils the placement. Clients include <strong>Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios</strong> and an evolving list of others.
                 </p>
@@ -48,7 +51,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/two-tier-pathway.png"
+              src="/images/ai/foundation-org/trainees-live-production.webp"
               alt="Black trainees on a live production set"
               brief="Black trainees on a live production set, working alongside experienced crew members, cinematic lighting"
               orientation="landscape"
@@ -69,20 +72,59 @@ export default function Page() {
           left={
             <Reveal>
               <div className="space-y-6">
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    The trainee pathway is best understood as two clear tiers.
+                  </p>
+                </div>
                 <p className="text-text/80 leading-relaxed">
-                  The trainee pathway is best understood as two clear tiers. In the first year, an intern is placed on a production for twelve months under a SETA-funded stipend; if the placement company puts them on an active production beyond that internship, an additional production fee applies.
+                  <strong>Tier 1:</strong> In the first year, an intern is placed on a production for twelve months under a SETA-funded stipend. If the placement company extends them onto an active production beyond that internship, an additional production fee applies.
                 </p>
                 <p className="text-text/80 leading-relaxed">
-                  After that internship year, the trainee progresses onto SAFA's database and becomes available for future productions, paid by the production company in accordance with the Academy's tiered remuneration policy. Around this two-tier system, the Academy carries the full administrative weight.
+                  <strong>Tier 2:</strong> After that internship year, the trainee progresses onto SAFA's database and becomes available for future productions, paid directly by production companies in accordance with our tiered remuneration policy.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  The Academy carries the full administrative weight around this two-tier system.
                 </p>
               </div>
             </Reveal>
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/two-tier-pathway.png"
-              alt="Young Black trainee progressing on set"
-              brief="A young Black South African trainee progressing on a cinematic film set, showing growth and professional development, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/foundation-org/hero-executive-walk.webp"
+              alt="Young Black trainee progressing professionally on a film set"
+              brief="A young Black South African trainee walking with confidence on a professional film set, showing career progression and industry integration, warm gold and cinematic lighting."
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
+      {/* Administration & Compliance Section */}
+      <SectionShell
+        eyebrow="02.3"
+        title="The Administrative Infrastructure"
+        className="bg-surface/20"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  The Academy's operational backbone is a tightly-managed administrative system that tracks placements, manages stipend approvals, coordinates production schedules, and ensures compliance with SETA accreditation requirements.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  This infrastructure is invisible to stakeholders but essential to scale: every intern placement, production handoff, and trainee progression requires documented approval and audit trail.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/foundation-org/compliance-desk.webp"
+              alt="Academy administrative and compliance operations"
+              brief="Professional administrative workspace with compliance documentation and management systems, organized and professional"
               orientation="landscape"
             />
           }
@@ -92,7 +134,7 @@ export default function Page() {
 
       {/* Perception Shift Section */}
       <SectionShell
-        eyebrow="02.3"
+        eyebrow="02.4"
         title="Shifting the Perception"
       >
         <TwoColLayout
@@ -101,9 +143,15 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    There has historically been a twin perception challenge in the market. The first is that the Academy was led by Cape Town-based white production companies; the second is that trainees were allowed to remain trainees for too long: the <em>perpetual trainee</em> problem.
+                    There has historically been a twin perception challenge in the market.
                   </p>
                 </div>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Perception 1:</strong> The Academy was believed to be led by Cape Town-based white production companies — a structural barrier to credibility.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Perception 2:</strong> Trainees were allowed to remain trainees for too long: the <em>perpetual trainee</em> problem, undermining both the Academy's and trainees' professional standing.
+                </p>
                 <p className="text-text/80 leading-relaxed">
                   Both perceptions are now demonstrably softening. Over the past year, more than <strong>500 new professional connection requests</strong> have landed in the Chief Executive's channels alone, and the industry's tone toward SAFA has perceptibly shifted.
                 </p>
@@ -112,9 +160,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/org-hero.png"
+              src="/images/ai/foundation-org/networking-event.webp"
               alt="Professional networking event with Black film industry professionals"
-              brief="Professional networking event with Black film industry professionals, warm celebratory atmosphere"
+              brief="Professional networking event with Black film industry professionals, warm celebratory atmosphere, industry leaders connecting"
               orientation="landscape"
             />
           }

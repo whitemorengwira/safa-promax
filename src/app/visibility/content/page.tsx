@@ -117,6 +117,44 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* 12.3 — CONTENT FORMATS */}
+      <SectionShell
+        eyebrow="12.3"
+        title="Multi-Format Publication"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                  <p className="text-text/90 leading-relaxed">
+                    <strong>No single format wins.</strong> The Academy's authority grows when the same story lives across multiple platforms: long-form articles, video, podcast, social cards, and case studies.
+                  </p>
+                </div>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Weekly Articles:</strong> 1,500–2,500 word deep-dives on industry topics, placed in industry publications and the Academy's own medium.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Monthly Podcast:</strong> 45–60 minute interviews with production company leaders, alumni, and partners.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Social Cadence:</strong> Daily stories, weekly reels, and timely commentary on industry news.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/visibility-content/podcast-recording.webp"
+              alt="Content production setup"
+              brief="Professional podcast or audio recording setup in a cinematic studio environment"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

@@ -124,6 +124,40 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* Implementation & Operations */}
+      <SectionShell
+        eyebrow="06.3"
+        title="Running 24/7"
+      >
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>No human bottleneck.</strong> The agents operate continuously, surfacing insights and decisions to the leadership team as daily reports, not interruptions.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Feedback Loop:</strong> Each agent improves from every decision the team makes. Over time, the system becomes smarter about what matters and what doesn't.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Scalability:</strong> Adding new agents takes days, not months. The infrastructure is built for growth.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/growth-ai/server-lights-macro.webp"
+              alt="Agentic infrastructure running 24/7"
+              brief="Server rack with active status lights and monitoring displays, 24/7 operations environment"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

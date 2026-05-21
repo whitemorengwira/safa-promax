@@ -124,6 +124,39 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* Infrastructure Operations */}
+      <SectionShell
+        eyebrow="04.2b"
+        title="Infrastructure at Scale"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Global Edge Network:</strong> Content is served from 275+ data centers across 6 continents, ensuring the Academy's digital presence is accessible to production companies and trainees wherever they are.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>24/7 Monitoring:</strong> The platform is continuously monitored for performance, security, and availability. Automated failover ensures zero single points of failure.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>POPIA Compliance:</strong> All trainee data, production records, and sensitive placements are encrypted end-to-end and comply with South African data protection standards.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/foundation-infra/data-center-racks.webp"
+              alt="Data center and infrastructure operations"
+              brief="Professional data center with server racks and monitoring infrastructure, cool blue and gold lighting"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Cineterns Section */}
       <SectionShell
         eyebrow="04.2"

@@ -6,6 +6,8 @@ import { SectionShell } from '@/components/sections/SectionShell';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { CalendarTimeline } from '@/components/diagrams/CalendarTimeline';
+import { TwoColLayout } from '@/components/sections/TwoColLayout';
+import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 
 export const metadata: Metadata = {
   title: '5 · The 12-Month Marketing Calendar · SA Film Academy Strategy',
@@ -69,6 +71,40 @@ export default function Page() {
             </div>
           </Reveal>
         </div>
+      </SectionShell>
+
+      {/* Execution Detail Section */}
+      <SectionShell
+        eyebrow="05.2"
+        title="Execution Rhythm"
+        className="bg-surface/20"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Weekly Cadence:</strong> Every Monday, the execution team gathers for five decisions: what shipped, what's blocked, what's next, who owns it, when does it close.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Monthly Visibility:</strong> The Board sees complete progress against the 12-month map. No surprises, no delays hidden. The calendar is the contract between strategy and delivery.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  This rhythm transforms the marketing calendar from a planning artifact into an operational instrument.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/visibility-calendar/production-office-night.webp"
+              alt="Team planning and execution"
+              brief="Professional team in a well-organized office environment planning and coordinating work"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
       </SectionShell>
 
       {/* CLOSING CALL TO ACTION */}
