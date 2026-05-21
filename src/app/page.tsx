@@ -3,6 +3,7 @@ import { HERO } from '@/lib/content/sections';
 import { pageData } from '@/lib/content/pageData';
 import { strategySections } from '@/data/nav';
 import { Reveal } from '@/components/motion/Reveal';
+import { WordReveal } from '@/components/motion/WordReveal';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { StatBand } from '@/components/sections/StatBand';
