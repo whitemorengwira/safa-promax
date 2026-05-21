@@ -168,6 +168,36 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Financial Sustainability */}
+      <SectionShell
+        eyebrow="Sustainability"
+        title="Budget Allocation & ROI"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Allocation by Pillar:</strong> Foundation 15%, Visibility 30%, Growth 35%, Delivery 20%. Distribution reflects impact potential and market readiness.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>ROI Measurement:</strong> Each pillar's budget is tied to specific KPIs and measured quarterly for continuous optimization.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/upward-graph.png"
+              alt="Financial growth and ROI trajectory"
+              brief="Upward trending graph showing budget allocation efficiency and ROI growth"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

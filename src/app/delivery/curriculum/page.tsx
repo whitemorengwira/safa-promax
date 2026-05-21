@@ -145,6 +145,36 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Continuous Learning */}
+      <SectionShell
+        eyebrow="Ongoing"
+        title="Curriculum Evolution"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Quarterly Reviews:</strong> The curriculum is assessed every three months against industry developments, AI tools, and production company feedback.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Annual Updates:</strong> Major curriculum refreshes occur annually, ensuring trainees learn the skills production companies need right now.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/ai-workstation.png"
+              alt="Modern production training setup"
+              brief="State-of-the-art training workstation showing current production tools and technology"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

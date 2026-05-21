@@ -98,6 +98,39 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Mentorship & Advocacy Section */}
+      <SectionShell
+        eyebrow="11.3"
+        title="From Graduate to Mentor"
+      >
+        <TwoColLayout
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Mentorship Pipeline:</strong> Senior ACE Alumni mentor new cohorts, creating a virtuous cycle of knowledge transfer and professional development.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Industry Advocacy:</strong> Alumni champions defend and promote the Academy in their networks, becoming ambassadors to production companies, funders, and international colleagues.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Continuous Connection:</strong> Regular gatherings, exclusive content, and ongoing learning opportunities keep the community engaged beyond graduation.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/alumni-director.png"
+              alt="Alumni mentoring next generation"
+              brief="Senior alumnus mentoring younger professional on set in a cinematic production environment"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

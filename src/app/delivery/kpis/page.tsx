@@ -148,6 +148,37 @@ export default function Page() {
         />
       </SectionShell>
 
+      {/* Dashboard & Monitoring */}
+      <SectionShell
+        eyebrow="Monitoring"
+        title="Real-Time KPI Tracking"
+      >
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Live Dashboard:</strong> All KPIs are tracked in real-time on a centralized dashboard accessible to leadership and the Board.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Automated Alerts:</strong> When metrics fall below threshold, alerts trigger for immediate investigation and corrective action.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/data-dashboard.png"
+              alt="KPI monitoring dashboard"
+              brief="Real-time data dashboard with KPI metrics, analytics, and performance indicators"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

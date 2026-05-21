@@ -172,6 +172,37 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* Launch Readiness */}
+      <SectionShell
+        eyebrow="18.3"
+        title="Launch Readiness & Execution"
+      >
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>June 1 Launch:</strong> All systems go. Three tracks activate simultaneously on day one, with daily stand-ups tracking progress against the 30-day deliverable schedule.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Reporting & Transparency:</strong> Weekly updates to the Board show exactly what shipped, what's blocked, and what's next. No delays hidden. The calendar is the contract.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/timeline-milestones.png"
+              alt="Implementation timeline and milestones"
+              brief="Visual timeline showing key implementation milestones and deliverables"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

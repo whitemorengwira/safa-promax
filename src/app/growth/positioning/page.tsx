@@ -110,6 +110,40 @@ export default function Page() {
         </div>
       </SectionShell>
 
+      {/* Market Position */}
+      <SectionShell
+        eyebrow="14.3"
+        title="Market Leadership"
+      >
+        <TwoColLayout
+          flip
+          left={
+            <Reveal>
+              <div className="space-y-6">
+                <p className="text-text/80 leading-relaxed">
+                  <strong>20+ years of proven track record:</strong> Over 3,000 trainees placed, 500+ productions supported, institutional memory that new entrants cannot replicate.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Unique value proposition:</strong> SAFA is the only institution that combines SETA compliance, B-BBEE strategic value, digital infrastructure, and transformational impact under one operating model.
+                </p>
+                <p className="text-text/80 leading-relaxed">
+                  <strong>Category of one:</strong> There is no direct competitor in the South African film training market with SAFA's combination of accreditation, scale, and commercial relevance.
+                </p>
+              </div>
+            </Reveal>
+          }
+          right={
+            <ImagePlaceholder
+              src="/images/ai/growth-positioning/strategic-planning-wall.webp"
+              alt="Strategic planning and market positioning"
+              brief="Strategic planning board with competitive analysis, market data, and positioning strategy mapped out"
+              orientation="landscape"
+            />
+          }
+          visualRatio="70-30"
+        />
+      </SectionShell>
+
       {/* Final CTA / Transition */}
       <section className="section-padding container-max text-center py-24">
         <Reveal>

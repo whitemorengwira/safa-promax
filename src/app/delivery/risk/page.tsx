@@ -176,6 +176,47 @@ export default function RiskPage() {
           </Reveal>
         </div>
       </SectionShell>
+
+      {/* Mitigation & Resilience */}
+      <SectionShell
+        eyebrow="12.3"
+        title="Strategic Resilience"
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <Reveal>
+            <ImagePlaceholder
+              src="/images/ai/v2/delivery/risk-hero.png"
+              alt="Risk mitigation strategy"
+              brief="Professional team reviewing mitigation strategies and risk controls in a strategic planning session"
+              orientation="square"
+            />
+          </Reveal>
+
+          <div className="space-y-8">
+            <Reveal>
+              <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                <h4 className="font-display text-lg font-bold text-gold mb-3 italic">
+                  Contingency Triggers
+                </h4>
+                <p className="text-sm leading-relaxed text-text/70">
+                  Each contingency is tied to a specific metric threshold. When the metric is breached, the contingency activates automatically — no debate, no delay.
+                </p>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+              <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
+                <h4 className="font-display text-lg font-bold text-gold mb-3 italic">
+                  Scenario Planning
+                </h4>
+                <p className="text-sm leading-relaxed text-text/70">
+                  The Executive Team conducts semi-annual scenario planning to stress-test the strategy against multiple future states and identify new risks before they materialize.
+                </p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </SectionShell>
     </main>
   );
 }
