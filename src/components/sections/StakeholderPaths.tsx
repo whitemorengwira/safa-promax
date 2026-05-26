@@ -38,7 +38,7 @@ const paths: PathCard[] = [
 
 export function StakeholderPaths() {
   return (
-    <section className="section-padding container-max py-16 md:py-24">
+    <section id="stakeholder-paths" className="section-padding container-max py-16 md:py-24">
       <Reveal>
         <WordReveal
           tag="h2"

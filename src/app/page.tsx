@@ -169,7 +169,7 @@ export default function HomePage() {
       </section>
 
       {/* ===== STRATEGY GRID ===== */}
-      <section className="section-padding bg-surface/30">
+      <section id="strategy-pillars" className="section-padding bg-surface/30">
         <div className="container-max">
           <div className="mb-16 text-center max-w-3xl mx-auto">
             <span className="eyebrow mb-6 block">The 360° Strategy</span>
