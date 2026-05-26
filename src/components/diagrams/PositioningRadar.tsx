@@ -28,7 +28,7 @@ export function PositioningRadar() {
     "B-BBEE Mechanics",
     "Digital Infrastructure",
     "Agentic AI",
-    "Transformation Track Record",
+    "Transformation Record",
     "NPC Integrity",
   ];
 
@@ -181,6 +181,24 @@ export function PositioningRadar() {
             </text>
           );
         })}
+
+        {/* Score rail */}
+        <g opacity="0.86">
+          <rect x="585" y="165" width="165" height="230" fill="#13131a" stroke="#8B0000" strokeWidth="1" />
+          <text x="667" y="190" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="9" fontWeight="700" letterSpacing="1" style={{ textTransform: "uppercase" }}>
+            SAFA vs baseline
+          </text>
+          {axes.map((axis, idx) => (
+            <g key={`score-${axis}`}>
+              <text x="603" y={220 + idx * 27} fill="#E8E0D0" fontFamily="Outfit" fontSize="7.5" opacity="0.8">
+                {axis}
+              </text>
+              <text x="733" y={220 + idx * 27} textAnchor="end" fill="#E0C268" fontFamily="Outfit" fontSize="8" fontWeight="700">
+                {Math.round(safaValues[idx] * 100)} / {Math.round(baselineValues[idx] * 100)}
+              </text>
+            </g>
+          ))}
+        </g>
 
         {/* Legend */}
         <g>

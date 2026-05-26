@@ -37,51 +37,51 @@ export default function Page() {
             <svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
               <defs>
                 <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#8B1A1A"/>
-                  <stop offset="50%" stop-color="#C9A84C"/>
-                  <stop offset="100%" stop-color="#E0C268"/>
+                  <stop offset="0%" stopColor="#8B1A1A"/>
+                  <stop offset="50%" stopColor="#C9A84C"/>
+                  <stop offset="100%" stopColor="#E0C268"/>
                 </linearGradient>
               </defs>
 
               <g transform="translate(140 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" stroke-width="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" stroke-width="6"
-                        stroke-dasharray="389.5" stroke-dashoffset="120"
-                        transform="rotate(-90)" stroke-linecap="round"/>
-                <text y="-4" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-size="22" font-style="italic">69%</text>
-                <text y="16" text-anchor="middle" fill="#C9A84C" opacity="0.8" font-family="Outfit" font-size="9" letter-spacing="2">CINETERNS REG</text>
+                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
+                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
+                        strokeDasharray="389.5" strokeDashoffset="120"
+                        transform="rotate(-90)" strokeLinecap="round"/>
+                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">69%</text>
+                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">PORTAL REG</text>
               </g>
               <g transform="translate(340 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" stroke-width="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" stroke-width="6"
-                        stroke-dasharray="389.5" stroke-dashoffset="180"
-                        transform="rotate(-90)" stroke-linecap="round"/>
-                <text y="-4" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-size="22" font-style="italic">54%</text>
-                <text y="16" text-anchor="middle" fill="#C9A84C" opacity="0.8" font-family="Outfit" font-size="9" letter-spacing="2">PLACEMENTS</text>
+                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
+                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
+                        strokeDasharray="389.5" strokeDashoffset="180"
+                        transform="rotate(-90)" strokeLinecap="round"/>
+                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">54%</text>
+                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">PLACEMENTS</text>
               </g>
               <g transform="translate(540 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" stroke-width="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" stroke-width="6"
-                        stroke-dasharray="389.5" stroke-dashoffset="100"
-                        transform="rotate(-90)" stroke-linecap="round"/>
-                <text y="-4" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-size="22" font-style="italic">74%</text>
-                <text y="16" text-anchor="middle" fill="#C9A84C" opacity="0.8" font-family="Outfit" font-size="9" letter-spacing="2">BLOG TRAFFIC</text>
+                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
+                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
+                        strokeDasharray="389.5" strokeDashoffset="100"
+                        transform="rotate(-90)" strokeLinecap="round"/>
+                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">74%</text>
+                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">BLOG TRAFFIC</text>
               </g>
               <g transform="translate(740 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" stroke-width="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" stroke-width="6"
-                        stroke-dasharray="389.5" stroke-dashoffset="65"
-                        transform="rotate(-90)" stroke-linecap="round"/>
-                <text y="-4" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-size="22" font-style="italic">83%</text>
-                <text y="16" text-anchor="middle" fill="#C9A84C" opacity="0.8" font-family="Outfit" font-size="9" letter-spacing="2">LINDI · LINKEDIN</text>
+                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
+                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
+                        strokeDasharray="389.5" strokeDashoffset="65"
+                        transform="rotate(-90)" strokeLinecap="round"/>
+                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">83%</text>
+                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">LINDI · LINKEDIN</text>
               </g>
               <g transform="translate(940 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" stroke-width="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" stroke-width="6"
-                        stroke-dasharray="389.5" stroke-dashoffset="220"
-                        transform="rotate(-90)" stroke-linecap="round"/>
-                <text y="-4" text-anchor="middle" fill="#E0C268" font-family="Playfair Display" font-size="22" font-style="italic">43%</text>
-                <text y="16" text-anchor="middle" fill="#C9A84C" opacity="0.8" font-family="Outfit" font-size="9" letter-spacing="2">SKILLS LEVY CLIENTS</text>
+                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
+                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
+                        strokeDasharray="389.5" strokeDashoffset="220"
+                        transform="rotate(-90)" strokeLinecap="round"/>
+                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">43%</text>
+                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">SKILLS LEVY CLIENTS</text>
               </g>
             </svg>
           </SvgStage>
@@ -98,7 +98,7 @@ export default function Page() {
                 </div>
                 <div className="my-4 float-right ml-6 w-40">
                   <ImagePlaceholder
-                    src="/images/ai/safa-kpi-metrics.png"
+                    src="/images/ai/v2/delivery/data-dashboard.png"
                     alt="KPI measurement and metrics"
                     brief="Performance metrics and KPI tracking"
                     orientation="portrait"
@@ -135,7 +135,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    Our measurement framework is built on verifiable data points, from Cineterns registrations to placement events and digital engagement metrics.
+                    Our measurement framework is built on verifiable data points, from SA Film Intense registrations to placement events and digital engagement metrics.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
@@ -147,8 +147,8 @@ export default function Page() {
           right={
             <ImagePlaceholder
               src="/images/ai/v2/delivery/cineterns-monitor.png"
-              alt="Cineterns portal profiles on a high-end monitor"
-              brief="Cineterns portal profiles on a high-end monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
+              alt="SA Film Intense portal profiles on a high-end monitor"
+              brief="SA Film Intense portal profiles on a high-end monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
             />
           }

@@ -42,7 +42,7 @@ export default function Page() {
                 </div>
                 <div className="my-4 float-right ml-6 w-44">
                   <ImagePlaceholder
-                    src="/images/ai/safa-budget-monthly.png"
+                      src="/images/ai/v2/budget/budget-line-items.png"
                     alt="Monthly subscription model"
                     brief="Monthly financial planning and budgeting"
                     orientation="portrait"
@@ -112,7 +112,7 @@ export default function Page() {
               <div className="p-6 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
                 <h3 className="text-gold font-display italic text-xl mb-4">Platform and creative development</h3>
                 <ul className="space-y-2 text-sm text-text/70">
-                  <li>• The Cineterns production platform build (quoted separately)</li>
+                  <li>• The SA Film Intense production platform build (quoted separately)</li>
                   <li>• Post-launch maintenance, administrator training, and onboarding</li>
                   <li>• Ongoing technical maintenance after handover</li>
                   <li>• Cinematic web presentations produced in the EmpowerYouth format</li>
@@ -189,7 +189,7 @@ export default function Page() {
                   <strong>Allocation by Pillar:</strong> Foundation 15%, Visibility 30%, Growth 35%, Delivery 20%. Distribution reflects impact potential and market readiness.
                 </p>
                 <p className="text-text/80 leading-relaxed">
-                  <strong>ROI Measurement:</strong> Each pillar's budget is tied to specific KPIs and measured quarterly for continuous optimization.
+                  <strong>ROI Measurement:</strong> Each pillar's budget is tied to specific KPIs and measured quarterly for continuous optimisation.
                 </p>
               </div>
             </Reveal>

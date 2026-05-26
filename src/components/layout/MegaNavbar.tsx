@@ -33,12 +33,12 @@ const MEGA_PANELS: Record<string, MegaPanel> = {
       {
         title: 'Digital Infrastructure',
         href: '/foundation/infrastructure',
-        description: 'Cineterns and the presentation engine',
+        description: 'SA Film Intense and the presentation engine',
       },
       {
         title: 'Brand Architecture',
         href: '/foundation/brand',
-        description: 'From five strangers to one family',
+        description: 'From separate subsidiaries to one family',
       },
     ],
   },
@@ -119,6 +119,11 @@ const MEGA_PANELS: Record<string, MegaPanel> = {
         title: 'Implementation',
         href: '/delivery/implementation',
         description: 'Three tracks, 30 days, concrete results',
+      },
+      {
+        title: 'Risk & Contingency',
+        href: '/delivery/risk',
+        description: 'Risk controls, dependencies and board visibility',
       },
     ],
   },
@@ -264,7 +269,7 @@ export default function MegaNavbar() {
           rel="noopener noreferrer"
           className="px-3 py-1 bg-red-600 text-white font-black text-[9px] tracking-widest uppercase hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
         >
-          TALENT PORTAL
+          SA FILM INTENSE
         </a>
       </nav>
 
@@ -350,7 +355,7 @@ export default function MegaNavbar() {
                 rel="noopener noreferrer"
                 className="block px-6 py-4 bg-red-600 text-white font-black text-sm tracking-widest uppercase rounded text-center shadow-lg shadow-red-600/20"
               >
-                TALENT PORTAL
+                SA FILM INTENSE
               </a>
             </div>
           </div>

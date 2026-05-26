@@ -119,7 +119,7 @@ export default function Page() {
             <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
               <h4 className="text-gold font-display italic text-xl mb-4">Agent 04 · Talent Matcher</h4>
               <p className="text-sm text-text/70 leading-relaxed mb-4">
-                Instant candidate suggestions when production companies submit briefs on Cineterns. Matches trainee skills against role requirements and optimises for tier advancement.
+                Instant candidate suggestions when production companies submit briefs through SA Film Intense. Matches trainee skills against role requirements and optimises for tier advancement.
               </p>
               <p className="text-xs text-gold/60 font-semibold uppercase tracking-widest">Embedded · Real-time matching</p>
             </div>
@@ -129,7 +129,7 @@ export default function Page() {
         <div className="mt-12 p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm max-w-6xl mx-auto">
           <h4 className="text-gold font-display italic text-xl mb-4">Operational Architecture</h4>
           <p className="text-sm text-text/70 leading-relaxed">
-            All five agents run on the Claude API infrastructure already provisioned in Cineterns. Workflows operate on fixed schedules and surface only decisions requiring human judgment. No agent acts without human review gate on sensitive outputs.
+            All five agents run on the same secure cloud infrastructure already provisioned for the talent portal. Workflows operate on fixed schedules and surface only decisions requiring human judgment. No agent acts without a human review gate on sensitive outputs.
           </p>
         </div>
       </SectionShell>

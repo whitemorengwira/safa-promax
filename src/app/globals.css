@@ -148,7 +148,7 @@ h1 {
   font-weight: 900;
   font-size: clamp(2.8rem, 6vw, 7rem);
   line-height: 1.05;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   color: var(--text);
   overflow-wrap: break-word;
   word-break: break-word;
@@ -344,7 +344,7 @@ h4, h5, h6 {
 }
 
 .kenburns-frame > img,
-.kenburns-frame > .placeholder-fill {
+.kenburns-frame > .visual-fill {
   width: 110%;
   height: 110%;
   object-fit: cover;
@@ -355,7 +355,7 @@ h4, h5, h6 {
 
 @media (prefers-reduced-motion: reduce) {
   .kenburns-frame > img,
-  .kenburns-frame > .placeholder-fill {
+  .kenburns-frame > .visual-fill {
     animation: none;
     transform: scale(1.05);
   }
@@ -392,6 +392,191 @@ h4, h5, h6 {
 .section-padding {
   padding-top: var(--section-y);
   padding-bottom: var(--section-y);
+}
+
+/* ============================================================
+   CINEMATIC IMAGE/TEXT BALANCE
+   Promotes repeated section imagery into the wide visual column.
+   ============================================================ */
+
+.page-hero {
+  min-height: 100vh;
+}
+
+.page-hero__content {
+  padding-bottom: clamp(2rem, 8vh, 5.25rem);
+}
+
+.hero-copy-flow,
+.page-hero__copy {
+  max-width: min(52rem, 88vw);
+  text-wrap: balance;
+}
+
+.page-hero .page-hero__eyebrow {
+  font-size: clamp(0.58rem, 0.7vw, 0.72rem);
+  letter-spacing: clamp(0.24em, 0.42vw, 0.38em);
+}
+
+.page-hero .page-hero__title {
+  max-width: min(54rem, 88vw);
+  font-size: clamp(2.1rem, 4vw, 4.55rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.page-hero__subtitle {
+  max-width: min(30rem, 82vw);
+  font-size: clamp(0.78rem, 1vw, 0.95rem);
+}
+
+.page-hero__scroll-cue {
+  left: auto;
+  right: var(--gutter);
+  transform: none;
+}
+
+@media (min-width: 1024px) {
+  .hero-copy-flow,
+  .page-hero__copy {
+    max-width: min(56rem, 60vw);
+  }
+
+  .page-hero .page-hero__title {
+    max-width: min(56rem, 60vw);
+  }
+}
+
+@media (max-height: 760px) and (min-width: 768px) {
+  .page-hero__content {
+    padding-bottom: clamp(1.5rem, 5vh, 3rem);
+  }
+
+  .page-hero .page-hero__title {
+    font-size: clamp(2rem, 3.35vw, 3.55rem);
+    max-width: min(56rem, 64vw);
+  }
+
+  .page-hero__subtitle {
+    max-width: min(34rem, 64vw);
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-hero__content {
+    padding-bottom: clamp(4rem, 12vh, 6rem);
+  }
+
+  .page-hero .page-hero__title {
+    max-width: 84vw;
+    font-size: clamp(1.65rem, 7.4vw, 2.25rem);
+    line-height: 1.05;
+  }
+
+  .page-hero__scroll-cue {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+}
+
+.safa-two-col {
+  position: relative;
+}
+
+.safa-two-col__copy {
+  min-width: 0;
+}
+
+.safa-two-col__copy > * {
+  max-width: 56ch;
+}
+
+.safa-two-col__visual {
+  min-width: 0;
+  width: 100%;
+}
+
+.safa-visual-stack {
+  display: grid;
+  gap: clamp(18px, 2.2vw, 34px);
+}
+
+.safa-visual-stack__primary,
+.safa-visual-stack__item {
+  min-width: 0;
+}
+
+.safa-visual-stack__secondary {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(18px, 2vw, 28px);
+}
+
+.safa-visual-stack__secondary:empty {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .safa-visual-stack__secondary {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  }
+
+  .safa-visual-stack__secondary > :only-child {
+    grid-column: 1 / -1;
+  }
+}
+
+.safa-image-slot {
+  position: relative;
+}
+
+.safa-image-slot .visual-fill {
+  box-shadow: 0 26px 72px rgba(0, 0, 0, 0.42);
+  isolation: isolate;
+}
+
+.safa-two-col__visual .safa-image-slot .visual-fill {
+  aspect-ratio: 16 / 9;
+  min-height: clamp(240px, 31vw, 520px);
+}
+
+.safa-visual-stack__secondary .visual-fill {
+  aspect-ratio: 16 / 9;
+  min-height: clamp(220px, 24vw, 420px);
+}
+
+.safa-image-slot .visual-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, rgba(204, 0, 0, 0.2), transparent 42%),
+    linear-gradient(0deg, rgba(15, 15, 21, 0.42), transparent 38%, rgba(15, 15, 21, 0.22));
+  mix-blend-mode: screen;
+  opacity: 0.5;
+}
+
+@supports (animation-timeline: view()) {
+  .safa-image-slot {
+    animation: visualLift linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 55%;
+  }
+}
+
+@keyframes visualLift {
+  0% {
+    opacity: 0.72;
+    transform: translateY(34px) scale(0.985);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 /* ============================================================
@@ -497,8 +682,7 @@ input:focus, select:focus, textarea:focus {
    Cinematic text animation that "floats" within high-end visuals
    ============================================================ */
 
-/* Hero section with 70% visual, 30% text overlay */
-section[class*="hero"],
+/* Optional split hero band utility. PageHero owns its own full-viewport overlay layout. */
 .hero-band {
   position: relative;
   display: grid;
@@ -508,7 +692,6 @@ section[class*="hero"],
 }
 
 @media (min-width: 1024px) {
-  section[class*="hero"],
   .hero-band {
     grid-template-columns: 70fr 30fr;
     gap: var(--gutter);

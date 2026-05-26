@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import { sectionIndex, slugToId } from '@/lib/content/sections';
 import { pageData } from '@/lib/content/pageData';
-import { strategySections } from '@/data/nav';
 import { parseContent } from '@/lib/content/parseContent';
 
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
@@ -32,10 +31,13 @@ interface PageProps {
 
 export const dynamicParams = false;
 
+const legacyStrategySections = Object.keys(slugToId).map((slug, index) => ({
+  slug,
+  name: `${String(index + 1).padStart(2, '0')} ${slug.replace(/-/g, ' ')}`,
+}));
+
 export function generateStaticParams() {
-  return strategySections.map((section) => ({
-    slug: section.href.replace('/strategy/', ''),
-  }));
+  return legacyStrategySections.map((section) => ({ slug: section.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -62,13 +64,11 @@ export default async function StrategyPage({ params }: PageProps) {
   if (!section || !data) notFound();
 
   // Find prev/next sections
-  const currentIndex = strategySections.findIndex(
-    (s) => s.href === `/strategy/${slug}`
-  );
-  const prevSection = currentIndex > 0 ? strategySections[currentIndex - 1] : null;
+  const currentIndex = legacyStrategySections.findIndex((section) => section.slug === slug);
+  const prevSection = currentIndex > 0 ? legacyStrategySections[currentIndex - 1] : null;
   const nextSection =
-    currentIndex < strategySections.length - 1
-      ? strategySections[currentIndex + 1]
+    currentIndex < legacyStrategySections.length - 1
+      ? legacyStrategySections[currentIndex + 1]
       : null;
 
   // Parse content into blocks
@@ -264,7 +264,7 @@ export default async function StrategyPage({ params }: PageProps) {
         prev={
           prevSection
             ? {
-                slug: prevSection.href.replace('/strategy/', ''),
+                slug: prevSection.slug,
                 label: prevSection.name.replace(/^\d{2}\s+/, ''),
               }
             : undefined
@@ -272,7 +272,7 @@ export default async function StrategyPage({ params }: PageProps) {
         next={
           nextSection
             ? {
-                slug: nextSection.href.replace('/strategy/', ''),
+                slug: nextSection.slug,
                 label: nextSection.name.replace(/^\d{2}\s+/, ''),
               }
             : undefined

@@ -71,7 +71,7 @@ export function WordReveal({
           <motion.span
             key={idx}
             variants={wordVariants}
-            className="inline-block mr-[0.25em] last:mr-0"
+            className="inline-block shrink-0 mr-[0.25em] last:mr-0"
           >
             {word}
           </motion.span>

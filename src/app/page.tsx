@@ -1,27 +1,14 @@
 import Link from 'next/link';
-import { HERO } from '@/lib/content/sections';
-import { pageData } from '@/lib/content/pageData';
-import { strategySections } from '@/data/nav';
 import { Reveal } from '@/components/motion/Reveal';
 import { WordReveal } from '@/components/motion/WordReveal';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { StatBand } from '@/components/sections/StatBand';
-import { CardGrid } from '@/components/sections/CardGrid';
 import { PageHero } from '@/components/layout/PageHero';
 import { StakeholderPaths } from '@/components/sections/StakeholderPaths';
 import { ProductionCredits } from '@/components/sections/ProductionCredits';
 
 export default function HomePage() {
-  // Get 6 featured strategy sections for the index grid using canonical tab-based routes
-  const featuredSlugs = ['organisation', 'agentic-ai', 'seo', 'brand', 'positioning', 'implementation'];
-  const featuredSections = strategySections.filter((s) => 
-    featuredSlugs.some(slug => s.href.includes(slug))
-  );
-
-  // Get ecosystem cards
-  const ecosystemCards = pageData['ecosystem']?.cards || [];
-
   return (
     <main className="flex flex-col min-h-screen bg-bg">
       {/* ===== FULL-VIEWPORT HERO ===== */}
@@ -46,7 +33,7 @@ export default function HomePage() {
             rel="noreferrer"
             className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-8 py-4 hover:bg-gold hover:text-bg transition"
           >
-            Access Cineterns →
+            Access SA Film Intense →
           </a>
         </div>
       </PageHero>
@@ -62,7 +49,7 @@ export default function HomePage() {
                 <h2 className="text-2xl font-display text-text">What is SA Film Academy?</h2>
                 <div className="my-4 float-right ml-6 w-44">
                   <ImagePlaceholder
-                    src="/images/ai/safa-film-training.png"
+                    src="/images/ai/foundation-org/trainees-live-production.webp"
                     alt="Film training and production"
                     brief="South African youth training in film production"
                     orientation="portrait"
@@ -78,7 +65,7 @@ export default function HomePage() {
                 <h3 className="text-sm uppercase tracking-widest text-gold font-semibold">Key Terms Explained</h3>
                 <div className="my-4 float-left mr-6 w-40">
                   <ImagePlaceholder
-                    src="/images/ai/safa-skills-levy.png"
+                    src="/images/ai/foundation-org/compliance-desk.webp"
                     alt="Skills development and levy"
                     brief="Skills training and government funding"
                     orientation="portrait"
@@ -118,19 +105,24 @@ export default function HomePage() {
             figure: '60',
             prefix: 'R',
             suffix: 'm+',
-            description: 'Total training investment facilitated since inception.'
+            description: 'Invested in skills development and in-service training since 2006.'
           },
           {
             label: 'Trainees',
-            figure: '1200',
+            figure: '3000',
             suffix: '+',
-            description: 'Black South African youth placed into professional production roles.'
+            description: 'Trainees placed into professional film and digital media production roles.'
           },
           {
-            label: 'Success Rate',
-            figure: '85',
+            label: 'Student Base',
+            figure: '96',
             suffix: '%',
-            description: 'Of Tier 2 trainees transition into full-time industry employment.'
+            description: 'Black student base reported through SETA-submitted training records.'
+          },
+          {
+            label: 'Licences',
+            figure: '124',
+            description: 'Driving licences granted free through the FILMGRO pathway.'
           }
         ]}
       />
@@ -226,7 +218,7 @@ export default function HomePage() {
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
-              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">3. Growth</h3>
+              <h3 className="text-xl font-bold group-hover:text-gold transition-colors">3. Growth Engine</h3>
               <p className="text-sm text-muted">The engine: Agentic AI, B-BBEE, and Partnerships.</p>
             </Link>
 
@@ -247,12 +239,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== CINETERNS CTA ===== */}
+      {/* ===== TALENT PORTAL CTA ===== */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImagePlaceholder
             src="/images/ai/safa-ai-hero.png"
-            alt="Cineterns Portal"
+              alt="SA Film Intense Talent Portal"
             brief="Young Black creative professional using a laptop"
             orientation="video"
             className="w-full h-full opacity-40"
@@ -265,7 +257,7 @@ export default function HomePage() {
             <span className="eyebrow mb-6 block">Live Platform</span>
             <WordReveal
               tag="h2"
-              text="Access the _Cineterns_ Portal."
+              text="Access the _SA Film Intense_ Portal."
               className="mb-8"
             />
             <p className="text-xl text-muted mb-10 leading-relaxed">

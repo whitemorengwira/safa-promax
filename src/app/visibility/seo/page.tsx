@@ -36,12 +36,12 @@ export default function Page() {
           <SvgStage aspect="wide" label="Search · Topic Cluster">
             <svg viewBox="-280 -280 560 560" xmlns="http://www.w3.org/2000/svg" className="draw">
               {/* Centre node */}
-              <circle cx="0" cy="0" r="42" fill="#13131a" stroke="#C9A84C" stroke-width="1.5"/>
-              <text x="0" y="-4" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">SA FILM</text>
-              <text x="0" y="8" text-anchor="middle" fill="#C9A84C" font-family="Outfit" font-size="9" letter-spacing="1">ACADEMY</text>
+              <circle cx="0" cy="0" r="42" fill="#13131a" stroke="#C9A84C" strokeWidth="1.5"/>
+              <text x="0" y="-4" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="9" letterSpacing="1">SA FILM</text>
+              <text x="0" y="8" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="9" letterSpacing="1">ACADEMY</text>
 
               {/* Radial branches with cluster nodes */}
-              <g stroke="#C9A84C" stroke-opacity="0.45" stroke-width="0.8" fill="none">
+              <g stroke="#C9A84C" strokeOpacity="0.45" strokeWidth="0.8" fill="none">
                 <line x1="0" y1="-42" x2="0" y2="-150"/>
                 <line x1="42" y1="0" x2="150" y2="0"/>
                 <line x1="0" y1="42" x2="0" y2="150"/>
@@ -53,20 +53,20 @@ export default function Page() {
               </g>
 
               {/* Cluster nodes (8 keyword groups) */}
-              <g font-family="Playfair Display" font-style="italic" font-size="10" fill="#E0C268">
-                <g><circle cx="0" cy="-165" r="14" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="0" y="-190" text-anchor="middle">internship</text></g>
-                <g><circle cx="165" cy="0" r="14" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="200" y="-4" text-anchor="start">MICT SETA</text></g>
-                <g><circle cx="0" cy="165" r="14" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="0" y="195" text-anchor="middle">B-BBEE</text></g>
-                <g><circle cx="-165" cy="0" r="14" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="-200" y="-4" text-anchor="end">NFVF</text></g>
-                <g><circle cx="142" cy="-142" r="13" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="172" y="-160" text-anchor="middle">placement</text></g>
-                <g><circle cx="142" cy="142" r="13" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="172" y="160" text-anchor="middle">GreenSet</text></g>
-                <g><circle cx="-142" cy="-142" r="13" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="-172" y="-160" text-anchor="middle">trainee</text></g>
-                <g><circle cx="-142" cy="142" r="13" fill="#13131a" stroke="#C9A84C" stroke-width="1"/><text x="-172" y="160" text-anchor="middle">FILMGRO</text></g>
+              <g fontFamily="Playfair Display" fontStyle="italic" fontSize="10" fill="#E0C268">
+                <g><circle cx="0" cy="-165" r="14" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="0" y="-190" textAnchor="middle">internship</text></g>
+                <g><circle cx="165" cy="0" r="14" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="200" y="-4" textAnchor="start">MICT SETA</text></g>
+                <g><circle cx="0" cy="165" r="14" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="0" y="195" textAnchor="middle">B-BBEE</text></g>
+                <g><circle cx="-165" cy="0" r="14" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="-200" y="-4" textAnchor="end">NFVF</text></g>
+                <g><circle cx="142" cy="-142" r="13" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="172" y="-160" textAnchor="middle">placement</text></g>
+                <g><circle cx="142" cy="142" r="13" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="172" y="160" textAnchor="middle">GreenSet</text></g>
+                <g><circle cx="-142" cy="-142" r="13" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="-172" y="-160" textAnchor="middle">trainee</text></g>
+                <g><circle cx="-142" cy="142" r="13" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/><text x="-172" y="160" textAnchor="middle">FILMGRO</text></g>
               </g>
 
               {/* Outer ring (AI SEO halo) */}
-              <circle cx="0" cy="0" r="230" fill="none" stroke="#C9A84C" stroke-opacity="0.15" stroke-width="0.5" stroke-dasharray="3 4"/>
-              <text x="0" y="-250" text-anchor="middle" fill="#C9A84C" opacity="0.5" font-family="Outfit" font-size="8" letter-spacing="3">AI SEARCH HALO · PERPLEXITY · CHATGPT · GOOGLE AI</text>
+              <circle cx="0" cy="0" r="230" fill="none" stroke="#C9A84C" strokeOpacity="0.15" strokeWidth="0.5" strokeDasharray="3 4"/>
+              <text x="0" y="-250" textAnchor="middle" fill="#C9A84C" opacity="0.5" fontFamily="Outfit" fontSize="8" letterSpacing="3">AI SEARCH HALO · PERPLEXITY · CHATGPT · GOOGLE AI</text>
             </svg>
           </SvgStage>
         </div>
@@ -81,7 +81,7 @@ export default function Page() {
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  <strong>Schema Implementation:</strong> Organization, EducationalOrganization, Course, JobPosting and Event schema types ensure every page on safilmacademy.org is machine-readable to search engines.
+                  <strong>Schema implementation:</strong> Organisation, educational organisation, course, job posting and event schema coverage ensures every page on safilmacademy.org is machine-readable to search engines.
                 </p>
                 <p className="text-text/80 leading-relaxed">
                   <strong>Link Authority:</strong> Strategic outbound links to NFVF, MICT SETA, and industry partnerships signal authority in the South African film ecosystem.
@@ -106,7 +106,7 @@ export default function Page() {
             <Reveal>
               <div className="space-y-6">
                 <p className="text-text/80 leading-relaxed">
-                  Every audit, implementation, and optimization builds toward a single metric: <em>discoverability by search</em>. We own the keywords that matter: internship, MICT SETA, B-BBEE, placement, NFVF, and the production companies that define our industry.
+                  Every audit, implementation, and optimisation builds toward a single metric: <em>discoverability by search</em>. We own the keywords that matter: internship, MICT SETA, B-BBEE, placement, NFVF, and the production companies that define our industry.
                 </p>
                 <Reveal>
                   <div className="mt-10">

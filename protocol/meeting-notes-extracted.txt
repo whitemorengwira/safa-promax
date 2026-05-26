@@ -1,0 +1,1939 @@
+
+
+--- Page 1 ---
+📝
+Notes
+
+
+--- Page 2 ---
+May 22, 2026
+Meeting May 22, 2026 at 14:04
+SAST
+Meeting records Transcript Recording
+Summary
+The team aligned on digital strategy and portal development for the
+upcoming board presentation and launch.
+Digital Strategy and Architecture
+The team adopted a digital prototype website to replace static
+presentations. They unified branding under the SA Film Academy master
+brand with dedicated subsidiaries.
+Infrastructure and Security
+Technical infrastructure leverages a global edge network to ensure
+performance and data security. The board approved the system to
+protect sensitive intellectual property and trainee data.
+Growth and Governance
+Management finalized a 12-month marketing calendar and AI-driven
+content strategy. Leadership established approval workflows to maintain
+oversight of automated systems and brand voice.
+Rate this Summary: Helpful or Not Helpful
+
+
+--- Page 3 ---
+Decisions
+ALIGNED
+● Slide target audience wording updated The target audience text on the
+presentation slide is updated to 'trainee stroke aspiring film practitioners' to
+more accurately reflect the target demographic.
+● Gender representation in imagery balanced The selection of imagery is
+modified to balance gender representation, ensuring the visual content is not
+male-dominated.
+● Slide title changed to 'Who are we here for?' The slide title is changed to 'Who
+are we here for?' to explicitly address the organization's relationship with its
+stakeholders.
+● Renaming 'sinence' to 'SA film intense' The platform/entity formerly known as
+'sinence' is officially renamed to 'SA film intense'.
+● Entity relationship terminology updated The terminology describing the
+relationship between organizational entities is changed from 'strangers' to
+'subsidiaries' to emphasize their cohesive nature.
+● Slide text updated to remove unnecessary word The slide text is updated to
+read 'Who we are, what we do' and the word 'actually' is removed for
+conciseness.
+● Presentation flow set to start with mother entity The presentation structure is
+set to begin with the mother entity (SA Film Academy) before explaining the
+other four sub-entities.
+● Content and executive voice attribution The executive visibility and marketing
+content strategy will be attributed to the CEO first, followed by the SA Film
+Academy team.
+● In-house podcast production integration The organization will implement an
+in-house podcast as part of the marketing strategy, leveraging existing studio
+access for production.
+● Mandatory AI curriculum implementation An AI curriculum will be established
+as a mandatory component of the organization's delivery strategy to support
+both internal and external workflows.
+We've updated the Decisions section using your feedback.
+Let us know what you think: Helpful or Not Helpful
+
+
+--- Page 4 ---
+Next steps
+[Jabulile Christina Dladla] Update Terminology: Change the trainee label to
+Trainee and Aspiring film practitioners to ensure correct terminology.
+[Jabulile Christina Dladla] Balance Images: Adjust photo selection and
+phrasing to ensure better gender representation across all slides.
+[Jabulile Christina Dladla] Add Posters: Replace current scrolling text with
+high resolution posters for Devil Peak and Blood and Water.
+[Jabulile Christina Dladla] Build CMS: Develop and provide a content
+management system to allow for website editing without coding by Monday.
+[Jabulile Christina Dladla] Update Description: Rephrase the subsidiary
+description to emphasize coherence instead of referencing them as strangers.
+[Jabulile Christina Dladla] Brighten Images: Increase the brightness of current
+photos to improve overall visibility.
+[Jabulile Christina Dladla] Enable Security: Implement password protection
+and administrator approval features for the board presentation site.
+[Jabulile Christina Dladla] Add Visuals: Insert additional images into
+text-heavy sections to improve readability and visual engagement.
+[Lindi Ndebele-Koka] Send Brand Manual: Provide the current brand manual
+for integration into the marketing strategy documentation. Use this document
+as the primary reference for visual elements and branding guidelines.
+[Jabulile Christina Dladla] Share Youth Photo: Send the Empower Youth event
+image to the CEO for approval. Use this photo to replace the current
+placeholder in the marketing presentation.
+[Lindi Ndebele-Koka] Send Partnerships List: Provide a comprehensive list of
+strategic partnerships for inclusion in the presentation materials. Ensure all
+key alliances are captured for the growth engine section.
+[The group] Implement AI Curriculum: Incorporate an artificial intelligence
+curriculum into the training program immediately. Develop this module as a
+key differentiator for the academy.
+[Belinda] Share Instrument Details: Present specific institutional instrument
+details during the upcoming board meeting. Assist the team by sharing
+relevant capabilities regarding current project goals.
+
+
+--- Page 5 ---
+[The group] Release Portal Beta: Release the beta version of the portal before
+the software launch. Execute this phase between June and August to test
+features and perform necessary corrections.
+[Jabulile Christina Dladla] Coordinate IT: Collaborate with the IT company to
+manage backend technical requirements. Work with the team to ensure
+technical systems are properly streamlined.
+[Jabulile Christina Dladla] Provide Budget Breakdown: Generate a detailed
+breakdown of subscription costs for the project. Explain specific expenditures
+to provide transparency on the monthly budget.
+[Lindi Ndebele-Koka] Pay Invoice: Process the 8,500 payment for the work
+completed to date. Complete this transaction to officially wind off the current
+strategy phase.
+[The group] Conclude Strategy: Finalize the remaining strategy discussions.
+Conclude all planning sessions on Monday.
+Details
+Did the screenshots in this section make your notes better or worse?
+● Meeting Concept and Digital Strategy: Jabulile Christina Dladla and Lindi
+Ndebele-Koka discussed transitioning from traditional PDF or PowerPoint
+presentations to a digital prototype website for the upcoming boardroom
+meeting on June 20th (00:01:07). Jabulile Christina Dladla emphasized that
+the presentation style should reflect the Academy's digital focus, noting that
+good practice dictates sharing an agenda two weeks before major meetings
+(00:04:11).
+
+
+--- Page 6 ---
+● SA Film Academy 360 Marketing Strategy: The team is moving away from
+bombarding stakeholders with static documents, choosing instead to use an
+actual website as a prototype to provide a more interactive and engaging
+experience. They reviewed the homepage layout, noting that some images
+and links currently act as placeholders and will be finalized before the
+presentation (00:05:24).
+● Target Audience and Imagery Adjustments: Jabulile Christina Dladla and
+Lindi Ndebele-Koka reviewed the "Who are we here for?" section, deciding to
+target both trainee production companies and aspiring film practitioners
+(00:06:30). Lindi Ndebele-Koka noted that the initial slide imagery appeared
+male-dominated, and Jabulile Christina Dladla agreed to adjust the visual
+balance to be more representative (00:07:47).
+● Naming and Rebranding: The participants agreed to rename the entity
+previously referred to as "Sinence" to "SA Film Intense." This working title is
+intended to create a coherent identity for the digital talent portal (00:12:11).
+
+
+--- Page 7 ---
+● Digital Portal Demonstration: Jabulile Christina Dladla demonstrated the
+"Enter the Portal" function, which leads to the SA Film Intense platform. The
+design incorporates cinematic movement and high-resolution visuals as part
+of their new presentation standard, which also links to social media and
+existing blog posts (00:14:42).
+● Foundation Pillar Overview: Jabulile Christina Dladla explained that the
+website architecture is categorized into specific pillars. The "Foundation" pillar
+includes four key areas: the organization, the brand ecosystem, digital
+infrastructure, and brand architecture, which serves as a landing page for the
+broader presentation (00:17:42) (00:20:23).
+● Organizational Content Refinement: Lindi Ndebele-Koka requested text
+changes to the "Organization" section, specifically to frame it as "Who we are,
+what we do," and to use the phrase "shifting the perception" (00:21:51).
+Jabulile Christina Dladla agreed to brighten the cinematic, dark-themed
+imagery to ensure text remains readable and to add more photos to prevent
+the presentation from appearing text-heavy (00:23:19).
+
+
+--- Page 8 ---
+● Content Management System (CMS) Development: Jabulile Christina Dladla
+is building a CMS for the SA Film Academy. This software will allow the team
+to edit the website content directly without needing to manage code, with the
+system expected to be ready by the following Monday (00:26:42).
+● Brand Architecture and Subsidiaries: They discussed restructuring the brand
+ecosystem from five "strangers" into five unified subsidiaries under one
+master brand. The master brand, SA Film Academy, acts as the mother entity
+for subsidiaries like ACE, Film Grow, and SA Film Intense, ensuring they all
+share a cohesive look and feel (00:27:53).
+● Digital Infrastructure Strategy: Jabulile Christina Dladla provided a technical
+overview of the infrastructure, which utilizes a tech stack including Next.js,
+Vercel, and Cloudflare. This setup is designed to be secure and capable of
+handling global traffic with high performance (00:34:36).
+
+
+--- Page 9 ---
+● Security and Data Protection: A significant focus was placed on security,
+specifically protecting trainee data and preventing hacking. Jabulile Christina
+Dladla demonstrated how to implement password protection and role-based
+access (admin, viewer, etc.) to ensure that highly confidential board
+documents and IP remain secure (00:37:28).
+● Operational Reality and Monitoring: Jabulile Christina Dladla clarified that the
+infrastructure is not just a theoretical plan; the core components are live and
+operational. They discussed the ability to monitor the system's status in
+real-time, functioning similarly to an alarm system for the website's digital
+presence (00:44:18).
+
+
+--- Page 10 ---
+● Placement Pipeline and Dashboards: The discussion covered the technical
+aspects of the placement pipeline, including trainee profiles and agentic
+matching. Jabulile Christina Dladla proposed creating a mini control center
+using an inexpensive computer and TV screen to track real-time Sitta
+approvals and other notifications (00:46:35).
+● Sitta Integration and Administration: Lindi Ndebele-Koka explained that
+formal Sitta communication is currently managed by their Skills Development
+Facilitator (SDF), who receives all necessary notifications. Jabulile Christina
+Dladla noted that they would look into using API keys to link Sitta's system to
+the Academy's dashboard where appropriate (00:49:11).
+● Global Edge Network and Compliance: The website infrastructure leverages a
+global edge network with over 275 data centers, ensuring low latency and
+data redundancy. The system is compliant with South African data protection
+standards, with all sensitive placements encrypted end-to-end (00:50:18).
+● Brand Voice and Visual Guidelines: The team agreed on a brand voice that is
+authoritative, locally focused, and data-driven. Jabulile Christina Dladla will
+incorporate the formal brand manual once provided, but is currently using a
+consistent cinematic lighting style and custom AI-generated imagery to
+maintain visual uniformity (00:53:46).
+
+
+--- Page 11 ---
+● Transition to Visibility Pillar: The meeting concluded with a transition to
+discussing the "Visibility" pillar, which outlines the strategic approach to SEO,
+content marketing, and institutional leadership (00:57:40).
+● 12-Month Calendar & Beta Launch: Jabulile Christina Dladla outlined a
+12-month marketing calendar running from June 2026 to May 2027, organized
+into four phases to ensure visibility for the SA Film Academy. The
+implementation includes releasing a beta version of the SA Film Academy
+portal between June and August 2026, targeting a minimum of 50 profiles to
+present a functional prototype to the board (00:59:03).
+● Content Strategy & Authority: Jabulile Christina Dladla proposed a content
+pipeline beginning in September and October 2026, which includes launching
+
+
+--- Page 12 ---
+an in-house podcast and utilizing articles to discuss the film industry. The
+strategy focuses on building institutional authority through case studies and
+industry recognition, with a goal of scaling to 500+ profiles and achieving
+tier-one client growth (01:01:55).
+● Execution Rhythm & AI Reporting: To maintain operational control, the team
+will implement a weekly rhythm involving an execution team that meets every
+Monday to review shipped items, blockers, and next steps (01:01:55). Jabulile
+Christina Dladla explained that Agentic AI will handle reports for various
+platforms—including LinkedIn, Greenstone, and Suzuki—and provide data
+directly to the CEO, Lindi Ndebele-Koka, to ensure the board receives regular
+progress updates without surprises (01:03:23).
+● Governance & Approval Workflow: Lindi Ndebele-Koka expressed concerns
+regarding control, leading to a clarification that the Agentic AI system allows
+for human oversight (01:05:27). Lindi Ndebele-Koka will retain approval rights
+over all content before it is shipped, ensuring they maintain control over the
+CEO dashboard and visibility into what the AI agents are approving or
+producing (01:06:24).
+● SEO & AI SEO Strategy: Jabulile Christina Dladla introduced the dual strategy
+of traditional search engine optimization (SEO) and generative engine
+optimization (AI SEO) to ensure the academy is discoverable via Google,
+ChatGPT, Gemini, and Perplexity (01:08:37). By optimizing content with
+specific keywords—such as phrases related to internship placements—the
+team aims to ensure the SA Film Academy ranks highly when stakeholders
+perform searches (01:09:47) (01:13:21).
+
+
+--- Page 13 ---
+● Executive Visibility & Institutional Voice: Jabulile Christina Dladla proposed
+leveraging the CEO’s voice as a primary marketing asset, incorporating
+photographs from events like Empower Youth and Fame Week (01:14:30).
+Lindi Ndebele-Koka suggested ensuring the branding also reflects the broader
+team, not just the CEO, to create a cohesive institutional voice (01:15:30).
+● Editorial Engine & Podcast Strategy: The team discussed an editorial strategy
+focusing on AI-generated blog posts and in-house podcasts to treat the
+academy as an authoritative industry source (01:16:31). Podcasts are
+intended to be 45 to 60 minutes long, and the team confirmed access to
+studio facilities for production (01:17:44).
+
+
+--- Page 14 ---
+● Partnerships & Competitive Positioning: Jabulile Christina Dladla and Lindi
+Ndebele-Koka discussed incorporating strategic partnerships, such as Netflix
+and Suzuki, into the growth engine. Lindi Ndebele-Koka committed to sending
+a list of current strategic partners to be integrated into the academy’s
+competitive positioning, which will highlight six dimensions of advantage,
+including B-BBEE compliance and NPC integrity (01:19:55).
+● Delivery & AI Curriculum: Jabulile Christina Dladla emphasized the need for
+an AI curriculum as a differentiator for the academy, designed to teach
+trainees and production houses how to integrate generative AI tools into their
+workflows (01:21:49). This curriculum will include masterclasses on tools like
+VO, Cling, and Hilu, positioning the academy as a leader in post-production
+training (01:24:34).
+
+
+--- Page 15 ---
+● Smart Tools Hub: Jabulile Christina Dladla presented "Smart Tools" for the
+website, which serve as a front-end resource for clients to calculate their
+mandatory Skills Development Levy and potential recovery of up to 7% of
+contributions (01:27:21). Additionally, an Eco Steward ROI calculator will be
+available to help production houses estimate statistics regarding carbon
+emissions saved (01:28:37).
+● Operational Costs & Subscription Fees: Jabulile Christina Dladla clarified the
+ongoing costs, stating that the monthly subscription for the Agentic AI system
+is 4,500, with an additional 2,500 required for secure hosting services like
+Cloudflare and Vercel, totaling approximately 7,000 per month (01:31:07)
+(01:33:40). These subscriptions support the automated workflow, which
+Jabulile Christina Dladla described as equivalent to employing a large digital
+staff (01:31:07) (01:40:33).
+● Project Fee & Financial Summary: Regarding the work completed to date,
+Jabulile Christina Dladla noted an 8,500 fee, which is a one-time charge for
+building the strategy and prototyping, distinct from the monthly operational
+subscriptions (01:36:09). Lindi Ndebele-Koka acknowledged the costs and
+agreed to conclude the discussion in the next meeting (01:41:45).
+You should review Gemini's notes to make sure they're accurate. Get tips and learn how
+Gemini takes notes
+How is the quality of these specific notes? Take a short survey to let us know your
+feedback, including how helpful the notes were for your needs.
+
+
+--- Page 16 ---
+📖
+Transcript
+
+
+--- Page 17 ---
+May 22, 2026
+Meeting May 22, 2026 at 14:04
+SAST - Transcript
+00:01:07
+Lindi Ndebele-Koka: Afternoon.
+Jabulile Christina Dladla: Good morning, sis Lindy. Oh, sorry. Sorry. Good afternoon.
+Lindi Ndebele-Koka: It's already
+Jabulile Christina Dladla: Yeah. So, sorry for that.
+Lindi Ndebele-Koka: true.
+Jabulile Christina Dladla: Don't Don't be confused. I'm using my colleagues um
+Google subscription because mine expired. Sorry for that. Awesome.
+Lindi Ndebele-Koka: Yeah, you did say
+Jabulile Christina Dladla: Uh, let me open the website
+Lindi Ndebele-Koka: If I put it on the buffing
+Jabulile Christina Dladla: now. Can you see my
+Lindi Ndebele-Koka: Yes. Yes,
+Jabulile Christina Dladla: screen?
+Lindi Ndebele-Koka: I can.
+Jabulile Christina Dladla: Yeah. Fire on.
+Lindi Ndebele-Koka: Okay, you fire on here. This looks very impressive.
+Jabulile Christina Dladla: Oh, thank you. Thank you so much. So here's the concept.
+Lindi Ndebele-Koka: Yep.
+Jabulile Christina Dladla: You shared with me um your presentation of a PDF um that
+is now with all due
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: respect it is now old school of doing presentations
+especially if your presentation is talking about portals is talking about digital stuff.
+
+
+--- Page 18 ---
+00:04:11
+Jabulile Christina Dladla: uh every presentation has to present that which it wants to
+market in a prototype way. If we talk of digital, the presentation has to be digital. So
+basically out of your presentation I came up with four or should I say five key areas
+that is the foundation, the visibility, the growth engine,
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: the delivery and the smart tools. So as you start off your
+presentation obviously when you are saying we have a board meeting on the 20th of
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: June agenda has to be shared way in advance.
+presentations in as much as they are officially happening on the 20th of June. But it's
+always good practice to send an agenda two weeks before a major boardroom
+meeting. That's the norm.
+Lindi Ndebele-Koka: Yeah, do
+Jabulile Christina Dladla: That's our excellent.
+Lindi Ndebele-Koka: that.
+Jabulile Christina Dladla: So now we need to send them an agenda item that speaks
+to them way before you speak to them. That is the reason why we came up with the
+SA Fume Academy 360 marketing strategy.
+00:05:24
+Jabulile Christina Dladla: Y360 it covers all the key angles in line with the 2026 best
+practices of marketing. That is the reason why we are not bombarding the 20th of
+June with a PDF document or a PowerPoint uh presentation that is old school. We do
+away with that. We give them the actual website which we call a prototype so that
+they able to go through in it in advance and the website itself is able to speak to
+them. So we have our homepage SFU Made Italian pipeline of the South African
+screen explore the strategy access I know the name is not going to be sinence this is
+a a name in progress we still put give it a proper name so basically uh there are
+broken links we'll fix all the broken links when you see this is basically images that
+need to be added there so this is just giving a quick intro Or just like on your slide as
+well,
+
+
+--- Page 19 ---
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: we go down the information that just packaged
+Lindi Ndebele-Koka: Okay. So, so um just go back
+00:06:30
+Jabulile Christina Dladla: properly.
+Lindi Ndebele-Koka: there.
+Jabulile Christina Dladla: Mhm.
+Lindi Ndebele-Koka: Uh go up slide slide before this.
+Jabulile Christina Dladla: Have a slide.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: All
+Lindi Ndebele-Koka: Okay. Kittens explained.
+Jabulile Christina Dladla: right.
+Lindi Ndebele-Koka: Okay. All
+Jabulile Christina Dladla: All right. Perfect. And then here so that we just give a quick
+intro of who you
+Lindi Ndebele-Koka: right.
+Jabulile Christina Dladla: who we are. But the most important is this part. Who are
+you here for? This speaks to three key people.
+Lindi Ndebele-Koka: Yeah, we must Yeah, we must start with
+Jabulile Christina Dladla: Who are our Oh yes.
+Lindi Ndebele-Koka: trainees.
+Jabulile Christina Dladla: Yes. But I just put trainees here. I can just do rearrange
+aspiring trainee production companies
+Lindi Ndebele-Koka: No, no, no. It should be maybe trainee
+Jabulile Christina Dladla: and
+Lindi Ndebele-Koka: stroke aspiring film practitioners because from training that's
+what you know
+Jabulile Christina Dladla: I get it. I get it.
+Lindi Ndebele-Koka: they they
+
+
+--- Page 20 ---
+00:07:47
+Jabulile Christina Dladla: That is crystal clear.
+Lindi Ndebele-Koka: become
+Jabulile Christina Dladla: I will amend it to that. Well noted. And then we are
+targeting production companies uh
+Lindi Ndebele-Koka: Yeah. Why are we Why are we only having
+Jabulile Christina Dladla: to
+Lindi Ndebele-Koka: men?
+Jabulile Christina Dladla: um we have females. If you if you allow me to go through
+the entire presentation, you'll see that actually the females are appearing
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: 70 more like
+Lindi Ndebele-Koka: Yeah. But here it's only males, you know,
+Jabulile Christina Dladla: 60%.
+Lindi Ndebele-Koka: you've got funders, two males shaking hands. You have a boy
+there. You have three males there. Yeah. Just just to have a
+Jabulile Christina Dladla: It's okay sis.
+Lindi Ndebele-Koka: mix.
+Jabulile Christina Dladla: I will take not I will adjust that accordingly so that we
+balance it up properly um phrasing wise.
+Lindi Ndebele-Koka: I like this this slide.
+Jabulile Christina Dladla: All right.
+Lindi Ndebele-Koka: Who are who are you here?
+Jabulile Christina Dladla: Excellent.
+Lindi Ndebele-Koka: Who are we?
+00:08:50
+
+
+--- Page 21 ---
+Jabulile Christina Dladla: Excellent.
+Lindi Ndebele-Koka: Who are we here for? It must say who are we here
+Jabulile Christina Dladla: Yes.
+Lindi Ndebele-Koka: for?
+Jabulile Christina Dladla: Who are we here for? Perfect. or when I said when I said
+who are you here for I was speaking to the person who
+Lindi Ndebele-Koka: Assets.
+Jabulile Christina Dladla: is going through the website I wasn't speaking about SA
+fum academy I was speaking the one who's going through so the one who's going
+through right now it can be a production company that was the angle that I took but I
+I get your protect I get your
+Lindi Ndebele-Koka: Oh yeah. Yeah.
+Jabulile Christina Dladla: correction us talking to all of
+Lindi Ndebele-Koka: It should be us talking to to all of them.
+Jabulile Christina Dladla: them well noted I will And then here where we say
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: productions we have crewed they will be right now they're
+sliding as titles but I'm going to get those posters as they are they will be scroll right
+now they're scrolling from right to left as text but they
+00:09:50
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: will be proper posters as per the other presentation. I just
+need to get the high res. I did try to extract from your PDF but they were pixelating.
+They were not good. Uh so what I just had to say is let me get the actual posters for
+Devil's Peak Blood and Water because I did highlight to you already that these are
+powerful brands that need to be showcased well and then a
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: unified architecture for talent growth. Uh take I've taken
+note of the male dominance.
+Lindi Ndebele-Koka: Thank you.
+Jabulile Christina Dladla: I'll fix that also on this image. Uh the SFUM Academy is
+more than a training program. It is a comprehensive ecosystem of five distinct
+
+
+--- Page 22 ---
+entities each serving a critical role in the South African film and digital media talent
+pipeline. These are the five which we will get to explain as we progress. And basically
+those five we you we did highlight on them but we're going to be breaking them
+some more.
+00:10:54
+Jabulile Christina Dladla: So the homepage is just giving a quick preview of what is
+in the pack but we'll be going through it in detail. So the 360 strategy is basically
+made up of four pillars of transformation. I would like the image I was still working
+on. I'm still working on the images will make them female balanced and yeah so
+foundation this
+Lindi Ndebele-Koka: And I mean we can also I mean when when we when when we
+are actually doing this we can also
+Jabulile Christina Dladla: is
+Lindi Ndebele-Koka: provide you with with images will guide you with
+Jabulile Christina Dladla: better the better uh yeah that is actually the best
+Lindi Ndebele-Koka: images. Yeah.
+Jabulile Christina Dladla: approach it's actually the best approach so we have the
+foundation the structural core this foundation is made up of the organization, the
+ecosystem and our infrastructure, the visibility, the market presence, uh SEO by SEO
+is search engine optimization, content and leadership. Then the growth strategy, the
+engine agendic AI, B and partnerships. I will be explaining this as we go.
+00:12:11
+Jabulile Christina Dladla: This is just summarizing delivery the results curriculum
+community and KPI. So basically this is just giving an intro of what is in the entire
+presentation. Our greatest area of marketing is will be you still need to give me the
+proper name.
+Lindi Ndebele-Koka: Let's call them maybe for now.
+Jabulile Christina Dladla: We are called them we're calling them
+
+
+--- Page 23 ---
+Lindi Ndebele-Koka: I mean, we we're going to obviously I'm going to share this with
+my team at some point and we can come up. But maybe let's call them S a one word
+SA
+Jabulile Christina Dladla: Mhm.
+Lindi Ndebele-Koka: intense. S AF
+Jabulile Christina Dladla: S a Okay,
+Lindi Ndebele-Koka: intense
+Jabulile Christina Dladla: let me allow me to open a a word
+Lindi Ndebele-Koka: some something short for SA
+Jabulile Christina Dladla: document.
+Lindi Ndebele-Koka: intense.
+Jabulile Christina Dladla: Okay. So, let me just quickly write that down. Uh, SA
+Uh-huh.
+Lindi Ndebele-Koka: Uh, essay for intense.
+Jabulile Christina Dladla: S and spell it for me. S A S
+Lindi Ndebele-Koka: S A S A as in South Africa.
+00:13:31
+Jabulile Christina Dladla: A.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Yeah. S A S F.
+Lindi Ndebele-Koka: S AF.
+Jabulile Christina Dladla: Mhm.
+Lindi Ndebele-Koka: I
+Jabulile Christina Dladla: I
+Lindi Ndebele-Koka: Yeah. And maybe just as a film intense.
+Jabulile Christina Dladla: s a film
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: intense working
+Lindi Ndebele-Koka: Just it's a working it's a working working turtle.
+Jabulile Christina Dladla: title.
+
+
+--- Page 24 ---
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Okay. SM fume intense. So we are renaming sinence to SA
+film intense. Okay. So connect with over 500 MIC SA trained film and digital media
+professionals. and matching engine show us the right talent for every production.
+And then we have the
+Lindi Ndebele-Koka: Oh, so sorry. Go back.
+Jabulile Christina Dladla: food.
+Lindi Ndebele-Koka: So here when you click enter the portal, then it will take you to
+the portal that
+Jabulile Christina Dladla: Yes, if you click there it I don't know whether my screen is
+showing.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: Okay, let me share.
+00:14:42
+Jabulile Christina Dladla: It's taking us to the sin. Uh but let me let me say share
+browser. Okay, sorry. Just hold on. Let me stop this presenting and let me share the
+window so that way you're able to see. Yeah. Um s*** we go. Yeah. So when I click,
+let me go here. Yeah, at least I able to see my entire screen. So when one clicks on
+enter the portal is taking them to SA film intense. Um yeah,
+Lindi Ndebele-Koka: Okay. All
+Jabulile Christina Dladla: it's taking us here.
+Lindi Ndebele-Koka: right.
+Jabulile Christina Dladla: It's it's one thing. It's another presentation. So I hope these
+people are going to have enough time. Yeah, we went through this already. So,
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: it's basically taking us here and then you you'll be making a
+lot of presentations on behalf of SA Fume Academy.
+00:16:21
+
+
+--- Page 25 ---
+Jabulile Christina Dladla: So, we said here we have re-imagined the manner in which
+our work is presented. Our latest showcase is now hosted at every time you go out,
+you just don't do a PowerPoint. You present it in the same manner you presented it
+here. It becomes our new standard because we are calling ourselves film.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: That is why you see every slide as a cinematic. There's a
+movement. Yeah.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Because we are film. We are not just corporate. We are
+film.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: So we'll have those links of of work
+Jabulile Christina Dladla: So come
+Lindi Ndebele-Koka: done.
+Jabulile Christina Dladla: again.
+Lindi Ndebele-Koka: We will have um the the link the links of some of the work that
+has been
+Jabulile Christina Dladla: Yes, we can actually add uh like here the links we have also
+Lindi Ndebele-Koka: done.
+Jabulile Christina Dladla: the the website itself of the essay fume academy which is
+still linked here and we that is if you need to explain anything here we haven't done
+anything here uh but there are blog posts that we have written uh we need al yeah
+green set we have added here as a link um sen are
+00:17:42
+Lindi Ndebele-Koka: Nice.
+Jabulile Christina Dladla: there and the social media platforms.
+Lindi Ndebele-Koka: Very nice.
+Jabulile Christina Dladla: Yeah, they all can be clicked and accessed from there. So
+basically this is our landing page. This is the first thing they see when they log in. So
+now let us go to the also talent portal here. when you click it's just taking people to
+the same uh essay film intense platform. Yeah.
+
+
+--- Page 26 ---
+Lindi Ndebele-Koka: Mhm.
+Jabulile Christina Dladla: And then here now we're going through our our one two
+three four five key areas.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: The foundation has a landing page. Now you see the
+females taking the lead. The foundation has a landing page. Um and the foundation
+is made up of four key areas that is the organization. There's a there's a Hoover
+effect that comes on it when you put your mouse that is radish. We have got the
+brand ecosystem. We have got the digital infrastructure which is sin and the
+presentation in uh sen film intense.
+00:19:03
+Jabulile Christina Dladla: the brand architecture from five strangers to one family.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Remember what we said during our last week's was it this
+week meeting on a Monday it's like uh the green uh revolution in the film sector the
+Suzuki all these other stuff they're like strangers now we want to properly unifying
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: them so that we have one
+Lindi Ndebele-Koka: not really strangers. Um, from I think strangers is is a bit strong.
+What I want to present is is a coherence between between the three
+Jabulile Christina Dladla: Mhm. We can what?
+Lindi Ndebele-Koka: subsidiaries. Yeah. They they are
+Jabulile Christina Dladla: Excellent.
+Lindi Ndebele-Koka: subsidiaries.
+Jabulile Christina Dladla: So, ah perfect. So, the f the subsidiaries within a family will
+just phrase it along those lines.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Excellency.
+Lindi Ndebele-Koka: Not not strangers.
+Jabulile Christina Dladla: Okay, we'll remove that. Well, uh so basically before we go
+through all this, uh first you are going to l on this page the foundation the remember
+the home it is a landing page of
+
+
+--- Page 27 ---
+00:20:23
+Lindi Ndebele-Koka: for the presentation.
+Jabulile Christina Dladla: the entire picture. Yes.
+Lindi Ndebele-Koka: It's the landing page for the
+Jabulile Christina Dladla: And then yes exactly
+Lindi Ndebele-Koka: presentation.
+Jabulile Christina Dladla: then foundation it's like another website that is made up of
+four key areas but there is a fifth one which is when you click on it you learn this
+page first um and it's summarizing what is there. So here uh pillar one the foundation
+structure ecosystem and infrastructure. Then scroll down explore the foundation
+sections. Select a section below to dive into the structural strategy of the
+organization, our brand ecosystem, our digital infrastructure and our brand structure.
+uh then after this it's talking taking you to visibility but we'll go there. So now we are
+going through these four key areas that are
+Lindi Ndebele-Koka: So this is under this is under home or foundation or
+Jabulile Christina Dladla: under foundation.
+Lindi Ndebele-Koka: foundation.
+Jabulile Christina Dladla: It's now under foundation.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: So when you click here even the URL here it writes for you
+foundation when you when you on
+00:21:51
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: home it doesn't write anything it just leaves it like this
+because it's a homepage it's a landing page. So on foundation you can access the
+four key
+Lindi Ndebele-Koka: Yeah.
+
+
+--- Page 28 ---
+Jabulile Christina Dladla: areas either from here you can access from here or
+through the landing page itself of foundation. So let's start with the organization MIC
+Sitter accredited 20 years of placement. We click on it. Um so the organiz who we
+are what we actually do and the p perception we have already begun to shift the work
+skills facilitator.
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: Um,
+Lindi Ndebele-Koka: it show who we are, what we do.
+Jabulile Christina Dladla: you will.
+Lindi Ndebele-Koka: Sorry. Just who we are,
+Jabulile Christina Dladla: Yes.
+Lindi Ndebele-Koka: what what we do.
+Jabulile Christina Dladla: Or you mean here.
+Lindi Ndebele-Koka: Yeah. No, no. Just go back. Who we are, what we do.
+Jabulile Christina Dladla: Okay. Here we rename it that way.
+Lindi Ndebele-Koka: No, no, no. Uh, just below that sentence below, it must say who
+we are.
+00:23:19
+Jabulile Christina Dladla: Oh
+Lindi Ndebele-Koka: Yeah, just who we are,
+Jabulile Christina Dladla: here.
+Lindi Ndebele-Koka: comma, what we do. Remove actually.
+Jabulile Christina Dladla: Okay. Who we are, what we do,
+Lindi Ndebele-Koka: What we do?
+Jabulile Christina Dladla: we remove actually. All right.
+Lindi Ndebele-Koka: And then and then the last sentence you can just say shifting
+the
+Jabulile Christina Dladla: And
+Lindi Ndebele-Koka: perception.
+Jabulile Christina Dladla: okay here we say shifting the perception. I like that. I like
+that. Excellent.
+
+
+--- Page 29 ---
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So our home page this we're going when you I have access
+to your photo library. We deliberately gave our photos a dark look. It's grading so that
+our text stands out. If you make this too light, this becomes not visible that much.
+So, it's a cinematic dark look by design. Even when you supply us with your photos,
+you do the same grading on those photos so that our text may stand out. So,
+00:24:22
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: the organization
+Lindi Ndebele-Koka: Yeah. I was about to ask that. Maybe maybe it's a it's a bit too
+dark for I hear you a little.
+Jabulile Christina Dladla: Okay. But I will brighten it a little. We'll brighten it.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Yeah, I get your point. Then the work skills facilitator. Any
+changes you'd want here.
+Lindi Ndebele-Koka: Okay, this is fine. I mean we will we will go through it in detail
+when we when we take through the team some points.
+Jabulile Christina Dladla: Okay. Excellent.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Excellent. This is basically text. We add more photos here.
+Um the two tier pathway. Yeah, this is content writing. We add more pictures. The
+administration infrastructure as you explained as you go through with your team.
+Lindi Ndebele-Koka: So this this would be part of the
+Jabulile Christina Dladla: Yes. Yeah. The shifting shifting the perception.
+00:25:24
+Lindi Ndebele-Koka: Dream.
+
+
+--- Page 30 ---
+Jabulile Christina Dladla: What we're trying to do sis Lindy is try to summarize not
+add more text. It's already we'll be adding more pictures just to break down the text
+well so that it does not become a book. So we are still going to add more pictures.
+Yeah.
+Lindi Ndebele-Koka: Okay. Can I just use them?
+Jabulile Christina Dladla: I
+Lindi Ndebele-Koka: Let's go back just this perception thing.
+Jabulile Christina Dladla: did.
+Lindi Ndebele-Koka: Uh okay. So, so this is just for me when I present,
+Jabulile Christina Dladla: Yes. But but you need to finetune.
+Lindi Ndebele-Koka: right?
+Jabulile Christina Dladla: Remember we recorded you last time. So I made the
+presentation with the recording we had but you still now need to put in your voice.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Uh yeah you need to put your voice the the wedding is
+more like
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: placeholder. I wouldn't I know between us we spoke of it
+being a cap led by Captown based white production companies a structural barrier to
+credibility.
+00:26:42
+Jabulile Christina Dladla: If it's too strong we can remove it. uh but it's up to you now
+to what I've done I've guided I've put the pillars I've put the text which is in skeleton
+for you to
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: uh finetune it some more
+Lindi Ndebele-Koka: Am I able to fine-tune from from what you've sent me? Is it
+editable?
+Jabulile Christina Dladla: yes what I'll make that's the next thing that I'm supposed to
+be building I'm going to build what we call a CMS CMS. A CMS is a content
+management system. It's a software that I'm building specifically for SAM Academy.
+So that when you are editing this, you're editing it on the actual website without
+
+
+--- Page 31 ---
+seeing the code. Um on my side there's the coding. It's like making you fix a car
+without dealing with the diesel stuff, dirty engineering stuff. So that's the next build
+that I'm doing for you.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: And on Monday you are going are going to have that so
+that you actually type here and then you click live it goes live onto the website.
+00:27:53
+Lindi Ndebele-Koka: Got you. Okay, let's
+Jabulile Christina Dladla: Yeah. Yeah.
+Lindi Ndebele-Koka: continue.
+Jabulile Christina Dladla: So that's so the the text part I'm not worried because you'll
+be able to fill in more and feel free to suggest appropriate images as you as you said.
+So we have just gone through the organization.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: We were here. Now we are moving from here to the brand
+ecosystem. Five entities, one architecture. We click on it. The five entities, one
+archite a branded house unified under safer. Um scroll through the branded house.
+So here now we have our site architecture plan. We have in the middle the SA fume
+academy which is the master brand MIC SA NPC.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: We have the academy of creative excellence ACE alumini
+as you said here. Uh we have the film growing academy Suzuki 124 licenses so far.
+We have the SA which we are rebranding to from sin to SA film intense digital talent
+portal 500 plus profiles AI match.
+00:29:17
+Jabulile Christina Dladla: Then we have the green set. So this just summarizes our
+five. This is our baby. This is your invention that you are adding. Uh these are already
+in existence but we need to polish them up some more.
+
+
+--- Page 32 ---
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So this is a new baby. Initially there were 1 2 3 4. So why
+this design is we have done it that our new portal the Saf
+Lindi Ndebele-Koka: What?
+Jabulile Christina Dladla: Academy as people branch to academy of creative
+excellence. This will be like a sub website. It's not really going to be a website per se.
+It will be a sub because it's coming from here. It's coming from here. The fate also
+has to come from here.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: It can have its green look and all that but it should come
+from the mother. Same applies with the sin. Same applies with film grow. It's not a
+stand alone thing.
+00:30:13
+Jabulile Christina Dladla: It's coming from here. So we what we are saying by this
+when we are done polishing up all these areas our main engine the SL fuel academy
+we need to revamp it uh properly give it a new look. We're not destroying it. We're just
+giving it a revamp. That website requires actually a reverb so that
+Lindi Ndebele-Koka: Yeah. No, it does. Definitely.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: That's why I'm wanting this marketing
+Jabulile Christina Dladla: Excellent.
+Lindi Ndebele-Koka: strategy.
+Jabulile Christina Dladla: So that it links up to all these other subdomains properly.
+So this is just our architecture map. uh you can pause here and explain uh as what I
+what I'll be doing is just animating you see on the other slide there's a subtle
+animation happening showcasing the link between an architecture plan so yeah and
+then this comes to your text feel free to
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: write uh the essay fumade is a branded house surfaces at
+the aex It's explaining what we're talking about there.
+
+
+--- Page 33 ---
+00:31:27
+Jabulile Christina Dladla: Uh yeah, the text I don't we don't need to read it.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: You go through it with your team. Now the five pillars we
+just talked of here here are there. Now don't worry about the pictures. We can always
+change here.
+Lindi Ndebele-Koka: Heat.
+Jabulile Christina Dladla: ACCE Academy of Creative Excellence Alumni and Hod
+Pathway for High Level Creative Leadership. We can also rephrase whatever we
+want. film grow. Don't worry, there should be a Suzuki car. I deliberately put a guy
+there. Um, there will be a Suzuki. Yeah, actual image. Yeah, green set will put um
+actual image of
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: a green set that you worked on. And then Senance there
+um
+Lindi Ndebele-Koka: Heat.
+Jabulile Christina Dladla: digital gap bridging the divide between traditional film
+training and modern uh digital infrastructure. This is actually the SAM Academy.
+That's why we are having five.
+00:32:29
+Jabulile Christina Dladla: Remember we spoke of five but Saf Academy is the
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: fifth one but it's the mother. So that is the one that we are
+calling the digital gap.
+Lindi Ndebele-Koka: So you can start with with that. You can start with the mother
+and then
+Jabulile Christina Dladla: with a mother. Okay, perfect.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So the mother will start here and then the other four will be
+explained
+
+
+--- Page 34 ---
+Lindi Ndebele-Koka: Yeah. and and then I mean when you can start with that and
+then you can have
+Jabulile Christina Dladla: well
+Lindi Ndebele-Koka: um say film academy bridging the digital gap something like
+that
+Jabulile Christina Dladla: bridging the Yeah, perfect.
+Lindi Ndebele-Koka: bridging yeah okay you've got it bridging the divide
+Jabulile Christina Dladla: Excellent. Excellent. So this is just echoist.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: If you see on the URL sis Lindy here, there is a URL that
+tells you where are you? So that in the event of doing a presentation, you ask yourself
+where am I now?
+00:33:32
+Jabulile Christina Dladla: We are in ecosystem. Remember foundation brand
+ecosystem.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: It doesn't run write brand ecosystem in full. It just writes
+ecosystem. So that's the page that we are on now. So we have done the
+organization. We have done brand ecosystem. Now we are going to the digital
+infrastructure. Our new baby the senotence that we now which we now call the SA
+film intense and the presentation engine. How will the how you as CEO present? I
+actually have a dedicated section of you the CEO because you are part of the brand.
+Many say I will explain more when I get to that slide. So now we are digital
+infrastructure. When you click on digital infrastructure, it lands you to a page. Don't
+worry about the text. I'm going to clean it up some more. It says infrastructure
+already on your URL. So this is the landing page of the digital infrastructure.
+00:34:36
+
+
+--- Page 35 ---
+Jabulile Christina Dladla: It's not the landing page page the hero section. So what
+has already been built and why it matters before anything else is scaled. What it's
+basically saying what is it that we have built already. We have built the Saf Academy
+green set those digital platforms are there already. social media platforms are there
+and why does it matter for us to cons to to have a look what what has already been
+built what is it that has already been built is the SAM green safe social media
+platforms that we need to know and properly scale before we scale them further so
+this strategy is not is not aspirational the infrastructure that underpins everything
+else is already live deployed and demonstrated able. What we are saying also is the
+SFU Academy is already running but we have a new baby that we are now in terms of
+um why do we need to rebuild this is I deliberately animated this part cuz I need to
+explain it in a in a in a very good way why the website of the SA Fume Academy
+deserves uh a reverb in developing here we call it the text tag we always see the
+browser which is the front end but beyond that beautiful car you drive Sis there's an
+engine I just don't your presentation should not just speak on the beauty of the car
+seats
+00:36:18
+Jabulile Christina Dladla: the steering wheel the the red color the green color which
+we call the front end it could also speak about the back end. The back end is the
+engine that powers our our our digital
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: infrastructure. So there's a new technology sis called the
+next GS. Uh the next GS is powered by vessel. If you look at sin's all even this website
+that you're presenting on behind the scenes, this is what is happening. We are seeing
+this browser but when we click scroll when you open it in in Cape Town when you
+open it in London it's being powered by this engine. You don't necessarily need to
+know the technical details of it but you as you drive your car you just need to know
+which fuel powers my car. Is it diesel? Is it petrol?
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: You just need to have basics of mechanics. So our new
+tech or digital presence is being powered by cloud flare.
+
+
+--- Page 36 ---
+00:37:28
+Jabulile Christina Dladla: Our CDN shall be on cloud flare and we are using a
+technology called Nex GS to power our websites or our digital systems. there. It is
+good. There's CDN, there's DNS, there's B protection. What do we mean by B
+protection? Superb gaming group website was hacked two years ago. I was there
+working as one of their programmers and the people that hacked um Super Base
+demanded a million rand worth of ransom to release it. Initially they were paid but for
+the second time they tried to hack it they couldn't because it was now powered and
+protected by this engine that you are seeing here. This makes our site safe secure
+when people are logging in and hiring intense. You have your entire infrastructure on
+the digital cloud. People tend to be afraid to say why what if we get hacked but next
+GS14 uh it's powerful it's secure uh yes hackers can try but we are very secure so this
+is more of a popular grade is what we say people are going to be creating their
+profiles Johnc manga is going to be logging in and putting in their name that's a
+popular act the moment people log in and create profiles you have to prove to them
+that the site is secure.
+00:38:56
+Jabulile Christina Dladla: They're putting their phone numbers. So, one can hack just
+to steal the data or phone number, address, email. There are data that actually do
+that. So, I just am not focusing on the front end, which is the browser. I'm focusing
+on the engine as well. So this is the text tag that runs the browsers of the at the
+moment I can only speak of sin and this site of a presentation I can only speak of
+these two because I'm the one who has built them. So I can tell for conf with
+confidence that this presentation it is secure. It cannot be hacked. Um if you want us
+to put a password on it so that we ever access this presentation we can also do so.
+We can make it password protected. But for now for presentation purposes between
+us I left it open. But before you you send it to your board there will be
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: um uh a password.
+
+
+--- Page 37 ---
+00:40:07
+Jabulile Christina Dladla: I'm going to allow me just to quickly demonstrate that cuz
+security and confidentiality they are very important. Uh allow me just give me two
+minutes to quickly do this presentation. It is not for SFUM Academy. It's for the
+mining sector whereby highly confidential documents are being shared. It's the same
+thing that we're going to be doing here. So I'm going to go here. I'm going to click on
+the Sina Africa and quickly go to the mining. I hope you can still see my slides,
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: sis Lindy,
+Lindi Ndebele-Koka: I'm I can see
+Jabulile Christina Dladla: you see. Okay, I'm going to go to mining and I'm going to
+go to the investor hub. All the other things here accessible with no password. But if I
+come here, investor hub carries so much confidential stuff. uh one has to get
+approved. So this is what I'm going to put on your on your presentation.
+00:41:08
+Jabulile Christina Dladla: You we're going to approve everybody who who has
+access to it because it has your confidential IP cuz when you share this with anybody
+I know who logged in I I will know who's online. I you get to see that in a moment. So
+access uh same dosia it will say access the SA fume academy marketing strategy.
+So one clicks there and one has to register. You already see that there is either you
+have to create an account. Since I already have an account I'm just going to type
+hello my email. Let me just quickly do this first. Um, add my password cuz security is
+equally important. Just Oh, sorry. I'm using the wrong email. Um, quickly this
+accessing. Voila. Now I have access to the dosier that is carrying highly confidential
+information and PDFs um the summary of what is stakeholders are currently
+deliberating on since I'm an administrator if I click on admin portal I can revoke
+pending up I approve people I can add you as an user you know I can put your email
+address I can give you a password and decide am I adding you as a team member as
+a viewer or as an admin Since you are presenting to the board yourself, so you will be
+one of your staff members will be approving board member or
+
+
+--- Page 38 ---
+00:43:08
+Jabulile Christina Dladla: whatever uh roles you'll be the admin. Obviously admin
+gives you the right to edit this site.
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: So we will know who is online, who's offline, who's
+accessing what etc. So I just let me go back to our presentation. So this is part of the
+security that we're going to build along all your board presentations that you approve
+access to them because the presentation carries highly intellectual IP which we want
+to protect as well. So that's about the stack circuit and what will come through some
+more and then the digital infrastructure of the SFU Academy is built on a modern
+high performance tech designed for global scale leveraging it's now explaining what I
+was just saying leveraging the next GS14 vessel edge and cloud fail we ensure sub
+100 ms latency and copy are great security across all user touch points this is key
+copyers whenever you start on boarding people in
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: their profiles uh we have to showcase security and that's
+what I was what I was explaining
+00:44:18
+Lindi Ndebele-Koka: Oops.
+Jabulile Christina Dladla: to you what is here basically is what I've just explained to
+you that is coming but I've left this site open deliberately so that it's we need to finish
+this lock it and then lock it afterwards with additional security features Um this is not
+a theoretical plan. The core components of this infrastructure are already live. What
+I'm talking about is is live. It's happening on sin. Um the back end which you cannot
+see this back end is already happening. The way it's animating right now, it's a live
+animation. It's actually happening as I'm speaking to you. Vessel is running as you
+can see. If you see this thing stop running, it means we have a fault. So, you're able
+to monitor the security. It's like having an alarm at your house or on your car. If you
+click the alarm thing, it turns to red. It shows that your house is now armed and the
+light is flashing.
+
+
+--- Page 39 ---
+00:45:29
+Jabulile Christina Dladla: That is what is happening right now. So, that's what I'm
+talking about here. When I say uh this is not theoretical plan, it's not theory. I'm not
+just sharing a theory. The core components of this infrastructure are already live and
+operational providing foundation for the senance portal and the ACAM's digital
+present. I'm excluding the Safade Academy. I'm excluding green set because I didn't
+build those. I I'm not I don't know the engineering behind those platforms. So we
+build for the future on the reality of today. You can say ah why no need for tight
+security we can be had. Why would people want to hack an NPC? They would want
+to hack an NPC or an NPO to get your data. Data is gold.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Data is now gold. If you have 500 people on your website,
+yes, they would want to hack you to get that data of those 500 phone numbers and
+they do whatever that they want with that.
+00:46:35
+Jabulile Christina Dladla: So it's a law even for Facebook. It's a law for even Twitter,
+Instagram. Yeah. And then the placement pipeline. This is more like the tech part. I
+know you can say why do I really need to present this? Yes. EO you need to present
+the tech aspect of what powers your system is very key on a marketing strategy. A
+marketing strategy does not only speak about front end the red the seats the the the
+dashboard of a car as CEO you need to know what powers your car what p powers
+your um your your your entire uh pipeline. So the placement pipeline is the setter
+approval trainee profile senance proile
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: agentic match production company active placement it's
+it's basically will be linked on one of your screens let's say we are going to build a
+small a CEO you were asking me last time uh sis Lindy about what will I be able to
+see get reports of what is happening um in my ecosystem.
+
+
+--- Page 40 ---
+00:47:56
+Jabulile Christina Dladla: So this is summarizing that on one of your setup at your
+house we have to create a a mini it's a mini control center with a TV screen just a
+normal TV screen that we inject we just buy an ordinary computer um which is a
+budget of 5,000 a computer and a TV screen and it and we buy a virtual machine
+space you'll be able to know exactly approvals from Sitta. There will be an API
+whatever that needs to be approved from Sitta whether we applied for um the next
+funding cycle for the next year. There will be a dashboard specifically giving us alerts
+just like the way you get notified on your phone via Gmail of an email that just
+entered or anything related to Sitta that needs to be approved. There will be the uh
+training profile uh a dashboard of the training
+Lindi Ndebele-Koka: Okay. I mean this we will yeah we we will discuss when we
+discuss with the team
+Jabulile Christina Dladla: profiles.
+Lindi Ndebele-Koka: because sit communication is done through their system which
+is
+00:49:11
+Jabulile Christina Dladla: Yes, that's that's what I mean. We are not building it will be
+their system linked to our system in a way. We we get API keys if they approve of
+Lindi Ndebele-Koka: Okay. Yeah.
+Jabulile Christina Dladla: course.
+Lindi Ndebele-Koka: Because we have um an administrator they they call them the
+SDF which accredited by Sitta.
+Jabulile Christina Dladla: I
+Lindi Ndebele-Koka: So Sh is our SDF then she gets all the notification you
+Jabulile Christina Dladla: see.
+Lindi Ndebele-Koka: know every step.
+Jabulile Christina Dladla: Ah, I see.
+Lindi Ndebele-Koka: Yeah. So
+Jabulile Christina Dladla: Not a problem. Awesome. And then infrastructure at scale.
+
+
+--- Page 41 ---
+Lindi Ndebele-Koka: yeah,
+Jabulile Christina Dladla: Um all these websites they live somewhere. They don't live
+in a cloud like just any people when they hear cloud they just hear cloud like they're
+just in the air. No, there there's there's a platform data centers where all the websites
+the FBS they're living you know there and
+Lindi Ndebele-Koka: Please.
+Jabulile Christina Dladla: um we have storage on our vessel.
+00:50:18
+Jabulile Christina Dladla: So that this part is explaining about that uh global edge
+network content is served from 275 plus data centers across six continents. What
+cloud flare does it duplicates it mirrors the content.
+Lindi Ndebele-Koka: Oh.
+Jabulile Christina Dladla: If this other data center is down, our site will never be
+down. 27 uh 24/7 monitoring in the platform is continuously monitored for
+performance security. That's what I explained. Opia compliance or trainee data
+production records and
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: sensitive placements are encrypted end to end and comply
+with South African data protection standards. This is very key. Many amateur web
+designers that do they ignore this as we have it declared and is what I I just
+summarize to you now. Um the sin portal this is now marketing the sin is a flagship
+digital product of the essay film academy serves as a comprehensive talent portal
+where yeah you see all that it's just a quick summary of what the SA film intense is
+all about.
+Lindi Ndebele-Koka: Yeah.
+00:51:32
+Jabulile Christina Dladla: So remember we're still on the infrastructure. So now we
+are going on brand architecture. We are we agree that we're not going to call it five
+strangers.
+
+
+--- Page 42 ---
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: Sorry if I use five strangers. We're going to call it
+subsidiaries. So note of that. So now we are going there. We click there.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: We are welcomed with what we call a hero section. Each
+page has got a hero section. is the first thing people see brand architecture and
+identity five entities currently uh read as five sorry I'm going to move you it's you
+know what happens is Lind in our Monday meeting you kept on saying the word
+strangers so I kind of worked with that yeah you said you said green
+Lindi Ndebele-Koka: really. Okay.
+Jabulile Christina Dladla: set it's kind of kind of like a stranger yeah so I kind of
+Lindi Ndebele-Koka: Oh, okay. I remember.
+Jabulile Christina Dladla: ro on that but we are going to call Five subsidiaries.
+00:52:30
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: We're doing our way with the word strangers. Um yeah,
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: we want them to read as one normal family. So the
+branded house the brain fragmentation problem is the central diagnostics. Five
+entities suffer acceet cinitans exist independently but they don't exist in we're going
+to come out with proper phrasing but yeah so that we make them read as one
+coherent family.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Here it says each leaves on its own URL with its own visual
+approach. Uh we need to unify that's the part I was saying unifying the mother house
+saf academy all these other entities should imitate em uh be moving from or when
+we should be accessible via the safety. Uh the proposed architect is a branded
+house. SAF market is the master brand. As we said, each subsidiary carries a
+deliberate vision verbal relationship to it. We explained it well. Uh the branded
+approach. So the brand voice principles authoritative.
+
+
+--- Page 43 ---
+00:53:46
+Jabulile Christina Dladla: The academy speaks as the body that has placed trainees
+as the on the woman king without ever sounding like it is reading from a brocher. Uh
+we need to what I meant I did let me explain this part properly. I did say it to you in
+our Monday meeting when I said we have got the woman king a powerful brand but
+um now the academy needs to speak as the body that has placed trainees. We really
+need to leverage all the power of this brand
+Lindi Ndebele-Koka: Yeah. And I mean um it's not only woman king we can say that
+has placed trainees on
+Jabulile Christina Dladla: lately.
+Lindi Ndebele-Koka: on over so many so many productions for example woman king
+I mean all those ones that you had
+Jabulile Christina Dladla: Yes. Perfect. Perfect. add that uh proudly local local idom
+and insider fluent we
+Lindi Ndebele-Koka: There.
+Jabulile Christina Dladla: can always clean it up some more datadriven I want to
+speak here um statistics and the right to be quoted the academy never lapses into
+the airless language of an annual report when the lift story is far stronger so by
+datadriven we'll be carrying statistics case from all these principles that have been
+broken down on under
+00:55:09
+Lindi Ndebele-Koka: Oops.
+Jabulile Christina Dladla: our marketing strategy will be data driven we will not be
+emotion driven that's what I meant to say to say ah we are there will be a Google
+analytics which shall be attached also giving how many uh apart from uh 500 plus
+placements and all the other data it will also be speaking of traffic proper
+engagement there will be ways of measuring. That's what I mean by that. Uh visual
+system implementation, type system, uh player display. I'm talking about the brand
+because you cannot talk of a marketing strategy
+Lindi Ndebele-Koka: It's okay.
+
+
+--- Page 44 ---
+Jabulile Christina Dladla: without talking of the phones, the color palette, the
+photographic aesthetic of it. So type city right now played displays the font sur itallic
+for headlines and emphasis outfit um because I never asked for your brand manual. I
+just had to make this up but you can still send me your brand manual as it is and I'm
+going to add the brand manual. Uh the pairing signals authority and modernity
+simultaneously color palette gold.
+00:56:32
+Jabulile Christina Dladla: I know it's not gold, it's reddish. Uh here I'm talking of a
+color palette that is here, but I haven't received your brand manual. So here we are
+going to edit it some more and embed what is on your brand manual and then deep
+red secondary with dark background that reads as dark. So you will hand me over
+your brand manual and then we will fix this photographic aesthetic. Every image uses
+consistent cinematic lighting. I say I told you this already. Warm golden key light with
+deep red side light. No stock photography. Every image is custom AI generated or
+professionally shot for brand specification. All these images you see sis Lindy they
+are not from Getty images. They're not from all those talk. We have created we have
+generated them. We don't have any licensing aspect. We generated them. That's why
+you see them having a a consistent reddish look on them.
+00:57:40
+Jabulile Christina Dladla: Uh so that's about the brand aspect of it, but this will feed
+it more with the brand manual that we get uh from you. So this summarizes the
+foundation. Our foundation is the organization, brand ecosystem, digital
+infrastructure and brand architecture. So if you scroll down while you're doing your
+presentation, you see at the bottom is next is marketing calendar. Marketing
+calendar is what is on the visibility. So when it says next, it's not saying next is
+visibility. It's already touching this. So under visibility, we click on visibility. We have
+remember the photos have got this reddish it's like kind of our reddish look from the
+Saf Academy uh but it can still be fine-tuned some more. So now we're on visibility
+landing page. So the visibility pillar how the world sees SAM Academy a strategic
+approach to SEO search engine optimization content marketing and institutional
+leadership. How are we how we are seeing is not just the saf academy it's the the the
+
+
+--- Page 45 ---
+the license it's the green set it's the senence it's the acce so we have got explore the
+visibility
+00:59:03
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: sections uh our 12 month calendar a first road map for
+foundation visibility authority and scale seo and aiso I'm going to explain that uh
+institutional voice leveraging executive visibility to drive institutional authority. This is
+more the CEO part content marketing. So the landing page is just summarizing our
+key four area areas under visibility. Let's dig into them. 12 month calendar foundation
+visibility authority and scale. Let's click there. The 12 month calendar, marketing
+calendar, June I the dates, we can always change them. June 2026 to May 2027.
+Four quarters, four phases, every milestone visible. So implementation timeline
+because it's not just enough to present a marketing strategy, we need to showcase
+the implementation of it. So we have got the sin better when we we need to say sorry
+we now have decided to call it SA fum academy intense we have got the uh 50
+profiles face placements we need to speak about that foundation which will run from
+June June July and August we need to release the better version of the senance
+remember I say to you already don't worry much about the bill of it we let's let's do
+this provided we can pay for the subscription.
+01:00:42
+Jabulile Christina Dladla: So we are already saying when you are presenting to uh
+your board when we speak of the sinans we need to speak of the timeline of the
+senans the sinans remember we still have this portal we are saying this is a
+prototype you see you have already built
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: a prototype but that prototype now now needs to be
+released as beta so when we say better sis Lindy by beta we mean before a software
+is released it goes through uh three key phases. It goes through prototype. This is a
+prototype. A prototype has got mockup images that we're going to use now and put
+actual images. We can get 50 profiles before you go to present. Our sen would have
+
+
+--- Page 46 ---
+at least a minimum of 50 profiles on them so that at least you show them what we
+call a working prototype. It will not yet be a beta but we are saying as from June to
+August we need to release a better version. When we release a better version it's not
+really officially launched but we are testing it and doing corrections on it.
+01:01:55
+Jabulile Christina Dladla: And then visibility here we are September to October 2026
+content pipeline social uh uh uh cordance and podcast launch. Uh I deliberately put a
+podcast there because we don't have any podcast of where we talk of film. Yes, you
+can be invited and invited guest but we can also have our our touching base inhouse
+whereby we are talking of everything that is happening within the SA film academy
+not just the film academy itself but the film industry as a whole. Then the authority
+partnerships case studies industry recognition scale 500 plus profiles tier one uh
+clients revenue growth I know you're an NPC when we say revenue growth I mean
+money that has come through funding and yeah so here now I now explain what is
+here is now being explained here uh foundation and launch authority and funding.
+Um you still can go through it and write it properly some more. This is just explaining
+what I was explaining here. And execution rhythm uh weekly guardians every
+Monday the ex execution team gathers for five decisions.
+01:03:23
+Jabulile Christina Dladla: What's shipped? What's blocked? What's next? Who owns
+it? When does it close? um monthly visibility. This this is statistics that is coming the
+weekly card. It's coming to you as CEO via aic AI which I'll explain in detail as we
+progress. You are able to see what shipped by what shipped new profiles shipped to
+go live on cit. What's blocked? Do we have any technical glitches? The system will be
+reporting to you what's blocked. Are we having any glitches? What's next? What is
+next for you to approve? Remember blog articles will go for
+Lindi Ndebele-Koka: So this is a back hand.
+Jabulile Christina Dladla: your back end.
+Lindi Ndebele-Koka: I mean most of this is back hand. Okay.
+
+
+--- Page 47 ---
+Jabulile Christina Dladla: Yes, it's back end. You are right. Uh who owns it? By who
+owns it?
+01:04:16
+Jabulile Christina Dladla: We have you have got five agents working for you. Who's
+owning the report of the CEO? Cuz the CEO has to give a monthly um or weekly
+report on LinkedIn on what's happening. So when you say when we say who owns it,
+which which agent which agentic AI owns what cuz you're going to have agents. Uh
+I'll explain in detail on that particular segment. When does it close? Every Monday
+there's a CEO report that goes on LinkedIn Safade because all these are brands.
+Greenstone, green set I mean uh uh go the the the Suzuki all these stuff need weekly
+reports. So there will be a particular agent assigned for the CEO assigned for SAU
+Madame assigned for all these digital platforms. The board sees complete progress
+against the 12 month map. No surprises. Yes. No delays hidden. The calendar is the
+contract between strategy and delivery. They it is a digital calendar that we are going
+to have as a dashboard.
+01:05:27
+Jabulile Christina Dladla: You asking will I have will I be knowing what's happening?
+Yes. As CEO you know the system itself will be telling you what has been you won't
+there won't be surprises. That's what I meant to say. No surprises. You won't be
+surprised to see an article because people say, "Why? We can't trust AI. You don't
+trust this agentic robots. What if they go what if they go awall and just starting
+posting p***
+Lindi Ndebele-Koka: So, so,
+Jabulile Christina Dladla: and it won't happen?
+Lindi Ndebele-Koka: so aidentic AI means agents AI.
+Jabulile Christina Dladla: Yes,
+Lindi Ndebele-Koka: Oh, okay.
+Jabulile Christina Dladla: you actually have stuff. These are people, sis lady, you you
+enjoy this. You have stuff working for you that is physical. You have a you have got
+
+
+--- Page 48 ---
+this and that and you have got your digital staff as well. But we are saying I'm not
+trying to scare you by saying this there won't be no surprises, no delays or hidden
+stuff.
+01:06:24
+Jabulile Christina Dladla: You still have control because before anything is shipped
+you know you
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: approve all your
+Lindi Ndebele-Koka: And I mean I still I still have seed to obviously be part of the
+SEO
+Jabulile Christina Dladla: do all that.
+Lindi Ndebele-Koka: stuff kind of.
+Jabulile Christina Dladla: Yes, 100%.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So what we are saying, she's there. She now knows what's
+when I say approvals, she'll still have approval rights as well. Uh because we don't
+want you to we don't want to make the CEO work as an administrator. At the end of
+the day, what I'm trying to say that on your CEO dashboard, you will know that Slair
+has approved this. You will know what SIL has approved during the week. In other
+words, you get to know is CL working or not working. That's what I'm trying to say.
+Lindi Ndebele-Koka: Yeah. And I will also sing to to say go
+Jabulile Christina Dladla: So,
+Lindi Ndebele-Koka: ahead.
+Jabulile Christina Dladla: exactly.
+01:07:26
+Lindi Ndebele-Koka: Okay. All right.
+
+
+--- Page 49 ---
+Jabulile Christina Dladla: Exactly. Yeah. So, we are not putting giving 100% control to
+the agentic system. we're not doing. So, we still have control over it. There's not
+going to be any surprises. So, that's what I meant by that. And then the rhythm, this
+rhythm transforms the marketing calendar from a planning artifact into an
+operational instrument. Many are good with talking about this. Where would CEO sis
+who do this, we do that, we do this. But it's just it's just on paper you know this what
+I'm sharing with you will be operational you know you you see an operational
+calendar that is showcasing those agendic you literally will be seeing a LinkedIn post
+going live in 5 4 3 2 1 on a Monday at 8:00 a.m. W live. So it's a it's a it's a dashboard
+kind of a calendar that is running Monday to Sunday and we're able to see clearly not
+as a PDF presentation but when it goes live you see all that.
+01:08:37
+Jabulile Christina Dladla: So ready to explore the content strategy. So that was the
+calendar. We have touched on the calendar here. Now we are on Now we are on uh
+SEO and AI SEO. Found by search engine and AI engine. We click there. I'm going to
+clean up the text some more. Found by search engines today. Found by AI engines
+tomorrow. Both deliberately. Traditional SEO and generative engine optimization. A I
+S E O are no longer alternatives. They are two halves of the same discovery surface.
+What do we mean by this? Cuz this is our land. This is our hero section. This is the
+first thing as CEO you are saying to your board as you do your presentation that when
+we speak of search engine optimization, let's let's first of all define SEO. SEO. I mean,
+right now there's a production house in Rosebank.
+01:09:47
+Jabulile Christina Dladla: They're looking for 20 intense. They're going to go on
+Google and they're going to type I need or looking for 20 intense. Sappa should
+quickly pop up on the top three. But nowadays, people no longer just use Google to
+search for intense or for search for placements or any kind of search. is not not only
+being done by Google. Sage has now being done by church GPT, Gemini, Perplexity,
+you know, um, uh, deep search. People are also now using search on AI platforms.
+So, what do we do when we build our content
+
+
+--- Page 50 ---
+Lindi Ndebele-Koka: What is what is seo?
+Jabulile Christina Dladla: strategy?
+Lindi Ndebele-Koka: What kind of
+Jabulile Christina Dladla: SE Okay, thank you.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: SEO is search engine optimization. Right now, sis Lindy,
+you uh if I look at your profile photo, I see a youngster. Let me call you that youngster
+your grandchild. You you want to look for a baby daycare center. You are going to go
+on Google and search You're going to type near near Midrand.
+01:11:12
+Jabulile Christina Dladla: I'm looking for a daycare center in Midand and there's
+going to be five things that pop up. Those words that you entered there, they
+optimized to be on the website of that dayare center. That daycare center will have a
+blogging area whereby they will say looking for a daycare center in Midland. So the
+moment you search it on Google already that word is appearing on the website of
+that dayare center automatically that dayare center let's call it ABC daycare center is
+going to quickly pop up on your search and it will rank number one because it's it it
+on its website it placed keywords. So I know SEO sounds fanciful. They are basically
+words that are key in making safer rank high on Google. So that is the old school
+which is still functional. That's why here I said both deliberately. I use the word both
+deliberately. What do I mean by that? Traditionally we are still searching on Google.
+01:12:27
+Jabulile Christina Dladla: I need a placement. Okay. You want to go to Cape Town,
+you search for flights.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: You just don't anything that you do in your life. Sis Lindy,
+you search, you do a Google search. Anything you go on Google and search that is
+search engine optimization. Now we are saying on that which you search for,
+Lindi Ndebele-Koka: It is.
+
+
+--- Page 51 ---
+Jabulile Christina Dladla: what are the keyword that people use when they are in the
+field industry looking for intents? We put those key words together. We make sure
+that those words,
+Lindi Ndebele-Koka: Okay, I get you. I get you. Okay.
+Jabulile Christina Dladla: you get me now.
+Lindi Ndebele-Koka: Yeah. Right.
+Jabulile Christina Dladla: Excellent. We make sure that the key words people are
+looking for when they are running a search, they are on the sin's website, they are on
+the SA Fume Academy website, they are on the green search website. all those key
+words.
+01:13:21
+Jabulile Christina Dladla: We can say um what are the key when when you build a
+bakery and you have a bakery website, you can't just put words there randomly. Every
+single word there has to be optim optimized in the sense that whoever is looking for
+fresh bread looking for fresh bread in midrand that phrasing has to be on our website
+so that we rank higher on searches. So now you know you are a familiar everybody's
+familiar with SEO but people are not conscious that we now have AI engines. Google
+is a search engine of today. That's what this title is saying. your CEO and yeah I wish
+it was me presenting this now I'm envying you because I love this part cuz we are
+Lindi Ndebele-Koka: No, no, no.
+Jabulile Christina Dladla: saying
+Lindi Ndebele-Koka: I'll probably I mean I'll probably invite you to, you know, to
+present.
+Jabulile Christina Dladla: oh I'll be honored I'll be honored so he
+Lindi Ndebele-Koka: Yeah. Yeah.
+Jabulile Christina Dladla: saying
+Lindi Ndebele-Koka: Okay. So, let's let's move quickly now.
+01:14:30
+
+
+--- Page 52 ---
+Jabulile Christina Dladla: traditionally
+Lindi Ndebele-Koka: I have a time thing.
+Jabulile Christina Dladla: okay perfect sorry I get carried away.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So basically this part is talking about traditional SEO. I've
+already explained that. Now you're asking what is SEO? This is explaining I don't need
+to go through all that. It's basically explaining what SEO does. And this is explaining
+what AI SEO is all about. What I just said. So what I've just said, I've just summarized
+this page and we are done. So we are on SEO. I've explained SEO institutional voice.
+This is you now. This is powerful. This is your photo. It's going to be replaced by your
+phone. Institutional voice and exe executive visibility. The chief executive's voice as
+one of the academyy's most valuable marketing assets. We don't separate the CEO
+and these are all your photos. The chief executive's voice.
+01:15:30
+Jabulile Christina Dladla: Read it. We don't separate the CEO. And you have to
+Lindi Ndebele-Koka: Um so so maybe here we can add executive
+Jabulile Christina Dladla: be
+Lindi Ndebele-Koka: visibility institutional voice but it should also add um me and
+the team you know maybe just say essay from academic
+Jabulile Christina Dladla: yes
+Lindi Ndebele-Koka: team
+Jabulile Christina Dladla: 100%. But in that team,
+Lindi Ndebele-Koka: start with me and then the team.
+Jabulile Christina Dladla: Exactly. Exactly. Yeah.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: 100%. So, this is self-explanatory. We don't need to Yeah.
+Yeah. Yeah. The 90-day activation self-explanatory. LinkedIn speaking engagement.
+This will be your photo. I saw a photo of you at uh Empower Empower Youth. I'm
+going to grab it from LinkedIn. It's a beautiful photo of you there. You I'm going to
+grab it. I'm going to share it with you to approve.
+
+
+--- Page 53 ---
+01:16:31
+Jabulile Christina Dladla: I know you might have other photos, but the empower
+youth photo is the best. Yeah, everything on that photo is great. It's beautiful. It's lit
+properly and it's going to replace this one here.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So, speaking
+Lindi Ndebele-Koka: And we have other images of at
+Jabulile Christina Dladla: engage,
+Lindi Ndebele-Koka: um at fame week, you know,
+Jabulile Christina Dladla: oh yes, frame week is great.
+Lindi Ndebele-Koka: with Cindy and and CL.
+Jabulile Christina Dladla: Excellent. Excellent. So we add all that there. So we are
+done with uh institutional voice content marketing. I love this uh storytelling
+multiformat publication strategy that treats suffer at the industry's most authorative
+source. The editorial engine blog posts uh AI will be writing blog posts for us. Um we
+QC them of of course AI writes faster. If you are to see to write 20 articles she can be
+slow uh but AI systems will be writing blog post for us. So the five pillars skills and
+be AI and post sustainable production industry commentary career path stories
+cinematic not corporate.
+01:17:44
+Jabulile Christina Dladla: So it's basically articles and podcasts that we shall be
+catching on multiformat publication podcast we have to take to uh create so create
+our own in-house podcast we have to you know uh stud doesn't even cost a lot it's
+just microphones cameras raw and weekly articles 1,500 to500 word deep dives into
+industry topics uh monthly podcast 45 to 60 minute long short form, long form cuz
+our
+Lindi Ndebele-Koka: Yeah, we can we can also get a trainy do podcast because we
+Jabulile Christina Dladla: our Exactly
+Lindi Ndebele-Koka: have we we have access there.
+Jabulile Christina Dladla: that exactly we
+
+
+--- Page 54 ---
+Lindi Ndebele-Koka: We have access to the studio.
+Jabulile Christina Dladla: can.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Excellent. Excellent. So we are done with visibility. Let's
+quickly move to the growth engine. Click on growth engine. where revenue is
+generated and impact is I trust me I know the way the revenue generated it sounds
+hectic not so professional for an NPC we can phrase it the best way you want it
+phrased because it sounds more like we are for profit uh but yeah we can always
+phrase
+01:18:56
+Lindi Ndebele-Koka: Yeah. I mean I mean we are an NPC so there's obviously two
+Jabulile Christina Dladla: it
+Lindi Ndebele-Koka: aspect to us you know revenue generating and then there's also
+you know the NPO stuff that that we do
+Jabulile Christina Dladla: Oh,
+Lindi Ndebele-Koka: but because our clients obviously pay us
+Jabulile Christina Dladla: excellent. So, so the phrasing work excellent.
+Lindi Ndebele-Koka: the admin fee Hey.
+Jabulile Christina Dladla: Ah, so that's perfect sis. So, explore the growth sections
+aentic AI engine. I've already five autonomous workloads driving a weekly marketing
+cadence. I already explained that to you. B uh BBE and skills levy. You taught me
+that. I learned it from you. Um partnerships and PR self-explanatory competitive
+positioning. Yeah. So I didn't want to bombard you with text. Here you'll be cruising
+through. The only part I've already explained is the agentic AI engine.
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: So there certain sections whereby you don't need too much
+text.
+01:19:55
+
+
+--- Page 55 ---
+Lindi Ndebele-Koka: we can can explain that.
+Jabulile Christina Dladla: Yes.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Yes. So we are on growth engine. We have touched on this.
+Now we have touched on the yeah partnership
+Lindi Ndebele-Koka: That's fine. That that I I've got
+Jabulile Christina Dladla: P um building the broadcast call Suziki partnership with
+Lindi Ndebele-Koka: I will send you I will I will also send you our
+Jabulile Christina Dladla: NIVF.
+Lindi Ndebele-Koka: um list of partnerships.
+Jabulile Christina Dladla: Ah, perfect,
+Lindi Ndebele-Koka: Yeah, you still have men here.
+Jabulile Christina Dladla: perfect. Yeah,
+Lindi Ndebele-Koka: Please look.
+Jabulile Christina Dladla: don't worry.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Don't worry. I know. Uh, Viva, women empowerment. Viva
+women empowerment. So, don't worry. We'll fix that. But here we have a beautiful
+lady and a guy shaking hands. So, we'll put more of that.
+Lindi Ndebele-Koka: So that will be you and me.
+Jabulile Christina Dladla: Yes,
+Lindi Ndebele-Koka: We have
+01:20:49
+Jabulile Christina Dladla: 100%.
+Lindi Ndebele-Koka: nice
+Jabulile Christina Dladla: Exactly. How could I use those ones as well? Yeah. So that
+we make it more natural. Yeah. Real
+Lindi Ndebele-Koka: on partnerships. I mean, yeah,
+Jabulile Christina Dladla: realistic.
+Lindi Ndebele-Koka: I'll send you a list. We've got surface partnership IPO real real
+
+
+--- Page 56 ---
+Jabulile Christina Dladla: Excellent. Excellent. Sis,
+Lindi Ndebele-Koka: partners. We've got I'll send you a list you can
+Jabulile Christina Dladla: perfect. I'll be adding all that. Then
+Lindi Ndebele-Koka: include. Those are our strategic partnerships.
+Jabulile Christina Dladla: strategic
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: alliance development, co-branding agreements, Netflix,
+Suzuki. AI is yeah self-explanatory. Um so we have touched on this uh competitive
+positioning six dimensions on which Sappa wins. This is very good. Uh go through it
+also in detail. The six dimensions on which Sappa wins the room. uh is explaining
+the set affluence the NPC integrity be all the the advantages agend that we have that
+are going to make us to be competitive yeah
+01:21:49
+Lindi Ndebele-Koka: Cool.
+Jabulile Christina Dladla: the six dimensions we are compliant with the setter the be
+mechanics the advantages that you explained to me last time whereby you know that
+the companies they don't want to do all that and we do that on their behalf uh market
+leadership you know yeah so that is the six that we are done with growth engine.
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: Now the last part before the smart tools is the delivery you
+know the delivery pillar we need every I've already explained this in advance
+measurable accountable result that drive the cutings forward community
+engagement AI curriculum and KPI tracking we have to as a matter of agency with
+your board sis Lindy you have to have an AI curriculum that's a must have you don't
+even need to debate about that you need to implement ASAP because
+Lindi Ndebele-Koka: you have there.
+Jabulile Christina Dladla: Yeah, the AI curriculum.
+Lindi Ndebele-Koka: Which one is that?
+Jabulile Christina Dladla: AI curriculum. Yeah, you have to put it in your curriculum
+now and you if it's not there,
+Lindi Ndebele-Koka: Okay.
+
+
+--- Page 57 ---
+01:22:54
+Jabulile Christina Dladla: you are late. So with your board, we need to treat this as a
+separate thing. Um yeah, we need to it's new in the sense that it's self-taught via
+online classes and I've gone through those classes myself already and um you need
+to introduce it as um it can actually grow big in the sense that you discover that the
+AI curriculum not only focuses on your staff. It's a curriculum that works also for
+productions. How can they inject AI into their workflows? You discover that this is
+something you can offer professionally in collaboration with brands that offer
+success certification. So nowadays every institute be it training in film be it
+agriculture be it food be it mining AI curriculum is a must have because it's here
+already and it's happening. So explore the delivery sections I've explained to you
+already. will put all photos there. Uh yeah and then that's the delivery. So delivery is
+talking about also the community the alumini the community mesh year one you had
+two to three trainees um yeah the ACCE alumni as we shared with me last time from
+graduate to mentor we spoke about that last time we go to the implementation three
+track I've already spoken of imp that's why I'm moving fast here yeah that we need to
+measure the time the implementation strategy.
+01:24:34
+Jabulile Christina Dladla: You don't speak of a strategy without speaking of
+implementation and you don't speak of implementation without speaking of delivery.
+So AI curriculum is what I was just talking to you about the only film academy in
+South Africa training the post-p production hiring cycles of 2026 a masterclass
+module on generative AI tools VO cling hilu and equivalent platforms positioned as a
+curriculum uh differentiator that's what I was speaking about why are we saying the
+only one because we will be the only one actually properly teaching AI as a
+curriculum as well with the focus on film using these AI tools and more that we are
+going to be adding. So this is the tech behind the AI master classes. Um I have to
+you didn't speak about it in your presentation to me but I had to highlight it on our
+Monday meeting that it shall be there. So this is explaining in detail about the master
+classes as well. Um yeah the curriculum evolution and yeah so the delivery then the
+how do we measure KPI dashboard I spoke about the KPI the numbers reported
+every quarter this uh we have uh the senotans placements done blog traffic uh you
+
+
+--- Page 58 ---
+this Lindy LinkedIn this is a CEO also it's part of the measuring stuff that we are
+doing for the CEO skills levy client
+01:26:10
+Jabulile Christina Dladla: uh the delivery of the measurement framework itself um
+yeah and then last is the budget I didn't put figures on the budget because it's an
+ongoing thing that we're still doing all those things digital infrastructure they cost
+money to do and we'll be
+Lindi Ndebele-Koka: Uh guys,
+Jabulile Christina Dladla: facing
+Lindi Ndebele-Koka: I saw a 2.4 million somewhere.
+Jabulile Christina Dladla: Oh,
+Lindi Ndebele-Koka: Ah,
+Jabulile Christina Dladla: okay. Let me scroll up.
+Lindi Ndebele-Koka: there somewhere I saw I saw a figure.
+Jabulile Christina Dladla: Uh, I think we were trying to say how much money you
+save by introducing this. Okay, let me Oh, where's the 2.4 days?
+Lindi Ndebele-Koka: So this is
+Jabulile Christina Dladla: Yes. Yes.
+Lindi Ndebele-Koka: autoi.
+Jabulile Christina Dladla: But I'm trying to look at the 2 something million that you
+were saying. I didn't put any figures here. uh initially I'd put figures not for it to be
+implemented immediately though but just to guide but there's no the budget is
+without figures uh deliberately because we are still more like focusing on
+subscription running
+01:27:21
+Lindi Ndebele-Koka: Just
+
+
+--- Page 59 ---
+Jabulile Christina Dladla: and building this um and yeah it's still a work in progress
+but I did send you the sin uh budget as a as a separate thing So this summarizes all
+the stuff that we're talking about. I just want to quickly sum close by talking about
+the smart tools. Smart tools hub is basically the skill level calculations just for
+people.
+Lindi Ndebele-Koka: What is this?
+Jabulile Christina Dladla: Okay. uh is to calculate for a production house to calculate
+their skills levy skilled levy calculator um calculate your mandatory skills
+development levy and discover how to recover up to 7% of your contribution through
+strategic training partnerships um is talking about let's say you put you see what I'm
+doing what if I click put it
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: here automatically you get this. If I put it here auto it's a
+yeah it's like a it's like a calculator.
+Lindi Ndebele-Koka: Okay. Okay.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: So you can play around with it and see more what it does.
+01:28:37
+Jabulile Christina Dladla: Yeah. And then be either around. Yeah. Just to for one to
+have a rough estimate. Yeah.
+Lindi Ndebele-Koka: And this I mean this obvious is would be our back
+Jabulile Christina Dladla: semi. No,
+Lindi Ndebele-Koka: end for
+Jabulile Christina Dladla: no. This is front end schools for production houses.
+Lindi Ndebele-Koka: for our clients for production houses.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: Yes. We have given our our new SA fuel academy website.
+It's going to have smart two so that they actually know their annual SDL contribution
+roughly. Yeah. It's just free for them.
+Lindi Ndebele-Koka: Okay.
+
+
+--- Page 60 ---
+Jabulile Christina Dladla: Yeah. It's front end. So eco steward roy calculator uh
+production days if you put it yeah it's like a rough calculation to say if we have got 11
+10 productions carbon emission saved uh people want love statistics. for this if we
+have got a total of um uh let's say 30 as far as
+01:29:51
+Lindi Ndebele-Koka: Yeah, I mean I mean when you do this presentation,
+Jabulile Christina Dladla: G.
+Lindi Ndebele-Koka: Belinda will be there and um she can also share what
+Jabulile Christina Dladla: Yes.
+Lindi Ndebele-Koka: what kind of instruments they
+Jabulile Christina Dladla: Yes.
+Lindi Ndebele-Koka: have.
+Jabulile Christina Dladla: Excellent. Excellent. So yeah, and that's that's that's about
+it. Um
+Lindi Ndebele-Koka: Okay. And then um just just maybe this as an
+Jabulile Christina Dladla: um
+Lindi Ndebele-Koka: example. So for this presentation in this work that that you've
+done this this is 8,000 for now.
+Jabulile Christina Dladla: 8,500.
+Lindi Ndebele-Koka: Okay. And then what are we looking at in terms of subscription?
+Jabulile Christina Dladla: Okay, thank you for raising that. Our core subscription sis
+Lindy is 4,500 per month um for the outra cuz as we are building agendic workflows
+it cost us 4,500 per month. It includes generating also all those assets. Uh we're
+going to be generating video assets anything that we we there's no need for us to
+have a stock footage account.
+01:31:07
+
+
+--- Page 61 ---
+Jabulile Christina Dladla: We generate our own stock. We can actually generate you.
+Let's say we don't have you speaking anywhere. We can generate you by using your
+photo and we place you somewhere. So it's 4,500. So out of that 8,500 that you are
+paying uh immediately when we pay like now 4,400 is going towards the agentic
+subscription of the tools that we use to build all these smart tools all these
+dashboards cuz yeah all in the old school this was you were not supposed to be
+speaking with me you were supposed to be speaking with an agent that is made up
+of 50 employees but now I'm white myself I'm able to sit on my computer and I hire
+these 50 employees on behalf of Sappa and they work for Sappa. So I'm your
+supervisor to 50 employees you now have by making a subscription of 4,500 a
+month. Now apart from that 4,500 a month that is just the stuff that you have hired.
+You have built platforms, you have built websites, you have built uh I'm um it's
+01:32:15
+Lindi Ndebele-Koka: Do I need 50 people?
+Jabulile Christina Dladla: not I'm just giving you as an example.
+Lindi Ndebele-Koka: Just an example.
+Jabulile Christina Dladla: We we are not we are not limited. I'm I'm saying there's a
+bot there's an agendic for your LinkedIn post. There's building the back end out of
+these 15 a lot is back end. And you don't see that there's there's a there's an aetic AI
+that is sitting to monitor security only security it's back end you've discover when we
+have when I say 50 40 are back end you don't see that all this inter clicking clicking
+that is happening even on our we are on zoom right now there's a bot that is
+recording this meeting and writing notes for me to say you spoke with sis Linda
+about ABC D it's happening in our in our day day but now when we pay for a proper
+subscription is tailor made it's custom made specifically for us it knows our own
+ecosystem it knows our schedules etc so it's both when I say 50 front end that you
+see might be five the rest are back end there when back end is the most complex to
+make sure that our web so 4500 for that subscription number one number two when
+we create a platform like a website or an up it's it it stays somewhere it does not
+float in the cloud there's a subscription for that on vessel in cloudflare where our
+
+
+--- Page 62 ---
+01:33:40
+Jabulile Christina Dladla: SF I don't know where the SF human academy lives right
+now is it on Afro host is it on god daddy is it on blue ice where does it live so out of
+all the other platform that websites can live on a platform that is got popular stuff on
+it people creating profiles It can't just go and live at a funny uh afro host uh free or
+cheap hosting. It has to live in a secure platform. So Cloudflare subscription which is
+450 per month 450 rounds and vessel for security which is 350. So all in all I just put
+all these other other subscript are small small 250 300 I just sum them up at 2,500
+for a secure platform. uh but the more we grow we will be adding security features.
+So it's 4,500 plus the 2,500 cost which is on a monthly basis. But the more we go to
+AI curriculum that's a different budget all together. But the essentials right now is the
+4,500, the 2,500 and highspeed internet of course that I pay for separately uh to
+make sure that cuz when the moment you employ these agendic systems, they
+require highspeed internet minimum 100 Mbps 100 megabits per second.
+01:35:07
+Lindi Ndebele-Koka: Yeah,
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: for now I mean um I think we are on XLO some of our stuff.
+Yeah.
+Jabulile Christina Dladla: for marketing. Yes,
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: but I'll need to know the actual it's it's like it's highly
+technical. I'll need to know the the native CDN you are on on Exil.
+Lindi Ndebele-Koka: Okay. Yeah.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: Know I mean if if we when we sign the contract, we'll give you
+all the information. I've got an IT company that is helping me at the moment just for
+3 four months to streamline everything.
+Jabulile Christina Dladla: Excellent.
+Lindi Ndebele-Koka: So they will Yeah.
+
+
+--- Page 63 ---
+Jabulile Christina Dladla: So, I'll be able to work with your IT company and make sure
+that our our back end Yeah, I think I I'll click more because they know more of the
+back end.
+Lindi Ndebele-Koka: Yep.
+Jabulile Christina Dladla: When you say it, the it they deal more with backend stuff
+which you as CEO might not be knowledgeable of. Yeah.
+Lindi Ndebele-Koka: Yeah.
+01:36:09
+Jabulile Christina Dladla: So this is where we are and what we have built for you sis
+in actual uh industry rate it should cost you a minimum of 150,000. So when you say
+8,500 including the senance prototype,
+Lindi Ndebele-Koka: Eat.
+Jabulile Christina Dladla: it's me telling you that the industry has changed. If you go
+to an ad agency, they're going to quot you a minimum of 150,000. But you have this
+all put together with a working prototype at 8,500 just to prove to you that the same
+work that can be done by by AA agency which has got an office in Sanon can now be
+done by White Mo who's a freelancer working in Roport on a laptop only with a
+subscription of 4500 and a storage of 2500. is able to duplicate the same work that
+is being done by an agent. That's the power of AI. That's the new norm that we're
+now living in. So the board should not say why are we working with a freelancer when
+there's a whole agency we can work
+01:37:20
+Lindi Ndebele-Koka: So basically you are saying all of this um is going to cost
+Jabulile Christina Dladla: that
+Lindi Ndebele-Koka: me 6,000 a month.
+Jabulile Christina Dladla: the subscriptions.
+Lindi Ndebele-Koka: The
+Jabulile Christina Dladla: Yes. And that subscription is coming with Yeah.
+
+
+--- Page 64 ---
+Lindi Ndebele-Koka: subscription
+Jabulile Christina Dladla: This is excluding my fee. Of course, I'm talking of
+subscriptions.
+Lindi Ndebele-Koka: Yeah, this is excluding the which fee the the 85 or
+Jabulile Christina Dladla: Okay. When I said 8, okay, I now know where the confusion
+is. Um the 85 cis is just for work done up to now.
+Lindi Ndebele-Koka: Yeah. Yeah.
+Jabulile Christina Dladla: This is once off.
+Lindi Ndebele-Koka: For this for this
+Jabulile Christina Dladla: Yes, it's done.
+Lindi Ndebele-Koka: work.
+Jabulile Christina Dladla: It's not like a monthly. There's no monthly retainer there. If
+you decide to work with another freelancer or agency,
+Lindi Ndebele-Koka: Okay.
+Jabulile Christina Dladla: it's fine. This is just a once off of work that has been done
+for the building this and doing all these meetings, building the strategy itself.
+01:38:20
+Jabulile Christina Dladla: But you are asking on the way forward or that will properly
+quot you that it's a it's a that's why I said I didn't put figures on that
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: thing uh because I need to know I now need to know have
+more information I have to on board security features I but it won't be my my
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: my fee and the subscription fee I think per month. Um,
+subscriptions we spend on 6K. Uh, I can put a 15K, but it's flexible. You know, we
+have to talk it out, you and I, and agree on what works. I need to know your budget on
+marketing. Uh,
+Lindi Ndebele-Koka: Yeah. So, so when you say fee,
+Jabulile Christina Dladla: yeah,
+Lindi Ndebele-Koka: that should be a once off fee for building everything.
+Jabulile Christina Dladla: the fee
+
+
+--- Page 65 ---
+Lindi Ndebele-Koka: Yeah. What I'm saying that should be a once
+Jabulile Christina Dladla: Yes, it's a once off,
+Lindi Ndebele-Koka: off.
+Jabulile Christina Dladla: but you have got these platforms that we are this digital
+guys that that work for you.
+01:39:30
+Jabulile Christina Dladla: It's a it's a monthly subscription.
+Lindi Ndebele-Koka: Yeah.
+Jabulile Christina Dladla: It's like us paying for a for
+Lindi Ndebele-Koka: What I'm saying is that there will be a once off for building this
+and then
+Jabulile Christina Dladla: me for building this and then
+Lindi Ndebele-Koka: moving forward then there'll be a subscription fee of 6,000.
+Jabulile Christina Dladla: yes that's what
+Lindi Ndebele-Koka: Okay. All right. Okay.
+Jabulile Christina Dladla: I
+Lindi Ndebele-Koka: I just want to understand because yeah the board doesn't
+Jabulile Christina Dladla: yes actually this is the cheapest because why am I saying
+so even
+Lindi Ndebele-Koka: flip.
+Jabulile Christina Dladla: Even myself I'm able to cut on cost because I'm I have 20
+bots that are that scrutinize SAM Academy for me. They scrutinize and said they
+went on your LinkedIn, they went on Facebook and say we can do it better by doing
+this and that and that and that. So you have got PhD holders at our disposal.
+Lindi Ndebele-Koka: Oops.
+Jabulile Christina Dladla: We have Yeah. that are able to accurately define a proper
+strategy with metrics, not like guesswork.
+
+
+--- Page 66 ---
+01:40:33
+Jabulile Christina Dladla: You you you you release those agentic AI, they search and
+they bring up these powerful results. So, it's a hybrid workflow. It is me working with
+your agentic guys that I have now customized to work specifically for the Saf
+Academy and comprehend what the Saf Academy does. So that 6,000 of worth of
+subscription behind the scenes see it as you having unlimited number of employees
+that are digital. If I if you if I say 50, that's too much. It's up to you. If you say we want
+10, it's like you driving a car that has got 400 limit. You can drive 200, you can drive
+it's it's up to you. I'm just trying to tell you the power that you now have by that
+subscription. You have the same power of an agent that has 200 employees packed
+within that 6,000. So you discover that when I when we do break down on budget, I'll
+break it down some more to say what really are you paying for.
+01:41:45
+Jabulile Christina Dladla: You see?
+Lindi Ndebele-Koka: Okay. So, yeah,
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: I think I'm Definely. Um, okay. So, we'll conclude this on Monday.
+I will I mean I'll have to pay for for what the work that we've done now. I'm just
+running my my daughter is is um is supposed to go to the airport and so let's let's
+conclude on
+Jabulile Christina Dladla: Oh, I see. I see. So, we Okay,
+Lindi Ndebele-Koka: Monday.
+Jabulile Christina Dladla: cool. Uh, so it's the the 8,500 uh uh invoice that I sent. I
+didn't need to make a presentation out of it because that's the presentation that I've
+just done. Uh I think yeah yeah it explains all the banking details everything are there
+and if we can process it early it actually help so that we wind off um this strategy.
+Lindi Ndebele-Koka: Yeah. Okay.
+Jabulile Christina Dladla: Yeah.
+Lindi Ndebele-Koka: All right.
+Jabulile Christina Dladla: Right.
+Lindi Ndebele-Koka: Thank you. Thank you so much.
+
+
+--- Page 67 ---
+Jabulile Christina Dladla: most well consistent.
+Lindi Ndebele-Koka: Thanks. Bye.
+Jabulile Christina Dladla: Yeah.
+Transcription ended after 01:43:01
+This editable transcript was computer generated and might contain errors. People can
+also change the text after it was created.

@@ -18,7 +18,7 @@ interface MobileMenuProps {
  * Collapsible overlay drawer for mobile devices (< 1024px).
  * - Full-height scrollable side drawer utilizing framer-motion transitions.
  * - Enforces minimum 44px tap targets for premium accessibility.
- * - Integrates all page routes, strategy indices, and main Cineterns CTA.
+ * - Integrates all page routes, strategy indices, and the talent portal CTA.
  */
 export function MobileMenu({ isOpen, onClose, cineternsUrl }: MobileMenuProps) {
   const pathname = usePathname();
@@ -122,7 +122,7 @@ export function MobileMenu({ isOpen, onClose, cineternsUrl }: MobileMenuProps) {
               </div>
             </div>
 
-            {/* Bottom Cineterns CTA */}
+            {/* Bottom talent portal CTA */}
             <div className="mt-auto pt-6 border-t border-line">
               <a
                 href={cineternsUrl}

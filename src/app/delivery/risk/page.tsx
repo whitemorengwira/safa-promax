@@ -8,7 +8,7 @@ import { ImagePlaceholder } from "@/components/visuals/ImagePlaceholder";
 export const metadata: Metadata = {
   title: "Risk Acknowledgement & Contingency Planning · SA Film Academy Strategy",
   description:
-    "Section 12 of the SA Film Academy 360° marketing strategy: Risk Acknowledgement & Contingency Planning",
+    "Section 18 of the SA Film Academy 360° marketing strategy: Risk Acknowledgement & Contingency Planning",
 };
 
 interface Risk {
@@ -37,9 +37,9 @@ const risks: Risk[] = [
   },
   {
     id: 3,
-    title: "Cineterns Account Targets Missed",
+    title: "SA Film Intense Account Targets Missed",
     description:
-      "Cineterns production-company account targets may be missed at the Q1 2026 review, impacting revenue projections.",
+      "SA Film Intense production-company account targets may be missed at the Q1 2026 review, impacting revenue projections.",
     contingency:
       "Execute a direct outreach sprint to existing Blue Ice Africa and Film Afrika relationships to accelerate account growth.",
   },
@@ -66,7 +66,7 @@ export default function RiskPage() {
     <main className="flex flex-col min-h-screen bg-bg">
       {/* HERO SECTION */}
       <PageHero
-        eyebrow="12 · Delivery Pillar"
+        eyebrow="18 · Delivery Pillar"
         title="Rigour through risk acknowledgement."
         subtitle="A strategy that does not acknowledge risk is a strategy that has not been stress-tested. Here are the five named risks we monitor and the contingencies we have prepared."
         imageSrc="/images/ai/v2/delivery/risk-hero.png"
@@ -77,7 +77,7 @@ export default function RiskPage() {
 
       {/* Risk Register Section */}
       <SectionShell
-        eyebrow="12.1"
+        eyebrow="18.1"
         title="The Five Named Risks"
       >
         <div className="space-y-12 max-w-6xl mx-auto">
@@ -125,7 +125,7 @@ export default function RiskPage() {
 
       {/* Governance Section */}
       <SectionShell
-        eyebrow="12.2"
+        eyebrow="18.2"
         title="Risk Governance Framework"
         className="bg-surface/20"
       >
@@ -133,7 +133,7 @@ export default function RiskPage() {
           <div className="space-y-8">
             <div className="my-4 float-left mr-6 w-40">
               <ImagePlaceholder
-                src="/images/ai/safa-risk-review.png"
+                  src="/images/ai/v2/delivery/risk-management.png"
                 alt="Risk review and governance"
                 brief="Executive team conducting risk review"
                 orientation="portrait"
@@ -167,7 +167,7 @@ export default function RiskPage() {
                   Contingency Activation
                 </h4>
                 <p className="text-sm leading-relaxed text-text/70">
-                  If a risk threshold is breached (e.g., Cineterns accounts miss target by 20%), the corresponding contingency is activated immediately without waiting for the next quarterly review.
+                  If a risk threshold is breached, such as portal accounts missing target by 20%, the corresponding contingency is activated immediately without waiting for the next quarterly review.
                 </p>
               </div>
             </Reveal>
@@ -187,7 +187,7 @@ export default function RiskPage() {
 
       {/* Mitigation & Resilience */}
       <SectionShell
-        eyebrow="12.3"
+        eyebrow="18.3"
         title="Strategic Resilience"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">

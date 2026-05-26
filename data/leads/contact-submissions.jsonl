@@ -1,0 +1,3 @@
+{"name":"QA Visitor","email":"qa@example.com","organisation":"SAFA QA","enquiryType":"general","message":"Testing the contact endpoint.","createdAt":"2026-05-26T19:42:05.308Z"}
+{"name":"QA Visitor","email":"qa@example.com","organisation":"SAFA QA","enquiryType":"general","message":"Testing the contact endpoint.","createdAt":"2026-05-26T19:42:16.945Z"}
+{"name":"QA Visitor","email":"qa@example.com","organisation":"SAFA QA","enquiryType":"general","message":"Testing JSON support.","createdAt":"2026-05-26T19:43:01.446Z"}

@@ -21,7 +21,7 @@ export default function Page() {
       <PageHero
         eyebrow="8 · Foundation Pillar"
         title="Brand Architecture & Identity"
-        subtitle="Five entities currently read as five strangers. They will read as one family."
+        subtitle="Five connected subsidiaries will read as one coherent brand family."
         imageSrc="/images/ai/v2/foundation/brand-hero.png"
         imageAlt="Dark reddish-cinematic film production environment"
       />
@@ -39,7 +39,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    The brand fragmentation problem is the central diagnostic. Five entities (SAFA, ACE, FILMGRO, GreenSet, Cineterns) exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach.
+                    The brand fragmentation problem is the central diagnostic. Five entities (SAFA, ACE, FILMGRO, GreenSet and SA Film Intense) exist independently but do not yet read as a coherent family. Each lives on its own URL with its own visual approach.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
@@ -138,7 +138,7 @@ export default function Page() {
             <ImagePlaceholder
               src="/images/ai/foundation-brand/style-guide-desk.webp"
               alt="Brand style guide and visual system"
-              brief="A professional designer's desk with brand style guides, color swatches, and typography samples organized systematically"
+              brief="A professional designer's desk with brand style guides, colour swatches, and typography samples organised systematically"
               orientation="landscape"
             />
           }

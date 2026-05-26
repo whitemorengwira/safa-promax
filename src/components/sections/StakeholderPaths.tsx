@@ -16,7 +16,7 @@ const paths: PathCard[] = [
   {
     title: "Production Companies",
     subtext: "Access 3,000+ SETA-verified crew",
-    cta: "Browse the Talent Portal",
+    cta: "Browse SA Film Intense",
     href: "https://cineterns.vercel.app/",
     image: "/images/ai/v2/homepage/production-companies.png",
   },
@@ -24,12 +24,12 @@ const paths: PathCard[] = [
     title: "Funders & Partners",
     subtext: "B-BBEE compliance, Skills Levy administration, and impact returns",
     cta: "Download the Partnership Prospectus",
-    href: null,
-      image: "/images/ai/v2/homepage/funders-partners.png",
+    href: "/download-prospectus",
+    image: "/images/ai/v2/homepage/funders-partners.png",
   },
   {
-    title: "Aspiring Trainees",
-    subtext: "Start your professional film career",
+    title: "Trainee and Aspiring Film Practitioners",
+    subtext: "Start, strengthen, or relaunch your professional screen career",
     cta: "Explore the Programme",
     href: "/foundation/organisation",
     image: "/images/ai/v2/homepage/aspiring-trainees.png",
@@ -42,7 +42,7 @@ export function StakeholderPaths() {
       <Reveal>
         <WordReveal
           tag="h2"
-          text="Who are you here for?"
+          text="Who are we here for?"
           className="mb-12 text-center"
         />
       </Reveal>

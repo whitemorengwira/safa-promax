@@ -24,10 +24,10 @@ export function CareerProgression() {
   }, []);
 
   const tiers = [
-    { label: "Year 1 Intern", level: 0 },
-    { label: "Year 2–3 Trainee", level: 1 },
-    { label: "ACE Graduate", level: 2 },
-    { label: "Independent Practitioner", level: 3 },
+    { label: "Year 1 Intern", detail: "SETA-funded stipend", level: 0 },
+    { label: "Year 2–3 Trainee", detail: "paid production placement", level: 1 },
+    { label: "ACE Graduate", detail: "mentor network + credits", level: 2 },
+    { label: "Independent Practitioner", detail: "department track / HOD path", level: 3 },
   ];
 
   return (
@@ -113,7 +113,7 @@ export function CareerProgression() {
               {/* Tier label */}
               <text
                 x="470"
-                y={yPos + 26}
+                y={yPos + 20}
                 fill="#E0C268"
                 fontFamily="Outfit"
                 fontSize="12"
@@ -122,9 +122,31 @@ export function CareerProgression() {
               >
                 {tier.label}
               </text>
+              <text
+                x="470"
+                y={yPos + 35}
+                fill="#E8E0D0"
+                fontFamily="Outfit"
+                fontSize="9"
+                opacity="0.68"
+              >
+                {tier.detail}
+              </text>
             </g>
           );
         })}
+
+        <g opacity="0.85">
+          <rect x="570" y="100" width="150" height="340" fill="#13131a" stroke="#8B0000" strokeWidth="1" />
+          <text x="645" y="130" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="9" fontWeight="700" letterSpacing="1" style={{ textTransform: "uppercase" }}>
+            Proof points
+          </text>
+          {["Placement records", "Credits tracked", "Tier advancement", "Alumni visibility", "Mentor loop"].map((item, idx) => (
+            <text key={item} x="590" y={165 + idx * 42} fill="#E8E0D0" fontFamily="Outfit" fontSize="9" opacity="0.75">
+              • {item}
+            </text>
+          ))}
+        </g>
 
         {/* Climbing figure */}
         <g className="figure" opacity={isInView ? 1 : 0}>

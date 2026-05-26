@@ -55,7 +55,7 @@ export default function SmartToolsPage() {
             <WordReveal tag="h2" text="Skills Levy _Calculator_" className="mb-6" />
             <div className="my-4 float-right ml-6 w-44 mb-8">
               <ImagePlaceholder
-                src="/images/ai/safa-levy-calculator.png"
+                src="/images/ai/smart-tools/calculator-desk.webp"
                 alt="Skills levy calculation tool"
                 brief="Levy calculation and skills development"
                 orientation="portrait"
@@ -84,7 +84,7 @@ export default function SmartToolsPage() {
             <WordReveal tag="h2" text="B-BBEE Scorecard _Simulator_" className="mb-6" />
             <div className="my-4 float-left mr-6 w-44 mb-8">
               <ImagePlaceholder
-                src="/images/ai/safa-bbbee-scorecard.png"
+                src="/images/ai/smart-tools/document-drafting.webp"
                 alt="B-BBEE scorecard simulator"
                 brief="B-BBEE compliance and scorecard modeling"
                 orientation="portrait"
@@ -113,7 +113,7 @@ export default function SmartToolsPage() {
             <WordReveal tag="h2" text="Eco-Steward _ROI Calculator_" className="mb-6" />
             <div className="my-4 float-right ml-6 w-44 mb-8">
               <ImagePlaceholder
-                src="/images/ai/safa-greenset-eco.png"
+                src="/images/ai/home/greenset-eco-equipment.webp"
                 alt="Eco-steward ROI and sustainability"
                 brief="Environmental impact and ROI calculation"
                 orientation="portrait"
@@ -165,7 +165,7 @@ export default function SmartToolsPage() {
                 status: 'Q4 2026'
               },
               {
-                title: 'Cineterns Placement Portal',
+                title: 'SA Film Intense Talent Portal',
                 desc: 'The full digital portal for managing trainee placements, compliance, and reporting.',
                 status: 'Live Beta'
               }

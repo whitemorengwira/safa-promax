@@ -24,10 +24,11 @@ export function FiveAgenticWorkflows() {
   }, []);
 
   const satellites = [
-    { x: 600, y: 100, label: "Funding\nScout" },
-    { x: 850, y: 300, label: "Content\nEngine" },
-    { x: 600, y: 500, label: "Talent\nMatcher" },
-    { x: 350, y: 300, label: "Reputation\nMonitor" },
+    { x: 600, y: 90, label: "Funding\nScout", cadence: "Weekly", output: "Applications" },
+    { x: 835, y: 225, label: "Content\nPipeline", cadence: "2x weekly", output: "SEO drafts" },
+    { x: 745, y: 470, label: "Talent\nMatcher", cadence: "On brief", output: "Top 5 shortlist" },
+    { x: 455, y: 470, label: "Reputation\nMonitor", cadence: "Daily", output: "Signals" },
+    { x: 365, y: 225, label: "Competitive\nIntel", cadence: "Weekly", output: "Market shifts" },
   ];
 
   const center = { x: 600, y: 300 };
@@ -110,16 +111,28 @@ export function FiveAgenticWorkflows() {
           >
             AI Engine
           </text>
+          <text
+            x={center.x}
+            y={center.y + 30}
+            textAnchor="middle"
+            fill="#C9A84C"
+            fontFamily="Outfit"
+            fontSize="8"
+            letterSpacing="0.8"
+            style={{ textTransform: "uppercase" }}
+          >
+            Human review gate
+          </text>
         </g>
 
         {/* Satellite nodes */}
         {satellites.map((sat, idx) => (
           <g key={`sat-${idx}`} className="satellite-pulse">
             <rect
-              x={sat.x - 45}
-              y={sat.y - 45}
-              width="90"
-              height="90"
+              x={sat.x - 58}
+              y={sat.y - 52}
+              width="116"
+              height="104"
               rx="8"
               fill="#13131a"
               stroke="#C9A84C"
@@ -142,8 +155,54 @@ export function FiveAgenticWorkflows() {
                 </tspan>
               ))}
             </text>
+            <text
+              x={sat.x}
+              y={sat.y + 30}
+              textAnchor="middle"
+              fill="#C9A84C"
+              fontFamily="Outfit"
+              fontSize="7.5"
+              letterSpacing="0.7"
+              style={{ textTransform: "uppercase" }}
+              opacity="0.85"
+            >
+              {sat.cadence}
+            </text>
+            <text
+              x={sat.x}
+              y={sat.y + 42}
+              textAnchor="middle"
+              fill="#E8E0D0"
+              fontFamily="Outfit"
+              fontSize="7.5"
+              opacity="0.72"
+            >
+              {sat.output}
+            </text>
           </g>
         ))}
+
+        <g opacity="0.85">
+          <rect x="80" y="520" width="1040" height="42" fill="#13131a" stroke="#C9A84C" strokeWidth="1" opacity="0.8" />
+          {["Schedule", "Draft", "Score", "Review", "Publish / Submit"].map((step, idx) => (
+            <g key={step}>
+              <text
+                x={170 + idx * 215}
+                y="546"
+                textAnchor="middle"
+                fill={idx === 3 ? "#E0C268" : "#C9A84C"}
+                fontFamily="Outfit"
+                fontSize="10"
+                fontWeight="600"
+                letterSpacing="1"
+                style={{ textTransform: "uppercase" }}
+              >
+                {idx + 1}. {step}
+              </text>
+              {idx < 4 && <line x1={250 + idx * 215} y1="541" x2={300 + idx * 215} y2="541" stroke="#8B0000" strokeWidth="2" />}
+            </g>
+          ))}
+        </g>
 
         {/* Title */}
         <text

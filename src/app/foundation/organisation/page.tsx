@@ -19,7 +19,7 @@ export default function Page() {
       <PageHero
         eyebrow="Pillar 01 · Section 02"
         title="The Organisation."
-        subtitle="Who we are, what we actually do, and the perception we have already begun to shift."
+        subtitle="Who we are, what we do, and the perception we have already begun to shift."
         imageSrc="/images/ai/v2/foundation/org-hero.png"
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       />
@@ -154,7 +154,7 @@ export default function Page() {
             <ImagePlaceholder
               src="/images/ai/foundation-org/compliance-desk.webp"
               alt="Academy administrative and compliance operations"
-              brief="Professional administrative workspace with compliance documentation and management systems, organized and professional"
+              brief="Professional administrative workspace with compliance documentation and management systems, organised and professional"
               orientation="landscape"
             />
           }
@@ -177,7 +177,7 @@ export default function Page() {
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  <strong>Perception 1:</strong> The Academy was believed to be led by Cape Town-based white production companies — a structural barrier to credibility.
+                  <strong>Perception 1:</strong> The Academy was sometimes misread through the lens of the production companies it served, rather than through its own Black-led training, placement, and industry-development mandate.
                 </p>
                 <p className="text-text/80 leading-relaxed">
                   <strong>Perception 2:</strong> Trainees were allowed to remain trainees for too long: the <em>perpetual trainee</em> problem, undermining both the Academy's and trainees' professional standing.

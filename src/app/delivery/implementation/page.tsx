@@ -37,23 +37,23 @@ export default function Page() {
             <svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
               <defs>
                 <linearGradient id="trackGold" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#9B7F2D" stop-opacity="0.6"/>
-                  <stop offset="70%" stop-color="#E0C268"/>
-                  <stop offset="100%" stop-color="#E0C268" stop-opacity="0.8"/>
+                  <stop offset="0%" stopColor="#9B7F2D" stopOpacity="0.6"/>
+                  <stop offset="70%" stopColor="#E0C268"/>
+                  <stop offset="100%" stopColor="#E0C268" stopOpacity="0.8"/>
                 </linearGradient>
                 <linearGradient id="trackRed" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#5e1212" stop-opacity="0.6"/>
-                  <stop offset="70%" stop-color="#8B1A1A"/>
-                  <stop offset="100%" stop-color="#8B1A1A" stop-opacity="0.8"/>
+                  <stop offset="0%" stopColor="#5e1212" stopOpacity="0.6"/>
+                  <stop offset="70%" stopColor="#8B1A1A"/>
+                  <stop offset="100%" stopColor="#8B1A1A" stopOpacity="0.8"/>
                 </linearGradient>
               </defs>
 
-              {/* Track 1: Cineterns */}
+              {/* Track 1: SA Film Intense */}
               <g transform="translate(0 80)">
                 <rect x="120" y="0" width="1000" height="52" rx="0" fill="#C9A84C" opacity="0.15"/>
                 <rect x="120" y="0" width="4" height="52" fill="#E0C268"/>
-                <text x="138" y="20" fill="#E0C268" font-family="Outfit" font-size="10" letter-spacing="3">TRACK 01 · CINETERNS PLATFORM</text>
-                <g fill="#E8E0D0" font-family="Playfair Display" font-style="italic" font-size="13">
+                <text x="138" y="20" fill="#E0C268" fontFamily="Outfit" fontSize="10" letterSpacing="3">TRACK 01 · SA FILM INTENSE PLATFORM</text>
+                <g fill="#E8E0D0" fontFamily="Playfair Display" fontStyle="italic" fontSize="13">
                   <text x="138" y="40">Open beta → 50 trainee profiles migrated → first 5 employer accounts → first confirmed placement event logged</text>
                 </g>
               </g>
@@ -62,8 +62,8 @@ export default function Page() {
               <g transform="translate(0 160)">
                 <rect x="120" y="0" width="1000" height="52" rx="0" fill="#8B1A1A" opacity="0.15"/>
                 <rect x="120" y="0" width="4" height="52" fill="#8B1A1A"/>
-                <text x="138" y="20" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">TRACK 02 · CONTENT PIPELINE AT CADENCE</text>
-                <g fill="#E8E0D0" font-family="Playfair Display" font-style="italic" font-size="13">
+                <text x="138" y="20" fill="#C9A84C" fontFamily="Outfit" fontSize="10" letterSpacing="3">TRACK 02 · CONTENT PIPELINE AT CADENCE</text>
+                <g fill="#E8E0D0" fontFamily="Playfair Display" fontStyle="italic" fontSize="13">
                   <text x="138" y="40">8 SEO blog posts → 1 State of Industry editorial (email-distributed) → social cadence live → podcast episode in production</text>
                 </g>
               </g>
@@ -72,8 +72,8 @@ export default function Page() {
               <g transform="translate(0 240)">
                 <rect x="120" y="0" width="1000" height="52" rx="0" fill="#C9A84C" opacity="0.05"/>
                 <rect x="120" y="0" width="4" height="52" fill="#C9A84C" opacity="0.4"/>
-                <text x="138" y="20" fill="#C9A84C" font-family="Outfit" font-size="10" letter-spacing="3">TRACK 03 · STRATEGIC PARTNERSHIPS</text>
-                <g fill="#E8E0D0" font-family="Playfair Display" font-style="italic" font-size="13">
+                <text x="138" y="20" fill="#C9A84C" fontFamily="Outfit" fontSize="10" letterSpacing="3">TRACK 03 · STRATEGIC PARTNERSHIPS</text>
+                <g fill="#E8E0D0" fontFamily="Playfair Display" fontStyle="italic" fontSize="13">
                   <text x="138" y="40">Formalise Suzuki co-brand → Netflix GreenSet case study → 3 Tier 1 production house service agreements signed</text>
                 </g>
               </g>

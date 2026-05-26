@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "the-woman-king",
+    "title": "The Woman King",
+    "url": "https://www.sonypictures.com/sites/default/files/title-key-art/thewomanking_onesheet_1400x2100_est.jpg",
+    "source": "https://www.sonypictures.com/movies/thewomanking",
+    "originalWidth": 1400,
+    "originalHeight": 2100,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/the-woman-king.webp"
+  },
+  {
+    "slug": "warrior",
+    "title": "Warrior",
+    "url": "https://artworks.thetvdb.com/banners/series/359326/posters/5f78e6b4aff98.jpg",
+    "source": "https://thetvdb.com/series/warrior",
+    "originalWidth": 680,
+    "originalHeight": 1000,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/warrior.webp"
+  },
+  {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "url": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABajwfLfcw6LLBIUuU5jddiPEmqF_4Gc_Sz_D4cJapL39U7kTehJbgFA7kmPFlPPx-uBzSSDQySrpRzeYYoSmlYURsyZScz-nVkhl.jpg?r=df5",
+    "source": "https://media.netflix.com/en/only-on-netflix/80217863",
+    "originalWidth": 450,
+    "originalHeight": 630,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/one-piece.webp"
+  },
+  {
+    "slug": "wheel-of-time",
+    "title": "The Wheel of Time",
+    "url": "https://static.wikia.nocookie.net/wot-prime/images/0/05/WOFT_S1_OneSheet_HeroesVillains_PRE_27x40_THA_FINAL_en-US.jpg/revision/latest?cb=20211007193207",
+    "source": "https://wheeloftime.fandom.com/wiki/Season_1/Gallery",
+    "originalWidth": 1944,
+    "originalHeight": 2880,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/wheel-of-time.webp"
+  },
+  {
+    "slug": "devils-peak",
+    "title": "Devil's Peak",
+    "url": "https://artworks.thetvdb.com/banners/v4/series/441184/posters/6612fa6acf080.jpg",
+    "source": "https://thetvdb.com/series/devils-peak",
+    "originalWidth": 680,
+    "originalHeight": 1000,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/devils-peak.webp"
+  },
+  {
+    "slug": "blood-and-water",
+    "title": "Blood & Water",
+    "url": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZO6CUDLxFAxPFAeDIN_cMlr7OX_YQXHiKmp0aF8jjbggLZTE7xOQM99uAwdc4CtcHBtLWsQfLV5J5Ll9nV52ncqbYZ16vzfDDBZ.jpg?r=060",
+    "source": "https://media.netflix.com/en/only-on-netflix/81044547",
+    "originalWidth": 450,
+    "originalHeight": 630,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/blood-and-water.webp"
+  },
+  {
+    "slug": "servant",
+    "title": "Servant",
+    "url": "https://www.apple.com/tv-pr/shows-and-films/s/servant/images/season-04/video-posters/poster-0401/Servant_Poster_0401.jpg",
+    "source": "https://www.apple.com/tv-pr/originals/servant/",
+    "originalWidth": 980,
+    "originalHeight": 552,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/servant.webp"
+  },
+  {
+    "slug": "the-newsroom",
+    "title": "The Newsroom",
+    "url": "https://artworks.thetvdb.com/banners/posters/76399-1.jpg",
+    "source": "https://thetvdb.com/series/the-newsroom",
+    "originalWidth": 680,
+    "originalHeight": 1000,
+    "width": 720,
+    "height": 1080,
+    "file": "/images/safa-promax/productions/posters/the-newsroom.webp"
+  }
+]

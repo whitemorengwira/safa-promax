@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, LockKeyhole } from "lucide-react";
 
 /**
  * Footer component.
@@ -62,9 +62,16 @@ export function Footer() {
               rel="noopener"
               className="flex items-center gap-1 text-xs font-body text-muted hover:text-gold transition-colors w-fit border-b border-transparent hover:border-gold/30 pb-0.5"
             >
-              Cineterns Placement Portal
+              SA Film Intense Talent Portal
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
             </a>
+            <Link
+              href="/admin"
+              className="mt-3 inline-flex w-fit items-center gap-2 border border-gold/40 bg-gold/10 px-4 py-3 text-[10px] font-black uppercase tracking-widest text-gold transition-colors hover:bg-gold hover:text-bg"
+            >
+              <LockKeyhole className="h-3.5 w-3.5" />
+              Admin CMS Portal
+            </Link>
           </div>
 
           {/* Social Channels */}

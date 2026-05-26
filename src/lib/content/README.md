@@ -1,6 +1,6 @@
 # Content Library
 
-All content for the SA Film Academy website is extracted from the master strategy document and organized here as TypeScript constants.
+All content for the SA Film Academy website is extracted from the master strategy document and organised here as TypeScript constants.
 
 ## Files
 

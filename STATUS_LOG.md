@@ -1,6 +1,45 @@
 # SA Film Academy Website — Status Log
-Last updated: 2026-05-21 16:30 GMT+2
-Updated by: Claude Code (Session 3) & Manus AI (Session 2)
+Last updated: 2026-05-26 23:25 SAST
+Updated by: Codex finishing pass
+
+## 2026-05-26 · Supabase CMS Operations
+
+- Connected the SAFA admin/CMS to the user's Supabase `safa-cms` project.
+- Created the production CMS table `public.safa_cms_store` with RLS enabled and service-role-only access.
+- Seeded the Supabase store from `data/cms/content-store.json` and marked the live CMS mode as `supabase`.
+- Updated production Vercel environment variables for Supabase URL, publishable/anon key, project ID and service-role key.
+- Redeployed `https://safa-promax.vercel.app/` with Supabase-backed admin persistence.
+- Verified live super-admin login, dashboard access, settings mode, Supabase bootstrap user creation and account-request persistence.
+- Cleaned the temporary QA account request after proving the live write/read path.
+
+## 2026-05-26 · Codex Chrome/Wix and Final Local QA
+
+- Repaired Chrome-native workflow externally with the user, then confirmed Codex can list and claim live Chrome tabs.
+- Inspected the user's open Wix editor read-only and folded its workflow pattern into the SAFA admin/editor reference: page selector, left tool rail, central canvas, desktop/mobile toggles, Save/Preview/Publish flow.
+- Removed Wix branding from the SAFA editor shell; the editor now uses SAFA branding while preserving the expected workflow.
+- Updated homepage stats to R60m+, 3,000+, 96% and 124.
+- Refined the production poster rail so poster titles and notes sit outside the poster artwork area.
+- Removed live `placeholder-fill` class exposure and cleaned visible British-English wording issues found in the final scan.
+- Hardened `/api/contact` so it accepts both browser form submissions and JSON payloads.
+- Added `npm run test` as a typecheck-backed verification command.
+- Created `docs/safa-promax-qa-report.md` and `docs/safa-promax-final-handover.md`.
+- Verification: local route scan passed, internal link scan passed, admin protection/editor checks passed, contact and prospectus endpoints passed, `npm run lint` passed with warnings, `npm run build` passed, `npm run typecheck` passed, and `npm run test` passed.
+- Live deployment: `https://safa-promax.vercel.app/` has been redeployed from this local repository and live route/API checks passed. Production admin now uses `SAFA_ADMIN_EMAIL`, `SAFA_ADMIN_NAME` and `SAFA_ADMIN_PASSWORD`; live super-admin login and Users page access were verified.
+
+## 2026-05-26 · Codex Finishing Pass
+
+- Read the Codex finishing mandate, the image-generation mandate, and the Gemini meeting notes PDF.
+- Added preflight and image audit documents under `docs/`.
+- Fixed public copy required by the meeting notes: `Who are we here for?`, `Trainee and Aspiring Film Practitioners`, `what we do`, and coherent subsidiary / brand-family wording.
+- Renamed public talent-portal language to `SA Film Intense` while preserving the live `cineterns.vercel.app` technical URL.
+- Replaced missing image references with existing local generated/approved assets.
+- Added local poster assets for productions crewed and replaced the text marquee with a poster rail.
+- Fixed broken Strategy Index links and added the `/delivery/risk` strategy redirect.
+- Added `/download-prospectus`, `/api/download-prospectus`, and `/api/contact`.
+- Built the protected admin/CMS portal and board view with role-based draft, approval and publish flow.
+- Added admin password hashing script and documented required admin environment variables.
+- Added `robots.ts` and `sitemap.ts`.
+- Verification: `npm run build` passed, `npm run typecheck` passed, `npm run lint` passed with warnings, local route/API checks passed.
 
 ## Completed Work
 

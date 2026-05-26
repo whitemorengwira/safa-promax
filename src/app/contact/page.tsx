@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { PageHero } from '@/components/layout/PageHero';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
@@ -27,7 +26,7 @@ export default function ContactPage() {
             <Reveal>
               <div className="bg-surface/30 p-8 md:p-12 border border-line-strong">
                 <h2 className="text-3xl font-bold mb-8">Send a _Message_</h2>
-                <form className="space-y-6" method="POST" action="#" noValidate>
+                <form className="space-y-6" method="POST" action="/api/contact">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex flex-col gap-2">
                       <label htmlFor="name" className="font-body text-xs uppercase tracking-widest text-gold font-semibold">
@@ -143,9 +142,9 @@ export default function ContactPage() {
                   <span className="eyebrow">Social</span>
                   <h3 className="text-2xl font-bold">Follow the _Journey._</h3>
                   <div className="flex gap-6 font-body text-xs font-semibold uppercase tracking-widest text-gold">
-                    <a href="#" className="hover:text-gold-soft transition">LinkedIn</a>
-                    <a href="#" className="hover:text-gold-soft transition">Instagram</a>
-                    <a href="#" className="hover:text-gold-soft transition">Facebook</a>
+                    <a href="https://linkedin.com/company/sa-film-academy" target="_blank" rel="noopener" className="hover:text-gold-soft transition">LinkedIn</a>
+                    <a href="https://instagram.com/safilmacademy" target="_blank" rel="noopener" className="hover:text-gold-soft transition">Instagram</a>
+                    <a href="https://facebook.com/TheSAFilmAcademy" target="_blank" rel="noopener" className="hover:text-gold-soft transition">Facebook</a>
                   </div>
                 </div>
               </Reveal>
@@ -154,8 +153,8 @@ export default function ContactPage() {
                 <div className="pt-8">
                   <ImagePlaceholder
                     src="/images/ai/safa-cineterns-portal.png"
-                    alt="Cineterns Portal"
-                    brief="Laptop screen showing Cineterns portal, cinematic lighting"
+                    alt="SA Film Intense Talent Portal"
+                    brief="Laptop screen showing the SA Film Intense talent portal, cinematic lighting"
                     orientation="landscape"
                     className="opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
                   />

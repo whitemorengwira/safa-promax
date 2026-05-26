@@ -4,11 +4,11 @@ import { SvgStage } from '@/components/visuals/SvgStage';
 
 export function TopicCluster() {
   const primaryClusters = [
-    { angle: 0, label: 'AI in Post' },
-    { angle: 72, label: 'Sustainability' },
-    { angle: 144, label: 'B-BBEE' },
-    { angle: 216, label: 'Talent Paths' },
-    { angle: 288, label: 'Market Trends' },
+    { angle: 0, label: 'AI in Post', support: ['Veo/Kling', '2026 Hiring'] },
+    { angle: 72, label: 'Sustainability', support: ['GreenSet', 'Eco-Stewards'] },
+    { angle: 144, label: 'B-BBEE', support: ['Skills Levy', 'Proof Packs'] },
+    { angle: 216, label: 'Talent Paths', support: ['ACE Alumni', 'Tier Movement'] },
+    { angle: 288, label: 'Market Trends', support: ['Productions', 'Funding'] },
   ];
 
   return (
@@ -68,6 +68,9 @@ export function TopicCluster() {
                   <g key={`support-${idx}-${sup}`}>
                     <line x1={x} y1={y} x2={sx} y2={sy} stroke="var(--line)" strokeWidth="0.5" opacity="0.5" />
                     <circle cx={sx} cy={sy} r="16" fill="var(--surface)" stroke="var(--line-strong)" strokeWidth="0.8" opacity="0.7" />
+                    <text x={sx} y={sy + 30} textAnchor="middle" fill="var(--muted)" fontFamily="var(--font-body)" fontSize="7" opacity="0.75">
+                      {cluster.support[sup]}
+                    </text>
                   </g>
                 );
               })}

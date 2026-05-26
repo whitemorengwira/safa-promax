@@ -6,10 +6,8 @@ import {
   DM_Sans,
 } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { PWAInstall } from '@/components/PWAInstall';
 import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
+import { AppChrome } from "@/components/AppChrome";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -42,6 +40,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://safa-promax.vercel.app"),
   title: "SA Film Academy · 360° Marketing Strategy 2026–2027",
   description:
     "Where Industry Meets Opportunity. SA Film Academy is South Africa's premier film training institution — 20 years of transforming the industry through skills development, B-BBEE compliance, and cutting-edge production training.",
@@ -92,19 +91,9 @@ export default function RootLayout({
         {/* Service Worker Registration */}
         <ServiceWorkerRegister />
 
-        {/* Sticky Header */}
-        <Header />
-
-        {/* Content Area */}
-        <main className="flex-1 flex flex-col pt-[72px] md:pt-[80px]">
+        <AppChrome>
           {children}
-        </main>
-
-        {/* Institutional Footer */}
-        <Footer />
-
-        {/* PWA Install Prompt */}
-        <PWAInstall />
+        </AppChrome>
       </body>
     </html>
   );

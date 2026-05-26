@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
     { source: "/strategy/kpis", destination: "/delivery/kpis", permanent: true },
     { source: "/strategy/budget", destination: "/delivery/budget", permanent: true },
     { source: "/strategy/implementation", destination: "/delivery/implementation", permanent: true },
+    { source: "/strategy/risk", destination: "/delivery/risk", permanent: true },
   ],
 };
 

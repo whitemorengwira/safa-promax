@@ -34,7 +34,7 @@ const SUB_PAGES = [
     title: 'Budget Framework',
     href: '/delivery/budget',
     description: 'Monthly subscription, transparent operating-expense line.',
-    image: '/images/ai/v2/delivery/budget-hero.png'
+    image: '/images/ai/v2/budget/budget-hero.png'
   },
   {
     title: 'Implementation',
@@ -65,7 +65,7 @@ export default function DeliveryLanding() {
       >
         <div className="my-4 float-right ml-6 w-44 mb-8">
           <ImagePlaceholder
-            src="/images/ai/safa-delivery-results.png"
+            src="/images/ai/v2/delivery/data-dashboard.png"
             alt="Delivery results and implementation"
             brief="Measurable results and delivery outcomes"
             orientation="portrait"

@@ -64,7 +64,7 @@ export default function Page() {
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <h3 className="text-gold font-display italic text-xl mb-4">Q4: Scale & Renewal</h3>
                   <p className="text-sm text-text/70 leading-relaxed">
-                    The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started. Cineterns commercial launch — the full pricing model active.
+                    The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started. SA Film Intense commercial launch — the full pricing model active.
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function Page() {
             <ImagePlaceholder
               src="/images/ai/visibility-calendar/production-office-night.webp"
               alt="Team planning and execution"
-              brief="Professional team in a well-organized office environment planning and coordinating work"
+              brief="Professional team in a well-organised office environment planning and coordinating work"
               orientation="landscape"
             />
           }

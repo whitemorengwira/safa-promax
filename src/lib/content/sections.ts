@@ -21,11 +21,11 @@ export const HERO = {
 export const SECTION_ORG: StrategySection = {
   id: 'org',
   num: '02',
-  title: "Who we are, what we actually do, and the perception we have already begun to shift.",
+  title: "Who we are, what we do, and the perception we have already begun to shift.",
   subtitle: "SA Film Academy is not a college and it is not an agency. It is something more useful — and, until now, less well understood.",
   content: `02 ·
 The Organisation
-Who we are, what we actually do, and the perception we have already begun to shift.
+Who we are, what we do, and the perception we have already begun to shift.
 SA Film Academy is not a college and it is not an agency. It is something more useful — and, until now, less well understood.
 SA Film Academy is a MICT SETA-accredited Non-Profit Company that facilitates the Work Skills Programme on behalf of the South African film and digital media industries. The Academy applies annually to the SETA for intern placements; the SETA approves a cohort and pays trainee stipends; the Academy then deploys those interns into a roster of production-company clients including
 Blue Ice Africa, Film Afrika, Home Brew Films, Mannequin Films, Moonlighting Films, Spier Films, Atlantic Studios
@@ -57,7 +57,7 @@ Driving Licences
 Granted free through FILMGRO Driving Academy, sponsored by Suzuki.
 03 ·
 The Brand Ecosystem
-Five entities, one architecture. Until now, they have read as five strangers.
+Five entities, one architecture. Until now, they have read as five connected subsidiaries.
 A branded house — SAFA at the apex, four programmes radiating outward, each carrying a visible relationship to the master brand.
 Architecture · Site Plan
 01
@@ -83,16 +83,16 @@ greenset.org
 The sustainability subsidiary — a separate entity with its own website and brand identity, contracted regularly by Netflix and other international productions for sustainable set management, Eco-Steward training and GREEN PA placement. The critical and chronically under-marketed gap is that GreenSet's connection to SA Film Academy is almost invisible across both websites and across every social channel. This is one of the most significant untapped marketing assets in the entire ecosystem — particularly given that Netflix, UK and US productions now actively require sustainability compliance partners. A first-quarter GreenSet co-brand integration campaign is non-negotiable.
 05
 Digital Platform
-Cineterns —
-cineterns.vercel.app
-The new digital portal that replaces the entirely manual placement process — the one in which Cindy, on the Academy's small team, manually emails CVs, elevator pitches and trainee profiles to production companies upon request. Cineterns automates that entire workflow. It is the technological centrepiece of the ecosystem. It serves two audiences simultaneously: trainees registering their profiles, productions, availability and portfolios on one side; production companies registering their briefs, role requirements and timelines on the other. The agentic matching layer scores, shortlists and drafts introductions without human intervention. Cineterns is what transforms SAFA from a manually operated placement agency into a scalable, technology-enabled talent platform — and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
+SA Film Intense —
+SA Film Intense.vercel.app
+The new digital portal that replaces the entirely manual placement process — the one in which Cindy, on the Academy's small team, manually emails CVs, elevator pitches and trainee profiles to production companies upon request. SA Film Intense automates that entire workflow. It is the technological centrepiece of the ecosystem. It serves two audiences simultaneously: trainees registering their profiles, productions, availability and portfolios on one side; production companies registering their briefs, role requirements and timelines on the other. The agentic matching layer scores, shortlists and drafts introductions without human intervention. SA Film Intense is what transforms SAFA from a manually operated placement agency into a scalable, technology-enabled talent platform — and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
 04 ·
 Digital Infrastructure
 What has already been built — and why it matters before anything else is scaled.
 This strategy is not aspirational. The two pieces of infrastructure that underpin everything else are already live, deployed and demonstrable. What follows is scaling what is already running, not building from scratch.
 Stack · Circuit Topology
 Live System
-Cineterns — the placement portal
+SA Film Intense — the placement portal
 The frontend runs on
 Next.js 14
 with the App Router and React Server Components, delivering fast, SEO-friendly server-rendered pages.
@@ -110,7 +110,7 @@ Cloudflare
 — DNS management, CDN caching, bot protection and a Web Application Firewall — which places the Academy's data infrastructure at enterprise security standards appropriate for handling personal trainee data under POPIA.
 The agentic AI layer is provisioned through the
 Anthropic Claude API
-(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As Cineterns scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
+(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As SA Film Intense scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
 Interactive Prototype
 The presentation engine
 Alongside the placement portal sits an immersive, interactive web-based pitch experience — built to be used when engaging production companies, potential partners and institutional funders. It simulates the look and feel of the full SAFA digital ecosystem, giving stakeholders an
@@ -119,7 +119,7 @@ of what the portal and marketing infrastructure will look like when complete.
 The principle is straightforward: when the Academy speaks of a portal, audiences see a portal; when the Academy speaks of a Johannesburg launch, audiences see a clear roadmap. Strategy stops being asked to be imagined — it can be interacted with.
 Technically, the prototype uses the identical
 Next.js · Vercel · Cloudflare · Supabase
-stack as Cineterns. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
+stack as SA Film Intense. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
 That construction principle — the prototype that
 is
 the production system, eight-tenths complete — is the single clearest evidence that this strategy is execution-ready, not a slide deck.
@@ -145,11 +145,11 @@ Quarter 1 · Jun–Aug 2026
 Foundation, Unification & Launch
 Architecture, alignment, and the first visible signal that the new chapter has begun.
 Strategy formally adopted and the implementation rhythm established with the executive team.
-Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, Cineterns — to establish a unified visual language and messaging hierarchy.
+Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, SA Film Intense — to establish a unified visual language and messaging hierarchy.
 Launch of the GreenSet co-brand integration campaign across the SAFA website and every social channel.
-Formal SEO baseline audit on safilmacademy.org and the Cineterns portal.
+Formal SEO baseline audit on safilmacademy.org and the SA Film Intense portal.
 Social media account consolidation and profile optimisation across LinkedIn, Instagram and Facebook.
-Cineterns open beta with the first cohort of registered trainees and invited production companies.
+SA Film Intense open beta with the first cohort of registered trainees and invited production companies.
 FILMGRO Gauteng expansion: activate the Suzuki conversation and identify a driving training partner.
 First two agentic blog posts published.
 The Chief Executive's LinkedIn presence strategy activated as the institutional voice channel.
@@ -160,7 +160,7 @@ GreenSet–Netflix case study published as a flagship piece of thought-leadershi
 B-BBEE Skills Levy awareness campaign targeting SPV production accountants and legal compliance teams — digital advertisements, LinkedIn outreach, and a free downloadable
 Skills Levy Guide for Film Productions
 lead magnet.
-Cineterns public launch with the first ten confirmed production-company accounts.
+SA Film Intense public launch with the first ten confirmed production-company accounts.
 FILMGRO Gauteng launch event (conditional on the Suzuki vehicle commitment being secured).
 ACE alumni case-study series — profile the NFVF-funded short film
 Ini
@@ -181,11 +181,11 @@ editorial series.
 Quarter 4 · Mar–May 2027
 Scale, Self-Sustainability & Renewal
 The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started.
-Cineterns commercial launch — the full pricing model active for production-company subscriptions.
+SA Film Intense commercial launch — the full pricing model active for production-company subscriptions.
 The self-sustainability case is modelled publicly: SAFA publishes a
 Path to Self-Sustainability
-article showing how the ecosystem funds itself through Skills Levy administration fees, Cineterns subscriptions, and GreenSet contracts.
-All production-company SLAs reviewed and renewed with an upsell to bundled Cineterns access.
+article showing how the ecosystem funds itself through Skills Levy administration fees, SA Film Intense subscriptions, and GreenSet contracts.
+All production-company SLAs reviewed and renewed with an upsell to bundled SA Film Intense access.
 The twelve-month strategy review is initiated and a second-year blueprint is drafted.
 06 ·
 Agentic AI Marketing Engine
@@ -194,7 +194,7 @@ Five autonomous agents that operate without human initiation — turning the Aca
 Agents · Orbital System
 The agentic engine is the centrepiece of this strategy because it is the answer to the question every small non-profit eventually has to face:
 how do you scale without growing the team?
-The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in Cineterns. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
+The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in SA Film Intense. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
 The strategic logic is simple. The Academy's team is small. The industry is, in honest assessment,
 in a very distressed situation
 . The Academy cannot manually do everything that needs to be done — but it can supervise a set of agents that perform the time-intensive groundwork on its behalf, surfacing only the work that requires human judgement. That is the leverage point on which the entire commercial argument rests.
@@ -217,10 +217,10 @@ Facebook
 serves alumni engagement and CSI visibility for FILMGRO and GreenSet.
 X (formerly Twitter)
 handles real-time industry commentary and news.
-The agent repurposes blog content into platform-native posts, generates placement-announcement posts when Cineterns records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
+The agent repurposes blog content into platform-native posts, generates placement-announcement posts when SA Film Intense records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
 Agent 04 · Embedded
 Trainee–Production Matching Agent
-The core agentic workflow embedded inside the Cineterns portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
+The core agentic workflow embedded inside the SA Film Intense portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
 The production company selects, the system records the placement, and the trainee's career tier automatically advances. This replaces the entirely manual
 Cindy sends the link
 process and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
@@ -303,17 +303,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -442,7 +442,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -453,7 +453,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -463,7 +463,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -519,7 +519,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -542,7 +542,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -565,7 +565,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -591,7 +591,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -613,7 +613,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -625,7 +625,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -637,7 +637,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -646,11 +646,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -717,7 +717,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -725,7 +725,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -736,7 +736,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -776,7 +776,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -795,29 +795,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -846,12 +846,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -864,7 +864,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -876,11 +876,11 @@ SA FILM ACADEMY · 360° MARKETING STRATEGY · 2026–2027`,
 export const SECTION_ECOSYSTEM: StrategySection = {
   id: 'ecosystem',
   num: '03',
-  title: "Five entities, one architecture. Until now, they have read as five strangers.",
+  title: "Five entities, one architecture. Until now, they have read as five connected subsidiaries.",
   subtitle: "A branded house — SAFA at the apex, four programmes radiating outward, each carrying a visible relationship to the master brand.",
   content: `03 ·
 The Brand Ecosystem
-Five entities, one architecture. Until now, they have read as five strangers.
+Five entities, one architecture. Until now, they have read as five connected subsidiaries.
 A branded house — SAFA at the apex, four programmes radiating outward, each carrying a visible relationship to the master brand.
 Architecture · Site Plan
 01
@@ -906,16 +906,16 @@ greenset.org
 The sustainability subsidiary — a separate entity with its own website and brand identity, contracted regularly by Netflix and other international productions for sustainable set management, Eco-Steward training and GREEN PA placement. The critical and chronically under-marketed gap is that GreenSet's connection to SA Film Academy is almost invisible across both websites and across every social channel. This is one of the most significant untapped marketing assets in the entire ecosystem — particularly given that Netflix, UK and US productions now actively require sustainability compliance partners. A first-quarter GreenSet co-brand integration campaign is non-negotiable.
 05
 Digital Platform
-Cineterns —
-cineterns.vercel.app
-The new digital portal that replaces the entirely manual placement process — the one in which Cindy, on the Academy's small team, manually emails CVs, elevator pitches and trainee profiles to production companies upon request. Cineterns automates that entire workflow. It is the technological centrepiece of the ecosystem. It serves two audiences simultaneously: trainees registering their profiles, productions, availability and portfolios on one side; production companies registering their briefs, role requirements and timelines on the other. The agentic matching layer scores, shortlists and drafts introductions without human intervention. Cineterns is what transforms SAFA from a manually operated placement agency into a scalable, technology-enabled talent platform — and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
+SA Film Intense —
+SA Film Intense.vercel.app
+The new digital portal that replaces the entirely manual placement process — the one in which Cindy, on the Academy's small team, manually emails CVs, elevator pitches and trainee profiles to production companies upon request. SA Film Intense automates that entire workflow. It is the technological centrepiece of the ecosystem. It serves two audiences simultaneously: trainees registering their profiles, productions, availability and portfolios on one side; production companies registering their briefs, role requirements and timelines on the other. The agentic matching layer scores, shortlists and drafts introductions without human intervention. SA Film Intense is what transforms SAFA from a manually operated placement agency into a scalable, technology-enabled talent platform — and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
 04 ·
 Digital Infrastructure
 What has already been built — and why it matters before anything else is scaled.
 This strategy is not aspirational. The two pieces of infrastructure that underpin everything else are already live, deployed and demonstrable. What follows is scaling what is already running, not building from scratch.
 Stack · Circuit Topology
 Live System
-Cineterns — the placement portal
+SA Film Intense — the placement portal
 The frontend runs on
 Next.js 14
 with the App Router and React Server Components, delivering fast, SEO-friendly server-rendered pages.
@@ -933,7 +933,7 @@ Cloudflare
 — DNS management, CDN caching, bot protection and a Web Application Firewall — which places the Academy's data infrastructure at enterprise security standards appropriate for handling personal trainee data under POPIA.
 The agentic AI layer is provisioned through the
 Anthropic Claude API
-(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As Cineterns scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
+(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As SA Film Intense scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
 Interactive Prototype
 The presentation engine
 Alongside the placement portal sits an immersive, interactive web-based pitch experience — built to be used when engaging production companies, potential partners and institutional funders. It simulates the look and feel of the full SAFA digital ecosystem, giving stakeholders an
@@ -942,7 +942,7 @@ of what the portal and marketing infrastructure will look like when complete.
 The principle is straightforward: when the Academy speaks of a portal, audiences see a portal; when the Academy speaks of a Johannesburg launch, audiences see a clear roadmap. Strategy stops being asked to be imagined — it can be interacted with.
 Technically, the prototype uses the identical
 Next.js · Vercel · Cloudflare · Supabase
-stack as Cineterns. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
+stack as SA Film Intense. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
 That construction principle — the prototype that
 is
 the production system, eight-tenths complete — is the single clearest evidence that this strategy is execution-ready, not a slide deck.
@@ -968,11 +968,11 @@ Quarter 1 · Jun–Aug 2026
 Foundation, Unification & Launch
 Architecture, alignment, and the first visible signal that the new chapter has begun.
 Strategy formally adopted and the implementation rhythm established with the executive team.
-Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, Cineterns — to establish a unified visual language and messaging hierarchy.
+Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, SA Film Intense — to establish a unified visual language and messaging hierarchy.
 Launch of the GreenSet co-brand integration campaign across the SAFA website and every social channel.
-Formal SEO baseline audit on safilmacademy.org and the Cineterns portal.
+Formal SEO baseline audit on safilmacademy.org and the SA Film Intense portal.
 Social media account consolidation and profile optimisation across LinkedIn, Instagram and Facebook.
-Cineterns open beta with the first cohort of registered trainees and invited production companies.
+SA Film Intense open beta with the first cohort of registered trainees and invited production companies.
 FILMGRO Gauteng expansion: activate the Suzuki conversation and identify a driving training partner.
 First two agentic blog posts published.
 The Chief Executive's LinkedIn presence strategy activated as the institutional voice channel.
@@ -983,7 +983,7 @@ GreenSet–Netflix case study published as a flagship piece of thought-leadershi
 B-BBEE Skills Levy awareness campaign targeting SPV production accountants and legal compliance teams — digital advertisements, LinkedIn outreach, and a free downloadable
 Skills Levy Guide for Film Productions
 lead magnet.
-Cineterns public launch with the first ten confirmed production-company accounts.
+SA Film Intense public launch with the first ten confirmed production-company accounts.
 FILMGRO Gauteng launch event (conditional on the Suzuki vehicle commitment being secured).
 ACE alumni case-study series — profile the NFVF-funded short film
 Ini
@@ -1004,11 +1004,11 @@ editorial series.
 Quarter 4 · Mar–May 2027
 Scale, Self-Sustainability & Renewal
 The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started.
-Cineterns commercial launch — the full pricing model active for production-company subscriptions.
+SA Film Intense commercial launch — the full pricing model active for production-company subscriptions.
 The self-sustainability case is modelled publicly: SAFA publishes a
 Path to Self-Sustainability
-article showing how the ecosystem funds itself through Skills Levy administration fees, Cineterns subscriptions, and GreenSet contracts.
-All production-company SLAs reviewed and renewed with an upsell to bundled Cineterns access.
+article showing how the ecosystem funds itself through Skills Levy administration fees, SA Film Intense subscriptions, and GreenSet contracts.
+All production-company SLAs reviewed and renewed with an upsell to bundled SA Film Intense access.
 The twelve-month strategy review is initiated and a second-year blueprint is drafted.
 06 ·
 Agentic AI Marketing Engine
@@ -1017,7 +1017,7 @@ Five autonomous agents that operate without human initiation — turning the Aca
 Agents · Orbital System
 The agentic engine is the centrepiece of this strategy because it is the answer to the question every small non-profit eventually has to face:
 how do you scale without growing the team?
-The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in Cineterns. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
+The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in SA Film Intense. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
 The strategic logic is simple. The Academy's team is small. The industry is, in honest assessment,
 in a very distressed situation
 . The Academy cannot manually do everything that needs to be done — but it can supervise a set of agents that perform the time-intensive groundwork on its behalf, surfacing only the work that requires human judgement. That is the leverage point on which the entire commercial argument rests.
@@ -1040,10 +1040,10 @@ Facebook
 serves alumni engagement and CSI visibility for FILMGRO and GreenSet.
 X (formerly Twitter)
 handles real-time industry commentary and news.
-The agent repurposes blog content into platform-native posts, generates placement-announcement posts when Cineterns records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
+The agent repurposes blog content into platform-native posts, generates placement-announcement posts when SA Film Intense records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
 Agent 04 · Embedded
 Trainee–Production Matching Agent
-The core agentic workflow embedded inside the Cineterns portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
+The core agentic workflow embedded inside the SA Film Intense portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
 The production company selects, the system records the placement, and the trainee's career tier automatically advances. This replaces the entirely manual
 Cindy sends the link
 process and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
@@ -1126,17 +1126,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -1265,7 +1265,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -1276,7 +1276,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -1286,7 +1286,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -1342,7 +1342,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -1365,7 +1365,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -1388,7 +1388,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -1414,7 +1414,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -1436,7 +1436,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -1448,7 +1448,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -1460,7 +1460,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -1469,11 +1469,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -1540,7 +1540,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -1548,7 +1548,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -1559,7 +1559,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -1599,7 +1599,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -1618,29 +1618,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -1669,12 +1669,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -1687,7 +1687,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -1707,7 +1707,7 @@ What has already been built — and why it matters before anything else is scale
 This strategy is not aspirational. The two pieces of infrastructure that underpin everything else are already live, deployed and demonstrable. What follows is scaling what is already running, not building from scratch.
 Stack · Circuit Topology
 Live System
-Cineterns — the placement portal
+SA Film Intense — the placement portal
 The frontend runs on
 Next.js 14
 with the App Router and React Server Components, delivering fast, SEO-friendly server-rendered pages.
@@ -1725,7 +1725,7 @@ Cloudflare
 — DNS management, CDN caching, bot protection and a Web Application Firewall — which places the Academy's data infrastructure at enterprise security standards appropriate for handling personal trainee data under POPIA.
 The agentic AI layer is provisioned through the
 Anthropic Claude API
-(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As Cineterns scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
+(with OpenAI as a redundant fallback) — enabling automated trainee profile enrichment, production-brief matching and communication drafting. The agent reads a production brief, scores registered trainees against the role requirements, and produces a ranked shortlist with draft introductory messages, all without human intervention. As SA Film Intense scales to hundreds of trainees and dozens of simultaneous productions, quality placements remain consistent without proportional growth in staff headcount.
 Interactive Prototype
 The presentation engine
 Alongside the placement portal sits an immersive, interactive web-based pitch experience — built to be used when engaging production companies, potential partners and institutional funders. It simulates the look and feel of the full SAFA digital ecosystem, giving stakeholders an
@@ -1734,7 +1734,7 @@ of what the portal and marketing infrastructure will look like when complete.
 The principle is straightforward: when the Academy speaks of a portal, audiences see a portal; when the Academy speaks of a Johannesburg launch, audiences see a clear roadmap. Strategy stops being asked to be imagined — it can be interacted with.
 Technically, the prototype uses the identical
 Next.js · Vercel · Cloudflare · Supabase
-stack as Cineterns. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
+stack as SA Film Intense. This consistency means zero architectural rework: the transition from prototype to live product is a matter of content population and user onboarding, not rebuilding. The prototype is therefore a marketing asset as much as a technical one.
 That construction principle — the prototype that
 is
 the production system, eight-tenths complete — is the single clearest evidence that this strategy is execution-ready, not a slide deck.
@@ -1760,11 +1760,11 @@ Quarter 1 · Jun–Aug 2026
 Foundation, Unification & Launch
 Architecture, alignment, and the first visible signal that the new chapter has begun.
 Strategy formally adopted and the implementation rhythm established with the executive team.
-Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, Cineterns — to establish a unified visual language and messaging hierarchy.
+Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, SA Film Intense — to establish a unified visual language and messaging hierarchy.
 Launch of the GreenSet co-brand integration campaign across the SAFA website and every social channel.
-Formal SEO baseline audit on safilmacademy.org and the Cineterns portal.
+Formal SEO baseline audit on safilmacademy.org and the SA Film Intense portal.
 Social media account consolidation and profile optimisation across LinkedIn, Instagram and Facebook.
-Cineterns open beta with the first cohort of registered trainees and invited production companies.
+SA Film Intense open beta with the first cohort of registered trainees and invited production companies.
 FILMGRO Gauteng expansion: activate the Suzuki conversation and identify a driving training partner.
 First two agentic blog posts published.
 The Chief Executive's LinkedIn presence strategy activated as the institutional voice channel.
@@ -1775,7 +1775,7 @@ GreenSet–Netflix case study published as a flagship piece of thought-leadershi
 B-BBEE Skills Levy awareness campaign targeting SPV production accountants and legal compliance teams — digital advertisements, LinkedIn outreach, and a free downloadable
 Skills Levy Guide for Film Productions
 lead magnet.
-Cineterns public launch with the first ten confirmed production-company accounts.
+SA Film Intense public launch with the first ten confirmed production-company accounts.
 FILMGRO Gauteng launch event (conditional on the Suzuki vehicle commitment being secured).
 ACE alumni case-study series — profile the NFVF-funded short film
 Ini
@@ -1796,11 +1796,11 @@ editorial series.
 Quarter 4 · Mar–May 2027
 Scale, Self-Sustainability & Renewal
 The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started.
-Cineterns commercial launch — the full pricing model active for production-company subscriptions.
+SA Film Intense commercial launch — the full pricing model active for production-company subscriptions.
 The self-sustainability case is modelled publicly: SAFA publishes a
 Path to Self-Sustainability
-article showing how the ecosystem funds itself through Skills Levy administration fees, Cineterns subscriptions, and GreenSet contracts.
-All production-company SLAs reviewed and renewed with an upsell to bundled Cineterns access.
+article showing how the ecosystem funds itself through Skills Levy administration fees, SA Film Intense subscriptions, and GreenSet contracts.
+All production-company SLAs reviewed and renewed with an upsell to bundled SA Film Intense access.
 The twelve-month strategy review is initiated and a second-year blueprint is drafted.
 06 ·
 Agentic AI Marketing Engine
@@ -1809,7 +1809,7 @@ Five autonomous agents that operate without human initiation — turning the Aca
 Agents · Orbital System
 The agentic engine is the centrepiece of this strategy because it is the answer to the question every small non-profit eventually has to face:
 how do you scale without growing the team?
-The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in Cineterns. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
+The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in SA Film Intense. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
 The strategic logic is simple. The Academy's team is small. The industry is, in honest assessment,
 in a very distressed situation
 . The Academy cannot manually do everything that needs to be done — but it can supervise a set of agents that perform the time-intensive groundwork on its behalf, surfacing only the work that requires human judgement. That is the leverage point on which the entire commercial argument rests.
@@ -1832,10 +1832,10 @@ Facebook
 serves alumni engagement and CSI visibility for FILMGRO and GreenSet.
 X (formerly Twitter)
 handles real-time industry commentary and news.
-The agent repurposes blog content into platform-native posts, generates placement-announcement posts when Cineterns records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
+The agent repurposes blog content into platform-native posts, generates placement-announcement posts when SA Film Intense records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
 Agent 04 · Embedded
 Trainee–Production Matching Agent
-The core agentic workflow embedded inside the Cineterns portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
+The core agentic workflow embedded inside the SA Film Intense portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
 The production company selects, the system records the placement, and the trainee's career tier automatically advances. This replaces the entirely manual
 Cindy sends the link
 process and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
@@ -1918,17 +1918,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -2057,7 +2057,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -2068,7 +2068,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -2078,7 +2078,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -2134,7 +2134,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -2157,7 +2157,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -2180,7 +2180,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -2206,7 +2206,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -2228,7 +2228,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -2240,7 +2240,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -2252,7 +2252,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -2261,11 +2261,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -2332,7 +2332,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -2340,7 +2340,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -2351,7 +2351,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -2391,7 +2391,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -2410,29 +2410,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -2461,12 +2461,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -2479,7 +2479,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -2502,11 +2502,11 @@ Quarter 1 · Jun–Aug 2026
 Foundation, Unification & Launch
 Architecture, alignment, and the first visible signal that the new chapter has begun.
 Strategy formally adopted and the implementation rhythm established with the executive team.
-Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, Cineterns — to establish a unified visual language and messaging hierarchy.
+Brand audit across all five entities — SAFA, GreenSet, FilmGro, ACE, SA Film Intense — to establish a unified visual language and messaging hierarchy.
 Launch of the GreenSet co-brand integration campaign across the SAFA website and every social channel.
-Formal SEO baseline audit on safilmacademy.org and the Cineterns portal.
+Formal SEO baseline audit on safilmacademy.org and the SA Film Intense portal.
 Social media account consolidation and profile optimisation across LinkedIn, Instagram and Facebook.
-Cineterns open beta with the first cohort of registered trainees and invited production companies.
+SA Film Intense open beta with the first cohort of registered trainees and invited production companies.
 FILMGRO Gauteng expansion: activate the Suzuki conversation and identify a driving training partner.
 First two agentic blog posts published.
 The Chief Executive's LinkedIn presence strategy activated as the institutional voice channel.
@@ -2517,7 +2517,7 @@ GreenSet–Netflix case study published as a flagship piece of thought-leadershi
 B-BBEE Skills Levy awareness campaign targeting SPV production accountants and legal compliance teams — digital advertisements, LinkedIn outreach, and a free downloadable
 Skills Levy Guide for Film Productions
 lead magnet.
-Cineterns public launch with the first ten confirmed production-company accounts.
+SA Film Intense public launch with the first ten confirmed production-company accounts.
 FILMGRO Gauteng launch event (conditional on the Suzuki vehicle commitment being secured).
 ACE alumni case-study series — profile the NFVF-funded short film
 Ini
@@ -2538,11 +2538,11 @@ editorial series.
 Quarter 4 · Mar–May 2027
 Scale, Self-Sustainability & Renewal
 The infrastructure pays for itself. The strategy renews for year two with a stronger position than it started.
-Cineterns commercial launch — the full pricing model active for production-company subscriptions.
+SA Film Intense commercial launch — the full pricing model active for production-company subscriptions.
 The self-sustainability case is modelled publicly: SAFA publishes a
 Path to Self-Sustainability
-article showing how the ecosystem funds itself through Skills Levy administration fees, Cineterns subscriptions, and GreenSet contracts.
-All production-company SLAs reviewed and renewed with an upsell to bundled Cineterns access.
+article showing how the ecosystem funds itself through Skills Levy administration fees, SA Film Intense subscriptions, and GreenSet contracts.
+All production-company SLAs reviewed and renewed with an upsell to bundled SA Film Intense access.
 The twelve-month strategy review is initiated and a second-year blueprint is drafted.
 06 ·
 Agentic AI Marketing Engine
@@ -2551,7 +2551,7 @@ Five autonomous agents that operate without human initiation — turning the Aca
 Agents · Orbital System
 The agentic engine is the centrepiece of this strategy because it is the answer to the question every small non-profit eventually has to face:
 how do you scale without growing the team?
-The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in Cineterns. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
+The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in SA Film Intense. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
 The strategic logic is simple. The Academy's team is small. The industry is, in honest assessment,
 in a very distressed situation
 . The Academy cannot manually do everything that needs to be done — but it can supervise a set of agents that perform the time-intensive groundwork on its behalf, surfacing only the work that requires human judgement. That is the leverage point on which the entire commercial argument rests.
@@ -2574,10 +2574,10 @@ Facebook
 serves alumni engagement and CSI visibility for FILMGRO and GreenSet.
 X (formerly Twitter)
 handles real-time industry commentary and news.
-The agent repurposes blog content into platform-native posts, generates placement-announcement posts when Cineterns records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
+The agent repurposes blog content into platform-native posts, generates placement-announcement posts when SA Film Intense records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
 Agent 04 · Embedded
 Trainee–Production Matching Agent
-The core agentic workflow embedded inside the Cineterns portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
+The core agentic workflow embedded inside the SA Film Intense portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
 The production company selects, the system records the placement, and the trainee's career tier automatically advances. This replaces the entirely manual
 Cindy sends the link
 process and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
@@ -2660,17 +2660,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -2799,7 +2799,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -2810,7 +2810,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -2820,7 +2820,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -2876,7 +2876,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -2899,7 +2899,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -2922,7 +2922,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -2948,7 +2948,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -2970,7 +2970,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -2982,7 +2982,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -2994,7 +2994,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -3003,11 +3003,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -3074,7 +3074,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -3082,7 +3082,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -3093,7 +3093,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -3133,7 +3133,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -3152,29 +3152,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -3203,12 +3203,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -3221,7 +3221,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -3242,7 +3242,7 @@ Five autonomous agents that operate without human initiation — turning the Aca
 Agents · Orbital System
 The agentic engine is the centrepiece of this strategy because it is the answer to the question every small non-profit eventually has to face:
 how do you scale without growing the team?
-The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in Cineterns. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
+The five agents described below are concrete, technically grounded, and built on the same Claude API infrastructure already provisioned in SA Film Intense. None of them is theoretical. All of them are scheduled to run on weekly or daily cycles from the first month of implementation.
 The strategic logic is simple. The Academy's team is small. The industry is, in honest assessment,
 in a very distressed situation
 . The Academy cannot manually do everything that needs to be done — but it can supervise a set of agents that perform the time-intensive groundwork on its behalf, surfacing only the work that requires human judgement. That is the leverage point on which the entire commercial argument rests.
@@ -3265,10 +3265,10 @@ Facebook
 serves alumni engagement and CSI visibility for FILMGRO and GreenSet.
 X (formerly Twitter)
 handles real-time industry commentary and news.
-The agent repurposes blog content into platform-native posts, generates placement-announcement posts when Cineterns records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
+The agent repurposes blog content into platform-native posts, generates placement-announcement posts when SA Film Intense records a successful match, creates FILMGRO milestone posts when a licence is issued, and maintains a consistent cadence of five posts per week per platform — without manual scheduling effort.
 Agent 04 · Embedded
 Trainee–Production Matching Agent
-The core agentic workflow embedded inside the Cineterns portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
+The core agentic workflow embedded inside the SA Film Intense portal itself. When a production company submits a brief specifying required roles, dates, location and tier level, the agent scores all registered trainees against the brief using a weighted matching algorithm — experience tier, department, location, availability and portfolio quality. It produces a ranked shortlist of the top five candidates per role, drafts a personalised introductory communication for each, and notifies the production company and the shortlisted trainees simultaneously.
 The production company selects, the system records the placement, and the trainee's career tier automatically advances. This replaces the entirely manual
 Cindy sends the link
 process and is the direct, technical answer to the trainee-tracking gap raised in the meeting.
@@ -3351,17 +3351,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -3490,7 +3490,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -3501,7 +3501,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -3511,7 +3511,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -3567,7 +3567,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -3590,7 +3590,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -3613,7 +3613,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -3639,7 +3639,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -3661,7 +3661,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -3673,7 +3673,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -3685,7 +3685,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -3694,11 +3694,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -3765,7 +3765,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -3773,7 +3773,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -3784,7 +3784,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -3824,7 +3824,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -3843,29 +3843,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -3894,12 +3894,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -3912,7 +3912,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -3969,17 +3969,17 @@ SAFA needs to be the body cited when a production accountant in London asks Perp
 "who provides film intern placement in South Africa?"
 . The strategy for this involves a deliberate set of moves: structuring all web content with clear factual claims, cited statistics and named authorities (the Academy's Chief Executive appears in machine-readable form as a subject-matter expert on every relevant page); publishing comprehensive FAQ pages that directly mirror the phrasing of conversational queries; ensuring entity disambiguation so that
 SA Film Academy
-is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to Cineterns, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
+is unambiguously connected to MICT SETA, to GreenSet, to FILMGRO, to SA Film Intense, and to its institutional leadership in the semantic web; and building Wikipedia-calibre authority through citations, press mentions and structured data over the twelve-month horizon.
 The compounding effect of these moves is that within six to nine months, a meaningful share of cold inbound enquiries will originate from AI-generated answers — not from organic search, not from paid advertising. That is the new asymmetry. The institutions that build for it now will be the references for the next decade.
 08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -4108,7 +4108,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -4119,7 +4119,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -4129,7 +4129,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -4185,7 +4185,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -4208,7 +4208,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -4231,7 +4231,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -4257,7 +4257,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -4279,7 +4279,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -4291,7 +4291,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -4303,7 +4303,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -4312,11 +4312,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -4383,7 +4383,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -4391,7 +4391,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -4402,7 +4402,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -4442,7 +4442,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -4461,29 +4461,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -4512,12 +4512,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -4530,7 +4530,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -4542,17 +4542,17 @@ SA FILM ACADEMY · 360° MARKETING STRATEGY · 2026–2027`,
 export const SECTION_BRAND: StrategySection = {
   id: 'brand',
   num: '08',
-  title: "Five entities currently read as five strangers. They will read as one family.",
+  title: "Five entities currently read as five connected subsidiaries. They will read as one family.",
   subtitle: "A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.",
   content: `08 ·
 Brand Architecture & Identity
-Five entities currently read as five strangers. They will read as one family.
+Five entities currently read as five connected subsidiaries. They will read as one family.
 A branded house model — SAFA as the master, the four programmes carrying a visible, deliberate relationship to it across every surface they appear on.
 Family · Overlap
-The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, Cineterns — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
+The brand fragmentation problem is the central diagnostic. Five entities — SAFA, ACE, FILMGRO, GreenSet, SA Film Intense — exist independently but do not read as a coherent family. Each lives on its own URL with its own visual approach. A first-time visitor cannot tell what belongs to what, and a sophisticated visitor (a Netflix sustainability lead, an SPV production accountant) cannot quickly see that they are dealing with a single, accredited, twenty-year institution.
 The proposed architecture is a
 branded house
-: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, Cineterns — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, Cineterns' digital precision) — but each is unmistakably a member of the same family.
+: SA Film Academy is the master brand, and each subsidiary — ACE, FILMGRO, GreenSet, SA Film Intense — carries a deliberate visual and verbal relationship to it. That relationship is expressed through a shared typographic system, a shared colour palette anchored on red and gold, a shared editorial voice, and a shared photographic identity. Each entity retains its own personality (GreenSet's environmental signal, FILMGRO's automotive directness, ACE's editorial gravitas, SA Film Intense' digital precision) — but each is unmistakably a member of the same family.
 The brand voice is
 authoritative but accessible, proudly South African, industry-insider without being exclusionary, data-driven without being corporate
 . The existing tagline —
@@ -4681,7 +4681,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -4692,7 +4692,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -4702,7 +4702,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -4758,7 +4758,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -4781,7 +4781,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -4804,7 +4804,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -4830,7 +4830,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -4852,7 +4852,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -4864,7 +4864,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -4876,7 +4876,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -4885,11 +4885,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -4956,7 +4956,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -4964,7 +4964,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -4975,7 +4975,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -5015,7 +5015,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -5034,29 +5034,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -5085,12 +5085,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -5103,7 +5103,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -5210,7 +5210,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -5221,7 +5221,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -5231,7 +5231,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -5287,7 +5287,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -5310,7 +5310,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -5333,7 +5333,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -5359,7 +5359,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -5381,7 +5381,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -5393,7 +5393,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -5405,7 +5405,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -5414,11 +5414,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -5485,7 +5485,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -5493,7 +5493,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -5504,7 +5504,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -5544,7 +5544,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -5563,29 +5563,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -5614,12 +5614,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -5632,7 +5632,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -5697,7 +5697,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -5708,7 +5708,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -5718,7 +5718,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -5774,7 +5774,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -5797,7 +5797,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -5820,7 +5820,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -5846,7 +5846,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -5868,7 +5868,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -5880,7 +5880,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -5892,7 +5892,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -5901,11 +5901,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -5972,7 +5972,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -5980,7 +5980,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -5991,7 +5991,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -6031,7 +6031,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -6050,29 +6050,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -6101,12 +6101,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -6119,7 +6119,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -6141,7 +6141,7 @@ The most damaging perception SAFA has carried in the industry is a known one, na
 perpetual trainees
 — three, four years on placement without ever progressing into recognised crew, Head of Department, or independent producer status. That perception is corrosive. It depresses the value of the SAFA brand to the very production companies who should be its strongest advocates. And it persists, in part, because there has historically been no public, visible structure that tracks what happens to a trainee after their first year.
 The community strategy proposed here is the structural answer. It mirrors a four-tier progression modelled on the NFVF category system. Year one is the intern phase, with the SETA-funded stipend and on-the-job placement. Year two is the production trainee phase, with the trainee on the SAFA database and paid by the production company above the stipend. Year three is the senior trainee phase, with elevated responsibility and pay. After year three, the trainee transitions formally into the Academy of Creative Excellence as an alumnus, or into the industry as fully-fledged crew, an HOD-track practitioner, an industry entrepreneur, or a supplier. There is no fourth-year trainee. The tier itself is the marketing.
-Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. Cineterns hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
+Around this tiered structure sits the community architecture. A monitored WhatsApp community is segmented by tier so that interns receive intern-relevant messaging and ACE alumni receive alumni-relevant opportunities — preventing the chaotic, single-channel noise that kills engagement. An alumni ambassador programme actively recruits ACE graduates who are now working as Heads of Department or established crew to become public advocates for SAFA — their LinkedIn posts, podcast appearances, and on-set commentary become the most credible marketing the Academy has. SA Film Intense hosts a mentorship matching system that algorithmically pairs senior alumni with new interns based on department, location and discipline, so that the ladder is not abstract but personal. And once a year, both virtually and physically, the SAFA Showcase event celebrates placement achievements, alumni career milestones, and FilmGro licence graduates as a single connected story.
 The short film
 "Ini"
 — referenced explicitly in the meeting as a recent ACE success — is the prototype for the kind of story this community should amplify at every opportunity. An ACE alumnus, NFVF-supported, producing their own work, returning to the SAFA ecosystem not as a beneficiary but as a contributor. That story, told well and told often, retires the "perpetual trainee" perception permanently.
@@ -6152,7 +6152,7 @@ Four segmented groups corresponding to the four tiers. Monitored, not chaotic. T
 Alumni Ambassador Programme
 ACE graduates now working as HODs or crew formally appointed as SAFA ambassadors. Quarterly stipend, content quota, speaking obligations. Their credibility becomes SAFA's strongest commercial asset.
 11.3
-Cineterns Mentorship Matching
+SA Film Intense Mentorship Matching
 Algorithmic pairing of senior alumni with new interns by department, discipline and location. Mentor and mentee both visible inside the portal. The ladder is no longer abstract — it is a name and a face.
 11.4
 Annual SAFA Showcase
@@ -6162,7 +6162,7 @@ Virtual and physical event each year celebrating placements, alumni HOD mileston
 The NFVF-funded ACE short film is the recurring example in every alumni story. From intern to producer with funded resources assisted by the Academy. Amplified across every channel, repeatedly.
 11.6
 Public Tier Status
-Each registered trainee carries a visible tier badge inside Cineterns. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
+Each registered trainee carries a visible tier badge inside SA Film Intense. The badge changes annually based on performance and placement record. The visibility itself is the antidote to the perpetual-trainee perception.
 12 ·
 Content Marketing & Storytelling Strategy
 The Editorial Engine of a Twenty-Year-Old Institution.
@@ -6218,7 +6218,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -6241,7 +6241,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -6264,7 +6264,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -6290,7 +6290,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -6312,7 +6312,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -6324,7 +6324,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -6336,7 +6336,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -6345,11 +6345,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -6416,7 +6416,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -6424,7 +6424,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -6435,7 +6435,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -6475,7 +6475,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -6494,29 +6494,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -6545,12 +6545,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -6563,7 +6563,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -6632,7 +6632,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -6655,7 +6655,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -6678,7 +6678,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -6704,7 +6704,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -6726,7 +6726,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -6738,7 +6738,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -6750,7 +6750,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -6759,11 +6759,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -6830,7 +6830,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -6838,7 +6838,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -6849,7 +6849,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -6889,7 +6889,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -6908,29 +6908,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -6959,12 +6959,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -6977,7 +6977,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -7009,7 +7009,7 @@ are positioned as the government legitimacy and funding-access anchors — forma
 MICT SETA
 — the accreditation anchor that gives SAFA its commercial right to operate — is given far more visibility in marketing materials than it currently has. It is not enough that the logo appears on the cover slide. The SETA accreditation needs to lead every conversation with a production accountant.
 Ikasi Media
-is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on Cineterns. And the
+is identified explicitly in the Road Home proposal as a rural-outreach partner, but the relationship is not currently formalised. The strategy formalises it: Ikasi Media as the named rural outreach partner, a quarterly recruitment cycle for trainees from rural areas, and a co-branded recruitment campaign on SA Film Intense. And the
 incubation hub
 already being discussed within the Academy — a film incubator for independent ACE alumni productions — is positioned as the next-generation funding narrative around which to build a major partnership and grant cycle in Quarter Three of the calendar.
 The PR plan that sits alongside the partnership architecture is narrow, named, and disciplined.
@@ -7032,7 +7032,7 @@ NFVF · DTIC · MICT SETA
 Government legitimacy and accreditation made prominent. Named programme references and quarterly stakeholder briefings.
 13.4
 Ikasi Media Rural Partnership
-Formalised. Quarterly rural recruitment cycle. Co-branded campaign on Cineterns. Specifically referenced in the Road Home proposal.
+Formalised. Quarterly rural recruitment cycle. Co-branded campaign on SA Film Intense. Specifically referenced in the Road Home proposal.
 13.5
 Incubation Hub Narrative
 The film incubator for independent ACE alumni productions positioned as the headline funding ask of Quarter Three.
@@ -7055,7 +7055,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -7081,7 +7081,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -7103,7 +7103,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -7115,7 +7115,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -7127,7 +7127,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -7136,11 +7136,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -7207,7 +7207,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -7215,7 +7215,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -7226,7 +7226,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -7266,7 +7266,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -7285,29 +7285,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -7336,12 +7336,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -7354,7 +7354,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -7384,7 +7384,7 @@ The fourth dimension is
 trainee career pathway knowledge
 — the difference between an intern, a year-two trainee, a senior trainee, and an ACE alumnus, and the ability to communicate that tiered pathway in a way that retires the perpetual-trainee perception once and for all. The fifth is
 live digital infrastructure
-: the Cineterns portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
+: the SA Film Intense portal and the interactive presentation prototype are already built, already deployed, and already demonstrable. The strategy is not asking for permission to begin; it is asking for permission to scale what is already running. The sixth is
 agentic AI execution
 : five named, defined, weekly running workflows producing funding applications, content, social, matching, and reputation monitoring without proportional staff growth. Each of these is a distinct competitive moat, and the strategy depends on all six operating together.
 Against these six dimensions the typical sector competitor competes poorly across the contextual ones and impossibly across the technical ones. The positioning is therefore not
@@ -7410,7 +7410,7 @@ Generic learner narrative
 The tiered system communicated as native idiom
 Live Digital Infrastructure
 Proposal-stage promises
-Cineterns and interactive prototype deployed today
+SA Film Intense and interactive prototype deployed today
 Agentic AI Execution
 Buzzword
 Five named workflows, weekly cadence
@@ -7432,7 +7432,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -7444,7 +7444,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -7456,7 +7456,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -7465,11 +7465,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -7536,7 +7536,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -7544,7 +7544,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -7555,7 +7555,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -7595,7 +7595,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -7614,29 +7614,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -7665,12 +7665,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -7683,7 +7683,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -7715,7 +7715,7 @@ AI tooling
 agentic workflow
 — the orchestration discipline of briefing, iterating, reviewing, and integrating AI outputs into a production pipeline. The output is a trainee or alumnus who can walk into a post-production house in 2026 and answer the only question that matters:
 can you operate the tools we are now hiring for?
-The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the Cineterns infrastructure.
+The module is initially offered to existing trainees, ACE alumni, and a small admissions intake of independent creatives — the third stream is important because it creates a new revenue line for SAFA and a new community of practitioners around the Academy. Pre-registration opens in Quarter Two of the calendar. The module is delivered both in-person (Cape Town and Johannesburg) and asynchronously via a hosted learning portal connected to the SA Film Intense infrastructure.
 15.1
 What the Module Covers
 Generative video tooling (Veo, Kling, Hailuo, Runway), prompt and shot specification, iteration workflow, integration with traditional NLE pipelines, ethics and provenance of AI-generated content.
@@ -7727,7 +7727,7 @@ Why It Positions SAFA
 The only institution combining placement-based on-set training with current generative-AI literacy. Marketing, curriculum and commercial differentiator simultaneously.
 15.4
 Delivery Model
-In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the Cineterns infrastructure. Same authentication, same identity, single user dashboard.
+In-person blocks in Cape Town and Johannesburg, with asynchronous self-paced content hosted on the SA Film Intense infrastructure. Same authentication, same identity, single user dashboard.
 15.5
 Industry Signal
 T Studios is already advertising for AI-generated short film producers. Post-production WhatsApp groups are openly tracking the shift. This is not a forecast; it is a present-tense hiring reality.
@@ -7739,7 +7739,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -7748,11 +7748,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -7819,7 +7819,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -7827,7 +7827,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -7838,7 +7838,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -7878,7 +7878,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -7897,29 +7897,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -7948,12 +7948,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -7966,7 +7966,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -7985,7 +7985,7 @@ Key Performance Indicators & Measurement Dashboard
 The numbers reported every quarter.
 A measurable, twelve-month KPI architecture with named baselines and named targets — designed to be reported quarterly to the Academy's executive and stakeholders, and to make trade-offs visible rather than hidden.
 The KPI architecture below is designed to be reported quarterly. Each indicator has a clear baseline as of the implementation start date of 1 June 2026 and a clear twelve-month target by May 2027. The architecture deliberately separates leading indicators (registrations, traffic, applications submitted) from lagging indicators (successful placements, funding awarded, client revenue) so that the institution can see the marketing engine working before the commercial results crystallise.
-Cineterns registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
+SA Film Intense registrations are tracked as two distinct streams — trainees and production companies — because they answer different strategic questions. Trainee registration measures the Academy's pull within the talent pipeline. Production company registration measures its commercial relevance to the demand side.
 Successful placement events
 logged through the portal become the single most important indicator: every placement is a paid trainee, a B-BBEE point for a production company, and an administration fee for SAFA simultaneously.
 The Chief Executive's professional LinkedIn connection growth is reported separately and explicitly. The baseline is the more than five hundred new connection requests logged over the past year — itself a measurable indicator of perception shift. The twelve-month target is two thousand by May 2027. This is not vanity reporting. The connection base is the distribution channel for every editorial, every podcast episode, every announcement, and every funding-application thought-leadership piece.
@@ -7994,11 +7994,11 @@ Indicator
 Baseline (Jun 2026)
 12-Month Target (May 2027)
 Owner
-Cineterns trainee registrations
+SA Film Intense trainee registrations
 0 (open beta)
 800 verified trainee profiles
 Academy admin · Digital
-Cineterns production company accounts
+SA Film Intense production company accounts
 0
 40 active production company accounts
 Business development
@@ -8065,7 +8065,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -8073,7 +8073,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -8084,7 +8084,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -8124,7 +8124,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -8143,29 +8143,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -8194,12 +8194,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -8212,7 +8212,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -8233,7 +8233,7 @@ A transparent, line-itemised monthly framework that converts marketing strategy 
 The commercial structure proposed for this engagement is deliberately a monthly subscription rather than a project quote. This choice is not cosmetic. A monthly subscription converts marketing from an unpredictable, debate-prone capital request into a single defensible operating-expense line — predictable for the Academy's finance officer to budget, predictable for the executive to approve, and predictable for the delivery team to staff and execute. It also disciplines the relationship: a subscription holds both parties to a recurring deliverable rhythm rather than an episodic, opportunistic one.
 The framework below separates three cost categories. The first is
 infrastructure
-— the platform stack that the strategy literally cannot exist without: Vercel for hosting the Cineterns and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
+— the platform stack that the strategy literally cannot exist without: Vercel for hosting the SA Film Intense and EmpowerYouth applications, Supabase for the authenticated database and storage, Cloudflare for security, caching and DNS, the Anthropic API that powers every agentic workflow described in Section 06, plus the social scheduling tool that publishes the content cadence and the SEO platform that monitors topic-cluster authority and ranking. The infrastructure layer is a fixed monthly cost; it does not vary with how busy any given month is.
 The second category is
 execution
 — content production fees for the editorial and social streams, photo and video retainer for the cinematic-grade visual capture the strategy demands, paid amplification reserved for high-value posts (the Chief Executive's longer thought-leadership essays, the documentary mini-series episodes, and key Skills Levy decision-maker reels), and the contracted PR lead managing the press placement pipeline outlined in Section 13. Execution costs are largely fixed at this level of commitment, with the paid-amplification line carrying the only material monthly variance.
@@ -8241,7 +8241,7 @@ The third category is
 management
 — the strategic management fee covering all of the agentic-workflow design, oversight, weekly editorial direction, monthly reporting, quarterly strategy reviews, and the day-to-day delivery relationship. The proposed starting range is
 R8,000 to R12,500 per month
-. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (Cineterns, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
+. The lower end is appropriate for the first three months of implementation, during which the existing infrastructure (SA Film Intense, the interactive prototype) is integrated, the team rhythm is established, and the first deliverables are produced. The upper end becomes appropriate once the agentic pipeline is producing the full content cadence, the funding-application machine is in continuous operation, and the dashboard is reporting monthly to the Academy. Both endpoints are subscription pricing, not consulting day-rate pricing, and both reflect the fact that the digital infrastructure being deployed — the portals, the workflows, the dashboards — is already built. The institution is not paying for the construction of those assets a second time.
 The total monthly subscription envelope at the starting range therefore sits in the order of
 R32,000 to R36,500 per month, inclusive of all infrastructure and all execution costs and the management fee
 . The exact monthly figure within that envelope is finalised at the contract stage. What is adopted in principle through this strategy is the framework, not the line-by-line procurement. The framework is what enables the work to start on 1 June 2026 without a parallel month of cost-reconciliation negotiation that would push the engagement out into the back half of the year.
@@ -8252,7 +8252,7 @@ Notes
 Infrastructure
 Vercel Pro hosting
 R380
-Cineterns + EmpowerYouth + SAFA web
+SA Film Intense + EmpowerYouth + SAFA web
 Supabase Pro database
 R450
 Authenticated users, storage, edge functions
@@ -8292,7 +8292,7 @@ Why a Subscription
 Converts unpredictable project bills into a single recurring operating-expense line. Predictable for finance, defensible for the executive, and disciplines a recurring deliverable rhythm.
 17.2
 Already-Built Assets
-Cineterns and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
+SA Film Intense and the interactive prototype are deployed today. The Academy is not paying for their construction a second time. The subscription pays for the operation of an existing system.
 17.3
 Starting Range
 R8,000 to R12,500 per month management fee. Lower end for months one to three. Upper end once the full agentic cadence is in continuous operation.
@@ -8311,29 +8311,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -8362,12 +8362,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -8380,7 +8380,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·
@@ -8400,29 +8400,29 @@ Three tracks. Thirty days. Tangible, reportable results.
 Not an aspiration — a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted, shown, and built upon in quarter two.
 Implementation begins on 1 June 2026. Three activation tracks run simultaneously from day one. Each has a named output by day thirty. None depends on the others completing first — they are parallel, not sequential, because the Academy cannot afford to wait for one track to close before the next opens.
 Track one
-migrates the Academy's existing trainee roster onto the Cineterns platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
+migrates the Academy's existing trainee roster onto the SA Film Intense platform. Fifty verified profiles — complete with department, region, availability, and training record — are live on the portal within the first two weeks. Five production company accounts are registered as employers by day twenty-two, with each account actively able to browse the verified talent pool and post placement opportunities at no cost. By day thirty, the first placement event is logged through the portal — a SAFA trainee matched to a production company request, with the paperwork generated, the B-BBEE points documented, and the SAFA administration fee recorded. That single event is the proof of model: the digital infrastructure working as designed.
 Track two
 activates the content pipeline at full cadence from week one. Four blog posts go live in June — each targeting a specific search query that a production accountant, an aspiring trainee, or a funding officer is likely to type into Google or ask an AI assistant. The first "State of the Industry" editorial is written, reviewed, and distributed by email to every production company contact, every MICT SETA programme officer, and every NFVF contact in the Academy's address book by day twenty-eight. Social cadence — three posts per week across LinkedIn, Instagram and Facebook — is live from day three. The first podcast episode is in production by day fifteen, recording completed by day thirty. These are not aspirational targets. They are a content calendar with dates and names against every deliverable, visible to the full team from day one.
 Track three
 converts the existing Suzuki relationship from a quiet CSI arrangement into a publicly named co-brand by written confirmation from Suzuki's marketing team within the first two weeks. The first GreenSet sustainability case study — a named production, a named sustainability outcome, a named Netflix supply-chain requirement met — is drafted and confirmed by day twenty-two. Stakeholder briefings with NFVF and DTIC are scheduled before day thirty — scheduled, not aspirational. The Ikasi Media service-level agreement is drafted and in review by day thirty. Each of these is a relationship that SAFA already has. What the implementation calendar does is convert each one from informal into documented, from acknowledged into co-branded, and from occasional into recurring.
-Cineterns: the live conversion engine.
+SA Film Intense: the live conversion engine.
 Every channel described in this strategy — every blog post, every LinkedIn thought-leadership piece, every Skills Levy reel, every podcast episode, every GreenSet case study, every speaking engagement — ends at the same destination:
-cineterns.vercel.app
+SA Film Intense.vercel.app
 . That destination is already live. It is not a wireframe or a promise. It is a working platform with verified trainee profiles, active employer accounts, and a job-listing engine that production companies can use today, entirely free.
-Understanding how Cineterns works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
+Understanding how SA Film Intense works in practice is essential to understanding where the strategy converts. On the trainee side, any SAFA-verified graduate or current trainee registers on the platform and creates a profile — their department (Direction & AD, Production Accounting, Post-Production & Editing, Colour Grading, Sound Design, Cinematography, and so on), their location, their training record, and their availability. Once a profile is submitted and verified by the Academy, the trainee carries a
 SAFA VERIFIED
 badge on their listing — a public, machine-readable credential that immediately distinguishes them from any self-registered portfolio site on the internet. Over two hundred and fifty verified profiles are live on the platform today.
 On the employer side, a production company, studio, broadcaster, or post-production facility creates an employer account at no cost, browses the verified talent pool filtered by department and region, and posts a placement opportunity in under ten minutes. Every candidate who applies through the platform has been trained, assessed, and verified by the Academy. There is no screening effort required on the production side — the SAFA verification does that work before the employer ever opens the listing. Production companies can also visit the
 For Employers
 section of the platform, which explains the Skills Levy B-BBEE mechanism in plain language and lays out the administration process: SAFA handles the compliance paperwork in exchange for an administration fee capped at R350,000, freeing the production company's finance team from the burden entirely.
-The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits cineterns.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. Cineterns is where it executes.
+The marketing funnel is therefore concrete and linear. Awareness is built through the content and social channels described in Section 12. Consideration is built through the Skills Levy explainer series and the B-BBEE scorecard argument made in Section 10. Conversion happens when a production company visits SA Film Intense.vercel.app, creates an employer account, and posts its first placement opportunity — or when a trainee registers, is verified, and is matched to a production. Every placement event logged in the portal generates three simultaneous outcomes: a paid trainee, a B-BBEE scorecard entry for the production company, and an administration fee recorded for SAFA. That is the commercial model. SA Film Intense is where it executes.
 For Trainees
 Register & Get Discovered
-Create a verified SAFA profile on Cineterns. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
+Create a verified SAFA profile on SA Film Intense. The SAFA VERIFIED badge distinguishes your credentials from any self-registered portfolio. Browse active job listings and apply directly — or be approached by productions browsing the pool. Entirely free.
 REGISTER NOW →
 For Production Companies
 Post a Placement Opportunity
-Every candidate on Cineterns is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
+Every candidate on SA Film Intense is SAFA-trained and verified. Post your next placement opportunity — it costs nothing, takes under ten minutes, and removes all screening overhead from your production team. The Skills Levy administration runs automatically through SAFA.
 FOR EMPLOYERS →
 Browse Now
 250+ Verified Profiles. Live Today.
@@ -8451,12 +8451,12 @@ Built for potential corporate sponsors of the Academy of Creative Excellence inc
 NFVF Funding Narrative
 Built for submission through the agentic pipeline as a companion to every formal application. A visually compelling case statement — impact statistics, transformation record, programme reach — that the NFVF officer can share internally in support of the written application. URL, not attachment.
 18.6
-Cineterns Employer Onboarding
-Built for production managers being introduced to the Cineterns platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
+SA Film Intense Employer Onboarding
+Built for production managers being introduced to the SA Film Intense platform for the first time. A five-minute scroll showing exactly what the portal does, how the SAFA verification works, how to post a placement, and how the Skills Levy administration is handled end-to-end. Sent before the first onboarding call.
 01
 June 2026 · Three tracks live simultaneously
 30
-June 2026 · First placement event logged on Cineterns
+June 2026 · First placement event logged on SA Film Intense
 08
 Blog posts published in month one
 05
@@ -8469,7 +8469,7 @@ GreenSet ·
 greenset.org
 ·
 Talent Portal ·
-cineterns.vercel.app
+SA Film Intense.vercel.app
 Facebook ·
 TheSAFilmAcademy
 ·   Instagram ·

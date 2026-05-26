@@ -33,14 +33,17 @@ export function EcosystemMap() {
           <text x="500" y="265" textAnchor="middle" dominantBaseline="middle" fill="var(--text)" opacity="0.6" fontFamily="var(--font-body)" fontSize="9" letterSpacing="1">
             MASTER BRAND · MICT SETA
           </text>
+          <text x="500" y="282" textAnchor="middle" dominantBaseline="middle" fill="var(--gold-soft)" opacity="0.72" fontFamily="var(--font-body)" fontSize="8" letterSpacing="0.8">
+            3000+ TRAINEES · 500+ PRODUCTIONS · 96% BLACK STUDENT BASE
+          </text>
         </motion.g>
 
         {/* Four programme entities radiating below */}
         {[
-          { x: 150, label: 'ACE', desc: 'Alumni' },
-          { x: 350, label: 'FILMGRO', desc: 'Driving' },
-          { x: 650, label: 'GreenSet', desc: 'Sustainability' },
-          { x: 850, label: 'Cineterns', desc: 'Portal' },
+          { x: 150, label: 'ACE', desc: 'Alumni advancement' },
+          { x: 350, label: 'FILMGRO', desc: 'Driving academy' },
+          { x: 650, label: 'GreenSet', desc: 'Sustainable sets' },
+          { x: 850, label: 'SA Film Intense', desc: 'Placement portal' },
         ].map((entity, idx) => (
           <motion.g 
             key={idx}

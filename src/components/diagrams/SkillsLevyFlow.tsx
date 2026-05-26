@@ -52,7 +52,7 @@ export function SkillsLevyFlow() {
         </defs>
 
         {/* Input streams */}
-        {/* Production Company Payroll */}
+        {/* Production company skills development spend */}
         <path
           d="M 50 80 Q 150 80 250 150"
           fill="none"
@@ -71,7 +71,7 @@ export function SkillsLevyFlow() {
           opacity="0.8"
         />
 
-        {/* SETA Approval */}
+        {/* SETA discretionary grant approval */}
         <path
           d="M 50 220 Q 150 220 250 150"
           fill="none"
@@ -91,12 +91,12 @@ export function SkillsLevyFlow() {
           style={{ animationDelay: "0.5s" }}
         />
 
-        {/* Central channel */}
+        {/* Central evidence channel */}
         <rect
           x="250"
-          y="110"
+          y="102"
           width="500"
-          height="80"
+          height="96"
           rx="8"
           fill="#13131a"
           stroke="#C9A84C"
@@ -104,7 +104,7 @@ export function SkillsLevyFlow() {
         />
         <text
           x="500"
-          y="160"
+          y="140"
           textAnchor="middle"
           fill="#E0C268"
           fontFamily="Outfit"
@@ -115,9 +115,33 @@ export function SkillsLevyFlow() {
         >
           SAFA Administration
         </text>
+        <text
+          x="500"
+          y="164"
+          textAnchor="middle"
+          fill="#E8E0D0"
+          fontFamily="Outfit"
+          fontSize="10"
+          opacity="0.78"
+        >
+          approvals · contracts · stipend schedule · audit trail
+        </text>
+        <text
+          x="500"
+          y="182"
+          textAnchor="middle"
+          fill="#C9A84C"
+          fontFamily="Outfit"
+          fontSize="9"
+          letterSpacing="1"
+          style={{ textTransform: "uppercase" }}
+          opacity="0.76"
+        >
+          evidence pack for B-BBEE skills development claims
+        </text>
 
         {/* Output streams */}
-        {/* Trainee Stipends */}
+        {/* Trainee stipends */}
         <path
           d="M 750 150 Q 850 150 950 80"
           fill="none"
@@ -137,7 +161,7 @@ export function SkillsLevyFlow() {
           style={{ animationDelay: "1s" }}
         />
 
-        {/* SAFA Admin Fee */}
+        {/* Production placement fees */}
         <path
           d="M 750 150 Q 850 150 950 150"
           fill="none"
@@ -157,7 +181,7 @@ export function SkillsLevyFlow() {
           style={{ animationDelay: "1.5s" }}
         />
 
-        {/* Client Rebate */}
+        {/* Client evidence pack */}
         <path
           d="M 750 150 Q 850 150 950 220"
           fill="none"
@@ -198,7 +222,7 @@ export function SkillsLevyFlow() {
           letterSpacing="1"
           style={{ textTransform: "uppercase" }}
         >
-          Payroll
+          Skills Spend
         </text>
 
         <text
@@ -210,7 +234,7 @@ export function SkillsLevyFlow() {
           letterSpacing="1"
           style={{ textTransform: "uppercase" }}
         >
-          SETA Approval
+          MICT SETA Grant
         </text>
 
         {/* Output labels */}
@@ -249,7 +273,19 @@ export function SkillsLevyFlow() {
           letterSpacing="1"
           style={{ textTransform: "uppercase" }}
         >
-          SAFA Admin Fee
+          Placement
+        </text>
+        <text
+          x="950"
+          y="174"
+          textAnchor="end"
+          fill="#C9A84C"
+          fontFamily="Outfit"
+          fontSize="10"
+          letterSpacing="1"
+          style={{ textTransform: "uppercase" }}
+        >
+          Fees
         </text>
 
         <text
@@ -262,7 +298,19 @@ export function SkillsLevyFlow() {
           letterSpacing="1"
           style={{ textTransform: "uppercase" }}
         >
-          Client Rebate
+          B-BBEE
+        </text>
+        <text
+          x="950"
+          y="250"
+          textAnchor="end"
+          fill="#C9A84C"
+          fontFamily="Outfit"
+          fontSize="10"
+          letterSpacing="1"
+          style={{ textTransform: "uppercase" }}
+        >
+          Evidence
         </text>
 
         {/* Title */}
@@ -279,6 +327,26 @@ export function SkillsLevyFlow() {
         >
           Skills Levy Financial Flow
         </text>
+
+        <g opacity="0.86">
+          {[
+            { x: 305, label: "Apply annually" },
+            { x: 435, label: "Approve cohort" },
+            { x: 565, label: "Deploy interns" },
+            { x: 695, label: "Report proof" },
+          ].map((step, idx) => (
+            <g key={step.label}>
+              <circle cx={step.x} cy="245" r="16" fill="#13131a" stroke="#8B0000" strokeWidth="1.5" />
+              <text x={step.x} y="249" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="9" fontWeight="700">
+                {idx + 1}
+              </text>
+              <text x={step.x} y="276" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="8" opacity="0.75">
+                {step.label}
+              </text>
+              {idx < 3 && <line x1={step.x + 18} y1="245" x2={step.x + 112} y2="245" stroke="#C9A84C" strokeWidth="1" opacity="0.28" />}
+            </g>
+          ))}
+        </g>
       </svg>
     </div>
   );

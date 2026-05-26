@@ -28,7 +28,7 @@ const SUB_PAGES = [
     title: 'Institutional Voice',
     href: '/visibility/leadership',
     description: 'Leveraging executive visibility to drive institutional authority.',
-    image: '/images/ai/v2/visibility/ceo-podium.png'
+    image: '/images/ai/v2/leadership/ceo-podium.png'
   },
   {
     title: 'Content Marketing',
@@ -59,7 +59,7 @@ export default function VisibilityLanding() {
       >
         <div className="my-4 float-left mr-6 w-44 mb-8">
           <ImagePlaceholder
-            src="/images/ai/safa-visibility-presence.png"
+            src="/images/ai/visibility-content/social-media-wall.webp"
             alt="Market visibility and presence"
             brief="Market visibility and brand presence"
             orientation="portrait"

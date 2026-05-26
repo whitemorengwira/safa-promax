@@ -59,7 +59,7 @@ export default function GrowthLanding() {
       >
         <div className="my-4 float-right ml-6 w-44 mb-8">
           <ImagePlaceholder
-            src="/images/ai/safa-growth-revenue.png"
+            src="/images/ai/growth-commercial/financial-dashboard-screen.webp"
             alt="Growth and revenue generation"
             brief="Revenue generation and business growth"
             orientation="portrait"

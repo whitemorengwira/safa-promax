@@ -81,7 +81,7 @@ export function EcoStewardROI() {
           <Reveal delay={0.1} className="p-6 bg-bg-deep border border-line flex flex-col justify-center items-center text-center space-y-2">
             <span className="text-[10px] font-body font-semibold uppercase tracking-widest text-muted">Carbon Emissions Saved</span>
             <div className="text-4xl font-display text-gold-soft">{formatNumber(carbonSavings)} <span className="text-sm italic">kg CO2e</span></div>
-            <p className="text-[9px] text-muted uppercase tracking-widest">Logistics and resource optimization</p>
+            <p className="text-[9px] text-muted uppercase tracking-widest">Logistics and resource optimisation</p>
           </Reveal>
 
           <Reveal delay={0.2} className="p-6 bg-gold/5 border border-gold/20 flex flex-col justify-center items-center text-center space-y-2">

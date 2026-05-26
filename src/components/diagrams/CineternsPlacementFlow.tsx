@@ -24,12 +24,12 @@ export function CineternsPlacementFlow() {
   }, []);
 
   const nodes = [
-    { x: 100, label: "SETA\nApproval" },
-    { x: 250, label: "Trainee\nProfile" },
-    { x: 400, label: "Cineterns\nPortal" },
-    { x: 550, label: "Agentic\nMatch" },
-    { x: 700, label: "Production\nCompany" },
-    { x: 850, label: "Active\nPlacement" },
+    { x: 100, label: "MICT SETA\nCohort", detail: "approved seats" },
+    { x: 250, label: "Verified\nProfile", detail: "skills + portfolio" },
+    { x: 400, label: "SA Film\nIntense", detail: "live database" },
+    { x: 550, label: "Weighted\nMatch", detail: "role + location" },
+    { x: 700, label: "Production\nBrief", detail: "dates + tier" },
+    { x: 850, label: "Placement\nPack", detail: "intro + audit" },
   ];
 
   return (
@@ -106,10 +106,10 @@ export function CineternsPlacementFlow() {
           <g key={`node-${idx}`}>
             {/* Node background */}
             <rect
-              x={node.x - 40}
-              y="110"
-              width="80"
-              height="80"
+              x={node.x - 48}
+              y="104"
+              width="96"
+              height="92"
               rx="8"
               fill="#13131a"
               stroke="#C9A84C"
@@ -120,7 +120,7 @@ export function CineternsPlacementFlow() {
             {/* Node label */}
             <text
               x={node.x}
-              y="155"
+              y="144"
               textAnchor="middle"
               fill="#E0C268"
               fontFamily="Outfit"
@@ -134,6 +134,17 @@ export function CineternsPlacementFlow() {
                   {line}
                 </tspan>
               ))}
+            </text>
+            <text
+              x={node.x}
+              y="180"
+              textAnchor="middle"
+              fill="#E8E0D0"
+              fontFamily="Outfit"
+              fontSize="7.5"
+              opacity="0.72"
+            >
+              {node.detail}
             </text>
           </g>
         ))}
@@ -152,6 +163,32 @@ export function CineternsPlacementFlow() {
         >
           Placement Pipeline
         </text>
+
+        <g opacity="0.82">
+          <rect x="70" y="230" width="810" height="44" rx="4" fill="#13131a" stroke="#8B0000" strokeWidth="1" />
+          {[
+            "12-month stipend",
+            "availability status",
+            "ranked shortlist",
+            "human approval",
+            "documented handoff",
+          ].map((label, idx) => (
+            <text
+              key={label}
+              x={150 + idx * 165}
+              y="257"
+              textAnchor="middle"
+              fill={idx === 3 ? "#E0C268" : "#C9A84C"}
+              fontFamily="Outfit"
+              fontSize="9"
+              fontWeight="600"
+              letterSpacing="0.8"
+              style={{ textTransform: "uppercase" }}
+            >
+              {label}
+            </text>
+          ))}
+        </g>
       </svg>
     </div>
   );

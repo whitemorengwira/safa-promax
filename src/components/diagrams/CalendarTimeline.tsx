@@ -25,24 +25,28 @@ export function CalendarTimeline() {
 
   const phases = [
     {
+      quarter: "Q1",
       name: "Foundation",
       months: "Jun–Aug 2026",
-      milestones: ["Cineterns Beta", "50 Profiles", "First Placements"],
+      milestones: ["Brand audit", "SEO baseline", "SA Film Intense beta", "GreenSet co-brand"],
     },
     {
+      quarter: "Q2",
       name: "Visibility",
-      months: "Sep–Oct 2026",
-      milestones: ["Content Pipeline", "Social Cadence", "Podcast Launch"],
+      months: "Sep–Nov 2026",
+      milestones: ["Netflix case study", "Skills Levy campaign", "10 company accounts", "FILMGRO Gauteng"],
     },
     {
+      quarter: "Q3",
       name: "Authority",
-      months: "Nov–Feb 2027",
-      milestones: ["Partnerships", "Case Studies", "Industry Recognition"],
+      months: "Dec 2026–Feb 2027",
+      milestones: ["Funding pipeline", "Impact report", "Speaking engagement", "GreenSet blog series"],
     },
     {
+      quarter: "Q4",
       name: "Scale",
       months: "Mar–May 2027",
-      milestones: ["500+ Profiles", "Tier 1 Clients", "Revenue Growth"],
+      milestones: ["Commercial launch", "Self-sustainability model", "SLA renewals", "Year-two blueprint"],
     },
   ];
 
@@ -122,6 +126,20 @@ export function CalendarTimeline() {
                 />
               )}
 
+              {/* Quarter badge */}
+              <rect x={xStart + 16} y="98" width="34" height="18" rx="2" fill="#8B0000" opacity="0.8" />
+              <text
+                x={xStart + 33}
+                y="111"
+                textAnchor="middle"
+                fill="#E0C268"
+                fontFamily="Outfit"
+                fontSize="8"
+                fontWeight="700"
+              >
+                {phase.quarter}
+              </text>
+
               {/* Phase name */}
               <text
                 x={xStart + (segmentWidth - 10) / 2}
@@ -156,7 +174,7 @@ export function CalendarTimeline() {
                 <text
                   key={`milestone-${mIdx}`}
                   x={xStart + 15}
-                  y={180 + mIdx * 30}
+                  y={176 + mIdx * 28}
                   fill="#E8E0D0"
                   fontFamily="Outfit"
                   fontSize="10"
@@ -165,6 +183,19 @@ export function CalendarTimeline() {
                   • {milestone}
                 </text>
               ))}
+
+              <text
+                x={xStart + 15}
+                y="325"
+                fill="#C9A84C"
+                fontFamily="Outfit"
+                fontSize="8"
+                letterSpacing="0.8"
+                style={{ textTransform: "uppercase" }}
+                opacity="0.75"
+              >
+                board checkpoint
+              </text>
             </g>
           );
         })}
