@@ -13,13 +13,17 @@ export interface GithubCommitResult {
 }
 
 function repoConfig() {
-  const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || process.env.GITHUB_PAT;
+  const token = (process.env.GITHUB_TOKEN || process.env.GH_TOKEN || process.env.GITHUB_PAT || "")
+    .replace(/^\uFEFF/, "")
+    .trim();
   const vercelRepository =
     process.env.VERCEL_GIT_REPO_OWNER && process.env.VERCEL_GIT_REPO_SLUG
       ? `${process.env.VERCEL_GIT_REPO_OWNER}/${process.env.VERCEL_GIT_REPO_SLUG}`
       : "";
-  const repository = process.env.GITHUB_REPOSITORY || vercelRepository || "whitemorengwira/safa-promax";
-  const branch = process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || "master";
+  const repository = (process.env.GITHUB_REPOSITORY || vercelRepository || "whitemorengwira/safa-promax")
+    .replace(/^\uFEFF/, "")
+    .trim();
+  const branch = (process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || "master").replace(/^\uFEFF/, "").trim();
 
   return { token, repository, branch };
 }
