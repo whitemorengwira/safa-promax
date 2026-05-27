@@ -6,8 +6,8 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
 import { PositioningRadar } from '@/components/diagrams/PositioningRadar';
+import { MarketAnalysisSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
   title: '14 · Competitive Positioning & Differentiation · SA Film Academy Strategy',
@@ -73,6 +73,8 @@ export default function Page() {
           visualRatio="70-30"
         />
       </SectionShell>
+
+      <MarketAnalysisSection />
 
       {/* Differentiation Section */}
       <SectionShell

@@ -14,9 +14,9 @@ export function SkillsLevyCalculator() {
   useEffect(() => {
     // SDL is 1% of annual payroll
     const sdl = annualPayroll * 0.01;
-    // Mandatory Grant is 20% of SDL (if WSP/ATR submitted)
+    // Indicative mandatory grant model: confirm current SETA rules before use.
     const mg = sdl * 0.20;
-    // Discretionary Grant can be up to 49.5% of SDL (indicative)
+    // Discretionary grant potential is indicative and approval-dependent.
     const dg = sdl * 0.495;
     
     setLevyAmount(sdl);
@@ -72,7 +72,7 @@ export function SkillsLevyCalculator() {
 
           <div className="grid grid-cols-2 gap-8 border-t border-line pt-8">
             <div className="space-y-1">
-              <span className="text-[10px] font-body font-semibold uppercase tracking-widest text-muted">Mandatory Grant (20%)</span>
+              <span className="text-[10px] font-body font-semibold uppercase tracking-widest text-muted">Indicative Mandatory Grant</span>
               <div className="text-xl font-display text-gold-soft">{formatCurrency(mandatoryGrant)}</div>
             </div>
             <div className="space-y-1">
@@ -87,7 +87,7 @@ export function SkillsLevyCalculator() {
               <span className="text-2xl font-display text-gold">{formatCurrency(totalRecovery)}</span>
             </div>
             <p className="text-[10px] text-gold/60 mt-2 uppercase tracking-wider">
-              *Based on successful WSP/ATR submission and discretionary grant approval.
+              *Indicative only; subject to current SETA rules, successful WSP/ATR submission and discretionary grant approval.
             </p>
           </div>
         </Reveal>
@@ -97,11 +97,11 @@ export function SkillsLevyCalculator() {
         <DataTable 
           headers={['Recovery Stream', 'Percentage', 'Requirement', 'SAFA Role']}
           rows={[
-            ['Mandatory Grant', '20%', 'WSP/ATR Submission', 'Compliance Documentation'],
+            ['Mandatory Grant', 'Indicative 20%', 'WSP/ATR Submission', 'Compliance Documentation'],
             ['Discretionary Grant', 'Up to 49.5%', 'Pivotal Skills Training', 'Accredited Training Partner'],
-            ['B-BBEE Skills Spend', 'Targeted', '6% of Leviable Amount', 'Scorecard Optimization'],
+            ['B-BBEE Skills Spend', 'Targeted', '6% of Leviable Amount', 'Scorecard Optimisation'],
           ]}
-          caption="The SA Film Academy acts as your strategic partner in unlocking these recovery streams through accredited, high-impact film industry training."
+          caption="The SA Film Academy acts as your strategic partner in preparing the evidence required for recovery streams through accredited, high-impact film industry training."
         />
       </Reveal>
     </div>

@@ -7,17 +7,24 @@ import { StatBand } from '@/components/sections/StatBand';
 import { PageHero } from '@/components/layout/PageHero';
 import { StakeholderPaths } from '@/components/sections/StakeholderPaths';
 import { ProductionCredits } from '@/components/sections/ProductionCredits';
+import { getCmsPage } from '@/lib/admin/content-store';
+import { AudienceFunnelSection, BoardCompletionAssuranceSection, ExecutiveSummarySection } from '@/components/strategy/BoardStrategySections';
 
-export default function HomePage() {
+export default async function HomePage() {
+  const cmsHome = await getCmsPage("home");
+  const heroTitle = cmsHome?.heroTitle ?? "SA Film Academy";
+  const heroSubtitle = cmsHome?.heroSubtitle ?? "Talent Pipeline of the South African Screen";
+  const heroImage = "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png";
+
   return (
     <main className="flex flex-col min-h-screen bg-bg">
       {/* ===== FULL-VIEWPORT HERO ===== */}
       {/* LOCKED HERO — DO NOT CHANGE */}
       <PageHero
         eyebrow="Est. 2006 · Non-Profit Company"
-        title="SA Film Academy"
-        subtitle="Talent Pipeline of the South African Screen"
-        imageSrc="/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png"
+        title={heroTitle}
+        subtitle={heroSubtitle}
+        imageSrc={heroImage}
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       >
         <div className="flex flex-wrap gap-4">
@@ -39,6 +46,10 @@ export default function HomePage() {
       </PageHero>
 
       <FilmstripDivider />
+
+      <ExecutiveSummarySection />
+
+      <BoardCompletionAssuranceSection />
 
       {/* ===== PLAIN-ENGLISH SUMMARY & JARGON DEFINITIONS ===== */}
       <section className="section-padding bg-surface/20">
@@ -72,19 +83,19 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="space-y-3 text-sm">
-                  <div className="flex gap-4">
+                  <div className="grid gap-1 sm:flex sm:gap-4">
                     <span className="font-semibold text-gold min-w-fit">MICT SETA:</span>
                     <span className="text-muted">Media, Information and Communication Technologies Sector Education and Training Authority — the government body that funds skills development in South Africa's film and media sector.</span>
                   </div>
-                  <div className="flex gap-4">
+                  <div className="grid gap-1 sm:flex sm:gap-4">
                     <span className="font-semibold text-gold min-w-fit">Skills Levy:</span>
-                    <span className="text-muted">A 1% payroll tax that production companies pay, from which they can claim back 20% for approved training programmes like SAFA's.</span>
+                    <span className="text-muted">A 1% payroll-linked levy that qualifying employers pay to support skills development, with grant recovery pathways available where current SETA rules and evidence requirements are met.</span>
                   </div>
-                  <div className="flex gap-4">
+                  <div className="grid gap-1 sm:flex sm:gap-4">
                     <span className="font-semibold text-gold min-w-fit">B-BBEE:</span>
                     <span className="text-muted">Broad-Based Black Economic Empowerment — South African policy requiring companies to demonstrate commitment to skills development and Black employment.</span>
                   </div>
-                  <div className="flex gap-4">
+                  <div className="grid gap-1 sm:flex sm:gap-4">
                     <span className="font-semibold text-gold min-w-fit">SPV:</span>
                     <span className="text-muted">Special Purpose Vehicle — a separate legal entity created to manage specific projects or revenue streams, used here for production finance.</span>
                   </div>
@@ -131,6 +142,8 @@ export default function HomePage() {
 
       {/* ===== STAKEHOLDER ENTRY PATHS ===== */}
       <StakeholderPaths />
+
+      <AudienceFunnelSection />
 
       {/* ===== PRODUCTION CREDITS ===== */}
       <ProductionCredits />

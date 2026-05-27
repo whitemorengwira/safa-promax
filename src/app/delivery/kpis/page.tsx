@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SvgStage } from '@/components/visuals/SvgStage';
+import { KpiOperatingDashboardSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
   title: '16 · KPI Dashboard & Measurement · SA Film Academy Strategy',
@@ -156,6 +157,8 @@ export default function Page() {
         />
       </SectionShell>
 
+      <KpiOperatingDashboardSection />
+
       {/* Dashboard & Monitoring */}
       <SectionShell
         eyebrow="Monitoring"
@@ -167,7 +170,7 @@ export default function Page() {
             <Reveal>
               <div className="space-y-6">
                 <p className="text-text/80 leading-relaxed">
-                  <strong>Live Dashboard:</strong> All KPIs are tracked in real-time on a centralized dashboard accessible to leadership and the Board.
+                  <strong>Live Dashboard:</strong> All KPIs are tracked in real time on a centralised dashboard accessible to leadership and the Board.
                 </p>
                 <p className="text-text/80 leading-relaxed">
                   <strong>Automated Alerts:</strong> When metrics fall below threshold, alerts trigger for immediate investigation and corrective action.

@@ -239,7 +239,7 @@ Direct — alumni production funding, ACE programme alignment
 Department of Trade, Industry & Competition (DTIC)
 Government
 Annual, project-linked
-Indirect — Film & TV Production Rebate adjacency
+Indirect — Film & TV Production recovery adjacency
 Department of Sport, Arts and Culture (DSAC)
 Government
 Annual programmes
@@ -398,12 +398,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -421,16 +419,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -479,7 +477,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -497,7 +495,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -558,7 +556,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -832,7 +830,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -1062,7 +1060,7 @@ Direct — alumni production funding, ACE programme alignment
 Department of Trade, Industry & Competition (DTIC)
 Government
 Annual, project-linked
-Indirect — Film & TV Production Rebate adjacency
+Indirect — Film & TV Production recovery adjacency
 Department of Sport, Arts and Culture (DSAC)
 Government
 Annual programmes
@@ -1221,12 +1219,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -1244,16 +1240,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -1302,7 +1298,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -1320,7 +1316,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -1381,7 +1377,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -1655,7 +1651,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -1854,7 +1850,7 @@ Direct — alumni production funding, ACE programme alignment
 Department of Trade, Industry & Competition (DTIC)
 Government
 Annual, project-linked
-Indirect — Film & TV Production Rebate adjacency
+Indirect — Film & TV Production recovery adjacency
 Department of Sport, Arts and Culture (DSAC)
 Government
 Annual programmes
@@ -2013,12 +2009,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -2036,16 +2030,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -2094,7 +2088,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -2112,7 +2106,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -2173,7 +2167,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -2447,7 +2441,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -2596,7 +2590,7 @@ Direct — alumni production funding, ACE programme alignment
 Department of Trade, Industry & Competition (DTIC)
 Government
 Annual, project-linked
-Indirect — Film & TV Production Rebate adjacency
+Indirect — Film & TV Production recovery adjacency
 Department of Sport, Arts and Culture (DSAC)
 Government
 Annual programmes
@@ -2755,12 +2749,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -2778,16 +2770,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -2836,7 +2828,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -2854,7 +2846,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -2915,7 +2907,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -3189,7 +3181,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -3287,7 +3279,7 @@ Direct — alumni production funding, ACE programme alignment
 Department of Trade, Industry & Competition (DTIC)
 Government
 Annual, project-linked
-Indirect — Film & TV Production Rebate adjacency
+Indirect — Film & TV Production recovery adjacency
 Department of Sport, Arts and Culture (DSAC)
 Government
 Annual programmes
@@ -3446,12 +3438,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -3469,16 +3459,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -3527,7 +3517,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -3545,7 +3535,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -3606,7 +3596,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -3880,7 +3870,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -4064,12 +4054,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -4087,16 +4075,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -4145,7 +4133,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -4163,7 +4151,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -4224,7 +4212,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -4498,7 +4486,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -4637,12 +4625,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -4660,16 +4646,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -4718,7 +4704,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -4736,7 +4722,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -4797,7 +4783,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -5071,7 +5057,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -5166,12 +5152,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -5189,16 +5173,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -5247,7 +5231,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -5265,7 +5249,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -5326,7 +5310,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -5600,7 +5584,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -5653,12 +5637,10 @@ The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA
 Flow · Skills Levy
 The core mechanic is established by law and confirmed in the Road Home proposal. Any company with an annual payroll or production budget above
 R500,000
-is legally required to pay a
-1% Skills Levy
-to the MICT SETA fund. That same company is then entitled to claim back
-20%
-of that levy for qualifying skills training — provided the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
-production companies really don't want to do it.
+is legally required to account for a
+1% Skills Development Levy
+through the statutory SDL system. That same employer may access applicable SETA grant recovery pathways for qualifying skills training, provided the current rules are met and the compliance documentation is in order. The documentation is rarely in order, because it is administratively heavy and, as every production accountant working with SPV structures knows,
+production companies often do not want to carry alone.
 This is precisely where SAFA's commercial position becomes formidable. SAFA's Skills Development Facilitator prepares and submits all the compliance documentation on the production company's behalf: the
 Workplace Skills Plan (WSP)
 , the
@@ -5676,16 +5658,16 @@ production accountants on SPVs
 legal and compliance officers at international production service companies
 , and
 finance directors at broadcasters and studios
-. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to claim the rebate or claiming it inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, claim cycle, deadline risk — and not the language of training brochures.
+. Each of these people is making mandatory levy payments today and is, almost without exception, either failing to recover value or doing so inefficiently. The campaign aimed at them must speak their language — compliance, audit trail, B-BBEE scorecard, evidence cycle, deadline risk — and not the language of training brochures.
 The messaging framework positions SAFA as
 the compliance partner that turns a mandatory cost into a strategic asset
-. The Academy removes the administrative burden, files the documentation, secures the rebate, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, claimable, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
+. The Academy removes the administrative burden, files the documentation, supports the recovery pathway, and simultaneously delivers a pipeline of skilled local trainees who count toward the production's B-BBEE scorecard. The mandatory cost becomes a structured, evidence-backed, scorecard-positive investment. That is the sentence that needs to land in a finance director's inbox.
 Audience 01
 Production Accountants
-Already making the levy payment. Need to be shown the rebate they are currently leaving on the table and the SAFA-administered pathway to claim it.
+Already making the levy payment. Need to be shown the recoverable value they may be leaving on the table and the SAFA-administered evidence pathway.
 Audience 02
 Legal & Compliance Officers
-At international production service companies. The B-BBEE scorecard and DTIC rebate alignment are their concerns. SAFA's documentation discipline is what they are buying.
+At international production service companies. The B-BBEE scorecard and DTIC recovery alignment are their concerns. SAFA's documentation discipline is what they are buying.
 Audience 03
 Finance Directors
 At broadcasters and studios. They want the levy converted into a B-BBEE asset and reported clean. SAFA's cap at R350,000 makes the maths obvious.
@@ -5734,7 +5716,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -5752,7 +5734,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -5813,7 +5795,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -6087,7 +6069,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -6178,7 +6160,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -6196,7 +6178,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -6257,7 +6239,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -6531,7 +6513,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -6592,7 +6574,7 @@ publishes one ACE alumnus story per week across all platforms — the practition
 Production Diary
 follows a live SAFA-supported production in real time, with permission, releasing short documentary-style updates from set as the production proceeds.
 Skills Levy Explained in 60 Seconds
-is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the 20% claim, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
+is the educational reel series targeted at production company decision-makers — short, sharp explanations of the 1% mechanism, the SETA recovery pathway, the WSP submission, the R350,000 cap, and the B-BBEE scorecard impact. Built for LinkedIn, repurposed for Instagram, distributed direct to finance teams.
 The podcast — provisionally titled
 "On Set & On the Record"
 — places the Chief Executive in conversation with South African film industry leaders, alumni who have made it, and the international sustainability practitioners connected through GreenSet. Monthly cadence. Released on every podcast platform. Excerpted into vertical video for social. The podcast does for the Academy's institutional voice and its public authority what no quantity of advertising could buy: it produces the receipts.
@@ -6610,7 +6592,7 @@ Career-Path Stories
 From the intern's first day to the alumni's first HOD credit. "Ini" as the recurring proof point. The tiered pathway told as biography.
 Pillar 05
 SA Film Industry Commentary
-The Academy's voice on industry developments, distressed conditions, transformation, the DTIC rebate, and the future of the screen sector in South Africa.
+The Academy's voice on industry developments, distressed conditions, transformation, the DTIC recovery, and the future of the screen sector in South Africa.
 Format
 Cinematic, Not Corporate
 Every piece of video content shot to production standard. No training-video aesthetic. No stock libraries. The medium is part of the message.
@@ -6671,7 +6653,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -6945,7 +6927,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -7048,7 +7030,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -7322,7 +7304,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -7377,7 +7359,7 @@ The first dimension is
 SETA compliance fluency
 . The Workplace Skills Plan, the Annual Training Report, the Portfolio of Evidence, the moderation cycle, the Category B and Category C learning programme matrix — these are native vocabulary inside the Academy, not a research project. Production companies engaging SAFA do not have to explain the regulatory environment back to their training partner. The second dimension is
 B-BBEE scorecard mechanics
-: how skills development spend flows through the scorecard, what the 20% rebate cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
+: how skills development spend flows through the scorecard, what the SETA recovery cycle looks like in practice, and how production-company finance teams report on the result. SAFA's offer is built around the scorecard outcome, not adjacent to it. The third dimension is
 production company commercial context
 : knowing why Blue Ice Africa, Film Afrika, Home Brew, Mannequin, Moonlighting, Spier and Atlantic operate as SPV-driven fringe clients, and what their procurement teams actually need from a training partner. This is twenty years of accumulated context, not a discovery exercise.
 The fourth dimension is
@@ -7651,7 +7633,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -7934,7 +7916,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -8180,7 +8162,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -8348,7 +8330,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.
@@ -8437,7 +8419,7 @@ The recommendation is specific and operational. Every SAFA presentation type —
 The EmpowerYouth presentation at empoweryouth.vercel.app is the reference implementation. It demonstrates the visual language, the scroll-based navigation, the cinematic dark aesthetic, and the interaction model. It sets the bar for what a SAFA external presentation looks and feels like. Every subsequent presentation built for the Academy should clear that bar or exceed it.
 18.1
 Skills Levy Explainer
-Built for production company finance directors and production accountants. Explains the 1% mechanism, the 20% WSP claim, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
+Built for production company finance directors and production accountants. Explains the 1% mechanism, the WSP/ATR recovery pathway, the SAFA administration model capped at R350,000, and the B-BBEE scorecard impact in one cinematic scroll. Sent as a URL. Updated live. No PDF.
 18.2
 GreenSet Sustainability Deck
 Built for international production companies and studios subject to Netflix and international co-production sustainability requirements. Presents GreenSet's Eco-Steward training, carbon reporting, and crew certification in the cinematic format. Sent to procurement teams globally as a URL.

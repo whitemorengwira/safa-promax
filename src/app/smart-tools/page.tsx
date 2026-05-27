@@ -63,7 +63,7 @@ export default function SmartToolsPage() {
             </div>
             <Reveal>
               <p className="font-body text-lg text-text/80 max-w-3xl leading-relaxed">
-                Calculate your mandatory Skills Development Levy (SDL) and discover how to recover up to 70% of your contribution through strategic training partnerships.
+                Calculate your indicative Skills Development Levy (SDL) and see how structured training evidence can support recovery pathways under current SETA rules.
               </p>
             </Reveal>
           </div>
@@ -92,7 +92,7 @@ export default function SmartToolsPage() {
             </div>
             <Reveal>
               <p className="font-body text-lg text-text/80 max-w-3xl leading-relaxed">
-                Model your Skills Development pillar performance and discover how SAFA partnerships can maximize your scorecard points while delivering high-impact training.
+                Model your Skills Development pillar performance and discover how SAFA partnerships can maximise your scorecard points while delivering high-impact training.
               </p>
             </Reveal>
           </div>

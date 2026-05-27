@@ -9,7 +9,7 @@ export function ProductionCredits() {
   const posterLoop = [...productionCredits, ...productionCredits];
 
   return (
-    <section className="section-padding bg-surface border-y border-line py-12 md:py-16 overflow-hidden">
+    <section className="section-padding bg-surface border-y border-line py-12 md:py-16 overflow-hidden overflow-x-clip">
       <div className="container-max">
         <Reveal>
           <p className="text-center text-xs font-body uppercase tracking-widest text-muted mb-3">
@@ -20,8 +20,8 @@ export function ProductionCredits() {
           </h2>
         </Reveal>
 
-        <div className="-mx-[var(--gutter)] overflow-hidden">
-          <div className="flex w-max gap-5 px-[var(--gutter)] animate-poster-rail">
+        <div className="overflow-hidden md:-mx-[var(--gutter)]">
+          <div className="flex w-max gap-5 px-0 md:px-[var(--gutter)] animate-poster-rail">
             {posterLoop.map((production, idx) => (
               <article
                 key={`${production.title}-${idx}`}
@@ -40,7 +40,7 @@ export function ProductionCredits() {
                   </KenBurns>
                 </div>
                 <div className="border-t border-gold/15 bg-bg-deep p-3">
-                  <h3 className="font-display text-sm font-bold leading-tight text-white md:text-base">
+                  <h3 className="break-words font-display text-sm font-bold leading-tight text-white md:text-base">
                     {production.title}
                   </h3>
                   <p className="mt-1 text-[11px] leading-snug text-gold-soft/85">

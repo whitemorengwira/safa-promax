@@ -84,7 +84,7 @@ export function Footer() {
               <a href="https://x.com/safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">X (Twitter)</a>
               <a href="https://youtube.com/@safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">YouTube</a>
               <a href="https://tiktok.com/@safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">TikTok</a>
-              <a href="https://wa.me/27123456789" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">WhatsApp Business</a>
+              <Link href="/contact" className="text-muted hover:text-gold transition-colors">Contact Form</Link>
               <a href="https://t.me/safilmacademy" target="_blank" rel="noopener" className="text-muted hover:text-gold transition-colors">Telegram</a>
             </div>
           </div>

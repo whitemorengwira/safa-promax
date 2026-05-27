@@ -7,6 +7,7 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
+import { ContentCadenceSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
   title: '12 · Content Marketing & Storytelling · SA Film Academy Strategy',
@@ -164,6 +165,8 @@ export default function Page() {
           visualRatio="70-30"
         />
       </SectionShell>
+
+      <ContentCadenceSection />
 
       {/* CLOSING CALL TO ACTION */}
       <section className="section-padding container-max text-center py-24">

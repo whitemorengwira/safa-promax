@@ -7,6 +7,7 @@ import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { SkillsLevyFlow } from '@/components/diagrams/SkillsLevyFlow';
+import { MarketingMixChannelSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
   title: '10 · B-BBEE & Skills Levy Commercial Strategy · SA Film Academy Strategy',
@@ -54,7 +55,7 @@ export default function Page() {
                   />
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  By facilitating the Work Skills Programme, SAFA allows production companies to claim back 20% of their levy while simultaneously earning critical B-BBEE points for skills development. This is the active alignment of commercial interest and social impact.
+                  By facilitating the Work Skills Programme, SAFA helps production companies convert statutory skills spend into structured training evidence, relevant SETA grant pathways and B-BBEE skills development proof. This is the active alignment of commercial interest and social impact.
                 </p>
               </div>
             </Reveal>
@@ -70,6 +71,8 @@ export default function Page() {
           visualRatio="70-30"
         />
       </SectionShell>
+
+      <MarketingMixChannelSection />
 
       {/* 10.2 — THE B-BBEE ADVANTAGE */}
       <SectionShell
@@ -88,7 +91,7 @@ export default function Page() {
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  This isn't just about compliance; it's about building a sustainable, transformed industry where the commercial interests of production houses align with the developmental needs of the country. We make the complex simple, and the mandatory meaningful.
+                  This is not just about compliance; it is about building a sustainable, transformed industry where the commercial interests of production houses align with the developmental needs of the country. We make the complex simple, and the mandatory meaningful.
                 </p>
               </div>
             </Reveal>
@@ -115,10 +118,10 @@ export default function Page() {
             <Reveal>
               <div className="space-y-6">
                 <p className="text-text/80 leading-relaxed">
-                  <strong>Levy Claim-Back:</strong> Production companies reclaim 20% of skills levy expenditure by partnering with SAFA. With R14M+ in annual academy payroll, this translates to immediate cost savings for partners.
+                  <strong>Levy Claim-Back:</strong> Production companies with qualifying payroll obligations can turn mandatory skills spend into structured training evidence when they partner with SAFA, subject to the applicable SETA and compliance rules.
                 </p>
                 <p className="text-text/80 leading-relaxed">
-                  <strong>B-BBEE Scorecard Points:</strong> Skills development is weighted heavily in the B-BBEE scorecard. SAFA partners gain 15-20 points on average, directly impacting their empowerment ratings.
+                  <strong>B-BBEE Scorecard Evidence:</strong> Skills development is a material element in B-BBEE compliance. SAFA partners receive a clearer evidence trail through accredited training, verified placements and documented learner progression.
                 </p>
                 <p className="text-text/80 leading-relaxed">
                   <strong>Institutional Revenue:</strong> SAFA captures placement fees and admin margins that sustain operations, reinvesting directly into trainee support and infrastructure expansion.

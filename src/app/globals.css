@@ -88,6 +88,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -98,6 +99,7 @@ body {
   line-height: 1.85;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
 }
 
 p, li {
@@ -1001,4 +1003,27 @@ p.floating-text:nth-child(5) {
   margin-bottom: 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.cms-input {
+  width: 100%;
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  background: #fff;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #111827;
+  outline: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.cms-input:focus {
+  border-color: #1769ff;
+  box-shadow: 0 0 0 3px rgba(23, 105, 255, 0.12);
+}
+
+.cms-input:disabled {
+  cursor: not-allowed;
+  background: #f2f4f7;
+  color: #667085;
 }

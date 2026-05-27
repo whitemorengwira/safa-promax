@@ -16,10 +16,14 @@ export interface AdminUser {
 export interface CmsPage {
   slug: string;
   title: string;
+  navLabel?: string;
   route: string;
   category: string;
   status: PageStatus;
   lockedImage: boolean;
+  visibleInNavigation?: boolean;
+  sortOrder?: number;
+  template?: "standard" | "landing" | "tool" | "cms";
   heroTitle: string;
   heroSubtitle: string;
   summary: string;
@@ -28,6 +32,7 @@ export interface CmsPage {
   seoDescription: string;
   updatedAt: string;
   publishedAt?: string;
+  workingCopy?: CmsPageWorkingCopy;
   draft?: Partial<Omit<CmsPage, "draft">>;
 }
 
@@ -39,6 +44,28 @@ export interface CmsMediaAsset {
   source: string;
   locked: boolean;
   tags: string[];
+  storagePath?: string;
+  mimeType?: string;
+  size?: number;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+export interface CmsPageWorkingCopy {
+  title?: string;
+  navLabel?: string;
+  route?: string;
+  category?: string;
+  visibleInNavigation?: boolean;
+  sortOrder?: number;
+  template?: "standard" | "landing" | "tool" | "cms";
+  heroTitle?: string;
+  heroSubtitle?: string;
+  summary?: string;
+  image?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  updatedAt?: string;
 }
 
 export interface CmsApproval {

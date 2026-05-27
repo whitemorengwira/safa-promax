@@ -21,7 +21,7 @@ const SUB_PAGES = [
   {
     title: 'B-BBEE & Skills Levy',
     href: '/growth/commercial',
-    description: 'The commercial strategy for the 1% levy and 20% claim-back.',
+    description: 'The commercial strategy for SDL, B-BBEE evidence and grant recovery pathways.',
     image: '/images/ai/v2/growth/commercial-hero.png'
   },
   {

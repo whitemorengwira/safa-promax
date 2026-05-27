@@ -41,7 +41,7 @@ export function BBBEEStorecardSimulator() {
           <div className="space-y-4">
             <h3 className="text-2xl font-display text-gold">B-BBEE Skills Pillar Simulator</h3>
             <p className="text-text/80 leading-relaxed">
-              The Skills Development pillar is often the most difficult to achieve. By partnering with SAFA, you can optimize your spend through accredited training that delivers both points and real-world production value.
+              The Skills Development pillar is often the most difficult to achieve. By partnering with SAFA, you can optimise your spend through accredited training that delivers both points and real-world production value.
             </p>
           </div>
           

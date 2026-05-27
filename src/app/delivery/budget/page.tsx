@@ -6,6 +6,7 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
+import { BudgetDecisionSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
   title: '17 · Budget Framework · SA Film Academy Strategy',
@@ -78,7 +79,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto mb-16">
           <Reveal>
             <p className="text-text/80 leading-relaxed mb-12">
-              An effective marketing strategy budget for the Academy is built from a clear set of line items. The costed figures for each are still being finalised and will be presented in a dedicated budget presentation. For now, the framework below sets out every line item the budget will account for, so the board can see exactly what the marketing engine is composed of before any amounts are attached.
+              An effective marketing strategy budget for the Academy is built from a clear set of line items. The board does not need vague campaign buckets; it needs a controlled envelope, visible cost drivers, and a decision model that links every rand to a workstream, owner and measurement point.
             </p>
           </Reveal>
 
@@ -143,10 +144,10 @@ export default function Page() {
         </div>
       </SectionShell>
 
-      {/* 17.3 — A WORK IN PROGRESS */}
+      {/* 17.3 — APPROVAL GATE */}
       <SectionShell
         eyebrow="17.3"
-        title="A Work in Progress"
+        title="The Costing Approval Gate"
       >
         <TwoColLayout
           flip
@@ -155,11 +156,11 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    The costed budget is a work in progress. The line items above represent the complete structure of an effective marketing strategy budget for the Academy, but the consolidated, costed figures are being finalised and will be presented in a separate, dedicated budget presentation to the board.
+                    The line items above represent the full cost architecture of the marketing engine. Supplier-level quotes and internal capacity assumptions still require executive sign-off, but the board can already approve the operating envelope, reporting discipline and quarterly continuation gates.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  Presenting the framework in this way allows the board to understand and approve the shape of the budget, what it covers and why each line exists, before any single figure is fixed. This is precisely the kind of staged financial clarity a non-profit's governance requires.
+                  Presenting the framework in this way allows the board to separate strategic approval from procurement approval. The Academy can authorise the model now, then release spend against confirmed quotes, capacity and KPI performance.
                 </p>
               </div>
             </Reveal>
@@ -175,6 +176,8 @@ export default function Page() {
           visualRatio="70-30"
         />
       </SectionShell>
+
+      <BudgetDecisionSection />
 
       {/* Financial Sustainability */}
       <SectionShell

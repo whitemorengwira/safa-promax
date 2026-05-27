@@ -78,7 +78,7 @@ const MEGA_PANELS: Record<string, MegaPanel> = {
       {
         title: 'B-BBEE & Skills Levy',
         href: '/growth/commercial',
-        description: 'The 1% levy, the 20% claim-back',
+        description: 'SDL, B-BBEE evidence and grant pathways',
       },
       {
         title: 'Partnerships & PR',

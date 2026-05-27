@@ -7,7 +7,7 @@ type RouteContext = {
   params: Promise<{ slug: string }> | { slug: string };
 };
 
-export async function POST(_request: Request, context: RouteContext) {
+export async function POST(request: Request, context: RouteContext) {
   const session = await getAdminSession();
   if (!session) {
     return NextResponse.json({ error: "Admin sign-in is required." }, { status: 401 });
@@ -18,7 +18,8 @@ export async function POST(_request: Request, context: RouteContext) {
   }
 
   const { slug } = await context.params;
-  const page = await publishPage(slug, session);
+  const updates = await request.json().catch(() => undefined);
+  const page = await publishPage(slug, session, updates);
 
   return NextResponse.json({ page });
 }

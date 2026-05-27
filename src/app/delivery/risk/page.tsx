@@ -4,6 +4,7 @@ import { SectionShell } from "@/components/sections/SectionShell";
 import { Reveal } from "@/components/motion/Reveal";
 import { FilmstripDivider } from "@/components/visuals/FilmstripDivider";
 import { ImagePlaceholder } from "@/components/visuals/ImagePlaceholder";
+import { RiskHeatMapSection } from "@/components/strategy/BoardStrategySections";
 
 export const metadata: Metadata = {
   title: "Risk Acknowledgement & Contingency Planning · SA Film Academy Strategy",
@@ -121,7 +122,7 @@ export default function RiskPage() {
         </div>
       </SectionShell>
 
-      <FilmstripDivider />
+      <RiskHeatMapSection />
 
       {/* Governance Section */}
       <SectionShell
@@ -218,7 +219,7 @@ export default function RiskPage() {
                   Scenario Planning
                 </h4>
                 <p className="text-sm leading-relaxed text-text/70">
-                  The Executive Team conducts semi-annual scenario planning to stress-test the strategy against multiple future states and identify new risks before they materialize.
+                  The Executive Team conducts semi-annual scenario planning to stress-test the strategy against multiple future states and identify new risks before they materialise.
                 </p>
               </div>
             </Reveal>

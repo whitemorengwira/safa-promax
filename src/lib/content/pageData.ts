@@ -207,7 +207,7 @@ export const pageData: Record<string, SectionPageData> = {
   // Section 07 — SEO & AI SEO Strategy
   seo: {
     heroImageBrief: '/images/ai/v2/hero-seo.png',
-    heroImageAlt: 'Young Black professional woman analyzing SEO performance and data flows in a cinematic production office.',
+    heroImageAlt: 'Young Black professional woman analysing SEO performance and data flows in a cinematic production office.',
     diagram: 'topiccluster',
   },
 
@@ -416,7 +416,7 @@ export const pageData: Record<string, SectionPageData> = {
   // Section 14 — Competitive Positioning & Differentiation
   positioning: {
     heroImageBrief: '/images/ai/safa-positioning-hero.png',
-    heroImageAlt: 'Young Black professional woman analyzing competitive positioning and market landscape.',
+    heroImageAlt: 'Young Black professional woman analysing competitive positioning and market landscape.',
     diagram: 'radar',
     tableHeaders: ['Dimension', 'Sector Baseline', 'SA Film Academy Position'],
     tableRows: [

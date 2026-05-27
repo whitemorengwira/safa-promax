@@ -1,7 +1,7 @@
 import type { AdminRole } from "./types";
 
 const editRoles: AdminRole[] = ["editor", "approver", "admin", "super-admin"];
-const approvalRoles: AdminRole[] = ["approver", "admin", "super-admin"];
+const approvalRoles: AdminRole[] = ["editor", "approver", "admin", "super-admin"];
 const adminRoles: AdminRole[] = ["admin", "super-admin"];
 
 export function canEdit(role: AdminRole) {

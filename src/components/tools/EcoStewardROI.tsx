@@ -40,7 +40,7 @@ export function EcoStewardROI() {
           <div className="space-y-4">
             <h3 className="text-2xl font-display text-gold">GreenSet Eco-Steward ROI</h3>
             <p className="text-text/80 text-sm leading-relaxed">
-              Deploying SAFA-trained Eco-Stewards isn't just a sustainability choice—it's a commercial one. Calculate the projected environmental and financial impact of a GreenSet-managed production.
+              Deploying SAFA-trained Eco-Stewards is not just a sustainability choice - it is a commercial one. Calculate the projected environmental and financial impact of a GreenSet-managed production.
             </p>
           </div>
 
