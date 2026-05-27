@@ -1,67 +1,67 @@
 {
-  "slug": "home",
-  "title": "Home",
-  "route": "/",
-  "status": "published",
   "seo": {
     "title": "SA Film Academy 360 Marketing Strategy",
     "description": "The 2026 to 2027 360 marketing strategy for the SA Film Academy."
   },
   "hero": {
+    "ctaUrl": "/foundation/organisation",
+    "altText": "Professional Black South African film crew on a cinematic movie set",
+    "ctaLabel": "Explore the Strategy",
     "headline": "SA Film Academy",
     "subheadline": "Talent Pipeline of the South African Screen",
-    "ctaLabel": "Explore the Strategy",
-    "ctaUrl": "/foundation/organisation",
-    "backgroundImage": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png",
-    "altText": "Professional Black South African film crew on a cinematic movie set"
+    "backgroundImage": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png"
   },
+  "slug": "home",
+  "route": "/",
+  "title": "Home",
+  "status": "published",
   "sections": [
     {
       "id": "executive-summary",
-      "label": "Executive Summary",
       "type": "rich_text",
-      "collapsed": false,
+      "label": "Executive Summary",
       "fields": [
         {
           "id": "summary",
-          "label": "Opening summary",
           "type": "rich_text",
+          "label": "Opening summary",
           "value": "The SA Film Academy strategy translates two decades of training, placement and industry trust into a visible, measurable and commercially resilient growth engine."
         }
-      ]
+      ],
+      "collapsed": false
     },
     {
       "id": "institutional-metrics",
-      "label": "Institutional Metrics",
       "type": "metrics",
-      "collapsed": false,
+      "label": "Institutional Metrics",
       "metrics": [
         {
           "id": "investment",
-          "number": "R60m+",
           "label": "Investment",
+          "number": "R60m+",
           "description": "Invested in skills development and in-service training since 2006."
         },
         {
           "id": "trainees",
-          "number": "3,000+",
           "label": "Trainees",
+          "number": "3,000+",
           "description": "Placed into professional film and digital media production roles."
         },
         {
           "id": "student-base",
-          "number": "96%",
           "label": "Black Student Base",
+          "number": "96%",
           "description": "Reported through SETA-submitted training records."
         },
         {
           "id": "licences",
-          "number": "124",
           "label": "Driving Licences",
+          "number": "124",
           "description": "Granted free through the FILMGRO pathway."
         }
-      ]
+      ],
+      "collapsed": false
     }
   ],
-  "updatedAt": "2026-05-27T00:00:00.000Z"
+  "updatedAt": "2026-05-27T21:10:43.494Z"
 }
