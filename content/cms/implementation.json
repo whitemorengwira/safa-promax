@@ -1,0 +1,41 @@
+{
+  "slug": "implementation",
+  "title": "Implementation",
+  "route": "/delivery/implementation",
+  "status": "published",
+  "seo": {
+    "title": "Implementation",
+    "description": "The first 30 days of SAFA strategy implementation."
+  },
+  "hero": {
+    "headline": "Three tracks. Thirty days. Tangible, reportable results.",
+    "subheadline": "A practical schedule that begins with measurable deliverables.",
+    "ctaLabel": "Open Contact",
+    "ctaUrl": "/contact",
+    "backgroundImage": "/images/ai/v2/delivery/impl-hero.png",
+    "altText": "Film professionals in a project launch and implementation kickoff"
+  },
+  "sections": [
+    {
+      "id": "launch-tracks",
+      "label": "Launch Tracks",
+      "type": "metrics",
+      "collapsed": false,
+      "metrics": [
+        {
+          "id": "tracks",
+          "number": "3",
+          "label": "Activation Tracks",
+          "description": "SA Film Interns platform, content pipeline and brand voice launch."
+        },
+        {
+          "id": "first-placement",
+          "number": "30",
+          "label": "Days to First Placement",
+          "description": "Open beta closes with the first confirmed trainee-production company placement logged."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

@@ -1,4 +1,4 @@
-export type AdminRole = "viewer" | "editor" | "approver" | "admin" | "super-admin";
+export type AdminRole = "super_admin" | "editor" | "viewer" | "approver" | "admin" | "super-admin";
 export type AdminStatus = "pending" | "active" | "suspended";
 export type PageStatus = "draft" | "review" | "published";
 
@@ -123,4 +123,7 @@ export interface AdminSession {
   role: AdminRole;
   status: AdminStatus;
   issuedAt: number;
+  accessToken?: string;
+  refreshToken?: string;
+  provider?: "supabase" | "local";
 }

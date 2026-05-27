@@ -1,0 +1,35 @@
+{
+  "slug": "growth-engine",
+  "title": "Growth Engine",
+  "route": "/growth",
+  "status": "published",
+  "seo": {
+    "title": "Growth Engine Pillar",
+    "description": "The agentic AI, commercial, partnership and positioning pillar."
+  },
+  "hero": {
+    "headline": "Growth Engine",
+    "subheadline": "Agentic AI, B-BBEE, partnerships and positioning.",
+    "ctaLabel": "Open Agentic AI",
+    "ctaUrl": "/growth/agentic-ai",
+    "backgroundImage": "/images/ai/v2/growth-hero-new.png",
+    "altText": "SAFA growth strategy visual"
+  },
+  "sections": [
+    {
+      "id": "commercial-engine",
+      "label": "Commercial Engine",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Growth summary",
+          "type": "rich_text",
+          "value": "Growth Engine converts credibility into repeatable commercial opportunity through automated workflows, partner value and sharper market positioning."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

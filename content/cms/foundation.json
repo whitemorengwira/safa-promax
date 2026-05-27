@@ -1,0 +1,35 @@
+{
+  "slug": "foundation",
+  "title": "Foundation",
+  "route": "/foundation",
+  "status": "published",
+  "seo": {
+    "title": "Foundation Pillar",
+    "description": "The organisation, ecosystem, infrastructure and brand foundation."
+  },
+  "hero": {
+    "headline": "Foundation",
+    "subheadline": "Organisation, ecosystem, infrastructure and brand architecture.",
+    "ctaLabel": "Open Organisation",
+    "ctaUrl": "/foundation/organisation",
+    "backgroundImage": "/images/main-hero-images/post-production-lab-black-creators.png",
+    "altText": "Post-production workspace with South African screen professionals"
+  },
+  "sections": [
+    {
+      "id": "pillar-role",
+      "label": "Pillar Role",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Summary",
+          "type": "rich_text",
+          "value": "Foundation holds the institutional truth of SAFA: the organisation, its connected ecosystem, and the architecture that makes every public-facing claim credible."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

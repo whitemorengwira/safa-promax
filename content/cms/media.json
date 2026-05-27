@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "media-1779915631051",
+      "filename": "codex-cms-test.png",
+      "url": "https://fersyglbzonhhfevzwfo.supabase.co/storage/v1/object/public/safa-cms-media/cms/1779915629790-codex-cms-test.png",
+      "mimeType": "image/png",
+      "sizeBytes": 68,
+      "altText": "",
+      "uploadedBy": "hello@nwhite.systems",
+      "uploadedAt": "2026-05-27T21:00:31.051Z"
+    },
+    {
+      "id": "media-1779915569800",
+      "url": "https://fersyglbzonhhfevzwfo.supabase.co/storage/v1/object/public/safa-cms-media/cms/1779915568351-codex-cms-test.png",
+      "altText": "",
+      "filename": "codex-cms-test.png",
+      "mimeType": "image/png",
+      "sizeBytes": 68,
+      "uploadedAt": "2026-05-27T20:59:29.800Z",
+      "uploadedBy": "hello@nwhite.systems"
+    },
+    {
+      "id": "media-1779915069071",
+      "url": "https://fersyglbzonhhfevzwfo.supabase.co/storage/v1/object/public/safa-cms-media/cms/1779915067657-cms-qa-pixel.png",
+      "altText": "CMS QA pixel",
+      "filename": "cms-qa-pixel.png",
+      "mimeType": "image/png",
+      "sizeBytes": 68,
+      "uploadedAt": "2026-05-27T20:51:09.071Z",
+      "uploadedBy": "hello@nwhite.systems"
+    },
+    {
+      "id": "locked-home-hero",
+      "url": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png",
+      "altText": "Professional Black South African film crew on a cinematic movie set",
+      "filename": "safa-hero-red-cinematic-black-trainees.png",
+      "mimeType": "image/png",
+      "sizeBytes": 0,
+      "uploadedAt": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "id": "poster-blood-water",
+      "url": "/images/safa-promax/productions/posters/blood-and-water.webp",
+      "altText": "Blood and Water production poster",
+      "filename": "blood-and-water.webp",
+      "mimeType": "image/webp",
+      "sizeBytes": 0,
+      "uploadedAt": "2026-05-27T00:00:00.000Z"
+    }
+  ]
+}

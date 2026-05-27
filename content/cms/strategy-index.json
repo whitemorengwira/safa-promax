@@ -1,0 +1,35 @@
+{
+  "slug": "strategy-index",
+  "title": "Strategy Index",
+  "route": "/strategy-index",
+  "status": "published",
+  "seo": {
+    "title": "Strategy Index",
+    "description": "All SA Film Academy strategy chapters."
+  },
+  "hero": {
+    "headline": "All Strategy Chapters",
+    "subheadline": "A complete map of the SA Film Academy 360 marketing strategy.",
+    "ctaLabel": "Start at Foundation",
+    "ctaUrl": "/foundation/organisation",
+    "backgroundImage": "/images/ai/home/hero-crew-night-set.webp",
+    "altText": "SA Film Academy strategy chapter index"
+  },
+  "sections": [
+    {
+      "id": "index-summary",
+      "label": "Index Summary",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Index summary",
+          "type": "rich_text",
+          "value": "The Strategy Index gives editors and stakeholders a single route into every major public-facing chapter."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

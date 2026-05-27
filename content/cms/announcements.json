@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "homepage-hero",
+      "headline": "SA Film Academy",
+      "subheadline": "Talent Pipeline of the South African Screen",
+      "ctaLabel": "Explore the Strategy",
+      "ctaUrl": "/foundation/organisation",
+      "backgroundImage": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png",
+      "isActive": true,
+      "updatedAt": "2026-05-27T00:00:00.000Z"
+    }
+  ]
+}

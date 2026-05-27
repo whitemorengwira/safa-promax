@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "home",
+      "href": "/",
+      "label": "Home",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "foundation",
+      "href": "/foundation",
+      "label": "Foundation",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "organisation",
+      "href": "/foundation/organisation",
+      "label": "Organisation",
+      "parentId": "foundation",
+      "isVisible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "ecosystem",
+      "href": "/foundation/ecosystem",
+      "label": "Ecosystem",
+      "parentId": "foundation",
+      "isVisible": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "visibility",
+      "href": "/visibility",
+      "label": "Visibility",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "calendar",
+      "href": "/visibility/calendar",
+      "label": "Calendar",
+      "parentId": "visibility",
+      "isVisible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "growth-engine",
+      "href": "/growth",
+      "label": "Growth Engine",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "agentic-ai",
+      "href": "/growth/agentic-ai",
+      "label": "Agentic AI",
+      "parentId": "growth-engine",
+      "isVisible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "delivery",
+      "href": "/delivery",
+      "label": "Delivery",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "implementation",
+      "href": "/delivery/implementation",
+      "label": "Implementation",
+      "parentId": "delivery",
+      "isVisible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "smart-tools",
+      "href": "/smart-tools",
+      "label": "Smart Tools",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "contact",
+      "href": "/contact",
+      "label": "Contact",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "strategy-index",
+      "href": "/strategy-index",
+      "label": "Strategy Index",
+      "parentId": null,
+      "isVisible": true,
+      "sortOrder": 8
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "agentic-ai",
+  "title": "Agentic AI",
+  "route": "/growth/agentic-ai",
+  "status": "published",
+  "seo": {
+    "title": "Agentic AI Marketing Engine",
+    "description": "Autonomous AI workflows for SAFA marketing operations."
+  },
+  "hero": {
+    "headline": "Not an aspiration. A set of concrete, running, weekly automated workflows.",
+    "subheadline": "Five autonomous agents that turn capacity constraints into competitive advantage.",
+    "ctaLabel": "Open Smart Tools",
+    "ctaUrl": "/smart-tools",
+    "backgroundImage": "/images/ai/v2/growth/agentic-hero.png",
+    "altText": "Agentic AI engine and autonomous workflows"
+  },
+  "sections": [
+    {
+      "id": "agents",
+      "label": "Agent Workflows",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Workflow summary",
+          "type": "rich_text",
+          "value": "The AI-assisted workflow engine supports funding, content, social response, reputation monitoring and competitive intelligence without diluting human judgement."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

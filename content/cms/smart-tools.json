@@ -1,0 +1,35 @@
+{
+  "slug": "smart-tools",
+  "title": "Smart Tools",
+  "route": "/smart-tools",
+  "status": "published",
+  "seo": {
+    "title": "SAFA Smart Tools Hub",
+    "description": "Interactive tools for Skills Levy, B-BBEE and GreenSet strategy."
+  },
+  "hero": {
+    "headline": "Smart Tools Hub",
+    "subheadline": "Interactive calculators and simulators for compliance and commercial strategy.",
+    "ctaLabel": "Open Tools",
+    "ctaUrl": "/smart-tools",
+    "backgroundImage": "/images/ai/v2/delivery/ai-workstation.png",
+    "altText": "AI workstation for SAFA commercial strategy tools"
+  },
+  "sections": [
+    {
+      "id": "toolset",
+      "label": "Toolset",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Tools summary",
+          "type": "rich_text",
+          "value": "The Smart Tools hub reduces administrative overhead and turns complex compliance conversations into clear decision support."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

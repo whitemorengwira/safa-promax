@@ -1,0 +1,35 @@
+{
+  "slug": "calendar",
+  "title": "Calendar",
+  "route": "/visibility/calendar",
+  "status": "published",
+  "seo": {
+    "title": "12-Month Marketing Calendar",
+    "description": "The 12-month SAFA visibility and marketing calendar."
+  },
+  "hero": {
+    "headline": "Twelve months of campaign discipline.",
+    "subheadline": "Foundation, visibility, authority and scale.",
+    "ctaLabel": "Open Implementation",
+    "ctaUrl": "/delivery/implementation",
+    "backgroundImage": "/images/ai/v2/visibility/calendar-hero.png",
+    "altText": "12-month marketing calendar and timeline"
+  },
+  "sections": [
+    {
+      "id": "calendar-rhythm",
+      "label": "Calendar Rhythm",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Calendar summary",
+          "type": "rich_text",
+          "value": "The annual rhythm moves from foundation and unification into commercial traction, authority, scale and renewal."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

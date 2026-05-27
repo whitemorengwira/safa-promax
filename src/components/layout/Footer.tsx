@@ -70,6 +70,8 @@ export function Footer() {
             </a>
             <Link
               href="/admin"
+              target="_blank"
+              rel="noopener"
               className="mt-3 inline-flex w-fit items-center gap-2 border border-gold/40 bg-gold/10 px-4 py-3 text-[10px] font-black uppercase tracking-widest text-gold transition-colors hover:bg-gold hover:text-bg"
             >
               <LockKeyhole className="h-3.5 w-3.5" />

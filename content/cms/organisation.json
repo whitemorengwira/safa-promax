@@ -1,0 +1,55 @@
+{
+  "slug": "organisation",
+  "title": "Organisation",
+  "route": "/foundation/organisation",
+  "status": "published",
+  "seo": {
+    "title": "The Organisation",
+    "description": "SAFA's institutional mandate, structure and perception shift."
+  },
+  "hero": {
+    "headline": "The Organisation.",
+    "subheadline": "Who we are, what we do, and the perception we have already begun to shift.",
+    "ctaLabel": "View Ecosystem",
+    "ctaUrl": "/foundation/ecosystem",
+    "backgroundImage": "/images/ai/v2/foundation/org-hero.png",
+    "altText": "SA Film Academy production trainee working on set"
+  },
+  "sections": [
+    {
+      "id": "mandate",
+      "label": "Institutional Mandate",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "body",
+          "label": "Mandate copy",
+          "type": "rich_text",
+          "value": "SA Film Academy is a MICT SETA-accredited non-profit company with two decades of placement, compliance and pathway-building behind it."
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "label": "Organisation Metrics",
+      "type": "metrics",
+      "collapsed": false,
+      "metrics": [
+        {
+          "id": "investment",
+          "number": "R60m+",
+          "label": "Investment",
+          "description": "In skills development and in-service training since 2006."
+        },
+        {
+          "id": "trainees",
+          "number": "3,000+",
+          "label": "Trainees & Interns",
+          "description": "Placed across more than 500 local and international productions."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

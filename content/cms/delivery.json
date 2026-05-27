@@ -1,0 +1,35 @@
+{
+  "slug": "delivery",
+  "title": "Delivery",
+  "route": "/delivery",
+  "status": "published",
+  "seo": {
+    "title": "Delivery Pillar",
+    "description": "The community, curriculum, KPI, budget, implementation and risk pillar."
+  },
+  "hero": {
+    "headline": "Delivery",
+    "subheadline": "Community, curriculum, KPIs, budget, implementation and risk.",
+    "ctaLabel": "Open Implementation",
+    "ctaUrl": "/delivery/implementation",
+    "backgroundImage": "/images/ai/v2/delivery/impl-hero.png",
+    "altText": "SAFA implementation and delivery visual"
+  },
+  "sections": [
+    {
+      "id": "execution",
+      "label": "Execution Model",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Delivery summary",
+          "type": "rich_text",
+          "value": "Delivery makes the strategy measurable through clear launch tracks, ownership, reporting and the quarterly evidence that board stakeholders require."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

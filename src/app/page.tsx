@@ -7,14 +7,15 @@ import { StatBand } from '@/components/sections/StatBand';
 import { PageHero } from '@/components/layout/PageHero';
 import { StakeholderPaths } from '@/components/sections/StakeholderPaths';
 import { ProductionCredits } from '@/components/sections/ProductionCredits';
-import { getCmsPage } from '@/lib/admin/content-store';
+import { getCmsPageByRoute } from '@/lib/cms/server';
 import { AudienceFunnelSection, BoardCompletionAssuranceSection, ExecutiveSummarySection } from '@/components/strategy/BoardStrategySections';
 
 export default async function HomePage() {
-  const cmsHome = await getCmsPage("home");
-  const heroTitle = cmsHome?.heroTitle ?? "SA Film Academy";
-  const heroSubtitle = cmsHome?.heroSubtitle ?? "Talent Pipeline of the South African Screen";
-  const heroImage = "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png";
+  const cmsHome = await getCmsPageByRoute("/");
+  const stripHtml = (value: string) => value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const heroTitle = cmsHome?.hero.headline ? stripHtml(cmsHome.hero.headline) : "SA Film Academy";
+  const heroSubtitle = cmsHome?.hero.subheadline ? stripHtml(cmsHome.hero.subheadline) : "Talent Pipeline of the South African Screen";
+  const heroImage = cmsHome?.hero.backgroundImage ?? "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png";
   const saFilmInternsUrl =
     process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
     process.env.NEXT_PUBLIC_CINETERNS_URL ||
@@ -29,7 +30,7 @@ export default async function HomePage() {
         title={heroTitle}
         subtitle={heroSubtitle}
         imageSrc={heroImage}
-        imageAlt="Professional Black South African film crew on a cinematic movie set"
+        imageAlt={cmsHome?.hero.altText ?? "Professional Black South African film crew on a cinematic movie set"}
       >
         <div className="flex flex-wrap gap-4">
                       <Link href="/foundation/organisation"

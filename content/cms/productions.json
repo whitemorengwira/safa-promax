@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "blood-and-water",
+      "title": "Blood & Water",
+      "category": "International Production Credit",
+      "posterImage": "/images/safa-promax/productions/posters/blood-and-water.webp"
+    },
+    {
+      "id": "devils-peak",
+      "title": "Devil's Peak",
+      "category": "South African Production Credit",
+      "posterImage": "/images/safa-promax/productions/posters/devils-peak.webp"
+    },
+    {
+      "id": "the-woman-king",
+      "title": "The Woman King",
+      "category": "Feature Film Credit",
+      "posterImage": "/images/safa-promax/productions/posters/the-woman-king.webp"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "home",
+  "title": "Home",
+  "route": "/",
+  "status": "published",
+  "seo": {
+    "title": "SA Film Academy 360 Marketing Strategy",
+    "description": "The 2026 to 2027 360 marketing strategy for the SA Film Academy."
+  },
+  "hero": {
+    "headline": "SA Film Academy",
+    "subheadline": "Talent Pipeline of the South African Screen",
+    "ctaLabel": "Explore the Strategy",
+    "ctaUrl": "/foundation/organisation",
+    "backgroundImage": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png",
+    "altText": "Professional Black South African film crew on a cinematic movie set"
+  },
+  "sections": [
+    {
+      "id": "executive-summary",
+      "label": "Executive Summary",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Opening summary",
+          "type": "rich_text",
+          "value": "The SA Film Academy strategy translates two decades of training, placement and industry trust into a visible, measurable and commercially resilient growth engine."
+        }
+      ]
+    },
+    {
+      "id": "institutional-metrics",
+      "label": "Institutional Metrics",
+      "type": "metrics",
+      "collapsed": false,
+      "metrics": [
+        {
+          "id": "investment",
+          "number": "R60m+",
+          "label": "Investment",
+          "description": "Invested in skills development and in-service training since 2006."
+        },
+        {
+          "id": "trainees",
+          "number": "3,000+",
+          "label": "Trainees",
+          "description": "Placed into professional film and digital media production roles."
+        },
+        {
+          "id": "student-base",
+          "number": "96%",
+          "label": "Black Student Base",
+          "description": "Reported through SETA-submitted training records."
+        },
+        {
+          "id": "licences",
+          "number": "124",
+          "label": "Driving Licences",
+          "description": "Granted free through the FILMGRO pathway."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}

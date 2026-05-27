@@ -1,7 +1,7 @@
-import { redirect } from "next/navigation";
-import { getAdminSession } from "@/lib/admin/auth";
+import { WixCmsEditor } from "@/components/admin/WixCmsEditor";
+import { requireAdminSession } from "@/lib/admin/auth";
 
 export default async function AdminIndexPage() {
-  const session = await getAdminSession();
-  redirect(session ? "/admin/dashboard" : "/admin/login");
+  await requireAdminSession();
+  return <WixCmsEditor />;
 }

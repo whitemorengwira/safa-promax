@@ -7,6 +7,7 @@
 .env.local
 .env*.local
 .env.production
+docs/visual-qa/cms-dev-*.log
 *.pem
 *.key
 

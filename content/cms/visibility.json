@@ -1,0 +1,35 @@
+{
+  "slug": "visibility",
+  "title": "Visibility",
+  "route": "/visibility",
+  "status": "published",
+  "seo": {
+    "title": "Visibility Pillar",
+    "description": "The 12-month visibility, SEO, leadership and content plan."
+  },
+  "hero": {
+    "headline": "Visibility",
+    "subheadline": "Calendar, SEO, leadership and content.",
+    "ctaLabel": "Open Calendar",
+    "ctaUrl": "/visibility/calendar",
+    "backgroundImage": "/images/ai/v2/road-home-training-red-visual.png",
+    "altText": "SA Film Academy visibility campaign visual"
+  },
+  "sections": [
+    {
+      "id": "market-presence",
+      "label": "Market Presence",
+      "type": "rich_text",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "summary",
+          "label": "Visibility summary",
+          "type": "rich_text",
+          "value": "Visibility turns institutional credibility into market presence through rhythm, search authority, executive voice and campaign storytelling."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-27T00:00:00.000Z"
+}
