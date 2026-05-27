@@ -92,7 +92,7 @@ export const pageData: Record<string, SectionPageData> = {
       {
         num: '05',
         tag: 'Digital Platform',
-        title: 'SA Film Intense',
+        title: 'SA Film Interns',
         text: 'The new digital portal that automates trainee placement and serves trainees and production companies simultaneously.',
       },
     ],
@@ -128,7 +128,7 @@ export const pageData: Record<string, SectionPageData> = {
           'Strategy formally adopted and the implementation rhythm established with the executive team',
           'Brand audit across all five entities to establish a unified visual language',
           'Launch of the GreenSet co-brand integration campaign',
-          'Formal SEO baseline audit on safilmacademy.org and the SA Film Intense portal',
+          'Formal SEO baseline audit on safilmacademy.org and the SA Film Interns portal',
         ],
       },
       {
@@ -139,7 +139,7 @@ export const pageData: Record<string, SectionPageData> = {
         bullets: [
           'GreenSet–Netflix case study published as flagship thought-leadership',
           'B-BBEE Skills Levy awareness campaign targeting SPV production accountants',
-          'SA Film Intense public launch with the first ten confirmed production-company accounts',
+          'SA Film Interns public launch with the first ten confirmed production-company accounts',
           'FILMGRO Gauteng launch event',
         ],
       },
@@ -161,9 +161,9 @@ export const pageData: Record<string, SectionPageData> = {
         theme: 'Scale, Self-Sustainability & Renewal',
         description: 'The infrastructure pays for itself. Strategy renews for year two with a stronger position.',
         bullets: [
-          'SA Film Intense commercial launch — full pricing model active',
+          'SA Film Interns commercial launch — full pricing model active',
           'The self-sustainability case modelled publicly',
-          'All production-company SLAs reviewed and renewed with SA Film Intense bundling',
+          'All production-company SLAs reviewed and renewed with SA Film Interns bundling',
           'Twelve-month strategy review initiated and second-year blueprint drafted',
         ],
       },
@@ -324,7 +324,7 @@ export const pageData: Record<string, SectionPageData> = {
         num: '6',
         tag: 'Programme',
         title: 'Alumni Badge & Directory',
-        text: 'Digital credential for SA Film Intense: "SAFA Alumni" badge on every ACE graduate profile. Searchable alumni directory on main website.',
+        text: 'Digital credential for SA Film Interns: "SAFA Alumni" badge on every ACE graduate profile. Searchable alumni directory on main website.',
       },
     ],
   },
@@ -443,7 +443,7 @@ export const pageData: Record<string, SectionPageData> = {
       [
         'Live Digital Infrastructure',
         'Email-driven manual processes',
-        'SA Film Intense placement portal; real-time availability; agentic matching; enterprise-grade security and POPIA compliance',
+        'SA Film Interns placement portal; real-time availability; agentic matching; enterprise-grade security and POPIA compliance',
       ],
       [
         'Agentic AI Execution',
@@ -505,9 +505,9 @@ export const pageData: Record<string, SectionPageData> = {
     diagram: 'none',
     tableHeaders: ['Indicator', 'Baseline (Jun 2026)', 'Target (May 2027)', 'Owner'],
     tableRows: [
-      ['SA Film Intense Registered Trainees', 80, 320, 'SAFA Operations'],
-      ['SA Film Intense Registered Production Companies', 5, 40, 'SAFA Operations'],
-      ['Live Production Placements (monthly)', 6, 24, 'SA Film Intense Agent'],
+      ['SA Film Interns Registered Trainees', 80, 320, 'SAFA Operations'],
+      ['SA Film Interns Registered Production Companies', 5, 40, 'SAFA Operations'],
+      ['Live Production Placements (monthly)', 6, 24, 'SA Film Interns Agent'],
       ['Website Visitors (monthly)', 3200, 18000, 'SEO &amp; Content'],
       ['Email Subscribers', 450, 2100, 'Marketing'],
       ['LinkedIn Followers', 1800, 8400, 'Content &amp; Visibility'],
@@ -578,7 +578,7 @@ export const pageData: Record<string, SectionPageData> = {
         figure: '30',
         prefix: 'Days to',
         suffix: 'First Placement',
-        description: 'SA Film Intense open beta closes with the first confirmed trainee–production company placement logged.',
+        description: 'SA Film Interns open beta closes with the first confirmed trainee–production company placement logged.',
       },
       {
         num: '3',
@@ -594,14 +594,14 @@ export const pageData: Record<string, SectionPageData> = {
         figure: '5',
         prefix: 'Employer Accounts',
         suffix: 'Active',
-        description: 'Five production companies signed and actively posting roles to SA Film Intense by end of June.',
+        description: 'Five production companies signed and actively posting roles to SA Film Interns by end of June.',
       },
     ],
     cards: [
       {
         num: 'TRACK 01',
         tag: 'Activation',
-        title: 'SA Film Intense Platform',
+        title: 'SA Film Interns Platform',
         text: 'Open beta with 50 trainee profiles migrated. First 5 employer accounts activated. First confirmed placement event logged by June 30.',
       },
       {

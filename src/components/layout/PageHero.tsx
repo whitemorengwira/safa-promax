@@ -13,6 +13,10 @@ interface PageHeroProps {
   imageSrc: string;
   imageAlt: string;
   children?: ReactNode;
+  fit?: "cover" | "contain";
+  objectPosition?: string;
+  motionSafe?: boolean;
+  safeHeadroom?: boolean;
 }
 
 /**
@@ -31,17 +35,24 @@ export function PageHero({
   imageSrc,
   imageAlt,
   children,
+  fit = "cover",
+  objectPosition,
+  motionSafe = true,
+  safeHeadroom = true,
 }: PageHeroProps) {
+  const resolvedObjectPosition = objectPosition ?? (safeHeadroom ? "center 28%" : "center center");
+
   return (
     <section className="page-hero relative min-h-screen flex flex-col justify-end overflow-hidden -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px]">
       {/* Background Image with Ken Burns */}
       <div className="absolute inset-0 z-0">
-        <KenBurns className="w-full h-full">
+        <KenBurns className="w-full h-full" enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>
           <Image
             src={imageSrc}
             alt={imageAlt}
             fill
-            className="object-cover"
+            className={fit === "contain" ? "object-contain" : "object-cover"}
+            style={{ objectPosition: resolvedObjectPosition }}
             preload
             sizes="100vw"
           />

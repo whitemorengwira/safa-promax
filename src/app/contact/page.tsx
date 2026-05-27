@@ -152,9 +152,9 @@ export default function ContactPage() {
               <Reveal delay={0.5}>
                 <div className="pt-8">
                   <ImagePlaceholder
-                    src="/images/ai/safa-cineterns-portal.png"
-                    alt="SA Film Intense Talent Portal"
-                    brief="Laptop screen showing the SA Film Intense talent portal, cinematic lighting"
+                    src="/images/ai/safa-sa-film-interns-portal.png"
+                    alt="SA Film Interns Talent Portal"
+                    brief="Laptop screen showing the SA Film Interns talent portal, cinematic lighting"
                     orientation="landscape"
                     className="opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
                   />

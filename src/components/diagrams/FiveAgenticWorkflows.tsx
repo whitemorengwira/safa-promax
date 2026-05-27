@@ -24,7 +24,7 @@ export function FiveAgenticWorkflows() {
   }, []);
 
   const satellites = [
-    { x: 600, y: 90, label: "Funding\nScout", cadence: "Weekly", output: "Applications" },
+    { x: 600, y: 110, label: "Funding\nScout", cadence: "Weekly", output: "Applications" },
     { x: 835, y: 225, label: "Content\nPipeline", cadence: "2x weekly", output: "SEO drafts" },
     { x: 745, y: 470, label: "Talent\nMatcher", cadence: "On brief", output: "Top 5 shortlist" },
     { x: 455, y: 470, label: "Reputation\nMonitor", cadence: "Daily", output: "Signals" },
@@ -37,8 +37,8 @@ export function FiveAgenticWorkflows() {
     <div className="w-full flex justify-center py-8">
       <svg
         ref={svgRef}
-        viewBox="0 0 1200 600"
-        className="w-full max-w-4xl"
+        viewBox="0 0 1200 640"
+        className="w-full max-w-5xl"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid meet"
       >
@@ -93,7 +93,7 @@ export function FiveAgenticWorkflows() {
           <circle
             cx={center.x}
             cy={center.y}
-            r="50"
+            r="68"
             fill="#13131a"
             stroke="#E0C268"
             strokeWidth="2"
@@ -104,12 +104,12 @@ export function FiveAgenticWorkflows() {
             textAnchor="middle"
             fill="#E0C268"
             fontFamily="Outfit"
-            fontSize="13"
+            fontSize="15"
             fontWeight="700"
             letterSpacing="1"
             style={{ textTransform: "uppercase" }}
           >
-            AI Engine
+            Agentic Core
           </text>
           <text
             x={center.x}
@@ -129,10 +129,10 @@ export function FiveAgenticWorkflows() {
         {satellites.map((sat, idx) => (
           <g key={`sat-${idx}`} className="satellite-pulse">
             <rect
-              x={sat.x - 58}
-              y={sat.y - 52}
-              width="116"
-              height="104"
+            x={sat.x - 69}
+            y={sat.y - 59}
+            width="138"
+            height="118"
               rx="8"
               fill="#13131a"
               stroke="#C9A84C"
@@ -144,7 +144,7 @@ export function FiveAgenticWorkflows() {
               textAnchor="middle"
               fill="#E0C268"
               fontFamily="Outfit"
-              fontSize="11"
+              fontSize="12"
               fontWeight="600"
               letterSpacing="0.5"
               style={{ textTransform: "uppercase" }}
@@ -183,12 +183,12 @@ export function FiveAgenticWorkflows() {
         ))}
 
         <g opacity="0.85">
-          <rect x="80" y="520" width="1040" height="42" fill="#13131a" stroke="#C9A84C" strokeWidth="1" opacity="0.8" />
+          <rect x="80" y="548" width="1040" height="52" fill="#13131a" stroke="#C9A84C" strokeWidth="1" opacity="0.8" />
           {["Schedule", "Draft", "Score", "Review", "Publish / Submit"].map((step, idx) => (
             <g key={step}>
               <text
                 x={170 + idx * 215}
-                y="546"
+                y="581"
                 textAnchor="middle"
                 fill={idx === 3 ? "#E0C268" : "#C9A84C"}
                 fontFamily="Outfit"
@@ -199,7 +199,7 @@ export function FiveAgenticWorkflows() {
               >
                 {idx + 1}. {step}
               </text>
-              {idx < 4 && <line x1={250 + idx * 215} y1="541" x2={300 + idx * 215} y2="541" stroke="#8B0000" strokeWidth="2" />}
+              {idx < 4 && <line x1={250 + idx * 215} y1="576" x2={300 + idx * 215} y2="576" stroke="#8B0000" strokeWidth="2" />}
             </g>
           ))}
         </g>
@@ -216,7 +216,7 @@ export function FiveAgenticWorkflows() {
           style={{ textTransform: "uppercase" }}
           opacity="0.7"
         >
-          Five Agentic Workflows
+          The Agentic Core
         </text>
       </svg>
     </div>

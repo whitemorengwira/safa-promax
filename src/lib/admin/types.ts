@@ -30,10 +30,22 @@ export interface CmsPage {
   image: string;
   seoTitle: string;
   seoDescription: string;
+  sections?: CmsEditableSection[];
   updatedAt: string;
   publishedAt?: string;
   workingCopy?: CmsPageWorkingCopy;
   draft?: Partial<Omit<CmsPage, "draft">>;
+}
+
+export interface CmsEditableSection {
+  id: string;
+  label: string;
+  eyebrow?: string;
+  title: string;
+  body: string;
+  image?: string;
+  imageAlt?: string;
+  locked?: boolean;
 }
 
 export interface CmsMediaAsset {
@@ -65,6 +77,7 @@ export interface CmsPageWorkingCopy {
   image?: string;
   seoTitle?: string;
   seoDescription?: string;
+  sections?: CmsEditableSection[];
   updatedAt?: string;
 }
 

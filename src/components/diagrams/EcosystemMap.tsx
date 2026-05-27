@@ -43,7 +43,7 @@ export function EcosystemMap() {
           { x: 150, label: 'ACE', desc: 'Alumni advancement' },
           { x: 350, label: 'FILMGRO', desc: 'Driving academy' },
           { x: 650, label: 'GreenSet', desc: 'Sustainable sets' },
-          { x: 850, label: 'SA Film Intense', desc: 'Placement portal' },
+          { x: 850, label: 'SA Film Interns', desc: 'Placement portal' },
         ].map((entity, idx) => (
           <motion.g 
             key={idx}

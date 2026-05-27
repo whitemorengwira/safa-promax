@@ -90,7 +90,7 @@ export function ExecutiveSummarySection() {
               The commercial logic is direct. Production companies already carry skills,
               transformation and staffing obligations. SAFA turns those obligations into
               verified trainees, placement data, claimable training evidence, partner
-              visibility and a scalable digital talent pipeline through SA Film Intense.
+              visibility and a scalable digital talent pipeline through SA Film Interns.
             </p>
             <p className="leading-relaxed text-muted">
               The board decision is therefore not whether SAFA should market itself more
@@ -279,7 +279,7 @@ export function AudienceFunnelSection() {
       "Production company / SPV",
       "Time-poor, risk-aware, compliance-sensitive; wants reliable crew without administrative drag.",
       "LinkedIn, direct outreach, referrals, production accountants, industry WhatsApp networks.",
-      "Employer account created; first brief posted on SA Film Intense.",
+      "Employer account created; first brief posted on SA Film Interns.",
     ],
     [
       "Funder / institutional partner",
@@ -290,7 +290,7 @@ export function AudienceFunnelSection() {
     [
       "Trainee / emerging practitioner",
       "Career-anxious, mobile-first, peer-influenced; wants a visible ladder out of perpetual training.",
-      "Instagram, TikTok, alumni referrals, WhatsApp communities, SA Film Intense registration.",
+      "Instagram, TikTok, alumni referrals, WhatsApp communities, SA Film Interns registration.",
       "Profile completed, verified and matched to opportunity.",
     ],
     [
@@ -375,7 +375,7 @@ export function MarketAnalysisSection() {
           ],
           [
             "SOM",
-            "The first 12-month capture target: existing SAFA relationships, Q1 SA Film Intense employer accounts, Skills Levy leads and named co-brand partners.",
+            "The first 12-month capture target: existing SAFA relationships, Q1 SA Film Interns employer accounts, Skills Levy leads and named co-brand partners.",
             "Frame: measurable conversion from known relationships before expansion into cold market acquisition.",
           ],
         ].map(([title, text, note], index) => (
@@ -513,7 +513,7 @@ export function MarketAnalysisSection() {
               {[
                 ["Market penetration", "Convert existing production relationships into portal accounts and Skills Levy conversations."],
                 ["Market development", "Take SAFA proof into funder, government, streamer and corporate transformation rooms."],
-                ["Product development", "Package SA Film Intense, AI curriculum, GreenSet and FILMGRO as visible partner products."],
+                ["Product development", "Package SA Film Interns, AI curriculum, GreenSet and FILMGRO as visible partner products."],
                 ["Diversification", "Use agentic workflows and content products to open new revenue and authority channels."],
               ].map(([label, text]) => (
                 <div key={label} className="border border-line bg-surface/35 p-4">
@@ -533,7 +533,7 @@ export function MarketAnalysisSection() {
 
 export function MarketingMixChannelSection() {
   const rows = [
-    ["Product", "Accredited training, placement, SA Film Intense, GreenSet, FILMGRO and evidence packs.", "Package every offer as a board-safe partner product with proof, owner and KPI."],
+    ["Product", "Accredited training, placement, SA Film Interns, GreenSet, FILMGRO and evidence packs.", "Package every offer as a board-safe partner product with proof, owner and KPI."],
     ["Price", "Monthly operating retainer plus approved platform and media production line items.", "Use scenario budgets and quarterly ROI review rather than ad hoc project quotes."],
     ["Place", "Digital portal, direct partner outreach, Cape Town/Johannesburg production networks, SETA/funder rooms.", "Put the same argument where compliance, production and funding decisions happen."],
     ["Promotion", "LinkedIn, SEO/AI SEO, PR, executive visibility, co-branded case studies, partner events.", "Prioritise channels that reach budget authority and produce traceable conversion."],
@@ -591,7 +591,7 @@ export function MarketingMixChannelSection() {
             ["Reduce production skills risk", "Verified profiles, placement logs and alumni production credits.", "Production companies and SPVs", "Create employer account and post first brief."],
             ["Turn compliance spend into evidence", "SETA-aligned programme documentation, attendance, assessment and placement records.", "Finance, HR and transformation teams", "Request partner pack and compliance review."],
             ["Make transformation visible", "96% Black student base, learner stories, B-BBEE skills evidence and co-branded case studies.", "Funders, broadcasters and corporate partners", "Approve sponsorship, grant or partnership conversation."],
-            ["Build a future-fit crew pipeline", "AI curriculum, GreenSet, FILMGRO, mentorship and SA Film Intense matching.", "Studios, streamers and production leaders", "Commit to pipeline collaboration and advocacy."],
+            ["Build a future-fit crew pipeline", "AI curriculum, GreenSet, FILMGRO, mentorship and SA Film Interns matching.", "Studios, streamers and production leaders", "Commit to pipeline collaboration and advocacy."],
           ]}
           caption="USP proof stack linking each claim to evidence and buyer action."
         />
@@ -692,7 +692,7 @@ export function KpiOperatingDashboardSection() {
       <DataTable
         headers={["KPI", "Baseline", "May 2027 target", "Owner", "Cadence", "Escalation trigger"]}
         rows={[
-          ["SA Film Intense trainee profiles", "Existing records to migrate", "250 verified profiles", "Portal owner", "Weekly", "20% behind monthly target"],
+          ["SA Film Interns trainee profiles", "Existing records to migrate", "250 verified profiles", "Portal owner", "Weekly", "20% behind monthly target"],
           ["Production employer accounts", "0 active portal accounts at launch", "20 verified employer accounts", "Commercial lead", "Weekly", "Fewer than 5 by end Q1"],
           ["Placement events logged", "Manual tracking baseline", "25 verified placement events", "Placement lead", "Monthly", "No logged placements for 30 days"],
           ["Skills Levy qualified leads", "Ad hoc conversations", "36 qualified leads", "Commercial lead", "Monthly", "Fewer than 6 per quarter"],
@@ -727,7 +727,7 @@ export function KpiOperatingDashboardSection() {
           rows={[
             ["Market visibility", "Analytics, search console, PR tracking and LinkedIn performance.", "Monthly source export and trend comparison.", "Visibility dashboard."],
             ["Commercial traction", "CRM sheet, partner pack requests, portal employer accounts and meeting notes.", "Duplicate removal and lead qualification rule.", "Growth pipeline report."],
-            ["Placement proof", "SA Film Intense records, placement logs and partner confirmations.", "Monthly match between trainee, employer, role and date.", "Impact and placement dashboard."],
+            ["Placement proof", "SA Film Interns records, placement logs and partner confirmations.", "Monthly match between trainee, employer, role and date.", "Impact and placement dashboard."],
             ["Governance", "Budget tracker, risk register, approval log and board action list.", "Quarterly completeness review before board circulation.", "Board pack."],
           ]}
           caption="Data lineage for board-trustworthy measurement."
@@ -872,7 +872,7 @@ export function RiskHeatMapSection() {
         rows={[
           ["Suzuki vehicle commitment delay", "Medium", "Medium", "No written confirmation by week two.", "Partnerships lead", "Activate three-sponsor fallback list and document mobility alternative."],
           ["NFVF grant cycle shift", "Medium", "High", "Funding calendar moves or application window narrows.", "Funding lead", "Prepare draft application pack in Q2 and maintain alternate funder list."],
-          ["SA Film Intense account targets missed", "Medium", "High", "Fewer than 5 employer accounts by Q1 gate.", "Commercial lead", "Direct outreach sprint to warm production relationships and SPV accountants."],
+          ["SA Film Interns account targets missed", "Medium", "High", "Fewer than 5 employer accounts by Q1 gate.", "Commercial lead", "Direct outreach sprint to warm production relationships and SPV accountants."],
           ["Chief Executive visibility disruption", "Low", "Medium", "No approved post, interview or speaking pitch in 30 days.", "Executive office", "Pre-produce content bank and delegate publication workflow."],
           ["B-BBEE or SDL interpretation shift", "Low", "High", "New guidance affects grant recovery or evidence rules.", "Compliance lead", "Quarterly check against SARS, SETA and B-BBEE Commission updates."],
           ["Data privacy or POPIA concern", "Low", "High", "Partner questions portal data handling before account activation.", "Portal owner", "Maintain privacy notice, consent flows and access controls before scale."],

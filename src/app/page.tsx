@@ -15,6 +15,10 @@ export default async function HomePage() {
   const heroTitle = cmsHome?.heroTitle ?? "SA Film Academy";
   const heroSubtitle = cmsHome?.heroSubtitle ?? "Talent Pipeline of the South African Screen";
   const heroImage = "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png";
+  const saFilmInternsUrl =
+    process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
+    process.env.NEXT_PUBLIC_CINETERNS_URL ||
+    'https://cineterns.vercel.app/';
 
   return (
     <main className="flex flex-col min-h-screen bg-bg">
@@ -35,12 +39,12 @@ export default async function HomePage() {
           </Link>
 
           <a
-            href={process.env.NEXT_PUBLIC_CINETERNS_URL || 'https://cineterns.vercel.app/'}
+            href={saFilmInternsUrl}
             target="_blank"
             rel="noreferrer"
             className="font-body text-xs font-semibold uppercase tracking-widest border border-gold text-gold px-8 py-4 hover:bg-gold hover:text-bg transition"
           >
-            Access SA Film Intense →
+            Access SA Film Interns →
           </a>
         </div>
       </PageHero>
@@ -58,14 +62,6 @@ export default async function HomePage() {
             <Reveal>
               <div className="space-y-4">
                 <h2 className="text-2xl font-display text-text">What is SA Film Academy?</h2>
-                <div className="my-4 float-right ml-6 w-44">
-                  <ImagePlaceholder
-                    src="/images/ai/foundation-org/trainees-live-production.webp"
-                    alt="Film training and production"
-                    brief="South African youth training in film production"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-lg leading-relaxed text-muted">
                   SA Film Academy is a 20-year-old non-profit organisation that trains South African youth for careers in film and digital media production, then places them directly into professional production roles with major studios and broadcasters.
                 </p>
@@ -74,14 +70,6 @@ export default async function HomePage() {
             <Reveal delay={0.1}>
               <div className="space-y-4">
                 <h3 className="text-sm uppercase tracking-widest text-gold font-semibold">Key Terms Explained</h3>
-                <div className="my-4 float-left mr-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/foundation-org/compliance-desk.webp"
-                    alt="Skills development and levy"
-                    brief="Skills training and government funding"
-                    orientation="portrait"
-                  />
-                </div>
                 <div className="space-y-3 text-sm">
                   <div className="grid gap-1 sm:flex sm:gap-4">
                     <span className="font-semibold text-gold min-w-fit">MICT SETA:</span>
@@ -257,7 +245,7 @@ export default async function HomePage() {
         <div className="absolute inset-0 z-0">
           <ImagePlaceholder
             src="/images/ai/safa-ai-hero.png"
-              alt="SA Film Intense Talent Portal"
+              alt="SA Film Interns Talent Portal"
             brief="Young Black creative professional using a laptop"
             orientation="video"
             className="w-full h-full opacity-40"
@@ -270,14 +258,14 @@ export default async function HomePage() {
             <span className="eyebrow mb-6 block">Live Platform</span>
             <WordReveal
               tag="h2"
-              text="Access the _SA Film Intense_ Portal."
+              text="Access the _SA Film Interns_ Portal."
               className="mb-8"
             />
             <p className="text-xl text-muted mb-10 leading-relaxed">
               Connect with over 500 MICT SETA-trained film and digital media professionals. Our AI-driven matching engine ensures the right talent for every production.
             </p>
             <a
-              href="https://cineterns.vercel.app/"
+              href={saFilmInternsUrl}
               target="_blank"
               rel="noreferrer"
               className="font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-10 py-5 hover:bg-gold-soft transition inline-block"

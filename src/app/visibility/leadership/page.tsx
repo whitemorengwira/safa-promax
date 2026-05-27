@@ -41,14 +41,6 @@ export default function Page() {
                     The single highest-leverage marketing asset SA Film Academy holds is the public visibility of the institution's Chief Executive. That is not a sentimental observation; it is a structural one. In a transformation-defined industry where credibility, lived experience, and authentic leadership determine which institutions are taken seriously by funders, by partners, and by international productions, the Academy's leadership is itself a brand instrument.
                   </p>
                 </div>
-                <div className="my-4 float-left mr-6 w-44">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-media-relations.png"
-                    alt="Media and industry relations"
-                    brief="Professional media and industry engagement"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   The South African film industry is currently seeing SA Film Academy led by a Black female executive with deep credentials and a measurable record of changing the industry's perception of the institution she now runs. That perception shift has already begun. Over the past year, more than 500 new professional connection requests have arrived through the Chief Executive's channels alone, with industry colleagues remarking — in keeping with the broader signal of the period — "Oh, are you at SA Film Academy now? Great. Great." The strategy now leverages that shift, deliberately and at pace.
                 </p>

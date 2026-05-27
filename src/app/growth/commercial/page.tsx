@@ -33,7 +33,7 @@ export default function Page() {
         eyebrow="10.1"
         title="The Skills Levy"
       >
-        <div className="mb-16">
+        <div className="mb-16 max-w-6xl mx-auto">
           <SkillsLevyFlow />
         </div>
 
@@ -45,14 +45,6 @@ export default function Page() {
                   <p className="drop-cap text-text/90 leading-relaxed">
                     The Skills Levy is a mandatory cost on every payroll above R500,000 a year. SAFA turns it into a strategic B-BBEE asset and a pipeline of skilled local talent. That is a sellable proposition the market is not currently hearing.
                   </p>
-                </div>
-                <div className="my-4 float-left mr-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/safa-bee-hero.png"
-                    alt="B-BBEE commercial advantage"
-                    brief="B-BBEE compliance and commercial strategy"
-                    orientation="portrait"
-                  />
                 </div>
                 <p className="text-text/80 leading-relaxed">
                   By facilitating the Work Skills Programme, SAFA helps production companies convert statutory skills spend into structured training evidence, relevant SETA grant pathways and B-BBEE skills development proof. This is the active alignment of commercial interest and social impact.

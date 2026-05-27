@@ -28,7 +28,7 @@ export function CalendarTimeline() {
       quarter: "Q1",
       name: "Foundation",
       months: "Jun–Aug 2026",
-      milestones: ["Brand audit", "SEO baseline", "SA Film Intense beta", "GreenSet co-brand"],
+      milestones: ["Brand audit", "SEO baseline", "SA Film Interns beta", "GreenSet co-brand"],
     },
     {
       quarter: "Q2",

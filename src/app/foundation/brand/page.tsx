@@ -7,7 +7,6 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
 
 export const metadata: Metadata = {
   title: '8 · Brand Architecture & Identity · SA Film Academy Strategy',
@@ -39,7 +38,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    The brand fragmentation problem is the central diagnostic. Five entities (SAFA, ACE, FILMGRO, GreenSet and SA Film Intense) exist independently but do not yet read as a coherent family. Each lives on its own URL with its own visual approach.
+                    The brand fragmentation problem is the central diagnostic. Five entities (SAFA, ACE, FILMGRO, GreenSet and SA Film Interns) exist independently but do not yet read as a coherent family. Each lives on its own URL with its own visual approach.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">

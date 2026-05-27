@@ -38,9 +38,9 @@ const risks: Risk[] = [
   },
   {
     id: 3,
-    title: "SA Film Intense Account Targets Missed",
+    title: "SA Film Interns Account Targets Missed",
     description:
-      "SA Film Intense production-company account targets may be missed at the Q1 2026 review, impacting revenue projections.",
+      "SA Film Interns production-company account targets may be missed at the Q1 2026 review, impacting revenue projections.",
     contingency:
       "Execute a direct outreach sprint to existing Blue Ice Africa and Film Afrika relationships to accelerate account growth.",
   },
@@ -132,14 +132,6 @@ export default function RiskPage() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="space-y-8">
-            <div className="my-4 float-left mr-6 w-40">
-              <ImagePlaceholder
-                  src="/images/ai/v2/delivery/risk-management.png"
-                alt="Risk review and governance"
-                brief="Executive team conducting risk review"
-                orientation="portrait"
-              />
-            </div>
             <Reveal>
               <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                 <h4 className="font-display text-lg font-bold text-gold mb-3 italic">

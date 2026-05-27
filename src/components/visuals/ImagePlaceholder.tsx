@@ -10,6 +10,10 @@ interface ImagePlaceholderProps {
   id?: string;
   orientation?: "landscape" | "portrait" | "square" | "video";
   className?: string;
+  fit?: "cover" | "contain";
+  objectPosition?: string;
+  motionSafe?: boolean;
+  safeHeadroom?: boolean;
 }
 
 /**
@@ -22,6 +26,10 @@ export function ImagePlaceholder({
   id,
   orientation = "landscape",
   className = "",
+  fit = "cover",
+  objectPosition,
+  motionSafe = true,
+  safeHeadroom = true,
 }: ImagePlaceholderProps) {
   void brief;
   void id;
@@ -41,13 +49,16 @@ export function ImagePlaceholder({
         className={`visual-fill relative ${ratioClass} w-full overflow-hidden bg-surface border border-line-strong flex items-center justify-center`}
       >
         {src ? (
-          <KenBurns>
+          <KenBurns enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>
             <Image
               src={src}
               alt={alt}
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 84vw, 70vw"
-              className="object-cover"
+              className={fit === "contain" ? "object-contain" : "object-cover"}
+              style={{
+                objectPosition: objectPosition ?? (safeHeadroom ? "center 28%" : "center center"),
+              }}
             />
           </KenBurns>
         ) : (

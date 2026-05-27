@@ -8,6 +8,7 @@ import {
 import "./globals.css";
 import { ServiceWorkerRegister } from '@/components/ServiceWorkerRegister';
 import { AppChrome } from "@/components/AppChrome";
+import { BackToTopButton } from "@/components/layout/BackToTopButton";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -94,6 +95,7 @@ export default function RootLayout({
         <AppChrome>
           {children}
         </AppChrome>
+        <BackToTopButton />
       </body>
     </html>
   );

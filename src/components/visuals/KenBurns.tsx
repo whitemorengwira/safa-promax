@@ -6,6 +6,8 @@ interface KenBurnsProps {
   children: ReactNode;
   variant?: "default" | "alt";
   className?: string;
+  enabled?: boolean;
+  safe?: boolean;
 }
 
 /**
@@ -23,10 +25,14 @@ export function KenBurns({
   children,
   variant = "default",
   className = "",
+  enabled = true,
+  safe = false,
 }: KenBurnsProps) {
   const baseClass = "ken-burns-frame w-full h-full";
   const variantClass = variant === "alt" ? "ken-burns-alt" : "";
-  const finalClass = `${baseClass} ${variantClass} ${className}`.trim();
+  const safeClass = safe ? "ken-burns-safe" : "";
+  const motionClass = enabled ? "" : "ken-burns-off";
+  const finalClass = `${baseClass} ${variantClass} ${safeClass} ${motionClass} ${className}`.trim();
 
   return <div className={finalClass}>{children}</div>;
 }

@@ -12,7 +12,10 @@ import { ArrowUpRight, LockKeyhole } from "lucide-react";
  * 3. Copyright Row: Archival meta details.
  */
 export function Footer() {
-  const cineternsUrl = process.env.NEXT_PUBLIC_CINETERNS_URL || "https://cineterns.vercel.app/";
+  const saFilmInternsUrl =
+    process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
+    process.env.NEXT_PUBLIC_CINETERNS_URL ||
+    "https://cineterns.vercel.app/";
 
   return (
     <footer className="border-t border-line bg-bg-deep pt-16 pb-12 select-none">
@@ -57,12 +60,12 @@ export function Footer() {
           <div className="flex flex-col gap-3">
             <span className="eyebrow text-[9px] block mb-1">Trainee Services</span>
             <a
-              href={cineternsUrl}
+              href={saFilmInternsUrl}
               target="_blank"
               rel="noopener"
               className="flex items-center gap-1 text-xs font-body text-muted hover:text-gold transition-colors w-fit border-b border-transparent hover:border-gold/30 pb-0.5"
             >
-              SA Film Intense Talent Portal
+              SA Film Interns Talent Portal
               <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
             </a>
             <Link

@@ -8,16 +8,21 @@ interface PathCard {
   title: string;
   subtext: string;
   cta: string;
-  href: string | null;
+  href: string | (() => string) | null;
   image: string;
 }
+
+const saFilmInternsUrl = () =>
+  process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
+  process.env.NEXT_PUBLIC_CINETERNS_URL ||
+  "https://cineterns.vercel.app/";
 
 const paths: PathCard[] = [
   {
     title: "Production Companies",
     subtext: "Access 3,000+ SETA-verified crew",
-    cta: "Browse SA Film Intense",
-    href: "https://cineterns.vercel.app/",
+    cta: "Browse SA Film Interns",
+    href: saFilmInternsUrl,
     image: "/images/ai/v2/homepage/production-companies.png",
   },
   {
@@ -48,7 +53,10 @@ export function StakeholderPaths() {
       </Reveal>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {paths.map((path, idx) => (
+        {paths.map((path, idx) => {
+          const href = typeof path.href === "function" ? path.href() : path.href;
+
+          return (
           <Reveal key={idx} delay={idx * 0.1}>
             <div className="relative group overflow-hidden rounded-none bg-surface border border-line hover:border-gold transition-colors duration-300">
               {/* Background image with Ken Burns */}
@@ -80,11 +88,11 @@ export function StakeholderPaths() {
                   </div>
 
                   {/* CTA Button */}
-                  {path.href ? (
+                  {href ? (
                     <Link
-                      href={path.href}
-                      target={path.href.startsWith("http") ? "_blank" : undefined}
-                      rel={path.href.startsWith("http") ? "noreferrer" : undefined}
+                      href={href}
+                      target={href.startsWith("http") ? "_blank" : undefined}
+                      rel={href.startsWith("http") ? "noreferrer" : undefined}
                       className="inline-block font-body text-xs font-semibold uppercase tracking-widest bg-gold text-bg px-6 py-3 hover:bg-gold-soft transition-colors duration-200 w-fit"
                     >
                       {path.cta} →
@@ -102,7 +110,8 @@ export function StakeholderPaths() {
               </div>
             </div>
           </Reveal>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

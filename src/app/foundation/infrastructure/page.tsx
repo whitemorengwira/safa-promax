@@ -6,8 +6,8 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
-import { CineternsPlacementFlow } from '@/components/diagrams/CineternsPlacementFlow';
+import { TechStackSimulation } from '@/components/diagrams/TechStackSimulation';
+import { PlacementPipelineFlow } from '@/components/diagrams/PlacementPipelineFlow';
 
 export const metadata: Metadata = {
   title: '4 · Digital Infrastructure · SA Film Academy Strategy',
@@ -34,56 +34,7 @@ export default function Page() {
         title="The Tech Stack"
       >
         <div className="mb-16">
-          <SvgStage label="Stack · Circuit Topology" aspect="wide">
-            <svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stopColor="#C9A84C" stopOpacity="0.8"/>
-                  <stop offset="100%" stopColor="#C9A84C" stopOpacity="0"/>
-                </radialGradient>
-              </defs>
-              <g stroke="#C9A84C" strokeOpacity="0.04" strokeWidth="0.5">
-                <line x1="0" y1="120" x2="1200" y2="120"/>
-                <line x1="0" y1="240" x2="1200" y2="240"/>
-                <line x1="0" y1="360" x2="1200" y2="360"/>
-              </g>
-              <g stroke="#C9A84C" strokeWidth="1.2" strokeOpacity="0.45" fill="none">
-                <path d="M 80 240 L 200 240 L 220 220 L 280 220"/>
-                <path d="M 350 220 L 430 220 L 450 240 L 510 240"/>
-                <path d="M 600 240 L 680 240 L 700 220 L 760 220"/>
-                <path d="M 580 270 L 700 360 L 760 360"/>
-                <path d="M 80 120 L 1140 120 L 1140 380 L 80 380 Z" strokeOpacity="0.2" strokeDasharray="6 4"/>
-                <path d="M 850 220 L 950 220 L 970 240 L 1040 240"/>
-                <path d="M 850 360 L 970 360 L 990 340 L 1040 280"/>
-              </g>
-              <circle r="3" fill="#E0C268">
-                <animateMotion dur="3s" repeatCount="indefinite" path="M 80 240 L 200 240 L 220 220 L 280 220 L 350 220 L 430 220 L 450 240 L 510 240"/>
-              </circle>
-              <circle r="2.5" fill="#E0C268">
-                <animateMotion dur="4s" repeatCount="indefinite" path="M 600 240 L 680 240 L 700 220 L 760 220 L 850 220 L 950 220 L 970 240 L 1040 240"/>
-              </circle>
-              <circle r="2.5" fill="#E0C268">
-                <animateMotion dur="3.5s" repeatCount="indefinite" path="M 580 270 L 700 360 L 760 360 L 850 360 L 970 360 L 990 340 L 1040 280"/>
-              </circle>
-                  <text x="600" y="106" textAnchor="middle" fill="#C9A84C" opacity="0.6" fontFamily="Outfit" fontSize="10" letterSpacing="4">CLOUDFLARE · WAF · CDN · DNS · BOT PROTECTION · POPIA-GRADE BOUNDARY</text>
-              <g>
-                <rect x="40" y="220" width="80" height="40" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
-                <text x="80" y="244" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="11" letterSpacing="1">BROWSER</text>
-                <text x="80" y="278" textAnchor="middle" fill="#E8E0D0" opacity="0.5" fontFamily="Outfit" fontSize="8">user</text>
-              </g>
-              <g>
-                <rect x="280" y="200" width="80" height="40" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
-                <text x="320" y="220" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="10" letterSpacing="1">VERCEL</text>
-                <text x="320" y="232" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="9" letterSpacing="1">EDGE</text>
-                <text x="320" y="258" textAnchor="middle" fill="#E8E0D0" opacity="0.5" fontFamily="Outfit" fontSize="8">&lt;100ms global</text>
-              </g>
-              <g>
-                <rect x="510" y="220" width="80" height="40" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
-                <text x="550" y="244" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="10" letterSpacing="1">NEXT.JS 16</text>
-                <text x="550" y="278" textAnchor="middle" fill="#E8E0D0" opacity="0.5" fontFamily="Outfit" fontSize="8">App Router · RSC</text>
-              </g>
-            </svg>
-          </SvgStage>
+          <TechStackSimulation />
         </div>
 
         <TwoColLayout
@@ -96,7 +47,7 @@ export default function Page() {
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the SA Film Intense portal and the Academy's digital presence. We build for the future, on the reality of today.
+                  This is not a theoretical plan. The core components of this infrastructure are already live and operational, providing the foundation for the SA Film Interns portal and the Academy's digital presence. We build for the future, on the reality of today.
                 </p>
                 <Reveal>
                   <div className="mt-10">
@@ -130,7 +81,7 @@ export default function Page() {
         className="bg-surface/20"
       >
         <div className="mb-16">
-          <CineternsPlacementFlow />
+          <PlacementPipelineFlow />
         </div>
       </SectionShell>
 
@@ -170,7 +121,7 @@ export default function Page() {
       {/* Talent Portal Section */}
       <SectionShell
         eyebrow="04.2"
-        title="The SA Film Intense Portal"
+        title="The SA Film Interns Portal"
       >
         <TwoColLayout
           flip
@@ -179,7 +130,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    SA Film Intense is the flagship digital product of the SA Film Academy. It serves as a comprehensive talent portal where 500+ trained professionals are indexed, matched, and connected with production opportunities.
+                    SA Film Interns is the flagship digital product of the SA Film Academy. It serves as a comprehensive talent portal where 500+ trained professionals are indexed, matched, and connected with production opportunities.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
@@ -190,8 +141,8 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/cineterns-interface.png"
-              alt="Production manager using the SA Film Intense interface"
+              src="/images/ai/v2/foundation/sa-film-interns-interface.png"
+              alt="Production manager using the SA Film Interns interface"
               brief="Over-the-shoulder of a Black South African production manager using a clean digital interface on a high-end monitor, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="landscape"
             />

@@ -6,7 +6,6 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
 import { CareerProgression } from '@/components/diagrams/CareerProgression';
 
 export const metadata: Metadata = {
@@ -52,10 +51,11 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/gen/community-engagement.png"
-                      alt="Community and alumni engagement"
-                      brief="Community and alumni engagement"
+                      src="/images/ai/v2/delivery-community/community-mesh-workshop.png"
+                      alt="Mixed-gender Black alumni and trainees in a mentorship workshop"
+                      brief="Mixed-gender Black alumni and trainees in a clean mentorship and community workshop setting"
                       orientation="landscape"
+                      safeHeadroom
                     />
                   </div>
                 </Reveal>
@@ -68,6 +68,7 @@ export default function Page() {
               alt="Tier 1 Intern"
               brief="Eager Black intern (19) on a professional film set, focused expression, cinematic lighting"
               orientation="landscape"
+              safeHeadroom
             />
           }
           visualRatio="70-30"
@@ -102,6 +103,7 @@ export default function Page() {
               alt="ACE Alumnus"
               brief="Confident Black director (28) on a professional film set, cinematic lighting"
               orientation="landscape"
+              safeHeadroom
             />
           }
           visualRatio="70-30"
@@ -131,10 +133,11 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/alumni-director.png"
-              alt="Alumni mentoring next generation"
-              brief="Senior alumnus mentoring younger professional on set in a cinematic production environment"
+              src="/images/ai/v2/delivery-community/graduate-to-mentor-woman.png"
+              alt="Black woman mentor guiding younger film trainees"
+              brief="Black 30-year-old woman mentor guiding younger film trainees on set"
               orientation="landscape"
+              safeHeadroom
             />
           }
           visualRatio="70-30"

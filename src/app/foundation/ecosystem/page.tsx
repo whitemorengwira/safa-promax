@@ -82,11 +82,11 @@ export default function Page() {
               </g>
               <line x1="840" y1="130" x2="700" y2="210" stroke="#C9A84C" strokeOpacity="0.4" strokeWidth="0.8" strokeDasharray="4 4"/>
 
-              {/* SA Film Intense block */}
+              {/* SA Film Interns block */}
               <g>
                 <rect x="820" y="320" width="260" height="100" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
                 <rect x="1074" y="320" width="6" height="100" fill="#8B1A1A"/>
-                <text x="950" y="352" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="17" fontWeight="600">SA Film Intense</text>
+                <text x="950" y="352" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="17" fontWeight="600">SA Film Interns</text>
                 <text x="950" y="380" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="13" fontStyle="italic">Digital Talent Portal</text>
                 <text x="950" y="402" textAnchor="middle" fill="#E8E0D0" opacity="0.55" fontFamily="Outfit" fontSize="9" letterSpacing="2">500+ PROFILES · AI MATCH</text>
               </g>
@@ -165,15 +165,15 @@ export default function Page() {
             <p className="text-sm text-text/70">Sustainability Subsidiary: Leading the industry toward eco-friendly production practices.</p>
           </div>
 
-          {/* SA Film Intense */}
+          {/* SA Film Interns */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/cineterns-portal.png"
-              alt="SA Film Intense digital talent portal"
+              src="/images/ai/v2/foundation/sa-film-interns-portal.png"
+              alt="SA Film Interns digital talent portal"
               brief="A high-end laptop screen showing a clean digital portal, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
               orientation="square"
             />
-            <h3 className="text-gold font-display italic text-xl">SA Film Intense</h3>
+            <h3 className="text-gold font-display italic text-xl">SA Film Interns</h3>
             <p className="text-sm text-text/70">Digital Talent Portal: Connecting 500+ trained professionals with production opportunities.</p>
           </div>
 

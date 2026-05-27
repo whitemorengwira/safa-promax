@@ -4,6 +4,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type {
   AdminSession,
   CmsAuditLogEntry,
+  CmsEditableSection,
   CmsMediaAsset,
   CmsPage,
   CmsPageWorkingCopy,
@@ -84,16 +85,55 @@ function pageTemplate(page: CmsPage): CmsPage["template"] {
   return "standard";
 }
 
+function defaultSections(page: CmsPage): CmsEditableSection[] {
+  return [
+    {
+      id: "overview",
+      label: "Overview",
+      eyebrow: page.category,
+      title: page.heroTitle,
+      body: page.summary,
+      image: page.image,
+      imageAlt: page.heroTitle,
+      locked: page.lockedImage,
+    },
+  ];
+}
+
+function sanitizeSections(current: CmsPage, updates: Partial<CmsPageWorkingCopy>) {
+  if (!updates.sections) return undefined;
+
+  const currentById = new Map((current.sections ?? defaultSections(current)).map((section) => [section.id, section]));
+
+  return updates.sections.map((section, index) => {
+    const existing = currentById.get(section.id);
+    return {
+      id: section.id || `section-${index + 1}`,
+      label: section.label || existing?.label || `Section ${index + 1}`,
+      eyebrow: section.eyebrow,
+      title: section.title || existing?.title || "Untitled section",
+      body: section.body || "",
+      image: existing?.locked ? existing.image : section.image,
+      imageAlt: section.imageAlt,
+      locked: existing?.locked ?? section.locked ?? false,
+    };
+  });
+}
+
 function normalizePage(page: CmsPage, index: number): CmsPage {
+  const sections = page.sections ?? defaultSections(page);
+
   return {
     ...page,
     navLabel: page.navLabel ?? page.title,
     visibleInNavigation: page.visibleInNavigation ?? true,
     sortOrder: page.sortOrder ?? index + 1,
     template: page.template ?? pageTemplate(page),
+    sections,
     workingCopy: page.workingCopy
       ? {
           ...page.workingCopy,
+          sections: page.workingCopy.sections ?? sections,
           updatedAt: page.workingCopy.updatedAt ?? page.updatedAt,
         }
       : undefined,
@@ -216,6 +256,7 @@ function sanitizePageUpdates(current: CmsPage, updates: Partial<CmsPageWorkingCo
     seoTitle: updates.seoTitle,
     seoDescription: updates.seoDescription,
     image: current.lockedImage ? current.image : updates.image,
+    sections: sanitizeSections(current, updates),
     updatedAt: now(),
   };
 
@@ -331,6 +372,17 @@ export async function createCmsPage(
       image: input.image || "/images/ai/home/hero-crew-night-set.webp",
       seoTitle: input.seoTitle || `${input.title} · SA Film Academy`,
       seoDescription: input.seoDescription || input.summary || "New CMS-managed page.",
+      sections: [
+        {
+          id: "overview",
+          label: "Overview",
+          eyebrow: input.category || "Custom",
+          title: input.heroTitle || input.title,
+          body: input.summary || "New CMS-managed page.",
+          image: input.image || "/images/ai/home/hero-crew-night-set.webp",
+          imageAlt: input.title,
+        },
+      ],
       updatedAt: now(),
       publishedAt: now(),
     },

@@ -33,7 +33,7 @@ export default function Page() {
         eyebrow="14.1"
         title="The Competitive Radar"
       >
-        <div className="mb-16 max-w-4xl mx-auto">
+        <div className="mb-16 max-w-6xl mx-auto">
           <PositioningRadar />
         </div>
 
@@ -110,7 +110,7 @@ export default function Page() {
           <Reveal delay={0.5}>
             <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm h-full">
               <h3 className="text-gold font-display italic text-xl mb-4">Digital Infrastructure</h3>
-              <p className="text-sm text-text/70 leading-relaxed">The SA Film Intense portal provides a demonstrable, tech-forward solution for talent management.</p>
+              <p className="text-sm text-text/70 leading-relaxed">The SA Film Interns portal provides a demonstrable, tech-forward solution for talent management.</p>
             </div>
           </Reveal>
           <Reveal delay={0.6}>

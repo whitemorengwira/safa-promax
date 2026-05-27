@@ -28,7 +28,7 @@ export function SkillsLevyFlow() {
       <svg
         ref={svgRef}
         viewBox="0 0 1000 300"
-        className="w-full max-w-4xl"
+        className="w-full max-w-5xl"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid meet"
       >

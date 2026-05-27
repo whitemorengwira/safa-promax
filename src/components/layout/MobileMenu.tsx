@@ -10,7 +10,7 @@ import { strategySections } from "@/data/nav";
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
-  cineternsUrl: string;
+  saFilmInternsUrl: string;
 }
 
 /**
@@ -20,7 +20,7 @@ interface MobileMenuProps {
  * - Enforces minimum 44px tap targets for premium accessibility.
  * - Integrates all page routes, strategy indices, and the talent portal CTA.
  */
-export function MobileMenu({ isOpen, onClose, cineternsUrl }: MobileMenuProps) {
+export function MobileMenu({ isOpen, onClose, saFilmInternsUrl }: MobileMenuProps) {
   const pathname = usePathname();
 
   // Prevent background scroll when menu is active
@@ -125,7 +125,7 @@ export function MobileMenu({ isOpen, onClose, cineternsUrl }: MobileMenuProps) {
             {/* Bottom talent portal CTA */}
             <div className="mt-auto pt-6 border-t border-line">
               <a
-                href={cineternsUrl}
+                href={saFilmInternsUrl}
                 target="_blank"
                 rel="noopener"
                 className="w-full min-h-[46px] flex items-center justify-center font-body text-[11px] font-semibold tracking-[3px] uppercase text-bg bg-gold hover:bg-transparent hover:text-gold border border-gold transition-colors duration-300"

@@ -63,7 +63,7 @@ export function PositioningRadar() {
       <svg
         ref={svgRef}
         viewBox="0 0 800 600"
-        className="w-full max-w-2xl"
+        className="w-full max-w-5xl"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid meet"
       >
@@ -171,7 +171,7 @@ export function PositioningRadar() {
               textAnchor="middle"
               fill="#C9A84C"
               fontFamily="Outfit"
-              fontSize="9"
+              fontSize="11"
               letterSpacing="0.5"
               style={{ textTransform: "uppercase" }}
               opacity="0"

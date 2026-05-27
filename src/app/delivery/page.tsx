@@ -63,14 +63,6 @@ export default function DeliveryLanding() {
         title="Explore the Delivery Sections"
         subtitle="Select a section below to dive into the results and implementation strategy."
       >
-        <div className="my-4 float-right ml-6 w-44 mb-8">
-          <ImagePlaceholder
-            src="/images/ai/v2/delivery/data-dashboard.png"
-            alt="Delivery results and implementation"
-            brief="Measurable results and delivery outcomes"
-            orientation="portrait"
-          />
-        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {SUB_PAGES.map((page) => (
             <Link 

@@ -57,14 +57,6 @@ export default function VisibilityLanding() {
         title="Explore the Visibility Sections"
         subtitle="Select a section below to dive into the market presence strategy."
       >
-        <div className="my-4 float-left mr-6 w-44 mb-8">
-          <ImagePlaceholder
-            src="/images/ai/visibility-content/social-media-wall.webp"
-            alt="Market visibility and presence"
-            brief="Market visibility and brand presence"
-            orientation="portrait"
-          />
-        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {SUB_PAGES.map((page) => (
             <Link 

@@ -23,7 +23,7 @@ import {
   Undo2,
   Wrench,
 } from "lucide-react";
-import type { AdminSession, CmsMediaAsset, CmsPage, CmsPageWorkingCopy, ContentStore } from "@/lib/admin/types";
+import type { AdminSession, CmsEditableSection, CmsMediaAsset, CmsPage, CmsPageWorkingCopy, ContentStore } from "@/lib/admin/types";
 import { canEdit, canPublish } from "@/lib/admin/permissions";
 
 type ToolId = "add" | "sections" | "pages" | "theme" | "media" | "settings" | "help";
@@ -41,6 +41,19 @@ const tools: Array<{ id: ToolId; label: string; icon: typeof Plus }> = [
 
 function editableState(page: CmsPage) {
   const working = page.workingCopy ?? {};
+  const sections = working.sections ?? page.sections ?? [
+    {
+      id: "overview",
+      label: "Overview",
+      eyebrow: page.category,
+      title: page.heroTitle,
+      body: page.summary,
+      image: page.image,
+      imageAlt: page.heroTitle,
+      locked: page.lockedImage,
+    },
+  ];
+
   return {
     title: working.title ?? page.title,
     navLabel: working.navLabel ?? page.navLabel ?? page.title,
@@ -55,6 +68,7 @@ function editableState(page: CmsPage) {
     image: working.image ?? page.image,
     seoTitle: working.seoTitle ?? page.seoTitle,
     seoDescription: working.seoDescription ?? page.seoDescription,
+    sections,
   } satisfies CmsPageWorkingCopy & {
     title: string;
     navLabel: string;
@@ -69,6 +83,7 @@ function editableState(page: CmsPage) {
     image: string;
     seoTitle: string;
     seoDescription: string;
+    sections: CmsEditableSection[];
   };
 }
 
@@ -90,6 +105,7 @@ export function SiteEditor({
   const [activeTool, setActiveTool] = useState<ToolId>("sections");
   const [viewport, setViewport] = useState<Viewport>("desktop");
   const [form, setForm] = useState(editableState(page));
+  const [selectedSectionId, setSelectedSectionId] = useState(() => editableState(page).sections[0]?.id ?? "hero");
   const [status, setStatus] = useState(page.workingCopy ? "Saved working copy loaded." : "");
   const [saving, setSaving] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(true);
@@ -117,10 +133,51 @@ export function SiteEditor({
     width: "100%",
     height: "calc(100vh - 170px)",
   };
-  const selectedImageLocked = page.lockedImage;
+  const selectedSection = form.sections.find((section) => section.id === selectedSectionId) ?? null;
+  const selectedImageLocked = selectedSection ? Boolean(selectedSection.locked) : page.lockedImage;
+  const activeImageValue = selectedSection ? selectedSection.image ?? "" : form.image;
 
   function updateField<K extends keyof typeof form>(field: K, value: (typeof form)[K]) {
     setForm((current) => ({ ...current, [field]: value }));
+  }
+
+  function updateSectionField<K extends keyof CmsEditableSection>(field: K, value: CmsEditableSection[K]) {
+    setForm((current) => ({
+      ...current,
+      sections: current.sections.map((section) =>
+        section.id === selectedSectionId ? { ...section, [field]: value } : section,
+      ),
+    }));
+  }
+
+  function addSection() {
+    const id = `section-${Date.now()}`;
+    setForm((current) => ({
+      ...current,
+      sections: [
+        ...current.sections,
+        {
+          id,
+          label: "New Section",
+          eyebrow: current.category,
+          title: "New editable section",
+          body: "Add section copy here.",
+          image: current.image,
+          imageAlt: "SA Film Academy section image",
+        },
+      ],
+    }));
+    setSelectedSectionId(id);
+    setActiveTool("sections");
+    setDrawerOpen(true);
+  }
+
+  function setActiveImage(url: string) {
+    if (selectedSection) {
+      updateSectionField("image", url);
+    } else {
+      updateField("image", url);
+    }
   }
 
   async function saveWorkingCopy() {
@@ -196,8 +253,14 @@ export function SiteEditor({
       return;
     }
 
-    setStatus("Media uploaded. Refreshing the media drawer.");
-    window.location.reload();
+    if (payload?.asset?.type === "image" && payload.asset.url) {
+      setActiveImage(payload.asset.url);
+      setStatus("Media uploaded and selected for the active image field. Save draft to keep it.");
+      setActiveTool("sections");
+      return;
+    }
+
+    setStatus("Media uploaded. Refresh to see it in the media drawer.");
   }
 
   async function logout() {
@@ -230,13 +293,20 @@ export function SiteEditor({
             pages={filteredPages}
             media={media}
             form={form}
+            selectedSection={selectedSection}
+            selectedSectionId={selectedSectionId}
             search={search}
             editable={editable}
             selectedImageLocked={selectedImageLocked}
+            activeImageValue={activeImageValue}
             fileInputRef={fileInputRef}
             onSearch={setSearch}
             onClose={() => setDrawerOpen(false)}
             onChange={updateField}
+            onSectionSelect={setSelectedSectionId}
+            onSectionChange={updateSectionField}
+            onAddSection={addSection}
+            onSetActiveImage={setActiveImage}
             onCreatePage={createPage}
             onUploadMedia={uploadMedia}
           />
@@ -306,11 +376,13 @@ export function SiteEditor({
         <Inspector
           page={page}
           form={form}
+          selectedSection={selectedSection}
           siteSettings={siteSettings}
           user={user}
           editable={editable}
           selectedImageLocked={selectedImageLocked}
           onChange={updateField}
+          onSectionChange={updateSectionField}
           onSave={saveWorkingCopy}
           onPublish={publishNow}
           onLogout={logout}
@@ -360,7 +432,7 @@ function EditorTopBar({
             onClick={onSave}
             className="font-semibold text-[#2f19e6] disabled:opacity-40"
           >
-            Save
+            Save draft
           </button>
           <Link href={`/admin/preview/${page.slug}`} target="_blank" className="font-semibold text-[#2f19e6]">
             Preview
@@ -465,13 +537,20 @@ function ToolDrawer({
   pages,
   media,
   form,
+  selectedSection,
+  selectedSectionId,
   search,
   editable,
   selectedImageLocked,
+  activeImageValue,
   fileInputRef,
   onSearch,
   onClose,
   onChange,
+  onSectionSelect,
+  onSectionChange,
+  onAddSection,
+  onSetActiveImage,
   onCreatePage,
   onUploadMedia,
 }: {
@@ -480,13 +559,20 @@ function ToolDrawer({
   pages: CmsPage[];
   media: CmsMediaAsset[];
   form: ReturnType<typeof editableState>;
+  selectedSection: CmsEditableSection | null;
+  selectedSectionId: string;
   search: string;
   editable: boolean;
   selectedImageLocked: boolean;
+  activeImageValue: string;
   fileInputRef: React.RefObject<HTMLInputElement | null>;
   onSearch: (value: string) => void;
   onClose: () => void;
   onChange: <K extends keyof ReturnType<typeof editableState>>(field: K, value: ReturnType<typeof editableState>[K]) => void;
+  onSectionSelect: (id: string) => void;
+  onSectionChange: <K extends keyof CmsEditableSection>(field: K, value: CmsEditableSection[K]) => void;
+  onAddSection: () => void;
+  onSetActiveImage: (url: string) => void;
   onCreatePage: (formData: FormData) => void;
   onUploadMedia: (formData: FormData) => void;
 }) {
@@ -551,13 +637,67 @@ function ToolDrawer({
               <TextArea label="Page summary" value={form.summary} disabled={!editable} onChange={(value) => onChange("summary", value)} />
             </Panel>
             <Panel title="Hero Media">
-              <TextInput label="Image URL" value={form.image} disabled={!editable || selectedImageLocked} onChange={(value) => onChange("image", value)} />
-              {selectedImageLocked && (
+              <TextInput label="Image URL" value={form.image} disabled={!editable || page.lockedImage} onChange={(value) => onChange("image", value)} />
+              {page.lockedImage && (
                 <p className="rounded-sm bg-[#fff8e1] px-3 py-2 text-xs text-[#7a4d00]">
                   This hero image is locked by the finishing mandate.
                 </p>
               )}
             </Panel>
+            <Panel title="Editable Sections">
+              <div className="space-y-2">
+                <button
+                  type="button"
+                  onClick={() => onSectionSelect("hero")}
+                  className={`w-full rounded-sm border px-3 py-3 text-left text-sm ${
+                    selectedSectionId === "hero" ? "border-[#1769ff] bg-[#eaf1ff]" : "border-black/10"
+                  }`}
+                >
+                  <span className="block font-bold">Hero image slot</span>
+                  <span className="block truncate text-xs text-[#667085]">{form.image}</span>
+                </button>
+                {form.sections.map((section) => (
+                  <button
+                    key={section.id}
+                    type="button"
+                    onClick={() => onSectionSelect(section.id)}
+                    className={`w-full rounded-sm border px-3 py-3 text-left text-sm ${
+                      selectedSectionId === section.id ? "border-[#1769ff] bg-[#eaf1ff]" : "border-black/10"
+                    }`}
+                  >
+                    <span className="flex items-center justify-between gap-2 font-bold">
+                      {section.label}
+                      {section.locked && <Lock className="h-3.5 w-3.5 text-[#7a4d00]" />}
+                    </span>
+                    <span className="block truncate text-xs text-[#667085]">{section.title}</span>
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                onClick={onAddSection}
+                disabled={!editable}
+                className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-sm border border-black/10 px-4 py-3 text-sm font-bold disabled:opacity-40"
+              >
+                <Plus className="h-4 w-4" />
+                Add section
+              </button>
+            </Panel>
+            {selectedSection && (
+              <Panel title="Selected Section">
+                <TextInput label="Section label" value={selectedSection.label} disabled={!editable} onChange={(value) => onSectionChange("label", value)} />
+                <TextInput label="Eyebrow" value={selectedSection.eyebrow ?? ""} disabled={!editable} onChange={(value) => onSectionChange("eyebrow", value)} />
+                <TextInput label="Heading" value={selectedSection.title} disabled={!editable} onChange={(value) => onSectionChange("title", value)} />
+                <TextArea label="Body copy" value={selectedSection.body} disabled={!editable} onChange={(value) => onSectionChange("body", value)} />
+                <TextInput
+                  label="Image URL"
+                  value={selectedSection.image ?? ""}
+                  disabled={!editable || Boolean(selectedSection.locked)}
+                  onChange={(value) => onSectionChange("image", value)}
+                />
+                <TextInput label="Image alt text" value={selectedSection.imageAlt ?? ""} disabled={!editable} onChange={(value) => onSectionChange("imageAlt", value)} />
+              </Panel>
+            )}
           </>
         )}
 
@@ -574,21 +714,25 @@ function ToolDrawer({
                 </button>
               </form>
             </Panel>
-            <Panel title="Select Asset">
+            <Panel title="Media Library">
               <div className="grid grid-cols-2 gap-3">
                 {media.map((asset) => (
                   <button
                     key={asset.id}
                     type="button"
                     disabled={!editable || selectedImageLocked || asset.type !== "image"}
-                    onClick={() => onChange("image", asset.url)}
+                    onClick={() => onSetActiveImage(asset.url)}
                     className="overflow-hidden rounded-sm border border-black/10 bg-[#f8fafc] text-left disabled:opacity-50"
                   >
                     <div className="relative aspect-[4/3] bg-[#e9e9ed]">
                       {asset.type === "image" && <img src={asset.url} alt={asset.title} className="h-full w-full object-cover" />}
                       {asset.locked && <Lock className="absolute right-2 top-2 h-4 w-4 rounded-full bg-white p-0.5" />}
                     </div>
-                    <span className="block truncate px-2 py-2 text-xs font-semibold">{asset.title}</span>
+                    <span className="block truncate px-2 pt-2 text-xs font-semibold">{asset.title}</span>
+                    <span className="block truncate px-2 pb-2 text-[10px] text-[#667085]">
+                      {(asset.tags ?? []).join(", ") || asset.source}
+                    </span>
+                    {asset.url === activeImageValue && <span className="block px-2 pb-2 text-[10px] font-bold uppercase tracking-wider text-[#1769ff]">Selected</span>}
                   </button>
                 ))}
               </div>
@@ -649,22 +793,26 @@ function ToolDrawer({
 function Inspector({
   page,
   form,
+  selectedSection,
   siteSettings,
   user,
   editable,
   selectedImageLocked,
   onChange,
+  onSectionChange,
   onSave,
   onPublish,
   onLogout,
 }: {
   page: CmsPage;
   form: ReturnType<typeof editableState>;
+  selectedSection: CmsEditableSection | null;
   siteSettings: ContentStore["siteSettings"];
   user: AdminSession;
   editable: boolean;
   selectedImageLocked: boolean;
   onChange: <K extends keyof ReturnType<typeof editableState>>(field: K, value: ReturnType<typeof editableState>[K]) => void;
+  onSectionChange: <K extends keyof CmsEditableSection>(field: K, value: CmsEditableSection[K]) => void;
   onSave: () => void;
   onPublish: () => void;
   onLogout: () => void;
@@ -681,7 +829,15 @@ function Inspector({
           <TextInput label="Page title" value={form.title} disabled={!editable} onChange={(value) => onChange("title", value)} />
           <TextInput label="Hero headline" value={form.heroTitle} disabled={!editable} onChange={(value) => onChange("heroTitle", value)} />
           <TextArea label="Summary" value={form.summary} disabled={!editable} onChange={(value) => onChange("summary", value)} />
-          <TextInput label="Image" value={form.image} disabled={!editable || selectedImageLocked} onChange={(value) => onChange("image", value)} />
+          {selectedSection ? (
+            <>
+              <TextInput label="Section heading" value={selectedSection.title} disabled={!editable} onChange={(value) => onSectionChange("title", value)} />
+              <TextArea label="Section body" value={selectedSection.body} disabled={!editable} onChange={(value) => onSectionChange("body", value)} />
+              <TextInput label="Section image" value={selectedSection.image ?? ""} disabled={!editable || selectedImageLocked} onChange={(value) => onSectionChange("image", value)} />
+            </>
+          ) : (
+            <TextInput label="Hero image" value={form.image} disabled={!editable || selectedImageLocked} onChange={(value) => onChange("image", value)} />
+          )}
         </Panel>
 
         <Panel title="Status">
@@ -697,7 +853,7 @@ function Inspector({
         <div className="grid grid-cols-2 gap-3">
           <button type="button" onClick={onSave} className="inline-flex items-center justify-center gap-2 rounded-sm border border-black/10 px-4 py-3 text-sm font-bold">
             <Save className="h-4 w-4" />
-            Save
+            Save draft
           </button>
           <button type="button" onClick={onPublish} className="rounded-sm bg-[#1769ff] px-4 py-3 text-sm font-bold text-white">
             Publish

@@ -5,6 +5,7 @@ export function mergeCmsPage(page: CmsPage, workingCopy?: CmsPageWorkingCopy) {
   return {
     ...page,
     ...(workingCopy ?? {}),
+    sections: workingCopy?.sections ?? page.sections,
   };
 }
 
@@ -59,6 +60,30 @@ export function CmsRenderedPage({
           </div>
         )}
       </section>
+
+      {(page.sections ?? []).map((section, index) => (
+        <section
+          key={section.id}
+          className={`section-padding ${index % 2 === 0 ? "bg-bg" : "bg-surface/20"}`}
+        >
+          <div className="container-max grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+            <div className="space-y-5">
+              {section.eyebrow && <p className="eyebrow">{section.eyebrow}</p>}
+              <h2 className="font-display text-4xl font-black text-text md:text-5xl">{section.title}</h2>
+              <p className="max-w-2xl text-lg leading-relaxed text-muted">{section.body}</p>
+            </div>
+            {section.image && (
+              <div className="relative aspect-video overflow-hidden border border-line bg-surface shadow-[0_24px_70px_rgba(0,0,0,0.35)]">
+                <img
+                  src={section.image}
+                  alt={section.imageAlt || section.title}
+                  className="h-full w-full object-cover object-[center_28%]"
+                />
+              </div>
+            )}
+          </div>
+        </section>
+      ))}
     </main>
   );
 }

@@ -33,7 +33,7 @@ const MEGA_PANELS: Record<string, MegaPanel> = {
       {
         title: 'Digital Infrastructure',
         href: '/foundation/infrastructure',
-        description: 'SA Film Intense and the presentation engine',
+        description: 'SA Film Interns and the presentation engine',
       },
       {
         title: 'Brand Architecture',
@@ -140,6 +140,10 @@ export default function MegaNavbar() {
   const [activePanel, setActivePanel] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const saFilmInternsUrl =
+    process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
+    process.env.NEXT_PUBLIC_CINETERNS_URL ||
+    'https://cineterns.vercel.app/';
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -264,12 +268,12 @@ export default function MegaNavbar() {
 
         {/* Right CTA */}
         <a
-          href="https://cineterns.vercel.app/"
+          href={saFilmInternsUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-3 py-1 bg-red-600 text-white font-black text-[9px] tracking-widest uppercase hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
+          className="px-3 py-1 bg-red-600 text-white font-black text-[9px] tracking-widest hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
         >
-          SA FILM INTENSE
+          SA Film Interns
         </a>
       </nav>
 
@@ -350,12 +354,12 @@ export default function MegaNavbar() {
                 CONTACT
               </Link>
               <a
-                href="https://cineterns.vercel.app/"
+                href={saFilmInternsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block px-6 py-4 bg-red-600 text-white font-black text-sm tracking-widest uppercase rounded text-center shadow-lg shadow-red-600/20"
+                className="block px-6 py-4 bg-red-600 text-white font-black text-sm tracking-widest rounded text-center shadow-lg shadow-red-600/20"
               >
-                SA FILM INTENSE
+                SA Film Interns
               </a>
             </div>
           </div>

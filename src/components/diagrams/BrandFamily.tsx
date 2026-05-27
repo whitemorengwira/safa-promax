@@ -50,7 +50,7 @@ export function BrandFamily() {
           { y: 110, label: 'ACE', sub: 'Alumni' },
           { y: 180, label: 'FILMGRO', sub: 'Driving' },
           { y: 250, label: 'GreenSet', sub: 'Sustainability' },
-          { y: 320, label: 'SA Film Intense', sub: 'Portal' },
+          { y: 320, label: 'SA Film Interns', sub: 'Portal' },
         ].map((brand, idx) => (
           <g key={idx}>
             {/* Gold accent bar on left */}

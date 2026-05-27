@@ -97,14 +97,6 @@ export default function Page() {
                     A measurable, twelve-month KPI architecture with named baselines and named targets, designed to be reported quarterly to the Academy's executive and stakeholders.
                   </p>
                 </div>
-                <div className="my-4 float-right ml-6 w-40">
-                  <ImagePlaceholder
-                    src="/images/ai/v2/delivery/data-dashboard.png"
-                    alt="KPI measurement and metrics"
-                    brief="Performance metrics and KPI tracking"
-                    orientation="portrait"
-                  />
-                </div>
                 <p className="text-text/80 leading-relaxed">
                   This dashboard makes trade-offs visible rather than hidden, allowing for data-driven decision making and clear accountability across all strategic pillars.
                 </p>
@@ -136,7 +128,7 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="text-text/90 leading-relaxed">
-                    Our measurement framework is built on verifiable data points, from SA Film Intense registrations to placement events and digital engagement metrics.
+                    Our measurement framework is built on verifiable data points, from SA Film Interns registrations to placement events and digital engagement metrics.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
@@ -147,10 +139,11 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/cineterns-monitor.png"
-              alt="SA Film Intense portal profiles on a high-end monitor"
-              brief="SA Film Intense portal profiles on a high-end monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v2/delivery-kpis/measurement-framework.png"
+              alt="Black operations and data team reviewing a KPI measurement framework"
+              brief="Black operations and data team reviewing a KPI measurement framework"
               orientation="landscape"
+              safeHeadroom
             />
           }
           visualRatio="70-30"
@@ -180,10 +173,11 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/data-dashboard.png"
-              alt="KPI monitoring dashboard"
-              brief="Real-time data dashboard with KPI metrics, analytics, and performance indicators"
+              src="/images/ai/v2/delivery-kpis/realtime-kpi-tracking.png"
+              alt="Black operations lead monitoring live KPIs on screen and tablet"
+              brief="Black operations lead monitoring live KPIs on screen and tablet"
               orientation="landscape"
+              safeHeadroom
             />
           }
           visualRatio="70-30"

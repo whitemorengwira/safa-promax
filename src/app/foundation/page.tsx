@@ -27,7 +27,7 @@ const SUB_PAGES = [
   {
     title: 'Digital Infrastructure',
     href: '/foundation/infrastructure',
-    description: 'The SA Film Intense portal and the proprietary digital presentation engine.',
+    description: 'The SA Film Interns portal and the proprietary digital presentation engine.',
     image: '/images/ai/v2/foundation/infra-hero.png'
   },
   {
@@ -57,14 +57,6 @@ export default function FoundationLanding() {
         title="Explore the Foundation Sections"
         subtitle="Select a section below to dive into the structural strategy."
       >
-        <div className="my-4 float-left mr-6 w-44 mb-8">
-          <ImagePlaceholder
-            src="/images/ai/foundation-ecosystem/production-hub-interior.webp"
-            alt="Foundation structure and organisation"
-            brief="Organisational structure and foundation"
-            orientation="portrait"
-          />
-        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           {SUB_PAGES.map((page) => (
             <Link 
