@@ -2,6 +2,7 @@ import Link from "next/link";
 import { AdminShell } from "@/components/admin/AdminShell";
 import { requireAdminSession } from "@/lib/admin/auth";
 import { getContentStore } from "@/lib/admin/content-store";
+import { isSuperAdmin } from "@/lib/admin/permissions";
 
 export default async function AdminDashboardPage() {
   const user = await requireAdminSession();
@@ -53,6 +54,11 @@ export default async function AdminDashboardPage() {
             <p className="mt-3 text-sm leading-relaxed text-muted">
               Editors save drafts and preview. Super admins publish, restore original content, and manage access.
             </p>
+            {isSuperAdmin(user.role) && (
+              <Link href="/admin/super-admin" className="mt-5 inline-flex bg-gold px-4 py-3 text-xs font-black uppercase tracking-widest text-bg">
+                Open Super Admin Portal
+              </Link>
+            )}
           </section>
           <section className="border border-white/10 bg-surface/40 p-6">
             <p className="text-[10px] uppercase tracking-widest text-gold">Latest Activity</p>

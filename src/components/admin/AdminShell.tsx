@@ -21,6 +21,7 @@ import { isSuperAdmin } from "@/lib/admin/permissions";
 
 const navItems = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/admin/super-admin", label: "Super Admin", icon: ShieldCheck, superAdminOnly: true },
   { href: "/admin/pages", label: "Pages", icon: FileText },
   { href: "/admin", label: "Edit Site", icon: CheckCircle2 },
   { href: "/admin/media", label: "Media", icon: Images },
