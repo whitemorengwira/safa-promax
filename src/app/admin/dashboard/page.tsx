@@ -25,7 +25,7 @@ export default async function AdminDashboardPage() {
               <p className="text-[10px] uppercase tracking-widest text-gold">Route Health</p>
               <h3 className="mt-1 text-2xl font-black text-white">Editable public pages</h3>
             </div>
-            <Link href="/admin/editor" className="bg-gold px-4 py-3 text-xs font-black uppercase tracking-widest text-bg">
+            <Link href="/admin" className="bg-gold px-4 py-3 text-xs font-black uppercase tracking-widest text-bg">
               Edit Site
             </Link>
           </div>
@@ -33,7 +33,7 @@ export default async function AdminDashboardPage() {
             {store.pages.slice(0, 10).map((page) => (
               <Link
                 key={page.slug}
-                href={`/admin/editor/${page.slug}`}
+                href="/admin"
                 className="border border-white/10 bg-bg/55 p-4 transition hover:border-gold/60"
               >
                 <div className="flex items-center justify-between gap-3">

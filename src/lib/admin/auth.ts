@@ -4,7 +4,8 @@ import crypto from "crypto";
 import { createClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import type { AdminRole, AdminSession } from "./types";
+import { getContentStore, saveContentStore } from "./content-store";
+import type { AdminRole, AdminSession, AdminUser } from "./types";
 
 export const ADMIN_COOKIE = "safa_admin_session";
 
@@ -44,7 +45,11 @@ function decodeSession(value: string): AdminSession | null {
 
 function normalizeRole(role: unknown, email: string): AdminRole | null {
   const value = String(role ?? "").trim().toLowerCase().replace(/-/g, "_");
-  if (value === "super_admin" || value === "editor") return value;
+  if (value === "super_admin") return "super_admin";
+  if (value === "super-admin") return "super-admin";
+  if (value === "editor" || value === "admin" || value === "approver" || value === "viewer") {
+    return value as AdminRole;
+  }
 
   const bootstrapEmail = process.env.SAFA_ADMIN_EMAIL || process.env.ADMIN_EMAIL;
   if (bootstrapEmail && email.toLowerCase() === bootstrapEmail.toLowerCase()) {
@@ -133,6 +138,35 @@ function localSession(email: string): AdminSession {
   };
 }
 
+function normalizeEmail(email: string) {
+  return email.toLowerCase().trim();
+}
+
+function sessionFromStoredUser(user: Pick<AdminUser, "id" | "email" | "name" | "role" | "status">): AdminSession {
+  return {
+    id: user.id,
+    email: user.email,
+    name: user.name,
+    role: user.role,
+    status: user.status,
+    issuedAt: Date.now(),
+    provider: "local",
+  };
+}
+
+function buildBootstrapAdmin(adminEmail: string): AdminUser {
+  const now = new Date().toISOString();
+  return {
+    id: `user-${Date.now()}`,
+    email: adminEmail,
+    name: process.env.SAFA_ADMIN_NAME || "SAFA Admin",
+    role: "super-admin",
+    status: "active",
+    createdAt: now,
+    approvedAt: now,
+  };
+}
+
 async function authenticateSupabaseAdmin(email: string, password: string) {
   const client = supabaseBrowserAuthClient();
   if (!client) return null;
@@ -161,7 +195,47 @@ async function authenticateLocalBootstrap(email: string, password: string) {
   const passwordHash = process.env.SAFA_ADMIN_PASSWORD_HASH;
   const plainPassword = process.env.SAFA_ADMIN_PASSWORD;
 
-  if (!adminEmail || email.toLowerCase().trim() !== adminEmail.toLowerCase().trim()) return null;
+  if (!adminEmail || normalizeEmail(email) !== normalizeEmail(adminEmail)) return null;
+  const passwordMatches =
+    Boolean(passwordHash && verifyPasswordHash(password, passwordHash)) ||
+    Boolean(plainPassword && verifyPlainPassword(password, plainPassword));
+  if (!passwordMatches) return null;
+
+  const store = await getContentStore();
+  const existing = store.users.find((user) => normalizeEmail(user.email) === normalizeEmail(adminEmail));
+  const user = existing ?? buildBootstrapAdmin(adminEmail);
+
+  if (!existing) {
+    store.users.push(user);
+    store.auditLog.unshift({
+      id: `admin-bootstrap-${Date.now()}`,
+      action: "admin_bootstrap",
+      actor: adminEmail,
+      summary: "Environment admin user created and approved.",
+      createdAt: new Date().toISOString(),
+    });
+    await saveContentStore(store);
+  }
+
+  return sessionFromStoredUser(user);
+}
+
+async function authenticateStoredAdmin(email: string, password: string) {
+  const store = await getContentStore();
+  const user = store.users.find((item) => normalizeEmail(item.email) === normalizeEmail(email));
+
+  if (!user || user.status !== "active" || !user.passwordHash) return null;
+  if (!verifyPasswordHash(password, user.passwordHash)) return null;
+
+  return sessionFromStoredUser(user);
+}
+
+async function authenticateLegacyLocalBootstrap(email: string, password: string) {
+  const adminEmail = process.env.SAFA_ADMIN_EMAIL || process.env.ADMIN_EMAIL;
+  const passwordHash = process.env.SAFA_ADMIN_PASSWORD_HASH;
+  const plainPassword = process.env.SAFA_ADMIN_PASSWORD;
+
+  if (!adminEmail || normalizeEmail(email) !== normalizeEmail(adminEmail)) return null;
   if (passwordHash && verifyPasswordHash(password, passwordHash)) return localSession(adminEmail);
   if (plainPassword && verifyPlainPassword(password, plainPassword)) return localSession(adminEmail);
   return null;
@@ -171,7 +245,13 @@ export async function authenticateAdmin(email: string, password: string) {
   const supabaseSession = await authenticateSupabaseAdmin(email, password);
   if (supabaseSession) return supabaseSession;
 
-  return authenticateLocalBootstrap(email, password);
+  const environmentSession = await authenticateLocalBootstrap(email, password);
+  if (environmentSession) return environmentSession;
+
+  const storedSession = await authenticateStoredAdmin(email, password);
+  if (storedSession) return storedSession;
+
+  return authenticateLegacyLocalBootstrap(email, password);
 }
 
 export async function getAdminSession() {

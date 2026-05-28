@@ -1,19 +1,12 @@
-import { notFound } from "next/navigation";
-import { SiteEditor } from "@/components/admin/SiteEditor";
+import { redirect } from "next/navigation";
 import { requireAdminSession } from "@/lib/admin/auth";
-import { getContentStore } from "@/lib/admin/content-store";
 
 type PageProps = {
   params: Promise<{ slug: string }> | { slug: string };
 };
 
 export default async function AdminEditorPage({ params }: PageProps) {
-  const user = await requireAdminSession();
-  const { slug } = await params;
-  const store = await getContentStore();
-  const page = store.pages.find((item) => item.slug === slug);
-
-  if (!page) notFound();
-
-  return <SiteEditor page={page} pages={store.pages} media={store.media} siteSettings={store.siteSettings} user={user} />;
+  await requireAdminSession();
+  await params;
+  redirect("/admin");
 }

@@ -1,9 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
 import { usePathname } from "next/navigation";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PWAInstall } from "@/components/PWAInstall";
+import { SiteOverrideRuntime } from "@/components/cms/SiteOverrideRuntime";
 
 export function AppChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -19,6 +21,9 @@ export function AppChrome({ children }: { children: React.ReactNode }) {
       <main className="flex-1 flex flex-col pt-[72px] md:pt-[80px]">{children}</main>
       <Footer />
       <PWAInstall />
+      <Suspense fallback={null}>
+        <SiteOverrideRuntime />
+      </Suspense>
     </>
   );
 }

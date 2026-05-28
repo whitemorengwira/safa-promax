@@ -20,7 +20,7 @@ import type { AdminSession } from "@/lib/admin/types";
 const navItems = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/pages", label: "Pages", icon: FileText },
-  { href: "/admin/editor", label: "Edit Site", icon: CheckCircle2 },
+  { href: "/admin", label: "Edit Site", icon: CheckCircle2 },
   { href: "/admin/media", label: "Media", icon: Images },
   { href: "/admin/approvals", label: "Approvals", icon: ShieldCheck },
   { href: "/admin/users", label: "Users", icon: Users },
@@ -64,7 +64,9 @@ export function AdminShell({
           <nav className="flex-1 space-y-1 p-4">
             {navItems.map((item) => {
               const Icon = item.icon;
-              const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
+              const active = item.href === "/admin"
+                ? pathname === "/admin"
+                : pathname === item.href || pathname.startsWith(`${item.href}/`);
               return (
                 <Link
                   key={item.href}

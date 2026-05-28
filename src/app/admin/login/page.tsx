@@ -8,26 +8,26 @@ export default async function AdminLoginPage() {
   if (session) redirect("/admin");
 
   return (
-    <div className="grid min-h-screen grid-cols-1 bg-[#f4f5f7] text-[#111827] lg:grid-cols-[1fr_460px]">
+    <div className="grid min-h-screen grid-cols-1 bg-bg lg:grid-cols-[1fr_520px]">
       <section className="relative hidden overflow-hidden lg:block">
-        <div className="absolute inset-0 bg-[url('/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png')] bg-cover bg-center" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-black/55 to-[#f4f5f7]" />
-        <div className="relative z-10 flex h-full flex-col justify-end p-16 text-white">
-          <p className="text-sm font-semibold text-[#e0c268]">SA Film Academy</p>
+        <div className="absolute inset-0 bg-[url('/images/ai/home/hero-crew-night-set.webp')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-gradient-to-r from-bg/30 via-bg/70 to-bg" />
+        <div className="relative z-10 flex h-full flex-col justify-end p-16">
+          <p className="text-[10px] uppercase tracking-[0.35em] text-gold">SA Film Academy</p>
           <h1 className="mt-5 max-w-3xl text-5xl font-black leading-tight text-white">
-            CMS editor workspace.
+            Secure marketing strategy control room.
           </h1>
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-white/75">
-            Supabase Auth protects the editor, drafts remain unpublished until release, and published changes move through GitHub for Vercel deployment.
+          <p className="mt-5 max-w-xl text-base text-muted">
+            Sign in to edit pages, manage media, approve changes and prepare board-facing updates.
           </p>
         </div>
       </section>
       <section className="flex items-center justify-center px-6 py-12">
-        <div className="w-full max-w-md border border-slate-200 bg-white p-8 shadow-xl">
-          <p className="text-sm font-semibold text-[#1769ff]">Admin Portal</p>
-          <h2 className="mt-3 text-3xl font-black text-[#111827]">Sign in securely</h2>
-          <p className="mb-8 mt-3 text-sm leading-relaxed text-slate-600">
-            Use an approved Supabase editor or super admin account.
+        <div className="w-full max-w-md border border-gold/20 bg-surface/60 p-8 shadow-2xl">
+          <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Admin Portal</p>
+          <h2 className="mt-3 text-3xl font-black text-white">Sign In or Request Access</h2>
+          <p className="mb-8 mt-3 text-sm leading-relaxed text-muted">
+            Access is password-protected and tied to approved administrator roles.
           </p>
           <Suspense>
             <AdminLoginForm />

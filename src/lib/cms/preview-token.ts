@@ -32,6 +32,19 @@ export function createPreviewToken(page: CmsPageDocument) {
   return `${payload}.${sign(payload)}`;
 }
 
+export function createSiteOverridePreviewToken(route: string) {
+  const payload = Buffer.from(
+    JSON.stringify({
+      type: "site-overrides",
+      route,
+      issuedAt: Date.now(),
+    }),
+    "utf8",
+  ).toString("base64url");
+
+  return `${payload}.${sign(payload)}`;
+}
+
 export function verifyPreviewToken(token: string, route: string) {
   const [payload, signature] = token.split(".");
   if (!payload || !signature || signature !== sign(payload)) return null;
@@ -43,6 +56,27 @@ export function verifyPreviewToken(token: string, route: string) {
       issuedAt: number;
     };
 
+    if (Date.now() - parsed.issuedAt > maxPreviewAgeMs) return null;
+    if (parsed.route !== route) return null;
+
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+export function verifySiteOverridePreviewToken(token: string, route: string) {
+  const [payload, signature] = token.split(".");
+  if (!payload || !signature || signature !== sign(payload)) return null;
+
+  try {
+    const parsed = JSON.parse(Buffer.from(payload, "base64url").toString("utf8")) as {
+      type?: string;
+      route: string;
+      issuedAt: number;
+    };
+
+    if (parsed.type !== "site-overrides") return null;
     if (Date.now() - parsed.issuedAt > maxPreviewAgeMs) return null;
     if (parsed.route !== route) return null;
 

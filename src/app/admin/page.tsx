@@ -1,7 +1,7 @@
-import { WixCmsEditor } from "@/components/admin/WixCmsEditor";
+import { LiveSiteCmsEditor } from "@/components/admin/LiveSiteCmsEditor";
 import { requireAdminSession } from "@/lib/admin/auth";
 
 export default async function AdminIndexPage() {
   await requireAdminSession();
-  return <WixCmsEditor />;
+  return <LiveSiteCmsEditor />;
 }
