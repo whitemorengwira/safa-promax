@@ -53,27 +53,11 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
     setPassword("");
   }
 
-  return (
-    <div className="w-full max-w-md border border-gold/20 bg-bg-deep/95 p-6 shadow-2xl">
-      <div className="mb-6 flex border border-white/10 bg-black/30 p-1">
-        <Link
-          href={`/access/login${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`}
-          className={`flex-1 px-4 py-3 text-center text-xs font-black uppercase tracking-widest transition ${
-            mode === "login" ? "bg-gold text-bg" : "text-muted hover:text-white"
-          }`}
-        >
-          Sign In
-        </Link>
-        <Link
-          href={`/access/signup${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`}
-          className={`flex-1 px-4 py-3 text-center text-xs font-black uppercase tracking-widest transition ${
-            mode === "signup" ? "bg-gold text-bg" : "text-muted hover:text-white"
-          }`}
-        >
-          Create Account
-        </Link>
-      </div>
+  const loginHref = `/access/login${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`;
+  const signupHref = `/access/signup${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`;
 
+  return (
+    <div className="w-full border border-gold/20 bg-[#080d1d]/95 p-8 shadow-2xl backdrop-blur-md">
       <form className="space-y-4" onSubmit={submit}>
         {mode === "signup" && (
           <>
@@ -82,7 +66,8 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
               <input
                 value={name}
                 onChange={(event) => setName(event.target.value)}
-                className="mt-2 w-full border border-white/10 bg-bg px-4 py-3 text-sm normal-case tracking-normal text-white outline-none focus:border-gold"
+                placeholder="Enter your full name"
+                className="mt-2 w-full border border-white/10 bg-[#090f23] px-4 py-3 text-sm normal-case tracking-normal text-white outline-none transition placeholder:text-muted/60 focus:border-gold"
                 required
               />
             </label>
@@ -91,19 +76,21 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
               <input
                 value={organisation}
                 onChange={(event) => setOrganisation(event.target.value)}
-                className="mt-2 w-full border border-white/10 bg-bg px-4 py-3 text-sm normal-case tracking-normal text-white outline-none focus:border-gold"
+                placeholder="Board, partner or stakeholder organisation"
+                className="mt-2 w-full border border-white/10 bg-[#090f23] px-4 py-3 text-sm normal-case tracking-normal text-white outline-none transition placeholder:text-muted/60 focus:border-gold"
               />
             </label>
           </>
         )}
 
         <label className="block text-xs font-bold uppercase tracking-widest text-muted">
-          Email
+          Email Address
           <input
             value={email}
             onChange={(event) => setEmail(event.target.value)}
             type="email"
-            className="mt-2 w-full border border-white/10 bg-bg px-4 py-3 text-sm normal-case tracking-normal text-white outline-none focus:border-gold"
+            placeholder="Enter your email"
+            className="mt-2 w-full border border-white/10 bg-[#090f23] px-4 py-3 text-sm normal-case tracking-normal text-white outline-none transition placeholder:text-muted/60 focus:border-gold"
             required
           />
         </label>
@@ -115,8 +102,9 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
               value={password}
               onChange={(event) => setPassword(event.target.value)}
               type={showPassword ? "text" : "password"}
+              placeholder="Enter your password"
               minLength={8}
-              className="min-w-0 flex-1 bg-transparent px-4 py-3 text-sm normal-case tracking-normal text-white outline-none"
+              className="min-w-0 flex-1 bg-[#090f23] px-4 py-3 text-sm normal-case tracking-normal text-white outline-none placeholder:text-muted/60"
               required
             />
             <button
@@ -139,13 +127,33 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
           className="inline-flex w-full items-center justify-center gap-2 bg-gold px-4 py-4 text-xs font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft disabled:cursor-wait disabled:opacity-70"
         >
           {mode === "login" ? <LockKeyhole className="h-4 w-4" /> : <Send className="h-4 w-4" />}
-          {submitting ? "Working..." : mode === "login" ? "Open Presentation" : "Create Account"}
+          {submitting ? "Working..." : mode === "login" ? "Access Presentation" : "Submit Access Request"}
         </button>
       </form>
-      {mode === "signup" && (
-        <p className="mt-4 text-center text-xs leading-relaxed text-muted">
-          New accounts remain pending until a super admin approves presentation access.
-        </p>
+      {mode === "login" ? (
+        <div className="mt-5 flex flex-col gap-3 text-center text-sm">
+          <button
+            type="button"
+            onClick={() => setMessage("Please contact the SAFA super admin to reset presentation access.")}
+            className="text-muted transition hover:text-gold"
+          >
+            Forgot password?
+          </button>
+          <div className="border-t border-white/10 pt-3">
+            <Link href={signupHref} className="text-gold underline underline-offset-4 transition hover:text-gold-soft">
+              Create an account
+            </Link>
+          </div>
+        </div>
+      ) : (
+        <div className="mt-5 space-y-3 text-center text-sm">
+          <p className="text-xs leading-relaxed text-muted">
+            New accounts remain pending until a super admin approves presentation access.
+          </p>
+          <Link href={loginHref} className="text-gold underline underline-offset-4 transition hover:text-gold-soft">
+            Already approved? Sign in
+          </Link>
+        </div>
       )}
     </div>
   );

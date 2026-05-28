@@ -37,7 +37,7 @@ Last updated: 26 May 2026, SAST
 - Editor includes SAFA-branded top bar, page selector, desktop/mobile toggles, tool rail, preview canvas, Save Draft and Publish actions.
 - Editor does not display Wix branding.
 - Locked-image text appears for locked hero assets.
-- Footer includes an `Admin CMS Portal` button linking to `/admin`.
+- Footer no longer includes the old admin-entry button; CMS access now lives on the presentation access screen as a secondary internal path.
 - Users page includes an add-admin form for approved CMS users.
 - Admin draft save API returned `200`.
 - Admin publish API returned `200`.

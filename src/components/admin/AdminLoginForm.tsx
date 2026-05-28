@@ -8,7 +8,7 @@ import { Eye, EyeOff, Home, Lock, Mail, UserPlus } from "lucide-react";
 export function AdminLoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const next = searchParams.get("next") || "/admin";
+  const next = searchParams.get("next");
   const [mode, setMode] = useState<"signin" | "create">("signin");
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
@@ -31,14 +31,16 @@ export function AdminLoginForm() {
       }),
     });
 
+    const body = await response.json().catch(() => null);
+
     if (!response.ok) {
-      const body = await response.json().catch(() => null);
       setError(body?.error || "Unable to sign in.");
       setLoading(false);
       return;
     }
 
-    router.push(next);
+    const fallback = body?.role === "super_admin" || body?.role === "super-admin" ? "/admin/super-admin" : "/admin";
+    router.push(next || fallback);
     router.refresh();
   }
 
@@ -176,11 +178,11 @@ export function AdminLoginForm() {
       </form>
 
       <Link
-        href="/"
+        href="/access/login"
         className="inline-flex w-full items-center justify-center gap-2 border border-gold/30 px-5 py-3 text-xs font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg"
       >
         <Home className="h-4 w-4" />
-        Return to Main Website
+        Presentation Sign In
       </Link>
     </div>
   );

@@ -11,9 +11,12 @@ function isSignedPreview(searchParams: URLSearchParams) {
 export async function proxy(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl;
   const adminCookie = request.cookies.get(ADMIN_COOKIE)?.value;
+  const siteCookie = request.cookies.get(SITE_ACCESS_COOKIE)?.value;
+  const siteSession = siteCookie ? decodeSiteAccessSession(siteCookie) : null;
   const hasAdminSession = Boolean(adminCookie);
+  const hasSiteSession = Boolean(siteSession && await verifySiteAccessSession(siteSession));
 
-  if (searchParams.get("preview") === "true" && searchParams.get("token")) {
+  if (isSignedPreview(searchParams)) {
     const url = request.nextUrl.clone();
     url.pathname = "/cms-preview";
     url.searchParams.set("route", pathname);
@@ -21,9 +24,6 @@ export async function proxy(request: NextRequest) {
   }
 
   if (pathname.startsWith("/admin/login")) {
-    if (hasAdminSession) {
-      return NextResponse.redirect(new URL("/admin", request.url));
-    }
     return NextResponse.next();
   }
 
@@ -34,14 +34,16 @@ export async function proxy(request: NextRequest) {
   }
 
   if (pathname.startsWith("/access")) {
-    const siteCookie = request.cookies.get(SITE_ACCESS_COOKIE)?.value;
-    const siteSession = siteCookie ? decodeSiteAccessSession(siteCookie) : null;
-    const hasSiteSession = Boolean(siteSession && await verifySiteAccessSession(siteSession));
-
     if (hasSiteSession && pathname.startsWith("/access/login")) {
       return NextResponse.redirect(new URL("/", request.url));
     }
     return NextResponse.next();
+  }
+
+  if (!hasSiteSession && !hasAdminSession) {
+    const login = new URL("/access/login", request.url);
+    login.searchParams.set("next", `${pathname}${request.nextUrl.search}`);
+    return NextResponse.redirect(login);
   }
 
   return NextResponse.next();
