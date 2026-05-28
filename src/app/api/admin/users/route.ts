@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
 import { getAdminSession, hashAdminPassword } from "@/lib/admin/auth";
 import { getContentStore, saveContentStore } from "@/lib/admin/content-store";
-import { canManageUsers } from "@/lib/admin/permissions";
+import { canManageUsers, isSuperAdmin } from "@/lib/admin/permissions";
 import type { AdminRole, AdminStatus } from "@/lib/admin/types";
 
-const roles: AdminRole[] = ["viewer", "editor", "approver", "admin", "super-admin"];
+const roles: AdminRole[] = ["viewer", "editor", "approver", "admin", "super_admin"];
 const statuses: AdminStatus[] = ["pending", "active", "suspended"];
 
 function normaliseEmail(email: string) {
@@ -43,7 +43,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid status." }, { status: 400 });
   }
 
-  if (role === "super-admin" && session.role !== "super-admin") {
+  if (role === "super_admin" && !isSuperAdmin(session.role)) {
     return NextResponse.json({ error: "Only a super-admin can create another super-admin." }, { status: 403 });
   }
 
@@ -105,7 +105,7 @@ export async function PATCH(request: Request) {
     return NextResponse.json({ error: "User, role and status are required." }, { status: 400 });
   }
 
-  if (role === "super-admin" && session.role !== "super-admin") {
+  if (role === "super_admin" && !isSuperAdmin(session.role)) {
     return NextResponse.json({ error: "Only a super-admin can assign super-admin access." }, { status: 403 });
   }
 
@@ -120,7 +120,7 @@ export async function PATCH(request: Request) {
     return NextResponse.json({ error: "User not found." }, { status: 404 });
   }
 
-  if (user.role === "super-admin" && session.role !== "super-admin") {
+  if (isSuperAdmin(user.role) && !isSuperAdmin(session.role)) {
     return NextResponse.json({ error: "Only a super-admin can modify a super-admin." }, { status: 403 });
   }
 

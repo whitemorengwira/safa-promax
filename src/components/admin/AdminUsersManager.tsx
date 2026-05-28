@@ -7,7 +7,7 @@ import type { AdminRole, AdminStatus, AdminUser } from "@/lib/admin/types";
 
 type SafeAdminUser = Omit<AdminUser, "passwordHash">;
 
-const roleOptions: AdminRole[] = ["viewer", "editor", "approver", "admin", "super-admin"];
+const roleOptions: AdminRole[] = ["viewer", "editor", "approver", "admin", "super_admin"];
 const statusOptions: AdminStatus[] = ["active", "pending", "suspended"];
 
 export function AdminUsersManager({
@@ -198,6 +198,7 @@ export function AdminUsersManager({
             <p><strong className="text-white">Editor:</strong> save drafts and request approval.</p>
             <p><strong className="text-white">Approver:</strong> publish approved changes.</p>
             <p><strong className="text-white">Admin:</strong> manage users, approvals and settings.</p>
+            <p><strong className="text-white">Super admin:</strong> manage site access and elevated publishing.</p>
           </div>
         </section>
       </aside>

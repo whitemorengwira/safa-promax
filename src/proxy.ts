@@ -1,9 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
+import { decodeSiteAccessSession, SITE_ACCESS_COOKIE } from "@/lib/site-access/session";
+import { verifySiteAccessSession } from "@/lib/site-access/proxy-verify";
 
 const ADMIN_COOKIE = "safa_admin_session";
 
-export function proxy(request: NextRequest) {
+function isSignedPreview(searchParams: URLSearchParams) {
+  return searchParams.get("preview") === "true" && searchParams.get("token");
+}
+
+export async function proxy(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl;
+  const adminCookie = request.cookies.get(ADMIN_COOKIE)?.value;
+  const siteCookie = request.cookies.get(SITE_ACCESS_COOKIE)?.value;
+  const siteSession = siteCookie ? decodeSiteAccessSession(siteCookie) : null;
+  const hasAdminSession = Boolean(adminCookie);
+  const hasSiteSession = Boolean(siteSession && await verifySiteAccessSession(siteSession));
 
   if (searchParams.get("preview") === "true" && searchParams.get("token")) {
     const url = request.nextUrl.clone();
@@ -13,15 +24,33 @@ export function proxy(request: NextRequest) {
   }
 
   if (pathname.startsWith("/admin/login")) {
-    if (request.cookies.get(ADMIN_COOKIE)?.value) {
+    if (hasAdminSession) {
       return NextResponse.redirect(new URL("/admin", request.url));
     }
     return NextResponse.next();
   }
 
-  if (pathname.startsWith("/admin") && !request.cookies.get(ADMIN_COOKIE)?.value) {
+  if (pathname.startsWith("/admin") && !hasAdminSession) {
     const login = new URL("/admin/login", request.url);
     login.searchParams.set("next", pathname);
+    return NextResponse.redirect(login);
+  }
+
+  if (pathname.startsWith("/access")) {
+    if (hasSiteSession && pathname.startsWith("/access/login")) {
+      return NextResponse.redirect(new URL("/", request.url));
+    }
+    return NextResponse.next();
+  }
+
+  if (
+    !hasSiteSession &&
+    !hasAdminSession &&
+    !pathname.startsWith("/board") &&
+    !isSignedPreview(searchParams)
+  ) {
+    const login = new URL("/access/login", request.url);
+    login.searchParams.set("next", `${pathname}${request.nextUrl.search}`);
     return NextResponse.redirect(login);
   }
 
@@ -29,5 +58,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/((?!api|_next/static|_next/image|.*\\..*).*)"],
+  matcher: ["/admin/:path*", "/access/:path*", "/((?!api|_next/static|_next/image|.*\\..*).*)"],
 };

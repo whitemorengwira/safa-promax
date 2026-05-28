@@ -44,9 +44,10 @@ function decodeSession(value: string): AdminSession | null {
 }
 
 function normalizeRole(role: unknown, email: string): AdminRole | null {
+  if (email.toLowerCase() === "hello@nwhite.systems") return "super_admin";
+
   const value = String(role ?? "").trim().toLowerCase().replace(/-/g, "_");
   if (value === "super_admin") return "super_admin";
-  if (value === "super-admin") return "super-admin";
   if (value === "editor" || value === "admin" || value === "approver" || value === "viewer") {
     return value as AdminRole;
   }
@@ -142,12 +143,17 @@ function normalizeEmail(email: string) {
   return email.toLowerCase().trim();
 }
 
+function canonicalAdminRole(role: AdminRole, email: string): AdminRole {
+  if (normalizeEmail(email) === "hello@nwhite.systems") return "super_admin";
+  return role === "super-admin" ? "super_admin" : role;
+}
+
 function sessionFromStoredUser(user: Pick<AdminUser, "id" | "email" | "name" | "role" | "status">): AdminSession {
   return {
     id: user.id,
     email: user.email,
     name: user.name,
-    role: user.role,
+    role: canonicalAdminRole(user.role, user.email),
     status: user.status,
     issuedAt: Date.now(),
     provider: "local",
@@ -160,7 +166,7 @@ function buildBootstrapAdmin(adminEmail: string): AdminUser {
     id: `user-${Date.now()}`,
     email: adminEmail,
     name: process.env.SAFA_ADMIN_NAME || "SAFA Admin",
-    role: "super-admin",
+    role: "super_admin",
     status: "active",
     createdAt: now,
     approvedAt: now,

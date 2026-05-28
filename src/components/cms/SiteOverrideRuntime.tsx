@@ -72,10 +72,16 @@ function textValue(element: Element) {
   return (element.getAttribute("aria-label") || element.textContent || "").replace(/\s+/g, " ").trim();
 }
 
+function imageTarget(element: Element) {
+  if (element instanceof HTMLImageElement) return element;
+  return element.querySelector("img");
+}
+
 function isEditableTextElement(element: Element) {
   if (!(element instanceof HTMLElement)) return false;
   if (element.closest("[data-cms-editor-ui]")) return false;
   if (element.closest("[data-cms-hidden-in-editor]")) return false;
+  if (element.closest("[data-cms-nav-link]")) return false;
   if (!isVisible(element)) return false;
 
   const tag = element.tagName.toLowerCase();
@@ -114,20 +120,22 @@ export function SiteOverrideRuntime() {
         originalsRef.current.set(selector, { text: textValue(element) });
         return;
       }
-      const image = element as HTMLImageElement;
+      const image = imageTarget(element);
+      if (!image) return;
       originalsRef.current.set(selector, {
         src: image.getAttribute("src") || image.currentSrc || "",
         srcset: image.getAttribute("srcset") || "",
-        alt: image.getAttribute("alt") || "",
+        alt: image.getAttribute("alt") || element.getAttribute("data-cms-image-alt") || "",
       });
     }
 
     function recordFor(element: Element, elementType: SiteOverrideRecord["elementType"], value?: string): SiteOverrideRecord {
       const selector = cssPath(element);
+      const image = elementType === "image" ? imageTarget(element) : null;
       const source =
         elementType === "text"
           ? textValue(element)
-          : `${(element as HTMLImageElement).currentSrc || (element as HTMLImageElement).src}|${(element as HTMLImageElement).alt}`;
+          : `${image?.currentSrc || image?.src || element.getAttribute("data-cms-image-src") || ""}|${image?.alt || element.getAttribute("data-cms-image-alt") || ""}`;
 
       return {
         id: overrideId(route, elementType, selector),
@@ -136,7 +144,7 @@ export function SiteOverrideRuntime() {
         selector,
         originalFingerprint: fingerprint(source),
         value,
-        altText: elementType === "image" ? (element as HTMLImageElement).alt : undefined,
+        altText: elementType === "image" ? image?.alt || element.getAttribute("data-cms-image-alt") || "" : undefined,
         deleted: false,
         updatedAt: new Date().toISOString(),
       };
@@ -155,7 +163,8 @@ export function SiteOverrideRuntime() {
         return;
       }
 
-      const image = element as HTMLImageElement;
+      const image = imageTarget(element);
+      if (!image) return;
       if (record.deleted) {
         if (mode === "editor") {
           image.style.opacity = "0.22";
@@ -176,6 +185,8 @@ export function SiteOverrideRuntime() {
         image.src = record.value;
       }
       if (record.altText !== undefined) image.alt = record.altText;
+      if (record.value) element.setAttribute("data-cms-image-src", record.value);
+      if (record.altText !== undefined) element.setAttribute("data-cms-image-alt", record.altText);
     }
 
     function restoreOriginal(selector: string) {
@@ -183,15 +194,18 @@ export function SiteOverrideRuntime() {
       const original = originalsRef.current.get(selector);
       if (!element || !original) return;
 
-      if (element instanceof HTMLImageElement) {
-        element.style.opacity = "";
-        element.style.filter = "";
-        element.style.display = "";
-        delete element.dataset.cmsDeleted;
-        if (original.srcset) element.setAttribute("srcset", original.srcset);
-        else element.removeAttribute("srcset");
-        if (original.src) element.src = original.src;
-        element.alt = original.alt ?? "";
+      const image = imageTarget(element);
+      if (image) {
+        image.style.opacity = "";
+        image.style.filter = "";
+        image.style.display = "";
+        delete image.dataset.cmsDeleted;
+        if (original.srcset) image.setAttribute("srcset", original.srcset);
+        else image.removeAttribute("srcset");
+        if (original.src) image.src = original.src;
+        image.alt = original.alt ?? "";
+        element.setAttribute("data-cms-image-src", original.src ?? "");
+        element.setAttribute("data-cms-image-alt", original.alt ?? "");
       } else if (original.text !== undefined) {
         element.textContent = original.text;
       }
@@ -313,10 +327,81 @@ export function SiteOverrideRuntime() {
       return payload.media?.url as string;
     }
 
+    function installImageControls(element: Element, host: HTMLElement, selector: string) {
+      const marker = element as HTMLElement;
+      if (mode !== "editor" || marker.dataset.cmsImageReady === "true") return;
+      const image = imageTarget(element);
+      if (!image) return;
+      marker.dataset.cmsImageReady = "true";
+      element.classList.add("cms-editable-image");
+      if (window.getComputedStyle(host).position === "static") host.style.position = "relative";
+
+      const controls = document.createElement("div");
+      controls.dataset.cmsEditorUi = "true";
+      controls.className = "cms-image-controls";
+
+      const makeButton = (label: string, title: string, onClick: () => void | Promise<void>) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = label;
+        button.title = title;
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          void onClick();
+        });
+        controls.append(button);
+      };
+
+      makeButton("Upload", "Replace from upload", async () => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = "image/*";
+        input.onchange = async () => {
+          const file = input.files?.[0];
+          if (!file) return;
+          const url = await uploadImage(file);
+          upsertOverride({ ...recordFor(element, "image", url), value: url, altText: image.alt, deleted: false });
+        };
+        input.click();
+      });
+      makeButton("URL", "Replace from URL", () => {
+        const url = window.prompt("Image URL", image.currentSrc || image.src);
+        if (!url) return;
+        upsertOverride({ ...recordFor(element, "image", url), value: url, altText: image.alt, deleted: false });
+      });
+      makeButton("Alt", "Edit alt text", () => {
+        const altText = window.prompt("Alt text", image.alt);
+        if (altText === null) return;
+        const current = overridesRef.current.get(selector) ?? recordFor(element, "image", image.currentSrc || image.src);
+        upsertOverride({ ...current, altText });
+      });
+      makeButton("Delete", "Delete image", () => {
+        const current = overridesRef.current.get(selector) ?? recordFor(element, "image", image.currentSrc || image.src);
+        upsertOverride({ ...current, deleted: true });
+      });
+      makeButton("Restore", "Restore original image", () => removeOverride(selector));
+
+      host.append(controls);
+    }
+
+    function scanImageSlots() {
+      const slots = Array.from(document.querySelectorAll("[data-cms-image-slot]")).filter(isVisible) as HTMLElement[];
+      for (const slot of slots) {
+        const selector = cssPath(slot);
+        if (!selector || !imageTarget(slot)) continue;
+        slot.dataset.cmsSelector = selector;
+        rememberOriginal(selector, slot, "image");
+        const host = (slot.closest(".page-hero") as HTMLElement | null) ?? slot;
+        installImageControls(slot, host, selector);
+      }
+    }
+
     function scanImages() {
       const images = Array.from(document.querySelectorAll("img")).filter((image) => {
         if (!(image instanceof HTMLImageElement)) return false;
         if (image.closest("[data-cms-editor-ui]")) return false;
+        if (image.closest("[data-cms-image-slot]")) return false;
         return isVisible(image);
       }) as HTMLImageElement[];
 
@@ -325,61 +410,9 @@ export function SiteOverrideRuntime() {
         if (!selector) continue;
         image.dataset.cmsSelector = selector;
         rememberOriginal(selector, image, "image");
-
-        if (mode !== "editor" || image.dataset.cmsImageReady === "true") continue;
-        image.dataset.cmsImageReady = "true";
-        image.classList.add("cms-editable-image");
         const host = image.parentElement;
         if (!host) continue;
-        if (window.getComputedStyle(host).position === "static") host.style.position = "relative";
-
-        const controls = document.createElement("div");
-        controls.dataset.cmsEditorUi = "true";
-        controls.className = "cms-image-controls";
-
-        const makeButton = (label: string, title: string, onClick: () => void | Promise<void>) => {
-          const button = document.createElement("button");
-          button.type = "button";
-          button.textContent = label;
-          button.title = title;
-          button.addEventListener("click", (event) => {
-            event.preventDefault();
-            event.stopPropagation();
-            void onClick();
-          });
-          controls.append(button);
-        };
-
-        makeButton("Upload", "Replace from upload", async () => {
-          const input = document.createElement("input");
-          input.type = "file";
-          input.accept = "image/*";
-          input.onchange = async () => {
-            const file = input.files?.[0];
-            if (!file) return;
-            const url = await uploadImage(file);
-            upsertOverride({ ...recordFor(image, "image", url), value: url, altText: image.alt, deleted: false });
-          };
-          input.click();
-        });
-        makeButton("URL", "Replace from URL", () => {
-          const url = window.prompt("Image URL", image.currentSrc || image.src);
-          if (!url) return;
-          upsertOverride({ ...recordFor(image, "image", url), value: url, altText: image.alt, deleted: false });
-        });
-        makeButton("Alt", "Edit alt text", () => {
-          const altText = window.prompt("Alt text", image.alt);
-          if (altText === null) return;
-          const current = overridesRef.current.get(selector) ?? recordFor(image, "image", image.currentSrc || image.src);
-          upsertOverride({ ...current, altText });
-        });
-        makeButton("Delete", "Delete image", () => {
-          const current = overridesRef.current.get(selector) ?? recordFor(image, "image", image.currentSrc || image.src);
-          upsertOverride({ ...current, deleted: true });
-        });
-        makeButton("Restore", "Restore original image", () => removeOverride(selector));
-
-        host.append(controls);
+        installImageControls(image, host, selector);
       }
     }
 
@@ -426,6 +459,7 @@ export function SiteOverrideRuntime() {
 
     function rescan() {
       scanText();
+      scanImageSlots();
       scanImages();
       applyAllOverrides();
     }

@@ -9,7 +9,7 @@ import { SiteOverrideRuntime } from "@/components/cms/SiteOverrideRuntime";
 
 export function AppChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isPrivateSurface = pathname.startsWith("/admin") || pathname.startsWith("/board");
+  const isPrivateSurface = pathname.startsWith("/admin") || pathname.startsWith("/board") || pathname.startsWith("/access");
 
   if (isPrivateSurface) {
     return <main className="min-h-screen bg-bg text-text">{children}</main>;

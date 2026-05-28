@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 
 interface MegaDropdownItem {
@@ -137,6 +138,7 @@ const STRATEGY_TABS = [
 ];
 
 export default function MegaNavbar() {
+  const pathname = usePathname();
   const [activePanel, setActivePanel] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -144,6 +146,12 @@ export default function MegaNavbar() {
     process.env.NEXT_PUBLIC_SA_FILM_INTERNS_URL ||
     process.env.NEXT_PUBLIC_CINETERNS_URL ||
     'https://cineterns.vercel.app/';
+
+  const isRouteActive = (href: string) => href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`);
+  const navClass = (href: string) =>
+    `text-[10px] font-bold tracking-widest transition-colors ${
+      isRouteActive(href) ? 'text-red-600' : 'text-text hover:text-red-600'
+    }`;
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -169,7 +177,7 @@ export default function MegaNavbar() {
         }}
       >
         {/* Wordmark with Restored Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link href="/" data-cms-nav-link="true" className="flex items-center gap-3 group">
           <div className="relative w-8 h-8 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
@@ -189,7 +197,7 @@ export default function MegaNavbar() {
 
         {/* Center Navigation */}
         <div className="flex items-center gap-4">
-          <Link href="/" className="text-[10px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+          <Link href="/" data-cms-nav-link="true" className={navClass('/')}>
             HOME
           </Link>
 
@@ -203,7 +211,8 @@ export default function MegaNavbar() {
             >
               <Link
                 href={tab.href}
-                className="text-[10px] font-bold tracking-widest text-text hover:text-red-600 transition-colors py-1.5 relative group/btn block"
+                data-cms-nav-link="true"
+                className={`${navClass(tab.href)} py-1.5 relative group/btn block`}
               >
                 {tab.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 group-hover/btn:w-full transition-all duration-300" />
@@ -228,7 +237,7 @@ export default function MegaNavbar() {
                       <h3 className="text-gold text-[10px] font-bold uppercase tracking-widest">
                         {MEGA_PANELS[tab.key].heading}
                       </h3>
-                      <Link href={tab.href} className="text-[9px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
+                      <Link href={tab.href} data-cms-nav-link="true" className="text-[9px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
                         View All {tab.label}
                         <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
                       </Link>
@@ -238,7 +247,10 @@ export default function MegaNavbar() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="group/item block p-3 -m-2 rounded transition-all duration-300 hover:bg-red-600/5"
+                          data-cms-nav-link="true"
+                          className={`group/item block p-3 -m-2 rounded transition-all duration-300 hover:bg-red-600/5 ${
+                            isRouteActive(item.href) ? 'bg-red-600/10' : ''
+                          }`}
                         >
                           <div className="mb-1">
                             <h4 className="text-text font-bold text-[10px] uppercase tracking-tight group-hover/item:text-red-600 transition-colors duration-200">
@@ -258,10 +270,10 @@ export default function MegaNavbar() {
             </div>
           ))}
 
-          <Link href="/smart-tools" className="text-[10px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+          <Link href="/smart-tools" data-cms-nav-link="true" className={navClass('/smart-tools')}>
             SMART TOOLS
           </Link>
-          <Link href="/contact" className="text-[10px] font-bold tracking-widest text-text hover:text-red-600 transition-colors">
+          <Link href="/contact" data-cms-nav-link="true" className={navClass('/contact')}>
             CONTACT
           </Link>
         </div>
@@ -279,7 +291,7 @@ export default function MegaNavbar() {
 
       {/* Mobile Navbar */}
       <nav className="lg:hidden fixed top-0 z-50 w-full h-12 bg-surface/80 backdrop-blur-md border-b border-red-600/30 flex items-center justify-between px-5">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" data-cms-nav-link="true" className="flex items-center gap-2">
           <div className="w-7 h-7 overflow-hidden flex items-center justify-center">
             <Image
               src="/images/logos/sa-film-academy-logo.png"
@@ -306,6 +318,7 @@ export default function MegaNavbar() {
           <div className="p-6 space-y-8">
             <Link
               href="/"
+              data-cms-nav-link="true"
               className="block text-lg font-black text-text hover:text-red-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -317,6 +330,7 @@ export default function MegaNavbar() {
               <div key={tab.key} className="space-y-4">
                 <Link 
                   href={tab.href}
+                  data-cms-nav-link="true"
                   className="text-red-600 text-xs font-black uppercase tracking-widest block"
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -327,6 +341,7 @@ export default function MegaNavbar() {
                     <Link
                       key={item.href}
                       href={item.href}
+                      data-cms-nav-link="true"
                       className="block group p-3 -ml-3 -pl-3 rounded transition-all duration-200 hover:bg-red-600/10 border-l-2 border-transparent group-hover:border-l-red-600"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -341,6 +356,7 @@ export default function MegaNavbar() {
             <div className="border-t border-white/10 pt-8 space-y-6">
               <Link
                 href="/smart-tools"
+                data-cms-nav-link="true"
                 className="block text-lg font-black text-text hover:text-red-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -348,6 +364,7 @@ export default function MegaNavbar() {
               </Link>
               <Link
                 href="/contact"
+                data-cms-nav-link="true"
                 className="block text-lg font-black text-text hover:text-red-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >

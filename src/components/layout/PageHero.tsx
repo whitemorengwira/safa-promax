@@ -45,7 +45,12 @@ export function PageHero({
   return (
     <section className="page-hero relative min-h-screen flex flex-col justify-end overflow-hidden -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px]">
       {/* Background Image with Ken Burns */}
-      <div className="absolute inset-0 z-0">
+      <div
+        className="absolute inset-0 z-0"
+        data-cms-image-slot="hero"
+        data-cms-image-src={imageSrc}
+        data-cms-image-alt={imageAlt}
+      >
         <KenBurns className="w-full h-full" enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>
           <Image
             src={imageSrc}

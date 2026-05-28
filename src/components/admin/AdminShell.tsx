@@ -13,9 +13,11 @@ import {
   LogOut,
   Settings,
   ShieldCheck,
+  UserCheck,
   Users,
 } from "lucide-react";
 import type { AdminSession } from "@/lib/admin/types";
+import { isSuperAdmin } from "@/lib/admin/permissions";
 
 const navItems = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
@@ -23,6 +25,7 @@ const navItems = [
   { href: "/admin", label: "Edit Site", icon: CheckCircle2 },
   { href: "/admin/media", label: "Media", icon: Images },
   { href: "/admin/approvals", label: "Approvals", icon: ShieldCheck },
+  { href: "/admin/site-access", label: "Site Access", icon: UserCheck, superAdminOnly: true },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/audit-log", label: "Audit Log", icon: Activity },
   { href: "/admin/settings", label: "Settings", icon: Settings },
@@ -63,6 +66,7 @@ export function AdminShell({
 
           <nav className="flex-1 space-y-1 p-4">
             {navItems.map((item) => {
+              if (item.superAdminOnly && !isSuperAdmin(user.role)) return null;
               const Icon = item.icon;
               const active = item.href === "/admin"
                 ? pathname === "/admin"
@@ -110,7 +114,7 @@ export function AdminShell({
             </div>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/admin/editor"
+                href="/admin"
                 className="inline-flex items-center gap-2 bg-gold px-4 py-3 text-xs font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft"
               >
                 Edit Site
