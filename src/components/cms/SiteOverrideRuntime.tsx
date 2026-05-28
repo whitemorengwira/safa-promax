@@ -109,7 +109,7 @@ export function SiteOverrideRuntime() {
   const previewToken = searchParams.get(previewTokenParam) || "";
   const isPreview = searchParams.get(previewParam) === "true" && Boolean(previewToken);
   const overridesRef = useRef<Map<string, SiteOverrideRecord>>(new Map());
-  const originalsRef = useRef<Map<string, { text?: string; src?: string; srcset?: string; alt?: string }>>(new Map());
+  const originalsRef = useRef<Map<string, { text?: string; src?: string; srcset?: string; alt?: string; backgroundImage?: string }>>(new Map());
 
   useEffect(() => {
     let cancelled = false;
@@ -118,6 +118,14 @@ export function SiteOverrideRuntime() {
       if (originalsRef.current.has(selector)) return;
       if (elementType === "text") {
         originalsRef.current.set(selector, { text: textValue(element) });
+        return;
+      }
+      if (elementType === "svg_text") {
+        originalsRef.current.set(selector, { text: textValue(element) });
+        return;
+      }
+      if (elementType === "background_image") {
+        originalsRef.current.set(selector, { backgroundImage: window.getComputedStyle(element).backgroundImage });
         return;
       }
       const image = imageTarget(element);
@@ -133,16 +141,20 @@ export function SiteOverrideRuntime() {
       const selector = cssPath(element);
       const image = elementType === "image" ? imageTarget(element) : null;
       const source =
-        elementType === "text"
+        elementType === "text" || elementType === "svg_text"
           ? textValue(element)
+          : elementType === "background_image"
+          ? window.getComputedStyle(element).backgroundImage
           : `${image?.currentSrc || image?.src || element.getAttribute("data-cms-image-src") || ""}|${image?.alt || element.getAttribute("data-cms-image-alt") || ""}`;
 
       return {
         id: overrideId(route, elementType, selector),
         route,
         elementType,
+        elementKind: element.getAttribute("data-cms-image-slot") || element.tagName.toLowerCase(),
         selector,
         originalFingerprint: fingerprint(source),
+        sourceOriginalValue: source,
         value,
         altText: elementType === "image" ? image?.alt || element.getAttribute("data-cms-image-alt") || "" : undefined,
         deleted: false,
@@ -154,8 +166,23 @@ export function SiteOverrideRuntime() {
       const element = document.querySelector(record.selector);
       if (!element) return;
       rememberOriginal(record.selector, element, record.elementType);
+      const original = originalsRef.current.get(record.selector);
+      const currentSource =
+        record.elementType === "text" || record.elementType === "svg_text"
+          ? original?.text ?? textValue(element)
+          : record.elementType === "background_image"
+          ? original?.backgroundImage ?? window.getComputedStyle(element).backgroundImage
+          : `${original?.src ?? ""}|${original?.alt ?? ""}`;
+      if (record.originalFingerprint && fingerprint(currentSource) !== record.originalFingerprint) {
+        record.fingerprintStatus = "needs_review";
+        if (mode === "editor") {
+          element.classList.add("cms-needs-review");
+          (element as HTMLElement).title = "CMS override needs review because the source element changed.";
+        }
+        if (mode !== "editor") return;
+      }
 
-      if (record.elementType === "text") {
+      if (record.elementType === "text" || record.elementType === "svg_text") {
         if (record.value !== undefined) {
           element.textContent = record.value;
           if (element.hasAttribute("aria-label")) element.setAttribute("aria-label", record.value);
@@ -163,10 +190,22 @@ export function SiteOverrideRuntime() {
         return;
       }
 
+      if (record.elementType === "background_image") {
+        const target = element as HTMLElement;
+        if (record.deleted) {
+          if (mode === "editor" || isPreview) target.dataset.cmsDeleted = "true";
+          else target.style.backgroundImage = "none";
+        } else {
+          delete target.dataset.cmsDeleted;
+          if (record.value) target.style.backgroundImage = `url("${record.value}")`;
+        }
+        return;
+      }
+
       const image = imageTarget(element);
       if (!image) return;
       if (record.deleted) {
-        if (mode === "editor") {
+        if (mode === "editor" || isPreview) {
           image.style.opacity = "0.22";
           image.style.filter = "grayscale(1)";
           image.dataset.cmsDeleted = "true";
@@ -206,6 +245,9 @@ export function SiteOverrideRuntime() {
         image.alt = original.alt ?? "";
         element.setAttribute("data-cms-image-src", original.src ?? "");
         element.setAttribute("data-cms-image-alt", original.alt ?? "");
+      } else if (original.backgroundImage !== undefined) {
+        (element as HTMLElement).style.backgroundImage = original.backgroundImage;
+        delete (element as HTMLElement).dataset.cmsDeleted;
       } else if (original.text !== undefined) {
         element.textContent = original.text;
       }
@@ -315,7 +357,42 @@ export function SiteOverrideRuntime() {
         upsertOverride({ ...recordFor(element, "text", element.innerText.trim()), value: element.innerText.trim() }, false);
       });
       toolbar.append(link);
+      const restore = document.createElement("button");
+      restore.type = "button";
+      restore.textContent = "Restore";
+      restore.addEventListener("mousedown", (event) => {
+        event.preventDefault();
+        removeOverride(element.dataset.cmsSelector || cssPath(element));
+        element.removeAttribute("contenteditable");
+        toolbar.remove();
+      });
+      toolbar.append(restore);
       document.body.append(toolbar);
+    }
+
+    function scanSvgText() {
+      const elements = Array.from(document.querySelectorAll("svg text, svg tspan")).filter(isVisible);
+      for (const element of elements) {
+        const selector = cssPath(element);
+        if (!selector) continue;
+        (element as SVGElement).dataset.cmsSelector = selector;
+        rememberOriginal(selector, element, "svg_text");
+        if (mode !== "editor" || (element as SVGElement).dataset.cmsSvgReady === "true") continue;
+        (element as SVGElement).dataset.cmsSvgReady = "true";
+        element.classList.add("cms-editable-svg-text");
+        element.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          const current = textValue(element);
+          const value = window.prompt("Edit SVG text", current);
+          if (value === null || value === current) return;
+          upsertOverride({ ...recordFor(element, "svg_text", value), value });
+        });
+        element.addEventListener("contextmenu", (event) => {
+          event.preventDefault();
+          removeOverride(selector);
+        });
+      }
     }
 
     async function uploadImage(file: File) {
@@ -385,6 +462,55 @@ export function SiteOverrideRuntime() {
       host.append(controls);
     }
 
+    function installBackgroundControls(element: HTMLElement, selector: string) {
+      if (mode !== "editor" || element.dataset.cmsBackgroundReady === "true") return;
+      element.dataset.cmsBackgroundReady = "true";
+      element.classList.add("cms-editable-background");
+      if (window.getComputedStyle(element).position === "static") element.style.position = "relative";
+
+      const controls = document.createElement("div");
+      controls.dataset.cmsEditorUi = "true";
+      controls.className = "cms-image-controls cms-background-controls";
+
+      const makeButton = (label: string, title: string, onClick: () => void | Promise<void>) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = label;
+        button.title = title;
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          void onClick();
+        });
+        controls.append(button);
+      };
+
+      makeButton("Upload", "Replace background from upload", async () => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = "image/*";
+        input.onchange = async () => {
+          const file = input.files?.[0];
+          if (!file) return;
+          const url = await uploadImage(file);
+          upsertOverride({ ...recordFor(element, "background_image", url), value: url, deleted: false });
+        };
+        input.click();
+      });
+      makeButton("URL", "Replace background from URL", () => {
+        const url = window.prompt("Background image URL");
+        if (!url) return;
+        upsertOverride({ ...recordFor(element, "background_image", url), value: url, deleted: false });
+      });
+      makeButton("Delete", "Delete background image", () => {
+        const current = overridesRef.current.get(selector) ?? recordFor(element, "background_image", "");
+        upsertOverride({ ...current, deleted: true });
+      });
+      makeButton("Restore", "Restore original background", () => removeOverride(selector));
+
+      element.append(controls);
+    }
+
     function scanImageSlots() {
       const slots = Array.from(document.querySelectorAll("[data-cms-image-slot]")).filter(isVisible) as HTMLElement[];
       for (const slot of slots) {
@@ -416,6 +542,24 @@ export function SiteOverrideRuntime() {
       }
     }
 
+    function scanBackgroundImages() {
+      const elements = Array.from(document.querySelectorAll("section,div,article,aside,figure")).filter((element) => {
+        if (!(element instanceof HTMLElement)) return false;
+        if (element.closest("[data-cms-editor-ui]")) return false;
+        if (element.querySelector(":scope > .cms-image-controls")) return false;
+        const background = window.getComputedStyle(element).backgroundImage;
+        return background && background !== "none" && background.includes("url(") && isVisible(element);
+      }) as HTMLElement[];
+
+      for (const element of elements) {
+        const selector = cssPath(element);
+        if (!selector) continue;
+        element.dataset.cmsSelector = selector;
+        rememberOriginal(selector, element, "background_image");
+        installBackgroundControls(element, selector);
+      }
+    }
+
     function installEditorChrome() {
       if (mode !== "editor") return;
       document.documentElement.dataset.cmsEditorMode = "true";
@@ -441,6 +585,15 @@ export function SiteOverrideRuntime() {
       );
     }
 
+    function installPreviewChrome() {
+      if (!isPreview || document.getElementById("safa-cms-preview-banner")) return;
+      document.documentElement.dataset.cmsPreviewMode = "true";
+      const banner = document.createElement("div");
+      banner.id = "safa-cms-preview-banner";
+      banner.textContent = "PREVIEW - NOT LIVE";
+      document.body.append(banner);
+    }
+
     async function loadPublishedOrPreviewOverrides() {
       if (mode === "editor") return;
       const params = new URLSearchParams({ route });
@@ -459,8 +612,10 @@ export function SiteOverrideRuntime() {
 
     function rescan() {
       scanText();
+      scanSvgText();
       scanImageSlots();
       scanImages();
+      scanBackgroundImages();
       applyAllOverrides();
     }
 
@@ -476,6 +631,7 @@ export function SiteOverrideRuntime() {
 
     installRuntimeStyles();
     installEditorChrome();
+    installPreviewChrome();
     window.addEventListener("message", handleMessage);
     void loadPublishedOrPreviewOverrides();
 
@@ -526,6 +682,56 @@ function installRuntimeStyles() {
     }
     html[data-cms-editor-mode="true"] .cms-editable-image:hover {
       outline-color: rgba(224, 194, 104, 0.9);
+    }
+    html[data-cms-editor-mode="true"] .cms-editable-background,
+    html[data-cms-editor-mode="true"] .cms-editable-svg-text {
+      cursor: pointer;
+      outline: 1px solid transparent;
+      outline-offset: 3px;
+      transition: outline-color 160ms ease, background-color 160ms ease;
+    }
+    html[data-cms-editor-mode="true"] .cms-editable-background:hover,
+    html[data-cms-editor-mode="true"] .cms-editable-svg-text:hover {
+      outline-color: rgba(224, 194, 104, 0.9);
+    }
+    html[data-cms-editor-mode="true"] .cms-needs-review {
+      outline-color: rgba(245, 158, 11, 0.95) !important;
+      box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.18);
+    }
+    html[data-cms-preview-mode="true"] body::before {
+      content: "PREVIEW - NOT LIVE";
+      position: fixed;
+      inset: 0;
+      z-index: 2147481000;
+      pointer-events: none;
+      opacity: 0.055;
+      color: #f6df95;
+      font: 900 54px/1.4 system-ui, sans-serif;
+      letter-spacing: 0.12em;
+      display: grid;
+      place-items: center;
+      transform: rotate(-18deg);
+      text-align: center;
+    }
+    #safa-cms-preview-banner {
+      position: fixed;
+      z-index: 2147483000;
+      top: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid rgba(246, 223, 149, 0.75);
+      background: rgba(180, 0, 0, 0.92);
+      color: #fff4c2;
+      padding: 10px 18px;
+      font: 950 12px/1 system-ui, sans-serif;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      box-shadow: 0 18px 44px rgba(0,0,0,0.45);
+      animation: cmsPreviewFlash 0.9s steps(2, start) infinite;
+      pointer-events: none;
+    }
+    @keyframes cmsPreviewFlash {
+      50% { opacity: 0.35; }
     }
     .cms-text-toolbar {
       position: absolute;

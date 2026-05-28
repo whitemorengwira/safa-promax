@@ -196,7 +196,7 @@ export function AdminUsersManager({
           <div className="mt-4 space-y-3 text-sm text-muted">
             <p><strong className="text-white">Viewer:</strong> read-only board and CMS access.</p>
             <p><strong className="text-white">Editor:</strong> save drafts and request approval.</p>
-            <p><strong className="text-white">Approver:</strong> publish approved changes.</p>
+            <p><strong className="text-white">Approver:</strong> review and prepare approved changes.</p>
             <p><strong className="text-white">Admin:</strong> manage users, approvals and settings.</p>
             <p><strong className="text-white">Super admin:</strong> manage site access and elevated publishing.</p>
           </div>

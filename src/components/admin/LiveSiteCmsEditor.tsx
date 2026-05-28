@@ -43,6 +43,42 @@ function editorUrl(route: string, frameKey: number) {
   return `${route}?${params.toString()}`;
 }
 
+function signatureFor(items: SiteOverrideRecord[]) {
+  return JSON.stringify(
+    items
+      .map((item) => ({
+        id: item.id,
+        selector: item.selector,
+        elementType: item.elementType,
+        value: item.value ?? "",
+        altText: item.altText ?? "",
+        deleted: Boolean(item.deleted),
+        fingerprintStatus: item.fingerprintStatus ?? "ok",
+      }))
+      .sort((a, b) => a.id.localeCompare(b.id)),
+  );
+}
+
+function storageKey(route: string, stack: "undo" | "redo") {
+  return `safa-cms:${stack}:${route}`;
+}
+
+function readStoredStack(route: string, stack: "undo" | "redo") {
+  try {
+    return JSON.parse(window.localStorage.getItem(storageKey(route, stack)) || "[]") as SiteOverrideRecord[][];
+  } catch {
+    return [];
+  }
+}
+
+function writeStoredStack(route: string, stack: "undo" | "redo", value: SiteOverrideRecord[][]) {
+  try {
+    window.localStorage.setItem(storageKey(route, stack), JSON.stringify(value));
+  } catch {
+    // The in-memory stack still works if browser storage is unavailable.
+  }
+}
+
 export function LiveSiteCmsEditor() {
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [activeRoute, setActiveRoute] = useState("/");
@@ -57,6 +93,8 @@ export function LiveSiteCmsEditor() {
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
   const [undoStack, setUndoStack] = useState<SiteOverrideRecord[][]>([]);
   const [redoStack, setRedoStack] = useState<SiteOverrideRecord[][]>([]);
+  const [previewedSignature, setPreviewedSignature] = useState("");
+  const [sessionRole, setSessionRole] = useState("");
   const [saving, startSaving] = useTransition();
 
   const groupedRoutes = useMemo(() => {
@@ -66,6 +104,9 @@ export function LiveSiteCmsEditor() {
   }, []);
 
   const activeLabel = routeItems.find((item) => item.route === activeRoute)?.label ?? activeRoute;
+  const currentSignature = useMemo(() => signatureFor(overrides), [overrides]);
+  const canSuperPublish = sessionRole === "super_admin" || sessionRole === "super-admin";
+  const publishReady = canSuperPublish && !dirty && previewedSignature === currentSignature;
 
   const pushToast = useCallback((tone: ToastMessage["tone"], text: string) => {
     const id = Date.now();
@@ -93,8 +134,9 @@ export function LiveSiteCmsEditor() {
       setPublished(payload.published ?? []);
       setVersions(payload.versions ?? []);
       setDirty(Boolean(payload.draft?.length));
-      setUndoStack([]);
-      setRedoStack([]);
+      setUndoStack(readStoredStack(route, "undo"));
+      setRedoStack(readStoredStack(route, "redo"));
+      setPreviewedSignature("");
       setLastSaved(null);
       window.setTimeout(() => sendOverridesToFrame(nextOverrides), 120);
     } catch (error) {
@@ -138,6 +180,48 @@ export function LiveSiteCmsEditor() {
   }, [activeRoute, loadRoute]);
 
   useEffect(() => {
+    void fetch("/api/admin/session")
+      .then((response) => response.json())
+      .then((payload) => setSessionRole(payload?.session?.role ?? ""))
+      .catch(() => setSessionRole(""));
+  }, []);
+
+  useEffect(() => {
+    writeStoredStack(activeRoute, "undo", undoStack);
+  }, [activeRoute, undoStack]);
+
+  useEffect(() => {
+    writeStoredStack(activeRoute, "redo", redoStack);
+  }, [activeRoute, redoStack]);
+
+  useEffect(() => {
+    const heartbeat = () => {
+      void fetch("/api/admin/safety/heartbeat", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ route: activeRoute }),
+      }).catch(() => undefined);
+    };
+    heartbeat();
+    const timer = window.setInterval(heartbeat, 30000);
+    return () => window.clearInterval(timer);
+  }, [activeRoute]);
+
+  const recordJournal = useCallback((beforeOverrides: SiteOverrideRecord[], afterOverrides: SiteOverrideRecord[], action = "cms_edit") => {
+    void fetch("/api/admin/safety/journal", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        route: activeRoute,
+        action,
+        beforeOverrides,
+        afterOverrides,
+        summary: `Edited ${activeLabel}`,
+      }),
+    }).catch(() => undefined);
+  }, [activeLabel, activeRoute]);
+
+  useEffect(() => {
     function handleMessage(event: MessageEvent) {
       if (event.origin !== window.location.origin) return;
       if (event.data?.type === "safa-cms-editor-ready") {
@@ -155,16 +239,18 @@ export function LiveSiteCmsEditor() {
         const nextRoute = normaliseRoute(event.data.route || activeRoute);
         if (nextRoute !== activeRoute) return;
         const nextOverrides = (event.data.overrides ?? []) as SiteOverrideRecord[];
-        setUndoStack((current) => [...current.slice(-39), overrides]);
+        recordJournal(overrides, nextOverrides, "cms_edit");
+        setUndoStack((current) => [...current, overrides]);
         setRedoStack([]);
         setOverrides(nextOverrides);
         setDirty(true);
+        setPreviewedSignature("");
       }
     }
 
     window.addEventListener("message", handleMessage);
     return () => window.removeEventListener("message", handleMessage);
-  }, [activeRoute, changeRoute, overrides, sendOverridesToFrame]);
+  }, [activeRoute, changeRoute, overrides, recordJournal, sendOverridesToFrame]);
 
   useEffect(() => {
     if (!dirty) return;
@@ -192,8 +278,11 @@ export function LiveSiteCmsEditor() {
         });
         const payload = await response.json().catch(() => null);
         if (!response.ok) throw new Error(payload?.error || "Preview could not be created.");
+        const previewedOverrides = (payload.overrides ?? overrides) as SiteOverrideRecord[];
         window.open(payload.url, "_blank", "noopener,noreferrer");
+        setOverrides(previewedOverrides);
         setDirty(false);
+        setPreviewedSignature(signatureFor(previewedOverrides));
         setLastSaved(new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }));
         pushToast("success", "Preview opened.");
       })().catch((error) => pushToast("error", error.message));
@@ -201,6 +290,10 @@ export function LiveSiteCmsEditor() {
   }
 
   function publish() {
+    if (!publishReady) {
+      pushToast("error", canSuperPublish ? "Open a fresh preview before publishing." : "Only super admins can publish.");
+      return;
+    }
     startSaving(() => {
       void (async () => {
         const response = await fetch("/api/admin/site-overrides/publish", {
@@ -213,6 +306,7 @@ export function LiveSiteCmsEditor() {
         setPublished(payload.published ?? overrides);
         setVersions((current) => payload.version ? [payload.version, ...current] : current);
         setDirty(false);
+        setPreviewedSignature(signatureFor(payload.published ?? overrides));
         setLastSaved(new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }));
         pushToast(payload.commit?.skipped ? "info" : "success", payload.commit?.skipped ? payload.commit.reason : "Published to GitHub and Vercel.");
       })().catch((error) => pushToast("error", error.message));
@@ -222,30 +316,59 @@ export function LiveSiteCmsEditor() {
   function undo() {
     if (!undoStack.length) return;
     const previous = undoStack[undoStack.length - 1];
-    setRedoStack((current) => [...current.slice(-39), overrides]);
+    setRedoStack((current) => [...current, overrides]);
     setUndoStack((current) => current.slice(0, -1));
     setOverrides(previous);
     setDirty(true);
+    setPreviewedSignature("");
     sendOverridesToFrame(previous);
   }
 
   function redo() {
     if (!redoStack.length) return;
     const next = redoStack[redoStack.length - 1];
-    setUndoStack((current) => [...current.slice(-39), overrides]);
+    setUndoStack((current) => [...current, overrides]);
     setRedoStack((current) => current.slice(0, -1));
     setOverrides(next);
     setDirty(true);
+    setPreviewedSignature("");
     sendOverridesToFrame(next);
   }
 
   function resetToPublished() {
-    setUndoStack((current) => [...current.slice(-39), overrides]);
+    setUndoStack((current) => [...current, overrides]);
     setRedoStack([]);
     setOverrides(published);
     setDirty(true);
+    setPreviewedSignature("");
     sendOverridesToFrame(published);
     pushToast("info", "Canvas reset to published content.");
+  }
+
+  function restoreOriginal(scope: "route" | "site") {
+    if (!canSuperPublish) {
+      pushToast("error", "Only super admins can restore original content.");
+      return;
+    }
+    const label = scope === "site" ? "the full site" : activeRoute;
+    if (!window.confirm(`Restore ${label} to the source-original site content? This publishes an empty CMS override set.`)) return;
+    startSaving(() => {
+      void (async () => {
+        const response = await fetch("/api/admin/site-overrides/revert", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ route: activeRoute, scope }),
+        });
+        const payload = await response.json().catch(() => null);
+        if (!response.ok) throw new Error(payload?.error || "Restore original failed.");
+        setPublished([]);
+        setOverrides([]);
+        setDirty(false);
+        setPreviewedSignature(signatureFor([]));
+        setFrameKey((current) => current + 1);
+        pushToast("success", scope === "site" ? "Full site restored to original source content." : "Page restored to original source content.");
+      })().catch((error) => pushToast("error", error.message));
+    });
   }
 
   function restoreVersion(versionId: string) {
@@ -264,6 +387,7 @@ export function LiveSiteCmsEditor() {
         setOverrides(nextPublished);
         setVersions((current) => payload.version ? [payload.version, ...current] : current);
         setDirty(false);
+        setPreviewedSignature(signatureFor(nextPublished));
         sendOverridesToFrame(nextPublished);
         pushToast(payload.commit?.skipped ? "info" : "success", payload.commit?.skipped ? payload.commit.reason : "Version restored and published.");
       })().catch((error) => pushToast("error", error.message));
@@ -330,6 +454,26 @@ export function LiveSiteCmsEditor() {
           <IconButton label="Undo" onClick={undo} disabled={!undoStack.length} icon={<Undo2 className="h-4 w-4" />} />
           <IconButton label="Redo" onClick={redo} disabled={!redoStack.length} icon={<Redo2 className="h-4 w-4" />} />
           <IconButton label="Reset" onClick={resetToPublished} disabled={!overrides.length} icon={<RotateCcw className="h-4 w-4" />} />
+          {canSuperPublish && (
+            <>
+              <button
+                type="button"
+                onClick={() => restoreOriginal("route")}
+                disabled={saving}
+                className="hidden h-10 border border-gold/30 px-3 text-[10px] font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg disabled:opacity-40 2xl:inline-flex 2xl:items-center"
+              >
+                Original Page
+              </button>
+              <button
+                type="button"
+                onClick={() => restoreOriginal("site")}
+                disabled={saving}
+                className="hidden h-10 border border-red/40 px-3 text-[10px] font-black uppercase tracking-widest text-red-soft transition hover:bg-red hover:text-white disabled:opacity-40 2xl:inline-flex 2xl:items-center"
+              >
+                Original Site
+              </button>
+            </>
+          )}
         </div>
 
         <select
@@ -355,13 +499,19 @@ export function LiveSiteCmsEditor() {
             {dirty ? "Draft changes" : "Saved"}
           </span>
           {lastSaved && <span className="hidden text-xs text-white/50 xl:inline">Saved {lastSaved}</span>}
+          {!publishReady && (
+            <span className="hidden max-w-[170px] text-[10px] font-bold uppercase tracking-widest text-amber-200 xl:inline">
+              {canSuperPublish ? "Preview required" : "Edit / preview only"}
+            </span>
+          )}
           <ActionButton onClick={manualSave} disabled={saving} icon={<Save className="h-4 w-4" />} label="Save" />
           <ActionButton onClick={preview} disabled={saving} icon={<Eye className="h-4 w-4" />} label="Preview" />
           <button
             type="button"
             onClick={publish}
-            disabled={saving}
+            disabled={saving || !publishReady}
             className="inline-flex h-10 items-center gap-2 bg-gold px-4 text-xs font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft disabled:cursor-wait disabled:opacity-60"
+            title={publishReady ? "Publish previewed changes" : "Open a fresh preview before publishing"}
           >
             {saving ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
             Publish

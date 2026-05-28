@@ -51,7 +51,7 @@ export default async function AdminDashboardPage() {
             <p className="text-[10px] uppercase tracking-widest text-gold">Security</p>
             <h3 className="mt-2 text-xl font-black text-white">Role-based approval is active.</h3>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              Editors save drafts. Approvers, admins and super-admins publish. Locked images remain protected.
+              Editors save drafts and preview. Super admins publish, restore original content, and manage access.
             </p>
           </section>
           <section className="border border-white/10 bg-surface/40 p-6">

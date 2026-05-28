@@ -26,6 +26,7 @@ const navItems = [
   { href: "/admin/media", label: "Media", icon: Images },
   { href: "/admin/approvals", label: "Approvals", icon: ShieldCheck },
   { href: "/admin/site-access", label: "Site Access", icon: UserCheck, superAdminOnly: true },
+  { href: "/admin/safety", label: "Safety", icon: Activity, superAdminOnly: true },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/audit-log", label: "Audit Log", icon: Activity },
   { href: "/admin/settings", label: "Settings", icon: Settings },

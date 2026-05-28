@@ -2,6 +2,7 @@ import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/admin/auth";
 import { canPublish } from "@/lib/admin/permissions";
+import { recordCmsActivity } from "@/lib/cms/safety";
 import { restoreSiteOverrideVersion } from "@/lib/cms/site-overrides";
 import type { CmsSession } from "@/lib/cms/types";
 
@@ -36,6 +37,14 @@ export async function POST(request: Request) {
   }
 
   const result = await restoreSiteOverrideVersion(route, versionId, asCmsSession(session));
+  await recordCmsActivity({
+    action: "cms_restore_version",
+    actor: session.email,
+    actorRole: session.role,
+    route: result.route,
+    summary: `Restored version ${versionId} for ${result.route}.`,
+    details: { versionId, commit: result.commit },
+  });
   revalidatePath(result.route);
   return NextResponse.json(result);
 }

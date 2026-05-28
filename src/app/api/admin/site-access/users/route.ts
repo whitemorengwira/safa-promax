@@ -6,6 +6,7 @@ import {
   listSafeSiteAccessUsers,
   updateSiteAccessUser,
 } from "@/lib/site-access/store";
+import { endTrackedSession, recordCmsActivity } from "@/lib/cms/safety";
 import { siteAccessRoles, siteAccessStatuses, type SiteAccessRole, type SiteAccessStatus } from "@/lib/site-access/types";
 
 function normaliseEmail(email: string) {
@@ -59,6 +60,12 @@ export async function POST(request: Request) {
 
   try {
     const user = await createSiteAccessUser({ name, email, organisation, password, role, status }, guard.session.email);
+    await recordCmsActivity({
+      action: "site_access_user_created",
+      actor: guard.session.email,
+      actorRole: guard.session.role,
+      summary: `Created ${role} site access for ${email}.`,
+    });
     return NextResponse.json({ ok: true, user }, { status: 201 });
   } catch (error) {
     return NextResponse.json(
@@ -83,6 +90,13 @@ export async function PATCH(request: Request) {
 
   try {
     const user = await updateSiteAccessUser(id, { role, status }, guard.session.email);
+    if (status === "revoked" || status === "suspended") await endTrackedSession("site", user.id);
+    await recordCmsActivity({
+      action: "site_access_user_updated",
+      actor: guard.session.email,
+      actorRole: guard.session.role,
+      summary: `Updated ${user.email} to ${user.role} / ${user.status}.`,
+    });
     return NextResponse.json({ ok: true, user });
   } catch (error) {
     return NextResponse.json(

@@ -1,7 +1,6 @@
 import type { AdminRole } from "./types";
 
 const editRoles: AdminRole[] = ["editor", "super_admin", "approver", "admin", "super-admin"];
-const approvalRoles: AdminRole[] = ["super_admin", "approver", "admin", "super-admin"];
 const adminRoles: AdminRole[] = ["super_admin", "admin", "super-admin"];
 const superAdminRoles: AdminRole[] = ["super_admin", "super-admin"];
 
@@ -10,7 +9,7 @@ export function canEdit(role: AdminRole) {
 }
 
 export function canPublish(role: AdminRole) {
-  return approvalRoles.includes(role);
+  return isSuperAdmin(role);
 }
 
 export function canManageUsers(role: AdminRole) {

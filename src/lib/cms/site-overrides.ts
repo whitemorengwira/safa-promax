@@ -195,10 +195,23 @@ export async function loadSiteOverrideSnapshot(): Promise<SiteOverrideSnapshot> 
   const client = getSupabaseAdmin();
   if (client) {
     const tableSnapshot = await loadTableSnapshot(client);
-    if (tableSnapshot) return tableSnapshot;
+    if (tableSnapshot && Object.keys(tableSnapshot.routes).length) return tableSnapshot;
 
     const legacySnapshot = await loadLegacySnapshot(client);
-    if (legacySnapshot) return legacySnapshot;
+    if (legacySnapshot) {
+      if (tableSnapshot && !Object.keys(tableSnapshot.routes).length) {
+        for (const [route, state] of Object.entries(legacySnapshot.routes)) {
+          await saveTableRoute(client, route, {
+            draft: state.draft ?? [],
+            published: state.published ?? [],
+            versions: state.versions ?? [],
+            updatedBy: state.updatedBy,
+          });
+        }
+      }
+      return legacySnapshot;
+    }
+    if (tableSnapshot) return tableSnapshot;
   }
 
   return readJsonSnapshot();
@@ -367,4 +380,112 @@ export async function restoreSiteOverrideVersion(route: string, versionId: strin
   );
 
   return { route: normalisedRoute, published: nextState.published, version: restoredVersion, commit };
+}
+
+export async function revertSiteOverrideRoute(route: string, session: CmsSession) {
+  const normalisedRoute = normaliseSiteRoute(route);
+  const snapshot = await loadSiteOverrideSnapshot();
+  const current = snapshot.routes[normalisedRoute] ?? { published: [], versions: [] };
+  const revertedAt = now();
+  const version: SiteOverrideVersion = {
+    id: `site-version-${Date.now()}`,
+    route: normalisedRoute,
+    label: `Reverted ${normalisedRoute} to source original`,
+    overrides: [],
+    publishedAt: revertedAt,
+    publishedBy: session.email,
+  };
+  const nextState = {
+    published: [],
+    draft: [],
+    versions: [version, ...(current.versions ?? [])],
+    updatedAt: revertedAt,
+    updatedBy: session.email,
+  };
+  const nextSnapshot: SiteOverrideSnapshot = {
+    ...snapshot,
+    updatedAt: revertedAt,
+    routes: { ...snapshot.routes, [normalisedRoute]: nextState },
+  };
+
+  const client = getSupabaseAdmin();
+  if (client) {
+    const savedToTable = await saveTableRoute(client, normalisedRoute, {
+      draft: [],
+      published: [],
+      versions: nextState.versions,
+      updatedBy: session.email,
+    });
+    if (!savedToTable) await saveLegacySnapshot(client, nextSnapshot);
+  } else {
+    await persistSnapshot(nextSnapshot);
+  }
+
+  const committedSnapshot = withoutDrafts(nextSnapshot);
+  await writeJsonSnapshot(committedSnapshot);
+  const commit = await commitCmsFiles(
+    [{ path: "content/cms/site-overrides.json", content: committedSnapshot }],
+    `cms: publish site-overrides — ${revertedAt}`,
+  );
+
+  return { route: normalisedRoute, published: [], version, commit };
+}
+
+export async function revertAllSiteOverrides(session: CmsSession) {
+  const snapshot = await loadSiteOverrideSnapshot();
+  const revertedAt = now();
+  const nextRoutes = Object.fromEntries(
+    Object.entries(snapshot.routes).map(([route, state]) => {
+      const version: SiteOverrideVersion = {
+        id: `site-version-${Date.now()}-${route.replace(/[^a-z0-9]/gi, "-")}`,
+        route,
+        label: `Reverted ${route} to source original`,
+        overrides: [],
+        publishedAt: revertedAt,
+        publishedBy: session.email,
+      };
+      return [
+        route,
+        {
+          ...state,
+          published: [],
+          draft: [],
+          versions: [version, ...(state.versions ?? [])],
+          updatedAt: revertedAt,
+          updatedBy: session.email,
+        },
+      ];
+    }),
+  );
+  const nextSnapshot: SiteOverrideSnapshot = {
+    ...snapshot,
+    updatedAt: revertedAt,
+    routes: nextRoutes,
+  };
+
+  const client = getSupabaseAdmin();
+  if (client) {
+    let tableWorked = true;
+    for (const [route, state] of Object.entries(nextRoutes)) {
+      const savedToTable = await saveTableRoute(client, route, {
+        draft: [],
+        published: [],
+        versions: state.versions,
+        updatedBy: session.email,
+      });
+      tableWorked &&= savedToTable;
+    }
+    if (!tableWorked) await saveLegacySnapshot(client, nextSnapshot);
+  } else {
+    await persistSnapshot(nextSnapshot);
+  }
+
+  const committedSnapshot = withoutDrafts(nextSnapshot);
+  await writeJsonSnapshot(committedSnapshot);
+  const commit = await commitCmsFiles(
+    [{ path: "content/cms/site-overrides.json", content: committedSnapshot }],
+    `cms: publish site-overrides — ${revertedAt}`,
+  );
+
+  return { routes: Object.keys(nextRoutes), published: [], commit };
 }

@@ -24,10 +24,10 @@ export default async function AdminSettingsPage() {
             <li>Bootstrap login configured through <code>SAFA_ADMIN_EMAIL</code> and <code>SAFA_ADMIN_PASSWORD</code>.</li>
             <li>Optional scrypt hash support remains available through <code>SAFA_ADMIN_PASSWORD_HASH</code>.</li>
             <li>HTTP-only signed session cookie with secure flag in production.</li>
-            <li>Role-based editor, approver and admin permissions.</li>
+            <li>Role-based editor, approver, admin and super-admin permissions.</li>
             <li>Admins and super-admins can add additional approved CMS users.</li>
             <li>Locked approved hero images protected in the editor.</li>
-            <li>Audit log written for draft and publish events.</li>
+            <li>Safety audit log written for draft, preview, publish, restore and session events.</li>
           </ul>
         </section>
       </div>

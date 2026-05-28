@@ -3,8 +3,7 @@ import { NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/admin/auth";
 import { canPublish } from "@/lib/admin/permissions";
 import { recordCmsActivity } from "@/lib/cms/safety";
-import { publishSiteOverrides } from "@/lib/cms/site-overrides";
-import type { SiteOverrideRecord } from "@/lib/cms/site-overrides-types";
+import { revertAllSiteOverrides, revertSiteOverrideRoute } from "@/lib/cms/site-overrides";
 import type { CmsSession } from "@/lib/cms/types";
 
 function asCmsSession(session: NonNullable<Awaited<ReturnType<typeof getAdminSession>>>): CmsSession {
@@ -12,7 +11,7 @@ function asCmsSession(session: NonNullable<Awaited<ReturnType<typeof getAdminSes
     id: session.id,
     email: session.email,
     name: session.name,
-    role: session.role === "super_admin" || session.role === "super-admin" || session.role === "admin" ? "super_admin" : "editor",
+    role: "super_admin",
     status: "active",
     issuedAt: session.issuedAt,
     accessToken: session.accessToken,
@@ -27,28 +26,29 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Admin sign-in is required." }, { status: 401 });
   }
   if (!canPublish(session.role)) {
-    return NextResponse.json({ error: "Publish access is required." }, { status: 403 });
+    return NextResponse.json({ error: "Super admin access is required for restore original." }, { status: 403 });
   }
 
   const body = await request.json().catch(() => null);
+  const scope = String(body?.scope ?? "route");
   const route = String(body?.route ?? "/");
-  const overrides = Array.isArray(body?.overrides) ? (body.overrides as SiteOverrideRecord[]) : [];
-  const unpreviewed = overrides.filter((override) => !override.previewedAt);
-  if (unpreviewed.length) {
-    return NextResponse.json(
-      { error: "Open a fresh preview before publishing these CMS changes." },
-      { status: 400 },
-    );
+  const result = scope === "site"
+    ? await revertAllSiteOverrides(asCmsSession(session))
+    : await revertSiteOverrideRoute(route, asCmsSession(session));
+
+  if (scope === "site" && "routes" in result) {
+    for (const item of result.routes) revalidatePath(item);
+  } else {
+    revalidatePath(route);
   }
-  const result = await publishSiteOverrides(route, overrides, asCmsSession(session));
+
   await recordCmsActivity({
-    action: "cms_publish",
+    action: scope === "site" ? "cms_restore_original_site" : "cms_restore_original_route",
     actor: session.email,
     actorRole: session.role,
-    route: result.route,
-    summary: `Published ${result.route} with ${result.published.length} override${result.published.length === 1 ? "" : "s"}.`,
-    details: { overrideCount: result.published.length, commit: result.commit },
+    route: scope === "site" ? undefined : route,
+    summary: scope === "site" ? "Restored the full site to source-original content." : `Restored ${route} to source-original content.`,
   });
-  revalidatePath(result.route);
+
   return NextResponse.json(result);
 }
