@@ -1,5 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T00:00:00.000Z",
-  "routes": {}
+  "updatedAt": "2026-05-28T03:35:43.144Z",
+  "routes": {
+    "/": {
+      "published": [
+        {
+          "id": "/:text:main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+          "route": "/",
+          "elementType": "text",
+          "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+          "originalFingerprint": "1tkw7p3",
+          "value": "test 1234",
+          "deleted": false,
+          "updatedAt": "2026-05-28T03:35:14.455Z",
+          "updatedBy": "hello@nwhite.systems"
+        }
+      ],
+      "versions": [
+        {
+          "id": "site-version-1779939343144",
+          "route": "/",
+          "label": "Published /",
+          "overrides": [
+            {
+              "id": "/:text:main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+              "route": "/",
+              "elementType": "text",
+              "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+              "originalFingerprint": "1tkw7p3",
+              "value": "test 1234",
+              "deleted": false,
+              "updatedAt": "2026-05-28T03:35:14.455Z",
+              "updatedBy": "hello@nwhite.systems"
+            }
+          ],
+          "publishedAt": "2026-05-28T03:35:43.144Z",
+          "publishedBy": "hello@nwhite.systems"
+        }
+      ],
+      "updatedAt": "2026-05-28T03:35:43.144Z",
+      "updatedBy": "hello@nwhite.systems"
+    },
+    "/smart-tools": {
+      "published": [],
+      "versions": [],
+      "updatedAt": "2026-05-28T02:22:47.398Z",
+      "updatedBy": "hello@nwhite.systems"
+    }
+  }
 }
