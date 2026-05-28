@@ -11,10 +11,7 @@ function isSignedPreview(searchParams: URLSearchParams) {
 export async function proxy(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl;
   const adminCookie = request.cookies.get(ADMIN_COOKIE)?.value;
-  const siteCookie = request.cookies.get(SITE_ACCESS_COOKIE)?.value;
-  const siteSession = siteCookie ? decodeSiteAccessSession(siteCookie) : null;
   const hasAdminSession = Boolean(adminCookie);
-  const hasSiteSession = Boolean(siteSession && await verifySiteAccessSession(siteSession));
 
   if (searchParams.get("preview") === "true" && searchParams.get("token")) {
     const url = request.nextUrl.clone();
@@ -37,20 +34,14 @@ export async function proxy(request: NextRequest) {
   }
 
   if (pathname.startsWith("/access")) {
+    const siteCookie = request.cookies.get(SITE_ACCESS_COOKIE)?.value;
+    const siteSession = siteCookie ? decodeSiteAccessSession(siteCookie) : null;
+    const hasSiteSession = Boolean(siteSession && await verifySiteAccessSession(siteSession));
+
     if (hasSiteSession && pathname.startsWith("/access/login")) {
       return NextResponse.redirect(new URL("/", request.url));
     }
     return NextResponse.next();
-  }
-
-  if (
-    !hasSiteSession &&
-    !hasAdminSession &&
-    !isSignedPreview(searchParams)
-  ) {
-    const login = new URL("/access/login", request.url);
-    login.searchParams.set("next", `${pathname}${request.nextUrl.search}`);
-    return NextResponse.redirect(login);
   }
 
   return NextResponse.next();
