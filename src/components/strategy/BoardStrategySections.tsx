@@ -2,6 +2,7 @@ import Link from "next/link";
 import { DataTable } from "@/components/sections/DataTable";
 import { Reveal } from "@/components/motion/Reveal";
 import { SectionShell } from "@/components/sections/SectionShell";
+import { ImagePlaceholder } from "@/components/visuals/ImagePlaceholder";
 import { SvgStage } from "@/components/visuals/SvgStage";
 
 const sourceLinks = [
@@ -58,6 +59,21 @@ const boardNarrativeSteps = [
   },
 ];
 
+const executiveSummaryImages = [
+  {
+    src: "/images/ai/v2/homepage/executive-production-pipeline.png",
+    alt: "SA Film Academy trainees and production professionals reviewing a placement workflow on a film set",
+    brief:
+      "Cinematic production pipeline scene with trainees, crew, camera equipment and tablet workflow context.",
+  },
+  {
+    src: "/images/ai/v2/homepage/executive-board-dashboard.png",
+    alt: "Board and operations team reviewing abstract performance dashboard evidence",
+    brief:
+      "Board dashboard review scene with abstract KPI charts and evidence reporting context.",
+  },
+];
+
 function SourceNotes() {
   return (
     <Reveal>
@@ -97,11 +113,11 @@ export function ExecutiveSummarySection() {
       subtitle="A five-minute scan of the strategic case, the execution model, and the decision required from the board."
       className="bg-surface/20"
     >
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
-        <Reveal>
-          <div className="space-y-6">
-            <div className="border border-gold/15 bg-bg/70 p-8">
-              <p className="drop-cap text-lg leading-relaxed text-text/90">
+      <div className="grid grid-cols-1 gap-10 xl:grid-cols-[minmax(420px,0.9fr)_minmax(560px,1.1fr)] xl:items-start">
+        <Reveal className="min-w-0">
+          <div className="space-y-6 xl:max-w-[58ch]">
+            <div className="border border-gold/15 bg-bg/70 p-6 sm:p-8">
+              <p className="text-base leading-[1.8] text-text/90 sm:text-lg">
                 The strategy positions SA Film Academy as the default skills, placement
                 and transformation infrastructure for South African screen production:
                 not a college, not a casting agency, but an accredited bridge between
@@ -109,13 +125,13 @@ export function ExecutiveSummarySection() {
                 capacity.
               </p>
             </div>
-            <p className="leading-relaxed text-muted">
+            <p className="text-base leading-[1.8] text-muted sm:text-lg">
               The commercial logic is direct. Production companies already carry skills,
               transformation and staffing obligations. SAFA turns those obligations into
               verified trainees, placement data, claimable training evidence, partner
               visibility and a scalable digital talent pipeline through SA Film Interns.
             </p>
-            <p className="leading-relaxed text-muted">
+            <p className="text-base leading-[1.8] text-muted sm:text-lg">
               The board decision is therefore not whether SAFA should market itself more
               loudly. It is whether the Academy should approve a 12-month operating
               mandate that converts existing credibility into measurable market authority,
@@ -124,283 +140,298 @@ export function ExecutiveSummarySection() {
           </div>
         </Reveal>
 
-        <Reveal delay={0.1} yOffset={18}>
-          <SvgStage
-            label="Board Logic · 5 Step Narrative"
-            aspect="wide"
-            className="min-h-[440px] shadow-gold sm:min-h-[520px] lg:min-h-[620px]"
-          >
-            <svg
-              viewBox="0 0 1320 620"
-              className="h-full w-full"
-              xmlns="http://www.w3.org/2000/svg"
+        <Reveal delay={0.1} yOffset={18} className="min-w-0">
+          <div className="min-w-0 space-y-5">
+            <SvgStage
+              label="Board Logic · 5 Step Narrative"
+              aspect="cinema"
+              className="max-h-[460px] min-h-[300px] shadow-gold sm:min-h-[340px] xl:min-h-[380px]"
             >
-              <defs>
-                <linearGradient id="summaryFlow" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#8B1A1A" />
-                  <stop offset="55%" stopColor="#C9A84C" />
-                  <stop offset="100%" stopColor="#E0C268" />
-                </linearGradient>
-                <radialGradient id="summaryGlow" cx="50%" cy="45%" r="60%">
-                  <stop offset="0%" stopColor="#C9A84C" stopOpacity="0.16" />
-                  <stop offset="52%" stopColor="#8B1A1A" stopOpacity="0.07" />
-                  <stop offset="100%" stopColor="#0F0F15" stopOpacity="0" />
-                </radialGradient>
-                <filter id="boardLogicGlow" x="-35%" y="-35%" width="170%" height="170%">
-                  <feDropShadow dx="0" dy="0" stdDeviation="9" floodColor="#C9A84C" floodOpacity="0.34" />
-                  <feDropShadow dx="0" dy="18" stdDeviation="18" floodColor="#000000" floodOpacity="0.55" />
-                </filter>
-                <marker
-                  id="boardLogicArrow"
-                  viewBox="0 0 12 12"
-                  refX="10"
-                  refY="6"
-                  markerWidth="9"
-                  markerHeight="9"
-                  orient="auto"
-                >
-                  <path d="M2 2 L10 6 L2 10 Z" fill="#E0C268" />
-                </marker>
-                <style>{`
-                  .board-grid {
-                    stroke-dasharray: 4 20;
-                    animation: boardGridDrift 16s linear infinite;
-                  }
-
-                  .board-flow {
-                    stroke-dasharray: 20 18;
-                    animation: boardFlow 2.4s linear infinite;
-                  }
-
-                  .board-card {
-                    animation: boardCardLift 5.4s ease-in-out infinite;
-                    transform-box: fill-box;
-                    transform-origin: center;
-                  }
-
-                  .board-card-frame {
-                    filter: url(#boardLogicGlow);
-                    transition: stroke-opacity 220ms ease;
-                  }
-
-                  .board-card:hover .board-card-frame {
-                    stroke-opacity: 1;
-                  }
-
-                  .board-index-dot {
-                    animation: boardPulse 2.1s ease-in-out infinite;
-                    transform-box: fill-box;
-                    transform-origin: center;
-                  }
-
-                  .board-progress-scan {
-                    animation: boardProgressScan 5.2s cubic-bezier(.45,0,.2,1) infinite;
-                  }
-
-                  .board-flare {
-                    animation: boardFlare 4.6s ease-in-out infinite;
-                    transform-box: fill-box;
-                    transform-origin: center;
-                  }
-
-                  @keyframes boardGridDrift {
-                    to { stroke-dashoffset: -96; }
-                  }
-
-                  @keyframes boardFlow {
-                    to { stroke-dashoffset: -152; }
-                  }
-
-                  @keyframes boardCardLift {
-                    0%, 100% { transform: translateY(0); opacity: .94; }
-                    50% { transform: translateY(-10px); opacity: 1; }
-                  }
-
-                  @keyframes boardPulse {
-                    0%, 100% { transform: scale(1); opacity: .72; }
-                    50% { transform: scale(1.18); opacity: 1; }
-                  }
-
-                  @keyframes boardProgressScan {
-                    0% { transform: translateX(0); opacity: 0; }
-                    12% { opacity: 1; }
-                    88% { opacity: 1; }
-                    100% { transform: translateX(970px); opacity: 0; }
-                  }
-
-                  @keyframes boardFlare {
-                    0%, 100% { opacity: .18; transform: scale(.98); }
-                    50% { opacity: .48; transform: scale(1.03); }
-                  }
-
-                  @media (prefers-reduced-motion: reduce) {
-                    .board-grid,
-                    .board-flow,
-                    .board-card,
-                    .board-index-dot,
-                    .board-progress-scan,
-                    .board-flare {
-                      animation: none;
-                    }
-                  }
-                `}</style>
-              </defs>
-
-              <rect width="1320" height="620" fill="#101017" />
-              <circle cx="660" cy="300" r="380" fill="url(#summaryGlow)" className="board-flare" />
-              <g opacity="0.16">
-                {Array.from({ length: 12 }).map((_, index) => (
-                  <path
-                    key={`grid-h-${index}`}
-                    d={`M80 ${118 + index * 34} H1240`}
-                    stroke="#E0C268"
-                    strokeWidth="1"
-                    className="board-grid"
-                  />
-                ))}
-                {Array.from({ length: 11 }).map((_, index) => (
-                  <path
-                    key={`grid-v-${index}`}
-                    d={`M${150 + index * 102} 96 V524`}
-                    stroke="#8B1A1A"
-                    strokeWidth="1"
-                    className="board-grid"
-                  />
-                ))}
-              </g>
-
-              <text
-                x="660"
-                y="98"
-                textAnchor="middle"
-                fill="#E0C268"
-                fontFamily="Outfit"
-                fontSize="17"
-                fontWeight="800"
-                letterSpacing="5"
+              <svg
+                viewBox="0 0 1320 620"
+                className="h-full w-full"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                STRATEGIC DECISION PATH
-              </text>
-              <text
-                x="660"
-                y="130"
-                textAnchor="middle"
-                fill="#E8E0D0"
-                fontFamily="Outfit"
-                fontSize="14"
-                opacity="0.68"
-              >
-                from market confusion to board-visible delivery evidence
-              </text>
-
-              <path
-                d="M154 530 H1165"
-                stroke="#4b3f20"
-                strokeWidth="9"
-                strokeLinecap="round"
-                fill="none"
-              />
-              <path
-                d="M154 530 H1165"
-                stroke="url(#summaryFlow)"
-                strokeWidth="4"
-                strokeLinecap="round"
-                fill="none"
-                markerEnd="url(#boardLogicArrow)"
-                className="board-flow"
-              />
-              <rect
-                x="154"
-                y="521"
-                width="42"
-                height="18"
-                rx="9"
-                fill="#E0C268"
-                opacity="0.9"
-                className="board-progress-scan"
-              />
-
-              {boardNarrativeSteps.map(({ title, note }, index) => {
-                const x = 68 + index * 244;
-                return (
-                  <g
-                    key={title}
-                    transform={`translate(${x} 210)`}
+                <defs>
+                  <linearGradient id="summaryFlow" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#8B1A1A" />
+                    <stop offset="55%" stopColor="#C9A84C" />
+                    <stop offset="100%" stopColor="#E0C268" />
+                  </linearGradient>
+                  <radialGradient id="summaryGlow" cx="50%" cy="45%" r="60%">
+                    <stop offset="0%" stopColor="#C9A84C" stopOpacity="0.16" />
+                    <stop offset="52%" stopColor="#8B1A1A" stopOpacity="0.07" />
+                    <stop offset="100%" stopColor="#0F0F15" stopOpacity="0" />
+                  </radialGradient>
+                  <filter id="boardLogicGlow" x="-35%" y="-35%" width="170%" height="170%">
+                    <feDropShadow dx="0" dy="0" stdDeviation="9" floodColor="#C9A84C" floodOpacity="0.34" />
+                    <feDropShadow dx="0" dy="18" stdDeviation="18" floodColor="#000000" floodOpacity="0.55" />
+                  </filter>
+                  <marker
+                    id="boardLogicArrow"
+                    viewBox="0 0 12 12"
+                    refX="10"
+                    refY="6"
+                    markerWidth="9"
+                    markerHeight="9"
+                    orient="auto"
                   >
+                    <path d="M2 2 L10 6 L2 10 Z" fill="#E0C268" />
+                  </marker>
+                  <style>{`
+                    .board-grid {
+                      stroke-dasharray: 4 20;
+                      animation: boardGridDrift 16s linear infinite;
+                    }
+
+                    .board-flow {
+                      stroke-dasharray: 20 18;
+                      animation: boardFlow 2.4s linear infinite;
+                    }
+
+                    .board-card {
+                      animation: boardCardLift 5.4s ease-in-out infinite;
+                      transform-box: fill-box;
+                      transform-origin: center;
+                    }
+
+                    .board-card-frame {
+                      filter: url(#boardLogicGlow);
+                      transition: stroke-opacity 220ms ease;
+                    }
+
+                    .board-card:hover .board-card-frame {
+                      stroke-opacity: 1;
+                    }
+
+                    .board-index-dot {
+                      animation: boardPulse 2.1s ease-in-out infinite;
+                      transform-box: fill-box;
+                      transform-origin: center;
+                    }
+
+                    .board-progress-scan {
+                      animation: boardProgressScan 5.2s cubic-bezier(.45,0,.2,1) infinite;
+                    }
+
+                    .board-flare {
+                      animation: boardFlare 4.6s ease-in-out infinite;
+                      transform-box: fill-box;
+                      transform-origin: center;
+                    }
+
+                    @keyframes boardGridDrift {
+                      to { stroke-dashoffset: -96; }
+                    }
+
+                    @keyframes boardFlow {
+                      to { stroke-dashoffset: -152; }
+                    }
+
+                    @keyframes boardCardLift {
+                      0%, 100% { transform: translateY(0); opacity: .94; }
+                      50% { transform: translateY(-10px); opacity: 1; }
+                    }
+
+                    @keyframes boardPulse {
+                      0%, 100% { transform: scale(1); opacity: .72; }
+                      50% { transform: scale(1.18); opacity: 1; }
+                    }
+
+                    @keyframes boardProgressScan {
+                      0% { transform: translateX(0); opacity: 0; }
+                      12% { opacity: 1; }
+                      88% { opacity: 1; }
+                      100% { transform: translateX(970px); opacity: 0; }
+                    }
+
+                    @keyframes boardFlare {
+                      0%, 100% { opacity: .18; transform: scale(.98); }
+                      50% { opacity: .48; transform: scale(1.03); }
+                    }
+
+                    @media (prefers-reduced-motion: reduce) {
+                      .board-grid,
+                      .board-flow,
+                      .board-card,
+                      .board-index-dot,
+                      .board-progress-scan,
+                      .board-flare {
+                        animation: none;
+                      }
+                    }
+                  `}</style>
+                </defs>
+
+                <rect width="1320" height="620" fill="#101017" />
+                <circle cx="660" cy="300" r="380" fill="url(#summaryGlow)" className="board-flare" />
+                <g opacity="0.16">
+                  {Array.from({ length: 12 }).map((_, index) => (
+                    <path
+                      key={`grid-h-${index}`}
+                      d={`M80 ${118 + index * 34} H1240`}
+                      stroke="#E0C268"
+                      strokeWidth="1"
+                      className="board-grid"
+                    />
+                  ))}
+                  {Array.from({ length: 11 }).map((_, index) => (
+                    <path
+                      key={`grid-v-${index}`}
+                      d={`M${150 + index * 102} 96 V524`}
+                      stroke="#8B1A1A"
+                      strokeWidth="1"
+                      className="board-grid"
+                    />
+                  ))}
+                </g>
+
+                <text
+                  x="660"
+                  y="98"
+                  textAnchor="middle"
+                  fill="#E0C268"
+                  fontFamily="Outfit"
+                  fontSize="17"
+                  fontWeight="800"
+                  letterSpacing="5"
+                >
+                  STRATEGIC DECISION PATH
+                </text>
+                <text
+                  x="660"
+                  y="130"
+                  textAnchor="middle"
+                  fill="#E8E0D0"
+                  fontFamily="Outfit"
+                  fontSize="14"
+                  opacity="0.68"
+                >
+                  from market confusion to board-visible delivery evidence
+                </text>
+
+                <path
+                  d="M154 530 H1165"
+                  stroke="#4b3f20"
+                  strokeWidth="9"
+                  strokeLinecap="round"
+                  fill="none"
+                />
+                <path
+                  d="M154 530 H1165"
+                  stroke="url(#summaryFlow)"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  fill="none"
+                  markerEnd="url(#boardLogicArrow)"
+                  className="board-flow"
+                />
+                <rect
+                  x="154"
+                  y="521"
+                  width="42"
+                  height="18"
+                  rx="9"
+                  fill="#E0C268"
+                  opacity="0.9"
+                  className="board-progress-scan"
+                />
+
+                {boardNarrativeSteps.map(({ title, note }, index) => {
+                  const x = 68 + index * 244;
+                  return (
                     <g
-                      className="board-card"
-                      style={{ animationDelay: `${index * 0.18}s` }}
+                      key={title}
+                      transform={`translate(${x} 210)`}
                     >
-                      <rect
-                        className="board-card-frame"
-                        width="212"
-                        height="214"
-                        fill="#13131a"
-                        stroke="#C9A84C"
-                        strokeWidth="2"
-                        strokeOpacity="0.72"
-                      />
-                      <rect x="14" y="14" width="184" height="186" fill="none" stroke="#E0C268" strokeOpacity="0.16" />
-                      <circle
-                        cx="30"
-                        cy="32"
-                        r="8"
-                        fill="#CC0000"
-                        className="board-index-dot"
-                        style={{ animationDelay: `${index * 0.24}s` }}
-                      />
-                      <text
-                        x="48"
-                        y="38"
-                        fill="#E0C268"
-                        fontFamily="Outfit"
-                        fontSize="15"
-                        fontWeight="800"
-                        letterSpacing="4"
+                      <g
+                        className="board-card"
+                        style={{ animationDelay: `${index * 0.18}s` }}
                       >
-                        {String(index + 1).padStart(2, "0")}
-                      </text>
-                      <text
-                        x="22"
-                        y="100"
-                        fill="#E8E0D0"
-                        fontFamily="Playfair Display"
-                        fontSize="32"
-                        fontWeight="800"
-                        fontStyle="italic"
-                      >
-                        {title}
-                      </text>
-                      {note.map((line, noteIndex) => (
+                        <rect
+                          className="board-card-frame"
+                          width="212"
+                          height="214"
+                          fill="#13131a"
+                          stroke="#C9A84C"
+                          strokeWidth="2"
+                          strokeOpacity="0.72"
+                        />
+                        <rect x="14" y="14" width="184" height="186" fill="none" stroke="#E0C268" strokeOpacity="0.16" />
+                        <circle
+                          cx="30"
+                          cy="32"
+                          r="8"
+                          fill="#CC0000"
+                          className="board-index-dot"
+                          style={{ animationDelay: `${index * 0.24}s` }}
+                        />
                         <text
-                          key={line}
-                          x="24"
-                          y={142 + noteIndex * 22}
-                          fill="#C9A84C"
+                          x="48"
+                          y="38"
+                          fill="#E0C268"
                           fontFamily="Outfit"
-                          fontSize="13"
-                          fontWeight="700"
-                          letterSpacing="0.7"
+                          fontSize="15"
+                          fontWeight="800"
+                          letterSpacing="4"
                         >
-                          {line.toUpperCase()}
+                          {String(index + 1).padStart(2, "0")}
                         </text>
-                      ))}
+                        <text
+                          x="22"
+                          y="100"
+                          fill="#E8E0D0"
+                          fontFamily="Playfair Display"
+                          fontSize="32"
+                          fontWeight="800"
+                          fontStyle="italic"
+                        >
+                          {title}
+                        </text>
+                        {note.map((line, noteIndex) => (
+                          <text
+                            key={line}
+                            x="24"
+                            y={142 + noteIndex * 22}
+                            fill="#C9A84C"
+                            fontFamily="Outfit"
+                            fontSize="13"
+                            fontWeight="700"
+                            letterSpacing="0.7"
+                          >
+                            {line.toUpperCase()}
+                          </text>
+                        ))}
+                      </g>
+                      {index < 4 && (
+                        <path
+                          d="M218 102 H238"
+                          stroke="url(#summaryFlow)"
+                          strokeWidth="5"
+                          strokeLinecap="round"
+                          markerEnd="url(#boardLogicArrow)"
+                          className="board-flow"
+                        />
+                      )}
                     </g>
-                    {index < 4 && (
-                      <path
-                        d="M218 102 H238"
-                        stroke="url(#summaryFlow)"
-                        strokeWidth="5"
-                        strokeLinecap="round"
-                        markerEnd="url(#boardLogicArrow)"
-                        className="board-flow"
-                      />
-                    )}
-                  </g>
-                );
-              })}
-            </svg>
-          </SvgStage>
+                  );
+                })}
+              </svg>
+            </SvgStage>
+
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+              {executiveSummaryImages.map((image) => (
+                <ImagePlaceholder
+                  key={image.src}
+                  src={image.src}
+                  alt={image.alt}
+                  brief={image.brief}
+                  orientation="landscape"
+                  className="shadow-gold"
+                />
+              ))}
+            </div>
+          </div>
         </Reveal>
       </div>
 
