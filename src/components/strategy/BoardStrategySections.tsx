@@ -473,10 +473,18 @@ export function BoardCompletionAssuranceSection() {
       title="100% Readiness Control Matrix"
       subtitle="Every strategy dimension is now tied to an evidence standard, an owner model and a release control so the board can judge completeness without relying on narrative confidence alone."
     >
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
+      <div className="space-y-10">
         <Reveal>
-          <SvgStage label="Board Assurance · 100% Completion Logic" aspect="wide">
-            <svg viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+          <SvgStage
+            label="Board Assurance · 100% Completion Logic"
+            aspect="wide"
+            className="shadow-gold"
+          >
+            <svg
+              viewBox="0 0 1200 560"
+              className="h-full w-full"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <defs>
                 <linearGradient id="readinessRing" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#E0C268" />
@@ -484,37 +492,40 @@ export function BoardCompletionAssuranceSection() {
                   <stop offset="100%" stopColor="#8B1A1A" />
                 </linearGradient>
               </defs>
-              <g transform="translate(600 260)">
-                <circle r="172" fill="none" stroke="#2a2420" strokeWidth="34" />
+              <g transform="translate(600 286)">
+                <circle r="184" fill="none" stroke="#2a2420" strokeWidth="38" />
                 <circle
-                  r="172"
+                  r="184"
                   fill="none"
                   stroke="url(#readinessRing)"
-                  strokeWidth="34"
-                  strokeDasharray="1080 1080"
+                  strokeWidth="38"
+                  strokeDasharray="1156 1156"
                   strokeLinecap="round"
                   transform="rotate(-90)"
                 />
-                <text y="-22" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="72" fontStyle="italic">
+                <text y="-28" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="92" fontStyle="italic">
                   100%
                 </text>
-                <text y="30" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="13" letterSpacing="4">
+                <text y="34" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="20" fontWeight="800" letterSpacing="4">
                   BOARD-READY
                 </text>
-                <text y="66" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="10" letterSpacing="2">
-                  EVIDENCE · GOVERNANCE · EXECUTION · RISK
+                <text y="72" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="15" fontWeight="700" letterSpacing="2">
+                  EVIDENCE · GOVERNANCE
+                </text>
+                <text y="98" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="15" fontWeight="700" letterSpacing="2">
+                  EXECUTION · RISK
                 </text>
               </g>
               {[
-                ["Evidence", 210, 120],
-                ["Decision", 990, 120],
-                ["Execution", 210, 400],
-                ["Assurance", 990, 400],
+                ["Evidence", 210, 140],
+                ["Decision", 990, 140],
+                ["Execution", 210, 430],
+                ["Assurance", 990, 430],
               ].map(([label, x, y]) => (
                 <g key={label as string}>
-                  <line x1="600" y1="260" x2={Number(x)} y2={Number(y)} stroke="#C9A84C" strokeOpacity="0.35" />
-                  <rect x={Number(x) - 92} y={Number(y) - 30} width="184" height="60" fill="#13131a" stroke="#C9A84C" strokeOpacity="0.65" />
-                  <text x={Number(x)} y={Number(y) + 5} textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="12" letterSpacing="3">
+                  <line x1="600" y1="286" x2={Number(x)} y2={Number(y)} stroke="#C9A84C" strokeOpacity="0.35" strokeWidth="2" />
+                  <rect x={Number(x) - 124} y={Number(y) - 40} width="248" height="80" fill="#13131a" stroke="#C9A84C" strokeOpacity="0.72" strokeWidth="2" />
+                  <text x={Number(x)} y={Number(y) + 8} textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="24" fontWeight="800" letterSpacing="2">
                     {label}
                   </text>
                 </g>
