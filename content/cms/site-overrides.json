@@ -1,44 +1,64 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T03:35:43.144Z",
+  "updatedAt": "2026-05-28T03:38:58.178Z",
   "routes": {
     "/": {
       "published": [
         {
           "id": "/:text:main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
           "route": "/",
-          "elementType": "text",
-          "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
-          "originalFingerprint": "1tkw7p3",
           "value": "test 1234",
           "deleted": false,
+          "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
           "updatedAt": "2026-05-28T03:35:14.455Z",
-          "updatedBy": "hello@nwhite.systems"
+          "updatedBy": "hello@nwhite.systems",
+          "elementType": "text",
+          "originalFingerprint": "1tkw7p3"
         }
       ],
       "versions": [
         {
-          "id": "site-version-1779939343144",
+          "id": "site-version-1779939538178",
           "route": "/",
-          "label": "Published /",
+          "label": "Restored Published /",
           "overrides": [
             {
               "id": "/:text:main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
               "route": "/",
-              "elementType": "text",
-              "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
-              "originalFingerprint": "1tkw7p3",
               "value": "test 1234",
               "deleted": false,
+              "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
               "updatedAt": "2026-05-28T03:35:14.455Z",
-              "updatedBy": "hello@nwhite.systems"
+              "updatedBy": "hello@nwhite.systems",
+              "elementType": "text",
+              "originalFingerprint": "1tkw7p3"
+            }
+          ],
+          "publishedAt": "2026-05-28T03:38:58.178Z",
+          "publishedBy": "hello@nwhite.systems"
+        },
+        {
+          "id": "site-version-1779939343144",
+          "label": "Published /",
+          "route": "/",
+          "overrides": [
+            {
+              "id": "/:text:main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+              "route": "/",
+              "value": "test 1234",
+              "deleted": false,
+              "selector": "main:nth-of-type(1)>section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td:nth-of-type(1)",
+              "updatedAt": "2026-05-28T03:35:14.455Z",
+              "updatedBy": "hello@nwhite.systems",
+              "elementType": "text",
+              "originalFingerprint": "1tkw7p3"
             }
           ],
           "publishedAt": "2026-05-28T03:35:43.144Z",
           "publishedBy": "hello@nwhite.systems"
         }
       ],
-      "updatedAt": "2026-05-28T03:35:43.144Z",
+      "updatedAt": "2026-05-28T03:38:58.178Z",
       "updatedBy": "hello@nwhite.systems"
     },
     "/smart-tools": {
