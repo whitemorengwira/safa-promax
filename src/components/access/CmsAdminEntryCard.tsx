@@ -22,6 +22,8 @@ export function CmsAdminEntryCard() {
       </div>
       <Link
         href="/admin/login"
+        target="_blank"
+        rel="noopener noreferrer"
         className="mt-5 inline-flex w-full items-center justify-center gap-2 border border-gold/40 px-3 py-3 text-[11px] font-black uppercase leading-none tracking-[0.14em] text-gold transition hover:bg-gold hover:text-bg"
       >
         Open CMS Admin Studio
