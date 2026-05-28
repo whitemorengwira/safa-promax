@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T19:41:35.150Z",
+  "updatedAt": "2026-05-28T15:18:13.115Z",
   "siteSettings": {
     "siteName": "SA Film Academy 360 Marketing Strategy",
     "publicUrl": "https://safa-promax.vercel.app",
@@ -481,7 +481,18 @@
       ]
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": "user-owner-50b76e61739e959d",
+      "email": "hello@nwhite.systems",
+      "name": "Whitemore Ngwira",
+      "role": "super_admin",
+      "status": "active",
+      "passwordHash": "a1169bb959ca37089ba7e6c52da9970f:5cc70a22e98aa7e8de43d9cdee87bcc4ad349f2a6014e58cf5188f03678379afa44d5a0feab0569c49fb2ea662a808093284c803263aaeb5c3ec919c560f9fcd",
+      "createdAt": "2026-05-28T15:18:13.115Z",
+      "approvedAt": "2026-05-28T15:18:13.115Z"
+    }
+  ],
   "approvals": [
     {
       "id": "approval-1779824493287",
@@ -495,6 +506,13 @@
     }
   ],
   "auditLog": [
+    {
+      "id": "owner-cms-access-ensured-1779981506931-f20d64",
+      "action": "owner_cms_access_ensured",
+      "actor": "owner-provisioning",
+      "summary": "Owner CMS super admin access ensured for hello@nwhite.systems.",
+      "createdAt": "2026-05-28T15:18:13.115Z"
+    },
     {
       "id": "page_published-1779824495150",
       "action": "page_published",

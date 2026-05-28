@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-05-28T15:18:13.115Z",
+  "users": [
+    {
+      "id": "site-user-owner-50b76e61739e959d",
+      "email": "hello@nwhite.systems",
+      "name": "Whitemore Ngwira",
+      "organisation": "NWhite Systems",
+      "role": "executive",
+      "status": "active",
+      "passwordHash": "06fa9f10385a251556eeb39fb65a989b:2ea00895d87732241a66bffdd0a725df5716856f331eb0c0c0666d298968978c7a167f485070cdec18d3afddde3a4ddce7d6b70297d3c9cab77821cba93d1d2e",
+      "createdAt": "2026-05-28T15:18:13.115Z",
+      "updatedAt": "2026-05-28T15:18:13.115Z",
+      "approvedAt": "2026-05-28T15:18:13.115Z",
+      "approvedBy": "owner-provisioning"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "owner-site-access-ensured-1779981506931-bd9f66",
+      "action": "owner_site_access_ensured",
+      "actor": "owner-provisioning",
+      "summary": "Owner presentation access approved for hello@nwhite.systems.",
+      "createdAt": "2026-05-28T15:18:13.115Z"
+    }
+  ]
+}
