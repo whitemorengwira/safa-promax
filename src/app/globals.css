@@ -576,6 +576,17 @@ h4, h5, h6 {
   min-height: clamp(220px, 24vw, 420px);
 }
 
+.safa-visual-stack__secondary .calendar-execution-visual .visual-fill {
+  aspect-ratio: 21 / 9;
+  min-height: 0;
+}
+
+.calendar-execution-visual .ken-burns-frame > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .safa-image-slot .visual-fill::after {
   content: '';
   position: absolute;

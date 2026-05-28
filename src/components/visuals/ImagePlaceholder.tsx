@@ -57,6 +57,7 @@ export function ImagePlaceholder({
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 84vw, 70vw"
               className={fit === "contain" ? "object-contain" : "object-cover"}
               style={{
+                objectFit: fit,
                 objectPosition: objectPosition ?? (safeHeadroom ? "center 28%" : "center center"),
               }}
             />

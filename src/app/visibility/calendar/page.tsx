@@ -98,7 +98,11 @@ export default function Page() {
                       src="/images/ai/safa-calendar-hero.png"
                       alt="12-month marketing calendar execution"
                       brief="12-month marketing calendar execution"
-                      orientation="landscape"
+                      orientation="video"
+                      fit="contain"
+                      motionSafe={false}
+                      safeHeadroom={false}
+                      className="calendar-execution-visual"
                     />
                   </div>
                 </Reveal>
