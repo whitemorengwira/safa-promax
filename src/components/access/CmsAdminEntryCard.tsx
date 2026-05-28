@@ -5,22 +5,24 @@ import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
 export function CmsAdminEntryCard() {
   return (
-    <aside className="border border-gold/20 bg-black/35 p-6 shadow-2xl backdrop-blur-md">
+    <aside className="w-full border border-gold/20 bg-black/45 p-5 shadow-2xl backdrop-blur-md lg:max-w-[300px]">
       <div className="flex items-start gap-3">
-        <div className="grid h-10 w-10 shrink-0 place-items-center border border-gold/30 bg-gold/10 text-gold">
+        <div className="grid h-9 w-9 shrink-0 place-items-center border border-gold/30 bg-gold/10 text-gold">
           <ShieldCheck className="h-5 w-5" />
         </div>
-        <div>
-          <p className="text-[10px] font-black uppercase tracking-[0.28em] text-gold">Internal Access</p>
-          <h2 className="mt-2 text-xl font-black text-white">CMS administrators and editors</h2>
+        <div className="min-w-0">
+          <div className="text-[10px] font-black uppercase leading-none tracking-[0.24em] text-gold">Internal Access</div>
+          <div className="mt-2 text-base font-black uppercase leading-snug tracking-[0.08em] text-white">
+            CMS administrators and editors
+          </div>
         </div>
       </div>
-      <p className="mt-4 text-sm leading-relaxed text-muted">
+      <div className="mt-4 border-t border-white/10 pt-4 text-xs leading-6 text-muted">
         Only for approved SAFA CMS editors. Board and stakeholder viewers should use the presentation sign-in.
-      </p>
+      </div>
       <Link
         href="/admin/login"
-        className="mt-6 inline-flex w-full items-center justify-center gap-2 border border-gold/40 px-4 py-3 text-xs font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg"
+        className="mt-5 inline-flex w-full items-center justify-center gap-2 border border-gold/40 px-3 py-3 text-[11px] font-black uppercase leading-none tracking-[0.14em] text-gold transition hover:bg-gold hover:text-bg"
       >
         Open CMS Admin Studio
         <ArrowUpRight className="h-4 w-4" />

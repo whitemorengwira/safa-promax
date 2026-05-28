@@ -57,7 +57,7 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
   const signupHref = `/access/signup${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`;
 
   return (
-    <div className="w-full border border-gold/20 bg-[#080d1d]/95 p-8 shadow-2xl backdrop-blur-md">
+    <div className="w-full border border-gold/20 bg-[#080d1d]/95 p-6 shadow-2xl backdrop-blur-md md:p-7">
       <form className="space-y-4" onSubmit={submit}>
         {mode === "signup" && (
           <>
@@ -118,8 +118,8 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
           </span>
         </label>
 
-        {message && <p className="border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-100">{message}</p>}
-        {error && <p className="border border-red/40 bg-red/10 px-4 py-3 text-sm text-red-100">{error}</p>}
+        {message && <div className="border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm leading-6 text-emerald-100">{message}</div>}
+        {error && <div className="border border-red/40 bg-red/10 px-4 py-3 text-sm leading-6 text-red-100">{error}</div>}
 
         <button
           type="submit"
@@ -147,9 +147,9 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
         </div>
       ) : (
         <div className="mt-5 space-y-3 text-center text-sm">
-          <p className="text-xs leading-relaxed text-muted">
+          <div className="text-xs leading-6 text-muted">
             New accounts remain pending until a super admin approves presentation access.
-          </p>
+          </div>
           <Link href={loginHref} className="text-gold underline underline-offset-4 transition hover:text-gold-soft">
             Already approved? Sign in
           </Link>
