@@ -46,7 +46,6 @@ export async function proxy(request: NextRequest) {
   if (
     !hasSiteSession &&
     !hasAdminSession &&
-    !pathname.startsWith("/board") &&
     !isSignedPreview(searchParams)
   ) {
     const login = new URL("/access/login", request.url);

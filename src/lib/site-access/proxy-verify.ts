@@ -38,7 +38,7 @@ function isMissingSchema(error: { code?: string; message?: string } | null | und
 
 export async function verifySiteAccessSession(session: SiteAccessSession) {
   const client = getSupabaseAdmin();
-  if (!client) return true;
+  if (!client) return process.env.NODE_ENV !== "production";
 
   const { data, error } = await client
     .from(usersTable)

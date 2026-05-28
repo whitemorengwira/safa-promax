@@ -65,12 +65,12 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
           Sign In
         </Link>
         <Link
-          href="/access/signup"
+          href={`/access/signup${nextUrl !== "/" ? `?next=${encodeURIComponent(nextUrl)}` : ""}`}
           className={`flex-1 px-4 py-3 text-center text-xs font-black uppercase tracking-widest transition ${
             mode === "signup" ? "bg-gold text-bg" : "text-muted hover:text-white"
           }`}
         >
-          Request Access
+          Create Account
         </Link>
       </div>
 
@@ -139,9 +139,14 @@ export function SiteAccessAuthForm({ mode }: { mode: Mode }) {
           className="inline-flex w-full items-center justify-center gap-2 bg-gold px-4 py-4 text-xs font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft disabled:cursor-wait disabled:opacity-70"
         >
           {mode === "login" ? <LockKeyhole className="h-4 w-4" /> : <Send className="h-4 w-4" />}
-          {submitting ? "Working..." : mode === "login" ? "Open Presentation" : "Submit Request"}
+          {submitting ? "Working..." : mode === "login" ? "Open Presentation" : "Create Account"}
         </button>
       </form>
+      {mode === "signup" && (
+        <p className="mt-4 text-center text-xs leading-relaxed text-muted">
+          New accounts remain pending until a super admin approves presentation access.
+        </p>
+      )}
     </div>
   );
 }

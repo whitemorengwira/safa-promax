@@ -10,7 +10,7 @@ import { SiteAccessBadge } from "@/components/access/SiteAccessBadge";
 
 export function AppChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isPrivateSurface = pathname.startsWith("/admin") || pathname.startsWith("/board") || pathname.startsWith("/access");
+  const isPrivateSurface = pathname.startsWith("/admin") || pathname.startsWith("/access");
 
   if (isPrivateSurface) {
     return <main className="min-h-screen bg-bg text-text">{children}</main>;

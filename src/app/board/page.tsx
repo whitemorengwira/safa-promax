@@ -1,14 +1,19 @@
 import Link from "next/link";
-import { requireAdminSession } from "@/lib/admin/auth";
+import { redirect } from "next/navigation";
+import { getAdminSession } from "@/lib/admin/auth";
 import { getContentStore } from "@/lib/admin/content-store";
+import { getSiteAccessSession } from "@/lib/site-access/auth";
 
 export default async function BoardPage() {
-  await requireAdminSession();
+  const [adminSession, siteSession] = await Promise.all([getAdminSession(), getSiteAccessSession()]);
+  if (!adminSession && !siteSession) redirect("/access/login?next=/board");
+
   const store = await getContentStore();
   const keyPages = store.pages.filter((page) => ["home", "foundation", "visibility", "growth-engine", "delivery", "smart-tools"].includes(page.slug));
+  const canOpenAdmin = Boolean(adminSession);
 
   return (
-    <main className="min-h-screen bg-bg">
+    <div className="min-h-screen bg-bg">
       <section className="container-max py-16 md:py-24">
         <p className="text-[10px] uppercase tracking-[0.35em] text-gold">Board Portal</p>
         <h1 className="mt-5 max-w-4xl text-5xl font-black leading-tight text-white md:text-7xl">
@@ -19,7 +24,9 @@ export default async function BoardPage() {
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/" className="bg-gold px-5 py-4 text-xs font-black uppercase tracking-widest text-bg">Open Public Site</Link>
-          <Link href="/admin/dashboard" className="border border-gold/40 px-5 py-4 text-xs font-black uppercase tracking-widest text-gold">Admin Dashboard</Link>
+          {canOpenAdmin && (
+            <Link href="/admin/dashboard" className="border border-gold/40 px-5 py-4 text-xs font-black uppercase tracking-widest text-gold">Admin Dashboard</Link>
+          )}
         </div>
       </section>
 
@@ -35,6 +42,6 @@ export default async function BoardPage() {
           ))}
         </div>
       </section>
-    </main>
+    </div>
   );
 }
