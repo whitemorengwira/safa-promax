@@ -21,8 +21,8 @@ export default function Page() {
         eyebrow="7 · Visibility Pillar"
         title="Found by search engines today. Found by AI engines tomorrow. Both, deliberately."
         subtitle="Traditional SEO and Generative Engine Optimisation (AI SEO) are no longer alternatives. They are two halves of the same discovery surface."
-        imageSrc="/images/ai/v3/visibility/seo-hero.webp"
-        imageAlt="Radial knowledge graph or network visualization in gold light"
+        imageSrc="/images/ai/visibility-seo/technical-audit-screen.webp"
+        imageAlt="Photorealistic SEO and AI search audit dashboard on a professional monitor"
       />
 
       <FilmstripDivider />
@@ -56,9 +56,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/visibility/seo-hero.webp"
-              alt="Traditional SEO"
-              brief="Google search results macro on a professional monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/visibility-seo/content-strategy-desk.webp"
+              alt="Traditional SEO analytics dashboard"
+              brief="Photorealistic search visibility dashboard on a laptop in a cinematic strategy office, warm red and gold lighting."
               orientation="landscape"
             />
           }
@@ -76,9 +76,9 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/v3/visibility/seo-hero.webp"
-                      alt="SEO strategy and implementation"
-                      brief="SEO strategy and implementation"
+                      src="/images/ai/visibility-seo/technical-audit-screen.webp"
+                      alt="SEO technical audit dashboard"
+                      brief="Photorealistic technical SEO audit dashboard on a large monitor with status indicators and performance metrics."
                       orientation="landscape"
                     />
                   </div>
@@ -122,9 +122,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/growth/agentic-ai-hero.webp"
-              alt="AI SEO"
-              brief="A chatbot interface or AI assistant on a high-end screen in a cinematic setting, warm gold and deep red tones, photorealistic, textless."
+              src="/images/ai/smart-tools/tools-hero-professional.webp"
+              alt="AI SEO operations dashboard"
+              brief="Photorealistic AI operations dashboard on a computer screen, showing search intelligence, content workflow metrics, and campaign status."
               orientation="landscape"
             />
           }

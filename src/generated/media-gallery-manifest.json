@@ -1661,7 +1661,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -1669,9 +1669,7 @@
       "height": 1440,
       "size": 4100238,
       "extension": "png",
-      "usedOn": [
-        "/"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -2655,7 +2653,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "unused",
+        "used",
         "generated"
       ],
       "locked": true,
@@ -2663,7 +2661,9 @@
       "height": 1440,
       "size": 70140,
       "extension": "webp",
-      "usedOn": [],
+      "usedOn": [
+        "/"
+      ],
       "origin": "public",
       "type": "image"
     },
@@ -2674,7 +2674,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "unused",
+        "used",
         "generated"
       ],
       "locked": true,
@@ -2682,7 +2682,14 @@
       "height": 1440,
       "size": 122262,
       "extension": "webp",
-      "usedOn": [],
+      "usedOn": [
+        "/",
+        "/growth",
+        "/growth/agentic-ai",
+        "/visibility/seo",
+        "content/cms/agentic-ai.json",
+        "data/cms/content-store.json"
+      ],
       "origin": "public",
       "type": "image"
     },
@@ -4967,22 +4974,15 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
       "width": 2560,
       "height": 1440,
-      "size": 308022,
+      "size": 122262,
       "extension": "webp",
-      "usedOn": [
-        "/",
-        "/growth",
-        "/growth/agentic-ai",
-        "/visibility/seo",
-        "content/cms/agentic-ai.json",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5105,21 +5105,15 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
       "width": 2560,
       "height": 1440,
-      "size": 133312,
+      "size": 71380,
       "extension": "webp",
-      "usedOn": [
-        "/",
-        "/visibility",
-        "/visibility/calendar",
-        "content/cms/calendar.json",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5176,19 +5170,15 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
       "width": 2560,
       "height": 1440,
-      "size": 203420,
+      "size": 133074,
       "extension": "webp",
-      "usedOn": [
-        "/visibility",
-        "/visibility/seo",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5218,7 +5208,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "unused",
+        "used",
         "generated"
       ],
       "locked": true,
@@ -5226,7 +5216,13 @@
       "height": 1440,
       "size": 71380,
       "extension": "webp",
-      "usedOn": [],
+      "usedOn": [
+        "/",
+        "/visibility",
+        "/visibility/calendar",
+        "content/cms/calendar.json",
+        "data/cms/content-store.json"
+      ],
       "origin": "public",
       "type": "image"
     },
@@ -5435,7 +5431,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "unused",
+        "used",
         "generated"
       ],
       "locked": true,
@@ -5443,7 +5439,9 @@
       "height": 1440,
       "size": 148492,
       "extension": "webp",
-      "usedOn": [],
+      "usedOn": [
+        "/visibility/seo"
+      ],
       "origin": "public",
       "type": "image"
     },
@@ -5501,7 +5499,9 @@
       "size": 133074,
       "extension": "webp",
       "usedOn": [
-        "/visibility/seo"
+        "/visibility",
+        "/visibility/seo",
+        "data/cms/content-store.json"
       ],
       "origin": "public",
       "type": "image"
@@ -7152,9 +7152,6 @@
     "/images/ai/safa-accreditation-new.png": [
       "/foundation/organisation"
     ],
-    "/images/ai/safa-ai-hero.png": [
-      "/"
-    ],
     "/images/ai/safa-budget-hero.png": [
       "src/lib/content/pageData.ts"
     ],
@@ -7188,6 +7185,17 @@
     ],
     "/images/ai/safa-tier1-intern.png": [
       "/foundation/organisation"
+    ],
+    "/images/ai/smart-tools/profile-cards-screen.webp": [
+      "/"
+    ],
+    "/images/ai/smart-tools/tools-hero-professional.webp": [
+      "/",
+      "/growth",
+      "/growth/agentic-ai",
+      "/visibility/seo",
+      "content/cms/agentic-ai.json",
+      "data/cms/content-store.json"
     ],
     "/images/ai/v2/budget/budget-line-items.png": [
       "/delivery/budget"
@@ -7362,14 +7370,6 @@
       "content/cms/organisation.json",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v3/growth/agentic-ai-hero.webp": [
-      "/",
-      "/growth",
-      "/growth/agentic-ai",
-      "/visibility/seo",
-      "content/cms/agentic-ai.json",
-      "data/cms/content-store.json"
-    ],
     "/images/ai/v3/growth/commercial-hero.webp": [
       "/growth",
       "/growth/agentic-ai",
@@ -7392,13 +7392,6 @@
     "/images/ai/v3/growth/positioning-proof.webp": [
       "/growth/positioning"
     ],
-    "/images/ai/v3/visibility/calendar-hero.webp": [
-      "/",
-      "/visibility",
-      "/visibility/calendar",
-      "content/cms/calendar.json",
-      "data/cms/content-store.json"
-    ],
     "/images/ai/v3/visibility/content-hero.webp": [
       "/visibility",
       "/visibility/content",
@@ -7409,9 +7402,11 @@
       "/visibility/leadership",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v3/visibility/seo-hero.webp": [
+    "/images/ai/visibility-calendar/filming-schedule-monitor.webp": [
+      "/",
       "/visibility",
-      "/visibility/seo",
+      "/visibility/calendar",
+      "content/cms/calendar.json",
       "data/cms/content-store.json"
     ],
     "/images/ai/visibility-content/hero-studio-glow.webp": [
@@ -7426,8 +7421,13 @@
     "/images/ai/visibility-leadership/keynote-stage.webp": [
       "/visibility/leadership"
     ],
-    "/images/ai/visibility-seo/technical-audit-screen.webp": [
+    "/images/ai/visibility-seo/content-strategy-desk.webp": [
       "/visibility/seo"
+    ],
+    "/images/ai/visibility-seo/technical-audit-screen.webp": [
+      "/visibility",
+      "/visibility/seo",
+      "data/cms/content-store.json"
     ],
     "/images/logos/greenset-logo.webp": [
       "src/components/layout/Footer.tsx"

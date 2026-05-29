@@ -16,7 +16,7 @@ const SUB_PAGES = [
     title: 'Agentic AI Engine',
     href: '/growth/agentic-ai',
     description: 'Five autonomous workflows driving a weekly marketing cadence.',
-    image: '/images/ai/v3/growth/agentic-ai-hero.webp'
+    image: '/images/ai/smart-tools/tools-hero-professional.webp'
   },
   {
     title: 'B-BBEE & Skills Levy',

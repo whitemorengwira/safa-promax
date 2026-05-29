@@ -16,13 +16,13 @@ const SUB_PAGES = [
     title: '12-Month Calendar',
     href: '/visibility/calendar',
     description: 'A phased roadmap for foundation, visibility, authority, and scale.',
-    image: '/images/ai/v3/visibility/calendar-hero.webp'
+    image: '/images/ai/visibility-calendar/filming-schedule-monitor.webp'
   },
   {
     title: 'SEO & AI SEO',
     href: '/visibility/seo',
     description: 'Optimising for the search engines of today and the AI engines of tomorrow.',
-    image: '/images/ai/v3/visibility/seo-hero.webp'
+    image: '/images/ai/visibility-seo/technical-audit-screen.webp'
   },
   {
     title: 'Institutional Voice',

@@ -199,9 +199,9 @@ export default async function HomePage() {
             <Link href="/visibility/calendar" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v3/visibility/calendar-hero.webp"
+                  src="/images/ai/visibility-calendar/filming-schedule-monitor.webp"
                   alt="Visibility"
-                  brief="Abstract four-phase timeline in gold light"
+                  brief="Photorealistic 12-month strategy timeline dashboard on a professional monitor"
                   orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
@@ -213,9 +213,9 @@ export default async function HomePage() {
             <Link href="/growth/agentic-ai" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v3/growth/agentic-ai-hero.webp"
+                  src="/images/ai/smart-tools/tools-hero-professional.webp"
                   alt="Growth"
-                  brief="Abstract orbital AI system"
+                  brief="Photorealistic AI workflow dashboard on a professional computer screen"
                   orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
@@ -245,9 +245,9 @@ export default async function HomePage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImagePlaceholder
-            src="/images/ai/safa-ai-hero.png"
-              alt="SA Film Interns Talent Portal"
-            brief="Young Black creative professional using a laptop"
+            src="/images/ai/smart-tools/profile-cards-screen.webp"
+            alt="SA Film Interns Talent Portal"
+            brief="Photorealistic talent portal dashboard with profile cards on a professional computer monitor"
             orientation="video"
             className="w-full h-full opacity-40"
           />

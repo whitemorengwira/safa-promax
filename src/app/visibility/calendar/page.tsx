@@ -22,8 +22,8 @@ export default function Page() {
         eyebrow="5 · Visibility Pillar"
         title="The 12-Month Marketing Calendar"
         subtitle="June 2026 to May 2027: four quarters, four phases, every milestone visible."
-        imageSrc="/images/ai/v3/visibility/calendar-hero.webp"
-        imageAlt="Dark reddish-cinematic film production environment"
+        imageSrc="/images/ai/visibility-calendar/filming-schedule-monitor.webp"
+        imageAlt="Photorealistic 12-month strategy dashboard on a professional monitor"
       />
 
       <FilmstripDivider />
