@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  outputFileTracingExcludes: {
+    "/api/admin/media": ["./public/images/**/*"],
+  },
   redirects: async () => [
     // Redirect all /strategy/* routes to their canonical tab-based equivalents
     { source: "/strategy/organisation", destination: "/foundation/organisation", permanent: true },

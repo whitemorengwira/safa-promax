@@ -1,0 +1,7506 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "public-images-ai-contact-connection-web-warm-webp",
+      "url": "/images/ai/contact/connection-web-warm.webp",
+      "title": "Connection Web Warm",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 103552,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-contact-email-envelope-abstract-webp",
+      "url": "/images/ai/contact/email-envelope-abstract.webp",
+      "title": "Email Envelope Abstract",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 71706,
+      "extension": "webp",
+      "usedOn": [
+        "/contact",
+        "content/cms/contact.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-contact-hero-phone-professional-webp",
+      "url": "/images/ai/contact/hero-phone-professional.webp",
+      "title": "Hero Phone Professional",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1056,
+      "height": 1408,
+      "size": 64072,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-cineterns-populated-webp",
+      "url": "/images/ai/delivery-implementation/cineterns-populated.webp",
+      "title": "Cineterns Populated",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 77384,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-clapperboard-action-webp",
+      "url": "/images/ai/delivery-implementation/clapperboard-action.webp",
+      "title": "Clapperboard Action",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 81298,
+      "extension": "webp",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-content-creator-working-webp",
+      "url": "/images/ai/delivery-implementation/content-creator-working.webp",
+      "title": "Content Creator Working",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 118392,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-crew-motion-night-webp",
+      "url": "/images/ai/delivery-implementation/crew-motion-night.webp",
+      "title": "Crew Motion Night",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 73622,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-milestone-monitor-webp",
+      "url": "/images/ai/delivery-implementation/milestone-monitor.webp",
+      "title": "Milestone Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 104502,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-delivery-implementation-partnership-meeting-webp",
+      "url": "/images/ai/delivery-implementation/partnership-meeting.webp",
+      "title": "Partnership Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 135530,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-creative-concept-meeting-webp",
+      "url": "/images/ai/execution-creative/concept-meeting.webp",
+      "title": "Concept Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 176622,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-creative-grading-suite-webp",
+      "url": "/images/ai/execution-creative/grading-suite.webp",
+      "title": "Grading Suite",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 164582,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-creative-hero-light-flare-webp",
+      "url": "/images/ai/execution-creative/hero-light-flare.webp",
+      "title": "Hero Light Flare",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 49728,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-creative-storyboard-desk-webp",
+      "url": "/images/ai/execution-creative/storyboard-desk.webp",
+      "title": "Storyboard Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 175944,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-impact-community-screening-webp",
+      "url": "/images/ai/execution-impact/community-screening.webp",
+      "title": "Community Screening",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 217874,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-impact-economic-growth-nodes-webp",
+      "url": "/images/ai/execution-impact/economic-growth-nodes.webp",
+      "title": "Economic Growth Nodes",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 259268,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-impact-hero-graduation-glow-webp",
+      "url": "/images/ai/execution-impact/hero-graduation-glow.webp",
+      "title": "Hero Graduation Glow",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 189398,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-impact-trainee-success-portrait-webp",
+      "url": "/images/ai/execution-impact/trainee-success-portrait.webp",
+      "title": "Trainee Success Portrait",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 131530,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-operational-catering-setup-webp",
+      "url": "/images/ai/execution-operational/catering-setup.webp",
+      "title": "Catering Setup",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 227374,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-operational-hero-logistics-map-webp",
+      "url": "/images/ai/execution-operational/hero-logistics-map.webp",
+      "title": "Hero Logistics Map",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 176444,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-operational-production-van-fleet-webp",
+      "url": "/images/ai/execution-operational/production-van-fleet.webp",
+      "title": "Production Van Fleet",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 255552,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-operational-transport-schedule-tablet-webp",
+      "url": "/images/ai/execution-operational/transport-schedule-tablet.webp",
+      "title": "Transport Schedule Tablet",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 80970,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-technical-data-wrangling-station-webp",
+      "url": "/images/ai/execution-technical/data-wrangling-station.webp",
+      "title": "Data Wrangling Station",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 152298,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-technical-hero-camera-rig-webp",
+      "url": "/images/ai/execution-technical/hero-camera-rig.webp",
+      "title": "Hero Camera Rig",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 92676,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-technical-lighting-console-macro-webp",
+      "url": "/images/ai/execution-technical/lighting-console-macro.webp",
+      "title": "Lighting Console Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 202446,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-execution-technical-sound-mixer-desk-webp",
+      "url": "/images/ai/execution-technical/sound-mixer-desk.webp",
+      "title": "Sound Mixer Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 274010,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-exit-strategy-future-vision-monitor-webp",
+      "url": "/images/ai/exit-strategy/future-vision-monitor.webp",
+      "title": "Future Vision Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 179976,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-exit-strategy-hero-doorway-glow-webp",
+      "url": "/images/ai/exit-strategy/hero-doorway-glow.webp",
+      "title": "Hero Doorway Glow",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 108902,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-exit-strategy-merger-negotiation-webp",
+      "url": "/images/ai/exit-strategy/merger-negotiation.webp",
+      "title": "Merger Negotiation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 152784,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-exit-strategy-succession-planning-desk-webp",
+      "url": "/images/ai/exit-strategy/succession-planning-desk.webp",
+      "title": "Succession Planning Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 123512,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-brand-crew-jackets-webp",
+      "url": "/images/ai/foundation-brand/crew-jackets.webp",
+      "title": "Crew Jackets",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 90044,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-brand-hero-cinematic-logo-webp",
+      "url": "/images/ai/foundation-brand/hero-cinematic-logo.webp",
+      "title": "Hero Cinematic Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 220416,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-brand-production-van-logo-webp",
+      "url": "/images/ai/foundation-brand/production-van-logo.webp",
+      "title": "Production Van Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 352154,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-brand-style-guide-desk-webp",
+      "url": "/images/ai/foundation-brand/style-guide-desk.webp",
+      "title": "Style Guide Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 105064,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/brand"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-ecosystem-hero-network-map-webp",
+      "url": "/images/ai/foundation-ecosystem/hero-network-map.webp",
+      "title": "Hero Network Map",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 206898,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-ecosystem-production-hub-interior-webp",
+      "url": "/images/ai/foundation-ecosystem/production-hub-interior.webp",
+      "title": "Production Hub Interior",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 250888,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-ecosystem-stakeholder-roundtable-new-png",
+      "url": "/images/ai/foundation-ecosystem/stakeholder-roundtable-new.png",
+      "title": "Stakeholder Roundtable New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4164991,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-ecosystem-stakeholder-roundtable-webp",
+      "url": "/images/ai/foundation-ecosystem/stakeholder-roundtable.webp",
+      "title": "Stakeholder Roundtable",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 166614,
+      "extension": "webp",
+      "usedOn": [
+        "/access/signup",
+        "/download-prospectus",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-ecosystem-supply-chain-warehouse-webp",
+      "url": "/images/ai/foundation-ecosystem/supply-chain-warehouse.webp",
+      "title": "Supply Chain Warehouse",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 189864,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-infra-cineterns-portal-screen-webp",
+      "url": "/images/ai/foundation-infra/cineterns-portal-screen.webp",
+      "title": "Cineterns Portal Screen",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 78446,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-infra-data-center-racks-webp",
+      "url": "/images/ai/foundation-infra/data-center-racks.webp",
+      "title": "Data Center Racks",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 173354,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/infrastructure"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-infra-hero-tech-stack-webp",
+      "url": "/images/ai/foundation-infra/hero-tech-stack.webp",
+      "title": "Hero Tech Stack",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 155262,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-infra-satellite-dish-night-webp",
+      "url": "/images/ai/foundation-infra/satellite-dish-night.webp",
+      "title": "Satellite Dish Night",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 258808,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-org-compliance-desk-webp",
+      "url": "/images/ai/foundation-org/compliance-desk.webp",
+      "title": "Compliance Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 94640,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-org-hero-executive-walk-webp",
+      "url": "/images/ai/foundation-org/hero-executive-walk.webp",
+      "title": "Hero Executive Walk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 85736,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-org-networking-event-webp",
+      "url": "/images/ai/foundation-org/networking-event.webp",
+      "title": "Networking Event",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 143556,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-foundation-org-trainees-live-production-webp",
+      "url": "/images/ai/foundation-org/trainees-live-production.webp",
+      "title": "Trainees Live Production",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 153716,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-governance-compliance-audit-file-macro-webp",
+      "url": "/images/ai/governance-compliance/audit-file-macro.webp",
+      "title": "Audit File Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 312048,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-governance-compliance-board-meeting-webp",
+      "url": "/images/ai/governance-compliance/board-meeting.webp",
+      "title": "Board Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 158520,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-governance-compliance-hero-gavel-glow-webp",
+      "url": "/images/ai/governance-compliance/hero-gavel-glow.webp",
+      "title": "Hero Gavel Glow",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 156648,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-governance-compliance-legal-review-desk-webp",
+      "url": "/images/ai/governance-compliance/legal-review-desk.webp",
+      "title": "Legal Review Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 114742,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-ai-coding-workspace-webp",
+      "url": "/images/ai/growth-ai/coding-workspace.webp",
+      "title": "Coding Workspace",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 131898,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-ai-hero-brain-nodes-webp",
+      "url": "/images/ai/growth-ai/hero-brain-nodes.webp",
+      "title": "Hero Brain Nodes",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 316920,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-ai-interface-tablet-webp",
+      "url": "/images/ai/growth-ai/interface-tablet.webp",
+      "title": "Interface Tablet",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 163532,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-ai-server-lights-macro-webp",
+      "url": "/images/ai/growth-ai/server-lights-macro.webp",
+      "title": "Server Lights Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 58670,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/agentic-ai"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-commercial-boardroom-negotiation-webp",
+      "url": "/images/ai/growth-commercial/boardroom-negotiation.webp",
+      "title": "Boardroom Negotiation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 123790,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-commercial-contract-signing-macro-webp",
+      "url": "/images/ai/growth-commercial/contract-signing-macro.webp",
+      "title": "Contract Signing Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 89984,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-commercial-financial-dashboard-screen-webp",
+      "url": "/images/ai/growth-commercial/financial-dashboard-screen.webp",
+      "title": "Financial Dashboard Screen",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 103522,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/commercial"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-commercial-hero-gold-coins-webp",
+      "url": "/images/ai/growth-commercial/hero-gold-coins.webp",
+      "title": "Hero Gold Coins",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 269666,
+      "extension": "webp",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-partners-collaboration-workshop-webp",
+      "url": "/images/ai/growth-partners/collaboration-workshop.webp",
+      "title": "Collaboration Workshop",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 197932,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-partners-hero-handshake-webp",
+      "url": "/images/ai/growth-partners/hero-handshake.webp",
+      "title": "Hero Handshake",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 87364,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-partners-production-meeting-set-webp",
+      "url": "/images/ai/growth-partners/production-meeting-set.webp",
+      "title": "Production Meeting Set",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 174628,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-partners-strategic-alliance-desk-webp",
+      "url": "/images/ai/growth-partners/strategic-alliance-desk.webp",
+      "title": "Strategic Alliance Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 116746,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/partnerships"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-positioning-hero-chess-nodes-webp",
+      "url": "/images/ai/growth-positioning/hero-chess-nodes.webp",
+      "title": "Hero Chess Nodes",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 127012,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-positioning-industry-summit-webp",
+      "url": "/images/ai/growth-positioning/industry-summit.webp",
+      "title": "Industry Summit",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 124156,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-positioning-market-analysis-desk-webp",
+      "url": "/images/ai/growth-positioning/market-analysis-desk.webp",
+      "title": "Market Analysis Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 129996,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-growth-positioning-strategic-planning-wall-webp",
+      "url": "/images/ai/growth-positioning/strategic-planning-wall.webp",
+      "title": "Strategic Planning Wall",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 141656,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-ace-director-monitor-webp",
+      "url": "/images/ai/home/ace-director-monitor.webp",
+      "title": "Ace Director Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 96260,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-cineterns-laptop-workspace-webp",
+      "url": "/images/ai/home/cineterns-laptop-workspace.webp",
+      "title": "Cineterns Laptop Workspace",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 83876,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-clapperboard-macro-webp",
+      "url": "/images/ai/home/clapperboard-macro.webp",
+      "title": "Clapperboard Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 93730,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-constellation-bg-webp",
+      "url": "/images/ai/home/constellation-bg.webp",
+      "title": "Constellation Bg",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 95430,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-filmgro-vehicle-exterior-webp",
+      "url": "/images/ai/home/filmgro-vehicle-exterior.webp",
+      "title": "Filmgro Vehicle Exterior",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 133490,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-greenset-eco-equipment-webp",
+      "url": "/images/ai/home/greenset-eco-equipment.webp",
+      "title": "Greenset Eco Equipment",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 292236,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-hero-crew-night-set-webp",
+      "url": "/images/ai/home/hero-crew-night-set.webp",
+      "title": "Hero Crew Night Set",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 127640,
+      "extension": "webp",
+      "usedOn": [
+        "/admin/login",
+        "/strategy-index",
+        "content/cms/strategy-index.json",
+        "data/cms/content-store.json",
+        "src/lib/admin/content-store.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-home-production-overhead-golden-hour-webp",
+      "url": "/images/ai/home/production-overhead-golden-hour.webp",
+      "title": "Production Overhead Golden Hour",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 370946,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-mobile-menu-red-mega-nav-visual-png",
+      "url": "/images/ai/mobile-menu-red-mega-nav-visual.png",
+      "title": "Mobile Menu Red Mega Nav Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3752695,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-risk-mitigation-data-backup-racks-webp",
+      "url": "/images/ai/risk-mitigation/data-backup-racks.webp",
+      "title": "Data Backup Racks",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 159498,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-risk-mitigation-emergency-briefing-set-webp",
+      "url": "/images/ai/risk-mitigation/emergency-briefing-set.webp",
+      "title": "Emergency Briefing Set",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 153802,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-risk-mitigation-hero-shield-nodes-webp",
+      "url": "/images/ai/risk-mitigation/hero-shield-nodes.webp",
+      "title": "Hero Shield Nodes",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 286978,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-risk-mitigation-security-audit-desk-webp",
+      "url": "/images/ai/risk-mitigation/security-audit-desk.webp",
+      "title": "Security Audit Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 190808,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-road-home-training-red-visual-png",
+      "url": "/images/ai/road-home-training-red-visual.png",
+      "title": "Road Home Training Red Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4891424,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-abstract-gold-png",
+      "url": "/images/ai/safa-abstract-gold.png",
+      "title": "Safa Abstract Gold",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 5130117,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-accreditation-new-png",
+      "url": "/images/ai/safa-accreditation-new.png",
+      "title": "Safa Accreditation New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4246110,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-ace-alumnus-png",
+      "url": "/images/ai/safa-ace-alumnus.png",
+      "title": "Safa Ace Alumnus",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4370055,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-ace-card-png",
+      "url": "/images/ai/safa-ace-card.png",
+      "title": "Safa Ace Card",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1408,
+      "height": 1056,
+      "size": 1839817,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-ace-director-png",
+      "url": "/images/ai/safa-ace-director.png",
+      "title": "Safa Ace Director",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1408,
+      "height": 1056,
+      "size": 1765674,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-ai-hero-png",
+      "url": "/images/ai/safa-ai-hero.png",
+      "title": "Safa Ai Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4100238,
+      "extension": "png",
+      "usedOn": [
+        "/"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-arch-hero-png",
+      "url": "/images/ai/safa-arch-hero.png",
+      "title": "Safa Arch Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1354515,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-bee-hero-png",
+      "url": "/images/ai/safa-bee-hero.png",
+      "title": "Safa Bee Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3983506,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-budget-hero-png",
+      "url": "/images/ai/safa-budget-hero.png",
+      "title": "Safa Budget Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1306354,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-budget-infra-png",
+      "url": "/images/ai/safa-budget-infra.png",
+      "title": "Safa Budget Infra",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3410230,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-calendar-hero-png",
+      "url": "/images/ai/safa-calendar-hero.png",
+      "title": "Safa Calendar Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1665993,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-cineterns-portal-png",
+      "url": "/images/ai/safa-cineterns-portal.png",
+      "title": "Safa Cineterns Portal",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1408,
+      "height": 1056,
+      "size": 1663680,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-community-hero-png",
+      "url": "/images/ai/safa-community-hero.png",
+      "title": "Safa Community Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4436434,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-content-engine-png",
+      "url": "/images/ai/safa-content-engine.png",
+      "title": "Safa Content Engine",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3510288,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-curriculum-hero-png",
+      "url": "/images/ai/safa-curriculum-hero.png",
+      "title": "Safa Curriculum Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3940965,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-digital-gap-png",
+      "url": "/images/ai/safa-digital-gap.png",
+      "title": "Safa Digital Gap",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1408,
+      "height": 1056,
+      "size": 2219239,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-ecosystem-bg-png",
+      "url": "/images/ai/safa-ecosystem-bg.png",
+      "title": "Safa Ecosystem Bg",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4971926,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-entity-disambiguation-png",
+      "url": "/images/ai/safa-entity-disambiguation.png",
+      "title": "Safa Entity Disambiguation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4462138,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-filmgro-trainee-new-png",
+      "url": "/images/ai/safa-filmgro-trainee-new.png",
+      "title": "Safa Filmgro Trainee New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2030936,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-filmgro-vehicle-png",
+      "url": "/images/ai/safa-filmgro-vehicle.png",
+      "title": "Safa Filmgro Vehicle",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4861940,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-filmstrip-graphic-png",
+      "url": "/images/ai/safa-filmstrip-graphic.png",
+      "title": "Safa Filmstrip Graphic",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4011870,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-gov-building-png",
+      "url": "/images/ai/safa-gov-building.png",
+      "title": "Safa Gov Building",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 5239112,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-greenset-eco-new-png",
+      "url": "/images/ai/safa-greenset-eco-new.png",
+      "title": "Safa Greenset Eco New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2019422,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-hero-crew-png",
+      "url": "/images/ai/safa-hero-crew.png",
+      "title": "Safa Hero Crew",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1453981,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-icon-funding-png",
+      "url": "/images/ai/safa-icon-funding.png",
+      "title": "Safa Icon Funding",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2340211,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-icon-talent-png",
+      "url": "/images/ai/safa-icon-talent.png",
+      "title": "Safa Icon Talent",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2408077,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-icon-tech-png",
+      "url": "/images/ai/safa-icon-tech.png",
+      "title": "Safa Icon Tech",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2417252,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-impl-30days-png",
+      "url": "/images/ai/safa-impl-30days.png",
+      "title": "Safa Impl 30days",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3397884,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-impl-hero-png",
+      "url": "/images/ai/safa-impl-hero.png",
+      "title": "Safa Impl Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4171513,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-infra-hero-png",
+      "url": "/images/ai/safa-infra-hero.png",
+      "title": "Safa Infra Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1545515,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/infrastructure"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-kpi-graph-png",
+      "url": "/images/ai/safa-kpi-graph.png",
+      "title": "Safa Kpi Graph",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4123523,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-kpi-hero-png",
+      "url": "/images/ai/safa-kpi-hero.png",
+      "title": "Safa Kpi Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1483255,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-media-relations-png",
+      "url": "/images/ai/safa-media-relations.png",
+      "title": "Safa Media Relations",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4655098,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-org-hero-png",
+      "url": "/images/ai/safa-org-hero.png",
+      "title": "Safa Org Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4086379,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/ecosystem",
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-org-stat-bg-png",
+      "url": "/images/ai/safa-org-stat-bg.png",
+      "title": "Safa Org Stat Bg",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4453522,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-partnerships-hero-png",
+      "url": "/images/ai/safa-partnerships-hero.png",
+      "title": "Safa Partnerships Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1159077,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-pathway-new-png",
+      "url": "/images/ai/safa-pathway-new.png",
+      "title": "Safa Pathway New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4229782,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-perception-new-png",
+      "url": "/images/ai/safa-perception-new.png",
+      "title": "Safa Perception New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4315985,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-placement-new-png",
+      "url": "/images/ai/safa-placement-new.png",
+      "title": "Safa Placement New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4316366,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-placement-png",
+      "url": "/images/ai/safa-placement.png",
+      "title": "Safa Placement",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4628422,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-positioning-hero-png",
+      "url": "/images/ai/safa-positioning-hero.png",
+      "title": "Safa Positioning Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 1197223,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-power-prod-png",
+      "url": "/images/ai/safa-power-prod.png",
+      "title": "Safa Power Prod",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3685301,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-sa-film-interns-portal-png",
+      "url": "/images/ai/safa-sa-film-interns-portal.png",
+      "title": "Safa Sa Film Interns Portal",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1408,
+      "height": 1056,
+      "size": 1663680,
+      "extension": "png",
+      "usedOn": [
+        "/contact"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-seo-hero-png",
+      "url": "/images/ai/safa-seo-hero.png",
+      "title": "Safa Seo Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1680,
+      "height": 720,
+      "size": 974489,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-seta-cert-png",
+      "url": "/images/ai/safa-seta-cert.png",
+      "title": "Safa Seta Cert",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4701274,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-signal-wave-png",
+      "url": "/images/ai/safa-signal-wave.png",
+      "title": "Safa Signal Wave",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3877071,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-stat-bg-png",
+      "url": "/images/ai/safa-stat-bg.png",
+      "title": "Safa Stat Bg",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4305950,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-strategy-bg-png",
+      "url": "/images/ai/safa-strategy-bg.png",
+      "title": "Safa Strategy Bg",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4054749,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-tech-stack-png",
+      "url": "/images/ai/safa-tech-stack.png",
+      "title": "Safa Tech Stack",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4583976,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-tier1-intern-png",
+      "url": "/images/ai/safa-tier1-intern.png",
+      "title": "Safa Tier1 Intern",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4765351,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/organisation"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-safa-visual-id-png",
+      "url": "/images/ai/safa-visual-id.png",
+      "title": "Safa Visual Id",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4258556,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-shared-data-flow-dark-gold-webp",
+      "url": "/images/ai/shared/data-flow-dark-gold.webp",
+      "title": "Data Flow Dark Gold",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 162540,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-shared-film-grain-dark-red-webp",
+      "url": "/images/ai/shared/film-grain-dark-red.webp",
+      "title": "Film Grain Dark Red",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 76864,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-smart-tools-calculator-desk-webp",
+      "url": "/images/ai/smart-tools/calculator-desk.webp",
+      "title": "Calculator Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 230692,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-smart-tools-content-studio-monitor-webp",
+      "url": "/images/ai/smart-tools/content-studio-monitor.webp",
+      "title": "Content Studio Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 92612,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-smart-tools-document-drafting-webp",
+      "url": "/images/ai/smart-tools/document-drafting.webp",
+      "title": "Document Drafting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 77308,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-smart-tools-profile-cards-screen-webp",
+      "url": "/images/ai/smart-tools/profile-cards-screen.webp",
+      "title": "Profile Cards Screen",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 70140,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-smart-tools-tools-hero-professional-webp",
+      "url": "/images/ai/smart-tools/tools-hero-professional.webp",
+      "title": "Tools Hero Professional",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 122262,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-budget-budget-hero-png",
+      "url": "/images/ai/v2/budget/budget-hero.png",
+      "title": "Budget Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3600099,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-budget-budget-line-items-png",
+      "url": "/images/ai/v2/budget/budget-line-items.png",
+      "title": "Budget Line Items",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3702998,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/budget"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-budget-budget-philosophy-png",
+      "url": "/images/ai/v2/budget/budget-philosophy.png",
+      "title": "Budget Philosophy",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4040912,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/budget"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-budget-budget-wip-png",
+      "url": "/images/ai/v2/budget/budget-wip.png",
+      "title": "Budget Wip",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3875108,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-clapperboard-action-shot-png",
+      "url": "/images/ai/v2/clapperboard-action-shot.png",
+      "title": "Clapperboard Action Shot",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3613222,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-community-community-mesh-workshop-png",
+      "url": "/images/ai/v2/delivery-community/community-mesh-workshop.png",
+      "title": "Community Mesh Workshop",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 2086285,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/community"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-community-graduate-to-mentor-woman-png",
+      "url": "/images/ai/v2/delivery-community/graduate-to-mentor-woman.png",
+      "title": "Graduate To Mentor Woman",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 1834045,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/community"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-community-intern-first-production-png",
+      "url": "/images/ai/v2/delivery-community/intern-first-production.png",
+      "title": "Intern First Production",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4064564,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-curriculum-ai-masterclass-lab-png",
+      "url": "/images/ai/v2/delivery-curriculum/ai-masterclass-lab.png",
+      "title": "Ai Masterclass Lab",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 1993213,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/curriculum"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-curriculum-prompt-iteration-session-png",
+      "url": "/images/ai/v2/delivery-curriculum/prompt-iteration-session.png",
+      "title": "Prompt Iteration Session",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 2106666,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/curriculum"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-implementation-clapperboard-action-shot-png",
+      "url": "/images/ai/v2/delivery-implementation/clapperboard-action-shot.png",
+      "title": "Clapperboard Action Shot",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3613222,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-kpis-measurement-framework-png",
+      "url": "/images/ai/v2/delivery-kpis/measurement-framework.png",
+      "title": "Measurement Framework",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 940,
+      "size": 1857429,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/kpis"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-kpis-realtime-kpi-tracking-png",
+      "url": "/images/ai/v2/delivery-kpis/realtime-kpi-tracking.png",
+      "title": "Realtime Kpi Tracking",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 1792208,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/kpis"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-ai-workshop-png",
+      "url": "/images/ai/v2/delivery/ai-workshop.png",
+      "title": "Ai Workshop",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3812265,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-ai-workstation-png",
+      "url": "/images/ai/v2/delivery/ai-workstation.png",
+      "title": "Ai Workstation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3955685,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/curriculum",
+        "/smart-tools",
+        "content/cms/smart-tools.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-alumni-director-png",
+      "url": "/images/ai/v2/delivery/alumni-director.png",
+      "title": "Alumni Director",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4683061,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/community"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-cineterns-monitor-png",
+      "url": "/images/ai/v2/delivery/cineterns-monitor.png",
+      "title": "Cineterns Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4729378,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-comm-hero-png",
+      "url": "/images/ai/v2/delivery/comm-hero.png",
+      "title": "Comm Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4612754,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-curriculum-hero-png",
+      "url": "/images/ai/v2/delivery/curriculum-hero.png",
+      "title": "Curriculum Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3115177,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-data-dashboard-png",
+      "url": "/images/ai/v2/delivery/data-dashboard.png",
+      "title": "Data Dashboard",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4198604,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-impl-hero-png",
+      "url": "/images/ai/v2/delivery/impl-hero.png",
+      "title": "Impl Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1122,
+      "height": 1402,
+      "size": 1890161,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-intern-set-png",
+      "url": "/images/ai/v2/delivery/intern-set.png",
+      "title": "Intern Set",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3821297,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/community"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-kpi-hero-png",
+      "url": "/images/ai/v2/delivery/kpi-hero.png",
+      "title": "Kpi Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3351857,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-risk-hero-png",
+      "url": "/images/ai/v2/delivery/risk-hero.png",
+      "title": "Risk Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3869496,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-risk-management-png",
+      "url": "/images/ai/v2/delivery/risk-management.png",
+      "title": "Risk Management",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 1961827,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/risk"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-timeline-milestones-png",
+      "url": "/images/ai/v2/delivery/timeline-milestones.png",
+      "title": "Timeline Milestones",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4016011,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-delivery-upward-graph-png",
+      "url": "/images/ai/v2/delivery/upward-graph.png",
+      "title": "Upward Graph",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4102468,
+      "extension": "png",
+      "usedOn": [
+        "/delivery/budget",
+        "/delivery/kpis"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-ace-director-png",
+      "url": "/images/ai/v2/foundation/ace-director.png",
+      "title": "Ace Director",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 1698456,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-brand-architecture-png",
+      "url": "/images/ai/v2/foundation/brand-architecture.png",
+      "title": "Brand Architecture",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4098517,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-brand-hero-png",
+      "url": "/images/ai/v2/foundation/brand-hero.png",
+      "title": "Brand Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4100022,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-cineterns-interface-png",
+      "url": "/images/ai/v2/foundation/cineterns-interface.png",
+      "title": "Cineterns Interface",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3850064,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-cineterns-portal-png",
+      "url": "/images/ai/v2/foundation/cineterns-portal.png",
+      "title": "Cineterns Portal",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 1555528,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-circuit-topology-png",
+      "url": "/images/ai/v2/foundation/circuit-topology.png",
+      "title": "Circuit Topology",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 5300708,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/infrastructure"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-digital-gap-png",
+      "url": "/images/ai/v2/foundation/digital-gap.png",
+      "title": "Digital Gap",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2187274,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-ecosystem-hero-png",
+      "url": "/images/ai/v2/foundation/ecosystem-hero.png",
+      "title": "Ecosystem Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4014327,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-filmgro-trainee-png",
+      "url": "/images/ai/v2/foundation/filmgro-trainee.png",
+      "title": "Filmgro Trainee",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 1992396,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-greenset-eco-png",
+      "url": "/images/ai/v2/foundation/greenset-eco.png",
+      "title": "Greenset Eco",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 2653868,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-infra-hero-png",
+      "url": "/images/ai/v2/foundation/infra-hero.png",
+      "title": "Infra Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3935606,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-org-hero-png",
+      "url": "/images/ai/v2/foundation/org-hero.png",
+      "title": "Org Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1122,
+      "height": 1402,
+      "size": 1843093,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-sa-film-interns-interface-png",
+      "url": "/images/ai/v2/foundation/sa-film-interns-interface.png",
+      "title": "Sa Film Interns Interface",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3850064,
+      "extension": "png",
+      "usedOn": [
+        "/foundation/infrastructure"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-sa-film-interns-portal-png",
+      "url": "/images/ai/v2/foundation/sa-film-interns-portal.png",
+      "title": "Sa Film Interns Portal",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1248,
+      "height": 1248,
+      "size": 1555528,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-foundation-two-tier-pathway-png",
+      "url": "/images/ai/v2/foundation/two-tier-pathway.png",
+      "title": "Two Tier Pathway",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4144690,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-commercial-partnership-meeting-png",
+      "url": "/images/ai/v2/growth-commercial/partnership-meeting.png",
+      "title": "Partnership Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4139133,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-hero-new-png",
+      "url": "/images/ai/v2/growth-hero-new.png",
+      "title": "Growth Hero New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3924824,
+      "extension": "png",
+      "usedOn": [
+        "/growth",
+        "content/cms/growth-engine.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-accountant-laptop-png",
+      "url": "/images/ai/v2/growth/accountant-laptop.png",
+      "title": "Accountant Laptop",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3805594,
+      "extension": "png",
+      "usedOn": [
+        "/growth/commercial"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-agentic-hero-png",
+      "url": "/images/ai/v2/growth/agentic-hero.png",
+      "title": "Agentic Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1122,
+      "height": 1402,
+      "size": 1768952,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-commercial-hero-png",
+      "url": "/images/ai/v2/growth/commercial-hero.png",
+      "title": "Commercial Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3569810,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-finance-meeting-png",
+      "url": "/images/ai/v2/growth/finance-meeting.png",
+      "title": "Finance Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4281672,
+      "extension": "png",
+      "usedOn": [
+        "/growth/commercial"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-funding-scout-png",
+      "url": "/images/ai/v2/growth/funding-scout.png",
+      "title": "Funding Scout",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3659735,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-handshake-png",
+      "url": "/images/ai/v2/growth/handshake.png",
+      "title": "Handshake",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4292572,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-media-event-png",
+      "url": "/images/ai/v2/growth/media-event.png",
+      "title": "Media Event",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4506180,
+      "extension": "png",
+      "usedOn": [
+        "/growth/partnerships"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-part-hero-png",
+      "url": "/images/ai/v2/growth/part-hero.png",
+      "title": "Part Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3696482,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-pos-hero-png",
+      "url": "/images/ai/v2/growth/pos-hero.png",
+      "title": "Pos Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3702894,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-growth-radar-chart-png",
+      "url": "/images/ai/v2/growth/radar-chart.png",
+      "title": "Radar Chart",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4497218,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-agentic-ai-png",
+      "url": "/images/ai/v2/hero-agentic-ai.png",
+      "title": "Hero Agentic Ai",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4196730,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-brand-png",
+      "url": "/images/ai/v2/hero-brand.png",
+      "title": "Hero Brand",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4420591,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-calendar-png",
+      "url": "/images/ai/v2/hero-calendar.png",
+      "title": "Hero Calendar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4388320,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-commercial-png",
+      "url": "/images/ai/v2/hero-commercial.png",
+      "title": "Hero Commercial",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4087250,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-community-png",
+      "url": "/images/ai/v2/hero-community.png",
+      "title": "Hero Community",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 5096793,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-ecosystem-png",
+      "url": "/images/ai/v2/hero-ecosystem.png",
+      "title": "Hero Ecosystem",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4708812,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-infrastructure-png",
+      "url": "/images/ai/v2/hero-infrastructure.png",
+      "title": "Hero Infrastructure",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4101250,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-leadership-png",
+      "url": "/images/ai/v2/hero-leadership.png",
+      "title": "Hero Leadership",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4427021,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-organisation-new-png",
+      "url": "/images/ai/v2/hero-organisation-new.png",
+      "title": "Hero Organisation New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4430391,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-organisation-png",
+      "url": "/images/ai/v2/hero-organisation.png",
+      "title": "Hero Organisation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4059249,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-hero-seo-png",
+      "url": "/images/ai/v2/hero-seo.png",
+      "title": "Hero Seo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4887963,
+      "extension": "png",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-homepage-aspiring-trainees-png",
+      "url": "/images/ai/v2/homepage/aspiring-trainees.png",
+      "title": "Aspiring Trainees",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1967,
+      "height": 800,
+      "size": 1919727,
+      "extension": "png",
+      "usedOn": [
+        "src/components/sections/StakeholderPaths.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-homepage-executive-board-dashboard-png",
+      "url": "/images/ai/v2/homepage/executive-board-dashboard.png",
+      "title": "Executive Board Dashboard",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 1864019,
+      "extension": "png",
+      "usedOn": [
+        "src/components/strategy/BoardStrategySections.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-homepage-executive-production-pipeline-png",
+      "url": "/images/ai/v2/homepage/executive-production-pipeline.png",
+      "title": "Executive Production Pipeline",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1672,
+      "height": 941,
+      "size": 1940554,
+      "extension": "png",
+      "usedOn": [
+        "src/components/strategy/BoardStrategySections.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-homepage-funders-partners-png",
+      "url": "/images/ai/v2/homepage/funders-partners.png",
+      "title": "Funders Partners",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1717,
+      "height": 916,
+      "size": 1728507,
+      "extension": "png",
+      "usedOn": [
+        "src/components/sections/StakeholderPaths.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-homepage-production-companies-png",
+      "url": "/images/ai/v2/homepage/production-companies.png",
+      "title": "Production Companies",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1909,
+      "height": 824,
+      "size": 1752502,
+      "extension": "png",
+      "usedOn": [
+        "src/components/sections/StakeholderPaths.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-intern-first-production-png",
+      "url": "/images/ai/v2/intern-first-production.png",
+      "title": "Intern First Production",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4064564,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-leadership-ceo-boardroom-png",
+      "url": "/images/ai/v2/leadership/ceo-boardroom.png",
+      "title": "Ceo Boardroom",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4708610,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-leadership-ceo-interview-png",
+      "url": "/images/ai/v2/leadership/ceo-interview.png",
+      "title": "Ceo Interview",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4811804,
+      "extension": "png",
+      "usedOn": [
+        "/visibility/leadership"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-leadership-ceo-podium-png",
+      "url": "/images/ai/v2/leadership/ceo-podium.png",
+      "title": "Ceo Podium",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4680604,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-mobile-menu-red-mega-nav-visual-png",
+      "url": "/images/ai/v2/mobile-menu-red-mega-nav-visual.png",
+      "title": "Mobile Menu Red Mega Nav Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3752695,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-partnership-meeting-png",
+      "url": "/images/ai/v2/partnership-meeting.png",
+      "title": "Partnership Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4139133,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-road-home-training-red-visual-png",
+      "url": "/images/ai/v2/road-home-training-red-visual.png",
+      "title": "Road Home Training Red Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4891424,
+      "extension": "png",
+      "usedOn": [
+        "/visibility",
+        "content/cms/visibility.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-safa-pathway-new-png",
+      "url": "/images/ai/v2/safa-pathway-new.png",
+      "title": "Safa Pathway New",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4229782,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-contact-hero-png",
+      "url": "/images/ai/v2/v2-contact-hero.png",
+      "title": "V2 Contact Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 7473392,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-home-hero-png",
+      "url": "/images/ai/v2/v2-home-hero.png",
+      "title": "V2 Home Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 5836046,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-pillar-delivery-png",
+      "url": "/images/ai/v2/v2-pillar-delivery.png",
+      "title": "V2 Pillar Delivery",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 4990867,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-pillar-foundation-png",
+      "url": "/images/ai/v2/v2-pillar-foundation.png",
+      "title": "V2 Pillar Foundation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 6908850,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-pillar-growth-png",
+      "url": "/images/ai/v2/v2-pillar-growth.png",
+      "title": "V2 Pillar Growth",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 6503385,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-pillar-visibility-png",
+      "url": "/images/ai/v2/v2-pillar-visibility.png",
+      "title": "V2 Pillar Visibility",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 5554841,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-sub-bbbee-png",
+      "url": "/images/ai/v2/v2-sub-bbbee.png",
+      "title": "V2 Sub Bbbee",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 5835370,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-sub-curriculum-png",
+      "url": "/images/ai/v2/v2-sub-curriculum.png",
+      "title": "V2 Sub Curriculum",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 6087530,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-sub-infrastructure-png",
+      "url": "/images/ai/v2/v2-sub-infrastructure.png",
+      "title": "V2 Sub Infrastructure",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 5649260,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-v2-sub-partnerships-png",
+      "url": "/images/ai/v2/v2-sub-partnerships.png",
+      "title": "V2 Sub Partnerships",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2752,
+      "height": 1536,
+      "size": 6824672,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-ai-assistant-png",
+      "url": "/images/ai/v2/visibility/ai-assistant.png",
+      "title": "Ai Assistant",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4036324,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-calendar-hero-png",
+      "url": "/images/ai/v2/visibility/calendar-hero.png",
+      "title": "Calendar Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 1122,
+      "height": 1402,
+      "size": 1746103,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-content-hero-png",
+      "url": "/images/ai/v2/visibility/content-hero.png",
+      "title": "Content Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 2874460,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-editorial-meeting-png",
+      "url": "/images/ai/v2/visibility/editorial-meeting.png",
+      "title": "Editorial Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4482907,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-google-search-png",
+      "url": "/images/ai/v2/visibility/google-search.png",
+      "title": "Google Search",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3495208,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-seo-hero-png",
+      "url": "/images/ai/v2/visibility/seo-hero.png",
+      "title": "Seo Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3493553,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v2-visibility-timeline-meeting-png",
+      "url": "/images/ai/v2/visibility/timeline-meeting.png",
+      "title": "Timeline Meeting",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4373399,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-budget-approval-gate-webp",
+      "url": "/images/ai/v3/delivery/budget-approval-gate.webp",
+      "title": "Budget Approval Gate",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 119626,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery/budget"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-budget-hero-webp",
+      "url": "/images/ai/v3/delivery/budget-hero.webp",
+      "title": "Budget Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 115546,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/budget",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-community-hero-webp",
+      "url": "/images/ai/v3/delivery/community-hero.webp",
+      "title": "Community Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 182108,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/community",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-curriculum-hero-webp",
+      "url": "/images/ai/v3/delivery/curriculum-hero.webp",
+      "title": "Curriculum Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 92088,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/curriculum",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-delivery-hero-webp",
+      "url": "/images/ai/v3/delivery/delivery-hero.webp",
+      "title": "Delivery Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 106028,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/delivery",
+        "content/cms/delivery.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-implementation-hero-webp",
+      "url": "/images/ai/v3/delivery/implementation-hero.webp",
+      "title": "Implementation Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 71684,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/implementation",
+        "content/cms/implementation.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-kpi-hero-webp",
+      "url": "/images/ai/v3/delivery/kpi-hero.webp",
+      "title": "Kpi Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 94888,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/kpis",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-risk-hero-webp",
+      "url": "/images/ai/v3/delivery/risk-hero.webp",
+      "title": "Risk Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 261086,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery/risk",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-delivery-strategic-resilience-webp",
+      "url": "/images/ai/v3/delivery/strategic-resilience.webp",
+      "title": "Strategic Resilience",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 132944,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery/risk"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-ace-pillar-webp",
+      "url": "/images/ai/v3/foundation/ace-pillar.webp",
+      "title": "Ace Pillar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 103688,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-brand-hero-webp",
+      "url": "/images/ai/v3/foundation/brand-hero.webp",
+      "title": "Brand Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 196570,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation",
+        "/foundation/brand",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-digital-pillar-webp",
+      "url": "/images/ai/v3/foundation/digital-pillar.webp",
+      "title": "Digital Pillar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 221832,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-ecosystem-hero-webp",
+      "url": "/images/ai/v3/foundation/ecosystem-hero.webp",
+      "title": "Ecosystem Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 207548,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/foundation",
+        "/foundation/ecosystem",
+        "content/cms/ecosystem.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-filmgro-pillar-webp",
+      "url": "/images/ai/v3/foundation/filmgro-pillar.webp",
+      "title": "Filmgro Pillar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 82950,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-greenset-pillar-webp",
+      "url": "/images/ai/v3/foundation/greenset-pillar.webp",
+      "title": "Greenset Pillar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 286224,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-infrastructure-hero-webp",
+      "url": "/images/ai/v3/foundation/infrastructure-hero.webp",
+      "title": "Infrastructure Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 141704,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation",
+        "/foundation/infrastructure",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-interns-pillar-webp",
+      "url": "/images/ai/v3/foundation/interns-pillar.webp",
+      "title": "Interns Pillar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 118342,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-foundation-organisation-hero-webp",
+      "url": "/images/ai/v3/foundation/organisation-hero.webp",
+      "title": "Organisation Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 88854,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/foundation",
+        "/foundation/organisation",
+        "content/cms/organisation.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-agentic-ai-hero-webp",
+      "url": "/images/ai/v3/growth/agentic-ai-hero.webp",
+      "title": "Agentic Ai Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 308022,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/growth",
+        "/growth/agentic-ai",
+        "/visibility/seo",
+        "content/cms/agentic-ai.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-commercial-hero-webp",
+      "url": "/images/ai/v3/growth/commercial-hero.webp",
+      "title": "Commercial Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 118524,
+      "extension": "webp",
+      "usedOn": [
+        "/growth",
+        "/growth/agentic-ai",
+        "/growth/commercial",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-female-handshake-webp",
+      "url": "/images/ai/v3/growth/female-handshake.webp",
+      "title": "Female Handshake",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 87240,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/partnerships"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-partnerships-hero-webp",
+      "url": "/images/ai/v3/growth/partnerships-hero.webp",
+      "title": "Partnerships Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 158346,
+      "extension": "webp",
+      "usedOn": [
+        "/growth",
+        "/growth/partnerships",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-positioning-hero-webp",
+      "url": "/images/ai/v3/growth/positioning-hero.webp",
+      "title": "Positioning Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 127556,
+      "extension": "webp",
+      "usedOn": [
+        "/growth",
+        "/growth/positioning",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-growth-positioning-proof-webp",
+      "url": "/images/ai/v3/growth/positioning-proof.webp",
+      "title": "Positioning Proof",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 119348,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/positioning"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-visibility-calendar-hero-webp",
+      "url": "/images/ai/v3/visibility/calendar-hero.webp",
+      "title": "Calendar Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 133312,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/visibility",
+        "/visibility/calendar",
+        "content/cms/calendar.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-visibility-content-hero-webp",
+      "url": "/images/ai/v3/visibility/content-hero.webp",
+      "title": "Content Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 116060,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "/visibility/content",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-visibility-leadership-hero-webp",
+      "url": "/images/ai/v3/visibility/leadership-hero.webp",
+      "title": "Leadership Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 202656,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "/visibility/leadership",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v3-visibility-seo-hero-webp",
+      "url": "/images/ai/v3/visibility/seo-hero.webp",
+      "title": "Seo Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 203420,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "/visibility/seo",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-calendar-crew-briefing-dawn-webp",
+      "url": "/images/ai/visibility-calendar/crew-briefing-dawn.webp",
+      "title": "Crew Briefing Dawn",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 102838,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-calendar-filming-schedule-monitor-webp",
+      "url": "/images/ai/visibility-calendar/filming-schedule-monitor.webp",
+      "title": "Filming Schedule Monitor",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 71380,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-calendar-hero-timeline-webp",
+      "url": "/images/ai/visibility-calendar/hero-timeline.webp",
+      "title": "Hero Timeline",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 128914,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-calendar-production-office-night-webp",
+      "url": "/images/ai/visibility-calendar/production-office-night.webp",
+      "title": "Production Office Night",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 205296,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-content-editing-suite-macro-webp",
+      "url": "/images/ai/visibility-content/editing-suite-macro.webp",
+      "title": "Editing Suite Macro",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 154414,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-content-hero-studio-glow-webp",
+      "url": "/images/ai/visibility-content/hero-studio-glow.webp",
+      "title": "Hero Studio Glow",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 122408,
+      "extension": "webp",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-content-podcast-recording-webp",
+      "url": "/images/ai/visibility-content/podcast-recording.webp",
+      "title": "Podcast Recording",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 164924,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/content"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-content-social-media-wall-webp",
+      "url": "/images/ai/visibility-content/social-media-wall.webp",
+      "title": "Social Media Wall",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 148440,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-leadership-boardroom-strategy-webp",
+      "url": "/images/ai/visibility-leadership/boardroom-strategy.webp",
+      "title": "Boardroom Strategy",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 164040,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-leadership-hero-portrait-webp",
+      "url": "/images/ai/visibility-leadership/hero-portrait.webp",
+      "title": "Hero Portrait",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 65372,
+      "extension": "webp",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-leadership-keynote-stage-webp",
+      "url": "/images/ai/visibility-leadership/keynote-stage.webp",
+      "title": "Keynote Stage",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 93976,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/leadership"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-leadership-media-interview-webp",
+      "url": "/images/ai/visibility-leadership/media-interview.webp",
+      "title": "Media Interview",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 78252,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-seo-content-strategy-desk-webp",
+      "url": "/images/ai/visibility-seo/content-strategy-desk.webp",
+      "title": "Content Strategy Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 148492,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-seo-hero-search-nodes-webp",
+      "url": "/images/ai/visibility-seo/hero-search-nodes.webp",
+      "title": "Hero Search Nodes",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 223894,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-seo-link-building-network-webp",
+      "url": "/images/ai/visibility-seo/link-building-network.webp",
+      "title": "Link Building Network",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 160802,
+      "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-visibility-seo-technical-audit-screen-webp",
+      "url": "/images/ai/visibility-seo/technical-audit-screen.webp",
+      "title": "Technical Audit Screen",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 133074,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-brand-identity-png",
+      "url": "/images/gen/brand-identity.png",
+      "title": "Brand Identity",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4276928,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-budget-framework-png",
+      "url": "/images/gen/budget-framework.png",
+      "title": "Budget Framework",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4212278,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-commercial-strategy-png",
+      "url": "/images/gen/commercial-strategy.png",
+      "title": "Commercial Strategy",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4330362,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-community-engagement-png",
+      "url": "/images/gen/community-engagement.png",
+      "title": "Community Engagement",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3745117,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-content-storytelling-png",
+      "url": "/images/gen/content-storytelling.png",
+      "title": "Content Storytelling",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4229948,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-curriculum-png",
+      "url": "/images/gen/curriculum.png",
+      "title": "Curriculum",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4666249,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-implementation-launch-png",
+      "url": "/images/gen/implementation-launch.png",
+      "title": "Implementation Launch",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4177462,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-kpis-png",
+      "url": "/images/gen/kpis.png",
+      "title": "Kpis",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4010224,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-leadership-png",
+      "url": "/images/gen/leadership.png",
+      "title": "Leadership",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3948938,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-partnerships-png",
+      "url": "/images/gen/partnerships.png",
+      "title": "Partnerships",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3882614,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-positioning-png",
+      "url": "/images/gen/positioning.png",
+      "title": "Positioning",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 3757698,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-gen-seo-strategy-png",
+      "url": "/images/gen/seo-strategy.png",
+      "title": "Seo Strategy",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 4146507,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-logos-greenset-logo-png",
+      "url": "/images/logos/greenset-logo.png",
+      "title": "Greenset Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 600,
+      "height": 504,
+      "size": 259646,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-logos-greenset-logo-webp",
+      "url": "/images/logos/greenset-logo.webp",
+      "title": "Greenset Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 600,
+      "height": 504,
+      "size": 179404,
+      "extension": "webp",
+      "usedOn": [
+        "src/components/layout/Footer.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-logos-sa-film-academy-logo-png",
+      "url": "/images/logos/sa-film-academy-logo.png",
+      "title": "Sa Film Academy Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 128,
+      "height": 100,
+      "size": 13663,
+      "extension": "png",
+      "usedOn": [
+        "content/cms/settings.json",
+        "src/app/layout.tsx",
+        "src/components/layout/MegaNavbar.tsx"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-logos-sa-film-academy-logo-webp",
+      "url": "/images/logos/sa-film-academy-logo.webp",
+      "title": "Sa Film Academy Logo",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 128,
+      "height": 100,
+      "size": 8372,
+      "extension": "webp",
+      "usedOn": [
+        "/access/login",
+        "/access/signup"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-main-hero-images-film-academy-infographic-black-people-png",
+      "url": "/images/main-hero-images/film-academy-infographic-black-people.png",
+      "title": "Film Academy Infographic Black People",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 0,
+      "height": 0,
+      "size": 430204,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-main-hero-images-mobile-menu-red-mega-nav-visual-png",
+      "url": "/images/main-hero-images/mobile-menu-red-mega-nav-visual.png",
+      "title": "Mobile Menu Red Mega Nav Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 0,
+      "height": 0,
+      "size": 248039,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-main-hero-images-post-production-lab-black-creators-png",
+      "url": "/images/main-hero-images/post-production-lab-black-creators.png",
+      "title": "Post Production Lab Black Creators",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 0,
+      "height": 0,
+      "size": 342266,
+      "extension": "png",
+      "usedOn": [
+        "/foundation",
+        "content/cms/foundation.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-main-hero-images-road-home-training-red-visual-png",
+      "url": "/images/main-hero-images/road-home-training-red-visual.png",
+      "title": "Road Home Training Red Visual",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 0,
+      "height": 0,
+      "size": 510544,
+      "extension": "png",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-main-hero-images-safa-hero-red-cinematic-black-trainees-png",
+      "url": "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png",
+      "title": "Safa Hero Red Cinematic Black Trainees",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 0,
+      "height": 0,
+      "size": 311626,
+      "extension": "png",
+      "usedOn": [
+        "/",
+        "/access/login",
+        "content/cms/announcements.json",
+        "content/cms/home.json",
+        "content/cms/media.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-000-jpg",
+      "url": "/images/road-home/road-home-training-000.jpg",
+      "title": "Road Home Training 000",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-001-jpg",
+      "url": "/images/road-home/road-home-training-001.jpg",
+      "title": "Road Home Training 001",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 502,
+      "height": 100,
+      "size": 14744,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-002-jpg",
+      "url": "/images/road-home/road-home-training-002.jpg",
+      "title": "Road Home Training 002",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 731,
+      "size": 10048,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-003-jpg",
+      "url": "/images/road-home/road-home-training-003.jpg",
+      "title": "Road Home Training 003",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 731,
+      "size": 74714,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-004-jpg",
+      "url": "/images/road-home/road-home-training-004.jpg",
+      "title": "Road Home Training 004",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 500,
+      "height": 234,
+      "size": 43730,
+      "extension": "jpg",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-005-jpg",
+      "url": "/images/road-home/road-home-training-005.jpg",
+      "title": "Road Home Training 005",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 168,
+      "size": 2803,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-006-jpg",
+      "url": "/images/road-home/road-home-training-006.jpg",
+      "title": "Road Home Training 006",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 168,
+      "size": 16955,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-007-jpg",
+      "url": "/images/road-home/road-home-training-007.jpg",
+      "title": "Road Home Training 007",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 225,
+      "height": 225,
+      "size": 6767,
+      "extension": "jpg",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-008-jpg",
+      "url": "/images/road-home/road-home-training-008.jpg",
+      "title": "Road Home Training 008",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 225,
+      "height": 225,
+      "size": 4821,
+      "extension": "jpg",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-009-jpg",
+      "url": "/images/road-home/road-home-training-009.jpg",
+      "title": "Road Home Training 009",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [
+        "src/lib/content/pageData.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-010-jpg",
+      "url": "/images/road-home/road-home-training-010.jpg",
+      "title": "Road Home Training 010",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 687,
+      "size": 9427,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-011-jpg",
+      "url": "/images/road-home/road-home-training-011.jpg",
+      "title": "Road Home Training 011",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2200,
+      "height": 687,
+      "size": 67784,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-012-jpg",
+      "url": "/images/road-home/road-home-training-012.jpg",
+      "title": "Road Home Training 012",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 502,
+      "height": 100,
+      "size": 14744,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-013-jpg",
+      "url": "/images/road-home/road-home-training-013.jpg",
+      "title": "Road Home Training 013",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 500,
+      "height": 234,
+      "size": 43730,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-014-jpg",
+      "url": "/images/road-home/road-home-training-014.jpg",
+      "title": "Road Home Training 014",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 225,
+      "height": 225,
+      "size": 8414,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-015-jpg",
+      "url": "/images/road-home/road-home-training-015.jpg",
+      "title": "Road Home Training 015",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 225,
+      "height": 225,
+      "size": 5135,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-016-jpg",
+      "url": "/images/road-home/road-home-training-016.jpg",
+      "title": "Road Home Training 016",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-017-jpg",
+      "url": "/images/road-home/road-home-training-017.jpg",
+      "title": "Road Home Training 017",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 452,
+      "height": 90,
+      "size": 12604,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-018-jpg",
+      "url": "/images/road-home/road-home-training-018.jpg",
+      "title": "Road Home Training 018",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 709,
+      "height": 346,
+      "size": 21916,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-019-jpg",
+      "url": "/images/road-home/road-home-training-019.jpg",
+      "title": "Road Home Training 019",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 709,
+      "height": 346,
+      "size": 21366,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-020-jpg",
+      "url": "/images/road-home/road-home-training-020.jpg",
+      "title": "Road Home Training 020",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 8391,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-021-jpg",
+      "url": "/images/road-home/road-home-training-021.jpg",
+      "title": "Road Home Training 021",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 9761,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-022-jpg",
+      "url": "/images/road-home/road-home-training-022.jpg",
+      "title": "Road Home Training 022",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-023-jpg",
+      "url": "/images/road-home/road-home-training-023.jpg",
+      "title": "Road Home Training 023",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 452,
+      "height": 90,
+      "size": 11849,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-024-jpg",
+      "url": "/images/road-home/road-home-training-024.jpg",
+      "title": "Road Home Training 024",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 709,
+      "height": 346,
+      "size": 20394,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-025-jpg",
+      "url": "/images/road-home/road-home-training-025.jpg",
+      "title": "Road Home Training 025",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 709,
+      "height": 346,
+      "size": 20577,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-026-jpg",
+      "url": "/images/road-home/road-home-training-026.jpg",
+      "title": "Road Home Training 026",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 7841,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-027-jpg",
+      "url": "/images/road-home/road-home-training-027.jpg",
+      "title": "Road Home Training 027",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 9349,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-028-jpg",
+      "url": "/images/road-home/road-home-training-028.jpg",
+      "title": "Road Home Training 028",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-029-jpg",
+      "url": "/images/road-home/road-home-training-029.jpg",
+      "title": "Road Home Training 029",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 23614,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-030-jpg",
+      "url": "/images/road-home/road-home-training-030.jpg",
+      "title": "Road Home Training 030",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-031-jpg",
+      "url": "/images/road-home/road-home-training-031.jpg",
+      "title": "Road Home Training 031",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 286,
+      "height": 134,
+      "size": 23614,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-032-jpg",
+      "url": "/images/road-home/road-home-training-032.jpg",
+      "title": "Road Home Training 032",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-033-jpg",
+      "url": "/images/road-home/road-home-training-033.jpg",
+      "title": "Road Home Training 033",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 400,
+      "height": 566,
+      "size": 50714,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-034-jpg",
+      "url": "/images/road-home/road-home-training-034.jpg",
+      "title": "Road Home Training 034",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 259,
+      "height": 194,
+      "size": 11644,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-039-jpg",
+      "url": "/images/road-home/road-home-training-039.jpg",
+      "title": "Road Home Training 039",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 183,
+      "height": 275,
+      "size": 25634,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-040-jpg",
+      "url": "/images/road-home/road-home-training-040.jpg",
+      "title": "Road Home Training 040",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 201,
+      "height": 251,
+      "size": 34927,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-044-jpg",
+      "url": "/images/road-home/road-home-training-044.jpg",
+      "title": "Road Home Training 044",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-045-jpg",
+      "url": "/images/road-home/road-home-training-045.jpg",
+      "title": "Road Home Training 045",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 500,
+      "height": 234,
+      "size": 43730,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-046-jpg",
+      "url": "/images/road-home/road-home-training-046.jpg",
+      "title": "Road Home Training 046",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-057-jpg",
+      "url": "/images/road-home/road-home-training-057.jpg",
+      "title": "Road Home Training 057",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 429,
+      "height": 200,
+      "size": 36646,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-060-jpg",
+      "url": "/images/road-home/road-home-training-060.jpg",
+      "title": "Road Home Training 060",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-061-jpg",
+      "url": "/images/road-home/road-home-training-061.jpg",
+      "title": "Road Home Training 061",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 908,
+      "height": 1210,
+      "size": 421418,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-066-jpg",
+      "url": "/images/road-home/road-home-training-066.jpg",
+      "title": "Road Home Training 066",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-071-jpg",
+      "url": "/images/road-home/road-home-training-071.jpg",
+      "title": "Road Home Training 071",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 120,
+      "height": 120,
+      "size": 7433,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-082-jpg",
+      "url": "/images/road-home/road-home-training-082.jpg",
+      "title": "Road Home Training 082",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 135,
+      "height": 135,
+      "size": 11057,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-088-jpg",
+      "url": "/images/road-home/road-home-training-088.jpg",
+      "title": "Road Home Training 088",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 361,
+      "height": 114,
+      "size": 11378,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-091-jpg",
+      "url": "/images/road-home/road-home-training-091.jpg",
+      "title": "Road Home Training 091",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 448,
+      "height": 448,
+      "size": 55053,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-092-jpg",
+      "url": "/images/road-home/road-home-training-092.jpg",
+      "title": "Road Home Training 092",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-095-jpg",
+      "url": "/images/road-home/road-home-training-095.jpg",
+      "title": "Road Home Training 095",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 357,
+      "height": 167,
+      "size": 29718,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-098-jpg",
+      "url": "/images/road-home/road-home-training-098.jpg",
+      "title": "Road Home Training 098",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 2477,
+      "height": 1858,
+      "size": 351817,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-road-home-road-home-training-102-jpg",
+      "url": "/images/road-home/road-home-training-102.jpg",
+      "title": "Road Home Training 102",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "unused",
+        "static"
+      ],
+      "locked": true,
+      "width": 500,
+      "height": 234,
+      "size": 43730,
+      "extension": "jpg",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-blood-and-water-webp",
+      "url": "/images/safa-promax/productions/posters/blood-and-water.webp",
+      "title": "Blood And Water",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 93326,
+      "extension": "webp",
+      "usedOn": [
+        "content/cms/media.json",
+        "content/cms/productions.json",
+        "data/cms/content-store.json",
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-devils-peak-webp",
+      "url": "/images/safa-promax/productions/posters/devils-peak.webp",
+      "title": "Devils Peak",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 91542,
+      "extension": "webp",
+      "usedOn": [
+        "content/cms/productions.json",
+        "data/cms/content-store.json",
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-one-piece-webp",
+      "url": "/images/safa-promax/productions/posters/one-piece.webp",
+      "title": "One Piece",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 111528,
+      "extension": "webp",
+      "usedOn": [
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-servant-webp",
+      "url": "/images/safa-promax/productions/posters/servant.webp",
+      "title": "Servant",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 36646,
+      "extension": "webp",
+      "usedOn": [
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-the-newsroom-webp",
+      "url": "/images/safa-promax/productions/posters/the-newsroom.webp",
+      "title": "The Newsroom",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 68172,
+      "extension": "webp",
+      "usedOn": [
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-the-woman-king-webp",
+      "url": "/images/safa-promax/productions/posters/the-woman-king.webp",
+      "title": "The Woman King",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 95210,
+      "extension": "webp",
+      "usedOn": [
+        "content/cms/productions.json",
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-warrior-webp",
+      "url": "/images/safa-promax/productions/posters/warrior.webp",
+      "title": "Warrior",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 143084,
+      "extension": "webp",
+      "usedOn": [
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-safa-promax-productions-posters-wheel-of-time-webp",
+      "url": "/images/safa-promax/productions/posters/wheel-of-time.webp",
+      "title": "Wheel Of Time",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "static"
+      ],
+      "locked": true,
+      "width": 720,
+      "height": 1080,
+      "size": 121830,
+      "extension": "webp",
+      "usedOn": [
+        "src/data/productions.ts"
+      ],
+      "origin": "public",
+      "type": "image"
+    }
+  ],
+  "usageByUrl": {
+    "/images/ai/contact/email-envelope-abstract.webp": [
+      "/contact",
+      "content/cms/contact.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/delivery-implementation/clapperboard-action.webp": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/foundation-brand/style-guide-desk.webp": [
+      "/foundation/brand"
+    ],
+    "/images/ai/foundation-ecosystem/stakeholder-roundtable.webp": [
+      "/access/signup",
+      "/download-prospectus",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/foundation-infra/data-center-racks.webp": [
+      "/foundation/infrastructure"
+    ],
+    "/images/ai/foundation-org/compliance-desk.webp": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/foundation-org/hero-executive-walk.webp": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/foundation-org/networking-event.webp": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/foundation-org/trainees-live-production.webp": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/growth-ai/server-lights-macro.webp": [
+      "/growth/agentic-ai"
+    ],
+    "/images/ai/growth-commercial/financial-dashboard-screen.webp": [
+      "/growth/commercial"
+    ],
+    "/images/ai/growth-commercial/hero-gold-coins.webp": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/growth-partners/strategic-alliance-desk.webp": [
+      "/growth/partnerships"
+    ],
+    "/images/ai/home/hero-crew-night-set.webp": [
+      "/admin/login",
+      "/strategy-index",
+      "content/cms/strategy-index.json",
+      "data/cms/content-store.json",
+      "src/lib/admin/content-store.ts"
+    ],
+    "/images/ai/safa-accreditation-new.png": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/safa-ai-hero.png": [
+      "/"
+    ],
+    "/images/ai/safa-budget-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-community-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-curriculum-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-infra-hero.png": [
+      "/foundation/infrastructure"
+    ],
+    "/images/ai/safa-kpi-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-org-hero.png": [
+      "/foundation/ecosystem",
+      "/foundation/organisation"
+    ],
+    "/images/ai/safa-partnerships-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-perception-new.png": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/safa-positioning-hero.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/safa-sa-film-interns-portal.png": [
+      "/contact"
+    ],
+    "/images/ai/safa-tier1-intern.png": [
+      "/foundation/organisation"
+    ],
+    "/images/ai/v2/budget/budget-line-items.png": [
+      "/delivery/budget"
+    ],
+    "/images/ai/v2/budget/budget-philosophy.png": [
+      "/delivery/budget"
+    ],
+    "/images/ai/v2/delivery-community/community-mesh-workshop.png": [
+      "/delivery/community"
+    ],
+    "/images/ai/v2/delivery-community/graduate-to-mentor-woman.png": [
+      "/delivery/community"
+    ],
+    "/images/ai/v2/delivery-curriculum/ai-masterclass-lab.png": [
+      "/delivery/curriculum"
+    ],
+    "/images/ai/v2/delivery-curriculum/prompt-iteration-session.png": [
+      "/delivery/curriculum"
+    ],
+    "/images/ai/v2/delivery-kpis/measurement-framework.png": [
+      "/delivery/kpis"
+    ],
+    "/images/ai/v2/delivery-kpis/realtime-kpi-tracking.png": [
+      "/delivery/kpis"
+    ],
+    "/images/ai/v2/delivery/ai-workstation.png": [
+      "/delivery/curriculum",
+      "/smart-tools",
+      "content/cms/smart-tools.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v2/delivery/alumni-director.png": [
+      "/delivery/community"
+    ],
+    "/images/ai/v2/delivery/intern-set.png": [
+      "/delivery/community"
+    ],
+    "/images/ai/v2/delivery/risk-management.png": [
+      "/delivery/risk"
+    ],
+    "/images/ai/v2/delivery/upward-graph.png": [
+      "/delivery/budget",
+      "/delivery/kpis"
+    ],
+    "/images/ai/v2/foundation/circuit-topology.png": [
+      "/foundation/infrastructure"
+    ],
+    "/images/ai/v2/foundation/sa-film-interns-interface.png": [
+      "/foundation/infrastructure"
+    ],
+    "/images/ai/v2/growth-hero-new.png": [
+      "/growth",
+      "content/cms/growth-engine.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v2/growth/accountant-laptop.png": [
+      "/growth/commercial"
+    ],
+    "/images/ai/v2/growth/finance-meeting.png": [
+      "/growth/commercial"
+    ],
+    "/images/ai/v2/growth/media-event.png": [
+      "/growth/partnerships"
+    ],
+    "/images/ai/v2/hero-brand.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/v2/hero-seo.png": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/v2/homepage/aspiring-trainees.png": [
+      "src/components/sections/StakeholderPaths.tsx"
+    ],
+    "/images/ai/v2/homepage/executive-board-dashboard.png": [
+      "src/components/strategy/BoardStrategySections.tsx"
+    ],
+    "/images/ai/v2/homepage/executive-production-pipeline.png": [
+      "src/components/strategy/BoardStrategySections.tsx"
+    ],
+    "/images/ai/v2/homepage/funders-partners.png": [
+      "src/components/sections/StakeholderPaths.tsx"
+    ],
+    "/images/ai/v2/homepage/production-companies.png": [
+      "src/components/sections/StakeholderPaths.tsx"
+    ],
+    "/images/ai/v2/leadership/ceo-interview.png": [
+      "/visibility/leadership"
+    ],
+    "/images/ai/v2/road-home-training-red-visual.png": [
+      "/visibility",
+      "content/cms/visibility.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/budget-approval-gate.webp": [
+      "/delivery/budget"
+    ],
+    "/images/ai/v3/delivery/budget-hero.webp": [
+      "/delivery",
+      "/delivery/budget",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/community-hero.webp": [
+      "/delivery",
+      "/delivery/community",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/curriculum-hero.webp": [
+      "/delivery",
+      "/delivery/curriculum",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/delivery-hero.webp": [
+      "/",
+      "/delivery",
+      "content/cms/delivery.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/implementation-hero.webp": [
+      "/delivery",
+      "/delivery/implementation",
+      "content/cms/implementation.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/kpi-hero.webp": [
+      "/delivery",
+      "/delivery/kpis",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/risk-hero.webp": [
+      "/delivery/risk",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/delivery/strategic-resilience.webp": [
+      "/delivery/risk"
+    ],
+    "/images/ai/v3/foundation/ace-pillar.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v3/foundation/brand-hero.webp": [
+      "/foundation",
+      "/foundation/brand",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/foundation/digital-pillar.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v3/foundation/ecosystem-hero.webp": [
+      "/",
+      "/foundation",
+      "/foundation/ecosystem",
+      "content/cms/ecosystem.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/foundation/filmgro-pillar.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v3/foundation/greenset-pillar.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v3/foundation/infrastructure-hero.webp": [
+      "/foundation",
+      "/foundation/infrastructure",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/foundation/interns-pillar.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v3/foundation/organisation-hero.webp": [
+      "/",
+      "/foundation",
+      "/foundation/organisation",
+      "content/cms/organisation.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/growth/agentic-ai-hero.webp": [
+      "/",
+      "/growth",
+      "/growth/agentic-ai",
+      "/visibility/seo",
+      "content/cms/agentic-ai.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/growth/commercial-hero.webp": [
+      "/growth",
+      "/growth/agentic-ai",
+      "/growth/commercial",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/growth/female-handshake.webp": [
+      "/growth/partnerships"
+    ],
+    "/images/ai/v3/growth/partnerships-hero.webp": [
+      "/growth",
+      "/growth/partnerships",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/growth/positioning-hero.webp": [
+      "/growth",
+      "/growth/positioning",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/growth/positioning-proof.webp": [
+      "/growth/positioning"
+    ],
+    "/images/ai/v3/visibility/calendar-hero.webp": [
+      "/",
+      "/visibility",
+      "/visibility/calendar",
+      "content/cms/calendar.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/visibility/content-hero.webp": [
+      "/visibility",
+      "/visibility/content",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/visibility/leadership-hero.webp": [
+      "/visibility",
+      "/visibility/leadership",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v3/visibility/seo-hero.webp": [
+      "/visibility",
+      "/visibility/seo",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/visibility-content/hero-studio-glow.webp": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/visibility-content/podcast-recording.webp": [
+      "/visibility/content"
+    ],
+    "/images/ai/visibility-leadership/hero-portrait.webp": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/ai/visibility-leadership/keynote-stage.webp": [
+      "/visibility/leadership"
+    ],
+    "/images/ai/visibility-seo/technical-audit-screen.webp": [
+      "/visibility/seo"
+    ],
+    "/images/logos/greenset-logo.webp": [
+      "src/components/layout/Footer.tsx"
+    ],
+    "/images/logos/sa-film-academy-logo.png": [
+      "content/cms/settings.json",
+      "src/app/layout.tsx",
+      "src/components/layout/MegaNavbar.tsx"
+    ],
+    "/images/logos/sa-film-academy-logo.webp": [
+      "/access/login",
+      "/access/signup"
+    ],
+    "/images/main-hero-images/post-production-lab-black-creators.png": [
+      "/foundation",
+      "content/cms/foundation.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/main-hero-images/safa-hero-red-cinematic-black-trainees.png": [
+      "/",
+      "/access/login",
+      "content/cms/announcements.json",
+      "content/cms/home.json",
+      "content/cms/media.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/road-home/": [
+      "src/components/visuals/RoadHomeGallery.tsx"
+    ],
+    "/images/road-home/road-home-training-000.jpg": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/road-home/road-home-training-004.jpg": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/road-home/road-home-training-007.jpg": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/road-home/road-home-training-008.jpg": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/road-home/road-home-training-009.jpg": [
+      "src/lib/content/pageData.ts"
+    ],
+    "/images/safa-promax/productions/posters/blood-and-water.webp": [
+      "content/cms/media.json",
+      "content/cms/productions.json",
+      "data/cms/content-store.json",
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/devils-peak.webp": [
+      "content/cms/productions.json",
+      "data/cms/content-store.json",
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/one-piece.webp": [
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/servant.webp": [
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/the-newsroom.webp": [
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/the-woman-king.webp": [
+      "content/cms/productions.json",
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/warrior.webp": [
+      "src/data/productions.ts"
+    ],
+    "/images/safa-promax/productions/posters/wheel-of-time.webp": [
+      "src/data/productions.ts"
+    ]
+  }
+}

@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max-old-space-size=8192 next dev --port 3007",
+    "prebuild": "npm run generate:media-manifest",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "npm run typecheck",
+    "generate:media-manifest": "node scripts/generate-media-gallery-manifest.mjs",
     "admin:hash": "node scripts/hash-admin-password.mjs"
   },
   "dependencies": {
