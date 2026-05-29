@@ -71,16 +71,10 @@ export function SkillsLevyFlow() {
               stroke-dasharray: 24 18;
               animation: ${isInView ? "levyDash 2.4s linear infinite" : "none"};
             }
-            .levy-pulse {
-              animation: ${isInView ? "levyPulse 2.8s ease-in-out infinite" : "none"};
-              transform-box: fill-box;
-              transform-origin: center;
-            }
             @keyframes levyCard { to { opacity: 1; transform: translateY(0); } }
             @keyframes levyDash { to { stroke-dashoffset: -160; } }
-            @keyframes levyPulse { 50% { transform: scale(1.08); filter: drop-shadow(0 0 18px rgba(224,194,104,.42)); } }
             @media (prefers-reduced-motion: reduce) {
-              .levy-card, .levy-line, .levy-pulse { animation: none; opacity: 1; transform: none; }
+              .levy-card, .levy-line { animation: none; opacity: 1; transform: none; }
             }
           `}</style>
         </defs>
@@ -104,7 +98,6 @@ export function SkillsLevyFlow() {
               <g className="levy-card" style={{ animationDelay: `${index * 0.16}s` }}>
                 <rect width="320" height="300" rx="10" fill="#0F0F15" stroke="#C9A84C" strokeWidth="2.5" />
                 <rect width="320" height="9" fill={index === 0 ? "#CC0000" : "#E0C268"} />
-                <circle cx="160" cy="156" r="72" fill="#13131a" stroke="#E0C268" strokeWidth="3" className="levy-pulse" />
                 <text x="34" y="74" fill="#C9A84C" fontFamily="Playfair Display" fontSize="60" fontStyle="italic" fontWeight="900">
                   {step.index}
                 </text>
