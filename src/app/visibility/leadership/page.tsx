@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="9 · Institutional Voice"
         title="Institutional Voice & Executive Visibility"
         subtitle="The Chief Executive's voice as one of the Academy's most valuable marketing assets."
-        imageSrc="/images/ai/v2/leadership/ceo-boardroom.png"
+        imageSrc="/images/ai/v3/visibility/leadership-hero.webp"
         imageAlt="Dignified Black female executive in a cinematic boardroom"
       />
 
@@ -49,10 +49,10 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/leadership/ceo-podium.png"
+              src="/images/ai/v3/visibility/leadership-hero.webp"
               alt="Dignified Black female executive speaking at a podium"
               brief="A dignified, authoritative Black woman, approximately 60 years old, light-complexioned, speaking at a podium in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
-              orientation="portrait"
+              orientation="landscape"
             />
           }
           visualRatio="70-30"

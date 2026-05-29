@@ -16,31 +16,31 @@ const SUB_PAGES = [
     title: 'Community & Alumni',
     href: '/delivery/community',
     description: 'The four-tier career-progression model for industry citizens.',
-    image: '/images/ai/v2/delivery/comm-hero.png'
+    image: '/images/ai/v3/delivery/community-hero.webp'
   },
   {
     title: 'AI in Curriculum',
     href: '/delivery/curriculum',
     description: 'Masterclasses in Veo, Kling, Hailuo, and Runway.',
-    image: '/images/ai/v2/delivery/curriculum-hero.png'
+    image: '/images/ai/v3/delivery/curriculum-hero.webp'
   },
   {
     title: 'KPI Dashboard',
     href: '/delivery/kpis',
     description: '16 indicators, baselines, and 12-month targets.',
-    image: '/images/ai/v2/delivery/kpi-hero.png'
+    image: '/images/ai/v3/delivery/kpi-hero.webp'
   },
   {
     title: 'Budget Framework',
     href: '/delivery/budget',
     description: 'Monthly subscription, transparent operating-expense line.',
-    image: '/images/ai/v2/budget/budget-hero.png'
+    image: '/images/ai/v3/delivery/budget-hero.webp'
   },
   {
     title: 'Implementation',
     href: '/delivery/implementation',
     description: 'Three tracks, 30 days, and concrete results.',
-    image: '/images/ai/v2/delivery/impl-hero.png'
+    image: '/images/ai/v3/delivery/implementation-hero.webp'
   }
 ];
 
@@ -52,7 +52,7 @@ export default function DeliveryLanding() {
         eyebrow="Pillar 04"
         title="The Delivery Pillar."
         subtitle="Measurable, accountable results that drive the Academy forward: Community Engagement, AI Curriculum, and KPI Tracking."
-        imageSrc="/images/ai/v2/delivery/impl-hero.png"
+        imageSrc="/images/ai/v3/delivery/delivery-hero.webp"
         imageAlt="Delivery pillar and results visual"
       />
 

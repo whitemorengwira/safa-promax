@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="16 · Delivery Pillar"
         title="The numbers reported every quarter."
         subtitle="A measurable, twelve-month KPI architecture with named baselines and named targets, designed to make trade-offs visible."
-        imageSrc="/images/ai/v2/delivery/kpi-hero.png"
+        imageSrc="/images/ai/v3/delivery/kpi-hero.webp"
         imageAlt="Dashboard gauges abstract in gold and dark red"
       />
 

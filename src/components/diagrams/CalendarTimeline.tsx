@@ -51,11 +51,11 @@ export function CalendarTimeline() {
   ];
 
   return (
-    <div className="w-full flex justify-center py-8">
+    <div className="w-full flex justify-center py-8 md:py-12">
       <svg
         ref={svgRef}
-        viewBox="0 0 1200 400"
-        className="w-full max-w-4xl"
+        viewBox="0 0 1400 620"
+        className="w-full max-w-7xl min-h-[520px]"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid meet"
       >
@@ -63,11 +63,17 @@ export function CalendarTimeline() {
           <style>
             {`
               @keyframes phaseSlideIn {
-                0% { transform: translateX(-50px); opacity: 0; }
+                0% { transform: translateX(-70px); opacity: 0; }
                 100% { transform: translateX(0); opacity: 1; }
+              }
+              @keyframes phaseGlow {
+                50% { filter: drop-shadow(0 0 18px rgba(201, 168, 76, 0.36)); }
               }
               .phase-segment {
                 animation: ${isInView ? "phaseSlideIn 0.6s ease-out forwards" : "none"};
+              }
+              .phase-segment-active {
+                animation: ${isInView ? "phaseSlideIn 0.6s ease-out forwards, phaseGlow 3.2s ease-in-out 0.8s infinite" : "none"};
               }
             `}
           </style>
@@ -75,12 +81,12 @@ export function CalendarTimeline() {
 
         {/* Title */}
         <text
-          x="600"
-          y="40"
+          x="700"
+          y="54"
           textAnchor="middle"
           fill="#C9A84C"
           fontFamily="Outfit"
-          fontSize="12"
+          fontSize="18"
           letterSpacing="2"
           style={{ textTransform: "uppercase" }}
           opacity="0.7"
@@ -90,14 +96,14 @@ export function CalendarTimeline() {
 
         {/* Timeline segments */}
         {phases.map((phase, idx) => {
-          const segmentWidth = 250;
-          const xStart = 50 + idx * segmentWidth;
+          const segmentWidth = 320;
+          const xStart = 60 + idx * segmentWidth;
           const isActive = idx === 0;
 
           return (
             <g
               key={`phase-${idx}`}
-              className="phase-segment"
+              className={isActive ? "phase-segment-active" : "phase-segment"}
               style={{
                 animationDelay: isInView ? `${idx * 0.15}s` : "0s",
               }}
@@ -105,10 +111,10 @@ export function CalendarTimeline() {
               {/* Phase segment background */}
               <rect
                 x={xStart}
-                y="80"
-                width={segmentWidth - 10}
-                height="280"
-                rx="4"
+                y="104"
+                width={segmentWidth - 18}
+                height="420"
+                rx="8"
                 fill="#13131a"
                 stroke={isActive ? "#E0C268" : "#C9A84C"}
                 strokeWidth={isActive ? "2" : "1"}
@@ -119,22 +125,22 @@ export function CalendarTimeline() {
               {isActive && (
                 <rect
                   x={xStart}
-                  y="80"
-                  width={segmentWidth - 10}
-                  height="4"
+                  y="104"
+                  width={segmentWidth - 18}
+                  height="8"
                   fill="#E0C268"
                 />
               )}
 
               {/* Quarter badge */}
-              <rect x={xStart + 16} y="98" width="34" height="18" rx="2" fill="#8B0000" opacity="0.8" />
+              <rect x={xStart + 22} y="128" width="52" height="30" rx="3" fill="#8B0000" opacity="0.9" />
               <text
                 x={xStart + 33}
-                y="111"
+                y="149"
                 textAnchor="middle"
                 fill="#E0C268"
                 fontFamily="Outfit"
-                fontSize="8"
+                fontSize="13"
                 fontWeight="700"
               >
                 {phase.quarter}
@@ -142,12 +148,12 @@ export function CalendarTimeline() {
 
               {/* Phase name */}
               <text
-                x={xStart + (segmentWidth - 10) / 2}
-                y="120"
+                x={xStart + (segmentWidth - 18) / 2}
+                y="154"
                 textAnchor="middle"
                 fill="#E0C268"
                 fontFamily="Playfair Display"
-                fontSize="16"
+                fontSize="29"
                 fontWeight="700"
                 letterSpacing="0.5"
               >
@@ -156,12 +162,12 @@ export function CalendarTimeline() {
 
               {/* Months */}
               <text
-                x={xStart + (segmentWidth - 10) / 2}
-                y="145"
+                x={xStart + (segmentWidth - 18) / 2}
+                y="194"
                 textAnchor="middle"
                 fill="#C9A84C"
                 fontFamily="Outfit"
-                fontSize="9"
+                fontSize="14"
                 letterSpacing="1"
                 style={{ textTransform: "uppercase" }}
                 opacity="0.7"
@@ -173,11 +179,11 @@ export function CalendarTimeline() {
               {phase.milestones.map((milestone, mIdx) => (
                 <text
                   key={`milestone-${mIdx}`}
-                  x={xStart + 15}
-                  y={176 + mIdx * 28}
+                  x={xStart + 28}
+                  y={250 + mIdx * 54}
                   fill="#E8E0D0"
                   fontFamily="Outfit"
-                  fontSize="10"
+                  fontSize="17"
                   opacity="0.8"
                 >
                   • {milestone}
@@ -185,11 +191,11 @@ export function CalendarTimeline() {
               ))}
 
               <text
-                x={xStart + 15}
-                y="325"
+                x={xStart + 28}
+                y="486"
                 fill="#C9A84C"
                 fontFamily="Outfit"
-                fontSize="8"
+                fontSize="13"
                 letterSpacing="0.8"
                 style={{ textTransform: "uppercase" }}
                 opacity="0.75"
@@ -202,10 +208,10 @@ export function CalendarTimeline() {
 
         {/* Connecting line (mobile vertical, desktop horizontal) */}
         <line
-          x1="50"
-          y1="220"
-          x2="1050"
-          y2="220"
+          x1="60"
+          y1="316"
+          x2="1342"
+          y2="316"
           stroke="#C9A84C"
           strokeWidth="1"
           opacity="0.3"

@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture."
         subtitle="A branded house, unified under SAFA."
-        imageSrc="/images/ai/v2/foundation/ecosystem-hero.png"
+        imageSrc="/images/ai/v3/foundation/ecosystem-hero.webp"
         imageAlt="Professional Black South African film crew gathered around a cinematic movie set"
       />
 
@@ -39,11 +39,26 @@ export default function Page() {
                 <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
                   <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C9A84C" strokeOpacity="0.06" strokeWidth="0.5"/>
                 </pattern>
+                <style>{`
+                  .architecture-grid { animation: architectureGrid 14s linear infinite; }
+                  .architecture-link { stroke-dasharray: 10 10; animation: architectureFlow 2.6s linear infinite; }
+                  .architecture-block { animation: architecturePulse 4.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+                  .architecture-block:nth-of-type(2) { animation-delay: .25s; }
+                  .architecture-block:nth-of-type(3) { animation-delay: .5s; }
+                  .architecture-block:nth-of-type(4) { animation-delay: .75s; }
+                  .architecture-block:nth-of-type(5) { animation-delay: 1s; }
+                  @keyframes architectureGrid { to { transform: translate(-40px, -40px); } }
+                  @keyframes architectureFlow { to { stroke-dashoffset: -120; } }
+                  @keyframes architecturePulse { 50% { transform: translateY(-6px); filter: drop-shadow(0 0 16px rgba(201,168,76,.35)); } }
+                  @media (prefers-reduced-motion: reduce) {
+                    .architecture-grid, .architecture-link, .architecture-block { animation: none; }
+                  }
+                `}</style>
               </defs>
-              <rect width="1200" height="500" fill="url(#grid3)"/>
+              <rect className="architecture-grid" width="1280" height="580" x="-40" y="-40" fill="url(#grid3)"/>
 
               {/* Central SAFA block */}
-              <g>
+              <g className="architecture-block">
                 <rect x="500" y="180" width="200" height="140" fill="#13131a" stroke="#C9A84C" strokeWidth="1.5"/>
                 <rect x="500" y="180" width="200" height="6" fill="#C9A84C"/>
                 <text x="600" y="230" textAnchor="middle" fill="#C9A84C" fontFamily="Playfair Display" fontSize="22" fontWeight="600">SA FILM</text>
@@ -53,44 +68,44 @@ export default function Page() {
               </g>
 
               {/* ACE block */}
-              <g>
+              <g className="architecture-block">
                 <rect x="120" y="80" width="240" height="100" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
                 <rect x="120" y="80" width="6" height="100" fill="#8B1A1A"/>
                 <text x="240" y="118" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="18" fontStyle="italic">Academy of</text>
                 <text x="240" y="138" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="18" fontStyle="italic">Creative Excellence</text>
                 <text x="240" y="160" textAnchor="middle" fill="#E8E0D0" opacity="0.55" fontFamily="Outfit" fontSize="9" letterSpacing="2">ALUMNI · HOD PATHWAY</text>
               </g>
-              <line x1="360" y1="130" x2="500" y2="210" stroke="#C9A84C" strokeOpacity="0.4" strokeWidth="0.8" strokeDasharray="4 4"/>
+              <line className="architecture-link" x1="360" y1="130" x2="500" y2="210" stroke="#C9A84C" strokeOpacity="0.5" strokeWidth="2"/>
 
               {/* FILMGRO block */}
-              <g>
+              <g className="architecture-block">
                 <rect x="100" y="320" width="260" height="100" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
                 <rect x="100" y="320" width="6" height="100" fill="#8B1A1A"/>
                 <text x="230" y="358" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="20" fontWeight="600">FILMGRO</text>
                 <text x="230" y="380" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="13" fontStyle="italic">Driving Academy</text>
                 <text x="230" y="402" textAnchor="middle" fill="#E8E0D0" opacity="0.55" fontFamily="Outfit" fontSize="9" letterSpacing="2">SUZUKI · 124 LICENCES</text>
               </g>
-              <line x1="360" y1="370" x2="500" y2="290" stroke="#C9A84C" strokeOpacity="0.4" strokeWidth="0.8" strokeDasharray="4 4"/>
+              <line className="architecture-link" x1="360" y1="370" x2="500" y2="290" stroke="#C9A84C" strokeOpacity="0.5" strokeWidth="2"/>
 
               {/* GreenSet block */}
-              <g>
+              <g className="architecture-block">
                 <rect x="840" y="80" width="240" height="100" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
                 <rect x="1074" y="80" width="6" height="100" fill="#8B1A1A"/>
                 <text x="960" y="120" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="20" fontWeight="600">GreenSet</text>
                 <text x="960" y="142" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="12" fontStyle="italic">Sustainability Subsidiary</text>
                 <text x="960" y="164" textAnchor="middle" fill="#E8E0D0" opacity="0.55" fontFamily="Outfit" fontSize="9" letterSpacing="2">NETFLIX · UK · US</text>
               </g>
-              <line x1="840" y1="130" x2="700" y2="210" stroke="#C9A84C" strokeOpacity="0.4" strokeWidth="0.8" strokeDasharray="4 4"/>
+              <line className="architecture-link" x1="840" y1="130" x2="700" y2="210" stroke="#C9A84C" strokeOpacity="0.5" strokeWidth="2"/>
 
               {/* SA Film Interns block */}
-              <g>
+              <g className="architecture-block">
                 <rect x="820" y="320" width="260" height="100" fill="#13131a" stroke="#C9A84C" strokeWidth="1"/>
                 <rect x="1074" y="320" width="6" height="100" fill="#8B1A1A"/>
                 <text x="950" y="352" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="17" fontWeight="600">SA Film Interns</text>
                 <text x="950" y="380" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="13" fontStyle="italic">Digital Talent Portal</text>
                 <text x="950" y="402" textAnchor="middle" fill="#E8E0D0" opacity="0.55" fontFamily="Outfit" fontSize="9" letterSpacing="2">500+ PROFILES · AI MATCH</text>
               </g>
-              <line x1="820" y1="370" x2="700" y2="290" stroke="#C9A84C" strokeOpacity="0.4" strokeWidth="0.8" strokeDasharray="4 4"/>
+              <line className="architecture-link" x1="820" y1="370" x2="700" y2="290" stroke="#C9A84C" strokeOpacity="0.5" strokeWidth="2"/>
             </svg>
           </SvgStage>
         </div>
@@ -132,10 +147,10 @@ export default function Page() {
           {/* ACE */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/ace-director.png"
+              src="/images/ai/v3/foundation/ace-pillar.webp"
               alt="ACE Director"
               brief="A young Black South African male director behind a cinematic camera, warm gold and deep red lighting, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">ACE</h3>
             <p className="text-sm text-text/70">Academy of Creative Excellence: Alumni and HOD pathway for high-level creative leadership.</p>
@@ -144,10 +159,10 @@ export default function Page() {
           {/* FILMGRO */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/filmgro-trainee.png"
+              src="/images/ai/v3/foundation/filmgro-pillar.webp"
               alt="FILMGRO Trainee"
               brief="A young Black South African trainee in a professional production vehicle, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">FILMGRO</h3>
             <p className="text-sm text-text/70">Driving Academy: Providing essential driving skills and licensing for film industry trainees.</p>
@@ -156,10 +171,10 @@ export default function Page() {
           {/* GreenSet */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/greenset-eco.png"
+              src="/images/ai/v3/foundation/greenset-pillar.webp"
               alt="GreenSet Eco"
               brief="A sustainable film set with eco-friendly equipment, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">GreenSet</h3>
             <p className="text-sm text-text/70">Sustainability Subsidiary: Leading the industry toward eco-friendly production practices.</p>
@@ -168,10 +183,10 @@ export default function Page() {
           {/* SA Film Interns */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/sa-film-interns-portal.png"
+              src="/images/ai/v3/foundation/interns-pillar.webp"
               alt="SA Film Interns digital talent portal"
               brief="A high-end laptop screen showing a clean digital portal, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">SA Film Interns</h3>
             <p className="text-sm text-text/70">Digital Talent Portal: Connecting 500+ trained professionals with production opportunities.</p>
@@ -180,10 +195,10 @@ export default function Page() {
           {/* Digital Enablement */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/digital-gap.png"
+              src="/images/ai/v3/foundation/digital-pillar.webp"
               alt="Digital enablement infrastructure"
               brief="An abstract wireframe or digital network on a dark surface, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">Digital Enablement</h3>
             <p className="text-sm text-text/70">Bridging the divide between traditional film training and modern digital infrastructure.</p>

@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="11 · Delivery Pillar"
         title="From Perpetual Trainee to Permanent Industry Citizen."
         subtitle="The community architecture that dismantles the most damaging perception SAFA has carried, and replaces it with a tiered, visible career pathway."
-        imageSrc="/images/ai/v2/delivery/comm-hero.png"
+        imageSrc="/images/ai/v3/delivery/community-hero.webp"
         imageAlt="A group of young Black film alumni networking at a cinematic industry event"
       />
 

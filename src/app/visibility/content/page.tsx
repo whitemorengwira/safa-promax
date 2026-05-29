@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="12 · Visibility Pillar"
         title="Content Marketing & Storytelling"
         subtitle="A multi-format publication strategy that treats SAFA as the industry's most authoritative source."
-        imageSrc="/images/ai/v2/visibility/content-hero.png"
+        imageSrc="/images/ai/v3/visibility/content-hero.webp"
         imageAlt="Dark reddish-cinematic film production environment"
       />
 
@@ -48,7 +48,7 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/gen/content-storytelling.png"
+                      src="/images/ai/v3/visibility/content-hero.webp"
                       alt="Content marketing and storytelling"
                       brief="Content marketing and storytelling"
                       orientation="landscape"
@@ -60,7 +60,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/visibility/editorial-meeting.png"
+              src="/images/ai/v3/visibility/content-hero.webp"
               alt="Editorial team reviewing content"
               brief="A professional Black South African editorial team reviewing a magazine layout or digital content in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"

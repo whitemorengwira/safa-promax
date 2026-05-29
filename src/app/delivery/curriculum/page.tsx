@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="15 · Delivery Pillar"
         title="The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026."
         subtitle="A masterclass module on generative AI tools: Veo, Kling, Hailuo, and equivalent platforms, positioned as a curriculum differentiator."
-        imageSrc="/images/ai/v2/delivery/curriculum-hero.png"
+        imageSrc="/images/ai/v3/delivery/curriculum-hero.webp"
         imageAlt="Professional film production environment with AI focus"
       />
 

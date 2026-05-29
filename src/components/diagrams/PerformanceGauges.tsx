@@ -109,12 +109,15 @@ export function PerformanceGauges() {
           );
         })}
 
-        <g opacity="0.88">
-          <rect x="304" y="550" width="592" height="54" fill="#101017" stroke="#C9A84C" strokeOpacity="0.35" />
-          <text x="600" y="574" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="13" fontWeight="800">
-            The board does not need noise. It needs a clean view of what is moving, what is stuck, and where action is required.
+        <g opacity="0.92">
+          <rect x="178" y="524" width="844" height="92" fill="#101017" stroke="#C9A84C" strokeOpacity="0.42" strokeWidth="2" />
+          <text x="600" y="554" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="15" fontWeight="900">
+            The board does not need noise. It needs a clean view of what is moving,
           </text>
-          <text x="600" y="594" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="10" fontWeight="800" letterSpacing="2">
+          <text x="600" y="578" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="15" fontWeight="900">
+            what is stuck, and where action is required.
+          </text>
+          <text x="600" y="604" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="11" fontWeight="900" letterSpacing="2.4">
             REPORT MONTHLY · REVIEW QUARTERLY · ESCALATE EARLY
           </text>
         </g>

@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="14 · Growth Pillar"
         title="Six dimensions on which SAFA wins the room."
         subtitle="The strategy's positioning argument runs on six specific capabilities: each one a category where the typical competitor cannot match SAFA's contextual depth."
-        imageSrc="/images/ai/v2/growth/pos-hero.png"
+        imageSrc="/images/ai/v3/growth/positioning-hero.webp"
         imageAlt="Radar chart abstract in gold and dark red"
       />
 
@@ -52,7 +52,7 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/gen/positioning.png"
+                      src="/images/ai/v3/growth/positioning-proof.webp"
                       alt="Competitive positioning strategy"
                       brief="Competitive positioning strategy and advantage"
                       orientation="landscape"
@@ -64,7 +64,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/growth/radar-chart.png"
+              src="/images/ai/v3/growth/positioning-proof.webp"
               alt="Positioning"
               brief="Abstract geometric radar chart in gold and dark red, cinematic lighting"
               orientation="landscape"
@@ -146,7 +146,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/growth-positioning/strategic-planning-wall.webp"
+              src="/images/ai/v3/growth/positioning-hero.webp"
               alt="Strategic planning and market positioning"
               brief="Strategic planning board with competitive analysis, market data, and positioning strategy mapped out"
               orientation="landscape"

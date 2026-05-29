@@ -2,6 +2,24 @@
 
 import { useEffect, useRef, useState } from "react";
 
+const steps = [
+  {
+    index: "01",
+    title: "Levy Paid",
+    body: ["Production company", "pays Skills Levy", "through SARS"],
+  },
+  {
+    index: "02",
+    title: "SETA Approval",
+    body: ["SAFA structures", "training evidence", "and stipend flow"],
+  },
+  {
+    index: "03",
+    title: "Proof Pack",
+    body: ["Partner receives", "B-BBEE evidence", "and placement proof"],
+  },
+];
+
 export function SkillsLevyFlow() {
   const svgRef = useRef<SVGSVGElement>(null);
   const [isInView, setIsInView] = useState(false);
@@ -9,343 +27,105 @@ export function SkillsLevyFlow() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsInView(true);
-        }
+        if (entry.isIntersecting) setIsInView(true);
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
-    if (svgRef.current) {
-      observer.observe(svgRef.current);
-    }
-
+    if (svgRef.current) observer.observe(svgRef.current);
     return () => observer.disconnect();
   }, []);
 
   return (
-    <div className="w-full flex justify-center py-8">
+    <div className="w-full flex justify-center py-8 md:py-12">
       <svg
         ref={svgRef}
-        viewBox="0 0 1000 300"
-        className="w-full max-w-5xl"
+        viewBox="0 0 1320 620"
+        className="w-full max-w-7xl min-h-[500px]"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid meet"
+        role="img"
+        aria-label="Animated Skills Levy flow from levy paid to SETA approval to B-BBEE evidence pack."
       >
         <defs>
-          <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#C9A84C" stopOpacity="0.4" />
-            <stop offset="50%" stopColor="#E0C268" stopOpacity="0.8" />
-            <stop offset="100%" stopColor="#C9A84C" stopOpacity="0.4" />
+          <linearGradient id="skillsLevyFlowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#CC0000" />
+            <stop offset="48%" stopColor="#C9A84C" />
+            <stop offset="100%" stopColor="#E0C268" />
           </linearGradient>
-          <style>
-            {`
-              @keyframes flowAnimation {
-                0% { stroke-dashoffset: 0; }
-                100% { stroke-dashoffset: -40px; }
-              }
-              .flow-animated {
-                animation: ${isInView ? "flowAnimation 3s linear infinite" : "none"};
-              }
-            `}
-          </style>
+          <radialGradient id="skillsLevyGlow" cx="50%" cy="44%" r="66%">
+            <stop offset="0%" stopColor="#C9A84C" stopOpacity="0.14" />
+            <stop offset="62%" stopColor="#8B0000" stopOpacity="0.08" />
+            <stop offset="100%" stopColor="#0F0F15" stopOpacity="0" />
+          </radialGradient>
+          <marker id="skillsLevyArrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+            <path d="M2 2 L10 6 L2 10 Z" fill="#E0C268" />
+          </marker>
+          <style>{`
+            .levy-card {
+              opacity: 0;
+              transform: translateY(24px);
+              animation: ${isInView ? "levyCard .7s cubic-bezier(.16,1,.3,1) forwards" : "none"};
+            }
+            .levy-line {
+              stroke-dasharray: 24 18;
+              animation: ${isInView ? "levyDash 2.4s linear infinite" : "none"};
+            }
+            .levy-pulse {
+              animation: ${isInView ? "levyPulse 2.8s ease-in-out infinite" : "none"};
+              transform-box: fill-box;
+              transform-origin: center;
+            }
+            @keyframes levyCard { to { opacity: 1; transform: translateY(0); } }
+            @keyframes levyDash { to { stroke-dashoffset: -160; } }
+            @keyframes levyPulse { 50% { transform: scale(1.08); filter: drop-shadow(0 0 18px rgba(224,194,104,.42)); } }
+            @media (prefers-reduced-motion: reduce) {
+              .levy-card, .levy-line, .levy-pulse { animation: none; opacity: 1; transform: none; }
+            }
+          `}</style>
         </defs>
 
-        {/* Input streams */}
-        {/* Production company skills development spend */}
-        <path
-          d="M 50 80 Q 150 80 250 150"
-          fill="none"
-          stroke="url(#flowGradient)"
-          strokeWidth="20"
-          strokeLinecap="round"
-          opacity="0.6"
-        />
-        <path
-          d="M 50 80 Q 150 80 250 150"
-          fill="none"
-          stroke="#E0C268"
-          strokeWidth="20"
-          strokeDasharray="40 40"
-          className="flow-animated"
-          opacity="0.8"
-        />
-
-        {/* SETA discretionary grant approval */}
-        <path
-          d="M 50 220 Q 150 220 250 150"
-          fill="none"
-          stroke="url(#flowGradient)"
-          strokeWidth="20"
-          strokeLinecap="round"
-          opacity="0.6"
-        />
-        <path
-          d="M 50 220 Q 150 220 250 150"
-          fill="none"
-          stroke="#E0C268"
-          strokeWidth="20"
-          strokeDasharray="40 40"
-          className="flow-animated"
-          opacity="0.8"
-          style={{ animationDelay: "0.5s" }}
-        />
-
-        {/* Central evidence channel */}
-        <rect
-          x="250"
-          y="102"
-          width="500"
-          height="96"
-          rx="8"
-          fill="#13131a"
-          stroke="#C9A84C"
-          strokeWidth="2"
-        />
-        <text
-          x="500"
-          y="140"
-          textAnchor="middle"
-          fill="#E0C268"
-          fontFamily="Outfit"
-          fontSize="14"
-          fontWeight="700"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          SAFA Administration
+        <rect width="1320" height="620" fill="#111119" />
+        <circle cx="660" cy="318" r="400" fill="url(#skillsLevyGlow)" />
+        <text x="660" y="76" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="18" fontWeight="900" letterSpacing="4">
+          SKILLS LEVY COMMERCIAL FLOW
         </text>
-        <text
-          x="500"
-          y="164"
-          textAnchor="middle"
-          fill="#E8E0D0"
-          fontFamily="Outfit"
-          fontSize="10"
-          opacity="0.78"
-        >
-          approvals · contracts · stipend schedule · audit trail
-        </text>
-        <text
-          x="500"
-          y="182"
-          textAnchor="middle"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="9"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-          opacity="0.76"
-        >
-          evidence pack for B-BBEE skills development claims
+        <text x="660" y="110" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="15" opacity="0.72">
+          mandatory spend becomes structured training proof and partner value
         </text>
 
-        {/* Output streams */}
-        {/* Trainee stipends */}
-        <path
-          d="M 750 150 Q 850 150 950 80"
-          fill="none"
-          stroke="url(#flowGradient)"
-          strokeWidth="20"
-          strokeLinecap="round"
-          opacity="0.6"
-        />
-        <path
-          d="M 750 150 Q 850 150 950 80"
-          fill="none"
-          stroke="#E0C268"
-          strokeWidth="20"
-          strokeDasharray="40 40"
-          className="flow-animated"
-          opacity="0.8"
-          style={{ animationDelay: "1s" }}
-        />
+        <path d="M230 330 H1092" fill="none" stroke="#4b3f20" strokeWidth="18" strokeLinecap="round" />
+        <path d="M230 330 H1092" fill="none" stroke="url(#skillsLevyFlowGradient)" strokeWidth="7" strokeLinecap="round" markerEnd="url(#skillsLevyArrow)" className="levy-line" />
 
-        {/* Production placement fees */}
-        <path
-          d="M 750 150 Q 850 150 950 150"
-          fill="none"
-          stroke="url(#flowGradient)"
-          strokeWidth="20"
-          strokeLinecap="round"
-          opacity="0.6"
-        />
-        <path
-          d="M 750 150 Q 850 150 950 150"
-          fill="none"
-          stroke="#E0C268"
-          strokeWidth="20"
-          strokeDasharray="40 40"
-          className="flow-animated"
-          opacity="0.8"
-          style={{ animationDelay: "1.5s" }}
-        />
-
-        {/* Client evidence pack */}
-        <path
-          d="M 750 150 Q 850 150 950 220"
-          fill="none"
-          stroke="url(#flowGradient)"
-          strokeWidth="20"
-          strokeLinecap="round"
-          opacity="0.6"
-        />
-        <path
-          d="M 750 150 Q 850 150 950 220"
-          fill="none"
-          stroke="#E0C268"
-          strokeWidth="20"
-          strokeDasharray="40 40"
-          className="flow-animated"
-          opacity="0.8"
-          style={{ animationDelay: "2s" }}
-        />
-
-        {/* Input labels */}
-        <text
-          x="50"
-          y="70"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Production Company
-        </text>
-        <text
-          x="50"
-          y="85"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Skills Spend
-        </text>
-
-        <text
-          x="50"
-          y="235"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          MICT SETA Grant
-        </text>
-
-        {/* Output labels */}
-        <text
-          x="950"
-          y="65"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Trainee
-        </text>
-        <text
-          x="950"
-          y="80"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Stipends
-        </text>
-
-        <text
-          x="950"
-          y="160"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Placement
-        </text>
-        <text
-          x="950"
-          y="174"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Fees
-        </text>
-
-        <text
-          x="950"
-          y="235"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          B-BBEE
-        </text>
-        <text
-          x="950"
-          y="250"
-          textAnchor="end"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="10"
-          letterSpacing="1"
-          style={{ textTransform: "uppercase" }}
-        >
-          Evidence
-        </text>
-
-        {/* Title */}
-        <text
-          x="500"
-          y="30"
-          textAnchor="middle"
-          fill="#C9A84C"
-          fontFamily="Outfit"
-          fontSize="12"
-          letterSpacing="2"
-          style={{ textTransform: "uppercase" }}
-          opacity="0.7"
-        >
-          Skills Levy Financial Flow
-        </text>
-
-        <g opacity="0.86">
-          {[
-            { x: 305, label: "Apply annually" },
-            { x: 435, label: "Approve cohort" },
-            { x: 565, label: "Deploy interns" },
-            { x: 695, label: "Report proof" },
-          ].map((step, idx) => (
-            <g key={step.label}>
-              <circle cx={step.x} cy="245" r="16" fill="#13131a" stroke="#8B0000" strokeWidth="1.5" />
-              <text x={step.x} y="249" textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="9" fontWeight="700">
-                {idx + 1}
-              </text>
-              <text x={step.x} y="276" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="8" opacity="0.75">
-                {step.label}
-              </text>
-              {idx < 3 && <line x1={step.x + 18} y1="245" x2={step.x + 112} y2="245" stroke="#C9A84C" strokeWidth="1" opacity="0.28" />}
+        {steps.map((step, index) => {
+          const x = 90 + index * 410;
+          return (
+            <g key={step.index} transform={`translate(${x} 174)`}>
+              <g className="levy-card" style={{ animationDelay: `${index * 0.16}s` }}>
+                <rect width="320" height="300" rx="10" fill="#0F0F15" stroke="#C9A84C" strokeWidth="2.5" />
+                <rect width="320" height="9" fill={index === 0 ? "#CC0000" : "#E0C268"} />
+                <circle cx="160" cy="156" r="72" fill="#13131a" stroke="#E0C268" strokeWidth="3" className="levy-pulse" />
+                <text x="34" y="74" fill="#C9A84C" fontFamily="Playfair Display" fontSize="60" fontStyle="italic" fontWeight="900">
+                  {step.index}
+                </text>
+                <text x="160" y="143" textAnchor="middle" fill="#E8E0D0" fontFamily="Playfair Display" fontSize="32" fontWeight="900" fontStyle="italic">
+                  {step.title}
+                </text>
+                {step.body.map((line, lineIndex) => (
+                  <text key={line} x="160" y={206 + lineIndex * 26} textAnchor="middle" fill={lineIndex === 1 ? "#E0C268" : "#C9A84C"} fontFamily="Outfit" fontSize="16" fontWeight="800" letterSpacing="1.3">
+                    {line.toUpperCase()}
+                  </text>
+                ))}
+              </g>
             </g>
-          ))}
+          );
+        })}
+
+        <g opacity="0.88">
+          <rect x="246" y="526" width="828" height="58" fill="#101017" stroke="#C9A84C" strokeOpacity="0.38" />
+          <text x="660" y="560" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="15" fontWeight="800">
+            Finance sees control. HR sees training. The board sees evidence.
+          </text>
         </g>
       </svg>
     </div>

@@ -20,7 +20,7 @@ export default function Page() {
         eyebrow="Pillar 01 · Section 02"
         title="The Organisation."
         subtitle="Who we are, what we do, and the perception we have already begun to shift."
-        imageSrc="/images/ai/v2/foundation/org-hero.png"
+        imageSrc="/images/ai/v3/foundation/organisation-hero.webp"
         imageAlt="Professional Black South African film crew on a cinematic movie set"
       />
 

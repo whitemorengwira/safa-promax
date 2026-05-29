@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="10 · Commercial Strategy"
         title="B-BBEE & Skills Levy Strategy"
         subtitle="SAFA's single most powerful commercial differentiator, and chronically under-marketed."
-        imageSrc="/images/ai/v2/growth/commercial-hero.png"
+        imageSrc="/images/ai/v3/growth/commercial-hero.webp"
         imageAlt="Dark reddish-cinematic film production environment"
       />
 

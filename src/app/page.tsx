@@ -160,7 +160,7 @@ export default async function HomePage() {
           </div>
           <div className="relative">
             <ImagePlaceholder
-              src="/images/ai/v2/foundation/ecosystem-hero.png"
+              src="/images/ai/v3/foundation/ecosystem-hero.webp"
               alt="SA Film Academy Ecosystem"
               brief="Macro close-up of a professional film clapperboard with gold light reflections"
               orientation="landscape"
@@ -185,10 +185,10 @@ export default async function HomePage() {
             <Link href="/foundation/organisation" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v2/foundation/org-hero.png"
+                  src="/images/ai/v3/foundation/organisation-hero.webp"
                   alt="Foundation"
                   brief="Professional Black female executive on set"
-                  orientation="portrait"
+                  orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -199,10 +199,10 @@ export default async function HomePage() {
             <Link href="/visibility/calendar" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v2/visibility/calendar-hero.png"
+                  src="/images/ai/v3/visibility/calendar-hero.webp"
                   alt="Visibility"
                   brief="Abstract four-phase timeline in gold light"
-                  orientation="portrait"
+                  orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -213,10 +213,10 @@ export default async function HomePage() {
             <Link href="/growth/agentic-ai" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v2/growth/agentic-hero.png"
+                  src="/images/ai/v3/growth/agentic-ai-hero.webp"
                   alt="Growth"
                   brief="Abstract orbital AI system"
-                  orientation="portrait"
+                  orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -227,10 +227,10 @@ export default async function HomePage() {
             <Link href="/delivery/implementation" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v2/delivery/impl-hero.png"
+                  src="/images/ai/v3/delivery/delivery-hero.webp"
                   alt="Delivery"
                   brief="Film crew launching into action"
-                  orientation="portrait"
+                  orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />
               </div>

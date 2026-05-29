@@ -9,6 +9,7 @@ export interface SiteOverrideRecord {
   selector: string;
   originalFingerprint: string;
   value?: string;
+  htmlValue?: string;
   sourceOriginalValue?: string;
   altText?: string;
   deleted?: boolean;

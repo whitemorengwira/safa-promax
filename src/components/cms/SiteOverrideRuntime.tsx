@@ -72,6 +72,128 @@ function textValue(element: Element) {
   return (element.getAttribute("aria-label") || element.textContent || "").replace(/\s+/g, " ").trim();
 }
 
+const allowedHtmlTags = new Set([
+  "a",
+  "b",
+  "blockquote",
+  "br",
+  "div",
+  "em",
+  "h2",
+  "h3",
+  "i",
+  "li",
+  "ol",
+  "p",
+  "span",
+  "strong",
+  "u",
+  "ul",
+]);
+
+function isSafeHref(value: string) {
+  const trimmed = value.trim();
+  if (!trimmed) return false;
+  if (trimmed.startsWith("/") || trimmed.startsWith("#")) return true;
+  return /^(https?:|mailto:|tel:)/i.test(trimmed);
+}
+
+function sanitizeInlineStyle(value: string) {
+  const safeRules: string[] = [];
+
+  for (const rule of value.split(";")) {
+    const [property, ...rawValue] = rule.split(":");
+    const name = property?.trim().toLowerCase();
+    const content = rawValue.join(":").trim().toLowerCase();
+    if (!name || !content) continue;
+
+    if (name === "text-align" && /^(left|center|right|justify)$/.test(content)) {
+      safeRules.push(`${name}: ${content}`);
+    }
+
+    if (name === "margin-left" && /^(\d{1,3})(px|em|rem)$/.test(content)) {
+      safeRules.push(`${name}: ${content}`);
+    }
+  }
+
+  return safeRules.join("; ");
+}
+
+function sanitizeCmsHtml(html: string) {
+  const template = document.createElement("template");
+  template.innerHTML = html;
+
+  function clean(node: Node) {
+    if (node.nodeType === Node.COMMENT_NODE) {
+      node.parentNode?.removeChild(node);
+      return;
+    }
+
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+
+    const element = node as HTMLElement;
+    const tag = element.tagName.toLowerCase();
+
+    if (["script", "style", "iframe", "object", "embed"].includes(tag)) {
+      element.remove();
+      return;
+    }
+
+    Array.from(element.childNodes).forEach(clean);
+
+    if (!allowedHtmlTags.has(tag)) {
+      element.replaceWith(...Array.from(element.childNodes));
+      return;
+    }
+
+    for (const attribute of Array.from(element.attributes)) {
+      const name = attribute.name.toLowerCase();
+      const value = attribute.value;
+      if (name.startsWith("on") || name === "class" || name === "id" || name.startsWith("data-")) {
+        element.removeAttribute(attribute.name);
+        continue;
+      }
+
+      if (tag === "a" && name === "href") {
+        if (isSafeHref(value)) continue;
+        element.removeAttribute(attribute.name);
+        continue;
+      }
+
+      if (tag === "a" && (name === "target" || name === "rel")) continue;
+
+      if (name === "style") {
+        const safeStyle = sanitizeInlineStyle(value);
+        if (safeStyle) element.setAttribute("style", safeStyle);
+        else element.removeAttribute(attribute.name);
+        continue;
+      }
+
+      element.removeAttribute(attribute.name);
+    }
+
+    if (tag === "a") {
+      const href = element.getAttribute("href");
+      if (!href) {
+        element.replaceWith(...Array.from(element.childNodes));
+        return;
+      }
+      if (/^https?:/i.test(href)) {
+        element.setAttribute("target", "_blank");
+        element.setAttribute("rel", "noreferrer");
+      }
+    }
+  }
+
+  Array.from(template.content.childNodes).forEach(clean);
+  return template.innerHTML.trim();
+}
+
+function editableHtml(element: HTMLElement) {
+  const html = sanitizeCmsHtml(element.innerHTML);
+  return html || undefined;
+}
+
 function imageTarget(element: Element) {
   if (element instanceof HTMLImageElement) return element;
   return element.querySelector("img");
@@ -109,7 +231,7 @@ export function SiteOverrideRuntime() {
   const previewToken = searchParams.get(previewTokenParam) || "";
   const isPreview = searchParams.get(previewParam) === "true" && Boolean(previewToken);
   const overridesRef = useRef<Map<string, SiteOverrideRecord>>(new Map());
-  const originalsRef = useRef<Map<string, { text?: string; src?: string; srcset?: string; alt?: string; backgroundImage?: string }>>(new Map());
+  const originalsRef = useRef<Map<string, { text?: string; html?: string; src?: string; srcset?: string; alt?: string; backgroundImage?: string }>>(new Map());
 
   useEffect(() => {
     let cancelled = false;
@@ -117,7 +239,10 @@ export function SiteOverrideRuntime() {
     function rememberOriginal(selector: string, element: Element, elementType: SiteOverrideRecord["elementType"]) {
       if (originalsRef.current.has(selector)) return;
       if (elementType === "text") {
-        originalsRef.current.set(selector, { text: textValue(element) });
+        originalsRef.current.set(selector, {
+          text: textValue(element),
+          html: element instanceof HTMLElement ? sanitizeCmsHtml(element.innerHTML) : undefined,
+        });
         return;
       }
       if (elementType === "svg_text") {
@@ -183,7 +308,10 @@ export function SiteOverrideRuntime() {
       }
 
       if (record.elementType === "text" || record.elementType === "svg_text") {
-        if (record.value !== undefined) {
+        if (record.elementType === "text" && record.htmlValue && element instanceof HTMLElement) {
+          element.innerHTML = sanitizeCmsHtml(record.htmlValue);
+          if (record.value !== undefined && element.hasAttribute("aria-label")) element.setAttribute("aria-label", record.value);
+        } else if (record.value !== undefined) {
           element.textContent = record.value;
           if (element.hasAttribute("aria-label")) element.setAttribute("aria-label", record.value);
         }
@@ -248,6 +376,8 @@ export function SiteOverrideRuntime() {
       } else if (original.backgroundImage !== undefined) {
         (element as HTMLElement).style.backgroundImage = original.backgroundImage;
         delete (element as HTMLElement).dataset.cmsDeleted;
+      } else if (original.html !== undefined && element instanceof HTMLElement) {
+        element.innerHTML = original.html;
       } else if (original.text !== undefined) {
         element.textContent = original.text;
       }
@@ -280,6 +410,18 @@ export function SiteOverrideRuntime() {
       postChange();
     }
 
+    function commitTextOverride(element: HTMLElement) {
+      const plain = textValue(element);
+      upsertOverride(
+        {
+          ...recordFor(element, "text", plain),
+          value: plain,
+          htmlValue: editableHtml(element),
+        },
+        false,
+      );
+    }
+
     function scanText() {
       const elements = Array.from(document.querySelectorAll(textSelector)).filter(isEditableTextElement) as HTMLElement[];
       for (const element of elements) {
@@ -302,7 +444,7 @@ export function SiteOverrideRuntime() {
           showTextToolbar(element);
         });
         element.addEventListener("input", () => {
-          upsertOverride({ ...recordFor(element, "text", element.innerText.trim()), value: element.innerText.trim() }, false);
+          commitTextOverride(element);
         });
         element.addEventListener("blur", () => {
           window.setTimeout(() => {
@@ -326,13 +468,15 @@ export function SiteOverrideRuntime() {
         ["B", "bold"],
         ["I", "italic"],
         ["U", "underline"],
-        ["H2", "formatBlock", "h2"],
-        ["H3", "formatBlock", "h3"],
+        ["H2", "formatBlock", "H2"],
+        ["H3", "formatBlock", "H3"],
         ["•", "insertUnorderedList"],
         ["1.", "insertOrderedList"],
         ["←", "justifyLeft"],
         ["↔", "justifyCenter"],
         ["→", "justifyRight"],
+        ["⇤", "outdent"],
+        ["⇥", "indent"],
       ];
 
       for (const [label, command, value] of commands) {
@@ -342,7 +486,7 @@ export function SiteOverrideRuntime() {
         button.addEventListener("mousedown", (event) => {
           event.preventDefault();
           document.execCommand(command, false, value);
-          upsertOverride({ ...recordFor(element, "text", element.innerText.trim()), value: element.innerText.trim() }, false);
+          commitTextOverride(element);
         });
         toolbar.append(button);
       }
@@ -354,7 +498,7 @@ export function SiteOverrideRuntime() {
         event.preventDefault();
         const href = window.prompt("Link URL");
         if (href) document.execCommand("createLink", false, href);
-        upsertOverride({ ...recordFor(element, "text", element.innerText.trim()), value: element.innerText.trim() }, false);
+        commitTextOverride(element);
       });
       toolbar.append(link);
       const restore = document.createElement("button");

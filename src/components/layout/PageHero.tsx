@@ -35,7 +35,7 @@ export function PageHero({
   imageSrc,
   imageAlt,
   children,
-  fit = "contain",
+  fit = "cover",
   objectPosition,
   motionSafe = true,
   safeHeadroom = true,
@@ -51,7 +51,7 @@ export function PageHero({
         data-cms-image-src={imageSrc}
         data-cms-image-alt={imageAlt}
       >
-        <KenBurns className="w-full h-full" enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>
+        <KenBurns className="w-full h-full" enabled={motionSafe} safe={safeHeadroom}>
           <Image
             src={imageSrc}
             alt={imageAlt}

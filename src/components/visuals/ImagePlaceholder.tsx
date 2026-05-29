@@ -26,7 +26,7 @@ export function ImagePlaceholder({
   id,
   orientation = "landscape",
   className = "",
-  fit = "contain",
+  fit = "cover",
   objectPosition,
   motionSafe = true,
   safeHeadroom = true,
@@ -49,7 +49,7 @@ export function ImagePlaceholder({
         className={`visual-fill relative ${ratioClass} w-full overflow-hidden bg-bg-deep border border-line-strong flex items-center justify-center`}
       >
         {src ? (
-          <KenBurns enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>
+          <KenBurns enabled={motionSafe} safe={safeHeadroom}>
             <Image
               src={src}
               alt={alt}

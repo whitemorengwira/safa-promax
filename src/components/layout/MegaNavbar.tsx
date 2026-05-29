@@ -196,7 +196,7 @@ export default function MegaNavbar() {
         </Link>
 
         {/* Center Navigation */}
-        <div className="flex items-center gap-4">
+        <div className="ml-auto flex items-center gap-4">
           <Link href="/" data-cms-nav-link="true" className={navClass('/')}>
             HOME
           </Link>
@@ -276,17 +276,16 @@ export default function MegaNavbar() {
           <Link href="/contact" data-cms-nav-link="true" className={navClass('/contact')}>
             CONTACT
           </Link>
-        </div>
 
-        {/* Right CTA */}
-        <a
-          href={saFilmInternsUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3 py-1 bg-red-600 text-white font-black text-[9px] tracking-widest hover:bg-red-700 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20"
-        >
-          SA Film Interns
-        </a>
+          <a
+            href={saFilmInternsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-7 items-center bg-red-600 px-2.5 text-[8px] font-black uppercase tracking-widest text-white shadow-lg shadow-red-600/20 transition-all hover:bg-red-700"
+          >
+            SA Film Interns
+          </a>
+        </div>
       </nav>
 
       {/* Mobile Navbar */}

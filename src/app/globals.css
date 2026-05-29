@@ -297,7 +297,7 @@ h4, h5, h6 {
   height: 104%;
   object-fit: cover;
   transform-origin: center center;
-  animation: kenBurnsDramatic 24s ease-in-out infinite alternate;
+  animation: kenBurnsDramatic 14s ease-in-out infinite alternate;
   will-change: transform;
 }
 
@@ -306,7 +306,7 @@ h4, h5, h6 {
     transform: scale(1.0) translate(0%, 0%);
   }
   100% {
-    transform: scale(1.08) translate(-1.5%, -1%);
+    transform: scale(1.12) translate(-2.2%, -1.4%);
   }
 }
 
@@ -317,20 +317,20 @@ h4, h5, h6 {
     transform: scale(1.0) translate(2%, 1%);
   }
   100% {
-    transform: scale(1.08) translate(-1%, -1.5%);
+    transform: scale(1.12) translate(-1.5%, -2.2%);
   }
 }
 
 .ken-burns-alt > img,
 .ken-burns-alt > .ken-burns-inner {
-  animation: kenBurnsDramaticAlt 24s ease-in-out infinite alternate;
+  animation: kenBurnsDramaticAlt 14s ease-in-out infinite alternate;
 }
 
 .ken-burns-safe > img,
 .ken-burns-safe > .ken-burns-inner {
-  width: 101%;
-  height: 101%;
-  animation: kenBurnsHeadroom 28s ease-in-out infinite alternate;
+  width: 103%;
+  height: 103%;
+  animation: kenBurnsHeadroom 16s ease-in-out infinite alternate;
   transform-origin: center 28%;
 }
 
@@ -339,7 +339,7 @@ h4, h5, h6 {
     transform: scale(1.0) translate(0%, 0%);
   }
   100% {
-    transform: scale(1.035) translate(-0.6%, -0.4%);
+    transform: scale(1.08) translate(-1.2%, -0.8%);
   }
 }
 

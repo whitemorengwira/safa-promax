@@ -444,7 +444,9 @@ export async function addMediaAsset(asset: Omit<CmsMediaAsset, "id" | "createdAt
 
 export async function updateMediaAsset(
   id: string,
-  updates: Partial<Pick<CmsMediaAsset, "title" | "source" | "tags" | "locked">>,
+  updates: Partial<
+    Pick<CmsMediaAsset, "title" | "source" | "tags" | "locked" | "url" | "type" | "storagePath" | "mimeType" | "size">
+  >,
   actor: AdminSession,
 ) {
   const store = await getContentStore();

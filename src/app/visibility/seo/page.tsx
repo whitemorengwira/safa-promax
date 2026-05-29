@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="7 · Visibility Pillar"
         title="Found by search engines today. Found by AI engines tomorrow. Both, deliberately."
         subtitle="Traditional SEO and Generative Engine Optimisation (AI SEO) are no longer alternatives. They are two halves of the same discovery surface."
-        imageSrc="/images/ai/v2/visibility/seo-hero.png"
+        imageSrc="/images/ai/v3/visibility/seo-hero.webp"
         imageAlt="Radial knowledge graph or network visualization in gold light"
       />
 
@@ -56,7 +56,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/visibility/google-search.png"
+              src="/images/ai/v3/visibility/seo-hero.webp"
               alt="Traditional SEO"
               brief="Google search results macro on a professional monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"
@@ -76,7 +76,7 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/gen/seo-strategy.png"
+                      src="/images/ai/v3/visibility/seo-hero.webp"
                       alt="SEO strategy and implementation"
                       brief="SEO strategy and implementation"
                       orientation="landscape"
@@ -122,7 +122,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/visibility/ai-assistant.png"
+              src="/images/ai/v3/growth/agentic-ai-hero.webp"
               alt="AI SEO"
               brief="A chatbot interface or AI assistant on a high-end screen in a cinematic setting, warm gold and deep red tones, photorealistic, textless."
               orientation="landscape"

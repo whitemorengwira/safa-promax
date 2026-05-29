@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="13 · Growth Pillar"
         title="Building the Relationships that Earn the Headlines."
         subtitle="A formalised partnership architecture and disciplined media relations plan: converting existing goodwill into named co-brands and recurring press placements."
-        imageSrc="/images/ai/v2/growth/part-hero.png"
+        imageSrc="/images/ai/v3/growth/partnerships-hero.webp"
         imageAlt="Broadcast signal waves radiating from a central point in gold light"
       />
 
@@ -51,7 +51,7 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/gen/partnerships.png"
+                      src="/images/ai/v3/growth/partnerships-hero.webp"
                       alt="Strategic partnerships and alliances"
                       brief="Strategic partnerships and alliances"
                       orientation="landscape"
@@ -63,7 +63,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/growth/handshake.png"
+              src="/images/ai/v3/growth/female-handshake.webp"
               alt="Partnerships"
               brief="Professional handshake between Black executives in a high-end boardroom, cinematic lighting"
               orientation="landscape"

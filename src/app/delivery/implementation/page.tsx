@@ -19,7 +19,7 @@ export default function Page() {
         eyebrow="18 · Implementation Commencement"
         title="Three tracks. Thirty days. Tangible, reportable results."
         subtitle="Not an aspiration: a schedule. Three simultaneous activation tracks begin on 1 June 2026 and close the month with deliverables that can be counted."
-        imageSrc="/images/ai/v2/delivery/impl-hero.png"
+        imageSrc="/images/ai/v3/delivery/implementation-hero.webp"
         imageAlt="Film crew launching into action on a professional set"
       />
 

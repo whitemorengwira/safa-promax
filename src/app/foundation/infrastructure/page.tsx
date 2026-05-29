@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="04 · Digital Infrastructure"
         title="What has already been built, and why it matters before anything else is scaled."
         subtitle="This strategy is not aspirational. The infrastructure that underpins everything else is already live, deployed and demonstrable."
-        imageSrc="/images/ai/v2/foundation/infra-hero.png"
+        imageSrc="/images/ai/v3/foundation/infrastructure-hero.webp"
         imageAlt="Black tech professional at dual monitors with cinematic blue-and-gold light"
       />
 

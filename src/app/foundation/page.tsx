@@ -16,25 +16,25 @@ const SUB_PAGES = [
     title: 'The Organisation',
     href: '/foundation/organisation',
     description: 'MICT SETA-accredited, 20 years of placement history and institutional memory.',
-    image: '/images/ai/v2/foundation/org-hero.png'
+    image: '/images/ai/v3/foundation/organisation-hero.webp'
   },
   {
     title: 'Brand Ecosystem',
     href: '/foundation/ecosystem',
     description: 'Five distinct entities unified under a single strategic architecture.',
-    image: '/images/ai/v2/foundation/ecosystem-hero.png'
+    image: '/images/ai/v3/foundation/ecosystem-hero.webp'
   },
   {
     title: 'Digital Infrastructure',
     href: '/foundation/infrastructure',
     description: 'The SA Film Interns portal and the proprietary digital presentation engine.',
-    image: '/images/ai/v2/foundation/infra-hero.png'
+    image: '/images/ai/v3/foundation/infrastructure-hero.webp'
   },
   {
     title: 'Brand Architecture',
     href: '/foundation/brand',
     description: 'Visual identity and brand family consolidation strategy.',
-    image: '/images/ai/v2/foundation/brand-hero.png'
+    image: '/images/ai/v3/foundation/brand-hero.webp'
   }
 ];
 

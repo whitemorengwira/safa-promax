@@ -70,7 +70,7 @@ export default function RiskPage() {
         eyebrow="18 · Delivery Pillar"
         title="Rigour through risk acknowledgement."
         subtitle="A strategy that does not acknowledge risk is a strategy that has not been stress-tested. Here are the five named risks we monitor and the contingencies we have prepared."
-        imageSrc="/images/ai/v2/delivery/risk-hero.png"
+        imageSrc="/images/ai/v3/delivery/risk-hero.webp"
         imageAlt="Professional film production environment with risk management focus"
       />
 
@@ -172,7 +172,7 @@ export default function RiskPage() {
               src="/images/ai/v2/delivery/risk-management.png"
               alt="Risk management and strategic planning"
               brief="A professional Black South African reviewing a risk register or strategic plan in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
-              orientation="square"
+              orientation="landscape"
             />
           </Reveal>
         </div>
@@ -186,10 +186,10 @@ export default function RiskPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <Reveal>
             <ImagePlaceholder
-              src="/images/ai/v2/delivery/risk-hero.png"
+              src="/images/ai/v3/delivery/strategic-resilience.webp"
               alt="Risk mitigation strategy"
               brief="Professional team reviewing mitigation strategies and risk controls in a strategic planning session"
-              orientation="square"
+              orientation="landscape"
             />
           </Reveal>
 

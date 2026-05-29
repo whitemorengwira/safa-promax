@@ -6,8 +6,8 @@ import { SectionShell } from '@/components/sections/SectionShell';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
 import { CalendarTimeline } from '@/components/diagrams/CalendarTimeline';
+import { ExecutionRhythmFlow } from '@/components/diagrams/ExecutionRhythmFlow';
 import { TwoColLayout } from '@/components/sections/TwoColLayout';
-import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 
 export const metadata: Metadata = {
   title: '5 · The 12-Month Marketing Calendar · SA Film Academy Strategy',
@@ -22,7 +22,7 @@ export default function Page() {
         eyebrow="5 · Visibility Pillar"
         title="The 12-Month Marketing Calendar"
         subtitle="June 2026 to May 2027: four quarters, four phases, every milestone visible."
-        imageSrc="/images/ai/v2/visibility/calendar-hero.png"
+        imageSrc="/images/ai/v3/visibility/calendar-hero.webp"
         imageAlt="Dark reddish-cinematic film production environment"
       />
 
@@ -92,30 +92,11 @@ export default function Page() {
                 <p className="text-text/80 leading-relaxed">
                   This rhythm transforms the marketing calendar from a planning artifact into an operational instrument.
                 </p>
-                <Reveal>
-                  <div className="mt-10">
-                    <ImagePlaceholder
-                      src="/images/ai/safa-calendar-hero.png"
-                      alt="12-month marketing calendar execution"
-                      brief="12-month marketing calendar execution"
-                      orientation="video"
-                      fit="contain"
-                      motionSafe={false}
-                      safeHeadroom={false}
-                      className="calendar-execution-visual"
-                    />
-                  </div>
-                </Reveal>
               </div>
             </Reveal>
           }
           right={
-            <ImagePlaceholder
-              src="/images/ai/visibility-calendar/production-office-night.webp"
-              alt="Team planning and execution"
-              brief="Professional team in a well-organised office environment planning and coordinating work"
-              orientation="landscape"
-            />
+            <ExecutionRhythmFlow />
           }
           visualRatio="70-30"
         />

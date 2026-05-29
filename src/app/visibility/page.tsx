@@ -16,25 +16,25 @@ const SUB_PAGES = [
     title: '12-Month Calendar',
     href: '/visibility/calendar',
     description: 'A phased roadmap for foundation, visibility, authority, and scale.',
-    image: '/images/ai/v2/visibility/calendar-hero.png'
+    image: '/images/ai/v3/visibility/calendar-hero.webp'
   },
   {
     title: 'SEO & AI SEO',
     href: '/visibility/seo',
     description: 'Optimising for the search engines of today and the AI engines of tomorrow.',
-    image: '/images/ai/v2/visibility/seo-hero.png'
+    image: '/images/ai/v3/visibility/seo-hero.webp'
   },
   {
     title: 'Institutional Voice',
     href: '/visibility/leadership',
     description: 'Leveraging executive visibility to drive institutional authority.',
-    image: '/images/ai/v2/leadership/ceo-podium.png'
+    image: '/images/ai/v3/visibility/leadership-hero.webp'
   },
   {
     title: 'Content Marketing',
     href: '/visibility/content',
     description: 'The editorial engine, storytelling, and the Academy podcast.',
-    image: '/images/ai/v2/visibility/content-hero.png'
+    image: '/images/ai/v3/visibility/content-hero.webp'
   }
 ];
 

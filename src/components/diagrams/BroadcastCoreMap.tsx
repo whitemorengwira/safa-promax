@@ -7,13 +7,13 @@ const nodes = [
   { label: "Netflix", x: 1000, y: 170, note: "streaming pathway" },
   { label: "NFVF", x: 1000, y: 382, note: "public mandate" },
   { label: "PR", x: 200, y: 382, note: "industry voice" },
-  { label: "Broadcasters", x: 600, y: 86, note: "screen access" },
+  { label: "Broadcasters", x: 600, y: 126, note: "screen access" },
   { label: "Productions", x: 600, y: 466, note: "placement demand" },
 ];
 
 export function BroadcastCoreMap() {
   return (
-    <SvgStage label="Partnerships · Broadcast Core" aspect="wide">
+    <SvgStage label="Partnerships · Broadcast Core" aspect="wide" className="min-h-[560px]">
       <svg viewBox="0 0 1200 560" className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <style>{`
@@ -28,7 +28,7 @@ export function BroadcastCoreMap() {
           `}</style>
         </defs>
 
-        <text x="600" y="54" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="15" fontWeight="800" letterSpacing="4">
+        <text x="600" y="48" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="20" fontWeight="900" letterSpacing="5">
           THE BROADCAST CORE
         </text>
 
@@ -65,11 +65,11 @@ export function BroadcastCoreMap() {
 
         {nodes.map((node, index) => (
           <g key={node.label} className="broadcast-node" style={{ animationDelay: `${index * 0.16}s` }}>
-            <rect x={node.x - 76} y={node.y - 38} width="152" height="76" rx="12" fill="#13131a" stroke="#C9A84C" strokeWidth="2" />
-            <text x={node.x} y={node.y - 4} textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="16" fontWeight="900" letterSpacing="0.8">
+            <rect x={node.x - 90} y={node.y - 44} width="180" height="88" rx="12" fill="#13131a" stroke="#C9A84C" strokeWidth="2.4" />
+            <text x={node.x} y={node.y - 7} textAnchor="middle" fill="#E0C268" fontFamily="Outfit" fontSize="19" fontWeight="900" letterSpacing="0.8">
               {node.label.toUpperCase()}
             </text>
-            <text x={node.x} y={node.y + 20} textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="10" opacity="0.72">
+            <text x={node.x} y={node.y + 24} textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="12" opacity="0.78">
               {node.note}
             </text>
           </g>

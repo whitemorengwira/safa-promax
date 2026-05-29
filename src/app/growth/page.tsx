@@ -16,25 +16,25 @@ const SUB_PAGES = [
     title: 'Agentic AI Engine',
     href: '/growth/agentic-ai',
     description: 'Five autonomous workflows driving a weekly marketing cadence.',
-    image: '/images/ai/v2/growth/agentic-hero.png'
+    image: '/images/ai/v3/growth/agentic-ai-hero.webp'
   },
   {
     title: 'B-BBEE & Skills Levy',
     href: '/growth/commercial',
     description: 'The commercial strategy for SDL, B-BBEE evidence and grant recovery pathways.',
-    image: '/images/ai/v2/growth/commercial-hero.png'
+    image: '/images/ai/v3/growth/commercial-hero.webp'
   },
   {
     title: 'Partnerships & PR',
     href: '/growth/partnerships',
     description: 'Strategic alliances with Suzuki, Netflix, NFVF and beyond.',
-    image: '/images/ai/v2/growth/part-hero.png'
+    image: '/images/ai/v3/growth/partnerships-hero.webp'
   },
   {
     title: 'Competitive Positioning',
     href: '/growth/positioning',
     description: 'Six dimensions on which the SA Film Academy wins.',
-    image: '/images/ai/v2/growth/pos-hero.png'
+    image: '/images/ai/v3/growth/positioning-hero.webp'
   }
 ];
 

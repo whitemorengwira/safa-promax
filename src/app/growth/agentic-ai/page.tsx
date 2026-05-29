@@ -21,7 +21,7 @@ export default function Page() {
         eyebrow="6 · Growth Pillar"
         title="Not an aspiration. A set of concrete, running, weekly automated workflows."
         subtitle="Five autonomous agents that operate without human initiation, turning the Academy's capacity constraint into its largest competitive advantage."
-        imageSrc="/images/ai/v2/growth/agentic-hero.png"
+        imageSrc="/images/ai/v3/growth/agentic-ai-hero.webp"
         imageAlt="Abstract orbital AI system or neural network in gold and blue"
       />
 
@@ -51,7 +51,7 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/safa-ai-hero.png"
+                      src="/images/ai/v3/growth/agentic-ai-hero.webp"
                       alt="Agentic AI engine and automation"
                       brief="Agentic AI engine and automation"
                       orientation="landscape"
@@ -63,7 +63,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v2/growth/funding-scout.png"
+              src="/images/ai/v3/growth/commercial-hero.webp"
               alt="Funding Scout"
               brief="An email inbox macro showing funding opportunities on a monitor in a cinematic office setting, warm gold and deep red lighting, photorealistic, textless."
               orientation="landscape"

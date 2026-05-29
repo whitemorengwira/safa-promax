@@ -8,6 +8,7 @@ import {
   Clock3,
   Eye,
   ExternalLink,
+  LayoutDashboard,
   Loader2,
   LogOut,
   Monitor,
@@ -34,6 +35,12 @@ function normaliseRoute(route: string) {
   return withSlash.length > 1 ? withSlash.replace(/\/+$/, "") : "/";
 }
 
+function initialEditorRoute() {
+  if (typeof window === "undefined") return "/";
+  const route = new URLSearchParams(window.location.search).get("route");
+  return normaliseRoute(route || "/");
+}
+
 function editorUrl(route: string, frameKey: number) {
   // Keep the CMS canvas tied to the real public route so future site rebuilds appear here automatically.
   const params = new URLSearchParams({
@@ -51,6 +58,7 @@ function signatureFor(items: SiteOverrideRecord[]) {
         selector: item.selector,
         elementType: item.elementType,
         value: item.value ?? "",
+        htmlValue: item.htmlValue ?? "",
         altText: item.altText ?? "",
         deleted: Boolean(item.deleted),
         fingerprintStatus: item.fingerprintStatus ?? "ok",
@@ -107,6 +115,17 @@ export function LiveSiteCmsEditor() {
   const currentSignature = useMemo(() => signatureFor(overrides), [overrides]);
   const canSuperPublish = sessionRole === "super_admin" || sessionRole === "super-admin";
   const publishReady = canSuperPublish && !dirty && previewedSignature === currentSignature;
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      const route = initialEditorRoute();
+      if (route === "/") return;
+      setActiveRoute(route);
+      setRouteInput(route);
+      setFrameKey((current) => current + 1);
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const pushToast = useCallback((tone: ToastMessage["tone"], text: string) => {
     const id = Date.now();
@@ -492,6 +511,13 @@ export function LiveSiteCmsEditor() {
         </select>
 
         <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
+          <a
+            href="/admin/dashboard"
+            className="inline-flex h-10 items-center gap-2 border border-gold/40 px-3 text-[10px] font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg"
+          >
+            <LayoutDashboard className="h-4 w-4" />
+            Dashboard
+          </a>
           <span className={`inline-flex h-9 items-center gap-2 border px-3 text-[11px] font-bold uppercase tracking-widest ${
             dirty ? "border-amber-300/30 bg-amber-300/10 text-amber-200" : "border-emerald-300/30 bg-emerald-300/10 text-emerald-200"
           }`}>
