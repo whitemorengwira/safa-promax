@@ -3,13 +3,29 @@
 import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { LogOut, ShieldCheck } from "lucide-react";
+import type { AdminRole, AdminSession } from "@/lib/admin/types";
 import { siteAccessRoleLabels, type SiteAccessRole, type SiteAccessSession } from "@/lib/site-access/types";
+
+const adminRoleLabels: Record<AdminRole, string> = {
+  super_admin: "Super Admin",
+  "super-admin": "Super Admin",
+  admin: "Admin",
+  approver: "Approver",
+  editor: "Editor",
+  viewer: "Viewer",
+};
+
+type BadgeSession = {
+  kind: "site" | "admin";
+  name: string;
+  roleLabel: string;
+};
 
 export function SiteAccessBadge() {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [session, setSession] = useState<SiteAccessSession | null>(null);
+  const [session, setSession] = useState<BadgeSession | null>(null);
   const isCmsEditor = searchParams.get("cms-editor") === "true";
   const route = useMemo(() => `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`, [pathname, searchParams]);
 
@@ -17,12 +33,31 @@ export function SiteAccessBadge() {
     if (isCmsEditor) return;
     void fetch("/api/site-access/session")
       .then((response) => response.json())
-      .then((payload) => setSession(payload?.session ?? null))
+      .then(async (payload) => {
+        const siteSession = payload?.session as SiteAccessSession | null | undefined;
+        if (siteSession) {
+          setSession({
+            kind: "site",
+            name: siteSession.name,
+            roleLabel: siteAccessRoleLabels[siteSession.role as SiteAccessRole] ?? siteSession.role,
+          });
+          return;
+        }
+
+        const adminResponse = await fetch("/api/admin/session");
+        const adminPayload = await adminResponse.json();
+        const adminSession = adminPayload?.session as AdminSession | null | undefined;
+        setSession(adminSession ? {
+          kind: "admin",
+          name: adminSession.name,
+          roleLabel: adminRoleLabels[adminSession.role] ?? adminSession.role,
+        } : null);
+      })
       .catch(() => setSession(null));
   }, [isCmsEditor]);
 
   useEffect(() => {
-    if (!session || isCmsEditor) return;
+    if (!session || session.kind !== "site" || isCmsEditor) return;
     const heartbeat = () => {
       void fetch("/api/site-access/session", {
         method: "POST",
@@ -36,7 +71,10 @@ export function SiteAccessBadge() {
   }, [isCmsEditor, route, session]);
 
   async function logout() {
-    await fetch("/api/site-access/logout", { method: "POST" });
+    await Promise.allSettled([
+      fetch("/api/site-access/logout", { method: "POST" }),
+      fetch("/api/admin/logout", { method: "POST" }),
+    ]);
     router.push(`/access/login?next=${encodeURIComponent(pathname || "/")}`);
     router.refresh();
   }
@@ -49,7 +87,7 @@ export function SiteAccessBadge() {
       <div className="hidden min-w-0 max-w-36 xl:block">
         <span className="block max-w-full truncate text-[10px] font-black leading-tight text-white">{session.name}</span>
         <span className="block max-w-full truncate text-[8px] uppercase leading-tight tracking-[0.16em] text-gold">
-          {siteAccessRoleLabels[session.role as SiteAccessRole] ?? session.role}
+          {session.roleLabel}
         </span>
       </div>
       <button
