@@ -149,7 +149,7 @@ export default function MegaNavbar() {
 
   const isRouteActive = (href: string) => href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(`${href}/`);
   const navClass = (href: string) =>
-    `text-[10px] font-bold tracking-widest transition-colors ${
+    `shrink-0 whitespace-nowrap text-[9px] xl:text-[10px] font-bold tracking-[0.12em] xl:tracking-widest transition-colors ${
       isRouteActive(href) ? 'text-red-600' : 'text-text hover:text-red-600'
     }`;
 
@@ -165,7 +165,7 @@ export default function MegaNavbar() {
     <>
       {/* Desktop Navbar */}
       <nav
-        className={`hidden lg:flex fixed top-0 z-50 w-full h-12 items-center justify-between px-5 transition-all duration-300 ${
+        className={`hidden lg:flex fixed top-0 z-50 w-full h-12 items-center justify-center px-4 transition-all duration-300 ${
           scrolled
             ? 'border-b border-gold/20'
             : 'bg-transparent'
@@ -176,115 +176,117 @@ export default function MegaNavbar() {
           WebkitBackdropFilter: scrolled ? 'blur(10px)' : 'none',
         }}
       >
-        {/* Wordmark with Restored Logo */}
-        <Link href="/" data-cms-nav-link="true" className="flex items-center gap-3 group">
-          <div className="relative w-8 h-8 overflow-hidden flex items-center justify-center group-hover:opacity-80 transition-opacity">
-            <Image
-              src="/images/logos/sa-film-academy-logo.png"
-              alt="SA Film Academy Logo"
-              width={32}
-              height={32}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-display text-sm font-black text-text group-hover:text-red-600 transition-colors leading-none">
-              SA Film Academy
-            </span>
-            <span className="text-[9px] text-gold tracking-[0.15em] font-bold uppercase mt-0.5">360° Strategy</span>
-          </div>
-        </Link>
-
-        {/* Center Navigation */}
-        <div className="ml-auto flex items-center gap-4">
-          <Link href="/" data-cms-nav-link="true" className={navClass('/')}>
-            HOME
+        <div className="flex max-w-[calc(100vw-2rem)] items-center justify-center gap-3 xl:gap-5">
+          {/* Wordmark with Restored Logo */}
+          <Link href="/" data-cms-nav-link="true" className="group flex shrink-0 items-center gap-2 xl:gap-3">
+            <div className="relative flex h-8 w-8 items-center justify-center overflow-hidden transition-opacity group-hover:opacity-80">
+              <Image
+                src="/images/logos/sa-film-academy-logo.png"
+                alt="SA Film Academy Logo"
+                width={32}
+                height={32}
+                className="object-contain"
+              />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-display text-sm font-black leading-none text-text transition-colors group-hover:text-red-600">
+                SA Film Academy
+              </span>
+              <span className="mt-0.5 text-[9px] font-bold uppercase tracking-[0.15em] text-gold">360° Strategy</span>
+            </div>
           </Link>
 
-          {/* Strategy Tabs with Mega Dropdowns */}
-          {STRATEGY_TABS.map((tab) => (
-            <div
-              key={tab.key}
-              className="relative group"
-              onMouseEnter={() => setActivePanel(tab.key)}
-              onMouseLeave={() => setActivePanel(null)}
-            >
-              <Link
-                href={tab.href}
-                data-cms-nav-link="true"
-                className={`${navClass(tab.href)} py-1.5 relative group/btn block`}
-              >
-                {tab.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 group-hover/btn:w-full transition-all duration-300" />
-              </Link>
+          {/* Centered Navigation Cluster */}
+          <div className="flex min-w-0 items-center justify-center gap-2 xl:gap-4">
+            <Link href="/" data-cms-nav-link="true" className={navClass('/')}>
+              HOME
+            </Link>
 
-              {/* Mega Dropdown Panel - Shrunk and Refined */}
-              {activePanel === tab.key && (
-                <div
-                  className="mega-panel absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-4xl border-t border-gold/20 shadow-2xl animate-in fade-in slide-in-from-top-1 duration-200"
-                  style={{
-                    backgroundColor: 'rgba(9, 9, 14, 0.92)',
-                    backdropFilter: 'blur(10px)',
-                    WebkitBackdropFilter: 'blur(10px)',
-                    borderBottom: '1px solid rgba(201, 168, 76, 0.12)',
-                    boxShadow: '0 24px 64px rgba(0, 0, 0, 0.7)',
-                  }}
-                  onMouseEnter={() => setActivePanel(tab.key)}
-                  onMouseLeave={() => setActivePanel(null)}
+            {/* Strategy Tabs with Mega Dropdowns */}
+            {STRATEGY_TABS.map((tab) => (
+              <div
+                key={tab.key}
+                className="relative group"
+                onMouseEnter={() => setActivePanel(tab.key)}
+                onMouseLeave={() => setActivePanel(null)}
+              >
+                <Link
+                  href={tab.href}
+                  data-cms-nav-link="true"
+                  className={`${navClass(tab.href)} group/btn relative block py-1.5`}
                 >
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
-                      <h3 className="text-gold text-[10px] font-bold uppercase tracking-widest">
-                        {MEGA_PANELS[tab.key].heading}
-                      </h3>
-                      <Link href={tab.href} data-cms-nav-link="true" className="text-[9px] text-muted hover:text-red-600 transition-all duration-200 uppercase tracking-widest font-bold group flex items-center gap-1">
-                        View All {tab.label}
-                        <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
-                      </Link>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                      {MEGA_PANELS[tab.key].items.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={item.href}
-                          data-cms-nav-link="true"
-                          className={`group/item block p-3 -m-2 rounded transition-all duration-300 hover:bg-red-600/5 ${
-                            isRouteActive(item.href) ? 'bg-red-600/10' : ''
-                          }`}
-                        >
-                          <div className="mb-1">
-                            <h4 className="text-text font-bold text-[10px] uppercase tracking-tight group-hover/item:text-red-600 transition-colors duration-200">
-                              {item.title}
-                            </h4>
-                            <div className="h-px w-0 bg-red-600 group-hover/item:w-8 transition-all duration-300 mt-0.5" />
-                          </div>
-                          <p className="text-muted text-[9px] leading-relaxed group-hover/item:text-text/80 transition-colors duration-200">
-                            {item.description}
-                          </p>
+                  {tab.label}
+                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-red-600 transition-all duration-300 group-hover/btn:w-full" />
+                </Link>
+
+                {/* Mega Dropdown Panel - Shrunk and Refined */}
+                {activePanel === tab.key && (
+                  <div
+                    className="mega-panel absolute top-full left-1/2 -translate-x-1/2 w-screen max-w-4xl border-t border-gold/20 shadow-2xl animate-in fade-in slide-in-from-top-1 duration-200"
+                    style={{
+                      backgroundColor: 'rgba(9, 9, 14, 0.92)',
+                      backdropFilter: 'blur(10px)',
+                      WebkitBackdropFilter: 'blur(10px)',
+                      borderBottom: '1px solid rgba(201, 168, 76, 0.12)',
+                      boxShadow: '0 24px 64px rgba(0, 0, 0, 0.7)',
+                    }}
+                    onMouseEnter={() => setActivePanel(tab.key)}
+                    onMouseLeave={() => setActivePanel(null)}
+                  >
+                    <div className="p-6">
+                      <div className="mb-4 flex items-center justify-between border-b border-white/5 pb-3">
+                        <h3 className="text-[10px] font-bold uppercase tracking-widest text-gold">
+                          {MEGA_PANELS[tab.key].heading}
+                        </h3>
+                        <Link href={tab.href} data-cms-nav-link="true" className="group flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-muted transition-all duration-200 hover:text-red-600">
+                          View All {tab.label}
+                          <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
                         </Link>
-                      ))}
+                      </div>
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+                        {MEGA_PANELS[tab.key].items.map((item) => (
+                          <Link
+                            key={item.href}
+                            href={item.href}
+                            data-cms-nav-link="true"
+                            className={`group/item -m-2 block rounded p-3 transition-all duration-300 hover:bg-red-600/5 ${
+                              isRouteActive(item.href) ? 'bg-red-600/10' : ''
+                            }`}
+                          >
+                            <div className="mb-1">
+                              <h4 className="text-[10px] font-bold uppercase tracking-tight text-text transition-colors duration-200 group-hover/item:text-red-600">
+                                {item.title}
+                              </h4>
+                              <div className="mt-0.5 h-px w-0 bg-red-600 transition-all duration-300 group-hover/item:w-8" />
+                            </div>
+                            <p className="text-[9px] leading-relaxed text-muted transition-colors duration-200 group-hover/item:text-text/80">
+                              {item.description}
+                            </p>
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
-            </div>
-          ))}
+                )}
+              </div>
+            ))}
 
-          <Link href="/smart-tools" data-cms-nav-link="true" className={navClass('/smart-tools')}>
-            SMART TOOLS
-          </Link>
-          <Link href="/contact" data-cms-nav-link="true" className={navClass('/contact')}>
-            CONTACT
-          </Link>
+            <Link href="/smart-tools" data-cms-nav-link="true" className={navClass('/smart-tools')}>
+              SMART TOOLS
+            </Link>
+            <Link href="/contact" data-cms-nav-link="true" className={navClass('/contact')}>
+              CONTACT
+            </Link>
 
-          <a
-            href={saFilmInternsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex h-7 items-center bg-red-600 px-2.5 text-[8px] font-black uppercase tracking-widest text-white shadow-lg shadow-red-600/20 transition-all hover:bg-red-700"
-          >
-            SA Film Interns
-          </a>
+            <a
+              href={saFilmInternsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-7 shrink-0 items-center justify-center whitespace-nowrap bg-red-600 px-2.5 text-[8px] font-black uppercase tracking-[0.08em] text-white shadow-lg shadow-red-600/20 transition-all hover:bg-red-700"
+            >
+              SA Film Interns
+            </a>
+          </div>
         </div>
       </nav>
 
