@@ -441,7 +441,7 @@ export function WixCmsEditor() {
     return (
       <div className="grid min-h-screen place-items-center bg-[#f4f5f7] text-[#111827]">
         <div className="border border-slate-200 bg-white p-8 shadow-sm">
-          <h1 className="text-2xl font-semibold text-[#111827]">CMS content unavailable</h1>
+          <p className="text-2xl font-semibold text-[#111827]">CMS content unavailable</p>
           <button type="button" onClick={() => window.location.reload()} className="mt-5 bg-[#1769ff] px-5 py-3 text-sm font-semibold text-white">
             Reload
           </button>
@@ -788,7 +788,7 @@ function PageCanvas({
         </div>
 
         <section className="relative min-h-[420px] overflow-hidden bg-[#111827]">
-          <img src={page.hero.backgroundImage} alt={page.hero.altText} className="absolute inset-0 h-full w-full object-cover opacity-65" />
+          <img src={page.hero.backgroundImage} alt={page.hero.altText} className="absolute inset-0 h-full w-full object-contain opacity-65" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-black/20" />
           <div className="relative z-10 max-w-4xl px-8 py-20 text-white">
             <RichTextEditor label="Hero headline" value={page.hero.headline} onChange={(value) => updateHero("headline", value)} heading />
@@ -1041,7 +1041,7 @@ function ImageField({
       <span className="block text-xs font-semibold text-slate-500">{label}</span>
       <div className="grid gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
         <div className="aspect-[4/3] overflow-hidden border border-slate-200 bg-slate-100">
-          {url ? <img src={url} alt={altText} className="h-full w-full object-cover" /> : <div className="grid h-full place-items-center text-sm text-slate-400">No image selected</div>}
+          {url ? <img src={url} alt={altText} className="h-full w-full object-contain" /> : <div className="grid h-full place-items-center text-sm text-slate-400">No image selected</div>}
         </div>
         <div
           onDragOver={(event) => event.preventDefault()}
@@ -1061,7 +1061,7 @@ function ImageField({
           <div className="grid grid-cols-4 gap-2">
             {media.slice(0, 8).map((item) => (
               <button key={item.id} type="button" onClick={() => onChange(item.url, item.altText ?? altText)} className="aspect-square overflow-hidden border border-slate-200 bg-white">
-                <img src={item.url} alt={item.altText ?? item.filename} className="h-full w-full object-cover" />
+                <img src={item.url} alt={item.altText ?? item.filename} className="h-full w-full object-contain" />
               </button>
             ))}
           </div>
@@ -1081,7 +1081,7 @@ function MediaSidebar({ media, onUploadClick }: { media: CmsMediaItem[]; onUploa
       <div className="space-y-2">
         {media.map((item) => (
           <div key={item.id} className="flex items-center gap-3 border border-slate-200 p-2">
-            <img src={item.url} alt={item.altText ?? item.filename} className="h-12 w-12 object-cover" />
+            <img src={item.url} alt={item.altText ?? item.filename} className="h-12 w-12 object-contain" />
             <div className="min-w-0">
               <p className="truncate text-sm font-medium">{item.filename}</p>
               <p className="text-xs text-slate-500">{item.mimeType}</p>
@@ -1119,7 +1119,7 @@ function MediaLibrary({
     <div className="p-6">
       <input ref={fileInputRef} type="file" accept="image/*,.pdf" className="sr-only" onChange={(event) => void handleFiles(event.target.files)} />
       <div className="mb-5 flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Media Library</h2>
+        <p className="text-2xl font-semibold">Media Library</p>
         <button type="button" onClick={() => fileInputRef.current?.click()} className="inline-flex items-center gap-2 bg-[#1769ff] px-4 py-3 text-sm font-semibold text-white">
           <Upload className="h-4 w-4" />
           Upload
@@ -1129,7 +1129,7 @@ function MediaLibrary({
         {items.map((item) => (
           <div key={item.id} className="bg-white shadow-sm">
             <div className="aspect-[4/3] overflow-hidden bg-slate-100">
-              <img src={item.url} alt={item.altText ?? item.filename} className="h-full w-full object-cover" />
+              <img src={item.url} alt={item.altText ?? item.filename} className="h-full w-full object-contain" />
             </div>
             <div className="space-y-2 p-3">
               <input value={item.filename} onChange={(event) => setItems((current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, filename: event.target.value } : candidate))} className="cms-input" />
@@ -1232,7 +1232,7 @@ function NavigationManager({
   return (
     <div className="p-6">
       <div className="mb-5 flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Navigation Manager</h2>
+        <p className="text-2xl font-semibold">Navigation Manager</p>
         <div className="flex gap-2">
           <button type="button" onClick={addPage} className="inline-flex items-center gap-2 border border-slate-200 bg-white px-4 py-3 text-sm font-semibold">
             <Plus className="h-4 w-4" />
@@ -1312,7 +1312,7 @@ function BlogManager({
   return (
     <div className="mx-auto max-w-5xl space-y-5 p-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Blog Post</h2>
+        <p className="text-2xl font-semibold">Blog Post</p>
         <div className="flex gap-2">
           <button type="button" onClick={() => onChange(posts.filter((item) => item.id !== post.id))} className="border border-red-200 px-4 py-3 text-sm font-semibold text-red-600">Delete</button>
           <button type="button" onClick={() => onSave(false)} className="border border-slate-200 bg-white px-4 py-3 text-sm font-semibold">Save</button>
@@ -1344,7 +1344,7 @@ function AnnouncementsManager({ items, media, onChange, onUpload, onSave }: { it
   return (
     <div className="space-y-5 p-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Announcements / Hero Banners</h2>
+        <p className="text-2xl font-semibold">Announcements / Hero Banners</p>
         <div className="flex gap-2">
           <button type="button" onClick={() => onSave(false)} className="border border-slate-200 bg-white px-4 py-3 text-sm font-semibold">Save</button>
           <button type="button" onClick={() => onSave(true)} className="bg-[#1769ff] px-4 py-3 text-sm font-semibold text-white">Publish</button>
@@ -1369,7 +1369,7 @@ function ProductionsManager({ items, media, onChange, onUpload, onSave }: { item
   return (
     <div className="p-6">
       <div className="mb-5 flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Productions</h2>
+        <p className="text-2xl font-semibold">Productions</p>
         <div className="flex gap-2">
           <button type="button" onClick={() => onChange([...items, { id: `production-${Date.now()}`, title: "", category: "", posterImage: "" }])} className="inline-flex items-center gap-2 border border-slate-200 bg-white px-4 py-3 text-sm font-semibold"><Plus className="h-4 w-4" />Add</button>
           <button type="button" onClick={() => onSave(false)} className="border border-slate-200 bg-white px-4 py-3 text-sm font-semibold">Save</button>
@@ -1394,7 +1394,7 @@ function SettingsManager({ settings, onChange, onSave }: { settings: CmsSettings
   return (
     <div className="mx-auto max-w-4xl space-y-5 p-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-semibold">Settings</h2>
+        <p className="text-2xl font-semibold">Settings</p>
         <div className="flex gap-2">
           <button type="button" onClick={() => onSave(false)} className="border border-slate-200 bg-white px-4 py-3 text-sm font-semibold">Save</button>
           <button type="button" onClick={() => onSave(true)} className="bg-[#1769ff] px-4 py-3 text-sm font-semibold text-white">Publish</button>
@@ -1437,7 +1437,7 @@ function SimpleListSidebar({ title, items }: { title: string; items: string[] })
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="border border-slate-200 bg-white p-4 shadow-sm">
-      <h3 className="mb-3 text-sm font-semibold text-[#111827]">{title}</h3>
+      <p className="mb-3 text-sm font-semibold text-[#111827]">{title}</p>
       {children}
     </section>
   );

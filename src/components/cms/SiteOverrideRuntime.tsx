@@ -760,13 +760,19 @@ function installRuntimeStyles() {
     .cms-image-controls {
       position: absolute;
       z-index: 2147482000;
-      top: 10px;
-      right: 10px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       display: none;
       flex-wrap: wrap;
-      justify-content: flex-end;
+      justify-content: center;
       gap: 5px;
-      max-width: min(96%, 360px);
+      max-width: min(92%, 430px);
+      border: 1px solid rgba(224, 194, 104, 0.35);
+      background: rgba(10, 10, 10, 0.78);
+      padding: 8px;
+      box-shadow: 0 24px 70px rgba(0,0,0,0.45);
+      backdrop-filter: blur(8px);
       pointer-events: auto;
     }
     *:hover > .cms-image-controls,

@@ -29,13 +29,14 @@ export function ProductionCredits() {
                 aria-label={`${production.title}, ${production.note}`}
               >
                 <div className="relative aspect-[2/3]">
-                  <KenBurns>
+                  <KenBurns enabled={false}>
                     <Image
                       src={production.image}
                       alt={`${production.title} official poster artwork`}
                       fill
                       sizes="(max-width: 768px) 144px, 176px"
-                      className="object-cover"
+                      className="object-contain"
+                      style={{ objectFit: "contain" }}
                     />
                   </KenBurns>
                 </div>

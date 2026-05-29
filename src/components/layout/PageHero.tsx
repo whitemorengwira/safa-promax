@@ -35,7 +35,7 @@ export function PageHero({
   imageSrc,
   imageAlt,
   children,
-  fit = "cover",
+  fit = "contain",
   objectPosition,
   motionSafe = true,
   safeHeadroom = true,
@@ -46,7 +46,7 @@ export function PageHero({
     <section className="page-hero relative min-h-screen flex flex-col justify-end overflow-hidden -mt-[72px] md:-mt-[80px] pt-[72px] md:pt-[80px]">
       {/* Background Image with Ken Burns */}
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-bg-deep"
         data-cms-image-slot="hero"
         data-cms-image-src={imageSrc}
         data-cms-image-alt={imageAlt}
@@ -57,7 +57,7 @@ export function PageHero({
             alt={imageAlt}
             fill
             className={fit === "contain" ? "object-contain" : "object-cover"}
-            style={{ objectPosition: resolvedObjectPosition }}
+            style={{ objectFit: fit, objectPosition: resolvedObjectPosition }}
             preload
             sizes="100vw"
           />

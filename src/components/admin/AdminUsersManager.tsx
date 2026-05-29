@@ -80,26 +80,30 @@ export function AdminUsersManager({
   }
 
   return (
-    <div className="grid grid-cols-1 gap-5 lg:grid-cols-[1fr_380px]">
-      <section className="border border-white/10 bg-surface/40">
-        <div className="grid grid-cols-[1.25fr_0.7fr_0.7fr_0.45fr] border-b border-white/10 px-5 py-3 text-[10px] font-bold uppercase tracking-widest text-gold">
-          <span>User</span>
-          <span>Role</span>
-          <span>Status</span>
-          <span>Save</span>
+    <div className="grid grid-cols-1 gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="overflow-hidden border border-white/10 bg-surface/40">
+        <div className="overflow-x-auto">
+          <div className="min-w-[760px]">
+            <div className="grid grid-cols-[1.35fr_0.62fr_0.62fr_0.28fr] border-b border-white/10 px-5 py-3 text-[10px] font-bold uppercase tracking-widest text-gold">
+              <span>User</span>
+              <span>Role</span>
+              <span>Status</span>
+              <span>Save</span>
+            </div>
+            {users.length === 0 && (
+              <p className="p-5 text-sm text-muted">No stored users yet. The environment admin is created at first sign-in.</p>
+            )}
+            {users.map((item) => (
+              <UserRow
+                key={item.id}
+                user={item}
+                canManageUsers={canManageUsers}
+                isSaving={isSaving}
+                onUpdate={updateUser}
+              />
+            ))}
+          </div>
         </div>
-        {users.length === 0 && (
-          <p className="p-5 text-sm text-muted">No stored users yet. The environment admin is created at first sign-in.</p>
-        )}
-        {users.map((item) => (
-          <UserRow
-            key={item.id}
-            user={item}
-            canManageUsers={canManageUsers}
-            isSaving={isSaving}
-            onUpdate={updateUser}
-          />
-        ))}
       </section>
 
       <aside className="space-y-5">
@@ -108,7 +112,7 @@ export function AdminUsersManager({
             <UserPlus className="h-5 w-5 text-gold" />
             <div>
               <p className="text-[10px] uppercase tracking-widest text-gold">Add Administrator</p>
-              <h3 className="text-xl font-black text-white">Create CMS access</h3>
+              <p className="text-xl font-black text-white">Create CMS access</p>
             </div>
           </div>
 
@@ -221,7 +225,7 @@ function UserRow({
   const [status, setStatus] = useState<AdminStatus>(user.status);
 
   return (
-    <div className="grid grid-cols-[1.25fr_0.7fr_0.7fr_0.45fr] items-center gap-3 border-b border-white/10 px-5 py-4 text-sm last:border-0">
+    <div className="grid grid-cols-[1.35fr_0.62fr_0.62fr_0.28fr] items-center gap-3 border-b border-white/10 px-5 py-4 text-sm last:border-0">
       <div>
         <p className="font-bold text-white">{user.name}</p>
         <p className="text-xs text-muted">{user.email}</p>

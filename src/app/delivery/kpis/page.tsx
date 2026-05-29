@@ -6,7 +6,7 @@ import { TwoColLayout } from '@/components/sections/TwoColLayout';
 import { ImagePlaceholder } from '@/components/visuals/ImagePlaceholder';
 import { Reveal } from '@/components/motion/Reveal';
 import { FilmstripDivider } from '@/components/visuals/FilmstripDivider';
-import { SvgStage } from '@/components/visuals/SvgStage';
+import { PerformanceGauges } from '@/components/diagrams/PerformanceGauges';
 import { KpiOperatingDashboardSection } from '@/components/strategy/BoardStrategySections';
 
 export const metadata: Metadata = {
@@ -33,59 +33,8 @@ export default function Page() {
         eyebrow="16.1"
         title="The Performance Gauges"
       >
-        <div className="mb-16">
-          <SvgStage label="KPI · Performance Dashboard" aspect="wide">
-            <svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-              <defs>
-                <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#8B1A1A"/>
-                  <stop offset="50%" stopColor="#C9A84C"/>
-                  <stop offset="100%" stopColor="#E0C268"/>
-                </linearGradient>
-              </defs>
-
-              <g transform="translate(140 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
-                        strokeDasharray="389.5" strokeDashoffset="120"
-                        transform="rotate(-90)" strokeLinecap="round"/>
-                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">69%</text>
-                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">PORTAL REG</text>
-              </g>
-              <g transform="translate(340 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
-                        strokeDasharray="389.5" strokeDashoffset="180"
-                        transform="rotate(-90)" strokeLinecap="round"/>
-                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">54%</text>
-                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">PLACEMENTS</text>
-              </g>
-              <g transform="translate(540 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
-                        strokeDasharray="389.5" strokeDashoffset="100"
-                        transform="rotate(-90)" strokeLinecap="round"/>
-                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">74%</text>
-                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">BLOG TRAFFIC</text>
-              </g>
-              <g transform="translate(740 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
-                        strokeDasharray="389.5" strokeDashoffset="65"
-                        transform="rotate(-90)" strokeLinecap="round"/>
-                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">83%</text>
-                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">LINDI · LINKEDIN</text>
-              </g>
-              <g transform="translate(940 180)">
-                <circle r="62" fill="none" stroke="#1f1f29" strokeWidth="6"/>
-                <circle r="62" fill="none" stroke="url(#gaugeGrad)" strokeWidth="6"
-                        strokeDasharray="389.5" strokeDashoffset="220"
-                        transform="rotate(-90)" strokeLinecap="round"/>
-                <text y="-4" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="22" fontStyle="italic">43%</text>
-                <text y="16" textAnchor="middle" fill="#C9A84C" opacity="0.8" fontFamily="Outfit" fontSize="9" letterSpacing="2">SKILLS LEVY CLIENTS</text>
-              </g>
-            </svg>
-          </SvgStage>
+        <div className="mb-14">
+          <PerformanceGauges />
         </div>
 
         <TwoColLayout

@@ -72,7 +72,8 @@ export function RoadHomeGallery() {
                   alt={`Road Home Training Opportunity proposal extracted image ${index + 1}`}
                   fill
                   sizes="(min-width: 1024px) 16vw, (min-width: 640px) 33vw, 50vw"
-                  className="object-cover transition-opacity duration-500 group-hover:opacity-90"
+                  className="object-contain transition-opacity duration-500 group-hover:opacity-90"
+                  style={{ objectFit: 'contain' }}
                 />
               </div>
               <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg/95 to-transparent p-2 text-[9px] uppercase tracking-[1.8px] text-text/70 opacity-0 transition-opacity duration-300 group-hover:opacity-100">

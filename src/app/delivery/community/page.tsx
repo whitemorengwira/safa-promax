@@ -32,7 +32,7 @@ export default function Page() {
         eyebrow="11.1"
         title="The Community Mesh"
       >
-        <div className="mb-16 max-w-4xl mx-auto">
+        <div className="mb-14 max-w-7xl mx-auto">
           <CareerProgression />
         </div>
 

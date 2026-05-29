@@ -26,7 +26,7 @@ export function ImagePlaceholder({
   id,
   orientation = "landscape",
   className = "",
-  fit = "cover",
+  fit = "contain",
   objectPosition,
   motionSafe = true,
   safeHeadroom = true,
@@ -46,7 +46,7 @@ export function ImagePlaceholder({
   return (
     <figure className={`safa-image-slot w-full group ${className}`} data-visual-slot>
       <div
-        className={`visual-fill relative ${ratioClass} w-full overflow-hidden bg-surface border border-line-strong flex items-center justify-center`}
+        className={`visual-fill relative ${ratioClass} w-full overflow-hidden bg-bg-deep border border-line-strong flex items-center justify-center`}
       >
         {src ? (
           <KenBurns enabled={motionSafe && fit === "cover"} safe={safeHeadroom}>

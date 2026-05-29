@@ -29,15 +29,15 @@ export default async function SuperAdminPortalPage() {
 
   return (
     <AdminShell user={user} title="Super Admin">
-      <div className="space-y-8">
-        <section className="border border-gold/25 bg-bg-deep p-6">
+      <div className="space-y-7">
+        <section className="border border-gold/25 bg-bg-deep p-5 md:p-6">
           <p className="text-[10px] font-black uppercase tracking-[0.32em] text-gold">Access Command Centre</p>
-          <div className="mt-4 grid grid-cols-1 gap-5 xl:grid-cols-[1fr_420px] xl:items-end">
+          <div className="mt-4 grid grid-cols-1 gap-5 xl:grid-cols-[1fr_360px] xl:items-end">
             <div>
-              <h2 className="text-4xl font-black leading-tight text-white md:text-5xl">
-                Approve CMS administrators and presentation viewers from one place.
-              </h2>
-              <p className="mt-4 max-w-3xl text-sm leading-relaxed text-muted">
+              <p className="max-w-4xl text-2xl font-black leading-tight text-white md:text-3xl">
+                Approvals, CMS administrators and protected presentation viewers in one clean control room.
+              </p>
+              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted">
                 CMS administrators can edit the site. Presentation access users can view the protected board/stakeholder website only.
               </p>
             </div>
@@ -49,17 +49,17 @@ export default async function SuperAdminPortalPage() {
         </section>
 
         <section className="space-y-4">
-          <div>
+          <div className="flex flex-col gap-2 border-b border-white/10 pb-3 md:flex-row md:items-end md:justify-between">
             <p className="text-[10px] font-black uppercase tracking-[0.28em] text-gold">CMS Admins</p>
-            <h3 className="mt-2 text-2xl font-black text-white">Approve editors, admins and super admins</h3>
+            <p className="text-xl font-black text-white md:text-2xl">Approve editors, admins and super admins</p>
           </div>
           <AdminUsersManager users={cmsUsers} canManageUsers />
         </section>
 
         <section className="space-y-4">
-          <div>
+          <div className="flex flex-col gap-2 border-b border-white/10 pb-3 md:flex-row md:items-end md:justify-between">
             <p className="text-[10px] font-black uppercase tracking-[0.28em] text-gold">Website Access</p>
-            <h3 className="mt-2 text-2xl font-black text-white">Approve board and stakeholder viewers</h3>
+            <p className="text-xl font-black text-white md:text-2xl">Approve board and stakeholder viewers</p>
           </div>
           <SiteAccessManager users={siteAccess.users} auditLog={siteAccess.auditLog} />
         </section>

@@ -44,20 +44,21 @@ export function SiteAccessBadge() {
   if (!session || isCmsEditor) return null;
 
   return (
-    <div className="fixed bottom-5 left-5 z-[70] flex max-w-[calc(100vw-2.5rem)] items-center gap-3 border border-gold/30 bg-bg-deep/95 px-4 py-3 text-xs text-white shadow-2xl backdrop-blur">
-      <ShieldCheck className="h-4 w-4 shrink-0 text-gold" />
-      <div className="min-w-0">
-        <p className="truncate font-black">{session.name}</p>
-        <p className="truncate text-[10px] uppercase tracking-widest text-gold">
+    <div className="fixed right-4 top-[88px] z-[70] flex max-w-[calc(100vw-2rem)] items-center gap-2 border border-gold/30 bg-bg-deep/90 px-3 py-2 text-[11px] text-white shadow-2xl backdrop-blur md:right-6 md:top-[92px]">
+      <ShieldCheck className="h-3.5 w-3.5 shrink-0 text-gold" />
+      <div className="hidden min-w-0 sm:block">
+        <p className="max-w-40 truncate font-black leading-tight">{session.name}</p>
+        <p className="truncate text-[9px] uppercase tracking-widest text-gold">
           {siteAccessRoleLabels[session.role as SiteAccessRole] ?? session.role}
         </p>
       </div>
       <button
         type="button"
         onClick={logout}
-        className="ml-1 inline-flex h-8 items-center gap-2 border border-white/10 px-3 text-[10px] font-black uppercase tracking-widest text-muted transition hover:border-gold hover:text-gold"
+        className="inline-flex h-7 items-center gap-1.5 border border-white/10 px-2 text-[9px] font-black uppercase tracking-widest text-muted transition hover:border-gold hover:text-gold"
+        title="Logout"
       >
-        <LogOut className="h-3.5 w-3.5" />
+        <LogOut className="h-3 w-3" />
         Logout
       </button>
     </div>

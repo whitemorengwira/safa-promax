@@ -23,7 +23,7 @@ export default async function CmsPreviewPage({ searchParams }: PreviewPageProps)
   return (
     <main className="min-h-screen bg-bg text-text">
       <section className="relative flex min-h-[82vh] items-end overflow-hidden">
-        <img src={page.hero.backgroundImage} alt={page.hero.altText} className="absolute inset-0 h-full w-full object-cover opacity-70" />
+        <img src={page.hero.backgroundImage} alt={page.hero.altText} className="absolute inset-0 h-full w-full object-contain opacity-70" />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/70 to-bg/10" />
         <div className="container-max relative z-10 pb-20 pt-32">
           <p className="eyebrow mb-5">CMS Preview</p>

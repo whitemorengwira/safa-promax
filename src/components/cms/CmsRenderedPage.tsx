@@ -77,7 +77,7 @@ export function CmsRenderedPage({
                 <img
                   src={section.image}
                   alt={section.imageAlt || section.title}
-                  className="h-full w-full object-cover object-[center_28%]"
+                  className="h-full w-full bg-bg-deep object-contain"
                 />
               </div>
             )}

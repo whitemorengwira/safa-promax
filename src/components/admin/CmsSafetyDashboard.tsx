@@ -116,7 +116,7 @@ function Metric({ icon, label, value }: { icon: React.ReactNode; label: string; 
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="border border-gold/20 bg-black/25 p-6">
-      <h3 className="mb-4 font-display text-2xl font-black text-gold">{title}</h3>
+      <p className="mb-4 font-display text-2xl font-black text-gold">{title}</p>
       {children}
     </section>
   );

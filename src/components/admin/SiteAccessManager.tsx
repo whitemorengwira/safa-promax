@@ -87,14 +87,14 @@ export function SiteAccessManager({
 
   return (
     <div className="space-y-6">
-      <section className="border border-gold/20 bg-bg-deep p-6">
+      <section className="border border-gold/20 bg-bg-deep p-5 md:p-6">
         <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
           <div>
             <div className="flex items-center gap-3">
               <ShieldCheck className="h-6 w-6 text-gold" />
               <div>
                 <p className="text-[10px] uppercase tracking-[0.3em] text-gold">Invitation Control</p>
-                <h2 className="text-3xl font-black text-white">Site Access Portal</h2>
+                <p className="text-2xl font-black text-white">Site Access Portal</p>
               </div>
             </div>
             <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
@@ -109,7 +109,7 @@ export function SiteAccessManager({
         </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-6 xl:grid-cols-[1fr_420px]">
+      <section className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
         <div className="space-y-6">
           <Panel title={`Pending Approvals (${pendingUsers.length})`}>
             {pendingUsers.length === 0 ? (
@@ -145,10 +145,10 @@ export function SiteAccessManager({
         </div>
 
         <aside className="space-y-6">
-          <section className="border border-gold/20 bg-bg-deep p-6">
+          <section className="border border-gold/20 bg-bg-deep p-5">
             <div className="flex items-center gap-3">
               <Plus className="h-5 w-5 text-gold" />
-              <h3 className="text-xl font-black text-white">Quick Add User</h3>
+              <p className="text-xl font-black text-white">Quick Add User</p>
             </div>
             <p className="mt-3 text-sm text-muted">Create an approved stakeholder account directly.</p>
 
@@ -176,8 +176,8 @@ export function SiteAccessManager({
             </form>
           </section>
 
-          <section className="border border-white/10 bg-surface/30 p-6">
-            <h3 className="text-lg font-black text-white">Recent Access Activity</h3>
+          <section className="border border-white/10 bg-surface/30 p-5">
+            <p className="text-lg font-black text-white">Recent Access Activity</p>
             <div className="mt-4 space-y-3">
               {auditLog.slice(0, 8).map((entry) => (
                 <div key={entry.id} className="border-l border-gold/30 pl-3">
@@ -206,7 +206,7 @@ function Metric({ label, value }: { label: string; value: number }) {
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="border border-gold/20 bg-bg-deep">
-      <h3 className="border-b border-gold/20 px-5 py-4 text-2xl font-black text-gold">{title}</h3>
+      <p className="border-b border-gold/20 px-5 py-4 text-xl font-black text-gold">{title}</p>
       <div>{children}</div>
     </section>
   );

@@ -26,7 +26,7 @@ export default async function AdminApprovalsPage() {
               <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <div>
                   <p className="text-[10px] uppercase tracking-widest text-gold">{approval.status}</p>
-                  <h3 className="mt-2 text-xl font-black text-white">{approval.summary}</h3>
+                  <p className="mt-2 text-xl font-black text-white">{approval.summary}</p>
                   <p className="mt-1 text-sm text-muted">Requested by {approval.requester}</p>
                 </div>
                 {page && (

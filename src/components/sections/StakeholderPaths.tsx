@@ -65,7 +65,8 @@ export function StakeholderPaths() {
                   <img
                     src={path.image}
                     alt={path.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
+                    style={{ objectFit: "contain" }}
                   />
                 </div>
               </div>

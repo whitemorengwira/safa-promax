@@ -52,13 +52,13 @@ export function AdminShell({
   }
 
   return (
-    <div className="min-h-screen bg-[#121219] text-text">
+    <div className="admin-shell min-h-screen bg-[#121219] text-text">
       <aside className="fixed inset-y-0 left-0 hidden w-72 border-r border-white/10 bg-bg-deep/95 lg:block">
         <div className="flex h-full flex-col">
           <div className="border-b border-white/10 p-6">
             <Link href="/admin/dashboard" className="block">
               <p className="text-[10px] uppercase tracking-[0.28em] text-gold">SAFA Promax</p>
-              <h1 className="mt-2 text-2xl font-black leading-none text-white">Admin Studio</h1>
+              <p className="mt-2 text-2xl font-black leading-none text-white">Admin Studio</p>
             </Link>
             <div className="mt-5 flex items-center gap-2 rounded-sm border border-gold/20 bg-gold/10 px-3 py-2 text-xs text-gold-soft">
               <Lock className="h-3.5 w-3.5" />
@@ -108,22 +108,22 @@ export function AdminShell({
       </aside>
 
       <div className="lg:pl-72">
-        <header className="sticky top-0 z-40 border-b border-white/10 bg-bg/85 backdrop-blur-md">
-          <div className="flex min-h-20 flex-col gap-4 px-5 py-4 md:flex-row md:items-center md:justify-between md:px-8">
+        <header className="sticky top-0 z-40 border-b border-white/10 bg-bg/88 backdrop-blur-md">
+          <div className="flex min-h-16 flex-col gap-3 px-5 py-3 md:flex-row md:items-center md:justify-between md:px-8">
             <div>
               <p className="text-[10px] uppercase tracking-[0.28em] text-gold">CMS Portal</p>
-              <h2 className="mt-1 text-2xl font-black text-white md:text-3xl">{title}</h2>
+              <p className="mt-1 text-xl font-black text-white md:text-2xl">{title}</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/admin"
-                className="inline-flex items-center gap-2 bg-gold px-4 py-3 text-xs font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft"
+                className="inline-flex h-9 items-center gap-2 bg-gold px-3 text-[10px] font-black uppercase tracking-widest text-bg transition hover:bg-gold-soft"
               >
                 Edit Site
               </Link>
               <Link
                 href="/board"
-                className="inline-flex items-center gap-2 border border-gold/40 px-4 py-3 text-xs font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg"
+                className="inline-flex h-9 items-center gap-2 border border-gold/40 px-3 text-[10px] font-black uppercase tracking-widest text-gold transition hover:bg-gold hover:text-bg"
               >
                 Board View
                 <ExternalLink className="h-3.5 w-3.5" />

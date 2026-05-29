@@ -92,10 +92,10 @@ export function TwoColLayout({
   visualRatio = '50-50',
   promoteInlineVisuals = true,
 }: TwoColLayoutProps) {
-  const gapClass = gap === 'wide' ? 'gap-16 lg:gap-24' : 'gap-12 lg:gap-20';
+  const gapClass = gap === 'wide' ? 'gap-10 lg:gap-16' : 'gap-8 lg:gap-12';
   const ratioClass =
-    visualRatio === '70-30' ? 'lg:grid-cols-10' :
-    visualRatio === '30-70' ? 'lg:grid-cols-10' :
+    visualRatio === '70-30' ? 'lg:grid-cols-12' :
+    visualRatio === '30-70' ? 'lg:grid-cols-12' :
     'lg:grid-cols-2';
   const shouldPromote = promoteInlineVisuals && visualRatio !== '50-50';
   const promoted = shouldPromote ? extractPromotedVisuals(left) : { content: left, visuals: [] };
@@ -118,7 +118,7 @@ export function TwoColLayout({
   return (
     <div className={`safa-two-col grid grid-cols-1 ${ratioClass} ${gapClass} items-start ${className}`}>
       <div className={`safa-two-col__copy ${
-        visualRatio === '70-30' ? 'lg:col-span-3' :
+        visualRatio === '70-30' ? 'lg:col-span-5' :
         visualRatio === '30-70' ? 'lg:col-span-7' :
         ''
       } ${flip ? 'lg:order-last' : ''}`}>
@@ -127,7 +127,7 @@ export function TwoColLayout({
 
       <div className={`safa-two-col__visual ${
         visualRatio === '70-30' ? 'lg:col-span-7' :
-        visualRatio === '30-70' ? 'lg:col-span-3' :
+        visualRatio === '30-70' ? 'lg:col-span-5' :
         ''
       } ${flip ? 'lg:order-first' : ''}`}>
         {visualContent}

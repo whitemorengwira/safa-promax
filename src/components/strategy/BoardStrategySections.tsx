@@ -652,6 +652,103 @@ export function AudienceFunnelSection() {
   );
 }
 
+function FiveForcesMap() {
+  const forces = [
+    { title: "New Entrants", note: ["Accreditation and trust", "are hard to copy"], x: 600, y: 178 },
+    { title: "Buyer Power", note: ["Compliance value", "reduces price pressure"], x: 980, y: 382 },
+    { title: "Substitutes", note: ["Generic training cannot", "replace placement proof"], x: 600, y: 602 },
+    { title: "Supplier Power", note: ["Funders and productions", "need a trusted operator"], x: 220, y: 382 },
+  ];
+
+  return (
+    <SvgStage label="Porter · Five Forces" aspect="wide" className="min-h-[560px] md:min-h-[700px]">
+      <svg viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" className="h-full w-full">
+        <defs>
+          <radialGradient id="porterGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="#E0C268" stopOpacity="0.18" />
+            <stop offset="62%" stopColor="#CC0000" stopOpacity="0.08" />
+            <stop offset="100%" stopColor="#0F0F15" stopOpacity="0" />
+          </radialGradient>
+          <style>{`
+            .porter-link { stroke-dasharray: 10 12; animation: porterFlow 2.6s linear infinite; }
+            .porter-ring { transform-origin: 600px 382px; animation: porterPulse 4.8s ease-in-out infinite; }
+            .porter-node { opacity: 0; animation: porterIn .7s cubic-bezier(.16,1,.3,1) forwards; }
+            @keyframes porterFlow { to { stroke-dashoffset: -110; } }
+            @keyframes porterPulse { 50% { transform: scale(1.045); opacity: .58; } }
+            @keyframes porterIn { to { opacity: 1; } }
+            @media (prefers-reduced-motion: reduce) {
+              .porter-link, .porter-ring, .porter-node {
+                animation: none !important;
+                opacity: 1 !important;
+                transform: none !important;
+              }
+            }
+          `}</style>
+        </defs>
+
+        <rect width="1200" height="750" fill="#171720" />
+        <circle cx="600" cy="382" r="330" fill="url(#porterGlow)" />
+        <text x="600" y="72" textAnchor="middle" fill="#E8E0D0" fontFamily="Playfair Display" fontSize="34" fontWeight="800">
+          The market pressure map
+        </text>
+        <text x="600" y="104" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="12" fontWeight="800" letterSpacing="2.6">
+          SAFA IS DEFENSIBLE BECAUSE IT CONNECTS TRAINING, PLACEMENT AND EVIDENCE
+        </text>
+
+        <g fill="none" stroke="#C9A84C" strokeWidth="2">
+          <ellipse className="porter-ring" cx="600" cy="382" rx="220" ry="128" opacity="0.32" />
+          <ellipse className="porter-ring" cx="600" cy="382" rx="340" ry="206" opacity="0.2" />
+          <ellipse className="porter-ring" cx="600" cy="382" rx="462" ry="282" opacity="0.12" />
+        </g>
+
+        {forces.map((force) => (
+          <line
+            key={`link-${force.title}`}
+            x1="600"
+            y1="382"
+            x2={force.x}
+            y2={force.y}
+            stroke="#E0C268"
+            strokeWidth="3"
+            strokeOpacity="0.56"
+            className="porter-link"
+          />
+        ))}
+
+        <g transform="translate(600 382)">
+          <rect x="-150" y="-76" width="300" height="152" fill="#0F0F15" stroke="#E0C268" strokeWidth="3" />
+          <text y="-20" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="33" fontStyle="italic" fontWeight="800">
+            SAFA
+          </text>
+          <text y="18" textAnchor="middle" fill="#fff" fontFamily="Outfit" fontSize="16" fontWeight="900" letterSpacing="1.6">
+            CATEGORY OF ONE
+          </text>
+          <text y="48" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="11" fontWeight="800" letterSpacing="1.4">
+            SKILLS · PLACEMENT · PROOF
+          </text>
+        </g>
+
+        {forces.map((force, index) => (
+          <g key={force.title} transform={`translate(${force.x} ${force.y})`} className="porter-node" style={{ animationDelay: `${0.18 + index * 0.14}s` }}>
+            <rect x="-138" y="-60" width="276" height="120" fill="#111119" stroke="#C9A84C" strokeWidth="2" />
+            <rect x="-138" y="-60" width="6" height="120" fill={index === 1 ? "#FE2020" : "#E0C268"} />
+            <text y="-14" textAnchor="middle" fill="#E8E0D0" fontFamily="Playfair Display" fontSize="24" fontStyle="italic" fontWeight="800">
+              {force.title}
+            </text>
+            <text y="15" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="11" fontWeight="700">
+              {force.note.map((line, lineIndex) => (
+                <tspan key={line} x="0" dy={lineIndex === 0 ? 0 : 16}>
+                  {line}
+                </tspan>
+              ))}
+            </text>
+          </g>
+        ))}
+      </svg>
+    </SvgStage>
+  );
+}
+
 export function MarketAnalysisSection() {
   return (
     <SectionShell
@@ -721,7 +818,7 @@ export function MarketAnalysisSection() {
         />
       </div>
 
-      <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+      <div className="mt-12 grid grid-cols-1 gap-8">
         <Reveal>
           <div className="border border-gold/10 bg-surface/40 p-7">
             <h3 className="font-display text-2xl italic text-gold">PESTLE stress-test</h3>
@@ -744,38 +841,8 @@ export function MarketAnalysisSection() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="space-y-4">
-            <SvgStage label="Porter · Five Forces" aspect="wide">
-              <svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
-                <g transform="translate(600 300)">
-                  <rect x="-145" y="-60" width="290" height="120" fill="#13131a" stroke="#E0C268" />
-                  <text y="-10" textAnchor="middle" fill="#E0C268" fontFamily="Playfair Display" fontSize="25" fontStyle="italic">SAFA</text>
-                  <text y="24" textAnchor="middle" fill="#E8E0D0" fontFamily="Outfit" fontSize="10" letterSpacing="2">CATEGORY OF ONE</text>
-                </g>
-                {[
-                  [600, 80, "New entrants", "Need accreditation, trust and proof"],
-                  [970, 300, "Buyer power", "High, solved by compliance value"],
-                  [600, 520, "Substitutes", "General training and agencies"],
-                  [230, 300, "Supplier power", "SETA, partners, production demand"],
-                  [600, 300, "Rivalry", "Fragmented, not fully integrated"],
-                ].map(([x, y, title, note], index) => (
-                  <g key={title as string} transform={`translate(${x} ${y})`}>
-                    {index !== 4 && <line x1="0" y1="0" x2={600 - Number(x)} y2={300 - Number(y)} stroke="#C9A84C" strokeOpacity="0.35" />}
-                    <circle r={index === 4 ? 0 : 78} fill={index === 4 ? "none" : "#1b1b23"} stroke="#C9A84C" strokeOpacity="0.65" />
-                    {index !== 4 && (
-                      <>
-                        <text y="-9" textAnchor="middle" fill="#E8E0D0" fontFamily="Playfair Display" fontSize="18" fontStyle="italic">
-                          {title}
-                        </text>
-                        <text y="18" textAnchor="middle" fill="#C9A84C" fontFamily="Outfit" fontSize="9">
-                          {note}
-                        </text>
-                      </>
-                    )}
-                  </g>
-                ))}
-              </svg>
-            </SvgStage>
+          <div className="mx-auto w-full max-w-7xl space-y-4">
+            <FiveForcesMap />
             <p className="text-xs leading-relaxed text-muted">
               Porter&apos;s Five Forces conclusion: SAFA is defensible when it competes as
               integrated skills, placement and evidence infrastructure rather than as a

@@ -19,7 +19,7 @@ export default async function AdminPagesPage() {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <p className="text-[10px] uppercase tracking-widest text-gold">{page.category}</p>
-                <h3 className="mt-2 text-xl font-black text-white">{page.title}</h3>
+                <p className="mt-2 text-xl font-black text-white">{page.title}</p>
               </div>
               {page.lockedImage && (
                 <span className="border border-gold/30 px-2 py-1 text-[10px] uppercase tracking-widest text-gold">

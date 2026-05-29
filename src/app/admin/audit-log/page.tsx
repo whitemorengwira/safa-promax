@@ -14,7 +14,7 @@ export default async function AdminAuditLogPage() {
             <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div>
                 <p className="text-[10px] uppercase tracking-widest text-gold">{entry.action}</p>
-                <h3 className="mt-2 text-lg font-black text-white">{entry.summary}</h3>
+                <p className="mt-2 text-lg font-black text-white">{entry.summary}</p>
                 <p className="mt-1 text-sm text-muted">{entry.actor}</p>
               </div>
               <time className="text-xs text-muted">{new Date(entry.createdAt).toLocaleString("en-ZA")}</time>

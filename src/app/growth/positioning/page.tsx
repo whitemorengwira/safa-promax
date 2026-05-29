@@ -33,7 +33,7 @@ export default function Page() {
         eyebrow="14.1"
         title="The Competitive Radar"
       >
-        <div className="mb-16 max-w-6xl mx-auto">
+        <div className="mb-14 max-w-7xl mx-auto">
           <PositioningRadar />
         </div>
 
@@ -43,11 +43,11 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    The strategy's positioning argument runs on six specific capabilities: each one a category where the typical South African film training competitor cannot match SAFA's contextual depth or operating model.
+                    Read the radar simply: every spoke is a strength SAFA can prove in a meeting. The further the gold shape moves from the centre, the stronger the advantage.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  Together they define why the Academy occupies a category of one, providing a unique value proposition that combines technical excellence with strategic commercial impact.
+                  The story is not "better than baseline". The story is clearer: SAFA wins because it combines compliance, B-BBEE value, verified placement infrastructure, AI-enabled operations, transformation proof and trusted NPC credibility.
                 </p>
                 <Reveal>
                   <div className="mt-10">

@@ -40,7 +40,7 @@
   /* Layout */
   --max: 1320px;
   --gutter: clamp(20px, 4vw, 56px);
-  --section-y: clamp(96px, 14vh, 180px);
+  --section-y: clamp(64px, 9vh, 116px);
 }
 
 /* ============================================================
@@ -95,8 +95,8 @@ body {
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
-  line-height: 1.85;
+  font-size: clamp(0.98rem, 1.05vw, 1.08rem);
+  line-height: 1.72;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: clip;
@@ -104,8 +104,8 @@ body {
 
 p, li {
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
-  line-height: 1.85;
+  font-size: clamp(0.98rem, 1.05vw, 1.08rem);
+  line-height: 1.72;
   color: var(--text);
   max-width: 65ch;
 }
@@ -519,7 +519,7 @@ h4, h5, h6 {
 }
 
 .safa-two-col__copy > * {
-  max-width: 56ch;
+  max-width: 64ch;
 }
 
 .safa-two-col__visual {
@@ -529,7 +529,7 @@ h4, h5, h6 {
 
 .safa-visual-stack {
   display: grid;
-  gap: clamp(18px, 2.2vw, 34px);
+  gap: clamp(16px, 1.6vw, 26px);
 }
 
 .safa-visual-stack__primary,
@@ -568,12 +568,12 @@ h4, h5, h6 {
 
 .safa-two-col__visual .safa-image-slot .visual-fill {
   aspect-ratio: 16 / 9;
-  min-height: clamp(240px, 31vw, 520px);
+  min-height: clamp(220px, 27vw, 460px);
 }
 
 .safa-visual-stack__secondary .visual-fill {
   aspect-ratio: 16 / 9;
-  min-height: clamp(220px, 24vw, 420px);
+  min-height: clamp(190px, 21vw, 340px);
 }
 
 .safa-visual-stack__secondary .calendar-execution-visual .visual-fill {
@@ -598,6 +598,61 @@ h4, h5, h6 {
     linear-gradient(0deg, rgba(15, 15, 21, 0.42), transparent 38%, rgba(15, 15, 21, 0.22));
   mix-blend-mode: screen;
   opacity: 0.5;
+}
+
+.safa-image-slot img {
+  background: var(--bg-deep);
+}
+
+.admin-shell h1,
+.admin-shell h2,
+.admin-shell h3,
+.admin-shell h4,
+.admin-shell h5,
+.admin-shell h6 {
+  font-family: var(--font-body);
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.admin-shell h1 {
+  font-size: clamp(1.75rem, 2.2vw, 2.75rem);
+  line-height: 1.04;
+}
+
+.admin-shell h2 {
+  font-size: clamp(1.35rem, 1.9vw, 2rem);
+  line-height: 1.12;
+}
+
+.admin-shell h3 {
+  font-size: clamp(1.05rem, 1.35vw, 1.45rem);
+  line-height: 1.18;
+}
+
+.admin-shell h4,
+.admin-shell h5,
+.admin-shell h6 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.safa-two-col .drop-cap::first-letter {
+  font-size: 3.7em;
+}
+
+@media (min-width: 1024px) {
+  .safa-two-col {
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-padding {
+    padding-top: clamp(54px, 10vh, 76px);
+    padding-bottom: clamp(54px, 10vh, 76px);
+  }
 }
 
 @supports (animation-timeline: view()) {

@@ -581,7 +581,7 @@ function ToolDrawer({
   return (
     <aside className="w-[330px] shrink-0 overflow-y-auto border-r border-black/10 bg-white">
       <div className="sticky top-0 z-10 flex h-14 items-center justify-between border-b border-black/10 bg-white px-5">
-        <h2 className="text-sm font-bold">{title}</h2>
+        <p className="text-sm font-bold">{title}</p>
         <button type="button" onClick={onClose} className="rounded-md px-2 py-1 text-xl leading-none hover:bg-[#f1f1f4]">
           ×
         </button>
@@ -725,7 +725,7 @@ function ToolDrawer({
                     className="overflow-hidden rounded-sm border border-black/10 bg-[#f8fafc] text-left disabled:opacity-50"
                   >
                     <div className="relative aspect-[4/3] bg-[#e9e9ed]">
-                      {asset.type === "image" && <img src={asset.url} alt={asset.title} className="h-full w-full object-cover" />}
+                      {asset.type === "image" && <img src={asset.url} alt={asset.title} className="h-full w-full object-contain" />}
                       {asset.locked && <Lock className="absolute right-2 top-2 h-4 w-4 rounded-full bg-white p-0.5" />}
                     </div>
                     <span className="block truncate px-2 pt-2 text-xs font-semibold">{asset.title}</span>
@@ -821,7 +821,7 @@ function Inspector({
     <aside className="hidden w-[340px] shrink-0 overflow-y-auto border-l border-black/10 bg-white xl:block">
       <div className="border-b border-black/10 p-5">
         <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#1769ff]">Inspector</p>
-        <h2 className="mt-2 text-xl font-black">{form.title}</h2>
+        <p className="mt-2 text-xl font-black">{form.title}</p>
         <p className="mt-1 text-xs text-[#667085]">{form.route}</p>
       </div>
       <div className="space-y-5 p-5">
@@ -872,7 +872,7 @@ function Inspector({
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="space-y-3 rounded-sm border border-black/10 bg-white p-4 shadow-sm">
-      <h3 className="text-[11px] font-black uppercase tracking-[0.18em] text-[#344054]">{title}</h3>
+      <p className="text-[11px] font-black uppercase tracking-[0.18em] text-[#344054]">{title}</p>
       {children}
     </section>
   );

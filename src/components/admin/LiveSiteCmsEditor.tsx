@@ -402,7 +402,7 @@ export function LiveSiteCmsEditor() {
 
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-[#0b0d10] text-white">
-      <header className="z-30 flex h-16 shrink-0 items-center gap-3 border-b border-white/10 bg-[#111317]/95 px-4 shadow-2xl">
+      <header className="z-30 flex min-h-16 shrink-0 flex-wrap items-center gap-2 border-b border-white/10 bg-[#111317]/95 px-3 py-2 shadow-2xl">
         <div className="flex min-w-0 items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center border border-gold/30 bg-gold/10 text-gold">
             <Monitor className="h-4 w-4" />
@@ -413,7 +413,7 @@ export function LiveSiteCmsEditor() {
           </div>
         </div>
 
-        <div className="relative min-w-[260px]">
+        <div className="relative min-w-[220px] flex-1 md:max-w-[380px]">
           <select
             value={activeRoute}
             onChange={(event) => void changeRoute(event.target.value)}
@@ -436,7 +436,7 @@ export function LiveSiteCmsEditor() {
         </div>
 
         <form
-          className="hidden min-w-[220px] xl:block"
+          className="hidden min-w-[200px] 2xl:block"
           onSubmit={(event) => {
             event.preventDefault();
             void changeRoute(normaliseRoute(routeInput));
@@ -450,7 +450,7 @@ export function LiveSiteCmsEditor() {
           />
         </form>
 
-        <div className="flex items-center gap-2">
+        <div className="hidden items-center gap-2 lg:flex">
           <IconButton label="Undo" onClick={undo} disabled={!undoStack.length} icon={<Undo2 className="h-4 w-4" />} />
           <IconButton label="Redo" onClick={redo} disabled={!redoStack.length} icon={<Redo2 className="h-4 w-4" />} />
           <IconButton label="Reset" onClick={resetToPublished} disabled={!overrides.length} icon={<RotateCcw className="h-4 w-4" />} />
@@ -491,7 +491,7 @@ export function LiveSiteCmsEditor() {
           ))}
         </select>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
           <span className={`inline-flex h-9 items-center gap-2 border px-3 text-[11px] font-bold uppercase tracking-widest ${
             dirty ? "border-amber-300/30 bg-amber-300/10 text-amber-200" : "border-emerald-300/30 bg-emerald-300/10 text-emerald-200"
           }`}>

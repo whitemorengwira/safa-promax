@@ -20,7 +20,7 @@ export default async function AdminMediaPage() {
           <article key={asset.id} className="overflow-hidden border border-white/10 bg-surface/40">
             <div className="relative aspect-[4/3] bg-bg">
               {asset.type === "image" && (
-                <Image src={asset.url} alt={asset.title} fill sizes="320px" className="object-cover" />
+                <Image src={asset.url} alt={asset.title} fill sizes="320px" className="object-contain" />
               )}
               {asset.locked && (
                 <span className="absolute right-3 top-3 bg-gold px-2 py-1 text-[10px] font-black uppercase tracking-widest text-bg">
@@ -29,7 +29,7 @@ export default async function AdminMediaPage() {
               )}
             </div>
             <div className="p-4">
-              <h3 className="font-bold text-white">{asset.title}</h3>
+              <p className="font-bold text-white">{asset.title}</p>
               <p className="mt-1 text-xs text-muted">{asset.source}</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {asset.tags.map((tag) => (
