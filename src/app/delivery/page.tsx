@@ -21,26 +21,26 @@ const SUB_PAGES = [
   {
     title: 'AI in Curriculum',
     href: '/delivery/curriculum',
-    description: 'Masterclasses in Veo, Kling, Hailuo, and Runway.',
-    image: '/images/ai/v3/delivery/curriculum-hero.webp'
+    description: 'AI-enabled film and TV production training.',
+    image: '/images/ai/v4/delivery/curriculum-ai-training-hero.webp'
   },
   {
     title: 'KPI Dashboard',
     href: '/delivery/kpis',
     description: '16 indicators, baselines, and 12-month targets.',
-    image: '/images/ai/v3/delivery/kpi-hero.webp'
+    image: '/images/ai/v4/delivery/kpi-command-hero.webp'
   },
   {
     title: 'Budget Framework',
     href: '/delivery/budget',
     description: 'Monthly subscription, transparent operating-expense line.',
-    image: '/images/ai/v3/delivery/budget-hero.webp'
+    image: '/images/ai/v4/delivery/budget-operating-envelope-hero.webp'
   },
   {
     title: 'Implementation',
     href: '/delivery/implementation',
     description: 'Three tracks, 30 days, and concrete results.',
-    image: '/images/ai/v3/delivery/implementation-hero.webp'
+    image: '/images/ai/v4/delivery/implementation-launch-hero.webp'
   }
 ];
 

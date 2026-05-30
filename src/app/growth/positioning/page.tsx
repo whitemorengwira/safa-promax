@@ -43,16 +43,16 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    Read the radar simply: every spoke is a strength SAFA can prove in a meeting. The further the gold shape moves from the centre, the stronger the advantage.
+                    Read the radar plainly: each spoke is a strength SAFA can evidence in the room. The further the gold shape sits from the centre, the more defensible the advantage.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  The story is not "better than baseline". The story is clearer: SAFA wins because it combines compliance, B-BBEE value, verified placement infrastructure, AI-enabled operations, transformation proof and trusted NPC credibility.
+                  SAFA's advantage is not that it is marginally better than a baseline. It is that the Academy brings six proof points into one credible offer: compliance, B-BBEE value, verified placement infrastructure, AI-enabled operations, transformation evidence and trusted NPC credibility.
                 </p>
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/v3/growth/positioning-proof.webp"
+                      src="/images/ai/v4/growth/positioning-evidence-desk.webp"
                       alt="Competitive positioning strategy"
                       brief="Competitive positioning strategy and advantage"
                       orientation="landscape"
@@ -64,9 +64,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/growth/positioning-proof.webp"
+              src="/images/ai/v4/growth/positioning-proof-room.webp"
               alt="Positioning"
-              brief="Abstract geometric radar chart in gold and dark red, cinematic lighting"
+              brief="Board-facing competitive positioning proof room for SAFA's advantage"
               orientation="landscape"
             />
           }

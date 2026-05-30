@@ -22,7 +22,7 @@ const SUB_PAGES = [
     title: 'SEO & AI SEO',
     href: '/visibility/seo',
     description: 'Optimising for the search engines of today and the AI engines of tomorrow.',
-    image: '/images/ai/visibility-seo/technical-audit-screen.webp'
+    image: '/images/ai/v4/visibility/seo-clean-dashboard-hero.webp'
   },
   {
     title: 'Institutional Voice',
@@ -34,7 +34,7 @@ const SUB_PAGES = [
     title: 'Content Marketing',
     href: '/visibility/content',
     description: 'The editorial engine, storytelling, and the Academy podcast.',
-    image: '/images/ai/v3/visibility/content-hero.webp'
+    image: '/images/ai/v4/visibility/content-editorial-engine-hero.webp'
   }
 ];
 

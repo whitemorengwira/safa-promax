@@ -595,7 +595,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -1416,7 +1416,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -2206,7 +2206,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -2946,7 +2946,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -3635,7 +3635,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -4251,7 +4251,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -4822,7 +4822,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -5349,7 +5349,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -5834,7 +5834,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -6278,7 +6278,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -6692,7 +6692,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -7069,7 +7069,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -7398,7 +7398,7 @@ Buzzword
 Five named workflows, weekly cadence
 15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.
@@ -7677,11 +7677,11 @@ SA FILM ACADEMY · 360° MARKETING STRATEGY · 2026–2027`,
 export const SECTION_CURRICULUM: StrategySection = {
   id: 'curriculum',
   num: '15',
-  title: "The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.",
+  title: "Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.",
   subtitle: "A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.",
   content: `15 ·
 Agentic AI in the Training Curriculum
-The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026.
+Training Film and TV Crews for the AI-Enabled Production Cycle of 2026.
 A masterclass module on generative AI tools — Veo, Kling, Hailuo, and equivalent platforms — positioned simultaneously as a marketing differentiator, a curriculum differentiator, and a commercial differentiator.
 The directive on this is unambiguous: AI and agentic production techniques must be urgently incorporated into SAFA's training curriculum as a masterclass module. The evidence is first-hand and immediate — a T Studios LinkedIn advertisement actively recruiting for someone who uses Veo and equivalent tools to produce short films that are one hundred per cent AI-generated, and post-production WhatsApp groups openly discussing that the shift is no longer theoretical. The phrasing captures it precisely:
 it is happening as the industry speaks of it.

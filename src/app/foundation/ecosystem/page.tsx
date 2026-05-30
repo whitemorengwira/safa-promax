@@ -21,8 +21,8 @@ export default function Page() {
         eyebrow="03 · The Brand Ecosystem"
         title="Five entities, one architecture."
         subtitle="A branded house, unified under SAFA."
-        imageSrc="/images/ai/v3/foundation/ecosystem-hero.webp"
-        imageAlt="Professional Black South African film crew gathered around a cinematic movie set"
+        imageSrc="/images/ai/v4/foundation/ecosystem-production-hub-hero.webp"
+        imageAlt="Connected film training ecosystem across production, logistics, sustainability and digital placement"
       />
 
       <FilmstripDivider />
@@ -147,9 +147,9 @@ export default function Page() {
           {/* ACE */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/ace-pillar.webp"
-              alt="ACE Director"
-              brief="A young Black South African male director behind a cinematic camera, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v4/foundation/ace-woman-director.webp"
+              alt="ACE woman director leading trainees on a film set"
+              brief="A Black South African woman director leading male and female trainees around a director monitor on a professional film set."
               orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">ACE</h3>
@@ -159,9 +159,9 @@ export default function Page() {
           {/* FILMGRO */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/filmgro-pillar.webp"
-              alt="FILMGRO Trainee"
-              brief="A young Black South African trainee in a professional production vehicle, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
+              src="/images/ai/v4/foundation/filmgro-logistics-training.webp"
+              alt="FILMGRO production logistics training beside an unbranded vehicle"
+              brief="A Black South African male trainee learning production logistics from a woman supervisor beside an unbranded production vehicle."
               orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">FILMGRO</h3>
@@ -171,9 +171,9 @@ export default function Page() {
           {/* GreenSet */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/greenset-pillar.webp"
-              alt="GreenSet Eco"
-              brief="A sustainable film set with eco-friendly equipment, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
+              src="/images/ai/v4/foundation/greenset-sustainable-set.webp"
+              alt="GreenSet sustainable production team on a working film set"
+              brief="A balanced Black South African sustainable production team coordinating eco-friendly equipment on a working film set."
               orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">GreenSet</h3>
@@ -183,9 +183,9 @@ export default function Page() {
           {/* SA Film Interns */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/interns-pillar.webp"
-              alt="SA Film Interns digital talent portal"
-              brief="A high-end laptop screen showing a clean digital portal, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
+              src="/images/ai/v4/foundation/interns-placement-desk.webp"
+              alt="SA Film Interns placement desk with trainees and coordinator"
+              brief="Black South African trainees and a placement coordinator reviewing a digital talent portal beside a studio floor."
               orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">SA Film Interns</h3>
@@ -195,9 +195,9 @@ export default function Page() {
           {/* Digital Enablement */}
           <div className="space-y-4">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/digital-pillar.webp"
-              alt="Digital enablement infrastructure"
-              brief="An abstract wireframe or digital network on a dark surface, cinematic lighting, warm gold and deep red tones, photorealistic, textless."
+              src="/images/ai/v4/foundation/digital-enablement-ops.webp"
+              alt="Digital enablement operations desk beside a soundstage"
+              brief="Black South African production and data team checking clean digital workflows beside a working soundstage."
               orientation="landscape"
             />
             <h3 className="text-gold font-display italic text-xl">Digital Enablement</h3>

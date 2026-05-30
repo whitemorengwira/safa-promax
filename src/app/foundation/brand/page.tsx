@@ -21,8 +21,8 @@ export default function Page() {
         eyebrow="8 · Foundation Pillar"
         title="Brand Architecture & Identity"
         subtitle="Five connected subsidiaries will read as one coherent brand family."
-        imageSrc="/images/ai/v3/foundation/brand-hero.webp"
-        imageAlt="Dark reddish-cinematic film production environment"
+        imageSrc="/images/ai/v4/foundation/brand-crew-hero.webp"
+        imageAlt="Film crew reviewing a director monitor on a professional studio floor"
       />
 
       <FilmstripDivider />
@@ -47,9 +47,9 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/v3/foundation/brand-hero.webp"
+                      src="/images/ai/v4/foundation/brand-crew-system.webp"
                       alt="Brand identity and visual system"
-                      brief="Brand identity and visual system"
+                      brief="Film crew reviewing a coherent production visual system"
                       orientation="landscape"
                     />
                   </div>
@@ -59,9 +59,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/brand-hero.webp"
-              alt="Brand architecture review"
-              brief="A professional Black South African designer reviewing a brand architecture or visual identity system on a high-end monitor in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v4/foundation/brand-crew-hero.webp"
+              alt="Brand architecture expressed through a working film crew"
+              brief="A professional Black South African film crew reviewing a shot around a director monitor in a cinematic studio setting."
               orientation="landscape"
             />
           }
@@ -135,9 +135,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/foundation-brand/style-guide-desk.webp"
-              alt="Brand style guide and visual system"
-              brief="A professional designer's desk with brand style guides, colour swatches, and typography samples organised systematically"
+              src="/images/ai/v4/foundation/brand-crew-system.webp"
+              alt="Crew wardrobe and production visual system"
+              brief="A professional film crew reviewing wardrobe, production references and monitor output as a coherent visual system"
               orientation="landscape"
             />
           }

@@ -22,7 +22,7 @@ const SUB_PAGES = [
     title: 'Brand Ecosystem',
     href: '/foundation/ecosystem',
     description: 'Five distinct entities unified under a single strategic architecture.',
-    image: '/images/ai/v3/foundation/ecosystem-hero.webp'
+    image: '/images/ai/v4/foundation/ecosystem-production-hub-hero.webp'
   },
   {
     title: 'Digital Infrastructure',
@@ -34,7 +34,7 @@ const SUB_PAGES = [
     title: 'Brand Architecture',
     href: '/foundation/brand',
     description: 'Visual identity and brand family consolidation strategy.',
-    image: '/images/ai/v3/foundation/brand-hero.webp'
+    image: '/images/ai/v4/foundation/brand-crew-hero.webp'
   }
 ];
 

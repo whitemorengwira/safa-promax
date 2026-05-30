@@ -160,9 +160,9 @@ export default async function HomePage() {
           </div>
           <div className="relative">
             <ImagePlaceholder
-              src="/images/ai/v3/foundation/ecosystem-hero.webp"
+              src="/images/ai/v4/foundation/ecosystem-production-hub-hero.webp"
               alt="SA Film Academy Ecosystem"
-              brief="Macro close-up of a professional film clapperboard with gold light reflections"
+              brief="Connected film training ecosystem across production, logistics, sustainability and digital placement"
               orientation="landscape"
               className="rounded-sm overflow-hidden shadow-2xl"
             />
@@ -227,9 +227,9 @@ export default async function HomePage() {
             <Link href="/delivery/implementation" className="group space-y-4">
               <div className="aspect-[4/5] overflow-hidden relative">
                 <ImagePlaceholder
-                  src="/images/ai/v3/delivery/delivery-hero.webp"
+                  src="/images/ai/v4/delivery/implementation-launch-hero.webp"
                   alt="Delivery"
-                  brief="Film crew launching into action"
+                  brief="Film and TV crew beginning a coordinated implementation launch briefing"
                   orientation="landscape"
                   className="group-hover:scale-105 transition-transform duration-700"
                 />

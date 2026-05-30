@@ -622,7 +622,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -630,9 +630,7 @@
       "height": 1440,
       "size": 105064,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/brand"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -2686,7 +2684,6 @@
         "/",
         "/growth",
         "/growth/agentic-ai",
-        "/visibility/seo",
         "content/cms/agentic-ai.json",
         "data/cms/content-store.json"
       ],
@@ -4569,7 +4566,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4577,9 +4574,7 @@
       "height": 1440,
       "size": 119626,
       "extension": "webp",
-      "usedOn": [
-        "/delivery/budget"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4590,7 +4585,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4598,11 +4593,7 @@
       "height": 1440,
       "size": 115546,
       "extension": "webp",
-      "usedOn": [
-        "/delivery",
-        "/delivery/budget",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4636,7 +4627,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4644,11 +4635,7 @@
       "height": 1440,
       "size": 92088,
       "extension": "webp",
-      "usedOn": [
-        "/delivery",
-        "/delivery/curriculum",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4668,7 +4655,6 @@
       "size": 106028,
       "extension": "webp",
       "usedOn": [
-        "/",
         "/delivery",
         "content/cms/delivery.json",
         "data/cms/content-store.json"
@@ -4683,7 +4669,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4691,12 +4677,7 @@
       "height": 1440,
       "size": 71684,
       "extension": "webp",
-      "usedOn": [
-        "/delivery",
-        "/delivery/implementation",
-        "content/cms/implementation.json",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4707,7 +4688,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4715,11 +4696,7 @@
       "height": 1440,
       "size": 94888,
       "extension": "webp",
-      "usedOn": [
-        "/delivery",
-        "/delivery/kpis",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4730,7 +4707,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4738,10 +4715,7 @@
       "height": 1440,
       "size": 261086,
       "extension": "webp",
-      "usedOn": [
-        "/delivery/risk",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4773,7 +4747,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4781,9 +4755,7 @@
       "height": 1440,
       "size": 103688,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/ecosystem"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4794,7 +4766,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4802,11 +4774,7 @@
       "height": 1440,
       "size": 196570,
       "extension": "webp",
-      "usedOn": [
-        "/foundation",
-        "/foundation/brand",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4817,7 +4785,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4825,9 +4793,7 @@
       "height": 1440,
       "size": 221832,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/ecosystem"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4838,7 +4804,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4846,13 +4812,7 @@
       "height": 1440,
       "size": 207548,
       "extension": "webp",
-      "usedOn": [
-        "/",
-        "/foundation",
-        "/foundation/ecosystem",
-        "content/cms/ecosystem.json",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4863,7 +4823,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4871,9 +4831,7 @@
       "height": 1440,
       "size": 82950,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/ecosystem"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4884,7 +4842,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4892,9 +4850,7 @@
       "height": 1440,
       "size": 286224,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/ecosystem"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -4928,7 +4884,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -4936,9 +4892,7 @@
       "height": 1440,
       "size": 118342,
       "extension": "webp",
-      "usedOn": [
-        "/foundation/ecosystem"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5084,7 +5038,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5092,9 +5046,7 @@
       "height": 1440,
       "size": 119348,
       "extension": "webp",
-      "usedOn": [
-        "/growth/positioning"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5124,7 +5076,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5132,11 +5084,7 @@
       "height": 1440,
       "size": 116060,
       "extension": "webp",
-      "usedOn": [
-        "/visibility",
-        "/visibility/content",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5179,6 +5127,468 @@
       "size": 133074,
       "extension": "webp",
       "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-budget-approval-gate-webp",
+      "url": "/images/ai/v4/delivery/budget-approval-gate.webp",
+      "title": "Budget Approval Gate",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 164882,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery/budget"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-budget-operating-envelope-hero-webp",
+      "url": "/images/ai/v4/delivery/budget-operating-envelope-hero.webp",
+      "title": "Budget Operating Envelope Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 153178,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/budget",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-curriculum-ai-training-hero-webp",
+      "url": "/images/ai/v4/delivery/curriculum-ai-training-hero.webp",
+      "title": "Curriculum Ai Training Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 169470,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/curriculum",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-implementation-launch-hero-webp",
+      "url": "/images/ai/v4/delivery/implementation-launch-hero.webp",
+      "title": "Implementation Launch Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 211340,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/delivery",
+        "/delivery/implementation",
+        "content/cms/implementation.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-kpi-command-hero-webp",
+      "url": "/images/ai/v4/delivery/kpi-command-hero.webp",
+      "title": "Kpi Command Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 221024,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery",
+        "/delivery/kpis",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-delivery-risk-governance-hero-webp",
+      "url": "/images/ai/v4/delivery/risk-governance-hero.webp",
+      "title": "Risk Governance Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 201322,
+      "extension": "webp",
+      "usedOn": [
+        "/delivery/risk",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-ace-woman-director-webp",
+      "url": "/images/ai/v4/foundation/ace-woman-director.webp",
+      "title": "Ace Woman Director",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 168996,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-brand-crew-hero-webp",
+      "url": "/images/ai/v4/foundation/brand-crew-hero.webp",
+      "title": "Brand Crew Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 264794,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation",
+        "/foundation/brand",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-brand-crew-system-webp",
+      "url": "/images/ai/v4/foundation/brand-crew-system.webp",
+      "title": "Brand Crew System",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 223442,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/brand"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-digital-enablement-ops-webp",
+      "url": "/images/ai/v4/foundation/digital-enablement-ops.webp",
+      "title": "Digital Enablement Ops",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 249056,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-ecosystem-production-hub-hero-webp",
+      "url": "/images/ai/v4/foundation/ecosystem-production-hub-hero.webp",
+      "title": "Ecosystem Production Hub Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 323862,
+      "extension": "webp",
+      "usedOn": [
+        "/",
+        "/foundation",
+        "/foundation/ecosystem",
+        "content/cms/ecosystem.json",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-filmgro-logistics-training-webp",
+      "url": "/images/ai/v4/foundation/filmgro-logistics-training.webp",
+      "title": "Filmgro Logistics Training",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 288010,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-greenset-sustainable-set-webp",
+      "url": "/images/ai/v4/foundation/greenset-sustainable-set.webp",
+      "title": "Greenset Sustainable Set",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 241096,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-foundation-interns-placement-desk-webp",
+      "url": "/images/ai/v4/foundation/interns-placement-desk.webp",
+      "title": "Interns Placement Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 192704,
+      "extension": "webp",
+      "usedOn": [
+        "/foundation/ecosystem"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-growth-positioning-evidence-desk-webp",
+      "url": "/images/ai/v4/growth/positioning-evidence-desk.webp",
+      "title": "Positioning Evidence Desk",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 223132,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/positioning"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-growth-positioning-proof-room-webp",
+      "url": "/images/ai/v4/growth/positioning-proof-room.webp",
+      "title": "Positioning Proof Room",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 259264,
+      "extension": "webp",
+      "usedOn": [
+        "/growth/positioning"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-visibility-content-documentary-podcast-webp",
+      "url": "/images/ai/v4/visibility/content-documentary-podcast.webp",
+      "title": "Content Documentary Podcast",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 223974,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/content"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-visibility-content-editorial-calendar-webp",
+      "url": "/images/ai/v4/visibility/content-editorial-calendar.webp",
+      "title": "Content Editorial Calendar",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 216828,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/content"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-visibility-content-editorial-engine-hero-webp",
+      "url": "/images/ai/v4/visibility/content-editorial-engine-hero.webp",
+      "title": "Content Editorial Engine Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 210518,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "/visibility/content",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-visibility-seo-clean-dashboard-hero-webp",
+      "url": "/images/ai/v4/visibility/seo-clean-dashboard-hero.webp",
+      "title": "Seo Clean Dashboard Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 180322,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "/visibility/seo",
+        "data/cms/content-store.json"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v4-visibility-seo-clean-operations-webp",
+      "url": "/images/ai/v4/visibility/seo-clean-operations.webp",
+      "title": "Seo Clean Operations",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 186882,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
       "origin": "public",
       "type": "image"
     },
@@ -5431,7 +5841,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5439,9 +5849,7 @@
       "height": 1440,
       "size": 148492,
       "extension": "webp",
-      "usedOn": [
-        "/visibility/seo"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5490,7 +5898,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5498,11 +5906,7 @@
       "height": 1440,
       "size": 133074,
       "extension": "webp",
-      "usedOn": [
-        "/visibility",
-        "/visibility/seo",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -7107,9 +7511,6 @@
     "/images/ai/delivery-implementation/clapperboard-action.webp": [
       "src/lib/content/pageData.ts"
     ],
-    "/images/ai/foundation-brand/style-guide-desk.webp": [
-      "/foundation/brand"
-    ],
     "/images/ai/foundation-ecosystem/stakeholder-roundtable.webp": [
       "/access/signup",
       "/download-prospectus",
@@ -7193,7 +7594,6 @@
       "/",
       "/growth",
       "/growth/agentic-ai",
-      "/visibility/seo",
       "content/cms/agentic-ai.json",
       "data/cms/content-store.json"
     ],
@@ -7289,79 +7689,23 @@
       "content/cms/visibility.json",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v3/delivery/budget-approval-gate.webp": [
-      "/delivery/budget"
-    ],
-    "/images/ai/v3/delivery/budget-hero.webp": [
-      "/delivery",
-      "/delivery/budget",
-      "data/cms/content-store.json"
-    ],
     "/images/ai/v3/delivery/community-hero.webp": [
       "/delivery",
       "/delivery/community",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v3/delivery/curriculum-hero.webp": [
-      "/delivery",
-      "/delivery/curriculum",
-      "data/cms/content-store.json"
-    ],
     "/images/ai/v3/delivery/delivery-hero.webp": [
-      "/",
       "/delivery",
       "content/cms/delivery.json",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/delivery/implementation-hero.webp": [
-      "/delivery",
-      "/delivery/implementation",
-      "content/cms/implementation.json",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/delivery/kpi-hero.webp": [
-      "/delivery",
-      "/delivery/kpis",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/delivery/risk-hero.webp": [
-      "/delivery/risk",
       "data/cms/content-store.json"
     ],
     "/images/ai/v3/delivery/strategic-resilience.webp": [
       "/delivery/risk"
     ],
-    "/images/ai/v3/foundation/ace-pillar.webp": [
-      "/foundation/ecosystem"
-    ],
-    "/images/ai/v3/foundation/brand-hero.webp": [
-      "/foundation",
-      "/foundation/brand",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/foundation/digital-pillar.webp": [
-      "/foundation/ecosystem"
-    ],
-    "/images/ai/v3/foundation/ecosystem-hero.webp": [
-      "/",
-      "/foundation",
-      "/foundation/ecosystem",
-      "content/cms/ecosystem.json",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/foundation/filmgro-pillar.webp": [
-      "/foundation/ecosystem"
-    ],
-    "/images/ai/v3/foundation/greenset-pillar.webp": [
-      "/foundation/ecosystem"
-    ],
     "/images/ai/v3/foundation/infrastructure-hero.webp": [
       "/foundation",
       "/foundation/infrastructure",
       "data/cms/content-store.json"
-    ],
-    "/images/ai/v3/foundation/interns-pillar.webp": [
-      "/foundation/ecosystem"
     ],
     "/images/ai/v3/foundation/organisation-hero.webp": [
       "/",
@@ -7389,18 +7733,94 @@
       "/growth/positioning",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v3/growth/positioning-proof.webp": [
-      "/growth/positioning"
-    ],
-    "/images/ai/v3/visibility/content-hero.webp": [
-      "/visibility",
-      "/visibility/content",
-      "data/cms/content-store.json"
-    ],
     "/images/ai/v3/visibility/leadership-hero.webp": [
       "/visibility",
       "/visibility/leadership",
       "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/delivery/budget-approval-gate.webp": [
+      "/delivery/budget"
+    ],
+    "/images/ai/v4/delivery/budget-operating-envelope-hero.webp": [
+      "/delivery",
+      "/delivery/budget",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/delivery/curriculum-ai-training-hero.webp": [
+      "/delivery",
+      "/delivery/curriculum",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/delivery/implementation-launch-hero.webp": [
+      "/",
+      "/delivery",
+      "/delivery/implementation",
+      "content/cms/implementation.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/delivery/kpi-command-hero.webp": [
+      "/delivery",
+      "/delivery/kpis",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/delivery/risk-governance-hero.webp": [
+      "/delivery/risk",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/foundation/ace-woman-director.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v4/foundation/brand-crew-hero.webp": [
+      "/foundation",
+      "/foundation/brand",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/foundation/brand-crew-system.webp": [
+      "/foundation/brand"
+    ],
+    "/images/ai/v4/foundation/digital-enablement-ops.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v4/foundation/ecosystem-production-hub-hero.webp": [
+      "/",
+      "/foundation",
+      "/foundation/ecosystem",
+      "content/cms/ecosystem.json",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/foundation/filmgro-logistics-training.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v4/foundation/greenset-sustainable-set.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v4/foundation/interns-placement-desk.webp": [
+      "/foundation/ecosystem"
+    ],
+    "/images/ai/v4/growth/positioning-evidence-desk.webp": [
+      "/growth/positioning"
+    ],
+    "/images/ai/v4/growth/positioning-proof-room.webp": [
+      "/growth/positioning"
+    ],
+    "/images/ai/v4/visibility/content-documentary-podcast.webp": [
+      "/visibility/content"
+    ],
+    "/images/ai/v4/visibility/content-editorial-calendar.webp": [
+      "/visibility/content"
+    ],
+    "/images/ai/v4/visibility/content-editorial-engine-hero.webp": [
+      "/visibility",
+      "/visibility/content",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/visibility/seo-clean-dashboard-hero.webp": [
+      "/visibility",
+      "/visibility/seo",
+      "data/cms/content-store.json"
+    ],
+    "/images/ai/v4/visibility/seo-clean-operations.webp": [
+      "/visibility/seo"
     ],
     "/images/ai/visibility-calendar/filming-schedule-monitor.webp": [
       "/",
@@ -7420,14 +7840,6 @@
     ],
     "/images/ai/visibility-leadership/keynote-stage.webp": [
       "/visibility/leadership"
-    ],
-    "/images/ai/visibility-seo/content-strategy-desk.webp": [
-      "/visibility/seo"
-    ],
-    "/images/ai/visibility-seo/technical-audit-screen.webp": [
-      "/visibility",
-      "/visibility/seo",
-      "data/cms/content-store.json"
     ],
     "/images/logos/greenset-logo.webp": [
       "src/components/layout/Footer.tsx"

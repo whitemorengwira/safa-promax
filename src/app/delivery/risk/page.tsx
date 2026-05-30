@@ -70,8 +70,8 @@ export default function RiskPage() {
         eyebrow="18 · Delivery Pillar"
         title="Rigour through risk acknowledgement."
         subtitle="A strategy that does not acknowledge risk is a strategy that has not been stress-tested. Here are the five named risks we monitor and the contingencies we have prepared."
-        imageSrc="/images/ai/v3/delivery/risk-hero.webp"
-        imageAlt="Professional film production environment with risk management focus"
+        imageSrc="/images/ai/v4/delivery/risk-governance-hero.webp"
+        imageAlt="Film academy operations team reviewing production risk and contingency plans"
       />
 
       <FilmstripDivider />

@@ -21,8 +21,8 @@ export default function Page() {
         eyebrow="17 · Budget Framework"
         title="A Monthly Subscription, Not a Project Quote."
         subtitle="A transparent, line-itemised monthly framework that converts the marketing strategy into a single, defensible operating-expense line on the Academy's books."
-        imageSrc="/images/ai/v3/delivery/budget-hero.webp"
-        imageAlt="Dark reddish-cinematic budget framework hero"
+        imageSrc="/images/ai/v4/delivery/budget-operating-envelope-hero.webp"
+        imageAlt="Film academy finance and production leads reviewing a monthly operating envelope"
       />
 
       <FilmstripDivider />
@@ -159,7 +159,7 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/delivery/budget-approval-gate.webp"
+              src="/images/ai/v4/delivery/budget-approval-gate.webp"
               alt="Confident Black South African professional presenting a framework"
               brief="A confident Black South African professional, 27 to 30 years, in a dark boardroom presenting a clean framework on screen, warm gold and deep red cinematic lighting. Textless, no currency signs."
               orientation="landscape"

@@ -22,8 +22,8 @@ export default function Page() {
         eyebrow="12 · Visibility Pillar"
         title="Content Marketing & Storytelling"
         subtitle="A multi-format publication strategy that treats SAFA as the industry's most authoritative source."
-        imageSrc="/images/ai/v3/visibility/content-hero.webp"
-        imageAlt="Dark reddish-cinematic film production environment"
+        imageSrc="/images/ai/v4/visibility/content-editorial-engine-hero.webp"
+        imageAlt="Film academy editorial team planning publication and documentary content"
       />
 
       <FilmstripDivider />
@@ -48,9 +48,9 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/v3/visibility/content-hero.webp"
+                      src="/images/ai/v4/visibility/content-editorial-calendar.webp"
                       alt="Content marketing and storytelling"
-                      brief="Content marketing and storytelling"
+                      brief="Editorial calendar planning for film academy content"
                       orientation="landscape"
                     />
                   </div>
@@ -60,9 +60,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v3/visibility/content-hero.webp"
-              alt="Editorial team reviewing content"
-              brief="A professional Black South African editorial team reviewing a magazine layout or digital content in a cinematic setting, warm gold and deep red lighting, photorealistic, textless."
+              src="/images/ai/v4/visibility/content-documentary-podcast.webp"
+              alt="Documentary and podcast crew filming an alumni story"
+              brief="A professional Black South African documentary and podcast crew filming an alumni story in a cinematic studio setting."
               orientation="landscape"
             />
           }

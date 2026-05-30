@@ -19,10 +19,10 @@ export default function Page() {
       {/* HERO SECTION */}
       <PageHero
         eyebrow="15 · Delivery Pillar"
-        title="The Only Film Academy in South Africa Training for the Post-Production Hiring Cycle of 2026."
-        subtitle="A masterclass module on generative AI tools: Veo, Kling, Hailuo, and equivalent platforms, positioned as a curriculum differentiator."
-        imageSrc="/images/ai/v3/delivery/curriculum-hero.webp"
-        imageAlt="Professional film production environment with AI focus"
+        title="Training Film and TV Crews for the AI-Enabled Production Cycle of 2026."
+        subtitle="A practical creative-technology module in generative video, AI-assisted post-production and production workflows."
+        imageSrc="/images/ai/v4/delivery/curriculum-ai-training-hero.webp"
+        imageAlt="Film and TV trainees in an AI-enabled post-production training studio"
       />
 
       <FilmstripDivider />
@@ -42,11 +42,11 @@ export default function Page() {
               <div className="space-y-6">
                 <div className="p-8 bg-surface/40 backdrop-blur-md border border-gold/10 rounded-sm">
                   <p className="drop-cap text-text/90 leading-relaxed">
-                    The SA Film Academy is the only institution in South Africa training for the post-production hiring cycle of 2026. Our masterclass module on generative AI tools is positioned as a marketing, curriculum, and commercial differentiator.
+                    SA Film Academy is treating AI as practical production literacy, not a novelty add-on. The module trains trainees and alumni to use generative video and AI-assisted post-production tools inside real film and television workflows: briefing, prompt development, shot planning, edit review and final delivery.
                   </p>
                 </div>
                 <p className="text-text/80 leading-relaxed">
-                  By integrating tools like Veo, Kling, and Hailuo into the core craft, we ensure our graduates are not just ready for the industry today, but are leading it tomorrow.
+                  The 2026 hiring cycle will reward crew who understand both craft and current production technology. SAFA's advantage is to teach AI in context, with film and television standards at the centre.
                 </p>
               </div>
             </Reveal>
