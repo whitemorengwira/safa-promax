@@ -22,7 +22,7 @@ const SUB_PAGES = [
     title: 'SEO & AI SEO',
     href: '/visibility/seo',
     description: 'Optimising for the search engines of today and the AI engines of tomorrow.',
-    image: '/images/ai/v4/visibility/seo-clean-dashboard-hero.webp'
+    image: '/images/ai/v5/visibility/seo-visibility-card.webp'
   },
   {
     title: 'Institutional Voice',

@@ -5555,7 +5555,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5563,11 +5563,7 @@
       "height": 1440,
       "size": 180322,
       "extension": "webp",
-      "usedOn": [
-        "/visibility",
-        "/visibility/seo",
-        "data/cms/content-store.json"
-      ],
+      "usedOn": [],
       "origin": "public",
       "type": "image"
     },
@@ -5578,7 +5574,7 @@
       "source": "SAFA public image library",
       "tags": [
         "public",
-        "used",
+        "unused",
         "generated"
       ],
       "locked": true,
@@ -5586,8 +5582,133 @@
       "height": 1440,
       "size": 186882,
       "extension": "webp",
+      "usedOn": [],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-ai-answer-citation-screen-webp",
+      "url": "/images/ai/v5/visibility/seo-ai-answer-citation-screen.webp",
+      "title": "Seo Ai Answer Citation Screen",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 195018,
+      "extension": "webp",
       "usedOn": [
         "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-answer-engine-hero-webp",
+      "url": "/images/ai/v5/visibility/seo-answer-engine-hero.webp",
+      "title": "Seo Answer Engine Hero",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 153252,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-schema-authority-map-webp",
+      "url": "/images/ai/v5/visibility/seo-schema-authority-map.webp",
+      "title": "Seo Schema Authority Map",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 181046,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-search-intent-workstation-webp",
+      "url": "/images/ai/v5/visibility/seo-search-intent-workstation.webp",
+      "title": "Seo Search Intent Workstation",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 171970,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-technical-audit-dashboard-webp",
+      "url": "/images/ai/v5/visibility/seo-technical-audit-dashboard.webp",
+      "title": "Seo Technical Audit Dashboard",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 166044,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility/seo"
+      ],
+      "origin": "public",
+      "type": "image"
+    },
+    {
+      "id": "public-images-ai-v5-visibility-seo-visibility-card-webp",
+      "url": "/images/ai/v5/visibility/seo-visibility-card.webp",
+      "title": "Seo Visibility Card",
+      "source": "SAFA public image library",
+      "tags": [
+        "public",
+        "used",
+        "generated"
+      ],
+      "locked": true,
+      "width": 2560,
+      "height": 1440,
+      "size": 185162,
+      "extension": "webp",
+      "usedOn": [
+        "/visibility",
+        "data/cms/content-store.json"
       ],
       "origin": "public",
       "type": "image"
@@ -7814,13 +7935,24 @@
       "/visibility/content",
       "data/cms/content-store.json"
     ],
-    "/images/ai/v4/visibility/seo-clean-dashboard-hero.webp": [
-      "/visibility",
-      "/visibility/seo",
-      "data/cms/content-store.json"
-    ],
-    "/images/ai/v4/visibility/seo-clean-operations.webp": [
+    "/images/ai/v5/visibility/seo-ai-answer-citation-screen.webp": [
       "/visibility/seo"
+    ],
+    "/images/ai/v5/visibility/seo-answer-engine-hero.webp": [
+      "/visibility/seo"
+    ],
+    "/images/ai/v5/visibility/seo-schema-authority-map.webp": [
+      "/visibility/seo"
+    ],
+    "/images/ai/v5/visibility/seo-search-intent-workstation.webp": [
+      "/visibility/seo"
+    ],
+    "/images/ai/v5/visibility/seo-technical-audit-dashboard.webp": [
+      "/visibility/seo"
+    ],
+    "/images/ai/v5/visibility/seo-visibility-card.webp": [
+      "/visibility",
+      "data/cms/content-store.json"
     ],
     "/images/ai/visibility-calendar/filming-schedule-monitor.webp": [
       "/",

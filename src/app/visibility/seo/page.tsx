@@ -21,8 +21,8 @@ export default function Page() {
         eyebrow="7 · Visibility Pillar"
         title="Found by search engines today. Found by AI engines tomorrow. Both, deliberately."
         subtitle="Traditional SEO and Generative Engine Optimisation (AI SEO) are no longer alternatives. They are two halves of the same discovery surface."
-        imageSrc="/images/ai/v4/visibility/seo-clean-dashboard-hero.webp"
-        imageAlt="Film and TV search strategy team reviewing clean AI search dashboards"
+        imageSrc="/images/ai/v5/visibility/seo-answer-engine-hero.webp"
+        imageAlt="Film and TV strategy team reviewing an AI search visibility command wall"
       />
 
       <FilmstripDivider />
@@ -56,9 +56,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v4/visibility/seo-clean-operations.webp"
-              alt="Traditional SEO analytics dashboard"
-              brief="Clean film and TV search operations desk with rectangular dashboard cards and no network graphics."
+              src="/images/ai/v5/visibility/seo-technical-audit-dashboard.webp"
+              alt="Traditional SEO technical audit dashboard"
+              brief="Real technical SEO audit monitor with practical KPI cards, tables, charts and status panels."
               orientation="landscape"
             />
           }
@@ -76,9 +76,9 @@ export default function Page() {
                 <Reveal>
                   <div className="mt-10">
                     <ImagePlaceholder
-                      src="/images/ai/v4/visibility/seo-clean-dashboard-hero.webp"
-                      alt="SEO technical audit dashboard"
-                      brief="Clean AI search and SEO dashboard with rectangular cards, simple bars and no vein-like network graphics."
+                      src="/images/ai/v5/visibility/seo-schema-authority-map.webp"
+                      alt="SEO schema and authority dashboard"
+                      brief="Real schema and authority management dashboard with validation tables, citation cards and coverage metrics."
                       orientation="landscape"
                     />
                   </div>
@@ -88,9 +88,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v4/visibility/seo-clean-operations.webp"
-              alt="Technical SEO Audit"
-              brief="A clean technical audit desk with simple cards, thumbnail grids and bar charts only"
+              src="/images/ai/v5/visibility/seo-search-intent-workstation.webp"
+              alt="Search intent workstation"
+              brief="Professional search operations workstation with practical keyword, ranking and content opportunity dashboards."
               orientation="landscape"
             />
           }
@@ -122,9 +122,9 @@ export default function Page() {
           }
           right={
             <ImagePlaceholder
-              src="/images/ai/v4/visibility/seo-clean-dashboard-hero.webp"
-              alt="AI SEO operations dashboard"
-              brief="Film and TV AI-search readiness team reviewing clean search intelligence screens with no branching graphics."
+              src="/images/ai/v5/visibility/seo-ai-answer-citation-screen.webp"
+              alt="AI answer engine citation screen"
+              brief="Real AI answer and citation tracking dashboard on a physical monitor."
               orientation="landscape"
             />
           }
