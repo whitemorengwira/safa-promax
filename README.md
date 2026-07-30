@@ -41,7 +41,7 @@ The implementation repository remains private. This repository is a curated port
 
 [Open the public SAFA ProMax presentation](https://safa-promaxv2.vercel.app/)
 
-The screenshot below is a privacy-safe capture of the public presentation surface:
+The visual below is a generated recruiter-facing representation of the public presentation surface:
 
 ![Privacy-safe screenshot of the public SAFA ProMax presentation](docs/assets/safa-promax-live.png)
 
