@@ -39,7 +39,7 @@ The implementation repository remains private. This repository is a curated port
 
 ## Live platform
 
-[Open the public SAFA ProMax presentation](https://safa-promaxv2.vercel.app/)
+[Open the public SAFA ProMax presentation](https://safa-promax.vercel.app/)
 
 The visual below is a generated recruiter-facing representation of the public presentation surface:
 
